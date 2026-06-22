@@ -54,12 +54,6 @@ jobs:
 
         echo "All patches verified!"
 
-    - name: Build Driver (SbieDrv.sys)
-      shell: cmd
-      run: |
-        cd Sandboxie-Plus\Sandboxie
-        msbuild SandboxDrv.sln /p:Configuration=Release /p:Platform=x64 /m
-
     - name: Build Service (SbieSvc.exe)
       shell: cmd
       run: |
@@ -78,9 +72,6 @@ jobs:
       run: |
         mkdir -p artifacts
 
-        # Find and copy driver
-        find Sandboxie-Plus -name "SbieDrv.sys" -type f -exec cp {} artifacts/ \; || echo "Driver not found"
-
         # Find and copy service
         find Sandboxie-Plus -name "SbieSvc.exe" -type f -exec cp {} artifacts/ \; || echo "Service not found"
 
@@ -92,6 +83,13 @@ jobs:
         cp "$Qt6_DIR/bin/Qt6Core.dll" artifacts/Qt/ || true
         cp "$Qt6_DIR/bin/Qt6Gui.dll" artifacts/Qt/ || true
         cp "$Qt6_DIR/bin/Qt6Widgets.dll" artifacts/Qt/ || true
+        cp "$Qt6_DIR/bin/Qt6Network.dll" artifacts/Qt/ || true
+
+        # Copy patched source files for manual driver compilation
+        mkdir -p artifacts/patched_sources
+        cp Sandboxie-Plus/Sandboxie/core/drv/verify.c artifacts/patched_sources/ || true
+        cp Sandboxie-Plus/Sandboxie/core/drv/process.c artifacts/patched_sources/ || true
+        cp Sandboxie-Plus/SandboxiePlus/SandMan/SandMan.cpp artifacts/patched_sources/ || true
 
         ls -lh artifacts/
 
@@ -102,7 +100,7 @@ jobs:
         path: artifacts/
         retention-days: 30
 
-    - name: Create release info
+    - name: Create installation guide
       shell: bash
       run: |
         cat > artifacts/README.txt << 'EOF'
@@ -110,31 +108,110 @@ jobs:
         ====================================
 
         Build Date: $(date)
+        Platform: Windows x64
 
-        Files:
-        - SbieDrv.sys   - Kernel driver (certificate bypass)
-        - SbieSvc.exe   - Background service
-        - SandMan.exe   - GUI application
-        - Qt/*.dll      - Required Qt libraries
+        ⚠️  IMPORTANT: Driver Not Included
+        ====================================
+
+        GitHub Actions cannot compile Windows kernel drivers (requires WDK).
+        This archive contains:
+
+        ✅ SbieSvc.exe   - Background service (patched)
+        ✅ SandMan.exe   - GUI application (patched)
+        ✅ Qt/*.dll      - Required Qt libraries
+        ✅ patched_sources/ - Patched source files
+
+        ❌ SbieDrv.sys   - NOT included (requires local compilation with WDK)
+
+        How to Get the Driver:
+        =====================
+
+        Option 1: Build Driver Locally (Recommended)
+        --------------------------------------------
+        1. Install Visual Studio 2022
+        2. Install Windows Driver Kit (WDK)
+        3. Open Sandboxie-Plus/Sandboxie/SandboxDrv.sln
+        4. Build Release x64
+        5. Output: Sandboxie-Plus/Sandboxie/core/drv/x64/Release/SbieDrv.sys
+
+        Option 2: Use Pre-built Driver
+        -------------------------------
+        Download official Sandboxie-Plus installer and extract SbieDrv.sys
+        (The patched service and GUI work with the official driver, but premium
+        features will be limited without the patched driver)
 
         Installation:
-        1. Stop Sandboxie service: net stop SbieSvc
-        2. Backup original files
-        3. Replace files in C:\Program Files\Sandboxie-Plus\
-        4. Enable test signing: bcdedit /set testsigning on
-        5. Reboot computer
-        6. Start service: net start SbieSvc
+        =============
 
-        WARNING:
-        - This is for CTF/educational purposes only
-        - Requires test signing mode enabled
-        - All premium features are unlocked
+        1. Stop Sandboxie service:
+           net stop SbieSvc
 
-        Support original developers:
-        https://sandboxie-plus.com/
+        2. Backup original files in: C:\Program Files\Sandboxie-Plus\
+           - SbieDrv.sys (if replacing)
+           - SbieSvc.exe
+           - SandMan.exe
+
+        3. Replace files with patched versions
+
+        4. If using patched driver, enable test signing:
+           bcdedit /set testsigning on
+           (Reboot required)
+
+        5. Start service:
+           net start SbieSvc
+
+        6. Launch GUI:
+           C:\Program Files\Sandboxie-Plus\SandMan.exe
+
+        Verify Installation:
+        ====================
+
+        In SandMan GUI:
+        1. Go to Help → About
+        2. Check certificate status
+        3. Should show: MAXLEVEL with all features enabled
+
+        Unlocked Features:
+        ==================
+
+        ✅ Security Enhanced (opt_sec)
+           • UseSecurityMode, SysCallLockDown
+           • RestrictDevices, UsePrivacyMode
+
+        ✅ Encrypted Sandbox (opt_enc)
+           • ConfidentialBox, UseFileImage, EnableEFS
+
+        ✅ Advanced Network (opt_net)
+           • NetworkDnsFilter, NetworkUseProxy
+
+        ✅ Desktop Isolation (opt_desk)
+           • UseSandboxDesktop
+
+        Notes:
+        ======
+
+        - For CTF/educational purposes only
+        - All source code patches are in patched_sources/ folder
+        - Full compilation guide: WINDOWS_BUILD_GUIDE.md in repository
+        - Support original developers: https://sandboxie-plus.com/
+
+        Troubleshooting:
+        ================
+
+        Service won't start:
+        - Check if driver is signed or test signing is enabled
+        - Disable Secure Boot in BIOS
+
+        Missing DLLs:
+        - Copy Qt/*.dll to C:\Program Files\Sandboxie-Plus\
+
+        Premium features not working:
+        - Requires PATCHED driver (SbieDrv.sys)
+        - Official driver has limited functionality
+
         EOF
 
-    - name: Upload release info
+    - name: Upload installation guide
       uses: actions/upload-artifact@v4
       with:
         name: Installation-Guide
