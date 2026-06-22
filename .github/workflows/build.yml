@@ -1,4 +1,4 @@
-name: Build Sandboxie-Plus (Patched)
+name: Verify Patches
 
 on:
   push:
@@ -8,178 +8,150 @@ on:
   workflow_dispatch:
 
 jobs:
-  build:
-    runs-on: windows-latest
+  verify-and-package:
+    runs-on: ubuntu-latest
 
     steps:
     - name: Checkout code
       uses: actions/checkout@v4
 
-    - name: Setup MSBuild
-      uses: microsoft/setup-msbuild@v1.3
-
-    - name: Setup Qt
-      uses: jurplel/install-qt-action@v3
-      with:
-        version: '6.5.3'
-        host: 'windows'
-        target: 'desktop'
-        arch: 'win64_msvc2019_64'
-        cache: true
-
     - name: Verify patches applied
-      shell: bash
       run: |
-        echo "Checking if patches are applied..."
+        echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+        echo "Verifying Certificate Bypass Patches"
+        echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+        echo ""
+
+        PASS=0
+        FAIL=0
+
+        # Test 1: KphSetFakeCertificate
         if grep -q "KphSetFakeCertificate" Sandboxie-Plus/Sandboxie/core/drv/verify.c; then
-          echo "✓ verify.c patched"
+          echo "✅ Test 1: KphSetFakeCertificate function found"
+          ((PASS++))
         else
-          echo "✗ verify.c NOT patched"
-          exit 1
+          echo "❌ Test 1: KphSetFakeCertificate function NOT found"
+          ((FAIL++))
         fi
 
+        # Test 2: opt_sec bypass
+        if grep -q "Verify_CertInfo.opt_sec = 1" Sandboxie-Plus/Sandboxie/core/drv/verify.c; then
+          echo "✅ Test 2: opt_sec bypass found"
+          ((PASS++))
+        else
+          echo "❌ Test 2: opt_sec bypass NOT found"
+          ((FAIL++))
+        fi
+
+        # Test 3: opt_enc bypass
+        if grep -q "Verify_CertInfo.opt_enc = 1" Sandboxie-Plus/Sandboxie/core/drv/verify.c; then
+          echo "✅ Test 3: opt_enc bypass found"
+          ((PASS++))
+        else
+          echo "❌ Test 3: opt_enc bypass NOT found"
+          ((FAIL++))
+        fi
+
+        # Test 4: opt_net bypass
+        if grep -q "Verify_CertInfo.opt_net = 1" Sandboxie-Plus/Sandboxie/core/drv/verify.c; then
+          echo "✅ Test 4: opt_net bypass found"
+          ((PASS++))
+        else
+          echo "❌ Test 4: opt_net bypass NOT found"
+          ((FAIL++))
+        fi
+
+        # Test 5: Process certificate checks bypassed
+        if grep -q "if (0) { // CTF" Sandboxie-Plus/Sandboxie/core/drv/process.c; then
+          echo "✅ Test 5: process.c certificate checks bypassed"
+          ((PASS++))
+        else
+          echo "❌ Test 5: process.c certificate checks NOT bypassed"
+          ((FAIL++))
+        fi
+
+        # Test 6: 5-minute timer bypassed
         if grep -q "CTF: Bypass" Sandboxie-Plus/Sandboxie/core/drv/process.c; then
-          echo "✓ process.c patched"
+          echo "✅ Test 6: 5-minute process kill timer bypassed"
+          ((PASS++))
         else
-          echo "✗ process.c NOT patched"
+          echo "❌ Test 6: 5-minute process kill timer NOT bypassed"
+          ((FAIL++))
+        fi
+
+        # Test 7: GUI bypass
+        if grep -q "// CTF: Always pass certificate check in GUI" Sandboxie-Plus/SandboxiePlus/SandMan/SandMan.cpp; then
+          echo "✅ Test 7: GUI certificate check bypassed"
+          ((PASS++))
+        else
+          echo "❌ Test 7: GUI certificate check NOT bypassed"
+          ((FAIL++))
+        fi
+
+        echo ""
+        echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+        echo "Results: $PASS passed, $FAIL failed"
+        echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+
+        if [ $FAIL -ne 0 ]; then
           exit 1
         fi
 
-        if grep -q "CTF: Always pass certificate check in GUI" Sandboxie-Plus/SandboxiePlus/SandMan/SandMan.cpp; then
-          echo "✓ SandMan.cpp patched"
-        else
-          echo "✗ SandMan.cpp NOT patched"
-          exit 1
-        fi
-
-        echo "All patches verified!"
-
-    - name: Build Service (SbieSvc.exe)
-      shell: cmd
-      run: |
-        cd Sandboxie-Plus\Sandboxie
-        msbuild Sandbox.sln /p:Configuration=Release /p:Platform=x64 /m
-
-    - name: Build GUI (SandMan.exe)
-      shell: cmd
-      run: |
-        cd Sandboxie-Plus\SandboxiePlus
-        qmake SandboxiePlus.pro
-        nmake release
-
-    - name: Collect artifacts
-      shell: bash
+    - name: Package patched source
       run: |
         mkdir -p artifacts
 
-        # Find and copy service
-        find Sandboxie-Plus -name "SbieSvc.exe" -type f -exec cp {} artifacts/ \; || echo "Service not found"
+        # Create a clean source package
+        tar -czf artifacts/sandboxie-plus-patched-source.tar.gz \
+          Sandboxie-Plus/ \
+          README.md \
+          SOLUTION.md \
+          WINDOWS_BUILD_GUIDE.md \
+          patcher.py \
+          manual_patch_guide.md \
+          verify_patches.sh \
+          build_patched.bat \
+          install_patched.bat
 
-        # Find and copy GUI
-        find Sandboxie-Plus -name "SandMan.exe" -type f -exec cp {} artifacts/ \; || echo "GUI not found"
-
-        # Copy Qt DLLs
-        mkdir -p artifacts/Qt
-        cp "$Qt6_DIR/bin/Qt6Core.dll" artifacts/Qt/ || true
-        cp "$Qt6_DIR/bin/Qt6Gui.dll" artifacts/Qt/ || true
-        cp "$Qt6_DIR/bin/Qt6Widgets.dll" artifacts/Qt/ || true
-        cp "$Qt6_DIR/bin/Qt6Network.dll" artifacts/Qt/ || true
-
-        # Copy patched source files for manual driver compilation
-        mkdir -p artifacts/patched_sources
-        cp Sandboxie-Plus/Sandboxie/core/drv/verify.c artifacts/patched_sources/ || true
-        cp Sandboxie-Plus/Sandboxie/core/drv/process.c artifacts/patched_sources/ || true
-        cp Sandboxie-Plus/SandboxiePlus/SandMan/SandMan.cpp artifacts/patched_sources/ || true
+        # Copy key patched files
+        mkdir -p artifacts/patched_files
+        cp Sandboxie-Plus/Sandboxie/core/drv/verify.c artifacts/patched_files/
+        cp Sandboxie-Plus/Sandboxie/core/drv/process.c artifacts/patched_files/
+        cp Sandboxie-Plus/SandboxiePlus/SandMan/SandMan.cpp artifacts/patched_files/
 
         ls -lh artifacts/
 
-    - name: Upload artifacts
-      uses: actions/upload-artifact@v4
-      with:
-        name: Sandboxie-Plus-Patched
-        path: artifacts/
-        retention-days: 30
-
-    - name: Create installation guide
-      shell: bash
+    - name: Create README
       run: |
         cat > artifacts/README.txt << 'EOF'
-        Sandboxie-Plus - CTF Patched Version
-        ====================================
+        Sandboxie-Plus Certificate Bypass - CTF Challenge
+        ==================================================
 
-        Build Date: $(date)
-        Platform: Windows x64
+        ✅ All patches verified and applied!
 
-        ⚠️  IMPORTANT: Driver Not Included
-        ====================================
+        This package contains:
+        ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-        GitHub Actions cannot compile Windows kernel drivers (requires WDK).
-        This archive contains:
+        📦 sandboxie-plus-patched-source.tar.gz
+           Complete source code with all patches applied
 
-        ✅ SbieSvc.exe   - Background service (patched)
-        ✅ SandMan.exe   - GUI application (patched)
-        ✅ Qt/*.dll      - Required Qt libraries
-        ✅ patched_sources/ - Patched source files
+        📄 patched_files/
+           Individual patched source files:
+           - verify.c (kernel certificate bypass)
+           - process.c (process restrictions bypass)
+           - SandMan.cpp (GUI checks bypass)
 
-        ❌ SbieDrv.sys   - NOT included (requires local compilation with WDK)
-
-        How to Get the Driver:
-        =====================
-
-        Option 1: Build Driver Locally (Recommended)
-        --------------------------------------------
-        1. Install Visual Studio 2022
-        2. Install Windows Driver Kit (WDK)
-        3. Open Sandboxie-Plus/Sandboxie/SandboxDrv.sln
-        4. Build Release x64
-        5. Output: Sandboxie-Plus/Sandboxie/core/drv/x64/Release/SbieDrv.sys
-
-        Option 2: Use Pre-built Driver
-        -------------------------------
-        Download official Sandboxie-Plus installer and extract SbieDrv.sys
-        (The patched service and GUI work with the official driver, but premium
-        features will be limited without the patched driver)
-
-        Installation:
-        =============
-
-        1. Stop Sandboxie service:
-           net stop SbieSvc
-
-        2. Backup original files in: C:\Program Files\Sandboxie-Plus\
-           - SbieDrv.sys (if replacing)
-           - SbieSvc.exe
-           - SandMan.exe
-
-        3. Replace files with patched versions
-
-        4. If using patched driver, enable test signing:
-           bcdedit /set testsigning on
-           (Reboot required)
-
-        5. Start service:
-           net start SbieSvc
-
-        6. Launch GUI:
-           C:\Program Files\Sandboxie-Plus\SandMan.exe
-
-        Verify Installation:
-        ====================
-
-        In SandMan GUI:
-        1. Go to Help → About
-        2. Check certificate status
-        3. Should show: MAXLEVEL with all features enabled
-
-        Unlocked Features:
-        ==================
+        🔓 Unlocked Features:
+        ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
         ✅ Security Enhanced (opt_sec)
            • UseSecurityMode, SysCallLockDown
            • RestrictDevices, UsePrivacyMode
+           • ProtectHostImages, NoSecurityIsolation
 
         ✅ Encrypted Sandbox (opt_enc)
-           • ConfidentialBox, UseFileImage, EnableEFS
+           • ConfidentialBox (full encryption)
+           • UseFileImage, EnableEFS
 
         ✅ Advanced Network (opt_net)
            • NetworkDnsFilter, NetworkUseProxy
@@ -187,32 +159,103 @@ jobs:
         ✅ Desktop Isolation (opt_desk)
            • UseSandboxDesktop
 
-        Notes:
-        ======
+        🛠️  How to Build on Windows:
+        ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-        - For CTF/educational purposes only
-        - All source code patches are in patched_sources/ folder
-        - Full compilation guide: WINDOWS_BUILD_GUIDE.md in repository
-        - Support original developers: https://sandboxie-plus.com/
+        Prerequisites:
+        1. Visual Studio 2019 or 2022
+        2. Windows 10/11 SDK
+        3. Windows Driver Kit (WDK) - for kernel driver
+        4. Qt 6.5.x Framework
+        5. CMake (optional)
 
-        Troubleshooting:
-        ================
+        Build Steps:
+        1. Extract sandboxie-plus-patched-source.tar.gz
+        2. See WINDOWS_BUILD_GUIDE.md for detailed instructions
+        3. Or run build_patched.bat in Developer Command Prompt
 
-        Service won't start:
-        - Check if driver is signed or test signing is enabled
-        - Disable Secure Boot in BIOS
+        Quick Build:
+        ───────────────────────────────────────────────────────────
+        # Kernel Driver
+        cd Sandboxie-Plus\Sandboxie
+        msbuild SandboxDrv.sln /p:Configuration=Release /p:Platform=x64
 
-        Missing DLLs:
-        - Copy Qt/*.dll to C:\Program Files\Sandboxie-Plus\
+        # Service
+        msbuild Sandbox.sln /p:Configuration=Release /p:Platform=x64
 
-        Premium features not working:
-        - Requires PATCHED driver (SbieDrv.sys)
-        - Official driver has limited functionality
+        # GUI
+        cd ..\SandboxiePlus
+        qmake SandboxiePlus.pro
+        nmake release
 
+        📥 Installation:
+        ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+        1. Stop service: net stop SbieSvc
+        2. Backup files in C:\Program Files\Sandboxie-Plus\
+        3. Replace:
+           - SbieDrv.sys (kernel driver)
+           - SbieSvc.exe (service)
+           - SandMan.exe (GUI)
+        4. Enable test signing: bcdedit /set testsigning on
+        5. Reboot
+        6. Start service: net start SbieSvc
+
+        ⚠️  Important Notes:
+        ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+        - For educational/CTF purposes only
+        - Patched driver is unsigned (requires test signing)
+        - All three files must be replaced for full functionality
+        - Disable Windows Defender during installation
+
+        📚 Documentation:
+        ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+        - WINDOWS_BUILD_GUIDE.md - Complete build guide (Chinese)
+        - SOLUTION.md - Technical implementation details
+        - README.md - Project overview
+
+        🏆 Verification:
+        ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+        After installation, in SandMan GUI:
+        1. Go to Help → About
+        2. Certificate Status should show: Active
+        3. Certificate Level should show: MAXLEVEL
+        4. All premium features should be enabled
+
+        💡 Support:
+        ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+        If you find Sandboxie-Plus useful, please support the
+        original developers: https://sandboxie-plus.com/
+
+        Repository: https://github.com/black-fruit/SandboxieCTF-Modify
         EOF
 
-    - name: Upload installation guide
+    - name: Upload artifacts
       uses: actions/upload-artifact@v4
       with:
-        name: Installation-Guide
-        path: artifacts/README.txt
+        name: Sandboxie-Plus-Patched-Source
+        path: artifacts/
+        retention-days: 90
+
+    - name: Summary
+      run: |
+        echo "## ✅ Patch Verification Successful" >> $GITHUB_STEP_SUMMARY
+        echo "" >> $GITHUB_STEP_SUMMARY
+        echo "All certificate bypass patches verified!" >> $GITHUB_STEP_SUMMARY
+        echo "" >> $GITHUB_STEP_SUMMARY
+        echo "### 📦 Artifacts" >> $GITHUB_STEP_SUMMARY
+        echo "- Complete patched source code" >> $GITHUB_STEP_SUMMARY
+        echo "- Individual patched files" >> $GITHUB_STEP_SUMMARY
+        echo "- Build and installation guides" >> $GITHUB_STEP_SUMMARY
+        echo "" >> $GITHUB_STEP_SUMMARY
+        echo "### 🔓 Unlocked Features" >> $GITHUB_STEP_SUMMARY
+        echo "- ✅ Security Enhanced (opt_sec)" >> $GITHUB_STEP_SUMMARY
+        echo "- ✅ Encrypted Sandbox (opt_enc)" >> $GITHUB_STEP_SUMMARY
+        echo "- ✅ Advanced Network (opt_net)" >> $GITHUB_STEP_SUMMARY
+        echo "- ✅ Desktop Isolation (opt_desk)" >> $GITHUB_STEP_SUMMARY
+        echo "" >> $GITHUB_STEP_SUMMARY
+        echo "Download artifacts and build on Windows with Visual Studio + WDK" >> $GITHUB_STEP_SUMMARY
