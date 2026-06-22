@@ -28,64 +28,64 @@ jobs:
         # Test 1: KphSetFakeCertificate
         if grep -q "KphSetFakeCertificate" Sandboxie-Plus/Sandboxie/core/drv/verify.c; then
           echo "✅ Test 1: KphSetFakeCertificate function found"
-          ((PASS++))
+          PASS=$((PASS+1))
         else
           echo "❌ Test 1: KphSetFakeCertificate function NOT found"
-          ((FAIL++))
+          FAIL=$((FAIL+1))
         fi
 
         # Test 2: opt_sec bypass
         if grep -q "Verify_CertInfo.opt_sec = 1" Sandboxie-Plus/Sandboxie/core/drv/verify.c; then
           echo "✅ Test 2: opt_sec bypass found"
-          ((PASS++))
+          PASS=$((PASS+1))
         else
           echo "❌ Test 2: opt_sec bypass NOT found"
-          ((FAIL++))
+          FAIL=$((FAIL+1))
         fi
 
         # Test 3: opt_enc bypass
         if grep -q "Verify_CertInfo.opt_enc = 1" Sandboxie-Plus/Sandboxie/core/drv/verify.c; then
           echo "✅ Test 3: opt_enc bypass found"
-          ((PASS++))
+          PASS=$((PASS+1))
         else
           echo "❌ Test 3: opt_enc bypass NOT found"
-          ((FAIL++))
+          FAIL=$((FAIL+1))
         fi
 
         # Test 4: opt_net bypass
         if grep -q "Verify_CertInfo.opt_net = 1" Sandboxie-Plus/Sandboxie/core/drv/verify.c; then
           echo "✅ Test 4: opt_net bypass found"
-          ((PASS++))
+          PASS=$((PASS+1))
         else
           echo "❌ Test 4: opt_net bypass NOT found"
-          ((FAIL++))
+          FAIL=$((FAIL+1))
         fi
 
         # Test 5: Process certificate checks bypassed
         if grep -q "if (0) { // CTF" Sandboxie-Plus/Sandboxie/core/drv/process.c; then
           echo "✅ Test 5: process.c certificate checks bypassed"
-          ((PASS++))
+          PASS=$((PASS+1))
         else
           echo "❌ Test 5: process.c certificate checks NOT bypassed"
-          ((FAIL++))
+          FAIL=$((FAIL+1))
         fi
 
         # Test 6: 5-minute timer bypassed
         if grep -q "CTF: Bypass" Sandboxie-Plus/Sandboxie/core/drv/process.c; then
           echo "✅ Test 6: 5-minute process kill timer bypassed"
-          ((PASS++))
+          PASS=$((PASS+1))
         else
           echo "❌ Test 6: 5-minute process kill timer NOT bypassed"
-          ((FAIL++))
+          FAIL=$((FAIL+1))
         fi
 
         # Test 7: GUI bypass
         if grep -q "// CTF: Always pass certificate check in GUI" Sandboxie-Plus/SandboxiePlus/SandMan/SandMan.cpp; then
           echo "✅ Test 7: GUI certificate check bypassed"
-          ((PASS++))
+          PASS=$((PASS+1))
         else
           echo "❌ Test 7: GUI certificate check NOT bypassed"
-          ((FAIL++))
+          FAIL=$((FAIL+1))
         fi
 
         echo ""
