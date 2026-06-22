@@ -1,0 +1,3730 @@
+#----------------------------------------------------------------------------
+# SbieDrv
+#
+# Initialization errors issued to the System event Log
+#----------------------------------------------------------------------------
+
+1101;evt;inf;01
+SBIE1101 Sandboxie drajver (SbieDrv) verzije %2 inicijaliziran
+.
+
+1102;evt;inf;01
+SBIE1102 Sandboxie drajver (SbieDrv) se gasi
+.
+
+1103;evt;err;01
+SBIE1103 Sandboxie drajver (SbieDrv) verzije %2 nije se uspješno pokrenuo
+.
+
+1104;evt;err;01
+SBIE1104 Nedovoljno sistemskih resursa za završetak inicijalizacije
+.
+
+1105;evt;err;01
+SBIE1105 Nepoznata verzija operacijskog sustava:  %2
+.
+
+1106;evt;err;01
+SBIE1106 greška %2, detalj %3
+.
+
+# 1107;evt;err;01
+# SBIE1107 Ne mogu pristupiti LocalSystem računu %2
+# .
+
+1108;evt;err;01
+SBIE1108 Procedura %2 nije mogla biti analizirana
+.
+
+1109;evt;err;01
+SBIE1109 Pogrešna licencna informacija:  %2
+.
+
+1110;evt;err;01
+SBIE1110 Ne mogu presresti tip %3, greška %2
+.
+
+1111;evt;err;01
+SBIE1111 Sistemski DLL %3 ne može biti učitan %2
+.
+
+1112;evt;err;01
+SBIE1112 Procedura %2 ne može biti locirana
+.
+
+1113;evt;err;01
+SBIE1113 NE mogu pronaći Nt sistemski servis, razlog %2
+.
+
+1114;evt;err;01
+SBIE1114 NE mogu pronaći Zw sistemski servis, razlog %2
+.
+
+1116;evt;err;01
+SBIE1116 Drajver nije uspio registrirati proces pozivanja rutine %2
+.
+
+1119;evt;err;01
+SBIE1119 Ne mogu kreirati API uređaja %2
+.
+
+1120;evt;err;01
+SBIE1120 Nepodudaranje u servisu %2
+.
+
+1121;evt;err;01
+SBIE1121 Udica neuspješna za servis %2
+.
+
+1122;evt;err;01
+SBIE1122 Greška:  %2
+.
+
+#----------------------------------------------------------------------------
+# SbieDrv
+#
+# Error Messages to both Event and Popup Logs
+#----------------------------------------------------------------------------
+
+1151;evt;pop;err;01
+SBIE1151 Ne mogu rukovati instrukcijom %2
+.
+
+1152;evt;pop;err;01
+SBIE1152 Neuspjelo dodjeljivanje trambuline Trampolin!!!!!!!!!!!!!!!!!!!allocation failed %2
+.
+
+1153;evt;pop;err;01
+SBIE1153 Sandboxie inicijalizacija nije uspjela.  Zatvorite sve programe i ponovo instalirajte Sandboxie  ILI  ponovo pokrenite računalo.
+.
+
+#----------------------------------------------------------------------------
+# SbieDrv
+#
+# Error Messages to Popup Log
+#----------------------------------------------------------------------------
+
+1201;pop;err;01
+SBIE1201 Nedovoljno memorije
+.
+
+1202;pop;err;01
+SBIE1202 Ne mogu nadograditi licencne informacije:  %2
+.
+
+1203;pop;err;01
+SBIE1203 Ne mogu kreirati putanju liste (greška u %2)
+.
+
+1204;pop;err;01
+SBIE1204 Neuspješno stvaranje sandboxa za %3 %2
+.
+
+1211;pop;err;01
+SBIE1211 Ne mogu pokrenuti sandboxing za proces %2
+.
+
+1212;pop;err;01
+SBIE1212 Ne mogu kreirati direktorij '%3' %2
+.
+
+1213;pop;err;01
+SBIE1213 Ne mogu kreirati direktorij za objekt '%3' %2
+.
+
+# 1214;pop;err;01
+# SBIE1214 Ne mogu ubaciti SbieDll %2
+# .
+
+# 1215;pop;err;01
+# SBIE1215 Ne mogu riješiti putanju do procesne slike %2
+# .
+
+# 1216;pop;err;01
+# SBIE1216 Ne mogu ispitati sigurnosni ID %2
+# .
+
+# 1217;pop;err;01
+# SBIE1217 Ne mogu pronaći izvorni proces
+# .
+
+# 1221;pop;err;01
+# SBIE1221 Ne mogu kreirati zadatak:  %2
+# .
+
+# 1222;pop;err;01
+# SBIE1222 Ne mogu ogarničiti token:  %2
+# .
+
+# 1223;pop;err;01
+# SBIE1223 Ne mogu zamijeniti token:  %2
+# .
+
+# 1224;pop;err;01
+# SBIE1224 Ne mogu ispitati token:  %2
+# .
+
+1241;pop;err;01
+SBIE1241 Ne mogu postaviti bazu registra (registry hive):  %2
+.
+
+1242;pop;err;01
+SBIE1242 Preljev spremnika kontrolnog uređaja
+.
+
+#----------------------------------------------------------------------------
+# SbieDrv
+#
+# Informational Messages to Popup Log
+#----------------------------------------------------------------------------
+
+1301;pop;inf;01
+SBIE1301 Program '%2' je pokrenut izvan sandboxa
+.
+
+# 1302;pop;inf;01
+# SBIE1302 Sandbox '%2' nije definiran ili nije omogućen
+# .
+
+1303;pop;inf;01
+SBIE1303 Samo jedan sandbox može biti aktivan istovremeno
+.
+
+# 1304;pop;inf;01
+# SBIE1304 Blokiran simulirani unos tipkovnice ili miša od procesa '%2'
+# .
+
+1306;pop;inf;01
+SBIE1306 Sandboxie drajver (SbieDrv) ne može se ugasiti
+.
+
+1307;pop;inf;02
+SBIE1307 Program ne može pristupiti Internetu zbog ograničenja - %2
+.
+
+1308;pop;inf;02
+SBIE1308 Program ne može biti pokrenut zbog ograničenja - %2
+.
+
+1309;pop;inf;01
+SBIE1309 Odbijen pokušaj promjene korisničke lozinke
+.
+
+1310;pop;inf;01
+SBIE1310 Dodatne značajke su onemogućene do ponovne aktivacije licence
+.
+
+1311;pop;inf;01
+SBIE1311 Blokiran zahtjev za promjenom desktop pozadine od procesa '%2'
+.
+
+1312;pop;inf;01
+SBIE1312 Blokiran zahtjev za pokretanjem 16-bitnog DOS programa u sandboxu
+.
+
+1313;pop;inf;01
+SBIE1313 Blokiran direktan pristup disku od procesa '%2'
+.
+
+1314;pop;inf;01
+SBIE1314 Blokiran zahtjev za promjenom postavki mreže/vatrozida od procesa '%2'
+.
+
+# 1315;pop;inf;01
+# SBIE1315 Vjerojatno zbog konflikta sa softverom: %2
+# .
+
+#----------------------------------------------------------------------------
+# SbieDrv
+#
+# Configuration Error Messages to both Event and Popup Logs
+#----------------------------------------------------------------------------
+
+1401;evt;pop;inf;01
+SBIE1401 Konfiguracijska datoteka nije pronađena, koristim zadano
+.
+
+1402;evt;pop;wrn;01
+SBIE1402 Greška konfiguracijske datoteke u liniji %3:  %2
+.
+
+1403;evt;pop;wrn;01
+SBIE1403 Greška konfiguracijske datoteke u liniji %2:  linija preduga
+.
+
+1404;evt;pop;wrn;01
+SBIE1404 Greška konfiguracijske datoteke u liniji %2:  previše linija
+.
+
+1405;evt;pop;wrn;01
+SBIE1405 Greška konfiguracijske datoteke u liniji %2:  greška sintakse
+.
+
+1406;evt;pop;err;01
+SBIE1406 Nedostajuće ili pogrešno proširenje za %3:  %2
+.
+
+# 1407;evt;pop;err;01
+# SBIE1407 Pogrešna vrijednost stavke %2, koristim zadano
+# .
+
+1408;pop;err;01
+SBIE1408 Nepoznato korisničko ime za SID:  %2
+.
+
+1409;evt;pop;wrn;01
+SBIE1409 Templates.ini datoteka ne može biti otvorena %2
+.
+
+1410;evt;pop;wrn;01
+SBIE1410 Sljedeća poruka upućuje na grešku u Templates.ini datoteci
+.
+
+1411;evt;pop;wrn;01
+SBIE1411 Sandbox %2 precizira nepoznat predložak %3
+.
+
+1412;evt;pop;err;01
+SBIE1412 U tekstu: %2
+.
+
+#----------------------------------------------------------------------------
+# SbieDrv
+#
+# Messages from user mode -- informational -- 2101 through 2199
+#----------------------------------------------------------------------------
+
+2101;pop;inf;01
+SBIE2101 %2
+.
+
+2102;pop;inf;01
+SBIE2102 Datoteka je prevelika za kopiranje u sandbox - %2
+.
+
+2103;pop;inf;01
+SBIE2103 Odbijen pokušaj učitavanja sistemskog drajvera '%2'
+.
+
+2104;pop;inf;02
+SBIE2104 Odbijen pokušaj gašenja ove Windows sesije - %2
+.
+
+# 2105;pop;inf;01
+# SBIE2105 Sandboxed servis uspješno pokrenut:  %2
+# .
+
+# 2106;pop;inf;01
+# SBIE2106 Molim omogućite "Run As UAC Administrator" u Sandboxie Upravitelju, izbornik Datoteka
+# .
+
+# 2107;pop;inf;01
+# SBIE2107 Pripremam WinSxS skup '%2'
+# .
+
+2108;pop;inf;01
+SBIE2108 Zavaravanje uspješno izvršeno za program '%2'
+.
+
+# 2109;pop;inf;01
+# SBIE2109 Kliknite U Redu kada program ili instalacija završi.
+# .
+
+# 2110;pop;inf;01
+# SBIE2110 Pripremam WinSxS zavisnosti za '%2'
+# .
+
+# %2 = Mozilla Firefox
+2191;pop;inf;01
+SBIE2191 %2 ne bi trebalo nadograđivati dok je pokrenut unutar Sandboxie.
+.
+
+2192;pop;inf;01
+SBIE2192 Za nadogradnju programa, pokrenite ga bez Sandboxie nadzora.
+.
+
+2193;pop;inf;01
+SBIE2193 Pobrinite se da obrišete sandbox nakon završetka procesa nadogradnje.
+.
+
+2199;pop;inf;01
+%0
+.
+
+#----------------------------------------------------------------------------
+# SbieDrv
+#
+# Messages from user mode -- warning -- 2201 through 2299
+#----------------------------------------------------------------------------
+
+2201;pop;wrn;01
+SBIE2201 %2
+.
+
+# 2202;pop;wrn;01
+# SBIE2202 Nedostajuća lista instaliranih harverskih uređaja
+# .
+
+2203;pop;wrn;01
+SBIE2203 Neuspješna komunikacija sa Sandboxie Servisom:  %2
+.
+
+2204;pop;wrn;01
+SBIE2204 Ne mogu pokrenuti sandboxan servis %2
+.
+
+2205;pop;wrn;01
+SBIE2205 Servis nije implementiran:  %2
+.
+
+2206;pop;wrn;01
+SBIE2206 Neuspješno procesuiranje AutoExec stavke %2
+.
+
+2207;pop;wrn;01
+SBIE2207 Pogrešna vrijednost stavke '%2', koristim zadano
+.
+
+2208;pop;wrn;01
+SBIE2208 Ne mogu ukloniti bazu registra (registry hive):  %2
+.
+
+2209;pop;wrn;01
+SBIE2209 Ne mogu prevesti SID u korisničko ime:  %2
+.
+
+2210;pop;wrn;01
+SBIE2210 Ne mogu pokrenuti Windows Explorer za:  %2
+.
+
+2211;pop;wrn;01
+SBIE2211 Neuspješno pokretanje sandboxanog servisa:  %2
+.
+
+2212;pop;wrn;01
+SBIE2212 Email čitač '%2' nije konfiguriran da se pokreće sandboxan
+.
+
+2213;pop;wrn;01
+SBIE2213 Windows Vjerodajnice ne mogu biti spremljene u sandbox
+.
+
+2214;pop;wrn;01
+SBIE2214 Zahtjev za pokretanje servisa '%2' je odbijen zbog smanjenih prava
+.
+
+# 2215;pop;wrn;01
+# SBIE2215 Neuspješna priprema WinSxS zavisnika:  %2
+# .
+
+# 2216;pop;wrn;01
+# SBIE2216 Greška u pripremi WinSxS skupa:  %2
+# .
+
+2217;pop;wrn;02
+SBIE2217 Zahtijev za pokretanjem kao Administrator je odbijen zbog smanjenih prava
+.
+
+2218;pop;wrn;01
+SBIE2218 Neuspjelo dobivanje viših privilegija:  %2
+.
+
+2219;pop;wrn;01
+SBIE2219 Zahtjev je izdan od programa %2
+.
+
+2220;pop;wrn;01
+SBIE2220 Za dozvolu korištenja Administratorskih privilegija, molim dvostruko kliknite na ovu liniju poruke
+.
+
+2221;pop;wrn;01
+SBIE2221 Za dodavanje programa na Ograničenja Pristupa Internetu, molim dvostruko kliknite na ovu liniju poruke
+.
+
+2222;pop;wrn;01
+SBIE2222 Za dodavanje programa na Ograničenja Pristupa Pokretanju/Izvođenju, molim dvostruko kliknite na ovu liniju poruke
+.
+
+2223;pop;wrn;01
+SBIE2223 Za povećavanje limita veličine datoteke radi kopiranja, molim dvostruko kliknite na ovu liniju poruke
+.
+
+#----------------------------------------------------------------------------
+# SbieDrv
+#
+# Messages from user mode -- error -- 2301 through 2399
+#----------------------------------------------------------------------------
+
+2301;pop;err;01
+SBIE2301 %2
+.
+
+2303;pop;err;01
+SBIE2303 Ne mogu zakačiti %2
+.
+
+2304;pop;err;01
+SBIE2304 Neuspješna inicijalizacija za proces %2
+.
+
+2305;pop;err;01
+SBIE2305 Nedovoljno memorije
+.
+
+2306;pop;err;01
+SBIE2306 Ne mogu locirati korisnički direktorij:  %2
+.
+
+2307;pop;err;01
+SBIE2307 Ne mogu mapirati pogon %2
+.
+
+2308;pop;err;01
+SBIE2308 Ne mogu kreirati objektni direktorij:  %2
+.
+
+2309;pop;err;01
+SBIE2309 Ne mogu onemogućiti COM+/DCOM:  %2
+.
+
+2310;pop;err;01
+SBIE2310 Spremnik imena se približava preljevu (%2)
+.
+
+2311;pop;err;01
+SBIE2311 Ne mogu onemogućiti koš za smeće (BitBucket):  %2
+.
+
+2312;pop;err;01
+SBIE2312 Ne mogu omogućiti BrowseNewProcess postavke:  %2
+.
+
+2313;pop;err;01
+SBIE2313 Ne mogu izvršiti %2
+.
+
+2314;pop;err;01
+SBIE2314 Poništavanje procesa %2
+.
+
+# 2315;pop;err;01
+# SBIE2315 Ne mogu popraviti izvršnu sliku
+# .
+
+2316;pop;err;01
+SBIE2316 Korumpirana memorija
+.
+
+2317;pop;err;01
+SBIE2317 Ne mogu inicijalizirati listu putanja '%2'
+.
+
+2318;pop;err;01
+SBIE2318 DLL inicijalizacija neuspješna za '%2'
+.
+
+# 2319;pop;err;01
+# SBIE2319 Aktivacijski dodatak neuspješan za sandboxiran proces %2
+# .
+
+# 2320;pop;err;01
+# SBIE2320 Ne mogu zaustaviti Windows Explorer kao desktop proces:  %2
+# .
+
+2321;pop;err;01
+SBIE2321 Ne mogu upravljati mapom uređaja:  %2
+.
+
+2322;pop;err;01
+SBIE2322 Ne mogu prepisati Sandboxie.ini:  %2
+.
+
+2323;pop;err;01
+SBIE2323 Greška kriptografije:  %2
+.
+
+2326;pop;err;01
+SBIE2326 Ne mogu pripremiti registar:  %2
+.
+
+2327;pop;err;01
+SBIE2327 Greška u COM serveru:  %2
+.
+
+2331;pop;err;01
+SBIE2331 Neuspješno pokretanje servisa:  %2
+.
+
+2332;pop;err;01
+SBIE2332 Ne mogu pristupiti datoteci SbiePst.dat
+.
+
+# 2333;pop;err;01
+# SBIE2333 Pronađen nekompatibilan softverski DLL:  %2
+# .
+
+2334;pop;err;01
+SBIE2334 Ne mogu učitati DLL datoteku:  %2
+.
+
+# 2398;txt;01
+# SBIE2398 Servisu se dogodila iznimka ... na adresi ...
+# .
+
+# 2399;txt;01
+# SBIE2399 Servis neuspješan zbog greške ...
+# .
+
+#----------------------------------------------------------------------------
+# SbieSvc
+#----------------------------------------------------------------------------
+
+9101;evt;err;01
+SBIE9101 Nedovoljno sistemskih resursa
+.
+
+9153;evt;err;01
+SBIE9153 Ne mogu pokrenuti drajver (SbieDrv)
+.
+
+9154;evt;err;01
+SBIE9154 Drajver (SbieDrv) i servis (SbieSvc) su različitih verzija
+.
+
+9156;evt;err;01
+SBIE9156 Inicijalizacija drajvera nije završena
+.
+
+# 9201;evt;err;01
+# SBIE9201 Greška tokena
+# .
+
+# 9202;evt;err;01
+# SBIE9202 Greška tokena
+# .
+
+# 9203;evt;err;01
+# SBIE9203 Greška tokena
+# .
+
+# 9204;evt;err;01
+# SBIE9204 Greška sigurnosnog opisa
+# .
+
+# 9205;evt;err;01
+# SBIE9205 Greška sigurnosnog opisa
+# .
+
+# 9206;evt;err;01
+# SBIE9206 Greška sigurnosnog opisa
+# .
+
+# 9207;evt;err;01
+# SBIE9207 Greška sigurnosnog opisa
+# .
+
+# 9208;evt;err;01
+# SBIE9208 Ne mogu omogućiti SeRestorePrivilege
+# .
+
+# 9251;evt;err;01
+# SBIE9251 Neuspješno kreiranje događaja porta
+# .
+
+# 9252;evt;err;01
+# SBIE9252 Neuspješno kreiranje porta
+# .
+
+# 9253;evt;err;01
+# SBIE9253 Neuspješno kreiranje niti porta
+# .
+
+#----------------------------------------------------------------------------
+# Common Texts
+#----------------------------------------------------------------------------
+
+3001;txt;01
+&U Redu
+.
+
+3002;txt;01
+&Poništi
+.
+
+3003;txt;01
+&Pretraži...
+.
+
+3004;txt;01
+&Zatvori
+.
+
+3005;txt;01
+Iz&reži
+.
+
+3051;txt;01
+Zaštita od brisanja je omogućena za sandbox
+.
+
+3052;txt;01
+Pokreni Sandboxano
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Start
+#----------------------------------------------------------------------------
+
+3101;txt;01
+Sandboxie Start
+.
+
+3103;txt;01
+Upišite ime programa ili mape i Sandboxie će ih otvoriti.
+.
+
+3104;txt;01
+Upišite  .  (znak točke) da bi istražili desktop sa Sandboxie.
+.
+
+3105;txt;01
+Uklonite naredbu iz povijesti naredbi
+.
+
+3106;txt;01
+Odaberite sandbox u kojem će se pokrenuti program ili dokument.
+.
+
+3111;txt;01
+      Sandboxie Start Izbornik - %2  %0
+.
+
+3112;txt;01
+Desktop
+.
+
+3113;txt;01
+(istraži mapu)
+.
+
+3114;txt;01
+Programi
+.
+
+3202;txt;01
+Pogrešan parametar naredbene linije:  %2
+.
+
+3203;txt;01
+Korištenje: Start.exe <ime programa>
+.
+
+3204;txt;01
+Pogrešan parametar imena boxa:  %2
+.
+
+3205;txt;01
+Ne mogu pokrenuti program:
+
+%2
+.
+
+3206;txt;01
+Sistemska Greška Kod:
+.
+
+# 3207;txt;01
+# Ne mogu pronaći izvršnu datoteku Internet Explorera
+# .
+
+# 3208;txt;01
+# Ne mogu pronaći izvršnu datoteku za zadani Web pretraživač
+# .
+
+3209;txt;01
+Ne mogu pronaći izvršnu datoteku za zadani mail agent
+.
+
+3210;txt;01
+Ne mogu pokrenuti program Sandboxie Upravitelj
+.
+
+# 3211;txt;01
+# Nepodudaranje verzije u Sandboxie.  Pokušajte nanovo instalirati.
+# .
+
+3212;txt;01
+Sandboxie drajver (SbieDrv) nije dostupan sandboxanim programima.
+Pobrinite se da su oboje, drajver i Sandboxie servis (SbieSvc), uspješno pokrenuti.
+.
+
+3213;txt;01
+Ne mogu započeti Sandboxie COM servis
+.
+
+3214;txt;01
+Obriši Sandbox %2:  %0
+.
+
+3215;txt;01
+Objekt (datoteku ili mapu) možda koristi drugi program.
+Zatvorite sve aplikacije ili prozore koji bi mogli spriječiti pristup.
+.
+
+3216;txt;01
+Ne mogu locirati sandbox mapu
+.
+
+3217;txt;01
+Ne mogu otvorit sandbox mapu
+.
+
+3218;txt;01
+Ne mogu otvoriti mapu koja sadrži sandbox mapu
+.
+
+3219;txt;01
+Ne mogu maknuti sandbox mapu sa puta
+.
+
+3220;txt;01
+Greška preimenovanja jedne od datoteka sa dugim imenom u sandboxu.
+Sadržaj sandboxa neće biti obrisan.
+.
+
+3221;txt;01
+Molim zaustavite programe koji se izvršavaju u sandboxu prije brisanja njegovog sadržaja
+.
+
+3222;txt;01
+Naredba brisanja neuspješna:  %0
+.
+
+3231;txt;01
+Instalirali ste Sandboxie prije više od 30 dana.
+.
+
+3232;txt;01
+Korištenje Sandboxie za osobnu uporabu je besplatno dokle god želite.
+.
+
+3233;txt;01
+Međutim, besplatna verzija će sada pauzirati na nekoliko sekundi.
+.
+
+3234;txt;01
+Međutim, besplatna verzija dozvoljava korištenje jednog sandboxa istovremeno.
+.
+
+3235;txt;01
+Ovo ograničenje ne postoji u plaćenoj verziji Sandboxie.
+.
+
+3236;txt;01
+Dodatno, plaćena verzija omogućuje automatski sandboxing odabranih programa.
+.
+
+3237;txt;01
+Za više informacija i naručivanje softvera, molim kliknite na sljedeći link:
+.
+
+3238;txt;01
+Molim sačekajte još %2 sekundi
+.
+
+3239;txt;01
+Kliknite za zatvaranje ovog prozora i nastavak
+.
+
+3240;txt;01
+Kliknite za zatvaranje ovog prozora i prekid
+.
+
+3241;txt;01
+Sandboxie zahtjeva Administratorake privilegije
+za pokretanje programa u sandboxu.
+.
+
+3242;txt;01
+Za prihvat ili poništavanje zahtjeva, aktivirajte
+Upravitelj Korisničkih Računa na skočnom prozoru.
+.
+
+3243;txt;01
+Napomena:  Program će nastaviti raditi pod nadzorom
+Sandboxie, i nakon što Administratorske privilegije budu dodijeljene.
+.
+
+3251;txt;01
+Pokreni Izvan Sandboxa
+.
+
+3252;txt;01
+Pokreni program izričito van nadzora Sandboxie, 
+čak i ako je program forsiran da se izvršava pod Sandboxie.  
+Ovaj izuzetak iz sandboxinga vrijedi i za sve ostale programe
+koji su pokrenuti od ovoga programa.
+
+Možete također odabrati ovu opciju držrći pritisnute tipke 
+Ctrl i Shift kada kliknete naredbu Pokreni Sandboxano.
+.
+
+3253;txt;01
+Jeste li sigurni da želite pokrenuti program izvan sandboxa?
+.
+
+3254;txt;01
+Za preskakanje ovog prozora za odabir sandboxa, možete držati tipku Ctrl
+kada kliknete naredbu Pokreni Sandboxano.
+.
+
+3255;txt;01
+Opcija je onemogućena zbog toga što je omogućena stavka Smanjivanje Ovlasti za ovaj sandbox
+.
+
+3256;txt;01
+Opcija je onemogućena zbog toga što je ovaj program već pokrenut sa Administartorskim privilegijama
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control Common
+#----------------------------------------------------------------------------
+
+3301;txt;01
+Sandboxie Upravitelj
+.
+
+3302;txt;01
+Verzija %2
+.
+
+3303;txt;01
+  -  Inicijalizacija
+.
+
+3304;txt;01
+Nepodudaranje verzija u Sandboxie:
+
+Sandboxie Upravitelj: Verzija %2
+Servis (SbieSvc): Verzija %3
+Drajver (SbieDrv): Verzija %4
+
+Reinstalirajte Sandboxie za riješenje ovog problema.
+
+Obustava.
+.
+
+# 3305;txt;01
+# Ne mogu instalirati tray ikonu.  Obustava.
+# .
+
+3306;txt;01
+Ubuduće ne prikazuj ovu poruku
+.
+
+# 3307;txt;01
+# Unesite Ime Programa
+# .
+
+# translate text but keep hash signs (#)
+3308;txt;01
+Programi#*.EXE#Sve Datoteke#*.*##
+.
+
+3309;txt;01
+  -  Brisanje Sandbox-a
+.
+
+3311;txt;01
+Neuspješno spremanje konfiguracijskih postavki %3 u odjeljku %2:  %4
+.
+
+3312;txt;01
+Niste ovlašteni za ažururanje konfiguracije u odjeljku %2
+.
+
+3313;txt;01
+Nepoznat korisnik, konfiguracijske postavke neće biti spremljene
+.
+
+3314;txt;01
+Dogodila se greška prilikom primjene zadanih postavki za sandbox '%2'
+.
+
+# 3321;txt;01
+#   -  Logon sesija je sandboxirana
+# .
+
+# 3322;txt;01
+# Vaša logon sesija je pokrenuta pod nadzorom Sandboxie.
+# Brisanjem sadržaja sandboxa poništit će sve promjene nastale u sesiji.
+# 
+# Korisnički Račun: %2
+# Sandbox: %3
+# 
+# Jeste li sigurni da želite obrisati sadržaj sandboxa i odlogirati se iz Windowsa?
+# .
+
+3351;txt;01
+&Ukloni
+.
+
+3352;txt;01
+&Dodaj
+.
+
+3353;txt;01
+&Uredi/Dodaj
+.
+
+3354;txt;01
+&Uredi
+.
+
+3355;txt;01
+Dodaj &Program
+.
+
+# 3356;txt;01
+# Dodaj po &Imenu
+# .
+
+# 3357;txt;01
+# Dodaj po &Datoteci
+# .
+
+3358;txt;01
+Dodaj &Mapu
+.
+
+3359;txt;01
+Dodaj &Korisnika
+.
+
+3360;txt;01
+Odaberi &Sve
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control Menus
+#----------------------------------------------------------------------------
+
+3411;txt;01
+&Datoteka
+.
+
+3412;txt;01
+Zaustavi &Sve programe
+.
+
+3413;txt;01
+Onemogući &Forsirane Programe
+.
+
+3414;txt;01
+Pokreni Kao &UAC Administrator
+.
+
+3415;txt;01
+Da li je &Prozor Sandboxan?
+.
+
+3416;txt;01
+&Nadglednik Pristupa Resursima
+.
+
+3417;txt;01
+I&zlaz
+.
+
+3421;txt;01
+&Pregled
+.
+
+3422;txt;01
+&Programi
+.
+
+3423;txt;01
+&Datoteke i Mape
+.
+
+3424;txt;01
+&Kontekstni izbornik%2Shift+F10
+.
+
+3425;txt;01
+&Log Oporavka
+.
+
+3431;txt;01
+Sand&box
+.
+
+3432;txt;01
+Kreiraj Novi Sandbox
+.
+
+3433;txt;01
+Postavi Kontejner Mapu
+.
+
+3434;txt;01
+Otkrij Skriveni Sandbox
+.
+
+3435;txt;01
+Postavi Raspored i Grupe
+.
+
+3441;txt;01
+&Konfiguriraj
+.
+
+3442;txt;01
+&Programske Obavijesti
+.
+
+3443;txt;01
+Windows Shell &Integracija
+.
+
+3501;txt;01
+Softverska &Kompatibilnost
+.
+
+# 3503;txt;01
+# Eksperimentalna zaštita (64-bit)
+# .
+
+3444;txt;01
+Zaboravi Skrivene &Poruke
+.
+
+3445;txt;02
+&Savijeti
+.
+
+3502;txt;01
+Za&ključaj Konfiguraciju
+.
+
+3446;txt;01
+&Uredi Konfiguraciju
+.
+
+3447;txt;01
+U&čitaj Konfiguraciju
+.
+
+3448;txt;01
+&Prikaži Sve Savjete
+.
+
+3449;txt;01
+&Sakrij Sve Savjete
+.
+
+3451;txt;01
+&Pomoć
+.
+
+3452;txt;01
+&Pomoć (Web)
+.
+
+3453;txt;02
+&Tutorijal za početnike
+.
+
+3454;txt;01
+Provjeri za &Nadogradnje
+.
+
+3455;txt;01
+&Registriraj Sandboxie
+.
+
+3456;txt;01
+&O Sandboxie
+.
+
+3461;txt;01
+&Pokreni Sandboxan
+.
+
+3462;txt;01
+Pokreni Web &Preglednik
+.
+
+3463;txt;01
+Pokreni Emai&l čitač
+.
+
+3464;txt;01
+Pokreni &Bilo Koji Program
+.
+
+3465;txt;01
+Pokreni Sa Start &Izbornika
+.
+
+3466;txt;01
+Pokreni &Windows Explorer
+.
+
+3471;txt;01
+&Zaustavi Programe
+.
+
+3472;txt;01
+&Brzi Oporavak
+.
+
+3473;txt;01
+&Obriši Sadržaj
+.
+
+3474;txt;01
+&Istraži Sadržaj
+.
+
+3475;txt;01
+Sandbox &Postavke
+.
+
+3476;txt;01
+Preime&nuj Sandbox
+.
+
+3477;txt;01
+Uk&loni Sandbox
+.
+
+3481;txt;01
+&Zatvori Program
+.
+
+3482;txt;01
+Postavke &Programa
+.
+
+3483;txt;01
+P&ristup Resursima
+.
+
+3485;txt;01
+Prikaži Prozor
+.
+
+3486;txt;01
+Sakrij Prozor
+.
+
+3487;txt;01
+&Prikaži Greške
+.
+
+# 3488;txt;01
+# &Obriši Sadržaj Sandboxa i Odlogiraj Se
+# .
+
+3491;txt;01
+Po&vrat u Istu Mapu
+.
+
+3492;txt;01
+Oporavak u &Bilo Koju Mapu
+.
+
+3493;txt;01
+Do&daj Mapu u Brzi Oporavak
+.
+
+3494;txt;01
+Uk&loni Mapu iz Brzog Oporavka
+.
+
+3495;txt;01
+Kreiraj Prečac na Desktopu
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control Main Window
+#----------------------------------------------------------------------------
+
+3511;txt;01
+Sandboxie Upravitelj će sada sakriti svoj prozor, ali će nastaviti sa izvođenjem.  Za prikaz prozora, dvokliknite žutu Sandboxie ikonu u sistemskom trayu.
+.
+
+3512;txt;01
+Uredite promjene u Sandboxie.ini konfiguracijskoj datoteci
+u prozoru tekst editora koji je sada otvoren.
+
+Prerađena konfiguracija će stupiti na snagu tek nakon
+pozivanja funkcije Učitaj Konfiguraciju.
+
+U većini slučajeva, funkcija Učitaj Konfiguraciju se
+automatski poziva čim zatvorite prozor tekst editora.
+
+Možete i eksplicitno, bilo kada, naložiti Sandboxie Upravitelju da
+Učita Konfiguraciju.
+.
+
+3513;txt;01
+Sandboxie konfiguracija je osvježena i 
+primjenit će se na sandboxane programe kada budu pokrenuti.
+
+Ako je neki od programa već pokrenut unutar sandboxa,
+nova konfiguracija se neće odnositi na njega.
+.
+
+3514;txt;01
+Pojavio se problem u čitanju konfiguracijske datoteke.
+Sandboxie konfiguracija nije osvježena.
+.
+
+3515;txt;01
+Sandbox %2
+.
+
+3516;txt;01
+Aktivno
+.
+
+3517;txt;01
+Ime Programa
+.
+
+3518;txt;01
+PID
+.
+
+3519;txt;01
+Naziv Prozora
+.
+
+3520;txt;01
+Mape Brzog Oporavka
+.
+
+3521;txt;01
+Sve Datoteke i mape
+.
+
+3522;txt;01
+Pogoni
+.
+
+3523;txt;01
+Mrežna Dijeljenja
+.
+
+3524;txt;01
+Korisničke Datoteke
+.
+
+3525;txt;01
+Osobno
+.
+
+3526;txt;01
+Svi Korisnici
+.
+
+3527;txt;01
+Molim obrišite sadržaj sandboxa %2 prije pozivanja ove naredbe.
+.
+
+3528;txt;01
+Unesite novo ime za sandbox.
+.
+
+3529;txt;01
+Jeste li sigurni da želite ukloniti sandbox %2?
+.
+
+3530;txt;01
+Nema procesa za ugasiti.
+.
+
+3531;txt;01
+UPOZORENJE: Proces ili procesi koji će biti ugašeni
+neće moći snimiti svoje stanje ili podatke.
+
+Jeste li sigurni da želite nstaviti sa gašenjem procesa?
+.
+
+3532;txt;01
+Ubuduće, ugasi procese bez pitanja
+.
+
+3533;txt;01
+Možete kopirati i izrezati datoteke i mape iz sandboxiranog prozora Windows Explorera, 
+i zaljepiti ih direktno u neki drugi ne-sandboxiran prozor mapa.
+.
+
+3534;txt;01
+Pregledavate sadržaj sandboxa koristeći Windos Explorer
+prozor koji nije pod nadzorom Sandboxie.
+
+Možete otvoriti programe ili dokumente koji se nalaze unutar sandboxa.
+Program ili dokument će biti pokrenut pod nadzorom Sandboxie.
+
+Međutim, preporučljivo je upravljati sadržajem sandboxa koristeći
+instancu Windows Explorera pokrenutog unutar Sandboxie.  Da bi ste to učinili, 
+koristite naredbu:  Sandbox > Pokreni Sandboxano > Pokreni Windows Explorer.
+.
+
+3535;txt;01
+Dogodila se greška prilikom pristupa sandbox mapi.
+.
+
+3536;txt;01
+Indikator 'skriveno' je uklonjen iz svih poruka.
+.
+
+3537;txt;01
+Indikator 'ne prikazuj ovu poruku' je uklonjen iz svih savjeta.
+.
+
+3538;txt;01
+Indikator 'ne prikazuj ovu poruku' sada se odnosi na sve savjete.
+.
+
+3539;txt;01
+Sandbox '%2' je kreiran prije %3 dana.
+
+Molim razmotrite brisanje sadržaja vašeg sandboxa s vremena na vrijeme.
+
+Za konfiguraciju automatskog brisanja, koristite naredbu Sandbox Postavke
+sa Sandbox izbornika u Sandboxie Upravitelju.
+.
+
+3540;txt;01
+Sandboxie.ini konfiguracijska datoteka ne može biti uređivana
+jer je zaštićena lozinkom.  Za uređivanje datoteke, koristite
+stavku Zaključaj Konfiguraciju za onesposobljavanje zaštite lozinkom.
+.
+
+3541;txt;01
+Javno
+.
+
+3542;txt;01
+Mod Experimentalne Zaštite unaprijeđuje zaštitu
+koju nudi 64-bitni Sandboxie, i donosi isti nivo
+zaštite koji nudi 32-bitna verzija Sandboxie.
+
+VAŽNO:  Eksperimentalna Zaštita koristi nedokumentirane
+značajke Windows jezgre.  Buduće nadogradnje Windowsa
+moglu biti neusklađene sa modom Experimentalne Zaštite, 
+i mogu prouzročiti nestabilnost sustava.
+
+KORISTITE NA VLASTITI RIZIK.
+
+Za aktivaciju Eksperimentalna Zaštita, morate
+ponovo pokrenuti svoje računalo.
+.
+
+3543;txt;01
+Za gašenje Esperimentalna Zaštita, morate
+ponovo pokrenuti svoje računalo.
+
+Imajte na umu da će stavka Smanjivanje Ovlasti biti omogućena
+u svim sandboxovima.
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control Dialogs: About/Welcome
+#----------------------------------------------------------------------------
+
+3601;txt;01
+O Sandboxie
+.
+
+# 3604;txt;01
+# Dobrodošli u Sandboxie
+# .
+
+# 3605;txt;01
+# 
+# Sandboxie pokreće vaše aplikacije u zaštićenoj izoliranoj zoni nazvanoj sandbox.
+# 
+# Aplikacije zarobljene u sandboxu ne mogu učiniti promjene ili štetu vašem računalu.
+# 
+# Također, možete koristiti sandbox za instaliranje i testiranje novih aplikacija.
+# .
+
+# 3606;txt;01
+# Ako ste novi Sandboxie korisnik,
+# molim pročitajte Početnički tutorial.
+# .
+
+# 3607;txt;01
+# &Sandboxie Početnički tutorial
+# .
+
+#----------------------------------------------------------------------------
+# Sandboxie Control Dialogs: Update
+#----------------------------------------------------------------------------
+
+3621;txt;01
+Provjeri Za Nadogradnje
+.
+
+3622;txt;01
+Spojiti se na Sandboxie Web stranicu za provjeru nove verzije programa?
+.
+
+3623;txt;01
+&Sad
+.
+
+3624;txt;01
+Sljedeći &Tjedan
+.
+
+3625;txt;01
+Ni&kada
+.
+
+3626;txt;01
+Ubuduće, provjeri za nadogradnje bez pitanja
+.
+
+3627;txt;01
+Politika Privatnost:  vaše osobne informacije nisu poslane niti sakupljane od strane Sandboxie.
+.
+
+3628;txt;01
+Provjera nadogradnje je već pokrenuta.  Molim sačekajte.
+.
+
+3629;txt;01
+Sandboxie Web stranica ne prijavljuje noviju verziju Sandboxie.
+.
+
+3630;txt;01
+Sandboxie %2 je dostupan za preuzimanje.
+.
+
+3631;txt;01
+Preuzeti sada?
+
+Napomena:  Preuzimanje traje oko minute.
+Biti ćete obaviješteni kada se preuzimanje završi.
+.
+
+3632;txt;01
+Za preuzimanje i instalaciju nove verzije, logirajte se sa korisničkim računom
+koji ima administratorske privilegije, i ponovo pokrenite ovu naredbu.
+.
+
+3633;txt;01
+Sandboxie %2 je preuzet na sljedeću lokaciju:
+
+%3
+
+Kliknite U Redu za početak instalacije.  Ako je neki program
+pokrenut unutar sandboxa, biti će ugašen.
+.
+
+3634;txt;01
+Nadogradnja neuspješna:  Dogodila se greška prilikom komunikacije sa Sandboxie Web stranicom.
+.
+
+3635;txt;01
+Preuzimanje nove verzije
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control Dialogs: Run Browser
+#----------------------------------------------------------------------------
+
+3641;txt;01
+Otvori Web Preglednik
+.
+
+3642;txt;01
+Odaberite dali da otvorim sljedeću web adresu u sandboxanom ili ne-sandboxanom Web pregledniku.
+.
+
+3643;txt;01
+&Sandboxano
+.
+
+3644;txt;01
+&Ne-sandboxano
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control Dialogs: Message Dialog
+#----------------------------------------------------------------------------
+
+3645;txt;01
+Poruke od Sandboxie
+.
+
+3646;txt;01
+Sa&krij
+.
+
+3647;txt;01
+Skrivanje poruka spriječit će prikazivanje poruka ubuduće.  Skrivanje poruka ne riješava problem
+zbog kojeg bi poruka bila prikazana.
+
+Jeste li sigurni da želite isključiti poruku %2?
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control Dialogs: Disable Forced Programs
+#----------------------------------------------------------------------------
+
+3651;txt;01
+Privremeno Onesposobi Forsirane Programe
+.
+
+3652;txt;01
+Privremeno Onesposobi Forsirane Programe za
+.
+
+3653;txt;01
+sekundi
+.
+
+3654;txt;01
+Kada kliknete U Redu, mehanizam Forsirani Programi biti će privremeno onesposobljen, u trajanju od onoliko sekundi koje ste unijeli gore, ili dok ponovo ne odabarete ovu funkciju.
+.
+
+3599;txt;01
+Možete onemogućiti forsiranje specifičnih programa držeći pritisnute tipke Ctrl i Shift kada kliknete Pokreni Sandboxano naredbu za taj program.
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control Dialogs: Resource Access Monitor
+#----------------------------------------------------------------------------
+
+3655;txt;01
+Upravitelj Pristupa Resursima
+.
+
+3656;txt;01
+Ovaj alat kontrolira programe pokrenute pod nadzorom Sandboxie, i prikazuje resurse kojima oni pristupaju.  Molim pogledajte dokumentaciju prije korištenja ovog alata.
+.
+
+3657;txt;01
+Kopiraj Sadržaj u Međuspremnik i Zatvori Prozor
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control Dialogs: Is Window Sandboxed
+#----------------------------------------------------------------------------
+
+3661;txt;01
+Je li prozor Sandboxan?
+.
+
+3662;txt;01
+Kliknite i odvucite Nalazač (ikona lijevo) preko prozora da bi ste ga selektirali, zatim pustite tipku miša za provjeru je li prozor sandboxan.
+Pritisnite ESC za poništavanje.
+.
+
+3663;txt;01
+Selektirani prozor je dio programa %2 u sandboxu %3.
+.
+
+3664;txt;01
+Selektirani prozor nije dio niti jednog od sandboxanih programa.
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control Dialogs: Create New Sandbox
+#----------------------------------------------------------------------------
+
+3665;txt;01
+Kreirajte Novi Sandbox
+.
+
+3666;txt;01
+Unesite ime za novi sandbox.
+.
+
+3667;txt;01
+Greška:  Uneseno pogrešno ime sandboxa.  Koristite samo slova i brojeve.  Razmaci i ostali specijalni znakovi nisu dozvoljeni.  Ime ne može imati više od 32 znaka.
+.
+
+3668;txt;01
+Greška:  Uneseno već postojeće ime za sandbox.  Unesite ime koje ne koristi drugi sandbox.
+.
+
+3669;txt;01
+Kopirajte postavke iz postojećeg sandboxa:
+.
+
+4665;txt;01
+Greška:  Uneseno već postojeće ime za sandbox.  Ime se koristi za skriveni sandbox.  Koristite "Reveal Hidden Sandbox" naredbu sa Sandbox izbornika.
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control Dialogs: Set Container Folder
+#----------------------------------------------------------------------------
+
+3671;txt;01
+Postavite kontejner mapu
+.
+
+3672;txt;01
+Odaberite pogon na kojem će sandboxovi biti kreirani i pohranjeni.
+.
+
+3673;txt;01
+Za maksimalnu kompatibilnost sa ostalim programima, preporučeno je ostaviti sandbox na zadanoj lokaciji na pogonu koji ste izabrali.
+.
+
+3674;txt;01
+Međutim, možete koristiti okvir ispod za uređivanje da biste promjenili zadanu lokaciju:
+.
+
+3675;txt;01
+Naomena:  Savjetujem da obrišete sadržaj u svim sandboxevima, prije promjene kontejner mape.
+.
+
+3676;txt;01
+Pogon %2
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control Dialogs: Alerts
+#----------------------------------------------------------------------------
+
+3681;txt;01
+Programske Obavijesti
+.
+
+3682;txt;01
+Kada se bilo koji od sljedećih programa pokrene izvan sandboxa, Sandboxie će izdati obavijest SBIE1301.
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control Dialogs: Shell Integration
+#----------------------------------------------------------------------------
+
+3685;txt;01
+Windows Shell Integracija
+.
+
+3686;txt;01
+Pokrenite Sandboxie Upravitelj
+.
+
+3687;txt;01
+Pri pokretanju Windowsa
+.
+
+3688;txt;02
+Pri pokretanju programa u sandboxu
+.
+
+3689;txt;01
+Ikone Prečaca
+.
+
+3690;txt;01
+Dodaj desktop prečac za pokretanje Web preglednika pod Sandboxie nadzorom
+.
+
+3691;txt;01
+Dodaj prečac Brzog Pokretanja za Web preglednika pod Sandboxie nadzorom
+.
+
+3692;txt;01
+Kliknite za dodavanje još ikona desktop prečaca:
+.
+
+3693;txt;01
+&Dodaj Ikone Prečaca
+.
+
+3694;txt;01
+"Pokreni Sandboxano" Akcije
+.
+
+3695;txt;01
+Dodaj desni klik akciju "Pokreni Sandboxano" za datoteke i mape
+.
+
+3696;txt;01
+Dodaj sandboxove kao odredišta za "Pošalji (Send To)" akcije
+.
+
+3697;txt;01
+Sandboxie Početni Izbornik će sada biti prikazan.  Odaberite
+aplikaciju sa izbornika, i Sandboxie će kreirati novi
+prečac na vašem stvarnom desktopu, koji možete koristiti
+za pokretanje odabrane aplikacije pod nadzorom Sandboxie.
+.
+
+3698;txt;01
+Sandboxan Web Preglednik.lnk
+.
+
+3699;txt;01
+Pokreni &Sandboxano
+.
+
+4491;txt;01
+Otvori %2 u sandboxu %3
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control:  Delete Sandbox / Quick Recovery / Immediate Recovery
+#----------------------------------------------------------------------------
+
+3711;txt;01
+Obriši sadržaj|Brzi Oporavak
+.
+
+3712;txt;01
+Datoteke na popisu ispod su kvalificirane za Brzi Oporavak iz sandboxa.  Odaberite datoteku ili mapu i kliknite jedanu od opcija za oporavak odabrane stavke.
+.
+
+3713;txt;01
+Kliknite Obriši Sadržaj za završetak svih procesa koji su pokrenuti u sandboxu, i brisanje sadržaja.
+.
+
+3714;txt;01
+&Obriši Sadržaj
+.
+
+3715;txt;01
+Neposredni Oporavak
+.
+
+3716;txt;02
+Sljedeće datoteke su kvalificirane za neposredni oporavak i mogu biti premještene van sandboxa.
+.
+
+3717;txt;01
+Prvo odaberite datoteke sa gornje liste, a zatim odredišnu mapu.
+.
+
+3718;txt;01
+&Oporavak
+.
+
+3719;txt;01
+Nemoj &ponovo pitati za neposredni oporavak sve dok svi programi u ovom sandboxu ne prestanu sa izvođenjem
+.
+
+3720;txt;01
+Po&vrat u
+Istu Mapu
+.
+
+3721;txt;01
+Oporavak u
+&Bilo Koju Mapu
+.
+
+3722;txt;01
+Postoje %2 datoteka i %3 mapa u sandboxu, zauzimajući %4 bajta diskovnog prostora.
+.
+
+3723;txt;01
+Odaberite mapu u koju će se izvršiti oporavak datoteke ili mape.
+.
+
+3724;txt;01
+Ili odaberite mapu iz prijašnjeg oporavka.
+.
+
+3725;txt;01
+Odabrane mape biti će spremljene za kasniju upotrebu
+.
+
+3726;txt;01
+Odaberite mapu za dodavanje na popis za Brzi Oporavak.
+.
+
+3727;txt;01
+Mapa je dodana na listu za Brzi Oporavak.
+
+Međutim, trenutno ne postoje sandboxane stavke koje se mogu 
+vratiti iz mape.
+.
+
+3728;txt;01
+Nije selektirana niti jedna datoteka za oporavak.
+.
+
+3729;txt;01
+Oporavak neuspješan.  Sljedeća stavka se nije mogla premjestiti izvan sandboxa:
+.
+
+3730;txt;01
+Sandbox je prazan.  Nema ništa za brisanje.
+.
+
+3731;txt;01
+Neki sandboxovi ne mogu se zaustaviti.  Sadržaj sandboxa biti će obrisan.
+.
+
+3732;txt;01
+Trenutno nema datoteka za oporavak.
+.
+
+3733;txt;01
+Datoteka se ne može vratiti jer je ime odredišne mape predugo.
+Molim odaberite neku drugu odredišnu mapu.
+.
+
+3734;txt;01
+Za više opcija kliknite na popis mapa desnom tipkom miša
+.
+
+3735;txt;02
+Zamijeni sve datoteke bez dodatnih pitanja
+.
+
+3736;txt;01
+&Vrati && Pretraži
+.
+
+3737;txt;01
+&Vrati && Pokreni
+.
+
+3981;txt;01
+&Otvori mapu u Windows Exploreru izvan sandboxa
+.
+
+3982;txt;01
+Ukloni mapu sa liste
+.
+
+3983;txt;01
+Ukloni sve mape sa liste
+.
+
+3986;txt;01
+Log Oporavka
+.
+
+3987;txt;01
+Sljedeće datoteke su nedavno vraćene i premještene izvan sandboxova.
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control:  Program Settings
+#----------------------------------------------------------------------------
+
+3741;txt;01
+Programske Postavke
+.
+
+3742;txt;01
+Sandbox:
+.
+
+3743;txt;01
+Program:
+.
+
+3744;txt;01
+Pogledaj Stranicu 1
+.
+
+3745;txt;01
+Pogledaj Stranicu 2
+.
+
+3751;txt;01
+Pokretanje Programa
+.
+
+3752;txt;01
+Kad god se program pokrene izvan bilo kojeg sandboxa:
+.
+
+3753;txt;01
+Izdaj poruku upozorenja SBIE1301
+.
+
+3754;txt;01
+Forsiraj program da se izvršava u ovom sandboxu
+.
+
+3755;txt;01
+Zaustavljanje programa
+.
+
+3756;txt;01
+Zaustavi ovaj program ako odugovlači u sandboxu nakon što su drugi programi ugašeni
+.
+
+3757;txt;01
+Zaustavi druge programe nako što je ovaj vodeći program ugašen
+.
+
+3761;txt;01
+Internet Ograničenja
+.
+
+3762;txt;01
+Bilo koji program u sandboxu može se spojiti na Internet.
+.
+
+3763;txt;01
+Programi koji se mogu spojiti na Internet u ovom sandboxu:
+.
+
+3764;txt;01
+Omogući ograničenja i dopusti ovom programu da se spoji na Internet.
+.
+
+3765;txt;01
+Pokreni/Izvršavaj Ograničenja
+.
+
+3766;txt;01
+Svaki program se može pokrenuti u ovom sandboxu.
+.
+
+3767;txt;01
+Programi koji se mogu pokrenuti u ovom sandboxu:
+.
+
+3768;txt;01
+Omogući ograničenja i dopusti ovom programu pokretanje.
+.
+
+3769;txt;01
+(Nijedan)
+.
+
+3770;txt;01
+Nove postavke se ne odnose na sandboxani
+program koji je već pokrenut.  Postavke će biti
+primjenjene sljedeći put kada se program pokrene.
+.
+
+3771;txt;01
+(Ovo svojstvo je dostupno jedino u registriranoj verziji Sandboxie)
+.
+
+3772;txt;02
+Jeste li sigurni da želite postaviti %2 kao forsiran program?
+.
+
+3773;txt;02
+Jeste li sigurni da želite postaviti %2 kao forsiranu mapu?
+.
+
+# 3774;txt;02
+# Jeste li sigurni da želite postaviti %2 kao forsiranog korisnika?
+# .
+
+3775;txt;02
+Učinili ste promjenu koju vjerojatno neće biti lako vratiti.
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control:  Sandbox Settings
+#----------------------------------------------------------------------------
+
+3801;txt;01
+Sandbox Postavke - %2
+.
+
+3802;txt;01
+Ova stranica je namjerno ostavljena prazna
+.
+
+3803;txt;01
+Morate prihvatiti promjene na ovoj stranici prije nastavka.
+.
+
+3804;txt;01
+Prihvati promjene prilikom prebacivanja na drugo stranicu.
+.
+
+3805;txt;01
+Svi Programi
+.
+
+3806;txt;02
+Lista ispod odnosi se na
+.
+
+3807;txt;01
+Odaberite datoteku ili mapu za dodavanje na Pristup Datotekama listu izuzetaka.
+.
+
+3808;txt;01
+Dodaj Ime Resursa
+.
+
+3809;txt;01
+Uredi Ime Resursa
+.
+
+3551;txt;01
+(Svi programi osim %2)
+.
+
+3552;txt;01
+Obrni značenje trenutnog odabira
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control:  Sandbox Settings:  Appearance
+#----------------------------------------------------------------------------
+
+3811;txt;01
+Izgled
+.
+
+3812;txt;01
+Programi koji su pokrenuti pod nadzorom  Sandboxie pokazati će [#] indikator u naslovu prozora.
+.
+
+3813;txt;01
+Ako je sljedeća stavka omogućena, naslov prozora će pokazati i ime ovog sandboxa.
+.
+
+3814;txt;01
+Pokaži ime sandboxa u naslovu prozora
+.
+
+3815;txt;01
+Nemoj prikazati Sandboxie indikator u naslovu prozora
+.
+
+3816;txt;01
+Sandboxie može prikazati podebljan obrub oko prozora koji pripada sandboxiranom programu.
+.
+
+3817;txt;01
+Prikaži obrub prozora
+.
+
+3818;txt;01
+Kliknite za promjenu boje obruba
+.
+
+3819;txt;01
+Prikaži obrub samo kada pređem kursorom miša preko naslova prozora
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control:  Sandbox Settings:  Recovery
+#----------------------------------------------------------------------------
+
+# 3821;txt;01
+# Oporavak::Brzi Oporavak
+# .
+
+3821;txt;02
+Oporavak
+.
+
+3822;txt;01
+Brzi Oporavak
+.
+
+3823;txt;01
+Prije brisanja sadržaja sandboxa, ili kada se ručno pokrene funkcija Brzog Oporavka, sadržaj sljedećih mapa će biti pregledan.  Ako se pronađu bilo kakve datoteke, imat ćete priliku lako ih vratiti iz sandboxa.
+.
+
+# 3831;txt;01
+# Oporavak::Neposredni Oporavak
+# .
+
+3832;txt;01
+Neposredni Oporavak poboljšava Brzi Oporavak tako što automatski poziva funkciju oporavka čim se datoteke kreiraju.
+.
+
+3833;txt;01
+Omogući Neposredni Oporavak
+.
+
+3834;txt;01
+Sljedeće mape i vrste datoteka (ili ekstenzije datoteka) biti će isključene iz Neposrednog Oporavka.
+.
+
+3835;txt;01
+Dodaj &Tip
+.
+
+3836;txt;01
+Odaberite mapu za isključivanje iz Neposrednog Oporavka.
+.
+
+3837;txt;01
+Unesite vrstu datoteke (ili ekstenziju datoteke) za isključivanje iz Neposrednog Oporavka
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control:  Sandbox Settings:  Delete
+#----------------------------------------------------------------------------
+
+# 3841;txt;01
+# Brisanje::Pozivanje
+# .
+
+3841;txt;02
+Brisanje
+.
+
+3842;txt;01
+Pozivanje Brisanja
+.
+
+3843;txt;01
+Sadržaj ovoga sandboxa biti će automatski obrisan kada zadnji sandboxani program prestane sa izvođenjem.
+.
+
+3844;txt;01
+Automatski obriši sadržaj sandboxa
+.
+
+3845;txt;01
+Ako je neka od datoteka u sandboxu prikladna za oporavak, Brzi Oporavak biti će pozvan umjesto automatskog brisanja.
+.
+
+3846;txt;01
+Alternativno, ovaj sandbox može biti zaštićen od brisanja i premještanja, ručno i automatski, koje je pokrenuto od Sandboxie.
+.
+
+3847;txt;01
+Nikada ne briši ili premještaj sadržaj ovog sandboxa
+.
+
+# 3851;txt;01
+# Obriši::Naredba
+# .
+
+3852;txt;01
+Naredba Brisanja
+.
+
+3853;txt;01
+Za automatsko i ručno brisanje, sljedeća sistemska naredba koristit će se za brisanje sadržaja sandboxa.  Ako se ostavi prazno, zadana naredba je RMDIR (remove directory).
+.
+
+3854;txt;01
+Ako mijenjate ove postavke, uključite tekst "%%SANDBOX%%" (sa navodnicima).  Kada se naredba izvrši, ovaj tekst će biti zamjenjen sa lokacijom sandbox mape.
+.
+
+3855;txt;01
+Ili odaberite predodređenu naredbu brisanja:
+.
+
+3856;txt;01
+Naredba brisanja ne određuje "%%SANDBOX%%" (sa navodnicima).
+Jese li sigurni da želite prihvatiti ovu naredbu brisanja?
+.
+
+3857;txt;01
+Molim odaberite program - %2
+.
+
+#----------------------------------------------------------------------------
+# Program Groups
+#----------------------------------------------------------------------------
+
+3971;txt;01
+Programske Grupe
+.
+
+3972;txt;01
+Možete grupirati više programa zajedno i dati im grupno ime.  Programske grupe mogu se koristiti u nekim postavkama koje prihvaćaju nazive programa.
+.
+
+3974;txt;01
+Dodaj &Grupu
+.
+
+3975;txt;01
+Unesite naziv nove grupe
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control:  Sandbox Settings:  Forced Folders/Programs/Users
+#----------------------------------------------------------------------------
+
+# 3861;txt;01
+# Pokretanje Programa::Forsirane Mape
+# .
+
+3861;txt;02
+Pokretanje Programa
+.
+
+3862;txt;01
+Forsirane Mape
+.
+
+3863;txt;01
+Ako se neki program pokrene izvan sandboxa iz jedne od sljedećih mapa, biti će prisiljen da se izvršava unutar ovog sandboxa.  Ovo se ne odnosi na program koji je izričito pokrenut u drugom sandboxu.
+.
+
+3864;txt;01
+Možete prisiliti Windows CD/DVD AutoRun da se izvodi sandboxan, tako što će te uključiti slova vaših CD-ROM i DVD -ROM pogona u sljedeću listu.
+.
+
+3865;txt;01
+Forsirane Mape imaju prednost nad Forsiranim Programima.
+.
+
+3866;txt;01
+Odaberite mapu za dodavanje na lisu forsiranih mapa.
+.
+
+# 3871;txt;01
+# Pokretanje Programa::Forsirani Programi
+# .
+
+3872;txt;01
+Forsirani Programi
+.
+
+3873;txt;01
+Ako se neki od sljedećih programa pokrene izvan sandboxa, biti će prisiljen da se izvršava unutar ovog sandboxa.  Ovo se ne odnosi na program koji je izričito pokrenut u drugom sandboxu.
+.
+
+# 3961;txt;01
+# Pokretanje Programa::Forsirani Korisnici
+# .
+
+# 3962;txt;01
+# Forsirani Korisnici
+# .
+
+# 3963;txt;01
+# Ako se neki od sljedećih korisničkih računa logira na ovo računalo, cijela logon sesija biti će prisiljena na izvođenje u ovome sandboxu.
+# .
+
+# 3964;txt;01
+# Za brisanje sandboxa povezanog sa računom forsiranog korisnika, logirajte se u Windowse sa tim računom, i pomoću Sandboxie Upravitelja obrišite sandbox.
+# .
+
+# 3965;txt;01
+# Forsirani Korisnici ima prednost nad Forsiranim Programima i Forsiranim Mapama.
+# .
+
+#----------------------------------------------------------------------------
+# Sandboxie Control:  Sandbox Settings:  Linger/Leader Programs
+#----------------------------------------------------------------------------
+
+# 3881;txt;01
+# Zaustavljanje Programa::Odugovlačeći Programi
+# .
+
+3881;txt;02
+Zaustavljanje Programa
+.
+
+3882;txt;01
+Odugovlačeći Programi
+.
+
+3883;txt;01
+Sljedeći programi biti će automatski ugašeni ako se još izvode u ovom sandboxu, nakon što su svi ostali programi prestali sa izvođenjem.
+.
+
+# 3891;txt;01
+# Zaustavljanje Programa::Vodeći Programi
+# .
+
+3892;txt;01
+Vodeći Programi
+.
+
+3893;txt;01
+Sljedeći programi smatraju se glavnim programima u ovom sandboxu.  Gašenje ovih programa prouzorčit će prestanak rada svih ostalih programa koji se još izvode u ovom sandboxu.
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control:  Sandbox Settings:  File Migration
+#----------------------------------------------------------------------------
+
+3901;txt;01
+Migracija Datoteka
+.
+
+3903;txt;01
+Datoteke moraju migrirati (biti kopirane) u sandbox prije negoli budu uređivane od programa koji se izvode u tom sandboxu.  Međutim, za velike datoteke, proces migracije dugo traje.
+.
+
+3904;txt;01
+Sljedeći broj  određuje maksimalnu veličinu migracijske datoteke.  Datoteke veće od te vrijednosti nikada neće migrirati unutar sandboxa, i neće moći biti uređivane od programa koji su pokrenuti u tom sandboxu.
+.
+
+3905;txt;01
+Nemoj migrirati datoteke veće od
+.
+
+3906;txt;01
+kilobajta
+.
+
+3907;txt;01
+Kada je datoteka prevelika za migraciju, biti će prikazana poruka SBIE2102, osim ako je sljedeća opcija omogućena.
+.
+
+3908;txt;01
+Nemoj prikazivati poruku kada je datoteka prevelika za migraciju
+.
+
+3909;txt;01
+Postavka Migracija Datoteka ograničava maksimalnu veličinu datoteke koja može biti kopirana u sandbox.
+
+Ova postavka je trenutno postavljena na %3 kilobajta u sandboxu '%2'.
+
+Kliknite U Redu da bi ste prilagodili ograničenje veličine na %4 kilobajta.
+
+Ovo ograničenje možete promjeniti također i otvarajući prozor Sandbox Postavki, i proširivanjem stranice postavki Migracija Datoteka.
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control:  Sandbox Settings:  Internet/Start Restrictions
+#----------------------------------------------------------------------------
+
+# 3911;txt;01
+# Ograničenja::Pristup Internetu
+# .
+
+3911;txt;02
+Ograničenja
+.
+
+3912;txt;01
+Pristup Internetu
+.
+
+3913;txt;01
+Sljedeći programi biti će jedini programi u ovom sandboxu koji mogu pristupiti internetu.
+.
+
+3914;txt;01
+Kada je ovo svojstvo omogućeno, programi koji su instalirani (ili preuzeti) u ovaj sandbox nikada neće imati dozvolu pristupa internetu, čak i kada im se naziv podudara sa programima naznačenima gore.
+.
+
+3915;txt;01
+Prikaži poruku SBIE%2 kada je pristup zabranjen
+.
+
+3916;txt;01
+&Blokiraj Sve Programe
+.
+
+3917;txt;01
+&Dopusti Svim Programima
+.
+
+3918;txt;01
+Svi programi mogu pristupiti Internetu
+.
+
+3919;txt;01
+Niti jedan program ne može pristupiti Internetu
+.
+
+3920;txt;01
+Ograničenja Pristupa Internetu omogućena su u sandboxu '%2', i sprječavaju ovom programu pristup Internetu.
+
+Kliknite U Redu za dodavanje programa '%3' u Ograničenja Pristupa Internetu u sandboxu '%2'.
+
+Za upravljanje Ograničenja Pristupa Internetu, otvorite Sandbox Postavke prozor, i proširite Postavke Ograničenja grupu.
+.
+
+# 3921;txt;01
+# Ograničenja::Pristup Pokretanju/Izvođenju
+# .
+
+3922;txt;01
+Pristup Pokretanju/Izvođenju
+.
+
+3923;txt;01
+Sljedeći programi biti će jedini programi u ovom sandboxu koji se mogu pokretati i izvoditi.
+.
+
+3924;txt;01
+Kada je ovo svojstvo omogućeno, programima koji su instalirani (ili preuzeti) u ovaj sandbox nikada neće biti dopušteno pokretanje i izvođenje, čak i kada im se naziv podudara sa programima naznačenima gore.
+.
+
+3928;txt;01
+Svi programi se mogu pokrenuti i zvoditi
+.
+
+3930;txt;01
+Ograničenja Pristupa Pokretanju/Izvođenju su omogućene u sandboxu '%2', i sprječavaju ovom programu pokretanje i izvođenje.
+
+Kliknite U Redu za dodavanje programa '%3' u Ograničenja Pristupa Pokretanju/Izvođenju u sandboxu '%2'.
+
+Za upravljanje Ograničenjima Pristupa Pokretanju/Izvođenju, otvorite prozor Sandbox Postavke, i proširite grupu Postavke Ograničenja.
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control:  Sandbox Settings:  Low Level Access / Hardware Access
+#----------------------------------------------------------------------------
+
+# 3931;txt;01
+# Ograničenja::Pristup Niže Razine
+# .
+
+# 3932;txt;01
+# Pristup Niže Razine
+# .
+
+# 3933;txt;01
+# Sljedeće postavke će oslabiti zaštitu koju pruža Sandboxie.  Omogućavanje bilo koje ili svih postavki nije preporučljivo.
+# .
+
+# 3934;txt;01
+# Dozvoli programima da učitaju drajvere jezgre u operacijski sustav
+# .
+
+# 3935;txt;01
+# Dozvoli programima da učitaju aplikacijske (Win32) udice u druge programe
+# .
+
+# 3936;txt;01
+# Dozvoli programima da simuliraju unos tipkovnice i miša
+# .
+
+# 3937;txt;01
+# Dozvoli programima da mijenjaju desktop pozadinu i ostale sistemske parametre
+# .
+
+# 3938;txt;01
+# Dozvoli programima da barataju konfiguracijom hardverskih uređaja
+# .
+
+# 3951;txt;01
+# Ograničenja::Pristup Hardveru
+# .
+
+# 3952;txt;01
+# Pristup Hardveru
+# .
+
+# 3953;txt;01
+# Dozvoli programima promjenu lozinke korisničkog računa
+# .
+
+# 3954;txt;01
+# Dozvoli programima da mijenjaju parametre mreže i vatrozida
+# .
+
+#----------------------------------------------------------------------------
+# Sandboxie Control:  Sandbox Settings:  Drop Rights
+#----------------------------------------------------------------------------
+
+# 3941;txt;01
+# Ograničenja::Smanjivanje Ovlasti
+# .
+
+3942;txt;01
+Smanjivanje Ovlasti
+.
+
+3943;txt;01
+Sandboxie mora ukinuti samo par sigurnosnih ovlasti za programe koje nadgleda da bi mogao garantirati izolaciju.
+.
+
+3944;txt;01
+Međutim, ako koristite administartorski ili power user korisnički račun, Sandboxie može onemogućiti još sigurnosnih ovlasti, slično efektu DropMyRights alata.
+.
+
+3945;txt;01
+Smanjivanje Ovlasti iz Administratorske i Power Users grupe
+.
+
+# 3946;txt;01
+# Preporučeno je da ove postavke budu omogućene, kao kompenzacija za neke mjere Sandboxie sigurnosti  koje nisu dostupne u 64-bitnoj verziji Windowsa.
+# .
+
+# 3947;txt;01
+# Za aktiviranje napredne zaštite na 64-bitnim Windowsima, molim koristite naredbu 
+# Eksperimentalna Zaštita sa izbornika Konfiguriraj.
+# .
+
+3949;txt;01
+Stavka Smanjivanje Ovlasti je omogućena u sandboxu '%2', I spriječava korištenje Administratorskih Privilegija.
+
+Kliknite U Redu za onemogućavanje stavke Smanjivanje Ovlasti u sandboxu '%2', i dozvolu korištenja Administratorskih privilegija u sandboxu.
+
+Uvijek možete promjeniti postavke Smanjivanje Ovlasti tako što ćete otvoriti prozor Sandbox Postavki, i proširiti grupu Postavke Ograničenja.
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control:  Sandbox Settings:  Resource Access
+#----------------------------------------------------------------------------
+
+4001;txt;01
+Pristup Resursima::Pristup Datotekama::Direktan Pristup
+.
+
+4002;txt;01
+Datoteke sa Direktnim Pristupom (OpenFilePath)
+.
+
+4003;txt;01
+Programi pokrenuti u sandboxu moći će direktno pristupiti sljedećim datotekama i mapama, bez ikakvog efekta sandboxinga.
+.
+
+4004;txt;01
+Ovo se ne odnosi na programe koji su instalirani ili preuzeti u sandbox.
+Pogledajte još:  Puni Pristup postavke.
+.
+
+4011;txt;01
+Pristup Resursima::Pristup Datotekama::Puni Pristup
+.
+
+4012;txt;01
+Datoteke sa Punim Pristupom (OpenPipePath)
+.
+
+4013;txt;01
+Programi pokrenuti u sandboxu moći će direktno pristupiti sljedećim datotekama i mapama, bez ikakvog efekta sandboxinga.
+.
+
+4014;txt;01
+Za razliku od stavke Direktni Pristup, ove postavke odnose se na sve programe, uključujući i one koji su instalirane ili preuzeti u sandbox.
+.
+
+4021;txt;01
+Pristup Resursima::Pristup Datotekama::Blokiran Pristup
+.
+
+4022;txt;01
+Datoteke sa Blokiranim Pristupom (ClosedFilePath)
+.
+
+4023;txt;01
+Sljedeće datoteke i mape neće biti dostupne ni na koji način programima pokrenutim u sandboxu.
+.
+
+4024;txt;01
+Ako datoteka ili mapa zadovoljava bilo koji od uvijeta u Pristup Datotekama, ali istovremeno zadovoljava uvijet Blokiran Pristup, Blokiran Pristup će imati prednost.
+.
+
+4025;txt;01
+Windows dijeljenje datoteka može se koristiti za zaobilaženje postavki Blokiranog Pristupa.
+Stoga je dodana stavka za blokiranje servisa dijeljenja datoteka.
+.
+
+4031;txt;01
+Pristup Resursima::Pristup Datotekama::Čitaj-samo Pristup
+.
+
+4032;txt;01
+Datoteke sa Čitaj-samo Pristupom (ReadFilePath)
+.
+
+4033;txt;01
+Sljedeće datoteke i mape neće biti moguće uređivati od strane programa pokrenutih u sandboxu.
+.
+
+4111;txt;01
+Pristup Resursima::Pristup Datotekama::Piši-samo Pristup
+.
+
+4112;txt;01
+Datoteke sa Piši-samo Pristupom (WriteFilePath)
+.
+
+4113;txt;01
+Sljedeće mape će se prikazati praznima programima pokrenutim u sandboxu, ali programi će moći kreirati nove datoteke unutar ovih mapa u sandboxu.
+.
+
+4041;txt;01
+Pristup Resursima::Pristup Registru::Direktan Pristup
+.
+
+4042;txt;01
+Direktan Pristup Registru (OpenKeyPath)
+.
+
+4043;txt;01
+Sljedeći klučevi registra biti će direktno dostupni programima pokrenutim u ovom sandboxu, bez ikakvog efekta sandboxinga.
+.
+
+4044;txt;01
+Ovo se ne odnosi na programe koji su instalirani ili skinuti u sandbox.
+.
+
+4051;txt;01
+Pristup Resursima::Pristup Registru::BloKiran Pristup
+.
+
+4052;txt;01
+Blokiran Pristup Registru (ClosedKeyPath)
+.
+
+4053;txt;01
+Sljedeći klučevi registra nikako neće biti dostupni programima pokrenutim u ovom sandboxu.
+.
+
+4054;txt;01
+Ako se ključ registra poklapa sa nekom od postavki Pristupa Registru, ali se također poklapa sa postavkama Blokiran Pristup Registru, postavke Blokiranog Pristupa će imati prevlast.
+.
+
+4061;txt;01
+Pristup Resursima::Pristup Registru::Čitaj-samo Pristup
+.
+
+4062;txt;01
+Čitaj-samo Pristup Registru (ReadKeyPath)
+.
+
+4063;txt;01
+Sljedeći ključevi registra neće se moći uređivati od programa pokrenutim u ovom sandboxu.
+.
+
+4121;txt;01
+Pristup Resursima::Pristup Registru::Piši-samo Pristup
+.
+
+4122;txt;01
+Piši-samo Pristup Registru (WriteKeyPath)
+.
+
+4123;txt;01
+Sljedeći ključevi registra prikazati će se praznima za sve programe koji se izvršavaju u ovom sandboxu, ali programi mogu upisivati nove podatke unutar tih ključeva u sandboxu.
+.
+
+4071;txt;01
+Pristup Resursima::IPC Pristup::Direktan Pristup
+.
+
+4072;txt;01
+Direktan IPC Pristup (OpenIpcPath)
+.
+
+4073;txt;01
+Sljedeći NT IPC objekti biti će direktno pristupačni programima pokrenutim u ovom sandboxu, bez ikakvog efekta sandboxinga.
+.
+
+4074;txt;01
+Ove postavke odnose se na sve programe, uključujući one koji su instalirani ili  skinuti u sandbox.
+.
+
+4081;txt;01
+Pristup Resursima::IPC Pristup::Blokiran Pristup
+.
+
+4082;txt;01
+Blokiran IPC Pristup (ClosedIpcPath)
+.
+
+4083;txt;01
+Sljedećim NT IPC objekti neće nikako biti dostupni programima pokrenutim u ovom sandboxu.
+.
+
+4084;txt;01
+Ako se NT IPC objekt podudara sa bilo kojom postavkom iz IPC Pristup, ali se podudara i sa nekom od postavki iz Blokiran Pristup, stavka Blokiran Pristup će prevladati.
+.
+
+4091;txt;01
+Pristup Resursima::Pristup Prozoru
+.
+
+4092;txt;01
+Pristup Prozoru (OpenWinClass)
+.
+
+4093;txt;01
+Sandboxani programi ne mogu komunicirati sa prozorima koji pripadaju programima pokrenutima izvan sandboxa, osim ako je prozor kreiran sa jednom od sljedećih klasa.
+.
+
+4101;txt;01
+Pristup Resursima::COM Pristup
+.
+
+4102;txt;01
+COM Pristup (OpenClsid)
+.
+
+4103;txt;01
+Sandboxani programi ne mogu komunicirati sa COM objektima koji pripadaju programima pokrenutima izvan sandboxa, osim ako se ID COM klase ne podudara sa jednim od sljedećih ID-ova.
+.
+
+#----------------------------------------------------------------------------
+# Applications - General
+#----------------------------------------------------------------------------
+
+4201;txt;01
+Aplikacije
+.
+
+4202;txt;01
+&Pregled Koda
+.
+
+4203;txt;01
+Otvori &Web Stranicu
+.
+
+4204;txt;01
+Kreiraj &Novo
+.
+
+4205;txt;01
+Ova konfiguracija aplikacije ne uključuje web adresu.
+.
+
+4206;txt;01
+Razno
+.
+
+4207;txt;01
+Unaprijedite korištenje Sandboxie sa vašim ostalim aplikacijama selektirajući ih na listi ispod.
+.
+
+# 4208;txt;01
+# Aplikacije::Mape
+# .
+
+4209;txt;01
+Mape
+.
+
+4210;txt;01
+Konfigurirajte lokacije mapa koje koriste vaše ostale aplikacije.
+.
+
+4211;txt;01
+Odaberite mapu za
+.
+
+4212;txt;01
+Zadana lokacija:
+.
+
+4213;txt;01
+Rezervna lokacija:
+.
+
+4214;txt;02
+Rezervna lokacija za '%2'
+trebala bi sadržavati sljedeću datoteku:
+
+%3
+
+Odabrana lokacija ne sadrži dotičnu datoteku.
+
+Molim odaberite mapu koja sadrži dotičnu datoteku.
+.
+
+4215;txt;01
+Odaberite mapu korištenu za %2.
+.
+
+4216;txt;01
+Postavke ispod čine konfiguraciju aplikacije '%2'.
+.
+
+4217;txt;01
+Upišite ili zalijepite postavke, zatim kliknite U Redu za kreiranje nove lokalne konfiguracije aplikacije.
+.
+
+4218;txt;01
+Lokalno
+.
+
+4219;txt;01
+Vaše lokalne (neslužbene) konfiguracije aplikacija.
+.
+
+4220;txt;01
+Uneseni kod sadrži jednu ili više grešaka.
+Nije moguće kreirati konfiguraciju aplikacije.
+.
+
+4221;txt;01
+Za određivanje lokacije mapa za vaše aplikacije, pogledajte stranicu Mape.
+.
+
+4222;txt;02
+Ove postavke ne mogu biti uređivane ili uklonjene iz razloga što su
+dio konfiguracije aplikacije:
+
+%2
+
+Za uklanjanje konfiguracije aplikacije iz sandboxa,
+pogledajte stranicu Aplikacije u prozoru Sandbox Postavke.
+.
+
+4223;txt;01
+Lokalna konfiguracija aplikacije '%2' je sada uklonjena u svim sandboxovima.
+Želite li potpuno obrisati ovu konfiguraciju aplikacije?
+.
+
+4224;txt;01
+PDF/Ispis
+.
+
+4226;txt;02
+Sigurnost/Privatnost
+.
+
+4228;txt;01
+Desktop Alati
+.
+
+4230;txt;01
+Download Manadžeri
+.
+
+4288;txt;01
+Sve Aplikacije
+.
+
+4289;txt;01
+Lista svih konfiguracija aplikacija, poredana alfabetski.  Lista ne uključuje vaše lokalne (neslužbene) konfiguracije aplikacija.
+.
+
+4291;txt;01
+Zadane iznimke za Neposredni Oporavak
+.
+
+4292;txt;01
+Zadana lista Odugovlačećih Programa
+.
+
+4293;txt;01
+Zadana lista blokiranih TCP/IP portova
+.
+
+4294;txt;01
+Dopustite programima da osvježe skočnu listu na Windows taskbaru
+.
+
+#----------------------------------------------------------------------------
+# Applications - Software Compatibility
+#----------------------------------------------------------------------------
+
+4251;txt;01
+Softverska Kompatibilnost
+.
+
+4252;txt;01
+Sandboxie je detektirao sljedeće aplikacije u vašem sistemu.
+.
+
+4253;txt;01
+kliknite U Redu za prihvat konfiguracijskih postavki koje će poboljšati kompatibilnost sa tim aplikacijama.
+.
+
+4254;txt;01
+Ove postavke konfiguracije imati će efekt u svim postojećim i u svim novo kreiranim sandboxovima.
+.
+
+4255;txt;01
+Ubuduće, nemoj provjeravati softversku kompatibilnost
+.
+
+4256;txt;01
+Ova konfiguracija aplikacije ne može biti uklonjena jer se odnosi na sve sandboxove.
+Za uklanjanje ove konfiguracije aplikacije, koristite alat Softverska Kompatibilnost sa izbornika Kofiguriraj.
+.
+
+4257;txt;01
+Ukloni &Stare Postavke
+.
+
+4258;txt;01
+Sljedeće postavke kompatibilnosti se više ne koriste:
+
+%2
+
+Kliknite U Redu za odbacivanje ovih postavki kompatibilnosti.
+.
+
+4451;txt;01
+Sandboxie je detektirao sljedeće konfliktne aplikacije u vašem sustavu.  
+Te aplikacije mogu narušiti uspješno izvođenje Sandboxie.
+
+%2
+
+Molim pogledajte dio Poznati Konflikti na Sandboxie
+web stranici za više informacija i riješenje.
+
+Želite li otvoriti web stranicu Poznati Konflikti?
+.
+
+4452;txt;01
+&Poznati Konflikti
+.
+
+#----------------------------------------------------------------------------
+# Lock Configuration
+#----------------------------------------------------------------------------
+
+4261;txt;01
+Zaključaj Konfiguraciju
+.
+
+4262;txt;01
+Sandboxie može zaštititi globalnu konfiguraciju i Sandbox Postavke od neovlaštenih preinaka.  Odaberite načine zaštite.
+.
+
+4263;txt;01
+Samo &Administrator korisnički računi mogu raditi preinake
+.
+
+4264;txt;01
+&Lozinka mora biti unesena da bi se radile preinake
+.
+
+4265;txt;01
+&Zaboravi lozinku kada prozor Sandboxie Upravitelja postane skriven
+.
+
+4266;txt;01
+&Promjeni Lozinku
+.
+
+4267;txt;01
+Samo Administrator korisnički računi mogu koristiri &Onemogući Forsirane Programe naredbu
+.
+
+4269;txt;01
+Molim da razmotrite čitanje Sandboxie dokumentacije vezano za zaštitu konfiguracije.  Želite li otvoriti dokumentaciju sada?
+.
+
+4271;txt;01
+Sandboxie konfiguracija je zaštićena lozinkom.  Molim unesite lozinku.
+.
+
+4272;txt;01
+Unesite novu lozinku sa kojom će te zaštititi Sandboxie konfiguraciju.
+.
+
+4273;txt;01
+Unesite istu lozinku ponovo za potvrdu.
+.
+
+4274;txt;01
+Unesena pogrešna lozinka.  Ponoviti?
+.
+
+#----------------------------------------------------------------------------
+# Program Selector
+#----------------------------------------------------------------------------
+
+4281;txt;01
+Odaberite ime programa
+.
+
+4282;txt;01
+Odaberite ime programa ili programsku grupu
+.
+
+4283;txt;01
+Programi koji su nedavno pokrenuti
+.
+
+4284;txt;01
+Programi koji se pojavljuju u Sandbox Postavkama
+.
+
+4285;txt;01
+Programske Grupe
+.
+
+4286;txt;01
+Odaberite ili &unesite program:
+.
+
+4287;txt;01
+Otvori / Odaberi &Datoteku
+.
+
+#----------------------------------------------------------------------------
+# Applications - Accessibility
+#----------------------------------------------------------------------------
+
+# 4301;txt;01
+# Aplikacije::Olakšan Pristup
+# .
+
+4302;txt;01
+Olakšan Pristup
+.
+
+4303;txt;01
+Sljedeće postavke omogućuju korištenje Sandboxie u kombinaciji sa softverom za olakšan pristup.  Budite svjesni da će neke mjere iz Sandboxie zaštite biti neizbježno izgubljene kada ove postavke stupe na snagu.
+.
+
+4304;txt;01
+Za nadoknadu gubitka zaštite, pogledajte stavku Smanjivanje Ovlasti u grupi postavki Ograničenja.
+.
+
+4305;txt;03
+Čitači Zaslona:  %2
+.
+
+#----------------------------------------------------------------------------
+# Applications - Web Browser and Email Reader
+#----------------------------------------------------------------------------
+
+4321;txt;01
+Web Preglednik
+.
+
+4322;txt;01
+Sljedeće iznimke dozvoljavaju Web preglednicima pokrenutim u sandboxu da učine preinake izvan sandboxa, gubeći sa time malo na sigurnosti i privatnosti u zamjenu za veću udobnost korištenja.
+.
+
+4323;txt;01
+Forsiraj %2 da se pokreće u ovom sandboxu
+.
+
+4324;txt;02
+Dopusti direktan pristup za %2 sinkronizaciju podataka
+.
+
+4325;txt;02
+Dopusti direktan pristup za %2 tekuće novosti
+.
+
+4326;txt;02
+Dopusti direktan pristup za %2 favorite
+.
+
+4327;txt;01
+Dodaj Internet Explorer favorite u mape Brzog Oporavka 
+.
+
+4328;txt;01
+Dopusti direktan pristup za %2 kolačiće
+.
+
+4329;txt;01
+Sačuvaj izvan sandboxa:  Povijest pretraga i pokrenutih naredbi
+.
+
+4330;txt;01
+Sačuvaj izvan sandboxa:  Korisničke informacije za Hotmail i Messenger
+.
+
+4331;txt;01
+Dopusti direktan pristup za %2 lozinke
+.
+
+4336;txt;02
+Dopusti direktan pristup za %2 oznake i povijest
+.
+
+4337;txt;02
+Dopusti direktan pristup za %2 phishing bazu
+.
+
+4338;txt;02
+Dopusti direktan pristup za cijelu %2 mapu profila
+.
+
+4339;txt;02
+Dopusti direktan pristup za %2 postavke
+.
+
+4340;txt;01
+Dopusti direktan pristup za %2 upravljanje sesijama
+.
+
+4356;txt;02
+Dopusti direktan pristup za %2 oznake
+.
+
+4357;txt;02
+Ostalo
+.
+
+4358;txt;02
+Dodaci
+.
+
+4391;txt;01
+Email Čitač
+.
+
+4392;txt;01
+Sljedeće iznimke dozvoljavaju Email čitaču pokrenutom u sandboxu pristup datotekama sandučića izvan sandboxa.
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control:  Sandbox Settings:  User Accounts
+#----------------------------------------------------------------------------
+
+5101;txt;01
+Korisnički Računi
+.
+
+5102;txt;01
+Dodajte korisničke račune i korisničke grupe na listu ispod da biste ograničili korištenje sandboxa na samo te račune.  Ako je lista prazna, sandbox mogu koristiti svi.
+.
+
+5103;txt;01
+Napomena:  Stavke Forsirani Programi i Forsirane Mape za sandbox ne odnose se na korisnički račun koji ne može koristiti sandbox.
+.
+
+# 5105;txt;01
+# Dodaj &Korisnika
+# .
+
+5107;txt;01
+Vašem korisničkom računu  sada je zabranjeno koristiti ovaj sandbox, i
+sandbox će biti uklonjen sa popisa vidljivih u glavnom prozoru.
+
+Da biste sandbox učinili vidljivim i korisnim, koristite "Otkrij Skriveni Sandbox"
+naredbu sa Sandbox izbornika.
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control:  Otkrij Skriveni Sandbox
+#----------------------------------------------------------------------------
+
+5122;txt;01
+Vaš korisnički račun ne može koristiti bilo koji od sandboxova izlistanih ispod.
+.
+
+5123;txt;01
+Sljedeći korisnički računi imaju dozvolu da koriste selektirani sandbox.
+.
+
+5124;txt;01
+Kliknite U Redu kako biste dodali vaš korisnički račun '%2' u sandbox i da se sandbox pojavljuje u glavnom prozoru.
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control:  Set Layout and Groups
+#----------------------------------------------------------------------------
+
+5142;txt;01
+Rasporedite sandboxove u grupe i uredite poredak po kojem su izlistani.  Koristite kontekstni izbornik desnog klika za uređivanje unosa u stablu ispod.
+.
+
+5143;txt;01
+(Vrh)
+.
+
+5145;txt;01
+&Vrati Zadani Raspored
+.
+
+5146;txt;01
+Ubaci &Grupu
+.
+
+5147;txt;01
+&Preimenuj
+.
+
+5148;txt;01
+&Obriši
+.
+
+5151;txt;01
+&Premjesti
+.
+
+5152;txt;01
+Premjesti &Gore
+.
+
+5153;txt;01
+Premjesti &Dolje
+.
+
+5154;txt;01
+Premjesti &U
+.
+
+#----------------------------------------------------------------------------
+# Getting Started Wizard
+#----------------------------------------------------------------------------
+
+7850;txt;01
+Tutorijal za početnike - Sandboxie
+.
+
+7851;txt;01
+Započinjanje sa Sandboxie
+.
+
+7852;txt;01
+Dobrodošli u Sandboxie!
+
+Sandboxie pokreće vaše programe u izoliranom prostoru i spriječava ih da učine trajne promjene na ostalim programima i podacima u vašem računalu.
+
+Ovaj tutorijal ukratko objašnjava osnovne principe Sandboxie.
+.
+
+7853;txt;01
+Napomena: Ovaj tutorijal je dizajniran za korištenje za zadanim sandboxom, DefaultBox.
+.
+
+7854;txt;01
+Kako Sandboxie radi (ilustracija)
+.
+
+7855;txt;01
+Pokrenite svoj Internet Web preglednik u Sandboxie
+.
+
+7856;txt;01
+Pronađite prečac na vašem desktopu i dvoklikom pokrenite vaš Web preglednik u zadanom sandboxu, DefaultBox.
+.
+
+7857;txt;01
+Kliknite ovdje za skrivanje ovog prozora i prikaz desktopa
+.
+
+7858;txt;01
+Vaš preglednik se sada izvršava u sandboxu
+.
+
+7859;txt;01
+Programi u sandboxu mogu izmjeniti samo sadržaj sandboxa.
+
+Kada spremate ili skidate datoteke, one idu u sandbox. Ako spremite datoteku na vaš Desktop, u Documents ili Downloads mapu, Sandboxie će vam ponuditi premještanje datoteke izvan sandboxa.
+
+Pokušajte sad: Preuzmite datoteku sa vašim preglednikom na desktop (u sandboxu), i prebacite datoteku na vaš stvarni desktop.
+.
+
+7860;txt;01
+Obrišite sadržaj vašeg sandboxa
+.
+
+7861;txt;01
+Možete zamisliti sandbox kao komad prozirnog papira postavljenog između programa i vašeg računala. Brisanje sadržaja sandboxa je poput odbacivanja korištenog papira i njegova zamjena sa novim i čistim.
+.
+
+7862;txt;01
+Pokušajte sad: Izbrišite sadržaj vašeg DefaultBox sandboxa. Pronađite žutu ikonu Sandboxie u označenom kutu na vašem ekranu, i kliknite:
+.
+
+7863;txt;01
+Desni-klik na žutu Sandboxie ikonu,
+
+odaberite DefaultBox, i pozovite Obriši Sadržaj.
+.
+
+7864;txt;01
+Spremni!
+.
+
+7865;txt;01
+Hvala vam što ste pronašli vremena za prolazak kroz ovaj tutorijal. Za više savjeta i tutorijala posjetite Sandboxie web stranicu.
+
+Zadane postavke u Sandboxie pružaju punu zaštitu, a ako želite možete pregledati i urediti konfiguracijske naredbe pojedinog sandboxa u Sandbox izborniku u prozoru Sandboxie Upravitelja.
+.
+
+7866;txt;01
+Na 64-bitnim Windows sistemima, trebali bi ste omogućiti Experimentalnu zaštitu. Pogledajte izbornik Konfiguriraj u Sandboxie Upravitelju.
+.
+
+#----------------------------------------------------------------------------
+# License Manager
+#----------------------------------------------------------------------------
+
+7901;txt;01
+Sandboxie Licencni Upravitelj
+.
+
+7902;txt;01
+Sistemski Kod %2
+.
+
+7903;txt;01
+Ubuduće, aktiviraj licencu bez pitanja
+.
+
+#----------------------------------------------------------------------------
+
+7921;txt;01
+Sandboxie je registriran i licenca je aktivirana.
+.
+
+7922;txt;01
+Sandboxie je registriran ali bi trebalo reaktivirati licencu.
+.
+
+# was 3603;txt;01
+7923;txt;01
+Neregistrirana kopija.  Registrirajte danas!
+.
+
+7924;txt;01
+Licencu za Sandboxie trebat će reaktivirati za %2 dana.
+.
+
+7925;txt;01
+Licenca za Sandboxie je sada aktivirana.
+.
+
+7926;txt;01
+Datum isteka vašeg Ključ Proizvoda je %2.
+.
+
+7927;txt;01
+Vaš Ključ Proizvoda nema datum isteka.
+.
+
+#----------------------------------------------------------------------------
+
+7931;txt;01
+Vaša kopija Sandboxie je registrirana sa zastarijelim Registrcijskim Ključem.
+.
+
+7932;txt;01
+Molim dozvolite Licencnom Upravitelju spajanje na Licencni Server i nadogradite svoj stari Registracijski Ključ na novi Ključ Proizvoda.  Neće Vam biti naplaćene nikakve naknade za tu nadogradnju.
+.
+
+7933;txt;01
+Vaš Registracijski Ključ nije prepoznat od Licencnog Servera.
+.
+
+7934;txt;01
+Ako ste koristili legitiman Registracijski Ključ, za koji ste platili, ili koji vam je dan kao poklon, ili kao dio promocije, tada molim pošaljite email na:
+.
+
+7935;txt;01
+Vaš novi Ključ Proizvoda je:
+.
+
+7936;txt;01
+Molim spremite ovaj Ključ Proizvoda na sigurno mjesto.  Koristite gumb ispod da biste kopirali vaš Ključ Proizvoda u međuspremnik, iz kojeg ga možete zalijepiti u dokument i isprintati.
+.
+
+7937;txt;01
+&Nadogradite Registracijski Ključ na Ključ Proizvoda
+.
+
+#----------------------------------------------------------------------------
+
+# was 3612;txt;01
+7941;txt;01
+Sandboxie registarcija se vrši kroz platni sustav treće strane.  Započnite registracijski proces tako što će te posjetiti Sandboxie web stranicu na linku ispod.
+.
+
+7942;txt;01
+Da biste aktivirali licencu za Sandboxie, unesite Ključ Proizvoda koji se pojavljuje na priznanici za plaćanje, i nakon toga kliknite gumb za aktivaciju.
+.
+
+7943;txt;01
+Želite li unijeti novi Ključ Proizvoda?
+.
+
+7944;txt;01
+&Aktiviraj Licencu
+.
+
+# was first line of 3617;txt;01
+7945;txt;01
+Vaša Sandboxie kopija je sada registrirana.
+.
+
+# was second line of 3617;txt;01
+7946;txt;01
+Hvala Vam što podržavate Sandboxie!
+.
+
+#----------------------------------------------------------------------------
+
+7951;txt;01
+Želite li aktivirati licencu?
+.
+
+7952;txt;01
+Molim vas posjetite Sandboxie web stranicu na linku ispod radi narudžbe novog Ključa Proizvoda.
+.
+
+7961;txt;01
+Obriši Licencne &Informacije
+.
+
+7962;txt;01
+Jeste li sigurni da želite obrisati licencne informacije u Sandboxie-u?
+
+Možete aktivirati svoju licencu bilo kada unosom Ključa Proizvoda.
+.
+
+#----------------------------------------------------------------------------
+
+7971;txt;01
+Ovo nije valjani Ključ Proizvoda.
+.
+
+7972;txt;01
+Ovo nije valjani System Code.
+.
+
+7973;txt;01
+Ovo nije valjani Activation Key.  [%2]
+.
+
+7974;txt;01
+Pogrešan odgovor Licencnog Servera.
+.
+
+7975;txt;01
+Aktivacij produkta neuspješna:
+.
+
+7976;txt;01
+Želite li ponovo pokušati?
+.
+
+7977;txt;01
+Ako želite aktivirati Sandboxie na računalu koje nema pristup Internetu,
+molim pogledajte Sandboxie Licencne FAQ informacije za Offline Aktivaciju.
+.
+
+7978;txt;01
+Trenutni datum (%2) je stariji od datuma poslanog od Licencnog Servera (%3).
+.
+
+7982;txt;01
+Licencni Server nije odredio razlog neuspjela aktivacije.
+.
+
+7983;txt;01
+Ključ Proizvoda nije prepoznat od Licencnog Servera.
+.
+
+7984;txt;01
+Ključ Proizvoda ne može se koristiti nakon isteka datuma %2.
+.
+
+7985;txt;01
+Ključ Proizvoda je aktiviran na previše računala.
+.
+
+7986;txt;01
+Ključ Proizvoda je poništen zbog javnog objavljivanja na Internetu.
+.
+
+7987;txt;01
+Ključ Proizvoda je poništen jer je narudžba otkazana.
+.
+
+#----------------------------------------------------------------------------
+# SandboxieInstall
+#----------------------------------------------------------------------------
+
+8001;ins;01
+Odaberite Tip Instalacije
+.
+
+8002;ins;01
+Odaberite Nadogradnju ili Deinstalaciju.
+.
+
+8003;ins;01
+Početak
+.
+
+8004;ins;01
+Imate već postojeću instalaciju Sandboxie u sljedećoj mapi:
+.
+
+8005;ins;01
+Molim odaberite za nastavak:
+.
+
+8006;ins;01
+Nadogradite postojeću instalaciju
+.
+
+8007;ins;01
+Deinstalirajte (uklonite) postojeću instalaciju i postavke
+.
+
+8008;ins;01
+Kliknite Početak kada ste spremini za nastavak.
+.
+
+8009;ins;01
+Prije deinstalacije, koristite Sandboxie Upravitelj za brisanje sadržaja sandboxa.
+.
+
+8010;ins;01
+Instalacija Drajvera
+.
+
+8011;ins;01
+Molim vas pregledajte donje informacije.
+.
+
+8012;ins;01
+Kliknite Dalje za instalaciju i aktivaciju Sandboxie sistemskog drajvera.  Ovaj drajver je srž  Sandboxie aplikacije.
+.
+
+8013;ins;01
+Možda će biti potrebno privremeno onemogućiti programe za zaštitu sistema ako su pokrenuti, koji bi mogli spriječiti instalaciju drajvera na sistemskoj razini.
+.
+
+8014;ins;02
+Ako ovaj korak bude neuspješan i vaše računalo se zamrzne ili restartira, molim restarujte računalo u Safe Mode, i tada pokrenite ovaj instalacijski program za uklanjanje Sandboxie.
+.
+
+8015;ins;01
+Drajver se instalira uspješno na većini sistema.
+.
+
+8016;ins;01
+Molim vas sačekajte dok se Sandboxie deinstalira.
+.
+
+8021;ins;01
+Pokreni bilo koji program sandboxan.lnk
+.
+
+8022;ins;01
+Pokreni bilo koji program pod nadzorom Sandboxie
+.
+
+8023;ins;01
+Sandboxie Početni Izbornik.lnk
+.
+
+8024;ins;01
+Odaberite program sa Početnog Izbornika da biste ga pokrenuli pod nadzorom Sandboxie
+.
+
+8025;ins;01
+Pokreni sandboxan Web Preglednik.lnk
+.
+
+8026;ins;01
+Pokrenite zadani web preglednik pod nadzorom Sandboxie
+.
+
+8027;ins;01
+Pokrenite sandboxan Windows Explorer.lnk
+.
+
+8028;ins;01
+Istražite lokalni desktop i računalo pod nadzorom Sandboxie
+.
+
+8029;ins;01
+Sandboxie Upravitelj.lnk
+.
+
+8030;ins;01
+Otvorite Sandboxie Upravitelj
+.
+
+8031;ins;01
+Deinstalirajte Sandboxie.lnk
+.
+
+8032;ins;01
+Deinstalirajte Sandboxie
+.
+
+8033;ins;01
+=copy:3698
+.
+
+8041;ins;01
+Sandboxie može biti instaliran samo na sljedećim verzijama Microsoft Windowsa:
+.
+
+8042;ins;01
+Sandboxie mora biti instaliran preko korisničnog računa
+koji ima administratorske privilegije.
+
+Ako koristite Windowse sa User Accounts Control (UAC)
+omogućenim, pobrinite se da prilikom instalacije paketa
+koristite Run as administrator (Pokreni kao administrator) naredbu.
+.
+
+8043;ins;01
+32-bitna verzija Sandboxie ne može biti instalirana na 64-bitni operacijski sustav.
+.
+
+8044;ins;01
+64-bitna verzija Sandboxie ne može biti instalirana na 32-bitni operacijski sustav.
+.
+
+8051;ins;01
+Sandboxie Upravitelj program je pokrenut.
+
+Kliknite U Redu da ga zatvorite, i nakon toga nastavite s instalacijom.
+
+Kliknite Poništi za prekid instalacije.
+.
+
+8052;ins;01
+Ne mogu kreirati ili nadograditi Sandboxie programske datoteke.
+
+Pobrinite se da Sandboxie Upravitelj nije pokrenut,
+i da niti jedan program nije pokrenut u sandboxu.
+
+Zatim kliknite U Redu za ponavljanje instalacije.
+
+U protivnom kliknite Poništi za prekid instalacije.
+.
+
+8053;ins;01
+*** KmdUtil neuspješan.  Instalacija ili deinstalacija vjerojatno neće biti uspješna. ***
+.
+
+8054;ins;01
+Želite li sačuvati svoju Sandboxie.ini konfiguracijsku datoteku?
+
+Odaberite DA za spremanje konfiguracijskih postavki u Sandboxie.ini datoteku.
+
+Odaberite NE za brisanje Sandboxie.ini datoteke i gubitak vaših konfiguracijskih postavki.
+.
+
+8055;ins;01
+Dostupno je mrežno ažuriranje Templates.ini i/ili prijevoda za ovu verziju sandboxiea, želite li ga instalirati?
+.
+
+#----------------------------------------------------------------------------
+# KmdUtil
+#----------------------------------------------------------------------------
+
+8101;txt;01
+Trenutno ne mogu instalirati drajver.
+
+Ponovo pokrenite računalo,
+i nakon toga ponovite instalacijsku proceduru.
+
+Neuspješna funkcija je: %2
+.
+
+8102;txt;01
+Trenutno ne mogu zaustaviti servis.
+Servis '%2' je zauzet.
+
+Kliknite U Redu za ponovno.
+.
+
+8103;txt;01
+Ovo je prvi od tri pokušaja.
+.
+
+8104;txt;01
+Ovo je drugi od tri pokušaja.
+.
+
+8105;txt;01
+Ovo je treći od tri pokušaja.
+.
+
+8106;txt;02
+Sljedeći programi moraju biti zatvoreni da bi se instalacija nastavila.
+Kliknite U Redu za zatvaranje tih programa i nastavak.  Kliknite Poništi za prekid instalacije.
+.

@@ -1,0 +1,3686 @@
+#----------------------------------------------------------------------------
+# SbieDrv
+#
+# Initialization errors issued to the System event Log
+#----------------------------------------------------------------------------
+
+1101;evt;inf;01
+SBIE1101 Sandboxie ovládač (SbieDrv) verzia %2 inicializovaná
+.
+
+1102;evt;inf;01
+SBIE1102 Sandboxie ovládač (SbieDrv) vybratý
+.
+
+1103;evt;err;01
+SBIE1103 Sandboxie ovládač (SbieDrv) verzia %2 nepodarila sa spustiť
+.
+
+1104;evt;err;01
+SBIE1104 Nedostatok systémových prostriedkov na dokončenie iniciálizácie
+.
+
+1105;evt;err;01
+SBIE1105 Neznámy operačný systém, verzia:  %2
+.
+
+1106;evt;err;01
+SBIE1106 Chyba %2, detail %3
+.
+
+# 1107;evt;err;01
+# SBIE1107 Chyba v prístupe k účtu LocalSystem %2
+# .
+
+1108;evt;err;01
+SBIE1108 Procedúra %2 nemohla byť analyzovaná
+.
+
+1109;evt;err;01
+SBIE1109 Neplatné licenčné údaje:  %2
+.
+
+1110;evt;err;01
+SBIE1110 Nemožno zachytiť typ %3, chyba %2
+.
+
+1111;evt;err;01
+SBIE1111 Systém DLL %3 sa nemohol načítať %2
+.
+
+1112;evt;err;01
+SBIE1112 Pracovný postup %2 sa nepodarilo nájsť
+.
+
+1113;evt;err;01
+SBIE1113 Nemožno nájsť NT systémovú službu, príčina %2
+.
+
+1114;evt;err;01
+SBIE1114 Nemožno nájsť Zw systémovú službu, príčina %2
+.
+
+1116;evt;err;01
+SBIE1116 Ovládač sa nepodarilo zaregistrovať, proces rutinného oznámenia %2
+.
+
+1119;evt;err;01
+SBIE1119 Nemožno vytvoriť API zariadenie %2
+.
+
+1120;evt;err;01
+SBIE1120 Nezhoda v službe %2
+.
+
+1121;evt;err;01
+SBIE1121 Chyba pri zachytení služby %2
+.
+
+1122;evt;err;01
+SBIE1122 Chyba:  %2
+.
+
+#----------------------------------------------------------------------------
+# SbieDrv
+#
+# Error Messages to both Event and Popup Logs
+#----------------------------------------------------------------------------
+
+1151;evt;pop;err;01
+SBIE1151 Nemožno zvládnuť inštrukciu %2
+.
+
+1152;evt;pop;err;01
+SBIE1152 Pridelenie trampolíny zlyhalo %2
+.
+
+1153;evt;pop;err;01
+SBIE1153 Sandboxie inicializácia zlyhala.  Zatvorte všetky programy a potom preinštalujte Sandboxie  ALEBO  reštartujte počítač.
+.
+
+#----------------------------------------------------------------------------
+# SbieDrv
+#
+# Error Messages to Popup Log
+#----------------------------------------------------------------------------
+
+1201;pop;err;01
+SBIE1201 Nedostatok pamäte
+.
+
+1202;pop;err;01
+SBIE1202 Nemožno aktualizovať licenčné údaje:  %2
+.
+
+1203;pop;err;01
+SBIE1203 Nemožno vytvoriť zoznam ciest (chyba v %2)
+.
+
+1204;pop;err;01
+SBIE1204 Vytvorenie Pieskoviska zlyhalo pre %3 %2
+.
+
+1211;pop;err;01
+SBIE1211 Nepodarilo sa zahájiť Pieskovisko pre proces %2
+.
+
+1212;pop;err;01
+SBIE1212 Nemožno vytvoriť adresár '%3' %2
+.
+
+1213;pop;err;01
+SBIE1213 Nemožno vytvoriť objekt adresára '%3' %2
+.
+
+1214;pop;err;01
+SBIE1214 Nemožno vložiť SbieDll %2
+.
+
+1215;pop;err;01
+SBIE1215 Nemožno vyriešiť cestu do procesu obrazu %2
+.
+
+1216;pop;err;01
+SBIE1216 Nepodarilo sa  dotazovať na bezpečnosť ID %2
+.
+
+# 1217;pop;err;01
+# SBIE1217 Nepodarilo sa násť rodiča procesu
+# .
+
+# 1221;pop;err;01
+# SBIE1221 Nemožno vytvoriť pracovné miesto:  %2
+# .
+
+1222;pop;err;01
+SBIE1222 Nemožno obmedziť znak:  %2
+.
+
+1223;pop;err;01
+SBIE1223 Nemožno nahradiť znak:  %2
+.
+
+1224;pop;err;01
+SBIE1224 Nemožno sa dotazovať na znak:  %2
+.
+
+1241;pop;err;01
+SBIE1241 Nemožno pripojiť vetvu registra:  %2
+.
+
+1242;pop;err;01
+SBIE1242 Pretečenie vyrovnávacej pamäte
+.
+
+#----------------------------------------------------------------------------
+# SbieDrv
+#
+# Informational Messages to Popup Log
+#----------------------------------------------------------------------------
+
+1301;pop;inf;01
+SBIE1301 Program '%2' bol spustený mimo Pieskoviska
+.
+
+# 1302;pop;inf;01
+# SBIE1302 Sandbox '%2' nie je definovaný alebo nie je zapnutý
+# .
+
+1303;pop;inf;01
+SBIE1303 Len jedno Pieskovisko može byť súčasne aktívne
+.
+
+1304;pop;inf;01
+SBIE1304 Blokovaná simulovaná klavesnica alebo vstup myši procesom '%2'
+.
+
+1306;pop;inf;01
+SBIE1306 Sandboxie ovládač (SbieDrv) nemôže byť teraz vybratý
+.
+
+1307;pop;inf;02
+SBIE1307 Program nemôže získať pristup k internetetu kvôli obmedzeniam - %2
+.
+
+1308;pop;inf;02
+SBIE1308 Program nemožno spustiť kvoli obmedzeniam - %2
+.
+
+1309;pop;inf;01
+SBIE1309 Zamietnutý pokus zmeniť heslo užívateľa
+.
+
+1310;pop;inf;01
+SBIE1310 Rozšírené funkcie sú vypnuté pokiaľ nie je aktivovaná licencia
+.
+
+1311;pop;inf;01
+SBIE1311 Blokovaná požiadavka zmeniť pozadie pracovnej plochy procesom '%2'
+.
+
+1312;pop;inf;01
+SBIE1312 Blokovaná požiadavka spustiť 16-bit DOS program v Pieskovisku
+.
+
+1313;pop;inf;01
+SBIE1313 Blokovaný priamy prístup k disku procesom '%2'
+.
+
+1314;pop;inf;01
+SBIE1314 Blokovaná požiadavka zmeniť nastavenia siete/firewall procesom '%2'
+.
+
+1315;pop;inf;01
+SBIE1315 Pravdepodobne kvôli konfliktu so softwarom: %2
+.
+
+#----------------------------------------------------------------------------
+# SbieDrv
+#
+# Configuration Error Messages to both Event and Popup Logs
+#----------------------------------------------------------------------------
+
+1401;evt;pop;inf;01
+SBIE1401 Konfiguračný súbor sa nepodarilo nájsť, použiť predvolené hodnoty
+.
+
+1402;evt;pop;wrn;01
+SBIE1402 Chyba konfiguračného súboru v riadku %3:  %2
+.
+
+1403;evt;pop;wrn;01
+SBIE1403 Chyba konfiguračného súboru v riadku %2:  príliš dlhý riadok
+.
+
+1404;evt;pop;wrn;01
+SBIE1404 Chyba konfiguračného súboru v riadku %2:  príliš mnoho riadkov
+.
+
+1405;evt;pop;wrn;01
+SBIE1405 Chyba konfiguračného súboru v riadku %2:  syntax error
+.
+
+1406;evt;pop;err;01
+SBIE1406 Chýbajúce alebo neplatné rozšírenie pre %3:  %2
+.
+
+# 1407;evt;pop;err;01
+# SBIE1407 Neplatná hodnota pre nastavenie %2, použiť predvolené hodnoty
+# .
+
+1408;pop;err;01
+SBIE1408 Neznáme užívateľské meno pre SID:  %2
+.
+
+1409;evt;pop;wrn;01
+SBIE1409 Súbor Templates.ini nemožno otvoriť %2
+.
+
+1410;evt;pop;wrn;01
+SBIE1410 Nasledujúca správa ukazuje chybu v súbore Templates.ini 
+.
+
+1411;evt;pop;wrn;01
+SBIE1411 Pieskovisko %2 špecifikuje neznámu šablónu %3
+.
+
+1412;evt;pop;err;01
+SBIE1412 V texte: %2
+.
+
+#----------------------------------------------------------------------------
+# SbieDrv
+#
+# Messages from user mode -- informational -- 2101 through 2199
+#----------------------------------------------------------------------------
+
+2101;pop;inf;01
+SBIE2101 %2
+.
+
+2102;pop;inf;01
+SBIE2102 Súbor je príliš veľký na skopírovnie do Pieskoviska - %2
+.
+
+2103;pop;inf;01
+SBIE2103 Odmietnutie pokusu načítať systémový ovládač '%2'
+.
+
+2104;pop;inf;02
+SBIE2104 Odmietnutie pokusu ukončiť túto reláciu systému windows - %2
+.
+
+# 2105;pop;inf;01
+# SBIE2105 Služba Pieskoviska úspešne spustená:  %2
+# .
+
+# 2106;pop;inf;01
+# SBIE2106 Prosím zapnúť "Spustiť ako UAC správca" v Sandboxie Control, Súbor menu
+# .
+
+# 2107;pop;inf;01
+# SBIE2107 Príprava WinSxS zhromaždenia '%2'
+# .
+
+2108;pop;inf;01
+SBIE2108 Úspešné dokončenie simulácie pre program '%2'
+.
+
+# 2109;pop;inf;01
+# SBIE2109 Stlačte OK, keď sú program alebo inštalacia kompletné.
+# .
+
+# 2110;pop;inf;01
+# SBIE2110 Príprava WinSxS závislosti pre '%2'
+# .
+
+# %2 = Mozilla Firefox
+2191;pop;inf;01
+SBIE2191 %2 by nemal byť aktualizovaný pokiaľ beží pod Sandboxie.
+.
+
+2192;pop;inf;01
+SBIE2192 Ak chcete aktualizovať program, spustite ho mimo Sandboxie.
+.
+
+2193;pop;inf;01
+SBIE2193 Uistite sa, že ste zmazali Pieskovisko po ukončení aktualizácií.
+.
+
+2199;pop;inf;01
+%0
+.
+
+#----------------------------------------------------------------------------
+# SbieDrv
+#
+# Messages from user mode -- warning -- 2201 through 2299
+#----------------------------------------------------------------------------
+
+2201;pop;wrn;01
+SBIE2201 %2
+.
+
+# 2202;pop;wrn;01
+# SBIE2202 Chýba zoznam nainštalovaných hardwarových zariadení
+# .
+
+2203;pop;wrn;01
+SBIE2203 Zlyhanie pri komunikácii so službou Sandboxie:  %2
+.
+
+2204;pop;wrn;01
+SBIE2204 Nemožno spustiť službu Pieskoviska %2
+.
+
+2205;pop;wrn;01
+SBIE2205 Služba nie je zrealizovaná:  %2
+.
+
+2206;pop;wrn;01
+SBIE2206 Zlyhanie spracovania AutoExec nastavení %2
+.
+
+2207;pop;wrn;01
+SBIE2207 Neplatná hodnota pre nastavenia '%2', použiť predvolenú
+.
+
+2208;pop;wrn;01
+SBIE2208 Nemožno odstrániť vetvu registra:  %2
+.
+
+2209;pop;wrn;01
+SBIE2209 Nemožno preložiť SID do užívateľského mena:  %2
+.
+
+2210;pop;wrn;01
+SBIE2210 Nemožno spustiť Windows Explorer pre:  %2
+.
+
+2211;pop;wrn;01
+SBIE2211 Službu Pieskoviska sa nepodarilo spustiť:  %2
+.
+
+2212;pop;wrn;01
+SBIE2212 Emailový prehliadač '%2' nie je nakonfiguraný pre spustenie Pieskoviska
+.
+
+2213;pop;wrn;01
+SBIE2213 Windows poverenia nemožno uložiť v Pieskovisku
+.
+
+2214;pop;wrn;01
+SBIE2214 Požiadavka spustiť službu '%2' bola zamietnutá kvôli zníženým právam
+.
+
+# 2215;pop;wrn;01
+# SBIE2215 Zlyhanie prípraviť WinSxS závislostí:  %2
+# .
+
+# 2216;pop;wrn;01
+# SBIE2216 Chyba pripraviť WinSxS zhromaždenie:  %2
+# .
+
+2217;pop;wrn;02
+SBIE2217  Žiadosť spustiť ako administrátor bola zamietnutá kvôli zníženým právam
+.
+
+2218;pop;wrn;01
+SBIE2218 Zlyhanie získať zvýšené privilégiá:  %2
+.
+
+2219;pop;wrn;01
+SBIE2219 Žiadosť bola odoslaná programom %2
+.
+
+2220;pop;wrn;01
+SBIE2220 K využívaniu oprávnení správcu kliknite dva-krát na riadok tejto správy
+.
+
+2221;pop;wrn;01
+SBIE2221 Ak chcete pridať program k Obmedzenia Prístup na Internet, prosím kliknite dva-krát na riadok tejto správy
+.
+
+2222;pop;wrn;01
+SBIE2222 Ak chcete pridať program k obmedzenia Spustiť/Bežať Prístup, prosím kliknite dva-krát na riadok tejto správy
+.
+
+2223;pop;wrn;01
+SBIE2223 Ak chcete zvýšiť limit veľkosti súboru pre kopírovanie súborov, prosím dva-krát kliknúť na riadok tejto správy
+.
+
+#----------------------------------------------------------------------------
+# SbieDrv
+#
+# Messages from user mode -- error -- 2301 through 2399
+#----------------------------------------------------------------------------
+
+2301;pop;err;01
+SBIE2301 %2
+.
+
+2303;pop;err;01
+SBIE2303 Nepodarilo sa zachytiť %2
+.
+
+2304;pop;err;01
+SBIE2304 Inicializácia zlyhala pre proces %2
+.
+
+2305;pop;err;01
+SBIE2305 Nedostatok pamäte
+.
+
+2306;pop;err;01
+SBIE2306 Nepodarilo sa nájsť užívateľský adresár:  %2
+.
+
+2307;pop;err;01
+SBIE2307 Nepodarilo sa mapovať disk %2
+.
+
+2308;pop;err;01
+SBIE2308 Nepodarilo sa vytvoriť objekt adresára:  %2
+.
+
+2309;pop;err;01
+SBIE2309 Nepodarilo sa vypnúť COM+/DCOM:  %2
+.
+
+2310;pop;err;01
+SBIE2310 Označená vyrovnávacia pamäť sa blíži k prečeteniu (%2)
+.
+
+2311;pop;err;01
+SBIE2311 Nepodarilo sa vypnúť odpadkový kôš (BitBucket):  %2
+.
+
+2312;pop;err;01
+SBIE2312 Nepodarilo sa zapnúť BrowseNewProcess nastavenie:  %2
+.
+
+2313;pop;err;01
+SBIE2313 Nepodarilo sa spustiť %2
+.
+
+2314;pop;err;01
+SBIE2314 Prerušujem proces %2
+.
+
+2315;pop;err;01
+SBIE2315 Nepodarilo sa opraviť spustený obraz
+.
+
+2316;pop;err;01
+SBIE2316 Poškodená pamäť
+.
+
+2317;pop;err;01
+SBIE2317 Nemožno inicializovať cestu zoznamu '%2'
+.
+
+2318;pop;err;01
+SBIE2318 DLL zlyhanie inicializácie pre '%2'
+.
+
+# 2319;pop;err;01
+# SBIE2319 Zlyhanie aktivácie kontextu pre proces Piesoviska %2
+# .
+
+# 2320;pop;err;01
+# SBIE2320 Nepodarilo sa vypnúť  Windows Explorer ako proces pracovnej plochy:  %2
+# .
+
+2321;pop;err;01
+SBIE2321 Nemožno spravovať ovládač mapy:  %2
+.
+
+2322;pop;err;01
+SBIE2322 Nemožno prepísať Sandboxie.ini:  %2
+.
+
+2323;pop;err;01
+SBIE2323 Kryptograficá chyba:  %2
+.
+
+2326;pop;err;01
+SBIE2326 Nemožno pripraviť registre:  %2
+.
+
+2327;pop;err;01
+SBIE2327 Chyba v COM serveri:  %2
+.
+
+2331;pop;err;01
+SBIE2331 Zlyhanie štartu služby:  %2
+.
+
+2332;pop;err;01
+SBIE2332 Nemožno získať prístup k file SbiePst.dat
+.
+
+# 2333;pop;err;01
+# SBIE2333 Nekompatibilný software s nájdeným DLL:  %2
+# .
+
+2334;pop;err;01
+SBIE2334 Nemožno načítať súbor DLL:  %2
+.
+
+# 2398;txt;01
+# SBIE2398 Služba pripúšťa výnimku ... na adrese ...
+# .
+
+# 2399;txt;01
+# SBIE2399 Služba zlyhala, chyba ...
+# .
+
+#----------------------------------------------------------------------------
+# SbieSvc
+#----------------------------------------------------------------------------
+
+9101;evt;err;01
+SBIE9101 Nedostatok systémových prostriedkov
+.
+
+9153;evt;err;01
+SBIE9153 Nemožno spustiť ovládač (SbieDrv)
+.
+
+9154;evt;err;01
+SBIE9154 Ovládač (SbieDrv) a služba (SbieSvc) majú odlišné čísla verzie
+.
+
+9156;evt;err;01
+SBIE9156 Inicializácia ovládača nie je dokončená
+.
+
+9201;evt;err;01
+SBIE9201 Znak chyby
+.
+
+9202;evt;err;01
+SBIE9202 Znak chyby
+.
+
+9203;evt;err;01
+SBIE9203 Znak chyby
+.
+
+9204;evt;err;01
+SBIE9204 Chyba bezpečnostného deskriptora
+.
+
+9205;evt;err;01
+SBIE9205 Chyba bezpečnostného deskriptora
+.
+
+9206;evt;err;01
+SBIE9206 Chyba bezpečnostného deskriptora
+.
+
+9207;evt;err;01
+SBIE9207 Chyba bezpečnostného deskriptora
+.
+
+9208;evt;err;01
+SBIE9208 Nemožno zapnúť SeRestorePrivilege
+.
+
+9251;evt;err;01
+SBIE9251 Zlyhanie vytvorenia udalosti portu
+.
+
+9252;evt;err;01
+SBIE9252 Zlyhanie vytvorenia portu
+.
+
+9253;evt;err;01
+SBIE9253 Zlyhanie vytvorenia vlákna portu
+.
+
+#----------------------------------------------------------------------------
+# Common Texts
+#----------------------------------------------------------------------------
+
+3001;txt;01
+&OK
+.
+
+3002;txt;01
+&Zrušiť
+.
+
+3003;txt;01
+&Prehľadávať...
+.
+
+3004;txt;01
+&Zavrieť
+.
+
+3005;txt;01
+Výr&ez
+.
+
+3051;txt;01
+Ochrana proti zmazaniu je zapnutá pre Pieskovisko
+.
+
+3052;txt;01
+Spustiť v Pieskovisku
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Start
+#----------------------------------------------------------------------------
+
+3101;txt;01
+Sandboxie Start
+.
+
+3103;txt;01
+Zadajte názov programu alebo záložky a Sandboxie ich pre Vas otvorí.
+.
+
+3104;txt;01
+Zadajte  .  (cieľový charakter) na prezkúmane pracovnej plochy so Sandboxie.
+.
+
+3105;txt;01
+Odstrániť príkaz z príkazovej histórie
+.
+
+3106;txt;01
+Vyberte Pieskovisko, v ktorom sa spustí program alebo dokument.
+.
+
+3111;txt;01
+      Sandboxie Start Menu - %2  %0
+.
+
+3112;txt;01
+Pracovná plocha
+.
+
+3113;txt;01
+(preskúmať záložku)
+.
+
+3114;txt;01
+Programy
+.
+
+3202;txt;01
+Neplatný príkaz programového riadku:  %2
+.
+
+3203;txt;01
+Použiť: Start.exe <názov programu>
+.
+
+3204;txt;01
+Neplatné meno Pieskoviska:  %2
+.
+
+3205;txt;01
+Nepodarilo sa spustiť program:
+
+%2
+.
+
+3206;txt;01
+Kód systémovej chyby:
+.
+
+# 3207;txt;01
+# Cannot find the Internet Explorer executable
+# .
+
+# 3208;txt;01
+# Cannot find the executable for the default web browser
+# .
+
+3209;txt;01
+Nemožno nájsť predvolený mailový agent
+.
+
+3210;txt;01
+Nepodarilo sa spustiť Sandboxie Control program
+.
+
+3211;txt;01
+Nezhoda vo verzii Sandboxie.  Skúste preinštalovať.
+.
+
+3212;txt;01
+Ovládač Sandboxie (SbieDrv) nie je dostupný  programom Sandboxie.
+Uistite sa, že oba ovládač a služba Sandboxie (SbieSvc) sa spustili správne.
+.
+
+3213;txt;01
+Nepodarilo sa inicializovať služby Sandboxie COM 
+.
+
+3214;txt;01
+Zmazať Pieskovisko %2:  %0
+.
+
+3215;txt;01
+Objekt (súbor alebo záložka) môže byť použitý iným programom.
+Zatvorte všetky aplikácie alebo okná, ktoré môžu brániť prístupu.
+.
+
+3216;txt;01
+Nepodarilo sa lokalizovať záložku Pieskoviska
+.
+
+3217;txt;01
+Neopdarilo sa otvoriť záložku Pieskoviska
+.
+
+3218;txt;01
+Nepodarilo sa otvoriť záložku obsahujúcu záložku Pieskoviska 
+.
+
+3219;txt;01
+Nepodarilo sa presunúť záložku Pieskoviska preč z cesty
+.
+
+3220;txt;01
+Chyba prepísania jedného zo súborov s dlhým názvom v Pieskovisku.
+Obsah Pieskoviska nebude zmazaný.
+.
+
+3221;txt;01
+Prosím vypnúť programy bežiace v Pieskovisku pred zmazaním jeho obsahu.
+.
+
+3222;txt;01
+Zlyhanie príkazu Zmazať:  %0
+.
+
+3231;txt;01
+Sandboxie máte nainštalovaný viacej ako 30 dní.
+.
+
+3232;txt;01
+Súkromné používanie Sandboxie je zadarmo po dobu akú chcete.
+.
+
+3233;txt;01
+Avšak free (voľná) verzia sa zastaví na pár sekúnd.
+.
+
+3234;txt;01
+Avšak free (voľná) verzia umožňuje naraz použiť len jeddno Pieskovisko.
+.
+
+3235;txt;01
+Toto obmedzenie neplatí v platenej FULL (plná) verzii Sandboxie.
+.
+
+3236;txt;01
+Okrem toho full (plná) verzia umožňuje automaticky spúšťať vybrané programy v Sandboxie.
+.
+
+3237;txt;01
+Pre viac informácií a o zakúpení software, prosím kliknúť na nasledujúci link:
+.
+
+3238;txt;01
+Prosím čakajte ešte %2 sekundy
+.
+
+3239;txt;01
+Kliknite pre zatvorenie tohoto okna a pokračujte
+.
+
+3240;txt;01
+Kliknite pre zatvorenie tohoto okna a skončite
+.
+
+3241;txt;01
+Sandboxie žiada oprávnenie administrátora
+na spustenie programu v Pieskovisku.
+.
+
+3242;txt;01
+Na potvrdenie alebo zrušenie požiadavky
+aktivujte pop-up okno Riadenie Užívateľského Účtu.
+.
+
+3243;txt;01
+Poznámka:  Program bude aj naďalej spúšťaný pod dohľadom
+Sandboxie, dokonca aj po udelení oprávnení správcu.
+.
+
+3251;txt;01
+Spustiť mimo Pieskoviska
+.
+
+3252;txt;01
+Spustiť program mimo dohľad Sandboxie, aj keď je program spúšťaný pod Sandboxie.  Táto výnimka pre beh mimo Pieskoviska sa tiež vzťahuje na ostatné programy, ktoré sú spúšťané týmto programom.
+
+Môžete taktiež vybrať túto možnosť podržaním kláves Ctrl + Shift a kliknúť na príkaz Spustiť v Pieskovisku.
+.
+
+3253;txt;01
+Ste si istý, že si prajete spustiť program mimo Pieskoviska?
+.
+
+3254;txt;01
+Na preskočenie tohoto okna pre výber Pieskoviska držte klávesu Ctrl, keď kliknete na príkaz Spustiť v Pieskovisku.
+.
+
+3255;txt;01
+Voľba je vypnutá, pretože je zapnuté nastavenie Znížené Práva v Pieskovisku
+.
+
+3256;txt;01
+Voľba je vypnutá, pretože tento progrtam už beží pod oprávneniami správcu
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control Common
+#----------------------------------------------------------------------------
+
+3301;txt;01
+Ovládanie Sandboxie
+.
+
+3302;txt;01
+Verzia %2
+.
+
+3303;txt;01
+  -  Inicializuje
+.
+
+3304;txt;01
+Nezhoda verzie v Sandboxie:
+
+Ovládanie Sandboxie: Verzia %2
+Služba (SbieSvc): Verzia %3
+Ovládač (SbieDrv): Verzia %4
+
+Preinštalovaním Sandboxie sa tento problém vyrieši.
+
+Prerušené.
+.
+
+# 3305;txt;01
+# Could not install tray ico. Aborting.
+# .
+
+3306;txt;01
+Nabudúce nezobraziť túto správu
+.
+
+# 3307;txt;01
+# Enter Program Name
+# .
+
+# translate text but keep hash signs (#)
+3308;txt;01
+Programy#*.EXE#Všetky súbory#*.*##
+.
+
+3309;txt;01
+  -  Zmazanie Pieskoviska
+.
+
+3311;txt;01
+Zlyhalnie pri zápise  konfiguračného nastavenia %3 v sekcii %2:  %4
+.
+
+3312;txt;01
+Nemáte oprávnenie k aktualizacii konfiguracie v sekcii %2
+.
+
+3313;txt;01
+Neznámy používateľ, nastevenia nebudú uložené
+.
+
+3314;txt;01
+Vyskytla sa chyba pri aplikovaní predvolených nastavení pre Pieskovisko '%2'
+.
+
+# 3321;txt;01
+#   -  Prihlasovacia relácia je v Pieskovisku
+# .
+
+# 3322;txt;01
+# Vaša prihlasovacia relácia je spustená pod dohľadom Sandboxie.
+# Vymazaním obsahu Pieskoviska budú všetky zmeny zrušené vytvorené v tejto relácii.
+# 
+# Užívateľský účet: %2
+# Pieskovisko: %3
+# 
+# Ste si istý, že si želáte zmazať obsah Pieskoviska a odhlásiť sa z Windows?
+# .
+
+3351;txt;01
+&Odstrániť
+.
+
+3352;txt;01
+&Pridať
+.
+
+3353;txt;01
+&Upraviť/Pridať
+.
+
+3354;txt;01
+&Upraviť
+.
+
+3355;txt;01
+Pridrať &Program
+.
+
+# 3356;txt;01
+# Add By &Name
+# .
+
+# 3357;txt;01
+# Add By &File
+# .
+
+3358;txt;01
+Pridať &Záložku
+.
+
+3359;txt;01
+Pridať &Užívateľa
+.
+
+3360;txt;01
+Vybrať &Všetko
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control Menus
+#----------------------------------------------------------------------------
+
+3411;txt;01
+&Súbor
+.
+
+3412;txt;01
+Ukončiť &Všetky Programy
+.
+
+3413;txt;01
+Vypnúť &Nútené Programy
+.
+
+3414;txt;01
+Spustiť Ako &UAC Správca
+.
+
+3415;txt;01
+Je &Okno v Pieskovisku?
+.
+
+3416;txt;01
+Prístup k Zdroju &Monitor
+.
+
+3417;txt;01
+K&oniec
+.
+
+3421;txt;01
+&Zobraziť
+.
+
+3422;txt;01
+&Programy
+.
+
+3423;txt;01
+&Súbory a Záložky
+.
+
+3424;txt;01
+&Kontextové menu%2Shift+F10
+.
+
+3425;txt;01
+Obnovenie &Log
+.
+
+3431;txt;01
+Piesko&visko
+.
+
+3432;txt;01
+Vytvoriť Nové Pieskovisko
+.
+
+3433;txt;01
+Nastaviť  Záložku na Kontajner
+.
+
+3434;txt;01
+Zobraziť Skryté Pieskovisko
+.
+
+3435;txt;01
+Nastavenie Rozmiestenia a Skupín
+.
+
+3441;txt;01
+&Konfigurácia
+.
+
+3442;txt;01
+&Výstrahy Programu
+.
+
+3443;txt;01
+Windows Shell &Integrácia
+.
+
+3501;txt;01
+Softwarová &Kompatabilita
+.
+
+3503;txt;01
+Expermentálna Ochrana (64-bit)
+.
+
+3444;txt;01
+Zobraziť Skryté &Správy
+.
+
+3445;txt;02
+&Tipy
+.
+
+3502;txt;01
+Zám&ok Konfigurácie
+.
+
+3446;txt;01
+&Upraviť Konfiguráciu
+.
+
+3447;txt;01
+Ob&noviť Konfiguráciu
+.
+
+3448;txt;01
+&Zobraziť Všetky Tipy
+.
+
+3449;txt;01
+&Skryť všetky Tipy
+.
+
+3451;txt;01
+&Pomoc
+.
+
+3452;txt;01
+&Témy Pomoci (Web)
+.
+
+3453;txt;02
+Začíname &Návod
+.
+
+3454;txt;01
+Kontrola &Aktualizácií
+.
+
+3455;txt;01
+&Register Pieskoviska
+.
+
+3456;txt;01
+&O Sandboxie
+.
+
+3461;txt;01
+&Spustiť v Pieskovisku
+.
+
+3462;txt;01
+Spustiť Web &Prehliadač
+.
+
+3463;txt;01
+Spustiť Emai&l Prehliadač
+.
+
+3464;txt;01
+Spustiť &Ľubovolný Program
+.
+
+3465;txt;01
+Spustiť z Ponuky &Štart
+.
+
+3466;txt;01
+Spustiť &Windows Explorer
+.
+
+3471;txt;01
+&Ukončiť Programy
+.
+
+3472;txt;01
+&Rýchla Obnova
+.
+
+3473;txt;01
+&Zmazať Obsah
+.
+
+3474;txt;01
+&Prehľadávať Obsah
+.
+
+3475;txt;01
+Nastavenie &Pieskoviska
+.
+
+3476;txt;01
+Pre&menovať Pieskovisko
+.
+
+3477;txt;01
+Odstrá&niť Pieskovisko
+.
+
+3481;txt;01
+&Ukončiť Program
+.
+
+3482;txt;01
+Program &Nastavenie
+.
+
+3483;txt;01
+&Prístup ku zdroju
+.
+
+3485;txt;01
+Ukázať okno
+.
+
+3486;txt;01
+Skryť okno
+.
+
+3487;txt;01
+&Ukázať Chyby
+.
+
+# 3488;txt;01
+# &Vymazať Obsah Pieskoviska a Odhlasiť sa
+# .
+
+3491;txt;01
+Obno&viť do Rovnakej Záložky
+.
+
+3492;txt;01
+Obnoviť do &Ľubovolnej Záložky
+.
+
+3493;txt;01
+Pri&dať Záložku do Rýchla Obnova
+.
+
+3494;txt;01
+Ods&trániť Záložku z Rýchla Obnova
+.
+
+3495;txt;01
+Vytvoriť Zástupcu na Ploche
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control Main Window
+#----------------------------------------------------------------------------
+
+3511;txt;01
+Riadenie Sandboxie teraz skryje toto okno, ale to ďalej bude bežať.  Zobrazenie okna urobíte dvojklikom na žltú ikonu Sandboxie v systéme oblasti primonienok.
+.
+
+3512;txt;01
+Úpravené zmeny konfiguračného súboru Sandboxie.ini v textovom editore, ktorý bol práve otvorený.
+
+Upravená konfigurácia sa prejaví až po funkcii Načítanie Konfigurácie, na ktorú sa odvoláva.
+
+Najčastejšie sa funkcia Načítanie Konfigurácie prejaví automaticky, hneď ako zatvorite okno textového editora.
+
+Môžete taktiež výslovne nariadiť Ovládanie Sandboxie, aby funkciu Načítanie Konfigurácie nariadil kedykoľvek.
+.
+
+3513;txt;01
+Konfigurácia Sandboxie bola obnovená a uplatnená pre programy Pieskoviska pri štarte.
+
+Ak je nejaký program už v Pieskovisku spustený, nová konfigurácia nebude v ňom uplatnená.
+.
+
+3514;txt;01
+Problém pri čítaní konfiguračného súboru.
+Konfigurácia Sandboxie nebola obnovená.
+.
+
+3515;txt;01
+Pieskovisko %2
+.
+
+3516;txt;01
+Aktívny
+.
+
+3517;txt;01
+Názov programu 
+.
+
+3518;txt;01
+PID
+.
+
+3519;txt;01
+Nadpis Okna
+.
+
+3520;txt;01
+Rýchla Obnova Záložiek
+.
+
+3521;txt;01
+Všetky Súbory a Záložky
+.
+
+3522;txt;01
+Jednotky
+.
+
+3523;txt;01
+Sieťové Zdieľanie
+.
+
+3524;txt;01
+Užívateľské Súbory
+.
+
+3525;txt;01
+Osobné
+.
+
+3526;txt;01
+Všetci Užívatelia
+.
+
+3527;txt;01
+Prosím vymažte obsah Pieskovika %2 pred použitím tohoto príkazu.
+.
+
+3528;txt;01
+Zadajte nový názov Pieskoviska.
+.
+
+3529;txt;01
+Ste si istý, že chcete odstrániť Pieskovisko %2?
+.
+
+3530;txt;01
+Nie sú žiadne procesy na ukončenie.
+.
+
+3531;txt;01
+UPOZORNENIE: Proces alebo procesy, ktoré budú ukončené, nebudú mať možnosť uložiť dáta alebo nastavenia.
+
+Ste si istý, že chcete pokračovať v ukončení procesu?
+.
+
+3532;txt;01
+Nabudúce sa nepýtať a ukončiť procesy
+.
+
+3533;txt;01
+Môžete kopírovať a vystrihnúť súbory a záložky z Pieskoviska Windows Explorer a vložiť ho priamo do záložky okna mimo Pieskoviska.
+.
+
+3534;txt;01
+Budete skúmať obsah Pieskoviska použitím okna Windows Explorer, ktoré nebeží pod dohľadom Sandboxie.
+
+Môžete otvoriť programy alebo dokumenty, ktoré sú v Pieskovisku.
+Program alebo dokument sa spustí pod dohľadom Sandboxie.
+
+Avšak, mali by ste manipulovať s obsahom Pieskoviska prostredníctvom Windows Explorer, ktorý je v Pieskovisku.  Ak to chcete, tak použite tento príkaz: Pieskovisko > Spustiť v Pieskovisku > Spustiť Windows Explorer.
+.
+
+3535;txt;01
+Chyba počas prístupu do záložky Pieskoviska.
+.
+
+3536;txt;01
+Indikátor  'skované' bol odstránený zo všetkých správ.
+.
+
+3537;txt;01
+Indikátor 'Nezobrazovať túto správu' bol odstránený zo všetkých tipov.
+.
+
+3538;txt;01
+Indikátor 'Nezobrazovať túto správu' sa uplatňuje na všetky tipy.
+.
+
+3539;txt;01
+Pieskovisko '%2' bolo vytvorené pred %3 dňami.
+
+Prosím, zvážte vymazanie obsahu Pieskoviska z času na čas.
+
+Ak chcete nastaviť automatické zmazanie, použite príkaz Nastavenia Pieskoviska v Ovládanie Sandboxie.
+.
+
+3540;txt;01
+Konfiguračný súbor Sandboxie.ini nemožno upravovať, pretože je chránený heslom.  Ak chcete upravovať súbor, použite príkaz Konfigurácia Zámok na vypnutie ochrany heslom.
+.
+
+3541;txt;01
+Verejné
+.
+
+3542;txt;01
+Mód Experimentálna 0chrana zvyšuje ochranu ponúkanou 64-bit Sandboxie a dostáva na rovnakú úroveň ochrany ako je u 32-bit Sandboxie.
+
+DôLEŽITÉ:  Experimentálna Ochrana používa nedokumentované funkcie jadra systému Windows.  Budúce aktualizácie Windows by mohli rušiť mód experimentálna Ochrana, a teda nestabilitu systému.
+
+POUŽITIE NA VLASTNÉ RIZIKO.
+
+Aktivácia režimu Experimentálna Ochrana sa uplatní až po reštartovaní počítača.
+.
+
+3543;txt;01
+Vypnutie režimu Experimentálna Ochrana sa uplatní až po reštartovaní počítača.
+
+Vezmite prosím na vedomie, že nastavenie Zníženie Práv bude zapnuté vo všetkých Pieskoviskách.
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control Dialogs: About/Welcome
+#----------------------------------------------------------------------------
+
+3601;txt;01
+O Sandboxie
+.
+
+# 3604;txt;01
+# Vitajte v Sandboxie
+# .
+
+# 3605;txt;01
+# 
+# V Sandboxie bežia Vaše aplikácie v ochrannej izolovanej oblasti nazývanom Pieskovisko.
+# 
+# Aplikácie uzavreté v Pieksovisku nemajú možnosť robiť zmeny, ktoré by mohli poškodiť Váš počítač.
+# 
+# Môžete tiež použiť Pieskovisko na testovanie a inštalovanie nových aplikácií.
+# .
+
+# 3606;txt;01
+# Ak nepoznáte Sandboxie,
+# prosím prečítajte si Začíname Tutorial.
+# .
+
+# 3607;txt;01
+# &Začíname so Sandboxie
+# .
+
+#----------------------------------------------------------------------------
+# Sandboxie Control Dialogs: Update
+#----------------------------------------------------------------------------
+
+3621;txt;01
+Kontrola Aktualizácií
+.
+
+3622;txt;01
+Pripojte sa na webovú stránku Sandboxie a zistite, či je k dispozícii novšia verzia programu.
+.
+
+3623;txt;01
+&Teraz
+.
+
+3624;txt;01
+Budúci &týždeň
+.
+
+3625;txt;01
+Ni&kdy
+.
+
+3626;txt;01
+Nabudúce zistiť aktualizácie automaticky
+.
+
+3627;txt;01
+Ochrana Osobných Údajov:  Vaše osobné údaje nebudú zhromažďované v Sandboxie ani predané tretej strane.
+.
+
+3628;txt;01
+Kontrola aktualizácii práve prebieha.  Prosím čakajte.
+.
+
+3629;txt;01
+Webová stránka Sandboxie nehlási žiadnu novšiu verziu.
+.
+
+3630;txt;01
+Sandboxie %2 je dostupná na stiahnutie.
+.
+
+3631;txt;01
+Stiahnuť teraz?
+
+Poznámka:  Stiahnutie bude trvať asi minútu.
+Budete upozornený po ukončení.
+.
+
+3632;txt;01
+Stiahnuť a nainštalovať novú verziu, prihlásiť sa na konto užívateľa s prístupom administrátora a uplatňovať tento príkaz znova.
+.
+
+3633;txt;01
+Sandboxie %2 bol stiahnutý do nasledujúcej záložky:
+
+%3
+
+Pre začiatok inštalácie, stlačte OK.  Ak nejaké programy bežia v Pieskovisku, budú ukončené.
+.
+
+3634;txt;01
+Zlyhala aktualizácia:  Chyba prístupu počas komunikácie s webovou stránkou Sandboxie.
+.
+
+3635;txt;01
+stahujem novú verziu
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control Dialogs: Run Browser
+#----------------------------------------------------------------------------
+
+3641;txt;01
+Otvoriť Web Prehliadač
+.
+
+3642;txt;01
+Vyberte, či otvoriť nasledujúcu webovú adresu vo webovom prehliadači Pieskoviska alebo mimo neho.
+.
+
+3643;txt;01
+&v Pieskovisku
+.
+
+3644;txt;01
+&Mimo Pieskoviska
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control Dialogs: Message Dialog
+#----------------------------------------------------------------------------
+
+3645;txt;01
+Správy zo Sandboxie
+.
+
+3646;txt;01
+S&kryť
+.
+
+3647;txt;01
+Správa nebude nabudúce zobrazená.  Skrytie tejto správy nerieši aktuálne proglémy, ktoré zapríčinili zobrazenie tejto správy.
+
+Ste si istý, že chcete vypnúť zobrazovanie správy %2?
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control Dialogs: Disable Forced Programs
+#----------------------------------------------------------------------------
+
+3651;txt;01
+Dočasné vypnútie Nútených Programov
+.
+
+3652;txt;01
+Dočasné vypnútie Nútených Programov na
+.
+
+3653;txt;01
+sekúnd
+.
+
+3654;txt;01
+Stlačte OK a Nútené Programy budú vypnuté dočasne, ktoré môžu trvať podľa vyššie uvedeného počtu sekúnd alebo pokiaľ nezvolíte túto funkciu znovu.
+.
+
+3599;txt;01
+Môžete vypnúť nútené spustenie konkrétneho programu podržaním kláves Ctrl a Shift, keď kliknete na príkaz Spustiť v Pieskovisku pre tento program.
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control Dialogs: Resource Access Monitor
+#----------------------------------------------------------------------------
+
+3655;txt;01
+Monitor Prístup ku Zdroju
+.
+
+3656;txt;01
+Tento nástroj sleduje programy spustené pod dohľadom Sandboxie a zobrazuje prístupy zdrojov.  Prosím prečítajte si dokumentáciu pred použitím tohoto nástroja.
+.
+
+3657;txt;01
+Kopírovať Obsahy do Schránky a Zatvoriť Okno
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control Dialogs: Is Window Sandboxed
+#----------------------------------------------------------------------------
+
+3661;txt;01
+Je okno v Pieskovisku?
+.
+
+3662;txt;01
+Pretiahnuť myšou do hľadáčika v okne to, čo chcete otvoriť v Pieskovisku.
+
+Stlačiť ESC pre ukončenie.
+.
+
+3663;txt;01
+Vybrané okno beží ako časť programu %2 v Pieskovisku %3.
+.
+
+3664;txt;01
+Vybrané okno nebeží ako časť žiadneho programu Pieskoviska.
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control Dialogs: Create New Sandbox
+#----------------------------------------------------------------------------
+
+3665;txt;01
+Vytvoriť Nové Pieskovisko
+.
+
+3666;txt;01
+Zadajte názov nového Pieskoviska.
+.
+
+3667;txt;01
+Chyba:  Neplatný názov bol zadaný.  Použite len písmená a čísla.  Medzery a iné špeciálne znaky nie sú povolené.  Názov nesmie presiahnuť 32 znakov.
+.
+
+3668;txt;01
+Chyba:  Duplicitný názov bol zadaný.  Zadajte len taký názov, ktorý nepoužíva iné Pieskovisko.
+.
+
+3669;txt;01
+Kopírovať nastavenia z existujúceho Pieskoviska:
+.
+
+4665;txt;01
+Chyba: Zadaný duplicitný názov Pieskoviska. Názov je už používaný v skrytom Pieskoviskuu. Použite príkaz "Zobraziť Skryté Pieskovisko" v menu Pieskovisko.
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control Dialogs: Set Container Folder
+#----------------------------------------------------------------------------
+
+3671;txt;01
+Nastavenie Úložného Adresára
+.
+
+3672;txt;01
+Vyberte jednotku, ktorá bude v Pieskovisku vytvorená a uložená.
+.
+
+3673;txt;01
+Pre maximálnu kompatabilitu s druhými programami sa odporúča, že ponecháte Pieskovisko v predvolenom umiestnení u vybranej jednotky.
+.
+
+3674;txt;01
+Avšak, možete tiež použiť edit box uvedený nižšie pre prepísanie predvoleného umiestenia:
+.
+
+3675;txt;01
+Poznámka:  Doporúča sa vymazať obsahy vo všetkých Pieskoviskách pred zmenou úložného adresára.
+.
+
+3676;txt;01
+Jednotka %2
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control Dialogs: Alerts
+#----------------------------------------------------------------------------
+
+3681;txt;01
+Výstrahy Programu
+.
+
+3682;txt;01
+Keď ktorýkoľvek z nasledovných programov je spustený mimo Pieskoviska, Sandboxie bude hlásiť chybové hlásenie SBIE1301.
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control Dialogs: Shell Integration
+#----------------------------------------------------------------------------
+
+3685;txt;01
+Windows Shell Integrácia
+.
+
+3686;txt;01
+Spustiť Ovládanie Sandboxie
+.
+
+3687;txt;01
+Keď sa Spustí Windows
+.
+
+3688;txt;02
+Keď sa spustí program v Pieskovisku
+.
+
+3689;txt;01
+Ikony Zástupcu
+.
+
+3690;txt;01
+Pridať zástupcu na plochu pre spustenie webového prehliadača pod Sandboxie
+.
+
+3691;txt;01
+Pridať zástupcu rýchleho spustenia pre spustenie webového prehliadača v Sandboxie
+.
+
+3692;txt;01
+Kliknutím pridať na plochu viacej ikon zástupcu:
+.
+
+3693;txt;01
+&Pridať Ikony Zástupcu
+.
+
+3694;txt;01
+"Spustiť v Pieskovisku" akcie
+.
+
+3695;txt;01
+Pridať akciu -stlačením pravého tlačidla "Spustiť v Pieskovisku" pre súbory a záložky
+.
+
+3696;txt;01
+Pridať Pieskoviská ako ciele pre akciu "Odoslať Do"
+.
+
+3697;txt;01
+Start Menu v Sandboxie nebude teraz zobrazené.  Vyberte aplikáciu z menu a Sandboxie vytvorí nového zástupcu na Vašej reálnej ploche, ktorú môžete použiť pre vyvolanie vybranej aplikácie pod dohľadom Sandboxu.
+.
+
+3698;txt;01
+Pieskovisko Webový prehliadač.lnk
+.
+
+3699;txt;01
+Spustiť v &Pieskovisku
+.
+
+4491;txt;01
+Otvoriť %2 v Pieskovisku %3
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control:  Delete Sandbox / Quick Recovery / Immediate Recovery
+#----------------------------------------------------------------------------
+
+3711;txt;01
+Vymazať Obsah|Rýchla Obnova
+.
+
+3712;txt;01
+Súbory uvedené nižšie sú spôsobilé pre rýchlu obnovu z Pieskoviska.  Vyberte súbor alebo záložku a kliknite tiež na niektoré tlačidlo obnovy nižsie k vráteniu vybranej položky.
+.
+
+3713;txt;01
+Kliknite na tlačidlo vymazať obsah k ukončeniu všetkých procesov bežiacich v Pieskovisku a vymazaniu jeho obsahu.
+.
+
+3714;txt;01
+&Vymazať Obsah
+.
+
+3715;txt;01
+Okamžitá Obnova
+.
+
+3716;txt;02
+Nasledujúce súbory sú spôsobilé pre okamtžitú obnovu a môžu byť presunuté mimo Pieskovisko.
+.
+
+3717;txt;01
+Najprv vyberte súbory z uvedeného zoznamu a potom vyberte cieľovú záložku.
+.
+
+3718;txt;01
+&Obnoviť
+.
+
+3719;txt;01
+Nezobra&zovať túto správu, pokiaľ nebudú všetky programy v tomto Pieskovisku ukončené.
+.
+
+3720;txt;01
+Obno&va do
+Rovnakej Záložky
+.
+
+3721;txt;01
+Obnova do
+&Ľubovolnej Záložky
+.
+
+3722;txt;01
+%2 súbory a %3 záložky v Pieskovisku zaberajú %4 bajtov na disku.
+.
+
+3723;txt;01
+Vyberte záložku, do ktorej budú súbor alebo záložka obnovené.
+.
+
+3724;txt;01
+Alebo vyberte záložku zo skoršej obnovy.
+.
+
+3725;txt;01
+Vybrané záložky budú uložené na neskoršie použitie.
+.
+
+3726;txt;01
+Vyberte záložku, aby bola pridaná do zoznamu záložiek Rýchla Obnova.
+.
+3727;txt;01
+Záložka bola pridaná do zoznamu záložiek Rýchla Obnova.
+
+Avšak momentálne nie je žiadna položka Pieskoviska, ktorá môže byť obnovená z tejto záložky.
+.
+
+3728;txt;01
+Žiadne súbory neboly vybrané na obnovu.
+.
+
+3729;txt;01
+Obnova zlyhala.  Nasledujúcu položku sa nepodarilo presunúť mimo Pieskovisko:
+.
+
+3730;txt;01
+Pieskovisko je prázdne.  Nie je čo mazať.
+.
+
+3731;txt;01
+Niektoré programy Pieskoviska nemohli byť ukončené.  Obsah Pieskoviska nebude vymazaný.
+.
+
+3732;txt;01
+V tomto momente nie sú žiadne súbory k obnove.
+.
+
+3733;txt;01
+Súbor nemožno obnoviť, pretože názov cieľovej záložky je príliš dlhý.
+Prosím vyberte inú cieľovú záložku.
+.
+
+3734;txt;01
+Pravé tlačidlo myši ukáže zoznam záložiek pre viacej možností
+.
+
+3735;txt;02
+Nahradiť všetky súbory bez ďalšej výzvy
+.
+
+3736;txt;01
+&Obnoviť && Preskúmať
+.
+
+3737;txt;01
+&Obnoviť && Spustiť
+.
+
+3981;txt;01
+&Otvoriť záložku vo Windows Explorer mimo Pieskovisko
+.
+
+3982;txt;01
+Odstrániť túto záložku zo zoznamu
+.
+
+3983;txt;01
+Odstrániť všetky záložky zo zoznamu
+.
+
+3986;txt;01
+Obnovnie Log
+.
+
+3987;txt;01
+Nasledujúce súbory boli nedávno obnovené a presunuté mimo Pieskoviská.
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control:  Program Settings
+#----------------------------------------------------------------------------
+
+3741;txt;01
+Nastavenia Programu
+.
+
+3742;txt;01
+Pieskovisko:
+.
+
+3743;txt;01
+Program:
+.
+
+3744;txt;01
+Zobraziť Stranu 1
+.
+
+3745;txt;01
+Zobraziť Stranu 2
+.
+
+3751;txt;01
+Štart Program
+.
+
+3752;txt;01
+Kedykoľvek sa tento program spustí mimo Pieskovisko:
+.
+
+3753;txt;01
+Generovať výstražnú správu SBIE1301
+.
+
+3754;txt;01
+Nútiť program, aby bežal v tomto Pieskovisku
+.
+
+3755;txt;01
+Zastaviť Program
+.
+
+3756;txt;01
+Zastaviť tento program, ak je stále v Pieskovisku, aj keď ostatné programy skončili
+.
+
+3757;txt;01
+Zastaviť ostatné programy po skončení tohoto hlavného programu
+.
+
+3761;txt;01
+Interneté Obmedzenia
+.
+
+3762;txt;01
+Akýkoľvek program bežiaci v tomto Pieskovisku má prístup na Internet.
+.
+
+3763;txt;01
+Programy, ktore majú prístup na Internet v tomto Pieskovisku:
+.
+
+3764;txt;01
+Zapnúť obmedzenia a povoliť tomuto programu pripojenie na Internet.
+.
+
+3765;txt;01
+Štart/Spustiť Obmedzenia
+.
+
+3766;txt;01
+Ľubovolný program je možné spustiť v tomto Pieskovisku.
+.
+
+3767;txt;01
+Programy, ktoré sú spustené v tomto Pieskovisku:
+.
+
+3768;txt;01
+Zapnúť obmedzenia a povoliť štart tomuto programu.
+.
+
+3769;txt;01
+(Nič)
+.
+
+3770;txt;01
+Nové nastavenia nepoužiť pre program, ktorý už beží v Pieskovisku. Nastavenia budú uplatnené pri nasledovnom spustení programu.
+.
+
+3771;txt;01
+(Táto funkcia je dostupná len v registrovanej verzii Sandboxie)
+.
+
+3772;txt;02
+Ste si istý, že chcete nastaviť %2 ako nútený program?
+.
+
+3773;txt;02
+Ste si istý, že chcete nastaviť %2 ako nútenú záložku?
+.
+
+# 3774;txt;02
+# Ste si istý, že chcete nastaviť %2 ako nútený užívateľ?
+# .
+
+3775;txt;02
+Urobili ste zmeny, ktoré možno nebude jednoduché vrátiť.
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control:  Sandbox Settings
+#----------------------------------------------------------------------------
+
+3801;txt;01
+Nastavenia Piesoviska - %2
+.
+
+3802;txt;01
+Táto strana je zámerne ponechaná prázdna
+.
+
+3803;txt;01
+Musíte potvrdiť zmeny na tejto strane predtým, než budete pokračovať.
+.
+
+3804;txt;01
+Potvrdiť zmeny pri prechádzaní na ďalšiu stranu.
+.
+
+3805;txt;01
+Všetky Programy
+.
+
+3806;txt;02
+Zoznam nižšie sa uplatňuje na
+.
+
+3807;txt;01
+Vyberte súbor alebo záložku na pridanie do zoznamu Vylúčenia Prístup k Súboru.
+.
+
+3808;txt;01
+Pridať Zdrojové Meno
+.
+
+3809;txt;01
+Upraviť Zdrojové Meno
+.
+
+3551;txt;01
+(Všetky programy, okrem %2)
+.
+
+3552;txt;01
+Zvrátiť význam aktuálneho výberu
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control:  Sandbox Settings:  Appearance
+#----------------------------------------------------------------------------
+
+3811;txt;01
+Vzhľad
+.
+
+3812;txt;01
+Programy spustené v Pieskovisku pod dohľadom Sandboxie bude Sandboxie zobrazovať [#] ukazovateľ na lište.
+.
+
+3813;txt;01
+Ak nasledovné nastavenie je zapnuté, bude lišta taktiež zobrazovať názov tohoto Pieskoviska.
+.
+
+3814;txt;01
+Ukázať názov Pieskoviska na lište
+.
+
+3815;txt;01
+Neukázať ukazovateľ Sandboxie na lište
+.
+
+3816;txt;01
+Sandboxie može zobraziť hrubé ohraničenie okolo okna, ktoré patrí programu Pieskoviska.
+.
+
+3817;txt;01
+Zobraziť ohraničenie okolo okna
+.
+
+3818;txt;01
+Kliknúť na zmenu farby ohraničenia
+.
+
+3819;txt;01
+Zobraziť ohraničenie len vtedy, ak je kurzor myši v nadpise okna
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control:  Sandbox Settings:  Recovery
+#----------------------------------------------------------------------------
+
+# 3821;txt;01
+# Obnova::Rýchla Obnova
+# .
+
+3821;txt;02
+Obnova
+.
+
+3822;txt;01
+Rýchla Obnova
+.
+
+3823;txt;01
+Pred vymazaním obsahu pieskoviska alebo keď je manuálne vyvolaná funkcia Rýchla Obnova, nasledovné záložky budú skontrolované kvôli obsahu Pieskoviska.  Ak nejaké súbory budú nájdené, budete mať možnosť ich ľahko obnoviť mimo Pieskovisko.
+.
+
+# 3831;txt;01
+# Recovery::Immediate Recovery
+# .
+
+3832;txt;01
+Okamžitá Obnova zvyšuje Rýchlu Obnovu automatickým vyvolaním  funkcie obnovy akonáhle sú súbory vytvorené.
+.
+
+3833;txt;01
+Zapnúť Okamžitú Obnovu
+.
+
+3834;txt;01
+Nasledovné záložky a typy súborov (alebo prípony súboru) budú vyradené z Okamžitej Obnovy.
+.
+
+3835;txt;01
+Pridať &Typ
+.
+
+3836;txt;01
+Vyberte záložku pre vylúčenie z Okamžitej Obnovy.
+.
+
+3837;txt;01
+Zadajte typ súboru (alebo príponu súboru) na vyradenie z Okamžitej Obnovy
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control:  Sandbox Settings:  Delete
+#----------------------------------------------------------------------------
+
+# 3841;txt;01
+# Delete::Invocation
+# .
+
+3841;txt;02
+Vymazať
+.
+
+3842;txt;01
+Vymazať Pracovné Súbory
+.
+
+3843;txt;01
+Obsah tohoto pieskoviska môže byť automaticky vymazaný, keď sa posledný program v Pieskovisku stane neaktívny.
+.
+
+3844;txt;01
+Automaticky vymazať obsah Pieskoviska
+.
+
+3845;txt;01
+Ak ktorékoľvek súbory Pieskoviska sú spôsobilé na obnovu, Rýchla Obnova bude uplatnená namiesto automatického zmazania.
+.
+
+3846;txt;01
+Prípadne, toto Pieskovisko môže byť chránené proti odstráneniu alebo presunu a to ako manuálne, tak aj automaticky pri spustení Sandboxie.
+.
+
+3847;txt;01
+Nikdy neodstraňovať toto Pieskovisko alebo vymazať jeho obsah
+.
+
+# 3851;txt;01
+# Delete::Command
+# .
+
+3852;txt;01
+Príkaz Vymazať
+.
+
+3853;txt;01
+Pre automatické aj manuálne vymazanie platí, že nasledovný systémový príkaz bude použitý na vymazanie obsahu Pieskoviska. Ak je prázdny, predvolený príkaz je RMDIR (odstrániť adresár).
+.
+
+3854;txt;01
+Ak zmeníte nastavenia, zahrňte text "%%SANDBOX%%" (s uvodzovkami).  Keď je príkaz uskutočnený, tento text bude nahradený umiestením záložky Pieskoviska.
+.
+
+3855;txt;01
+Alebo vyberte prednastavený príkaz pre vymazanie:
+.
+
+3856;txt;01
+Príkaz vymazať nešpecifikuje "%%SANDBOX%%" (s uvodzovkami).
+Ste si istý, že chcete akceptovať tento príkaz na vymazanie?
+.
+
+3857;txt;01
+Prosím vyhľadajte a vyberte program - %2
+.
+
+#----------------------------------------------------------------------------
+# Program Groups
+#----------------------------------------------------------------------------
+
+3971;txt;01
+Programové Skupiny
+.
+
+3972;txt;01
+Môžete zoskupiť niekoľko programov spolu a dať im názov.  Programové skupiny môžu byť použité s niektorými nastaveniami, ktoré akceptujú názvy programov.
+.
+
+3974;txt;01
+Pridať &Skupinu
+.
+
+3975;txt;01
+Zadajte názov novej skupiny
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control:  Sandbox Settings:  Forced Folders/Programs/Users
+#----------------------------------------------------------------------------
+
+# 3861;txt;01
+# Program Start::Forced Folders
+# .
+
+3861;txt;02
+Štart Program 
+.
+
+3862;txt;01
+Nútené Záložky
+.
+
+3863;txt;01
+Ak sa niektorý program spustí mimo Pieskoviska z jednej z nasledujúcich záložiek, bude nútený bežať v tomto Pieskovisku.  Toto neplatí pre program, ktorý bol spustený z iného Pieskoviska.
+.
+
+3864;txt;01
+Môžete prinútiť windows CD/DVD AutoRun, aby bežal v Pieskovisku pridaním Vašej CD-ROM a DVD-ROM jednotky do nasledovného zoznamu.
+.
+
+3865;txt;01
+Nútené Záložky majú prednosť pred Nútenými Programami.
+.
+
+3866;txt;01
+Vyberte záložku pre pridanie do zoznamu nútených záložiek.
+.
+
+# 3871;txt;01
+# Program Start::Forced Programs
+# .
+
+3872;txt;01
+Nútené Programy
+.
+
+3873;txt;01
+Ak nejaký z nasledovných programov je spustený mimo Pieskoviska, bude donútený štartovať v tomto Pieskovisku.  Toto neplatí, ak je program spustený vyslovene v inom Pieskovisku.
+.
+
+# 3961;txt;01
+# Program Start::Forced Users
+# .
+
+# 3962;txt;01
+# Nútení Užívatelia
+# .
+
+# 3963;txt;01
+# Ak je niektorý z nasledovných užívateľov prihlásený na tento počítač, tak celá prihlasovacia relácia sa nútene spustí v tomto Pieskovisku.
+# .
+
+# 3964;txt;01
+# Ak chcete vymazať Pieskovisko, ktoré je spojené s núteným užívateľským účtom, príhlaste sa do Windows ako užívateľ a použite Ovládanie Sandboxie na vymazanie Pieskoviska.
+# .
+
+# 3965;txt;01
+# Nútení Užívatelia majú prednosť pred Nútenými Programami a Nútenými Zložkami.
+# .
+
+#----------------------------------------------------------------------------
+# Sandboxie Control:  Sandbox Settings:  Linger/Leader Programs
+#----------------------------------------------------------------------------
+
+# 3881;txt;01
+# Program Stop::Lingering Programs
+# .
+
+3881;txt;02
+Zastaviť Program
+.
+
+3882;txt;01
+Ostávajúce Programy
+.
+
+3883;txt;01
+Nasledujúce programy budú automaticky ukončené, ak sú spustené v tomto Pieskovisku, aj keď ostatné programy už skončili.
+.
+
+# 3891;txt;01
+# Program Stop::Leader Programs
+# .
+
+3892;txt;01
+Vedúce Programy
+.
+
+3893;txt;01
+Nasledujúce programy sú považované za hlavné programy v tomto Pieskovisku.  Uknočenie týchto programov zapríčiní, že všetky ostatné programy, ktoré stále bežia, budú ukončené.
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control:  Sandbox Settings:  File Migration
+#----------------------------------------------------------------------------
+
+3901;txt;01
+Presun Súboru
+.
+
+3903;txt;01
+Súbory musia byť presunuté (skopírované) do Pieskoviska predtým, než môžu byť pozmenené programami spustenými v Pieskovisku.  Avšak presun veľmi veľkých súborov môže trvať dlhú dobu.
+.
+
+3904;txt;01
+Nasledújuce čislo urcí maximálu veľkosť premiestňovaného súboru.  Súbory väčšie ako je táto veľkosť nebudú presunuté do Pieskoviska a nebudú môcť byť upravené programami bežiacimi v Pieskovisku.
+.
+
+3905;txt;01
+Nepremiestňujte súbory vačšie ako
+.
+
+3906;txt;01
+kilobajtov
+.
+
+3907;txt;01
+Ak je súbor príliš veľky na presun a nebude nasledovná možnosť zaškrtnutá, bude vypísaná chybová správa SBIE2102.
+.
+
+3908;txt;01
+Nevypisovať chybovú správu ak je súbor príliš veľký na presun.
+.
+
+3909;txt;01
+Nastavenie Presun Súboru obmedzuje maximálnu veľkosť súboru, ktory môže byť kopírovaný do Pieskoviska.
+
+Nastavenie je momentálne nastavené na %3 kilobajov v Pieskovisku '%2'.
+
+Kliknutím na OK prispôsobíte veľkostný limit na %4 kilobajtov.
+
+Môžete tiež zmeniť limoit otvorením okna Nastavenia Pieskoviska, v skupine nastavenia Presun Súboru.
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control:  Sandbox Settings:  Internet/Start Restrictions
+#----------------------------------------------------------------------------
+
+# 3911;txt;01
+# Restrictions::Internet Access
+# .
+
+3911;txt;02
+Obmedzenia
+.
+
+3912;txt;01
+Prístup na Internet
+.
+
+3913;txt;01
+Nasledujúce programy v tomto Pieskovisu budú mať len prístup na intenret.
+.
+
+3914;txt;01
+Keď táto funkcia je zapnutá, programy, ktoré sú nainštalované (alebo stiahnuté) do tohto Pieskoviska, nikdy nebudú mať prístup na internet, aj vtedy, ak sa zhoduje názov progamu uvedený vyššie.
+.
+
+3915;txt;01
+Chybová správa SBIE%2, keď je prístup zamietnutý
+.
+
+3916;txt;01
+&Blokovať Všetky Programy
+.
+
+3917;txt;01
+&Povoliť Všetky Programy
+.
+
+3918;txt;01
+Všetky programy majú prístup na internet
+.
+
+3919;txt;01
+Žiaden program nemá prístup na internet
+.
+
+3920;txt;01
+Sú zapnuté Obmedzenia Prístup na Internet v Pieskovisku '%2', a bránia tomuto programu prístup na internet.
+
+Kliknúím OK pridáte program '%3' na Obmedzenia Prístup na Internet v Pieskovisku '%2'.
+
+Na správu Obmedzenia Prístup na Internet otvorte okno Nastavenia v Pieskovisku rozbalte skupinu Obmedzenia.
+.
+
+# 3921;txt;01
+# Restrictions::Start/Run Access
+# .
+
+3922;txt;01
+Štart/Beh Prístup
+.
+
+3923;txt;01
+Nasledujúce progamy budú môcť byť spúšťané a bežiace v tomto Pieskovisku.
+.
+
+3924;txt;01
+Keď táto funkcia je zapnutá, programy, ktoré sú nainštalované (alebo stiahnuté) do tohto Pieskoviska, nikdy nebudú mať prístup na internet, aj vtedy, ak sa zhoduje názov progamu uvedný vyššie.
+.
+
+3928;txt;01
+Všetky programy možno spustiť a môžu aj bežať
+.
+
+3930;txt;01
+Sú zapnuté Obmedzenia Štart/Beh Prístup v Pieskovisku '%2', a bránia tomuto programu ho spustiť a riadiť.
+
+Kliknutím OK pridáte program '%3' na Obmedzenia Štart/Beh Prístup v Pieskovisku '%2'.
+
+Na správu Obmedzenía Spustiť/Beh Prístup otvorte okno Nastavenia v Pieskovisku v skupine Obmedzenía.
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control:  Sandbox Settings:  Low Level Access / Hardware Access
+#----------------------------------------------------------------------------
+
+# 3931;txt;01
+# Restrictions::Low-Level Access
+# .
+
+3932;txt;01
+Nízkoúrovňový Prístup
+.
+
+3933;txt;01
+Nasledujúce nastavenia oslabia ochranu, ktorú poskytuje Sandboxie. Zapnutie niektorých alebo všetkých týchto nastavení sa nedoporučuje.
+.
+
+3934;txt;01
+Povoliť programom v tomto Pieskovisku načítať ovládače v jadre operačného systému
+.
+
+3935;txt;01
+Povoliť programom v tomto Pieskovisku načítať aplikácie (Win32) zachytené v ďalších programoch
+.
+
+3936;txt;01
+Povoliť programy v tomto Pieskovisku simulovať vstup klávesnice a myši
+.
+
+3937;txt;01
+Povoliť programom v tomto Pieskovisku zmeniť pozadie pracovnej plochy a ďalších systémových parametrov
+.
+
+3938;txt;01
+Povoliť programom v tomto Pieskovisku spravovať hardwarové konfiguračné zariadenie
+.
+
+# 3951;txt;01
+# Restrictions::Hardware Access
+# .
+
+3952;txt;01
+Hardwarový Prístup
+.
+
+3953;txt;01
+Povoliť progamom v tomto Pieskovisku zmeniť heslo užívateľského účtu
+.
+
+3954;txt;01
+Povoliť programom zmeniť sieťové a firewall parametre
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control:  Sandbox Settings:  Drop Rights
+#----------------------------------------------------------------------------
+
+# 3941;txt;01
+# Restrictions::Drop Rights
+# .
+
+3942;txt;01
+Znížené Práva
+.
+
+3943;txt;01
+Sandboxie musí zakázať len niektoré bezpečnostné práva programov, na ktoré dohliada, aby bola zaručená izolácia.
+.
+
+3944;txt;01
+Avšak, ak používate účet administrátora, Sandboxie môže zakázať viac bezpečnostných práv pre dosiahnutie podobného efektu v utilite Znížené Práva.
+.
+
+3945;txt;01
+Znížené Práva pre admínistrátora a všetky užívateľské skupiny
+.
+
+3946;txt;01
+Doporučuje sa ponechať tieto nastavenia zapnuté, slúži ako kompenzácia niektorých ochrán Sandboxie, ktoré sú k dispozícii v 64-bit verzii Windows.
+.
+
+3947;txt;01
+Aktivovať zvýšenú ochranu  pre 64-bit Windows, prosím použite príkaz Experimentálna Ochrana z menu Konfigurácia.
+.
+
+3949;txt;01
+Nastavenie Znížené Práva je zapnuté v Pieskovisku '%2', a zabraňuje použiť užívateľké oprávnenia.
+
+Kliknúť na OK vypnúť nastavenie Znížené Práva v Pieskovisku '%2', a povoliť použiť užívateľské oprávnenia v Pieskovisku.
+
+Môžete kedykoľvek zmeniť nastavenie Znížené Práva otvorením okna Nastavenia Pieskoviska, v skupine Obmedzenia.
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control:  Sandbox Settings:  Resource Access
+#----------------------------------------------------------------------------
+
+4001;txt;01
+Prístup k Zdroju::Prístup k Súboru::Priamy Prístup
+.
+
+4002;txt;01
+Priamy Prístup k Súboru (OpenFilePath)
+.
+
+4003;txt;01
+Nasledovné súbory a záložky budú priamo dostupné pre programy bežiace v tomto pieskovisku bez akýchkoľvek dopadov na Pieskovisko.
+.
+
+4004;txt;01
+Toto sa nevzťahuje na programy, ktoré boli nainštalované alebo stiahnuté do tohto Pieskoviska.
+Pozrite tiež:  Nastavenia Úplného Prístupu.
+.
+
+4011;txt;01
+Prístup k Zdroju::Prístup k Súboru::Úplný Prístup
+.
+
+4012;txt;01
+Úplný Prístup k Súboru (OpenPipePath)
+.
+
+4013;txt;01
+Nasledovné súbory a záložky budú priamo dostupné pre programy bežiace v tomto Pieskovisku bez akýchkoľvek dopadov na Pieskovisko.
+.
+
+4014;txt;01
+Na rozdiel od nastavenia Priamy Prístup, toto nastavenie  platí pre všetky programy vrátane tých, ktoré boli nainštalované alebo stiahnuté do tohto Pieskoviska.
+.
+
+4021;txt;01
+Prístup k Zdroju::Prístup k Súboru::Blokovaný Prístup
+.
+
+4022;txt;01
+Blokovaný Prístup k Súboru (ClosedFilePath)
+.
+
+4023;txt;01
+Nasledovné súbory a záložky nebudú priamo dostupné pre programy bežiace v tomto Pieskovisku bez akýchkoľvek dopadov na Pieskovisko.
+.
+
+4024;txt;01
+Ak súbor alebo záložka sa zhoduje s akýmkoľvek iným nastavením Prístup k Súboru, ale tiež sa zhoduje s nastavením Blokovaný Prístup, tak nastavenie Blokovaný Prístup má prednosť.
+.
+
+4025;txt;01
+Zdieľanie Windows súboru môže byť použité k obchádzaniu nastavení Blokovaný Prístup k Súboru.
+Takže, nastavenie bolo pridané na zablokovanie prístupu do služby zdieľania súboru windows.
+.
+
+4031;txt;01
+Prístup k Zdroju::Prístup k Súboru::Len čítať Prístup
+.
+
+4032;txt;01
+Len číttať Prístup k Súboru (ReadFilePath)
+.
+
+4033;txt;01
+Nasledovné súbory a záložky nebudú môcť byť zmenené v programoch bežiacich v tomto Pieskovisku.
+.
+
+4111;txt;01
+Prístup k Zdroju::Prístup k Súboru::Len písať Prístup
+.
+
+4112;txt;01
+Len písať Prístup k Súboru (WriteFilePath)
+.
+
+4113;txt;01
+Nasledovné záložky sa zobrazia ako prázdne pre programy bežiace v tomto Pieskovisku, ale programy môžu vytvárať nový obsah v Pieskovisku.
+.
+
+4041;txt;01
+Prístup k Zdroju::Registrový Prístup::Priamy Prístup
+.
+
+4042;txt;01
+Priamy Registrový Prístup (OpenKeyPath)
+.
+
+4043;txt;01
+Nasledovné kľúče registrov budú priamo dostupné pre programy bežiace v tomto Pieskovisku.
+.
+
+4044;txt;01
+Toto sa nevzťahuje pre programy, ktoré boli nainštalované alebo stiahnuté do tohto Pieskoviska.
+.
+
+4051;txt;01
+Prístup k Zdroju::Registrový Prístup::Blokovaný Prístup
+.
+
+4052;txt;01
+BLokovaný Registrový Prístup (ClosedKeyPath)
+.
+
+4053;txt;01
+Nasledovné kľúče registrov nebudú dostupné pre všetky programy bežiace v tomto Pieskovisku.
+.
+
+4054;txt;01
+Ak sa kľúč registra zhoduje s iným nastavením Registrový Prístup, ale tiež sa zhoduje s akýmkoľvek iným nastavením Blokovaný Prístup, tak nastavenie Blokovaný Prístup má prednosť.
+.
+
+4061;txt;01
+Prístup k Zdroju::Registrový Prístup::Len čítať Prístup
+.
+
+4062;txt;01
+Len čítať Registrový Prístup (ReadKeyPath)
+.
+
+4063;txt;01
+Nasledovné kľúče registrov nebudú môcť byť zmené v programoch bežiacich v tomto Pieskovisku.
+.
+
+4121;txt;01
+Prístup k Zdroju::Registrový Prístup::Len písať Prístup
+.
+
+4122;txt;01
+Len písať Registrový Prístup (WriteKeyPath)
+.
+
+4123;txt;01
+Nasledovné registrové kľúče sa zobrazia ako prázdne pre programy bežiace v tomto Pieskovisku, ale programy môžu zapisovať nový obsah v Pieskovisku.
+.
+
+4071;txt;01
+Prístup k Zdroju::IPC Prístup::Priamy prístup
+.
+
+4072;txt;01
+Priamy IPC Prístup (OpenIpcPath)
+.
+
+4073;txt;01
+Nasledovné NT IPC objekty budú priamo dostupné v programoch bežiacich v tomto Pieskovisku, bez nejakých dopadov na Pieskovisko.
+.
+
+4074;txt;01
+Nastavenie sa vzťahuje pre všetky programy, vrátane tých, ktoré boli nainštalované alebo stiahnuté do Pieskoviska.
+.
+
+4081;txt;01
+Prístup k Zdroju::IPC Prístup::Blokovaný Prístup
+.
+
+4082;txt;01
+Blokovaný IPC Prístup (ClosedIpcPath)
+.
+
+4083;txt;01
+Nasledovné NT IPC objekty nebudú dostupné pre všetky programy bežiace v tomto Pieskovisku.
+.
+
+4084;txt;01
+Ak nejaký NT IPC objekť sa zhoduje s iným nastavením IPC Prístup, ale sa tiež zhoduje s akýmkoľvek nastavením Blokovaný Prístup, tak nastavenie Blokovaný Prístup má prednosť.
+.
+
+4091;txt;01
+Prístup k Zdroju::Prístup Okna
+.
+
+4092;txt;01
+Prístup Okna (OpenWinClass)
+.
+
+4093;txt;01
+Programy v Pieskovisku nemôžu komunikovať s oknami, ktoré patria programom bežiacim mimo Pieskoviska, jedine že okno bolo vytvorené v jednej z nasledovných tried.
+.
+
+4101;txt;01
+Prístup k Zdroju::COM Prístup
+.
+
+4102;txt;01
+COM Prístup (OpenClsid)
+.
+
+4103;txt;01
+Programy v Pieskovisku nemôžu komunikovať s COM objektami, ktoré patria programom bežiacim mimo Pieskoviska, jedine že COM trieda ID sa zhoduje s jednou s nasledovných ID tried.
+.
+
+#----------------------------------------------------------------------------
+# Applications - General
+#----------------------------------------------------------------------------
+
+4201;txt;01
+Aplikácie
+.
+
+4202;txt;01
+&Zobraziť kód
+.
+
+4203;txt;01
+Otvoriť &webovú Stránku
+.
+
+4204;txt;01
+Vytvoriť &Nové
+.
+
+4205;txt;01
+Táto aplikačná konfigurácie neobsahuje webovú adresu.
+.
+
+4206;txt;01
+Rôzne
+.
+
+4207;txt;01
+Zlepšiť použitie Sandboxie s Vašími ďalšími aplikáciami pomocou výberu z nižšie uvedeného zoznamu.
+.
+
+# 4208;txt;01
+# Applications::Folders
+# .
+
+4209;txt;01
+Záložky
+.
+
+4210;txt;01
+Nastaviť umiestnenie záložky použitím Vaších ďalších aplikácií.
+.
+
+4211;txt;01
+Vybrať záložku pre
+.
+
+4212;txt;01
+Predvolené umiestnenie:
+.
+
+4213;txt;01
+Alternatívne umiestenie:
+.
+
+4214;txt;02
+Alsternatívne umiestenie pre '%2'
+by malo obsahovať nasledujúci súbor:
+
+%3
+
+Vybrané umiestenie neobsahuje tento súbor.
+
+Prosím, vyberte záložku, ktorá tento súbor obsahuje.
+.
+
+4215;txt;01
+Vybrať záložku používanú %2.
+.
+
+4216;txt;01
+Nastavenia nižšie vytvoria aplikačnú konfiguráciu '%2'.
+.
+
+4217;txt;01
+Napíšte alebo prilepte nastavenia, potom na tlačítko OK vytvoríte novú miestnu  aplikačnú konfiguráciu.
+.
+
+4218;txt;01
+Miestne
+.
+
+4219;txt;01
+Vaše miestne (neoficiálne) aplikačné konfigurácie.
+.
+
+4220;txt;01
+Zadaný kód obsahuje jeden alebo viac chýb.
+Nemožno vytvoriť aplikačnú konfiguráciu.
+.
+
+4221;txt;01
+Pozrite sa na stránku Záložky, ak chcete špecifikovať umiesttnenie záložky pre Vaše aplikácie.
+.
+
+4222;txt;02
+Toto nastavenie nemôže byť upravované alebo odstránené, pretože je to časť aplikačnej konfigurácie:
+
+%2
+
+Na odstránenie aplikačnej konfigurácie  z Pieskoviska sa pozrtite na stránky Aplikácie v okne Nastavenia Pieskoviska.
+.
+
+4223;txt;01
+Miestna aplikačná konfigurácia '%2' je teraz odstránená zo všetkých Pieskovísk.
+Prajete si úplne vymazať toto aplikačnú konfiguráciu?
+.
+
+4224;txt;01
+PDF/Tlač
+.
+
+4226;txt;02
+Bezpečnosť/Súkromie
+.
+
+4228;txt;01
+Desktop Utility
+.
+
+4230;txt;01
+Stahovacie Manažéry
+.
+
+4288;txt;01
+Všetky Aplikácie
+.
+
+4289;txt;01
+Zoznam všetkých aplikačných konfigurácií zoradených v abecednom poradí. Zoznam neobsahuje Vaše miestne (neoficiálne) aplikačné konfigurácie.
+.
+
+4291;txt;01
+Predvolené vylúčenie na Okamžitú Obnovu
+.
+
+4292;txt;01
+Predvolený zoznam Ostávajúcich Programov
+.
+
+4293;txt;01
+Predvolený zoznam blokovaných TCP/IP portov
+.
+
+4294;txt;01
+Povoliť programom, aby sa aktualizovali zoznamy odkazov na hlavnom panely vo Windows
+.
+
+#----------------------------------------------------------------------------
+# Applications - Software Compatibility
+#----------------------------------------------------------------------------
+
+4251;txt;01
+Softwarová Kompatabilita
+.
+
+4252;txt;01
+Sandboxie zistil vo Vašom systéme nasledujúce softwarové aplikácie.
+.
+
+4253;txt;01
+Kliknuť na OK na použitie konfiguračných nastavení, ktoré zlepšia kompatibilitu s týmito aplikáciami.
+.
+
+4254;txt;01
+Tieto konfiguračné nastavenia nadobudnú efekt vo všetkých extistujúcich a nových Pieskoviskách.
+.
+
+4255;txt;01
+Nabudúce neoverovať softwarovú kompatibilitu
+.
+
+4256;txt;01
+Táto aplikačná konfigurácia nemôže byť odstránená, pretože sa vzťahuje na všetky Piesoviská.
+Ak chcete odstrániť túto aplikačnú konfiguráciu, použite nástroj Softwarová Kompatibilita z menu Konfigurácia.
+.
+
+4257;txt;01
+Odstrániť &Staré Nastavenia
+.
+
+4258;txt;01
+Nasledujúce kompatabilitné nastavenia nie sú už na použitie:
+
+%2
+
+Ak chcete zrušiť tieto kompatabilitné nastavenia, kliknite na OK.
+.
+
+4451;txt;01
+Sandboxie zistil nasledovné konfliktné softwarové
+aplikácie vo Vašom systéme. Tieto aplikácie by mohli
+byť v rozpore so správnou činnosťou Sandboxie.
+
+%2
+
+Prosím prezrieť stranu Známe Konflikty na web stránke
+Sandboxie pre viacej informácií a riešení.
+
+Želáte si otvoriť teraz web stránku Známe Konflikty?
+.
+
+4452;txt;01
+&Známe Konflikty
+.
+
+#----------------------------------------------------------------------------
+# Lock Configuration
+#----------------------------------------------------------------------------
+
+4261;txt;01
+Konfigurácia Zámok
+.
+
+4262;txt;01
+Sandboxie môže ochrániť celkovú konfiguráciu a Nastavenia Pieskoviska pred neautorizovanými zmenamy. Vyberte ochranný režim na jeho zapnutie alebo vypnutie.
+.
+
+4263;txt;01
+Len &administrátor užívateľských účtov môže robiť zmeny
+.
+
+4264;txt;01
+&Heslo musí byť zadané na vytvorenie zmien
+.
+
+4265;txt;01
+&Zabudnúť heslo, keď okno Ovládanie Sandboxie je skryté
+.
+
+4266;txt;01
+&Zmeniť Heslo
+.
+
+4267;txt;01
+Len administrátor užívateľských účtov môže &Vypnúť príkaz Nútené Programy
+.
+
+4269;txt;01
+Prosím zvážte prečítanie  dokumentácie Sandboxie týkajúcej sa ochrany konfigurácie.  Prajete si otvoritť túto stranu teraz?
+.
+
+4271;txt;01
+Sandboxie konfigurácia je chránená heslom.  Prosim, zadajte teraz heslo.
+.
+
+4272;txt;01
+Zadajte nové heslo pre ochranu konfigurácie Sandboxie.
+.
+
+4273;txt;01
+Zadajte znova rovnaké heslo kvôli potvrdeniu.
+.
+
+4274;txt;01
+Zlé heslo zadané.  Skúsiť znovu?
+.
+
+#----------------------------------------------------------------------------
+# Program Selector
+#----------------------------------------------------------------------------
+
+4281;txt;01
+Vyberte názov programu
+.
+
+4282;txt;01
+Vyberte názov programu alebo programovú skupinu
+.
+
+4283;txt;01
+Programy, ktoré boli nedávno spustené
+.
+
+4284;txt;01
+Programy, ktoré sa ukazujú v Nastavenia Pieskoviska
+.
+
+4285;txt;01
+Programové skupiny
+.
+
+4286;txt;01
+Vyberte alebo &zadajte program:
+.
+
+4287;txt;01
+Otvoriť / Vybrať &Súbor
+.
+
+#----------------------------------------------------------------------------
+# Applications - Accessibility
+#----------------------------------------------------------------------------
+
+# 4301;txt;01
+# Applications::Accessibility
+# .
+
+4302;txt;01
+Accessibility
+.
+
+4303;txt;01
+Nasledovné nastavenia umožnia použiť Sandboxie v kombinácii s dostupným softwarom.  Majte na pamäti, že rozsah ochrany Sandboxie sa týmito nastaveniami nevyhnutne stratí.
+.
+
+4304;txt;01
+Na kompenzáciu stratenej ochrany, prosím konzultujte stránku nastavenia Znížené Práva v skupine nastavení Obmedzenia.
+.
+
+4305;txt;03
+Obrazové čítače:  %2
+.
+
+#----------------------------------------------------------------------------
+# Applications - Web Browser and Email Reader
+#----------------------------------------------------------------------------
+
+4321;txt;01
+Webový Prehliadač
+.
+
+4322;txt;01
+Nasledovné vylúčenia umožnia web prehliadačom bežať v tomto Pieskovisku a robiť zmeny mimo Pieskoviska, teda výmenou menšej miery bezpečnosti a súkromia za lepšie pohodlie.
+.
+
+4323;txt;01
+Prinútiť %2 spustiť v tomto Pieskovisku
+.
+
+4324;txt;02
+Umožniť priamy prístup k %2 sync dáta
+.
+
+4325;txt;02
+Umožniť priamy prístup pre %2 kanály
+.
+
+4326;txt;02
+Umožniť priamy prístup pre %2 položky obľúbené
+.
+
+4327;txt;01
+Pridať Internet Explorer obľúbené do záložiek Rýchla Obnova
+.
+
+4328;txt;01
+Pridať priamy prístup pre %2 cookies
+.
+
+4329;txt;01
+Uložiť mimo Pieskovisko:  História vyhľadávania reťazcov a vyvolávania príkazov
+.
+
+4330;txt;01
+Uložiť mimo Pieskovisko:  Informácie o Účte pre Hotmail a Messenger
+.
+
+4331;txt;01
+Povoliť priamy prístup k %2 heslám
+.
+
+4336;txt;02
+Povoliť priamy prístup k %2 databáze záložek a histórii
+.
+
+4337;txt;02
+Povoliť priamy prístup k %2 databáze phishing 
+.
+
+4338;txt;02
+Povoliť priamy prístup ku celej %2 záložke profilu
+.
+
+4339;txt;02
+Povoliť priamy prístup k %2 preferenciám
+.
+
+4340;txt;01
+Povoliť priamy prístup k %2 riadeniu relácii
+.
+
+4356;txt;02
+Povoliť priamy prístup k %2 záložkám
+.
+
+4357;txt;02
+Iné
+.
+
+4358;txt;02
+Doplnky
+.
+
+4391;txt;01
+Emailový Čítač
+.
+
+4392;txt;01
+Nasledovné vylúčenia umožnia Emailovým Čítačom bežať v tomto Pieskovisku naprístup k súborom poštovej schránky mimo Pieskovisko.
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control:  Sandbox Settings:  User Accounts
+#----------------------------------------------------------------------------
+
+5101;txt;01
+Užívatelské Účty
+.
+
+5102;txt;01
+Pridať užívateľské účty a skupiny užívateľov do zoznamu nižšie na vymedzenie používania Pieskoviska len pre tieto účty.Ak je tento zoznam prázdny, Pieskovisko môže byť používané všetkými užívateľskými účtami.
+.
+
+5103;txt;01
+Poznámka: Nastavenia Nútené Programy a Nútené Záložky pre Pieskovisko sa nevzťahujú na užívateľské účty, ktoré nemôžu používať Pieskovisko.
+.
+
+# 5105;txt;01
+# Pridať &Užívateľa
+# .
+
+5107;txt;01
+Používanie tohoto Pieskoviska je teraz obmezené Vaším užívateľským účtom a
+Pieskovisko nebude zobrazované v hlavnom okne.
+
+Ak chcete, aby sa Pieskovisko zobrazovalo a dalo používať, tak použite príkaz "Zobraziť Skryté Pieskovisko" v menu Pieskoviska.
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control:  Reveal Hidden Sandbox
+#----------------------------------------------------------------------------
+
+5122;txt;01
+Váš užívateľský účet neumožňuje používať Pieskoviská zobrazené nižšie.
+.
+
+5123;txt;01
+Nasledovné užívateľské účty majú momentálne povolenie k používaniu vybraného Pieskoviska.
+.
+
+5124;txt;01
+Kliknite na tlačidlo OK na pridanie svojho užívateľského účtu '%2' do Pieskoviska, a aby sa Pieskovisko následne zobrazilo v hlavnom okne.
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control:  Set Layout and Groups
+#----------------------------------------------------------------------------
+
+5142;txt;01
+Upraviť Pieskoviská do skupín a prispôsobiť poradie tak, v ktorom sú uvedené. Kliknutím pravého tlačítka myši vyvoláte kontextové menu, aby ste mohli upravovať položky, ktoré sú nižšie zobrazené.
+.
+
+5143;txt;01
+(Top)
+.
+
+5145;txt;01
+&Obnova Štandardného Rozmiestnenia
+.
+
+5146;txt;01
+Vložiť &Skupinu
+.
+
+5147;txt;01
+&Prepísať
+.
+
+5148;txt;01
+&Vymazať
+.
+
+5151;txt;01
+&Presunúť
+.
+
+5152;txt;01
+&Presunúť Vyššie
+.
+
+5153;txt;01
+&Presunúť Nižšie
+.
+
+5154;txt;01
+&Presunúť do
+.
+
+#----------------------------------------------------------------------------
+# Getting Started Wizard
+#----------------------------------------------------------------------------
+
+7850;txt;01
+Začíname s Návodom- Sandboxie
+.
+
+7851;txt;01
+Začíname so Sandboxie
+.
+
+7852;txt;01
+Vitajte v Sandboxie!
+
+V Sandboxie bežia programy v izolovanom priestore, ktorý im zabraňuje robiť trvalé zmeny do iných programov a dát vo Vašom počítači.
+
+Tento krátky návod vysvetľuje základné princípy použitia Sandboxie.
+.
+
+7853;txt;01
+Poznámka: Tento návod je určený pre použitie predvoleného pieskoviska, DefaultBox.
+.
+
+7854;txt;01
+Ako Funguje Sandboxie (Ilustrácia)
+.
+
+7855;txt;01
+Spusťte Váš internetový prehliadač v Sandboxie
+.
+
+7856;txt;01
+Prosím, nájdite zástupcu na ploche a dvojklikom myši spustťte Váš prehliadač v predvolenom pieskovisku, DefaultBox.
+.
+
+7857;txt;01
+Kliknite tu, aby ste skryli toto okno a zobrazili plochu.
+.
+
+7858;txt;01
+Váš prehliadač beží teraz v pieskovisku
+.
+
+7859;txt;01
+Programy v pieskovisku môžu meniť len obsah pieskoviska.
+
+Súbory, ktoré sú ukladané alebo sťahované, sú umiestnené v pieskovisku. Ak uložíte súbor na plochu, do záložky Dokument alebo do záložky Stiahnuté súbory, Sandboxie navrhne presunutie súbora mimo pieskoviska.
+
+Skúste teraz: Stiahnite súbor v prehliadači do záložky plocha (v pieskovisku), a obnovte súbor na skutočnú plochu.
+.
+
+7860;txt;01
+Zmazať obsah pieskoviska
+.
+
+7861;txt;01
+Predstavte si pieskovisko ako kúsok priehladného papiera, umiestneného medzi programom a počítačom. Zmazať obsah pieskoviska je niečo také, ako zlikvidovať použitý papier a nahradiť ho čistím.
+.
+
+7862;txt;01
+Skúste teraz: zmažte obsah pieskoviska DefaultBox. Prosím, nájdite žltú ikonu Sandboxie zvýraznenú v rohu obrazovky a kliknite:
+.
+
+7863;txt;01
+Klik pravým tlačítkom myši na žltú ikonu Sandboxie,
+
+vybrať DefaultBox, a nakoniec použiť príkaz Zmazať Obsah.
+.
+
+7864;txt;01
+Ste pripravený začať!
+.
+
+7865;txt;01
+Ďakujeme, že ste si našli čas na tento návod. Môžete navštívit stránku Sandboxie, ak máte záujem o ďalšie rady a tipy.
+
+Predvolené nastavenia v Sandboxie poskytujú plnú ochranu, avšak môžete poupravovať konfiguráciu pieskoviska v menu Pieskovisko v okne Ovládanie Sandboxie.
+.
+
+7866;txt;01
+V 64-bit systéme Windows by ste mali zapnúť Experimentálna Ochrana, ktorá je v Ovládanie Sandboxie pod menu Konfigurácia.
+.
+
+#----------------------------------------------------------------------------
+# License Manager
+#----------------------------------------------------------------------------
+
+7901;txt;01
+Sandboxie Licenčný Správca
+.
+
+7902;txt;01
+Systémový Kód %2
+.
+
+7903;txt;01
+V budúcnosti aktivovať licenciu bez pýtania
+.
+
+#----------------------------------------------------------------------------
+
+7921;txt;01
+Sandboxie je registrovaný a licencia aktivovaná.
+.
+
+7922;txt;01
+Sandboxie je registrovaný, ale licencia by mala byť teraz obnovená.
+.
+
+# was 3603;txt;01
+7923;txt;01
+Neregistrovaná kópia.  Zaregistrujte dnes!
+.
+
+7924;txt;01
+Licencia pre Sandboxie bude musieť byť obnovená za %2 dní.
+.
+
+7925;txt;01
+Licencia pre Sandboxie je teraz aktivovaná.
+.
+
+7926;txt;01
+Dátum ukončenia Vašeho Produktového Kľúča je %2.
+.
+
+7927;txt;01
+Váš Produktový Kľúč má neobmedzenú dobu platnosti.
+.
+
+#----------------------------------------------------------------------------
+
+7931;txt;01
+Vaša kópia Sandboxie je registrovaná pod zastaralým Registračným Kľúčom.
+.
+
+7932;txt;01
+Prosím povoliť Licenčnému Správcovi pripojiť sa k Licenčnému Serveru a vylepšiť Vylepšiť Váš starý Registračný Kľúč na nový Produktový Kľúč.  Za toto vylepšenie nebudete musieť nič platiť.
+.
+
+7933;txt;01
+Váš Registračný Kľúč nie je rozpoznaný Licenčným Serverom.
+.
+
+7934;txt;01
+Ak používate legitímny Registračný kľúč, za ktorý ste zaplatili alebo ktorý Vám bol poskytnutý ako darček, alebo ako súčasť propagácie, potom mi prosím pošlite mail na:
+.
+
+7935;txt;01
+Váš nový Produktový Kľúč je:
+.
+
+7936;txt;01
+Prosím, uschovajte tento Produktový Kľúč na bezpečnom mieste na neskoršie použitie.  Použite tlačidlo nižšie na kopírovanie Vašeho Produtového Kľúča do schránky, z ktoréj ho môžete vložiť do dokumentu a vytlačiť.
+.
+
+7937;txt;01
+&Vylepšenie Registračného Kľúča na Produktový Kľúč
+.
+
+#----------------------------------------------------------------------------
+
+# was 3612;txt;01
+7941;txt;01
+Sandboxie registrácia je vyrobená cez procesor zakúpený od tretej strany.  Začnite registračný proces navštívením web stránky Sandboxie na nižšie uvedenom linku.
+.
+
+7942;txt;01
+Pre aktiváciu Vašej licencie Sandboxie zadajte Produktový Kľúč, ktorý je uvedný vo Vašom doklade o zaplatení, potom kliknite na tlačidlo, aby ste aktivovali licenciu.
+.
+
+7943;txt;01
+Želáte si zadať teraz nový Produktový Kľúč?
+.
+
+7944;txt;01
+&Aktivácia Licencie
+.
+
+# was first line of 3617;txt;01
+7945;txt;01
+Vaša kópia Sandboxie je teraz registrovaná.
+.
+
+# was second line of 3617;txt;01
+7946;txt;01
+Ďakujeme za podporu Sandboxie!
+.
+
+#----------------------------------------------------------------------------
+
+7951;txt;01
+Želáte si teraz aktivovať licenciu?
+.
+
+7952;txt;01
+Prosím navštívte web stránku Sandboxie na nižšie uvedenom linu pre objednanie nového Produktového Kľúča.
+.
+
+7961;txt;01
+Vymazať Licenčné &Informácie
+.
+
+7962;txt;01
+Želáte si vymazať licenčné informácie v Sandboxie?
+
+Môžete aktivovať Vašu licenciu kedykoľvek zadaním Produktového Kľúča.
+.
+
+#----------------------------------------------------------------------------
+
+7971;txt;01
+Toto nie je platný Produktový Kľúč.
+.
+
+7972;txt;01
+Toto nie je platný Systémový Kód.
+.
+
+7973;txt;01
+Toto nie je platný Aktivačný Kľúč.  [%2]
+.
+
+7974;txt;01
+Neplatná odpoveď z Licenčného Servera.
+.
+
+7975;txt;01
+Aktivácia Produktu zlyhala:
+.
+
+7976;txt;01
+Prajete si to teraz skúsiť znovu?
+.
+
+7977;txt;01
+Ak potrebujete aktivovať Sandboxie na počítači, ktorý nemá prístup na Internet, prostím pozrite sa na Sandboxie Licenčné  FAQ informácie ohľadom Offline Registrácie.
+.
+
+7978;txt;01
+Aktuálny dátum (%2) je starší než dátum odoslaný z Licenčného Servera (%3).
+.
+
+7982;txt;01
+Licenčný Server neurčil dôvod zlyhania aktivácie.
+.
+
+7983;txt;01
+Produktový Kľúč nie je rozpoznaný Licenčným Serverom.
+.
+
+7984;txt;01
+Produktový Kľúč nemožno použiť po ukončení jeho dátumu ukončenia %2.
+.
+
+7985;txt;01
+Produktový Kľúč bol aktivovaný na príliš mnoho počítačoch.
+.
+
+7986;txt;01
+Produktový Kľúč bol zrušený, pretože bol vytvorený verejne na Internete.
+.
+
+7987;txt;01
+Produktový Kľúč bol zrušený, pretože objednávka bola zrušená.
+.
+
+#----------------------------------------------------------------------------
+# SandboxieInstall
+#----------------------------------------------------------------------------
+
+8001;ins;01
+Vybrať Typ Inštalácie
+.
+
+8002;ins;01
+Vybrať mód Prepísať albo Odinštalovať.
+.
+
+8003;ins;01
+Štart
+.
+
+8004;ins;01
+Máte existujúcu inštaláciu Sandboxie v nasledujúcej záložke:
+.
+
+8005;ins;01
+Prosím vyberte ako pokračovať:
+.
+
+8006;ins;01
+Prepísať (vylepšiť) existujúcu inštaláciu
+.
+
+8007;ins;01
+Odinštalovať (odstrániť) existujúcu inštaláciu a nastavenia
+.
+
+8008;ins;01
+Kliknuť Štart, keď ste pripravený pokračovať.
+.
+
+8009;ins;01
+Pred odinštalovaním použite Ovládanie Sandboxie k zmazaniu obsahu Pieskoviska.
+.
+
+8010;ins;01
+Inštalácia Ovládača
+.
+
+8011;ins;01
+Prosím prečítajte si nižšie uvedené informácie.
+.
+
+8012;ins;01
+Kliknúť ďalej na inštaláciu a aktiváciu Sandboxie na úrovni systému ovládača.  Tento ovládač je jádrom Sandboxie aplikácie.
+.
+
+8013;ins;01
+Možno budete potrebovať dočasne vypnúť nástroje na ochranu systému, ktoré bežia a ktoré môžu zabrániť inštalácii systémovému ovládaču.
+.
+
+8014;ins;02
+Ak tento krok zlyhá a Váš počítač sa zablokuje alebo reštartuje, prosím reštartujte počítať v Núdzovom Režime, a potom spustite tento inštalačný program pre odstránenie Sandboxie.
+.
+
+8015;ins;01
+Ovládač sa nainštaloval úspešne na väčšine systémoch.
+.
+
+8016;ins;01
+Prosím čakajte, pokým sa Sandboxie odinštaluje.
+.
+
+8021;ins;01
+Spustiť lubovoľný program z Piesoviska.lnk
+.
+
+8022;ins;01
+Spustiť ľubovoľný program pod dohľadom Sandboxie
+.
+
+8023;ins;01
+Sandboxie Štart Menu.lnk
+.
+
+8024;ins;01
+Vyberte program z Menu Štart na spustenie pod dohľadom Sandboxie
+.
+
+8025;ins;01
+Spustiť Web prehliadač v Pieskovisku.lnk
+.
+
+8026;ins;01
+Spustiť predvolený web prehliadač pod dohľadom Sandboxie
+.
+
+8027;ins;01
+Spustiť Windows Explorer v Pieskovisku.lnk
+.
+
+8028;ins;01
+Preskúmajte miestnu pracovnú plochu a počítač pod dohľadom Sandboxie
+.
+
+8029;ins;01
+Ovládanie Sandboxie.lnk
+.
+
+8030;ins;01
+Otvoriť ovládací panel Sandboxie 
+.
+
+8031;ins;01
+Odinštalovať Sandboxie.lnk
+.
+
+8032;ins;01
+Odinštalovať Sandboxie
+.
+
+8033;ins;01
+=copy:3698
+.
+
+8041;ins;01
+Sandboxie môže byť len nainštalovaný v nasledovných verziách Microsoft Windows:
+.
+
+8042;ins;01
+Sandboxie musí byť nainštalovaný cez užívateľský účet, ktorý má Administrátorske oprávnenia v systéme.
+
+Ak používate Windows so zapnutým  Ovládaním Užívateľských Účtov (UAC), uistite sa, že začnete inštalačný balíček použitím príkazu Spustiť ako administrátor.
+.
+
+8043;ins;01
+32-bitová verzia Sandboxie nemôže byť nainštalovaná na 64-bitový operačný systém.
+.
+
+8044;ins;01
+64-bitová verzia Sandboxie nemôže byť nainštalovaná na 32-bitý operačný systém.
+.
+
+8051;ins;01
+Program Ovládanie Sandboxie beží.
+
+Kliknúť OK na zatvorenie, potom pokračovať v inštalácii.
+
+Kliknúť Zrušiť na prerušenie inštalácie.
+.
+
+8052;ins;01
+Nemožno vytvoriť alebo aktualizovať Sandboxie programový súbor
+
+Prosím uistite sa, že Ovládanie Sandboxie nebeží a že žiadne programy nebežia v Pieskovisku.
+
+Potom kliknite na OK na pokračovanie v inštalácii.
+
+Alebo kliknite na Zrušiť ne prerušenie inštalácie.
+.
+
+8053;ins;01
+*** KmdUtil zlyhalo.  Inštalácia alebo odninštalácia nemusí byť úspešne dokončená. ***
+.
+
+8054;ins;01
+Prajete si ponechať Váš Sandboxie.ini konfiguračný súbor?
+
+Vyberte ÁNO na ponechanie konfiguračných nastavení v Sandboxie.ini súbore.
+
+Vyberte NIE na zmazanie súboru Sandboxie.ini a stratu Vaších konfiguračných nastavení.
+.
+
+8055;ins;01
+K dispozícii je online aktualizácia Templates.ini a/alebo prekladov pre túto verziu sandboxie, chcete si ju nainštalovať?
+.
+
+#----------------------------------------------------------------------------
+# KmdUtil
+#----------------------------------------------------------------------------
+
+8101;txt;01
+Nemožno nainštalovať ovládač momentálne.
+
+Prosím, reštartujte Váš počítač,
+potom spustite znovu inštalačnú procedúru.
+
+Zlyhanie funkcie je: %2
+.
+
+8102;txt;01
+Nemožno zastaviť službu momentálne.
+Služba '%2' je zaneprázdnená.
+
+Prosím kliknuť OK pre opakovanie akcie.
+.
+
+8103;txt;01
+Toto je prvá z troch opakovaní.
+.
+
+8104;txt;01
+Toto je druhá z troch opakovaní.
+.
+
+8105;txt;01
+Toto je tretia a teda posledné opakovanie.
+.
+
+8106;txt;02
+Nasledujúce programy musia byť ukončené, predtým než bude pokračovať inštalácia.
+Kliknite na OK, aby sa zatvorili tieto programy a pokračujte v inštalácii.  Kliknite Storno na prerušenie inštalácie.
+.

@@ -1,0 +1,4217 @@
+#----------------------------------------------------------------------------
+# SbieDrv
+#
+# Initialization errors issued to the System evt Log
+#----------------------------------------------------------------------------
+
+1101;evt;inf;01
+SBIE1101 Sterownik Sandboxie (SbieDrv) wersja %2 został zainicjalizowany
+.
+
+1102;evt;inf;01
+SBIE1102 Wyładowano sterownik Sandboxie (SbieDrv)
+.
+
+1103;evt;err;01
+SBIE1103 Nie można uruchomić sterownika Sandboxie (SbieDrv) w wersji %2
+.
+
+1104;evt;err;01
+SBIE1104 Niewystarczające zasoby systemu do zakończenia inicjalizacji
+.
+
+1105;evt;err;01
+SBIE1105 Nieznana wersja systemu operacyjnego: %2
+.
+
+1106;evt;err;01
+SBIE1106 błąd %2, szczegóły %3
+.
+
+# 1107;evt;err;01
+# SBIE1107 Nie może uzyskać dostępu do konta %2 LocalSystem
+# .
+
+1108;evt;err;01
+SBIE1108 Nie można przeanalizować procedury %2
+.
+
+# 1109;evt;err;01
+# SBIE1109 Nieprawidłowe dane licencji: %2
+# .
+
+1110;evt;err;01
+SBIE1110 Nie może przechwycić typu %3, błąd %2
+.
+
+1111;evt;err;01
+SBIE1111 System DLL %3 nie może załadować %2
+.
+
+1112;evt;err;01
+SBIE1112 Nie można zlokalizować procedury %2
+.
+
+1113;evt;err;01
+SBIE1113 Nie można znaleźć Nt system service, z powodu %2
+.
+
+1114;evt;err;01
+SBIE1114 Nie można znaleźć Zw system service, z powodu %2
+.
+
+1116;evt;err;01
+SBIE1116 Sterownik nie zdołał zarejestrować procesu procedury powiadomienia %2
+.
+
+1119;evt;err;01
+SBIE1119 Nie można utworzyć urządzenia API %2
+.
+
+1120;evt;err;01
+SBIE1120 Niezgodność usługi %2
+.
+
+1121;evt;err;01
+SBIE1121 Nie można przechwycić usługi %2
+.
+
+1122;evt;err;01
+SBIE1122 Błąd: %2
+.
+
+#----------------------------------------------------------------------------
+# SbieDrv
+#
+# Error Messages to both Event and Popup Logs
+#----------------------------------------------------------------------------
+
+1151;evt;pop;err;01
+SBIE1151 Nie może obsłużyć instrukcji %2
+.
+
+1152;evt;pop;err;01
+SBIE1152 Przydział trampoline %2 nie powiódł się
+.
+
+1153;evt;pop;err;01
+SBIE1153 Inicjalizacja Sandboxie nie powiodła się. Zamknij wszystkie programy i ponownie zainstaluj Sandboxie albo zrestartuj komputer.
+.
+
+#----------------------------------------------------------------------------
+# SbieDrv
+#
+# Error Messages to Popup Log
+#----------------------------------------------------------------------------
+
+1201;pop;err;01
+SBIE1201 Brak pamięci
+.
+
+# 1202;pop;err;01
+# SBIE1202 Nie można zaktualizować informacji o licencji:%2
+# .
+
+1203;pop;err;01
+SBIE1203 Nie można zbudować listy ścieżek dostępu (błąd w %2)
+.
+
+1204;pop;err;01
+SBIE1204 Utworzenie piaskownicy %3 nie powiodło się %2
+.
+
+1211;pop;err;01
+SBIE1211 Nie można zainicjować procesu %2 w piaskownicy
+.
+
+1212;pop;err;01
+SBIE1212 Nie można utworzyć katalogu '%3' %2
+.
+
+1213;pop;err;01
+SBIE1213 Nie można utworzyć obiektu katalogu '%3' %2
+.
+
+# 1214;pop;err;01
+# SBIE1214 Nie można wstrzyknąć SbieDll %2
+# .
+
+# 1215;pop;err;01
+# SBIE1215 Nie można określić ścieżki do obrazu procesu %2
+# .
+
+# 1216;pop;err;01
+# SBIE1216 Nie można określić ID bezpieczeństwa %2
+# .
+
+# 1217;pop;err;01
+# SBIE1217 Nie można znaleźć procesu macierzystego
+# .
+
+# 1221;pop;err;01
+# SBIE1221 Nie można utworzyć zadania: %2
+# .
+
+1222;pop;err;01
+SBIE1222 Nie można ograniczyć identyfikatora: %2
+.
+
+# 1223;pop;err;01
+# SBIE1223 Nie można zastąpić identyfikatora: %2
+# .
+
+# 1224;pop;err;01
+# SBIE1224 Nie można określić identyfikatora: %2
+# .
+
+1231;pop;err;01
+SBIE1231 Initialization failed for process %3 %2
+.
+
+1241;pop;err;01
+SBIE1241 Brak dostępu do gałęzi rejestru: %2
+.
+
+1242;pop;err;01
+SBIE1242 Przepełnienie buforu monitora
+.
+
+#----------------------------------------------------------------------------
+# SbieDrv
+#
+# Informational Messages to Popup Log
+#----------------------------------------------------------------------------
+
+1301;pop;inf;01
+SBIE1301 Proces '%2' został uruchomiony poza piaskownicą
+.
+
+# 1302;pop;inf;01
+# SBIE1302 Nie określono lub nie włączono piaskownicy '%2'
+# .
+
+# 1303;pop;inf;01
+# SBIE1303 W tym samym czasie może być aktywna tylko jedna piaskownica
+# .
+
+# 1304;pop;inf;01
+# SBIE1304 Zablokowano proces '%2' wejścia fałszywej klawiatury lub myszy
+# .
+
+1305;pop;inf;02
+SBIE1305 Blocked sandboxed image from being loaded - %2
+.
+
+1306;pop;inf;01
+SBIE1306 Sterownik Sandboxie (SbieDrv) nie może być teraz niezaładowany
+.
+
+1307;pop;inf;02
+SBIE1307 Z powodu ograniczeń, następujący program nie uzyskał dostępu do internetu - %2
+.
+
+1308;pop;inf;02
+SBIE1308 Z powodu ograniczeń nie można uruchomić programu - %2
+.
+
+1309;pop;inf;01
+SBIE1309 Odmowa próby zmiany hasła konta
+.
+
+# 1310;pop;inf;01
+# SBIE1310 Rozszerzone funkcje są wyłączone, do momentu powtórnego aktywowania licencji
+# .
+
+# 1311;pop;inf;01
+# SBIE1311 Zablokowano próbę zmiany tapety pulpitu przez proces '%2'
+# .
+
+1312;pop;inf;01
+SBIE1312 Zablokowano uruchomienie 16-bitowego programu DOS w piaskownicy
+.
+
+1313;pop;inf;01
+SBIE1313 Zablokowany bezpośredni dostęp do dysku przez proces '%2'
+.
+
+1314;pop;inf;01
+SBIE1314 Zablokowano żądanie zmiany ustawień sieci/firewalla przez proces '%2'
+.
+
+# 1315;pop;inf;01
+# SBIE1315 Prawdopodobnie z powodu konfliktu z oprogramowaniem: %2
+# .
+
+1316;pop;inf;01
+SBIE1316 Blocked request to generate device event in the sandbox
+.
+
+1317;pop;inf;02
+SBIE1317 Blocked '%2' from trying to access sandbox file root '%3'
+.
+
+1318;pop;inf;02
+SBIE1318 Blocked '%2' from trying to access sandboxed process '%3'
+.
+
+1319;pop;inf;01
+SBIE1319 Blocked spooler print to file, %2 %3
+.
+
+1320;pop;wrn;01
+SBIE1320 To allow print spooler to write outside the sandbox for this process, please double-click on this message line
+.
+
+1399;pop;inf;01
+%0
+.
+
+#----------------------------------------------------------------------------
+# SbieDrv
+#
+# Configuration Error Messages to both Event and Popup Logs
+#----------------------------------------------------------------------------
+
+1401;evt;pop;inf;01
+SBIE1401 Nie znaleziono pliku konfiguracyjnego, użyto domyślnego
+.
+
+1402;evt;pop;wrn;01
+SBIE1402 Błąd w pliku konfiguracyjnym w linii %3: %2
+.
+
+1403;evt;pop;wrn;01
+SBIE1403 Błąd w wierszu %2 pliku konfiguracyjnego: zbyt długi wiersz
+.
+
+1404;evt;pop;wrn;01
+SBIE1404 Błąd w wierszu %2 pliku konfiguracyjnego: zbyt dużo wierszy
+.
+
+1405;evt;pop;wrn;01
+SBIE1405 Błąd w wierszu %2 pliku konfiguracyjnego: błąd składni
+.
+
+1406;evt;pop;err;01
+SBIE1406 Brakujące lub nieprawidłowe rozszerzenie dla %3: %2
+.
+
+# 1407;evt;pop;err;01
+# SBIE1407 Nieprawidłowa wartość ustawienia %2, użyj domyślnej
+# .
+
+1408;pop;err;01
+SBIE1408 Nieznana nazwa użytkownika dla SID: %2
+.
+
+1409;evt;pop;wrn;01
+SBIE1409 Plik Templates.ini nie może być otworzony przez %2
+.
+
+1410;evt;pop;wrn;01
+SBIE1410 Następująca wiadomość wskazuje błąd w pliku Templates.ini
+.
+
+1411;evt;pop;wrn;01
+SBIE1411 Piaskownicę %2 określa nieznany szablon %3
+.
+
+1412;evt;pop;err;01
+SBIE1412 W tekście: %2
+.
+
+#----------------------------------------------------------------------------
+# SbieDrv
+#
+# Messages from user mode -- informational -- 2101 through 2199
+#----------------------------------------------------------------------------
+
+2101;pop;inf;01
+SBIE2101 %2
+.
+
+2102;pop;inf;01
+SBIE2102 Plik jest zbyt duży, by skopiować go do piaskownicy - %2
+.
+
+2103;pop;inf;01
+SBIE2103 Zablokowana próba ładowania systemowego sterownika '%2'
+.
+
+2104;pop;inf;02
+SBIE2104 Odmowa próby zakończenia tej sesji Windows - %2
+.
+
+# 2105;pop;inf;01
+# SBIE2105 Uruchomiono pomyślnie usługę %2 w piaskownicy
+# .
+
+# 2106;pop;inf;01
+# SBIE2106 Proszę włączyć "Uruchom jako administrator UAC" w Centrum sterowania Sandboxie, menu plik
+# .
+
+# 2107;pop;inf;01
+# SBIE2107 Przygotowanie WinSxS do montażu '%2'
+# .
+
+2108;pop;inf;01
+SBIE2108 Pomyślnie zakończono fałszowanie programu '%2'
+.
+
+# 2109;pop;inf;01
+# SBIE2109 Kliknij OK, po zakończeniu programu lub instalacji.
+# .
+
+# 2110;pop;inf;01
+# SBIE2110 Przygotowywanie WinSxS uzależnień dla '%2'
+# .
+
+2111;pop;inf;01
+SBIE2111 Process is not accessible: %3, call %2
+.
+
+2112;pop;inf;01
+SBIE2112 Object is not accessible: %3, call %2
+.
+
+2113;pop;inf;01
+SBIE2113 File is too large to copy into sandbox, creating empty file - %2
+.
+
+2114;pop;inf;01
+SBIE2114 File is too large to copy into sandbox, denying access - %2
+.
+
+2115;pop;inf;01
+SBIE2115 File is too large to copy into sandbox, opening in read only - %2
+.
+
+2180;pop;inf;01
+SBIE2180 LowLevel.dll error %2
+.
+
+2181;pop;inf;01
+SBIE2181 LowLevel.dll detour failed to load SbieDll.dll into target process.
+.
+
+# %2 = Mozilla Firefox
+2191;pop;inf;01
+SBIE2191 Nie należy aktualizować %2, gdy jest uruchomiony w Sandboxie.
+.
+
+2192;pop;inf;01
+SBIE2192 Aby uaktualnić program, uruchom go bez nadzoru Sandboxie
+.
+
+2193;pop;inf;01
+SBIE2193 Pamiętaj, żeby usunąć piaskownicę po zakończeniu procesu aktualizacji.
+.
+
+2194;pop;inf;01
+SBIE2194 MSI installer requires %2 option to be set in the ini, what however weakens the isolation.
+.
+
+2195;pop;inf;01
+SBIE2195 To run Explorer.exe sandboxed, the access for COM infrastructure must not be Open.
+.
+
+2196;pop;inf;01
+SBIE2196 To run the MSI Installer sandboxed, the access for COM infrastructure must not be Open.
+.
+
+2198;pop;inf;01
+%0
+.
+
+2199;pop;inf;01
+%0
+.
+
+#----------------------------------------------------------------------------
+# SbieDrv
+#
+# Messages from user mode -- warning -- 2201 through 2299
+#----------------------------------------------------------------------------
+
+2201;pop;wrn;01
+SBIE2201 %2
+.
+
+# 2202;pop;wrn;01
+# SBIE2202 Brak listy zainstalowanych urządzeń sprzętowych
+# .
+
+2203;pop;wrn;01
+SBIE2203 Nie można komunikować się z usługą %2 Sandboxie
+.
+
+2204;pop;wrn;01
+SBIE2204 Nie można uruchomić usługi %2 w piaskownicy
+.
+
+2205;pop;wrn;01
+SBIE2205 Nie implementowano usługi: %2
+.
+
+2206;pop;wrn;01
+SBIE2206 Przetwarzanie ustawień %2 AutoExec zakończyło się niepowodzeniem
+.
+
+2207;pop;wrn;01
+SBIE2207 Nieprawidłowa wartość ustawienia '%2', użyj domyślnej
+.
+
+2208;pop;wrn;01
+SBIE2208 Nie można usunąć gałęzi rejestru: %2
+.
+
+2209;pop;wrn;01
+SBIE2209 Nie można przetłumaczyć SID na nazwę użytkownika: %2
+.
+
+2210;pop;wrn;01
+SBIE2210 Nie można uruchomić Windows Explorer z: %2
+.
+
+2211;pop;wrn;01
+SBIE2211 Nie można uruchomić usługi %2 w piaskownicy
+.
+
+2212;pop;wrn;01
+SBIE2212 Nie skonfigurowano procesu '%2' klienta poczty, by uruchomić go w piaskownicy
+.
+
+2213;pop;wrn;01
+SBIE2213 Poświadczenia Windows nie mogą być przechowywane w piaskownicy
+.
+
+2214;pop;wrn;01
+SBIE2214 Żądanie uruchomienia usługi '%2' zostało odrzucone z powodu obniżenia uprawnień
+.
+
+# 2215;pop;wrn;01
+# SBIE2215 Nie można przygotować WinSxS uzależnień: %2
+# .
+
+# 2216;pop;wrn;01
+# SBIE2216 Błąd podczas przygotowywania zestawu WinSxS: %2
+# .
+
+2217;pop;wrn;02
+SBIE2217 Żądanie uruchomienia, jako administrator zostało odrzucone z powodu obniżonych uprawnień
+.
+
+2218;pop;wrn;01
+SBIE2218 Nie można uzyskać podniesienia uprawnień: %2
+.
+
+2219;pop;wrn;01
+SBIE2219 Żądanie zostało wysłane przez program %2
+.
+
+2220;pop;wrn;01
+SBIE2220 Aby móc korzystać z uprawnień administratora, proszę kliknąć dwukrotnie ten wiersz wiadomości
+.
+
+2221;pop;wrn;01
+SBIE2221 Aby dodać program do ograniczonego dostępu do internetu, proszę kliknąć dwukrotnie ten wiersz wiadomości
+.
+
+2222;pop;wrn;01
+SBIE2222 Aby dodać program do ograniczonego dostępu do Uruchom, proszę kliknąć dwukrotnie ten wiersz wiadomości
+.
+
+2223;pop;wrn;01
+SBIE2223 Aby zwiększyć limit rozmiaru kopiowanych plików, proszę kliknąć dwukrotnie ten wiersz wiadomości
+.
+2224;pop;wrn;01
+SBIE2224 Sandboxed program has crashed: %2
+.
+
+2225;pop;wrn;01
+SBIE2225 An attempt was made to access an EFS file: %2
+.
+
+2226;pop;wrn;01
+SBIE2226 Process failed to start due to missing elevation, to resolve add "ApplyElevateCreateProcessFix=y" to the ini section for this box %2
+.
+
+2227;pop;wrn;01
+SBIE2227 '%2' is located on a volume which does not support 8.3 naming. This can cause issues with older applications and installers.
+.
+
+#----------------------------------------------------------------------------
+
+2230;pop;wrn;01
+SBIE2230 Failed to mount root for %2
+.
+
+2231;pop;wrn;01
+SBIE2231 Junction Target mismatch %2
+.
+
+2232;pop;wrn;01
+SBIE2232 The ImDisk Driver is not loaded
+.
+
+2233;pop;wrn;01
+SBIE2233 Cannot control the ImDisk Driver: %2
+.
+
+2234;pop;wrn;01
+SBIE2234 No free Drive letter found for temporary mount
+.
+
+2235;pop;wrn;01
+SBIE2235 Error undefining temporary drive letter: "%2"
+.
+
+2236;pop;wrn;01
+SBIE2236 %2 could not be invoked (perhaps it is not installed?)
+.
+
+2237;pop;wrn;01
+SBIE2237 Failed to unmount root %2
+.
+
+2238;pop;wrn;01
+SBIE2238 Ram Disk size is not configured, or to small, set RamDiskSizeKb=1048576 (1GB in Kilobytes) in the [GlobalSettings] ini section.
+.
+
+2239;pop;wrn;01
+SBIE2239 The root folder of sandbox %2 must be empty in order to mount a volume to it.
+.
+
+2240;pop;wrn;01
+SBIE2240 Timeout when trying to mount ImDisk volume %2
+.
+
+2241;pop;wrn;01
+SBIE2241 Box image file %2 could not be opened
+.
+
+2242;pop;wrn;01
+SBIE2242 Failed to mount box image, The specified cipher is not supported
+.
+
+2243;pop;wrn;01
+SBIE2243 Failed to mount box image, Wrong password
+.
+
+2244;pop;wrn;01
+SBIE2244 Failed to mount box image, Password required
+.
+
+2246;pop;wrn;01
+SBIE2246 Failed to mount box image, ImBox error %2
+.
+
+
+#----------------------------------------------------------------------------
+# SbieDrv
+#
+# Messages from user mode -- error -- 2301 through 2399
+#----------------------------------------------------------------------------
+
+2301;pop;err;01
+SBIE2301 %2
+.
+
+2302;pop;err;01
+SBIE2302 Process image configuration conflict: %2
+.
+
+
+2303;pop;err;01
+SBIE2303 Nie można przechwycić %2
+.
+
+2304;pop;err;01
+SBIE2304 Inicjalizacja procesu %2 zakończyła się niepowodzeniem
+.
+
+2305;pop;err;01
+SBIE2305 Brak pamięci
+.
+
+2306;pop;err;01
+SBIE2306 Nie można zlokalizować katalogu użytkownika: %2
+.
+
+2307;pop;err;01
+SBIE2307 Nie można mapować napędu %2
+.
+
+2308;pop;err;01
+SBIE2308 Nie można utworzyć obiektu katalogu: %2
+.
+
+2309;pop;err;01
+SBIE2309 Nie można wyłączyć COM+/DCOM: %2
+.
+
+2310;pop;err;01
+SBIE2310 Bufor (%2) jest bliski przepełnienia
+.
+
+2311;pop;err;01
+SBIE2311 Nie można wyłączyć kosza (BitBucket): %2
+.
+
+2312;pop;err;01
+SBIE2312 Nie można włączyć ustawień BrowseNewProcess: %2
+.
+
+2313;pop;err;01
+SBIE2313 Nie można wykonać %2
+.
+
+2314;pop;err;01
+SBIE2314 Anulowanie procesu %2
+.
+
+# 2315;pop;err;01
+# SBIE2315 Nie można ustalić wykonywalnego obrazu
+# .
+
+2316;pop;err;01
+SBIE2316 Uszkodzona pamięć
+.
+
+2317;pop;err;01
+SBIE2317 Nie można zainicjować ścieżki listy '%2'
+.
+
+2318;pop;err;01
+SBIE2318 Nie powiodło się zainicjowanie biblioteki DLL dla '%2'
+.
+
+# 2319;pop;err;01
+# SBIE2319 Nie powiodła się aktywacja procesu %2 w piaskownicy
+# .
+
+# 2320;pop;err;01
+# SBIE2320 Nie można wyłączyć Eksploratora Windows jako procesu pulpitu: %2
+# .
+
+2321;pop;err;01
+SBIE2321 Nie można zarządzać mapą urządzenia: %2
+.
+
+2322;pop;err;01
+SBIE2322 Nie można przepisać Sandboxie.ini: %2
+.
+
+2323;pop;err;01
+SBIE2323 Błąd kryptografii: %2
+.
+
+2325;pop;err;01
+SBIE2325 Debug:  %2
+.
+
+2326;pop;err;01
+SBIE2326 Nie można przygotować rejestru: %2
+.
+
+2327;pop;err;01
+SBIE2327 Błąd w serwerze COM: %2
+.
+
+2331;pop;err;01
+SBIE2331 Nie można uruchomić usługi: %2
+.
+
+2332;pop;err;01
+SBIE2332 Nie można uzyskać dostępu do pliku SbiePst.dat
+.
+
+# 2333;pop;err;01
+# SBIE2333 Znaleziono niezgodną bibliotekę DLL z oprogramowaniem: %2
+# .
+
+#2334;pop;err;01
+#SBIE2334 Nie można załadować pliku DLL: %2
+#.
+
+2335;pop;err;01
+SBIE2335 Initialization failed for process %2
+.
+
+2336;pop;err;01
+SBIE2336 Error in GUI server:  %2
+.
+
+2337;pop;err;01
+SBIE2337 Failed to start program:  %2
+.
+
+2338;pop;err;01
+SBIE2338 Encountered unsupported architecture in process:  %2
+.
+
+# 2398;txt;01
+# SBIE2398 Service suffers exception ... at address ...
+# .
+
+# 2399;txt;01
+# SBIE2399 Service fails with error ...
+# .
+
+#----------------------------------------------------------------------------
+# SbieSvc
+#----------------------------------------------------------------------------
+
+9101;evt;err;01
+SBIE9101 Niewystarczające zasoby systemowe
+.
+
+9153;evt;err;01
+SBIE9153 Nie można uruchomić sterownika (SbieDrv)
+.
+
+9154;evt;err;01
+SBIE9154 Różne wersje sterownika (SbieDrv) i usługi (SbieSvc)
+.
+
+9156;evt;err;01
+SBIE9156 Nie zakończono inicjalizacji sterownika
+.
+
+9234;evt;err;01
+SBIE9234 Service startup error %2
+.
+
+# 9201;evt;err;01
+# SBIE9201 Błąd identyfikatora
+# .
+
+# 9202;evt;err;01
+# SBIE9202 Błąd identyfikatora
+# .
+
+# 9203;evt;err;01
+# SBIE9202 Błąd identyfikatora
+# .
+
+# 9204;evt;err;01
+# SBIE9204 Błąd deskryptora bezpieczeństwa
+# .
+
+# 9205;evt;err;01
+# SBIE9205 Błąd deskryptora bezpieczeństwa
+# .
+
+# 9206;evt;err;01
+# SBIE9206 Błąd deskryptora bezpieczeństwa
+# .
+
+# 9207;evt;err;01
+# SBIE9207 Błąd deskryptora bezpieczeństwa
+# .
+
+# 9208;evt;err;01
+# SBIE9208 Nie można włączyć SeRestorePrivilege
+# .
+
+# 9251;evt;err;01
+# SBIE9251 Nie można utworzyć zdarzenia portu
+# .
+
+# 9252;evt;err;01
+# SBIE9252 Nie można utworzyć portu
+# .
+
+# 9253;evt;err;01
+# SBIE9253 Nie można utworzyć wątku portu
+# .
+
+#----------------------------------------------------------------------------
+# Common Texts
+#----------------------------------------------------------------------------
+
+3001;txt;01
+&OK
+.
+
+3002;txt;01
+&Anuluj
+.
+
+3003;txt;01
+&Przeglądaj...
+.
+
+3004;txt;01
+&Zamknij
+.
+
+3005;txt;01
+Wy&tnij
+.
+
+3051;txt;01
+Usunięcie ochrony dla piaskownicy jest możliwe
+.
+
+3052;txt;01
+Uruchom w Sandboxed
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Start
+#----------------------------------------------------------------------------
+
+3101;txt;01
+Sandboxie Start
+.
+
+3103;txt;01
+Wpisz nazwę programu lub folderu, a Sandboxie go otworzy.
+.
+
+3104;txt;01
+Wpisz . (znak kropki), aby eksplorować pulpit w Sandboxie.
+.
+
+3105;txt;01
+Usuń polecenie z historii poleceń
+.
+
+3106;txt;01
+Wybierz piaskownicę, w której ma zostać uruchomiony program lub dokument.
+.
+
+3107;txt;01
+Type the name of a program or path to open the following file in the current sandbox:
+.
+
+3111;txt;01
+      Sandboxie Menu start - %2  %0
+.
+
+3112;txt;01
+Pulpit
+.
+
+3113;txt;01
+(eksploruj folder)
+.
+
+# should match the localized folder name for Programs in the Start Menu folder
+3114;txt;01
+Programy
+.
+
+3202;txt;01
+Nieprawidłowy parametr linii poleceń:  %2
+.
+
+3203;txt;01
+Sposób użycia: Start.exe <nazwa programu>
+.
+
+3204;txt;01
+Nieprawidłowy parametr nazwy bloku:  %2
+.
+
+3205;txt;01
+Nie można wywołać programu:
+
+%2
+.
+
+3206;txt;01
+Kod błędu systemu:
+.
+
+# 3207;txt;01
+# Nie można znaleźć pliku wykonywalnego Internet Explorer
+# .
+
+# 3208;txt;01
+# Nie można znaleźć pliku wykonywalnego domyślnej przeglądarki internetowej
+# .
+
+3209;txt;01
+Nie można znaleźć pliku wykonywalnego domyślnego klienta poczty
+.
+
+3210;txt;01
+Nie można uruchomić programu Sterowania Sandboxie
+.
+
+# 3211;txt;01
+# Niewłaściwa wersja w Sandboxie.  Spróbuj ponownie zainstalować program.
+# .
+
+3212;txt;01
+Sterownik Sandboxie (SbieDrv) nie jest dostępny dla programów w piaskownicy.
+Upewnij się, czy zarówno sterownik jak i usługa Sandboxie (SbieSvc) zostały pomyślnie uruchomione.
+.
+
+3213;txt;01
+Nie można zainicjalizować usług COM Sandboxie
+.
+
+3214;txt;01
+Usuń piaskownicę %2:  %0
+.
+
+3215;txt;01
+Obiekt (plik albo folder) może być w użyciu przez inny program.
+Zamknij programy lub okna, które mogą uniemożliwiać dostęp.
+.
+
+3216;txt;01
+Nie można zlokalizować folderu piaskownicy
+.
+
+3217;txt;01
+Nie można otworzyć folderu piaskownicy
+.
+
+3218;txt;01
+Nie można otworzyć folderu zawierającego folder piaskownicy
+.
+
+3219;txt;01
+Nie można przenieść folderu piaskownicy
+.
+
+3220;txt;01
+Błąd zmiany nazwy jednego z plików z długą nazwą w piaskownicy.
+Piaskownica nie zostanie usunięta.
+.
+
+3221;txt;01
+Proszę zakończyć działanie uruchomionych programów w piaskownicy przed usunięciem jej zawartości.
+.
+
+3222;txt;01
+Polecenie 'Usuń' zakończyło się niepowodzeniem:  %0
+.
+
+# 3231;txt;01
+# Masz zainstalowany Sandboxie dłużej niż 30 dni.
+# .
+
+# 3232;txt;01
+# Sandboxie możesz stosować bezpłatnie i bez ograniczeń czasowych do użytku prywatnego.
+# .
+
+# 3233;txt;01
+# Wersja bezpłatna zrobi teraz przerwę na kilka sekund.
+# .
+
+# 3234;txt;01
+# Wersja bezpłatna pozwala jednocześnie używać tylko jednej piaskownicy.
+# .
+
+# 3235;txt;01
+# Te ograniczenia są usunięte w płatnej wersji Sandboxie.
+# .
+
+# 3236;txt;01
+# Dodatkowo płatna wersja umożliwia automatyczne uruchamianie wybranych programów w piaskownicy.
+# .
+
+# 3237;txt;01
+# Aby uzyskać więcej informacji i móc nabyć program, proszę kliknąć w następujący link:
+# .
+
+# 3238;txt;01
+# Proszę czekać %2, lub więcej sekund
+# .
+
+# 3239;txt;01
+# Kliknij, aby zamknąć to okno i kontynuować
+# .
+
+# 3240;txt;01
+# Kliknij, aby zamknąć to okno i zatrzymać
+# .
+
+3241;txt;01
+Sandboxie wymaga uprawnień administratora
+do uruchomienia programu w piaskownicy.
+.
+
+3242;txt;01
+Aby zaakceptować lub anulować żądanie, należy
+uaktywnić wyskakujące okienko UAC.
+.
+
+3243;txt;01
+Uwaga: Program będzie nadal działał pod nadzorem Sandboxie,
+nawet po przyznaniu uprawnień administratora.
+.
+
+3251;txt;01
+Uruchom poza piaskownicą
+.
+
+3252;txt;01
+Uruchamiasz program celowo bez nadzoru Sandboxie, nawet, gdy
+uruchamianie programu jest wymuszone w piaskownicy.
+Ten wyjątek do uruchomienia poza piaskownicą rozciąga się
+również na inne programy, które są uruchamiane przez ten program.
+
+Można również wybrać tę opcję, przytrzymując wciśnięte klawisze
+Shift + Ctrl i klikając polecenie Uruchom w piaskownicy.
+.
+
+3253;txt;01
+Czy na pewno chcesz uruchomić program poza piaskownicą?
+.
+
+3254;txt;01
+Aby pominąć okno wyboru piaskownicy, musisz wcisnąć klawisz Ctrl,
+gdy klikasz polecenie Uruchom w piaskownicy.
+.
+
+3255;txt;01
+Opcja jest wyłączona, ponieważ funkcja obniżenia uprawnień jest włączona dla tej piaskownicy
+.
+
+3256;txt;01
+Opcja jest wyłączona, ponieważ ten program jest już uruchomiony z uprawnieniami administratora
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control Common
+#----------------------------------------------------------------------------
+
+3301;txt;01
+Sterowanie Sandboxie
+.
+
+3302;txt;01
+Wersja %2
+.
+
+3303;txt;01
+  - inicjalizowanie
+.
+
+3304;txt;01
+Niewłaściwa wersja w Sandboxie:
+
+Sterowanie Sandboxie: Wersja %2
+Usługa (SbieSvc): Wersja %3
+Sterownik (SbieDrv): Wersja %4。
+
+Zainstaluj ponownie Sandboxie, by rozwiązać ten problem.
+
+Przerwano.
+.
+
+# 3305;txt;01
+# Could not install tray icon.  Aborting.
+# .
+
+3306;txt;01
+W przyszłości, nie pokazuj tej wiadomości
+.
+
+# 3307;txt;01
+# Wprowadź nazwę programu
+# .
+
+# translate text but keep hash signs (#)
+3308;txt;01
+Programy#*.EXE#Wszystkie pliki#*.*##
+.
+
+3309;txt;01
+  -  Usuwanie piaskownicy
+.
+
+3311;txt;01
+Nie można zarejestrować ustawień konfiguracji %3 w sekcji %2: %4
+.
+
+3312;txt;01
+Nie masz uprawnień do aktualizacji konfiguracji w sekcji %2
+.
+
+3313;txt;01
+Nieznany użytkownik, ustawienia konfiguracji nie będą zapisane
+.
+
+3314;txt;01
+Wystąpił błąd podczas stosowania domyślnych ustawień dla piaskownicy '%2'
+.
+
+3315;txt;01
+Deleting Sandbox contents
+.
+
+3316;txt;01
+Do you want to abort the operation?
+.
+
+3317;txt;01
+Preparing to delete: %2
+.
+
+3318;txt;01
+Deleting: %2
+.
+
+# 3321;txt;01
+# - Sesja logowania jest w piaskownicy
+# .
+
+# 3322;txt;01
+# Twoja sesja logowania działa pod nadzorem Sandboxie.
+# Usunięcie zawartości piaskownicy anuluje wszystkie zmiany wprowadzone w tej sesji.
+# 
+# Konto użytkownika: %2
+# Piaskownica: %3
+# 
+# Czy na pewno chcesz usunąć zawartość piaskownicy i wylogować się z systemu Windows?
+# .
+
+3351;txt;01
+&Usuń
+.
+
+3352;txt;01
+&Dodaj
+.
+
+3353;txt;01
+&Edytuj / Dodaj
+.
+
+3354;txt;01
+&Edytuj
+.
+
+3355;txt;01
+Dodaj &program
+.
+
+# 3356;txt;01
+# Dodaj w/g &nazwy
+# .
+
+# 3357;txt;01
+# Dodaj w/g &pliku
+# .
+
+3358;txt;01
+Dodaj &folder
+.
+
+3359;txt;01
+Dodaj &użytkownika
+.
+
+3360;txt;01
+Wybierz &wszystkie
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control Menus
+#----------------------------------------------------------------------------
+
+3411;txt;01
+&Plik
+.
+
+3412;txt;01
+Zakończ &wszystkie programy
+.
+
+3413;txt;01
+Wyłącz &monitorowane programy
+.
+
+3414;txt;01
+Uruchom jako administrator &UAC
+.
+
+3415;txt;01
+Czy &okno jest w piaskownicy?
+.
+
+3416;txt;01
+&Monitor dostępu do zasobów
+.
+
+3417;txt;01
+&Zakończ
+.
+
+3421;txt;01
+&Widok
+.
+
+3422;txt;01
+&Programy
+.
+
+3423;txt;01
+&Pliki i foldery
+.
+
+3424;txt;01
+Menu &kontekstowe%2Shift+F10
+.
+
+3425;txt;01
+&Log odzyskiwania
+.
+
+3426;txt;01
+&Always on Top
+.
+
+3431;txt;01
+Piask&ownica
+.
+
+3432;txt;01
+Utwórz nową piaskownicę
+.
+
+3433;txt;01
+Ustaw folder pojemnika
+.
+
+3434;txt;01
+Wyświetl ukrytą piaskownicę
+.
+
+3435;txt;01
+Ustaw układ i grupy
+.
+
+3441;txt;01
+&Konfiguracja
+.
+
+3442;txt;01
+&Alerty programów
+.
+
+3443;txt;01
+&Integracja z powłoką
+.
+
+3501;txt;01
+&Zgodność oprogramowania
+.
+
+# 3503;txt;01
+# Eksperymentalna ochrona (64-bit)
+# .
+
+3444;txt;01
+Wyświetlaj ukryte wiado&mości
+.
+
+3445;txt;02
+&Wskazówki
+.
+
+3502;txt;01
+Zablo&kuj konfigurację
+.
+
+3446;txt;01
+&Edytuj konfigurację
+.
+
+3447;txt;01
+Prze&ładuj konfigurację
+.
+
+3448;txt;01
+&Pokaż wszystkie wskazówki
+.
+
+3449;txt;01
+&Ukryj wszystkie wskazówki
+.
+
+3504;txt;01
+&Support Sandboxie with Donations
+.
+
+3505;txt;01
+Contribute to Sandboxie
+.
+
+3506;txt;01
+Get Supporter Certificate
+.
+
+3507;txt;01
+Apply Supporter Certificate
+.
+
+3451;txt;01
+P&omoc
+.
+
+3452;txt;01
+P&omoc kontekstowa (www)
+.
+
+3453;txt;02
+Wprowadzenie — &samouczek
+.
+
+3454;txt;01
+Sprawdź dostępność akt&ualizacji
+.
+
+# 3455;txt;01
+# Za&rejestruj Sandboxie
+# .
+
+3456;txt;01
+&O programie Sandboxie
+.
+
+3457;txt;01
+&Sandboxie Forum (Web)
+.
+
+# 3458;txt;01
+# Zezwól na bezpośredni dostęp do pamięci podręcznej czcionek Windows
+# .
+
+3459;txt;01
+Allow direct access to qWave driver (Google Hangouts)
+.
+
+3460;txt;01
+Function hooking customizations
+.
+
+3461;txt;01
+U&ruchom w piaskownicy
+.
+
+3462;txt;01
+Uruchom &przeglądarkę internetową
+.
+
+3463;txt;01
+Uruchom k&lienta poczty
+.
+
+3464;txt;01
+Uruchom &dowolny program
+.
+
+3465;txt;01
+Uruchom z &Menu start
+.
+
+3466;txt;01
+Uruchom &Windows Explorer
+.
+
+3467;txt;01
+Upgrade to Sandboxie-Plus
+.
+
+3468;txt;01
+Sandboxie-Plus Migration Guide
+.
+
+3469;txt;01
+What's new in Sandboxie-Plus
+.
+
+3471;txt;01
+&Zakończ programy
+.
+
+3472;txt;01
+&Szybkie przywracanie
+.
+
+3473;txt;01
+&Usuń zawartość
+.
+
+3474;txt;01
+&Eksploruj zawartość
+.
+
+3475;txt;01
+U&stawienia piaskownicy
+.
+
+3476;txt;01
+Zmień &nazwę piaskownicy
+.
+
+3477;txt;01
+Usuń &piaskownicę
+.
+
+3481;txt;01
+&Zakończ program
+.
+
+3482;txt;01
+U&stawienia programu
+.
+
+3483;txt;01
+&Dostęp do zasobu
+.
+
+3484;txt;01
+Resource Access
+.
+
+3485;txt;01
+Pokaż okno
+.
+
+3486;txt;01
+Ukryj okno
+.
+
+3487;txt;01
+&Pokaż błędy
+.
+
+# 3488;txt;01
+# &Usuń piaskownicę i wyloguj się
+# .
+
+3491;txt;01
+Przy&wróć do tego samego foderu
+.
+
+3492;txt;01
+Przywróć do dowolnego &folderu
+.
+
+3493;txt;01
+Do&daj folder do Szybkiego przywracania
+.
+
+3494;txt;01
+&Usuń folder z Szybkiego przywracania
+.
+
+3495;txt;01
+Utwórz skrót na pulpicie
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control Main Window
+#----------------------------------------------------------------------------
+
+3511;txt;01
+Okno panelu sterowania Sandboxie zostanie teraz
+ukryte. Aby wyświetlić okno, kliknij dwukrotnie
+żółtą ikonę Sandboxie w zasobniku systemowym.
+.
+
+3512;txt;01
+Edytuje zmiany w pliku konfiguracyjnym Sandboxie.ini
+w oknie Notatnika, które zostało teraz otworzone.
+
+Zmiany w konfiguracji dojdą do skutku tylko po
+zastosowaniu funkcji Przeładuj konfigurację.
+
+W większości wypadków, funkcja Przeładuj konfigurację
+jest otwierana automatycznie po zamknięciu Notatnika.
+
+Możesz też później z panelu Sterowania Sandboxie
+uruchomić funkcję Przeładuj konfigurację.
+.
+
+3513;txt;01
+Konfiguracja Sandboxie została odświeżona i będzie
+zastosowana do uruchamianych programów w piaskownicy.
+
+Jeżeli programy są już uruchomione w piaskownicy, to do
+nich nowa konfiguracja nie będzie miała zastosowania.
+.
+
+3514;txt;01
+Wystąpił problem odczytu pliku konfiguracyjnego.
+Konfiguracja Sandboxie nie została odświeżona.
+.
+
+3515;txt;01
+Piaskownica %2
+.
+
+3516;txt;01
+Aktywny
+.
+
+3517;txt;01
+Nazwa programu
+.
+
+3518;txt;01
+PID
+.
+
+3519;txt;01
+Tytuł okna
+.
+
+3520;txt;01
+Szybkie przywracanie folderów
+.
+
+3521;txt;01
+Wszystkie pliki i foldery
+.
+
+3522;txt;01
+Dyski
+.
+
+3523;txt;01
+Udostępnione zasoby sieciowe
+.
+
+3524;txt;01
+Pliki użytkownika
+.
+
+3525;txt;01
+Osobiste
+.
+
+3526;txt;01
+Wszyscy użytkownicy
+.
+
+3527;txt;01
+Przed wywołaniem tego polecenia, proszę usunąć zawartość z piaskownicy %2.
+.
+
+3528;txt;01
+Wprowadź nazwę nowej piaskownicy
+.
+
+3529;txt;01
+Czy na pewno chcesz usunąć piaskownicę %2?
+.
+
+3530;txt;01
+Brak procesów do zakończenia.
+.
+
+3531;txt;01
+OSTRZEŻENIE: Procesy, które zostaną zakończone
+nie będą miały szansy na zapisanie stanu lub danych.
+
+Czy kontynuować zakończenie procesu?
+.
+
+3532;txt;01
+W przyszłości, zakończ procesy bez pytania
+.
+
+3533;txt;01
+Możesz kopiować i wycinać pliki lub foldery za pomocą Windows Explorer
+działającego w piaskownicy i wklejać je bezpośrednio do okna folderu
+poza piaskownicą.
+.
+
+3534;txt;01
+Będziesz eksplorował zawartość folderu piaskownicy za pomocą
+Windows Explorer uruchomionego poza piaskownicą.
+
+Możesz otworzyć programy lub dokumenty umiejscowione w piaskownicy.
+Program lub dokument zostanie uruchomiony pod nadzorem Sandboxie.
+
+Jednak, zalecane jest operowanie zawartością piaskownicy za pomocą 
+Eksploratora Windows uruchomionego w piaskownicy. By to zrobić, użyj
+polecenia: Piaskownica -> Uruchom w piaskownicy -> Windows Explorer
+.
+
+3535;txt;01
+Wystąpił błąd podczas uzyskiwania dostępu do folderu piaskownicy.
+.
+
+3536;txt;01
+Znacznik 'ukryta' zostanie usunięty z wszystkich wiadomości.
+.
+
+3537;txt;01
+Znacznik 'nie pokazuj tej wiadomości' zostanie usunięty z wszystkich wskazówek.
+.
+
+3538;txt;01
+Kontrolka 'nie pokazuj tej wiadomości' dotyczy wszystkich wskazówek.
+.
+
+3539;txt;01
+Piaskownica '%2' została utworzona %3 dni temu.
+Proszę wziąć pod uwagę, konieczność czasowego opróżnienia piaskownicy.
+
+By skonfigurować automatyczne usuwanie, należy użyć polecenia
+Ustawienia piaskownicy z menu Piaskownica w Sterowanie Sandboxie.
+.
+
+3540;txt;01
+Nie można edytować pliku konfiguracyjnego Sandboxie.ini,
+ponieważ jest zabezpieczony hasłem. Aby edytować plik, użyj
+polecenia Zablokuj konfigurację, żeby wyłączyć ochronę hasłem.
+.
+
+3541;txt;01
+Publiczny
+.
+
+# 3542;txt;01
+# Tryb Eksperymentalnej ochrony wzmacnia ochronę oferowaną
+# przez Sandboxie 64-bit, i przesuwa ochronę na taki sam
+# poziom, jaki oferuje Sandboxie 32-bit.
+# 
+# WAŻNE: Eksperymentalna ochrona korzysta z nieudokumentowanych
+# funkcji jądra systemu Windows. Przyszłe aktualizacje
+# Windows mogą zakłócić tryb Eksperymentalnej ochrony
+# i mogą spowodować niestabilność systemu.
+# 
+# UŻYWASZ NA WŁASNE RYZYKO.
+# 
+# Aby uaktywnić tryb Eksperymentalnej ochrony, musisz
+# teraz ponownie uruchomić komputer.
+# .
+
+# 3543;txt;01
+# Aby wyłączyć tryb Eksperymentalnej ochrony, musisz
+# teraz ponownie uruchomić komputer.
+# 
+# Uwaga: funkcja obniżenia uprawnień zostanie włączona
+# we wszystkich piaskownicach.
+# .
+
+#----------------------------------------------------------------------------
+# Sandboxie Control Dialogs: About
+#----------------------------------------------------------------------------
+
+3601;txt;01
+O programie Sandboxie
+.
+
+# 3604;txt;01
+# Witamy w Sandboxie
+# .
+
+# 3605;txt;01
+# 
+# Sandboxie uruchamia aplikacje w izolowanym chronionym obszarze zwanym piaskownicą.
+# 
+# Aplikacje złapane w pułapkę piaskownicy nie mogą wprowadzać żadnych zmian do systemu i powodować szkód w jego pracy.
+# 
+# Możesz też używać piaskownicy do instalacji i testowania nowych aplikacji.
+# .
+
+# 3606;txt;01
+# Jeżeli jesteś nowym użytkownikiem Sandboxie,
+# prosimy o zapoznanie się z tutorialem Rozpoczęcie pracy.
+# .
+
+# 3607;txt;01
+# &Rozpoczęcie pracy z Sandboxie
+# .
+
+#----------------------------------------------------------------------------
+# Sandboxie Control Dialogs: Update
+#----------------------------------------------------------------------------
+
+3621;txt;01
+Sprawdź dostępność aktualizacji
+.
+
+3622;txt;01
+Połącz się ze stroną internetową Sandboxie, by sprawdzić czy jest dostępna nowa wersja programu?
+.
+
+3623;txt;01
+&Teraz
+.
+
+3624;txt;01
+&Za tydzień
+.
+
+3625;txt;01
+&Nigdy
+.
+
+3626;txt;01
+Sprawdzaj dostępność aktualizacji bez pytania
+.
+
+3627;txt;01
+Ochrona prywatnosci: Twoje dane osobowe nie sa ani przesylane, ani zbierane przez Sandboxie.
+.
+
+3628;txt;01
+Trwa sprawdzanie aktualizacji.  Proszę czekać.
+.
+
+3629;txt;01
+Strona internetowa Sandboxie informuje, że obecnie brak nowszej wersji Sandboxie.
+.
+
+3630;txt;01
+Sandboxie %2 jest dostępny do pobierania.
+.
+
+3631;txt;01
+Pobrać teraz?
+
+Uwaga: Pobieranie potrwa kilka minut.
+Zostaniesz poinformowany o zakończeniu pobierania.
+.
+
+3632;txt;01
+By pobrać i zainstalować nową wersję, musisz być zalogowany
+na koncie użytkownika z uprawnieniami administratora.
+.
+
+3633;txt;01
+Sandboxie %2 został pobrany do następującej lokalizacji:
+
+%3
+
+Kliknij OK, by rozpocząć instalację. Jeżeli jakieś programy
+są uruchomione w piaskownicy, to zostaną zakończone.
+.
+
+3634;txt;01
+Aktualizacja nie powiodła się. Wystąpił błąd podczas komunikowania się z witryną internetową Sandboxie.
+.
+
+3635;txt;01
+pobieranie nowej wersji
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control Dialogs: Run Browser
+#----------------------------------------------------------------------------
+
+3641;txt;01
+Otwórz przeglądarkę internetową
+.
+
+3642;txt;01
+Wybierz czy otworzyć poniższy adres w przeglądarce przy użyciu piaskownicy.
+.
+
+3643;txt;01
+W &piaskownicy
+.
+
+3644;txt;01
+&Bez piaskownicy
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control Dialogs: Message Dialog
+#----------------------------------------------------------------------------
+
+3645;txt;01
+Wiadomości z Sandboxie
+.
+
+3646;txt;01
+U&kryj
+.
+
+3647;txt;01
+Ukrycie wiadomości zapobiega wyświetlaniu tych wiadomości
+w przyszłości. Ukrycie wiadomość faktycznie nie rozwiązuje
+problemów powodujących ich wyświetlanie.
+
+Czy na pewno chcesz wyłączyć wyświetlanie wiadomości %2?
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control Dialogs: Disable Forced Programs
+#----------------------------------------------------------------------------
+
+3651;txt;01
+Czasowe wyłączanie monitorowanych programów
+.
+
+3652;txt;01
+Tymczasowo nie monitoruj programów przez
+.
+
+3653;txt;01
+sekundy
+.
+
+3654;txt;01
+Gdy klikniesz OK, mechanizm monitorowania programów zostanie chwilowo wyłączony, na czas określony liczbą sekund podanych powyżej, lub aż do ponownego wyboru tej funkcji.
+.
+
+3599;txt;01
+Możesz wyłączyć wymuszanie uruchomienia w piaskownicy programu, przytrzymując wciśnięte klawisze Ctrl i Shift i klikając polecenie Uruchom w piaskownicy.
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control Dialogs: Resource Access Monitor
+#----------------------------------------------------------------------------
+
+3655;txt;01
+Monitor dostępu do zasobów
+.
+
+3656;txt;01
+To narzędzie monitoruje programy uruchomione pod nadzorem Sandboxie i wyświetla zasoby, do których one uzyskują dostęp. Proszę zapoznać się z dokumentacją przed użyciem tego narzędzia.
+.
+
+3657;txt;01
+Kopiuj zawartość do schowka i zamknij okno
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control Dialogs: Is Window Sandboxed
+#----------------------------------------------------------------------------
+
+3661;txt;01
+Czy okno jest w piaskownicy?
+.
+
+3662;txt;01
+Przeciągnij myszką narzędzie 'Celownik' do innego okna i upuść go, aby sprawdzić czy okno pracuje w piaskownicy.
+
+Naciśnij ESC, by anulować.
+.
+
+3663;txt;01
+Wybrane okno jest uruchomione jako część procesu %2 w piaskownicy %3.
+.
+
+3664;txt;01
+Wybrane okno nie jest uruchomione jako część jakiegoś procesu piaskownicy.
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control Dialogs: Create New Sandbox
+#----------------------------------------------------------------------------
+
+3665;txt;01
+Utwórz nową piaskownicę
+.
+
+3666;txt;01
+Wprowadź nazwę nowej piaskownicy.
+.
+
+3667;txt;01
+Błąd: Wprowadzono nieprawidłową nazwę piaskownicy. Użyj tylko liter i cyfr. Spacje i inne znaki specjalne nie są dozwolone. Nazwa nie może mieć więcej niż 32 litery.
+.
+
+3668;txt;01
+Błąd: Wprowadzono duplikat nazwy piaskownicy. Wprowadź nazwę, która nie jest używana przez inną piaskownicę.
+.
+
+3669;txt;01
+Kopiuj ustawienia z istniejącej piaskownicy:
+.
+
+4665;txt;01
+Błąd: Wprowadzono zduplikowaną nazwę piaskownicy. Nazwa jest już używana przez ukrytą piaskownicę. Użyj polecenia „Wyświetl ukrytą piaskownicę" z menu Piaskownica.
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control Dialogs: Set Container Folder
+#----------------------------------------------------------------------------
+
+3671;txt;01
+Ustaw folder pojemnika
+.
+
+3672;txt;01
+Wybierz napęd, w którym będą tworzone piaskownice.
+.
+
+3673;txt;01
+Dla maksymalnej zgodności z innymi programami zaleca się pozostawienie piaskownic w domyślnej lokalizacji w wybranym napędzie.
+.
+
+3674;txt;01
+Możesz jednak też użyć poniższego pola edycji, by zmienić domyślną lokalizację:
+.
+
+3675;txt;01
+Uwaga: Będziesz poinformowany, by usunąć zawartość ze wszystkich piaskownic, przed zmianą folderu pojemnika.
+.
+
+3676;txt;01
+Dysk %2
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control Dialogs: Alerts
+#----------------------------------------------------------------------------
+
+3681;txt;01
+Alerty programu
+.
+
+3682;txt;01
+Gdy jakikolwiek z następujących programów jest uruchomiony poza piaskownicą, Sandboxie wyświetli wiadomość SBIE1301.
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control Dialogs: Shell Integration
+#----------------------------------------------------------------------------
+
+3685;txt;01
+Integracja z powłoką
+.
+
+3686;txt;01
+Uruchom Sterowanie Sandboxie
+.
+
+3687;txt;01
+Ze startem Windows
+.
+
+3688;txt;02
+Podczas uruchamiania programu z piaskownicy
+.
+
+3689;txt;01
+Ikony skrótów
+.
+
+3690;txt;01
+Dodaj skrót pulpitu dla przeglądarki internetowej uruchamianej w Sandboxie
+.
+
+3691;txt;01
+Dodaj skrót do Paska szybkiego uruchamiania dla przeglądarki www uruchamianej w Sandboxie
+.
+
+3692;txt;01
+Kliknij, by dodać na pulpit więcej ikon skrótów:
+.
+
+3693;txt;01
+&Dodaj ikony skrótów
+.
+
+3694;txt;01
+Akcje "Uruchom w piaskownicy"
+.
+
+3695;txt;01
+Dodaj do menu kontekstowego plików i folderów akcję "Uruchom w piaskownicy"
+.
+
+3696;txt;01
+Dodaj piaskownice do menu "Wyślij do"
+.
+
+3697;txt;01
+Menu start zostanie teraz wyświetlone w Sandboxie.
+Wybierz aplikację z menu i Sandboxie utworzy nową
+ikonę skrótu na Twoim rzeczywistym pulpicie, której
+możesz użyć do uruchamiania wybranej aplikacji pod
+nadzorem Sandboxie.
+.
+
+3698;txt;01
+Przeglądarka internetowa w piaskownicy.lnk
+.
+
+3699;txt;01
+Uruchom w &piaskownicy
+.
+
+4491;txt;01
+Otwórz %2 w piaskownicy %3
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control:  Delete Sandbox / Quick Recovery / Immediate Recovery
+#----------------------------------------------------------------------------
+
+3711;txt;01
+Usuń z piaskownicy|Szybkie przywracanie
+.
+
+3712;txt;01
+Pliki wylistowane poniżej mogą zostać szybko przywrócone z piaskownicy. Wybierz plik lub folder i kliknij jeden z przycisków przywracania, aby przywrócić wybraną pozycję.
+.
+
+3713;txt;01
+Kliknij Usuń z piaskownicy, by zakończyć jakiekolwiek procesy uruchomione w piaskownicy i usunąć jej zawartość.
+.
+
+3714;txt;01
+&Usuń z piaskownicy
+.
+
+3715;txt;01
+Natychmiastowe przywracanie
+.
+
+3716;txt;02
+Następujące pliki są wskazane do natychmiastowego przywracania i mogą zostać przeniesione z piaskownicy.
+.
+
+3717;txt;01
+Wpierw wybierz pliki z listy powyżej, a następnie wybierz docelowy folder.
+.
+
+3718;txt;01
+&Przywróć
+.
+
+3719;txt;01
+&Nie pytaj ponownie, aż do zatrzymania wszystkich programów z piaskownicy
+.
+
+3720;txt;01
+Przy&wróć do tego
+samego folderu
+.
+
+3721;txt;01
+Przywróć do
+&innego folderu
+.
+
+3722;txt;01
+W piaskownicy są %2 pliki i %3 foldery, zajmując %4 bajty miejsca na dysku.
+.
+
+3723;txt;01
+Wybierz folder, do którego plik lub folder zostanie przywrócony.
+.
+
+3724;txt;01
+Lub wybierz folder z wcześniejszego przywracania.
+.
+
+3725;txt;01
+Zapamiętaj wybrany foldery
+.
+
+3726;txt;01
+Wybierz folder, by dodać go do listy Szybkiego przywracania.
+.
+
+3727;txt;01
+Folder został dodany do listy Szybkiego przywracania.
+
+Jednak teraz, nie ma żadnych pozycji w piaskownicy, które
+można przywrócić z tego folderu.
+.
+
+3728;txt;01
+Nie wybrano żadnych plików do przywrócenia.
+.
+
+3729;txt;01
+Przywracanie zakończyło się niepowodzeniem. Nie można przenieść następujących pozycji z piaskownicy:
+.
+
+3730;txt;01
+Piaskownica jest pusta. Brak elementów do usunięcia.
+.
+
+3731;txt;01
+Nie można zatrzymać pewnych programów działających w piaskownicy.  Piaskownica nie będzie usunięta.
+.
+
+3732;txt;01
+Obecnie nie ma żadnych plików do przywrócenia.
+.
+
+3733;txt;01
+Nie można przywrócić pliku, ponieważ nazwa docelowego folderu jest zbyt długa.
+Proszę wybrać inny folder docelowy.
+.
+
+3734;txt;01
+Kliknij prawym przyciskiem myszy na liście folderów, aby uzyskać więcej opcji
+.
+
+3735;txt;02
+Zastąp wszystkie pliki bez dodatkowego monitowania
+.
+
+3736;txt;01
+&Przywróć && Eksploruj
+.
+
+3737;txt;01
+&Przywróć && Uruchom
+.
+
+3981;txt;01
+&Otwórz folder w Eksploratorze Windows poza piaskownicą
+.
+
+3982;txt;01
+Usuń ten folder z listy
+.
+
+3983;txt;01
+Usuń wszystkie foldery z listy
+.
+
+3986;txt;01
+Log odzyskiwania
+.
+
+3987;txt;01
+Następujące pliki zostały niedawno odzyskane i przeniesione z piaskownicy.
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control:  Program Settings
+#----------------------------------------------------------------------------
+
+3741;txt;01
+Ustawienia programu
+.
+
+3742;txt;01
+Piaskownica:
+.
+
+3743;txt;01
+Program:
+.
+
+3744;txt;01
+Widok strony 1
+.
+
+3745;txt;01
+Widok strony 2
+.
+
+3751;txt;01
+Uruchom program
+.
+
+3752;txt;01
+Gdy ten program jest uruchomiony poza piaskownicą:
+.
+
+3753;txt;01
+Generuj komunikat ostrzegawczy SBIE1301 
+.
+
+3754;txt;01
+Monitorowany program został uruchomiony w tej piaskownicy
+.
+
+3755;txt;01
+Zatrzymaj programy
+.
+
+3756;txt;01
+Zatrzymaj ten program, jeżeli pozostaje w piaskownicy po zakończeniu innych programów
+.
+
+3757;txt;01
+Zatrzymaj inne programy po zakończeniu tego wiodącego programu
+.
+
+3761;txt;01
+Ograniczenia internetowe
+.
+
+3762;txt;01
+Dowolny program uruchomiony w tej piaskownicy może uzyskać dostęp do internetu.
+.
+
+3763;txt;01
+Programy w tej piaskownicy, które mogą uzyskać dostęp do internetu:
+.
+
+3764;txt;01
+Włącz ograniczenia i zezwól, żeby ten program uzyskał dostęp do internetu.
+.
+
+3765;txt;01
+Ograniczenia Uruchom
+.
+
+3766;txt;01
+W tej piaskownicy można uruchomić dowolny program.
+.
+
+3767;txt;01
+Programy, które można uruchomić w tej piaskownicy:
+.
+
+3768;txt;01
+Włącz ograniczenia i zezwól na uruchomienie tego programu.
+.
+
+3769;txt;01
+(Brak)
+.
+
+3770;txt;01
+Nowe ustawienia nie mają zastosowania do programów
+już uruchomionych w piaskownicy. Ustawienia te będą
+wprowadzone przy ponownym uruchomieniu programu.
+.
+
+3771;txt;01
+(Ta funkcja jest dostępna tylko w zarejestrowanej wersji Sandboxie)
+.
+
+3772;txt;02
+Czy na pewno chcesz ustawić %2 jako monitorowany program?
+.
+
+3773;txt;02
+Czy na pewno chcesz ustawić %2 jako monitorowany folder?
+.
+
+# 3774;txt;02
+# Czy na pewno chcesz ustawić %2 jako monitorowany użytkownika?
+# .
+
+3775;txt;02
+Wprowadzasz zmianę, której nie będzie można łatwo cofnąć.
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control:  Sandbox Settings
+#----------------------------------------------------------------------------
+
+3801;txt;01
+Ustawienia piaskownicy - %2
+.
+
+3802;txt;01
+Ta strona jest celowo pusta
+.
+
+3803;txt;01
+Przed dalszą kontynuacją musisz zastosować zmiany na tej stronie.
+.
+
+3804;txt;01
+Zastosuj zmiany podczas przełączania do innej strony.
+.
+
+3805;txt;01
+Wszystkie programy
+.
+
+3806;txt;02
+Poniższą listę stosuje się do
+.
+
+3807;txt;01
+Wybierz plik lub folder by dodać go do listy wyłączeń Dostępu do pliku.
+.
+
+3808;txt;01
+Dodaj nazwę zasobu
+.
+
+3809;txt;01
+Edytuj nazwę zasobu
+.
+
+3551;txt;01
+(Wszystkie programy z wyjątkiem %2)
+.
+
+3552;txt;01
+Odwróć znaczenie bieżącego wyboru
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control:  Sandbox Settings:  Appearance
+#----------------------------------------------------------------------------
+
+3811;txt;01
+Wygląd
+.
+
+3812;txt;01
+Nazwy programów uruchomionych pod nadzorem Sandboxie będą ujęte znacznikami [#] na Pasku tytułu okna.
+.
+
+3813;txt;01
+Jeżeli to ustawienie jest aktywne, to nazwa piaskownicy będzie wyświetlana na Pasku tytułu okna.
+.
+
+3814;txt;01
+Pokaż nazwę piaskownicy na Pasku tytułu
+.
+
+3815;txt;01
+Nie wyświetlaj znaczników Sandboxie na pasku tytułu okna
+.
+
+3816;txt;01
+Sandboxie może wyświetlać ramkę wokół okna, dla programów uruchomionych w piaskownicy.
+.
+
+3817;txt;01
+Wyświetlaj ramkę wokół okna
+.
+
+3818;txt;01
+Kliknij, aby zmienić kolor obramowania
+.
+
+3819;txt;01
+Wyświetlaj ramkę, tylko wtedy, gdy kursor myszy znajduje się w pasku tytułu okna
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control:  Sandbox Settings:  Recovery
+#----------------------------------------------------------------------------
+
+# 3821;txt;01
+# Recovery::Quick Recovery
+# .
+
+3821;txt;02
+Przywróć
+.
+
+3822;txt;01
+Szybkie przywracanie
+.
+
+3823;txt;01
+Przed usunięciem piaskownicy, lub gdy wywołasz funkcję Szybkiego przywrócenia, to zawartość następujących folderów będzie sprawdzana w piaskownicy. Jeżeli jakieś pliki zostaną znalezione, otrzymasz możliwość łatwego ich odzyskania z piaskownicy.
+.
+
+# 3831;txt;01
+# Recovery::Immediate Recovery
+# .
+
+3832;txt;01
+Natychmiastowe przywracanie rozszerza Szybkie przywracanie przez automatyczne wywołanie funkcji przywracania, gdy tylko pliki zostaną utworzone.
+.
+
+3833;txt;01
+Włącz Natychmiastowe przywracanie
+.
+
+3834;txt;01
+Następujące foldery i typy plików (lub rozszerzenia pliku) będą wykluczone z Natychmiastowego przywracania.
+.
+
+3835;txt;01
+Dodaj &typ
+.
+
+3836;txt;01
+Wybierz folder, by wyłączyć go z Natychmiastowego przywracania.
+.
+
+3837;txt;01
+Wprowadź typ pliku (lub rozszerzenie pliku), by wyłączyć go z Natychmiastowego przywracania
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control:  Sandbox Settings:  Delete
+#----------------------------------------------------------------------------
+
+# 3841;txt;01
+# Delete::Invocation
+# .
+
+3841;txt;02
+Usuń
+.
+
+3842;txt;01
+Wywołanie usuń
+.
+
+3843;txt;01
+Zawartość piaskownicy może być automatycznie usuwana, gdy ostatni z uruchomionych w piaskownicy programów zostanie zakończony i piaskownica staje się bezczynna.
+.
+
+3844;txt;01
+Automatycznie usuwaj zawartość z piaskownicy
+.
+
+3845;txt;01
+Jeżeli jakieś pliki z piaskownicy są uprawnione do przywrócenia, to zostanie wyświetlone okno Szybkie przywracanie zamiast automatycznego usunięcia.
+.
+
+3846;txt;01
+Piaskownica jak i jej zawartość może być chroniona przed usuwaniem, zarówno ręcznym jak i automatycznym, które jest inicjowane przez Sandboxie.
+.
+
+3847;txt;01
+Nigdy nie usuwaj piaskownicy, ani jej zawartości
+.
+
+# 3851;txt;01
+# Delete::Command
+# .
+
+3852;txt;01
+Polecenie usuń
+.
+
+3853;txt;01
+Zarówno dla automatycznego jak i ręcznego usuwania będzie użyte następujące polecenie, aby usunąć zawartość z piaskownicy. Jeżeli pozostawiono puste miejsce, to domyślnym poleceniem jest RMDIR (usuń katalog).
+.
+
+3854;txt;01
+Jeżeli zmieniasz to ustawienie, na zawierające tekst "%%SANDBOX%%" (z cudzysłowem). To, gdy polecenie będzie wykonywane, ten tekst będzie zastąpiony lokalizacją folderu piaskownicy.
+.
+
+3855;txt;01
+Lub wybierz zaprogramowane polecenie usuwania:
+.
+
+3856;txt;01
+Polecenie usuń nie określa "%%SANDBOX%%" (z cudzysłowem).
+Czy na pewno chcesz zatwierdzić to polecenie?
+.
+
+3857;txt;01
+Proszę przejść do i wybrać program - %2
+.
+
+#----------------------------------------------------------------------------
+# Program Groups
+#----------------------------------------------------------------------------
+
+3971;txt;01
+Grupy programów
+.
+
+3972;txt;01
+Możesz zgrupować wiele programów i nadać im nazwę grupy. Grupy programów mogą być używane z niektórymi z ustawień, które przyjmują nazwy programu.
+.
+
+3974;txt;01
+Dodaj &grupę
+.
+
+3975;txt;01
+Wprowadź nazwę nowej grupy
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control:  Sandbox Settings:  Forced Folders/Programs
+#----------------------------------------------------------------------------
+
+# 3861;txt;01
+# Program Start::Forced Folders
+# .
+
+3861;txt;02
+Uruchomienie programu
+.
+
+3862;txt;01
+Monitorowane foldery
+.
+
+3863;txt;01
+Gdy program jest uruchamiany poza piaskownicą z jednego z następujących folderów, to jego uruchomienie będzie monitorowane w tej piaskownicy. Nie dotyczy programów uruchamianych z innej piaskownicy.
+.
+
+3864;txt;01
+Możesz wymusić autoodtwarzanie CD/DVD z piaskownicy, przez dodanie liter napędów Twojego CD-ROM i DVD-ROM do tej listy.
+.
+
+3865;txt;01
+Monitorowane foldery mają pierwszeństwo przed Monitorowanymi programami.
+.
+
+3866;txt;01
+Wybierz folder, by dodać do listy monitorowanych folderów.
+.
+
+# 3871;txt;01
+# Program Start::Forced Programs
+# .
+
+3872;txt;01
+Monitorowane programy
+.
+
+3873;txt;01
+Gdy jakikolwiek z następujących programów jest uruchamiany poza piaskownicą, to jego uruchomienie będzie monitorowane w tej piaskownicy. Nie dotyczy programów uruchamianych z innej piaskownicy.
+.
+
+# 3961;txt;01
+# Program Start::Forced Users
+# .
+
+# 3962;txt;01
+# Monitorowani użytkownicy
+# .
+
+# 3963;txt;01
+# Gdy logujesz się do komputera z któregokolwiek z następujących kont użytkowników, to cała sesja logowania będzie wymuszona do działania w piaskownicy.
+# .
+
+# 3964;txt;01
+# Aby usunąć piaskownicę skojarzoną z kontem monitorowanego użytkownika, zaloguj się do Windows jako użytkownik i wykorzystaj Sterowanie Sandboxie do usunięcia piaskownicy.
+# .
+
+# 3965;txt;01
+# Monitorowani użytkownicy mają pierwszeństwo przed Monitorowanymi programami i Monitorowanymi folderami.
+# .
+
+#----------------------------------------------------------------------------
+# Sandboxie Control:  Sandbox Settings:  Linger/Leader Programs
+#----------------------------------------------------------------------------
+
+# 3881;txt;01
+# Program Stop::Lingering Programs
+# .
+
+3881;txt;02
+Zatrzymanie programu
+.
+
+3882;txt;01
+Oporne programy
+.
+
+3883;txt;01
+Następujące programy będą automatycznie zamykane, jeżeli jeszcze działają w tej piaskownicy po zamknięciu innych programów.
+.
+
+# 3891;txt;01
+# Program Stop::Leader Programs
+# .
+
+3892;txt;01
+Wiodące programy
+.
+
+3893;txt;01
+Następujące programy są uważane za podstawowe programy w tej piaskownicy. Zakończenie tych programów spowoduje także zakończenie pracy wszystkich innych programów uruchomionych w tej piaskownicy.
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control:  Sandbox Settings:  File Migration
+#----------------------------------------------------------------------------
+
+3901;txt;01
+Migracja plików
+.
+
+3903;txt;01
+Pliki muszą być przeniesione (skopiowane) do piaskownicy przed ich wykorzystaniem przez programy uruchomione w piaskownicy. Jednak dla bardzo dużych plików, proces kopiowania trwa długo.
+.
+
+3904;txt;01
+Następująca liczba określa maksymalną wielkość możliwego do skopiowania pliku. Większe pliki nigdy nie będą przeniesione do piaskownicy i nie będą podlegać modyfikacji przez programy uruchomione w piaskownicy.
+.
+
+3905;txt;01
+Nie kopiuj plików większych niż
+.
+
+3906;txt;01
+kilobajtów
+.
+
+3907;txt;01
+Kiedy plik będzie zbyt duży by zostać przemieszczony, zostanie wygenerowana wiadomości SBIE2102, jeżeli poniższa opcja nie jest zaznaczona.
+.
+
+3908;txt;01
+Nie generuj wiadomości, gdy plik jest zbyt duży do skopiowania
+.
+
+3909;txt;01
+Ustawienie funkcji Migracji plików ogranicza maksymalny rozmiar pliku, który można skopiować do piaskownicy.
+
+Aktualnie wartość tego ustawienia wynosi %3 KB dla piaskownicy '%2'.
+
+Kliknij OK, aby zmienić rozmiar tego limitu na %4 KB.
+
+Można również zmienić ten limit, otwierając okno Ustawienia piaskownicy i rozwijając panel ustawień Migracja plików.
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control:  Sandbox Settings:  Internet/Start Restrictions
+#----------------------------------------------------------------------------
+
+# 3911;txt;01
+# Restrictions::Internet Access
+# .
+
+3911;txt;02
+Ograniczenia
+.
+
+3912;txt;01
+Dostęp do internetu
+.
+
+3913;txt;01
+Z tej piaskownicy tylko określone programy będą mogły uzyskać dostęp do internetu.
+.
+
+3914;txt;01
+Gdy aktywna jest funkcja Blokuj wszystkie programy, to programy, które są zainstalowane (lub pobierane) do tej piaskownicy nigdy nie będą mogły uzyskać dostępu do internetu, nawet jeżeli nazwa programu jest identyczna z określoną powyżej.
+.
+
+3915;txt;01
+Emituj wiadomość SBIE%2, gdy dostęp jest zabroniony
+.
+
+3916;txt;01
+&Blokuj wszystkie programy
+.
+
+3917;txt;01
+&Zezwól wszystkim programom
+.
+
+3918;txt;01
+Wszystkie programy mogą uzyskać dostęp do internetu
+.
+
+3919;txt;01
+Żaden program nie może uzyskać dostępu do internetu
+.
+
+3920;txt;01
+Funkcja ograniczonego dostępu do internetu jest włączona w piaskownicy '%2' i uniemożliwia uzyskanie dostępu do internetu przez ten program.
+
+Kliknij OK, aby dodać program „%3" do ograniczonego dostępu do internetu w piaskownicy „%2".
+
+Aby zarządzać Ograniczeniami dostępu do internetu, otwórz okno Ustawienia piaskownicy i rozwiń grupę Ograniczenia.
+.
+
+3922;txt;01
+Dostęp do Uruchom
+.
+
+3923;txt;01
+W tej piaskownicy mogą być uruchomione jedynie następujące programy.
+.
+
+3924;txt;01
+Gdy ta funkcja jest włączona, programy instalowane (pobrane) w tej piaskownicy nigdy nie uzyskają zezwolenia na uruchomienie, nawet jeżeli nazwa programu odpowiada nazwie określonej powyżej.
+.
+
+3928;txt;01
+Można uruchomić wszystkie programy
+.
+
+3930;txt;01
+Funkcja ograniczonego dostępu do Uruchom jest włączona w piaskownicy '%2' i uniemożliwia temu programowi możliwość uruchomienia i działania.
+
+Kliknij OK, aby dodać program „%3" do ograniczonego dostępu do Uruchom w piaskownicy „%2".
+
+Aby zarządzać Ograniczeniami dostępu do Uruchom, otwórz okno Ustawienia piaskownicy i rozwiń grupę Ograniczenia.
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control:  Sandbox Settings:  Low Level Access / Hardware Access
+#----------------------------------------------------------------------------
+
+# 3931;txt;01
+# Restrictions::Low-Level Access
+# .
+
+# 3932;txt;01
+# Dostęp niskiego poziomu
+# .
+
+# 3933;txt;01
+# Następujące ustawienia drastycznie obniżają ochronę dostarczaną przez Sandboxie. Nie zaleca się aktywacji żadnego z tych ustawień.
+# .
+
+# 3934;txt;01
+# Zezwól programom z piaskownicy na ładowanie sterowników w trybie jądra do systemu
+# .
+
+# 3935;txt;01
+# Zezwól programom z piaskownicy na ładowanie aplikacji (Win32) hookujących inne programy
+# .
+
+# 3936;txt;01
+# Zezwól programom z piaskownicy na wytwarzanie fałszywych wejść klawiatury
+# .
+
+# 3937;txt;01
+# Zezwól programom z piaskownicy na zmianę tapety pulpitu i innych parametrów systemu
+# .
+
+# 3938;txt;01
+# Zezwól programom z piaskownicy na zarządzanie konfiguracją urządzeń sprzętowych
+# .
+
+# 3951;txt;01
+# Restrictions::Hardware Access
+# .
+
+# 3952;txt;01
+# Dostęp do sprzętu
+# .
+
+# 3953;txt;01
+# Zezwól programom w tej piaskownicy na zmianę hasła konta użytkownika
+# .
+
+# 3954;txt;01
+# Zezwalaj programom zmieniać parametry sieci i firewalla
+# .
+
+#----------------------------------------------------------------------------
+# Sandboxie Control:  Sandbox Settings:  Drop Rights
+#----------------------------------------------------------------------------
+
+# 3941;txt;01
+# Restrictions::Drop Rights
+# .
+
+3942;txt;01
+Obniżenie uprawnień
+.
+
+3943;txt;01
+Sandboxie musi wyłączyć niektóre prawa zabezpieczeń programów, aby móc nadzorować je w izolowanym środowisku.
+.
+
+3944;txt;01
+Jeżeli używasz konta administratora lub zaawansowanego użytkownika, Sandboxie może wyłączyć więcej praw zabezpieczeń, podobnie jak to robi narzędzie DropMyRights.
+.
+
+3945;txt;01
+Obniż uprawnienia administratorów i zaawansowanych użytkowników
+.
+
+# 3946;txt;01
+# Zalecane jest, pozostawienie tego ustawienia włączonego, jako rekompensaty za brak niektórych środków ochrony Sandboxie w 64-bitowych wersjach systemu Windows.
+# .
+
+# 3947;txt;01
+# Aby uaktywnić zwiększoną ochronę 64-bitowego systemu Windows, użyj polecenia Eksperymentalna ochrona z menu Konfiguracja.
+# .
+
+3949;txt;01
+Obniżenie uprawnień jest włączone w piaskownicy '%2' i uniemożliwia korzystanie z uprawnień administratora.
+
+Kliknij OK, aby wyłączyć Obniżenie uprawnień w piaskownicy '%2' i zezwolić na używanie uprawnień administratora w tej piaskownicy.
+
+Ustawienia Obniżenia uprawnień zawsze można zmienić otwierając okno Ustawień piaskownicy i rozwijając grupę ustawień Ograniczenia.
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control:  Sandbox Settings:  Print Spooler
+#----------------------------------------------------------------------------
+
+# 3950;txt;01
+# Print Spooler
+# .
+
+# 3951;txt;01
+# The Windows Print Spooler runs outside of Sandboxie's supervision.  A sandboxed application that requests the Print Spooler print to a file will be blocked, because this file would be written outside the sandbox.
+# .
+
+# 3952;txt;01
+# If you wish to allow the Print Spooler to print to a file, you can enable this setting. It is recommended that you enable this option only when needed.
+# .
+
+# 3953;txt;01
+# Allow the Windows Print Spooler to print to file.
+# .
+
+#----------------------------------------------------------------------------
+# Sandboxie Control:  Sandbox Settings:  Network Files
+#----------------------------------------------------------------------------
+
+3955;txt;01
+Network Files
+.
+
+3956;txt;01
+Network files and folders are normally visible to sandboxed applications.
+.
+
+3957;txt;01
+If you wish to block sandboxed applications from accessing files and folders on your network, you can enable this setting. Individual files and folders can be opened for sandboxed applications by adding them under Resource Access -> File Access.
+.
+
+3958;txt;01
+Block network files and folders unless specifically opened.
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control:  Sandbox Settings:  Resource Access
+#----------------------------------------------------------------------------
+
+4001;txt;01
+Dostęp do zasobu::Dostęp do pliku::Dostęp bezpośredni
+.
+
+4002;txt;01
+Bezpośredni dostęp do pliku (OpenFilePath)
+.
+
+4003;txt;01
+Następujące pliki i foldery będą bezpośrednio dostępne dla programów uruchomionych w tej piaskownicy, bez żadnych efektów obszaru izolowanego.
+.
+
+4004;txt;01
+Nie ma zastosowania do instalowanych lub pobieranych programów do piaskownicy.
+Zobacz też: Ustawienia Pełny dostęp.
+.
+
+4011;txt;01
+Dostęp do zasobu::Dostęp do pliku::Pełny dostęp
+.
+
+4012;txt;01
+Pełny dostęp do pliku (OpenPipePath)
+.
+
+4013;txt;01
+Następujące pliki i foldery będą bezpośrednio dostępne dla programów uruchomionych w tej piaskownicy, bez żadnych efektów obszaru izolowanego.
+.
+
+4014;txt;01
+W przeciwieństwie do ustawień Dostęp bezpośredni, to ustawienie ma zastosowanie do wszystkich programów, włącznie z tymi, które zostały zainstalowane lub pobrane do piaskownicy.
+.
+
+4021;txt;01
+Dostęp do zasobu::Dostęp do pliku::Zablokowany dostęp
+.
+
+4022;txt;01
+Zablokowanie dostępu do pliku (ClosedFilePath)
+.
+
+4023;txt;01
+Następujące pliki i foldery nie będą dostępne dla programów uruchomionych w piaskownicy.
+.
+
+4024;txt;01
+Jeżeli plik lub folder jest skojarzony z ustawieniami Dostępu do pliku, ale również jest skojarzony z ustawieniami Zablokowania dostępu, to ustawienia Zablokowania dostępu mają pierwszeństwo.
+.
+
+4025;txt;01
+Udostępnianie plików Windows może służyć do obejście ustawień Zablokuj dostęp do pliku.
+Dodawanie zasobu do blokowania dostępu w udostępnianiu plików Windows.
+.
+
+4031;txt;01
+Dostęp do zasobu::Dostęp do pliku::Dostęp do tylko do odczytu
+.
+
+4032;txt;01
+Dostęp do pliku tylko do odczytu (ReadFilePath)
+.
+
+4033;txt;01
+Następujące pliki i foldery nie będą modyfikowane przez programy uruchomione w tej piaskownicy.
+.
+
+4111;txt;01
+Dostęp do zasobu::Dostęp do pliku::Dostęp tylko do zapisu
+.
+
+4112;txt;01
+Dostęp do plików tylko do zapisu (WriteFilePath)
+.
+
+4113;txt;01
+Te foldery będą występować jako puste dla programów działających w piaskownicy, lecz programy będą mogły tworzyć nowe pliki w tych folderach w piaskownicy.
+.
+
+4041;txt;01
+Dostęp do zasobu::Dostęp do rejestru::Dostęp bezpośredni
+.
+
+4042;txt;01
+Bezpośredni dostęp do rejestru (OpenKeyPath)
+.
+
+4043;txt;01
+Następujące klucze rejestru będą bezpośrednio dostępne dla programów uruchomionych w tej piaskownicy.
+.
+
+4044;txt;01
+Nie ma zastosowania do zainstalowanych lub pobranych programów do piaskownicy.
+.
+
+4051;txt;01
+Dostęp do zasobu::Dostęp do rejestru::Zablokowany dostęp
+.
+
+4052;txt;01
+Zablokowany dostęp do rejestru (ClosedKeyPath)
+.
+
+4053;txt;01
+Następujące klucze rejestru nie będą dostępne dla programów uruchomionych w piaskownicy.
+.
+
+4054;txt;01
+Jeśli klucz rejestru jest skojarzony z ustawieniami Dostępu do rejestru i również jest skojarzony z ustawieniami Zablokowania dostępu, to Zablokowanie dostępu ma pierwszeństwo.
+.
+
+4061;txt;01
+Dostęp do zasobu::Dostęp do rejestru::Dostęp do tylko do odczytu
+.
+
+4062;txt;01
+Dostęp do rejestru tylko do odczytu (ReadKeyPath)
+.
+
+4063;txt;01
+Następujące klucze rejestru nie będą modyfikowane przez programy uruchomione w piaskownicy.
+.
+
+4121;txt;01
+Dostęp do zasobu::Dostęp do rejestru::Dostęp tylko do zapisu
+.
+
+4122;txt;01
+Dostęp do rejestru tylko do zapisu (WriteKeyPath)
+.
+
+4123;txt;01
+Te klucze będą występować jako puste dla programów działających w piaskownicy, lecz programy będą mogły zapisywać dane w tych kluczach w piaskownicy.
+.
+
+4071;txt;01
+Dostęp do zasobu::Dostęp do IPC::Dostęp bezpośredni
+.
+
+4072;txt;01
+Bezpośredni dostęp do IPC (OpenIpcPath)
+.
+
+4073;txt;01
+Następujące obiekty NT IPC będą bezpośrednio dostępne dla programów uruchomionych w tej piaskownicy.
+.
+
+4074;txt;01
+To ustawienie ma zastosowanie do wszystkich programów, włącznie z tymi, które zostały zainstalowane lub pobrane do piaskownicy.
+.
+
+4081;txt;01
+Dostęp do zasobu::Dostęp do IPC::Zablokowany dostęp
+.
+
+4082;txt;01
+Zablokowany dostęp do IPC (ClosedIpcPath)
+.
+
+4083;txt;01
+Następujące obiekty NT IPC nie będą dostępne dla wszystkich programów uruchomionych w tej piaskownicy.
+.
+
+4084;txt;01
+Jeśli obiekty NT IPC są skojarzone z ustawieniami Dostępu do IPC i również są skojarzone z ustawieniami Zablokowania dostępu, to Zablokowanie dostępu ma pierwszeństwo.
+.
+
+4091;txt;01
+Dostęp do zasobu::Dostęp do okna
+.
+
+4092;txt;01
+Dostęp do okna (OpenWinClass)
+.
+
+4093;txt;01
+Programy z piaskownicy nie mogą komunikować się z oknami programów uruchomionych na zewnątrz piaskownicy, chyba że okno zostało utworzone w jednej z następujących kategorii okien.
+.
+
+4101;txt;01
+Dostęp do zasobu::Dostęp do COM
+.
+
+4102;txt;01
+Dostęp do COM (OpenClsid)
+.
+
+4103;txt;01
+Programy z piaskownicy nie mogą komunikować się z obiektami COM , które należą do programów uruchomionych na zewnątrz piaskownicy, chyba że identyfikator klasy COM dopasuje jeden z następujących identyfikatorów klasy.
+.
+
+4104;txt;01
+Resource Access::Network Access
+.
+
+4105;txt;01
+Network Access (Firewall)
+.
+
+#----------------------------------------------------------------------------
+# Applications - General
+#----------------------------------------------------------------------------
+
+4201;txt;01
+Aplikacje
+.
+
+4202;txt;01
+&Widok kodu
+.
+
+4203;txt;01
+Otwórz stronę &Web
+.
+
+4204;txt;01
+Utwórz &nowy
+.
+
+4205;txt;01
+Ta konfiguracja aplikacji nie zawiera adresu sieci Web.
+.
+
+4206;txt;01
+Różne
+.
+
+4207;txt;01
+Zwiększ wykorzystanie Sandboxie przez inne aplikacje, wybierając je z listy poniżej.
+.
+
+# 4208;txt;01
+# Applications::Folders
+# .
+
+4209;txt;01
+Foldery
+.
+
+4210;txt;01
+Skonfiguruj lokalizację folderów używanych przez inne aplikacje.
+.
+
+4211;txt;01
+Wybierz folder dla
+.
+
+4212;txt;01
+Domyślna lokalizacja:
+.
+
+4213;txt;01
+Alternatywna lokalizacja:
+.
+
+4214;txt;02
+Alternatywna lokalizacja '%2'
+powinna zawierać następujący plik:
+
+%3
+
+Wybrana lokalizacja nie zawiera tego pliku.
+
+Proszę wybrać folder, który zawiera ten plik.
+.
+
+4215;txt;01
+Wybierz folder używany przez %2.
+.
+
+4216;txt;01
+Poniższe ustawienia stanowią konfigurację aplikacji '%2'.
+.
+
+4217;txt;01
+Wpisz lub wklej ustawienia, a następnie kliknij OK, aby utworzyć nową lokalną konfigurację aplikacji.
+.
+
+4218;txt;01
+Lokalna
+.
+
+4219;txt;01
+Twoja lokalna (nieoficjalna) konfiguracja aplikacji.
+.
+
+4220;txt;01
+Wprowadzony kod zawiera jeden lub więcej błędów.
+Nie można utworzyć konfiguracji aplikacji.
+.
+
+4221;txt;01
+Aby określić lokalizację folderu dla aplikacji, zobacz Foldery.
+.
+
+4222;txt;02
+Tego ustawieni nie można edytować lub usunąć, ponieważ jest częścią konfiguracji aplikacji:
+
+%2
+
+Aby usunąć konfigurację aplikacji z piaskownicy, zobacz Aplikacje w oknie Ustawienia piaskownicy.
+.
+
+4223;txt;01
+Lokalna konfiguracja aplikacji '%2' jest teraz usuwana ze wszystkich piaskownic.
+Czy chcesz zupełnie usunąć tę konfigurację aplikacji?
+.
+
+4224;txt;01
+PDF i drukowanie
+.
+
+4226;txt;02
+Bezpieczeństwo/Prywatność
+.
+
+4228;txt;01
+Narzędzia pulpitu
+.
+
+4230;txt;01
+Menedżery pobierania
+.
+
+4288;txt;01
+Wszystkie aplikacje
+.
+
+4289;txt;01
+Lista wszystkich aplikacji, posortowanych w porządku alfabetycznym. Lista nie zawiera lokalnych (nieoficjalnych) aplikacji.
+.
+
+4291;txt;01
+Domyślne wykluczenia z Natychmiastowego przywracania
+.
+
+4292;txt;01
+Domyślna lista opornych programów
+.
+
+4293;txt;01
+Domyślna lista blokowanych portów TCP/IP
+.
+
+4294;txt;01
+Zezwalaj programom na aktualizację listy szybkiego dostępu na pasku zadań Windows
+.
+
+4295;txt;01
+Default exclusions File Migration presets
+.
+
+4296;txt;01
+Default RPC Port Bindings
+.
+
+4297;txt;01
+Open Bluetooth RPC port
+.
+
+4298;txt;01
+Open Smart Card RPC port
+.
+
+4299;txt;01
+Open Simple Service Discovery Protocol (SSDP, UPnP) RPC port
+.
+
+4300;txt;01
+Open additional RPC Port Bindings
+.
+
+4306;txt;01
+Open RPC Port Bindings for UAC
+.
+
+4307;txt;01
+Block common telemetry processes
+.
+
+4308;txt;01
+Filter access to \Devices\
+.
+
+#----------------------------------------------------------------------------
+# Applications - Software Compatibility
+#----------------------------------------------------------------------------
+
+4251;txt;01
+Zgodność oprogramowania
+.
+
+4252;txt;01
+Sandboxie wykryło następujące aplikacje w systemie.
+.
+
+4253;txt;01
+Kliknij przycisk OK, aby zastosować ustawienia konfiguracji, które poprawią zgodność z tymi aplikacjami.
+.
+
+4254;txt;01
+Te ustawienia będą obowiązywać we wszystkich istniejących piaskownicach i w każdej nowej piaskownicy.
+.
+
+4255;txt;01
+W przyszłości nie sprawdzaj zgodności oprogramowania
+.
+
+4256;txt;01
+Nie można usunąć tej konfiguracji aplikacji, ponieważ jest ona stosowana we wszystkich piaskownicach.
+Aby usunąć tę konfigurację aplikacji, należy użyć narzędzia Kompatybilność oprogramowania z menu Konfiguracja.
+.
+
+4257;txt;01
+Usuń &stare ustawienia
+.
+
+4258;txt;01
+Następujące ustawienia zgodności nie są już używane:
+
+%2
+
+Kliknij OK, aby odrzucić te ustawienia zgodności.
+.
+
+4451;txt;01
+W systemie wykryto aplikacje powodujące
+konflikt z Sandboxie. Te aplikacje mogą
+zakłócić prawidłowe działanie Sandboxie.
+
+%2
+
+Przejrzyj stronę Znane konflikty w witrynie internetowej
+Sandboxie, aby uzyskać więcej informacji i rozwiązań.
+
+Czy otworzyć teraz stronę internetową Znane konflikty?
+.
+
+4452;txt;01
+&Znane konflikty
+.
+
+#----------------------------------------------------------------------------
+# Lock Configuration
+#----------------------------------------------------------------------------
+
+4261;txt;01
+Zablokuj konfigurację
+.
+
+4262;txt;01
+Sandboxie może chronić globalną konfigurację i ustawienia piaskownicy przed nieautoryzowanymi zmianami. Wybierz tryby ochrony, jako włączony lub wyłączony.
+.
+
+4263;txt;01
+Tylko z konta &Administratora użytkownik może wprowadzać zmiany
+.
+
+4264;txt;01
+&Trzeba wprowadzić hasło, aby móc dokonać zmian
+.
+
+4265;txt;01
+&Nie pamiętaj hasła, gdy okno Sterowania Sandboxie zostanie ukryte
+.
+
+4266;txt;01
+&Zmień hasło
+.
+
+4267;txt;01
+Tylko z konta Administratora użytkownik może użyć polecenia wymuszającego &wyłączenie programu
+.
+
+4269;txt;01
+Proszę rozważyć możliwość przeczytania strony dokumentacji Sandboxie
+dotyczącej ochrony konfiguracji. Czy chcesz otworzyć tę stronę teraz?
+.
+
+4271;txt;01
+Konfiguracja Sandboxie jest chroniona hasłem. Proszę wprowadzić hasło.
+.
+
+4272;txt;01
+Wprowadź nowe hasło, którym chcesz chronić konfigurację Sandboxie.
+.
+
+4273;txt;01
+Wprowadź to samo hasło ponownie, aby je potwierdzić.
+.
+
+4274;txt;01
+Wprowadzono złe hasło. Spróbuj ponownie?
+.
+
+#----------------------------------------------------------------------------
+# Program Selector
+#----------------------------------------------------------------------------
+
+4281;txt;01
+Wybierz nazwę programu
+.
+
+4282;txt;01
+Wybierz nazwę programu lub grupę programów
+.
+
+4283;txt;01
+Ostatnio uruchamiane programy
+.
+
+4284;txt;01
+Programy występujące w ustawieniach piaskownicy
+.
+
+4285;txt;01
+Grupy programów
+.
+
+4286;txt;01
+Wybierz lub &wprowadź program:
+.
+
+4287;txt;01
+Otwórz / Wybierz &plik
+.
+
+#----------------------------------------------------------------------------
+# Applications - Accessibility
+#----------------------------------------------------------------------------
+
+# 4301;txt;01
+# Applications::Accessibility
+# .
+
+4302;txt;01
+Ułatwienie dostępu
+.
+
+4303;txt;01
+Następujące ustawienia umożliwiają użycie Sandboxie w połączeniu z oprogramowaniem ułatwienia dostępu. Proszę zauważyć, że niektóre środki ochrony Sandboxie z konieczności będą utracone, gdy obowiązują te ustawienia.
+.
+
+4304;txt;01
+By zrekompensować utraconą ochronę, proszę uwzględnić obniżenie uprawnień w ustawieniach strony w grupie ustawień Ograniczenia
+.
+
+4305;txt;03
+Czytniki ekranu:  %2
+.
+
+#----------------------------------------------------------------------------
+# Applications - Web Browser and Email Reader
+#----------------------------------------------------------------------------
+
+4321;txt;01
+Przeglądarka internetowa
+.
+
+4322;txt;01
+Następujące wykluczenia pozwalają przeglądarkom uruchomionym w piaskownicy wprowadzać zmiany poza piaskownicą. Te ustawienia zmniejszają bezpieczeństwo i prywatność, ale zwiększają wygodę korzystania z przeglądarek.
+.
+
+4323;txt;01
+Wymuś uruchomienie %2 w tej piaskownicy
+.
+
+4324;txt;02
+Zezwól na bezpośredni dostęp do danych synchronizacji %2
+.
+
+4325;txt;02
+Zezwalaj na bezpośredni dostęp do %2
+.
+
+4326;txt;02
+Zezwól na bezpośredni dostęp do ulubionych %2
+.
+
+4327;txt;01
+Dodaj ulubione Internet Explorera do folderów Szybkiego przywracania
+.
+
+4328;txt;01
+Zezwól na bezpośredni dostęp do plików cookies %2
+.
+
+4329;txt;01
+Zapisz poza piaskownicą: Historię wyszukiwania i wywoływane polecenia
+.
+
+4330;txt;01
+Zapisz poza piaskownicą: Informacje o koncie Hotmail i Messengera
+.
+
+4331;txt;01
+Zezwól na bezpośredni dostęp do haseł %2
+.
+
+4336;txt;02
+Zezwól na bezpośredni dostęp do zakładek i historii bazy danych %2
+.
+
+4337;txt;02
+Zezwól na bezpośredni dostęp do bazy danych phishingu %2
+.
+
+4338;txt;02
+Zezwól na bezpośredni dostęp do całego folderu profilu %2
+.
+
+4339;txt;02
+Zezwól na bezpośredni dostęp do ustawień %2
+.
+
+4340;txt;01
+Zezwól na bezpośredni dostęp do zarządzania sesjami %2
+.
+
+4341;txt;01
+Allow direct access to %2 notes
+.
+
+4342;txt;01
+Enable %2 compatibility workaround
+.
+
+4356;txt;02
+Zezwól na bezpośredni dostęp do zakładek %2
+.
+
+4357;txt;02
+Inne
+.
+
+4358;txt;02
+Rozszerzenia
+.
+
+4391;txt;01
+Klient poczty
+.
+
+4392;txt;01
+Następujące wykluczenia pozwalają klientom poczty uruchomionym w tej piaskownicy uzyskać dostęp do plików skrzynki pocztowej poza piaskownicą.
+.
+
+4393;txt;01
+Media Players
+.
+
+4394;txt;01
+The following exclusions allow Media players running in this sandbox to access files outside the sandbox.
+.
+
+4395;txt;01
+Allow %2 direct access to the Photo folder for easier screen capture.
+.
+
+4396;txt;01
+Torrent Clients
+.
+
+4397;txt;01
+The following exclusions allow Torrent clients running in this sandbox to access files outside the sandbox.
+.
+
+4398;txt;01
+Allow %2 direct access to the Music folder for easier music library management.
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control:  Sandbox Settings:  User Accounts
+#----------------------------------------------------------------------------
+
+5101;txt;01
+Konta użytkowników
+.
+
+5102;txt;01
+Dodaj konta użytkowników i grupy użytkowników do poniższej listy, aby ograniczyć korzystanie z piaskownicy tylko do tych kont. Jeżeli lista jest pusta, z piaskownicy mogą korzystać użytkownicy wszystkich kont.
+.
+
+5103;txt;01
+Uwaga: Ustawienia monitorowanych programów i monitorowanych folderów w piaskownicy nie dotyczą kont użytkowników, którzy nie mogą używać tej piaskownicy.
+.
+
+# 5105;txt;01
+# Dodaj &użytkownika
+# .
+
+5107;txt;01
+Używanie tej piaskownicy zostało ograniczone dla Twojego konta użytkownika
+i piaskownica nie będzie wyświetlana w głównym oknie programu.
+
+Aby uczynić piaskownicę widoczną i możliwą do wykorzystania, użyj polecenia
+„Wyświetl ukrytą piaskownicę" z menu Piaskownica.
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control:  Reveal Hidden Sandbox
+#----------------------------------------------------------------------------
+
+5122;txt;01
+Z Twojego konta użytkownika nie można korzystać z piaskownic wymienionych poniżej.
+.
+
+5123;txt;01
+Następujące konta użytkowników mają pozwolenie na używanie wybranej piaskownicy.
+.
+
+5124;txt;01
+Kliknij przycisk OK, aby dodać konto użytkownika '%2' do piaskownicy i wyświetlić piaskownicę w głównym oknie programu.
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control:  Set Layout and Groups
+#----------------------------------------------------------------------------
+
+5142;txt;01
+Rozmieść piaskownice w grupach i dostosuj kolejność ich wyświetlania. Wywołanie menu kontekstowego umożliwi zarządzanie wpisami w poniższym drzewie układu.
+.
+
+5143;txt;01
+(Góra)
+.
+
+5145;txt;01
+P&rzywróć domyślny układ
+.
+
+5146;txt;01
+Wstaw &grupę
+.
+
+5147;txt;01
+&Zmień nazwę
+.
+
+5148;txt;01
+&Usuń
+.
+
+5151;txt;01
+&Przenieś
+.
+
+5152;txt;01
+&Przenieś w górę
+.
+
+5153;txt;01
+&Przenieś w dół
+.
+
+5154;txt;01
+&Przenieś do
+.
+
+#----------------------------------------------------------------------------
+# Plus Tips
+#----------------------------------------------------------------------------
+
+6001;txt;01
+The classic Sandboxie UI (SbieCtrl.exe) has very limited
+resource monitoring and event tracing capabilities.
+
+For optimal troubleshooting it is highly advisable 
+to install the new UI, Sandboxie-Plus (SandMan.exe),
+which provides excellent tracing and monitoring capabilities.
+
+Do you want to download Sandboxie-Plus now?
+.
+
+6002;txt;01
+Visit <a ID="whats_new">sandboxie-plus.com</a> to learn about the new functionality of Sandboxie-Plus,
+or directly click <a ID="upgrade">here</a> to download the latest Sandboxie-Plus installer.
+.
+
+6003;txt;01
+The legacy UI of Sandboxie classic does not implement support for the network firewall functionality.
+
+You can though configure the feature supported by the core components using the ini file, rules are structured like following:
+NetworkAccess=iexplorer.exe,Allow; Port=80,443; Address=192.168.0.1-192.168.100.255; Protocol=TCP
+
+If you prefer to use a UI to control these options, please upgrade to Sandboxie-Plus, which has full UI support for all new features.
+.
+
+6004;pop;err;01
+The configuration %3 of box %2 requires a supporter certificate. Processes in this box will be terminated after 5 minutes. For prolonged use, please consider supporting this project.
+.
+
+6005;txt;01
+Note: Without administrative privileges installers will fail to start in the sandbox. Sandboxie-Plus offers an option to make many installers succeed without those privileges. You can enable this option also in the classic build manually, by adding "FakeAdminRights=y" to the ini section for this box.
+.
+
+6006;txt;01
+The legacy UI of Sandboxie classic implements only support for a couple of restriction options.
+
+Additional options like "ClosePrintSpooler=y", "OpenClipboard=n", "BlockNetParam=n" and much more can be set in the ini section for this box.
+The modern UI (SandMan.exe) also offers more customization options for Start/Run and Internet access restrictions.
+
+If you would prefer to use a UI to control these options, please upgrade to Sandboxie-Plus, which has full UI support for all new features.
+.
+
+6007;txt;01
+Sandboxie Plus offers enhanced privacy protection by switching the old behavior from a black-list mode, i.e., allowing read access to the entire drive, except blocked by Closed Path or Write Path, to a white-list mode where sandboxed programs are only allowed to read generic system locations and read access to most user data must be first explicitly granted.
+
+The legacy UI of Sandboxie classic does not implement support for this mode of operation. Although it can be configured using the ini file, it is recommended to use the modern Sandboxie-Plus UI (SandMan.exe) if you want to use privacy enhanced boxes.
+.
+
+6008;pop;err;01
+The configuration %3 of box %2 requires a supporter certificate and can not be used without it.
+.
+
+6009;pop;err;01
+The configuration %3 of box %2 requires an advanced supporter certificate.
+.
+
+6010;txt;01
+You have installed Sandboxie more than %2 days ago.
+
+So, you think David and the contributors are doing a great job?
+
+Why don't you show it by supporting the project and getting a Supporter Certificate?
+
+Sandboxie without a valid supporter certificate will now pause for a few seconds, to give you time to contemplate the possibility of supporting the project.
+.
+
+6011;txt;01
+Wait
+.
+
+6012;txt;01
+Continue
+.
+
+6013;txt;01
+Quit
+.
+
+6014;txt;01
+Get Certificate
+.
+
+#----------------------------------------------------------------------------
+# Getting Started Wizard
+#----------------------------------------------------------------------------
+
+7850;txt;01
+Samouczek wprowadzający do Sandboxie
+.
+
+7851;txt;01
+Pierwsze kroki w Sandboxie
+.
+
+7852;txt;01
+Witamy w Sandboxie!
+
+Sandboxie uruchamia programy w odizolowanej przestrzeni, co uniemożliwia im wprowadzania trwałych zmian w innych programach i danych w komputerze.
+
+Ten samouczek w krótki sposób wyjaśnia podstawowe zasady korzystania z Sandboxie.
+.
+
+7853;txt;01
+Uwaga: Ten samouczek jest przeznaczony do użycia z domyślną piaskownicą DefaultBox.
+.
+
+7854;txt;01
+Jak działa Sandboxie (Ilustracja)
+.
+
+7855;txt;01
+Uruchom przeglądarkę internetową pod kontrolą Sandboxie
+.
+
+7856;txt;01
+Proszę znaleźć skrót na pulpicie i kliknąć go dwukrotnie, aby uruchomić przeglądarkę internetową w domyślnej piaskownicy DefaultBox.
+.
+
+7857;txt;01
+Kliknij tutaj, aby ukryć to okno i pokazać pulpit
+.
+
+7858;txt;01
+Twoja przeglądarka jest teraz uruchomiona wewnątrz piaskownicy
+.
+
+7859;txt;01
+Programy w piaskownicy mogą modyfikować tylko zawartość piaskownicy.
+
+Podczas zapisywania lub pobierania plików, pliki są umieszczane w piaskownicy. Jeśli zapisujesz plik w folderach Pulpitu, Moje dokumenty lub Downloads, to Sandboxie oferuje funkcję przeniesienia pliku z piaskownicy.
+
+Spróbuj teraz: W przeglądarce (uruchomionej w piaskownicy) pobrać plik na Pulpit i przywrócić go na prawdziwy Pulpit.
+.
+
+7860;txt;01
+Usuń zawartość swojej piaskownicy
+.
+
+7861;txt;01
+Można traktować piaskownicę jako arkusz przezroczystego papieru umieszczony pomiędzy programem a komputerem. Usuwanie zawartości piaskownicy przypomina wyrzucenie używanego arkusza papieru i zastąpienie go innym czystym.
+.
+
+7862;txt;01
+Spróbuj teraz: Usunąć zawartość swojej piaskownicy DefaultBox. Proszę znaleźć żółtą ikonę Sandboxie w podświetlonym rogu ekranu, a następnie:
+.
+
+7863;txt;01
+Kliknąć prawym przyciskiem myszy na żółtą ikonę Sandboxie,
+
+wybrać DefaultBox i kliknąć Usuń zawartość.
+.
+
+7864;txt;01
+Gotowy do pracy!
+.
+
+7865;txt;01
+Dziękujemy za poświęcony czas na przejrzenie tego samouczka. Więcej samouczków i porad można znaleźć na stronie internetowej Sandboxie.
+
+Domyślne ustawienia Sandboxie, zapewniają pełną ochronę, ale może będziesz chciał przejrzeć polecenia konfiguracji piaskownicy w menu Piaskownica w oknie programu Sandboxie.
+.
+
+# 7866;txt;01
+# W 64-bitowym systemie Windows, należy włączyć Eksperymentalną ochronę. Zobacz menu Konfiguracja w Sterowanie Sandboxie.
+# .
+
+#----------------------------------------------------------------------------
+# License Manager
+#----------------------------------------------------------------------------
+
+# 7901;txt;01
+# Menedżer licencji Sandboxie
+# .
+
+# 7902;txt;01
+# Kod systemu %2
+# .
+
+# 7903;txt;01
+# W przyszłości aktywuj licencję bez pytania
+# .
+
+#----------------------------------------------------------------------------
+
+# 7921;txt;01
+# Sandboxie jest zarejestrowane i licencja jest aktywowana.
+# .
+
+# 7922;txt;01
+# Wersja zarejestrowana, ale musisz ponownie aktywować licencję.
+# .
+
+# was 3603;txt;01
+# 7923;txt;01
+# Niezarejestrowana kopia. Zarejestruj dzisiaj!
+# .
+
+# 7924;txt;01
+# Licencja Sandboxie musi być reaktywowana za %2 dni.
+# .
+
+# 7925;txt;01
+# Licencja Sandboxie została teraz aktywowana.
+# .
+
+# 7926;txt;01
+# Data wygaśnięcia klucza produktu - %2.
+# .
+
+# 7927;txt;01
+# Klucz produktu nie posiada daty wygaśnięcia.
+# .
+
+#----------------------------------------------------------------------------
+
+# 7931;txt;01
+# Twojej kopia Sandboxie jest zarejestrowana za pomocą przestarzałego klucza rejestracyjnego.
+# .
+
+# 7932;txt;01
+# Proszę zezwolić Menedżerowi licencji na połączenie z serwerem licencji i uaktualnień starych kluczy rejestracyjnych na nowy klucz produktu. Za to uaktualnienie nie są pobierane jakiekolwiek opłaty.
+# .
+
+# 7933;txt;01
+# Klucz rejestracyjny nie jest rozpoznawany przez Serwer licencji.
+# .
+
+# 7934;txt;01
+# Jeżeli używałeś legalnego klucza rejestracji, za który zapłaciłeś, albo który był dostarczony Ci jako podarunek, lub jako element promocji, to prosimy wysłać e-mail do:
+# .
+
+# 7935;txt;01
+# Twój nowy klucz produktu to:
+# .
+
+# 7936;txt;01
+# Proszę przechowywać klucz produktu w bezpiecznym miejscu. Kliknij przycisk poniżej, aby skopiować klucza produktu do Schowka, z którego można wkleić go do dokumentu i wydrukować.
+# .
+
+# 7937;txt;01
+# &Uaktualnienie klucza rejestracyjnego do klucza produktu
+# .
+
+#----------------------------------------------------------------------------
+
+# was 3612;txt;01
+# 7941;txt;01
+# Rejestracja Sandboxie jest wykonywana za pomocą zapłaty trzeciej stronie. Rozpocznij proces rejestracji od odwiedzenia strony internetowej Sandboxie o poniższym adresie.
+# .
+
+# 7942;txt;01
+# Aby aktywować licencję Sandboxie, wprowadź klucz produktu, który figuruje w Twoim dowodzie wpłaty, a następnie kliknij przycisk, aby aktywować swoją licencję.
+# .
+
+# 7943;txt;01
+# Czy chcesz teraz wprowadzić nowy klucz produktu?
+# .
+
+# 7944;txt;01
+# &Aktywacja licencji
+# .
+
+# was first line of 3617;txt;01
+# 7945;txt;01
+# Twoja kopia Sandboxie jest teraz zarejestrowana.
+# .
+
+# was second line of 3617;txt;01
+# 7946;txt;01
+# Dziękuję za wspieranie Sandboxie!
+# .
+
+#----------------------------------------------------------------------------
+
+# 7951;txt;01
+# Czy chcesz teraz aktywować licencję?
+# .
+
+# 7952;txt;01
+# Proszę przejść na stronę internetową Sandboxie za pomocą poniższego linku, aby zamówić nowy klucz produktu.
+# .
+
+# 7961;txt;01
+# Wyczyść &informacje o licencji
+# .
+
+# 7962;txt;01
+# Czy na pewno chcesz wyczyścić informacje o licencji Sandboxie?
+# 
+# Możesz aktywować licencję w dowolnym czasie przez wprowadzenie klucza produktu.
+# .
+
+#----------------------------------------------------------------------------
+
+# 7971;txt;01
+# To nie jest prawidłowy klucz produktu.
+# .
+
+# 7972;txt;01
+# To nie jest prawidłowy kod systemu.
+# .
+
+# 7973;txt;01
+# To nie jest prawidłowy klucz aktywacji. [%2]
+# .
+
+# 7974;txt;01
+# Nieprawidłowa odpowiedź Serwera licencji.
+# .
+
+# 7975;txt;01
+# Aktywacja produktu nie powiodła się:
+# .
+
+# 7976;txt;01
+# Czy chcesz spróbować ponownie teraz?
+# .
+
+# 7977;txt;01
+# Jeśli musisz aktywować Sandboxie na komputerze, który nie ma dostępu do internetu,
+# zobacz FAQ Licencjonowanie Sandboxie, by uzyskać informacje o aktywacji offline.
+# .
+
+# 7978;txt;01
+# Aktualna data (%2) jest późniejsza niż data wysłana z serwera licencji (%3).
+# .
+
+# 7982;txt;01
+# Serwer licencji nie określił przyczyny niepowodzenia aktywacji.
+# .
+
+# 7983;txt;01
+# Klucz produktu nie jest rozpoznawany przez Serwer licencji.
+# .
+
+# 7984;txt;01
+# Klucz produktu nie może być używany poza jego datą ważności %2.
+# .
+
+# 7985;txt;01
+# Klucz produktu został aktywowany na zbyt wielu komputerach.
+# .
+
+# 7986;txt;01
+# Klucz produktu został unieważniony, ponieważ został upubliczniony w internecie.
+# .
+
+# 7987;txt;01
+# Klucz produktu został unieważniony, ponieważ zamówienie zostało zwrócone.
+# .
+
+7988;txt;01
+Your Supporter Certificate is valid, Thank You :-)
+.
+
+7989;txt;01
+The Supporter Certificate has expired :'(
+.
+
+7990;txt;01
+Please copy the entire Supporter Certificate into the clipboard and press OK.
+.
+
+7991;txt;01
+Failed to save certificate to file.
+.
+
+7992;txt;01
+The certificate is not valid.
+.
+
+7993;txt;01
+The certificate is valid and has been successfully applied.
+.
+
+
+#----------------------------------------------------------------------------
+# SandboxieInstall
+#----------------------------------------------------------------------------
+
+8001;ins;01
+Wybierz typ instalacji
+.
+
+8002;ins;01
+Wybierz tryb nadpisania lub odinstalowania.
+.
+
+8003;ins;01
+Start
+.
+
+8004;ins;01
+Istnieje instalacja Sandboxie w następującym folderze:
+.
+
+8005;ins;01
+Proszę wybrać jak kontynuować:
+.
+
+8006;ins;01
+Nadpisz (uaktualnij) istniejącą instalację
+.
+
+8007;ins;01
+Odinstaluj (usuń) istniejącą instalację i ustawienia
+.
+
+8008;ins;01
+Kliknij Start, gdy jesteś gotowy do kontynuacji.
+.
+
+8009;ins;01
+Przed deinstalacją, za pomocą Sterowania Sandboxie usuń zawartość piaskownicy.
+.
+
+8010;ins;01
+Instalacja sterownika
+.
+
+8011;ins;01
+Proszę przejrzeć poniższą informację.
+.
+
+8012;ins;01
+Kliknij Dalej, by zainstalować i aktywować systemowy sterownik Sandboxie.  Ten sterownik to rdzeń aplikacji Sandboxie.
+.
+
+8013;ins;01
+To może wymagać chwilowego wyłączenia uruchomionych narzędzi ochrony systemu, które mogą przeszkadzać w instalacji systemowego sterownika.
+.
+
+8014;ins;02
+Jeśli ten krok kończy się niepowodzeniem i komputer zawiesza się lub restartuje, proszę uruchomić ponownie komputer w trybie awaryjnym, a następnie uruchomić program instalacyjny, aby usunąć Sandboxie
+.
+
+8015;ins;01
+Sterownik instaluje się pomyślnie na większości systemów.
+.
+
+8016;ins;01
+Proszę czekać, trwa odinstalowywanie Sandboxie.
+.
+
+8021;ins;01
+Uruchom dowolny program w piaskownicy.lnk
+.
+
+8022;ins;01
+Uruchom dowolny program pod nadzorem Sandboxie
+.
+
+8023;ins;01
+Menu start w Sandboxie.lnk
+.
+
+8024;ins;01
+Wybierz program z Menu start, aby uruchomić go pod nadzorem Sandboxie
+.
+
+8025;ins;01
+Uruchom przeglądarkę internetową w piaskownicy.lnk
+.
+
+8026;ins;01
+Uruchom domyślną przeglądarkę internetową pod nadzorem Sandboxie
+.
+
+8027;ins;01
+Uruchom Windows Explorer w piaskownicy.lnk
+.
+
+8028;ins;01
+Eksploruj lokalny pulpit i komputer pod nadzorem Sandboxie
+.
+
+8029;ins;01
+Sterowanie Sandboxie.lnk
+.
+
+8030;ins;01
+Otwórz panel Sterowania Sandboxie
+.
+
+8031;ins;01
+Odinstaluj Sandboxie.lnk
+.
+
+8032;ins;01
+Odinstaluj Sandboxie
+.
+
+8033;ins;01
+=copy:3698
+.
+
+8041;ins;01
+Sandboxie można zainstalować tylko w następujących wersjach systemu Microsoft Windows:
+.
+
+8042;ins;01
+Sandboxie musi być zainstalowany z konta użytkownika posiadającego
+uprawnienia administratora systemu.
+
+Jeżeli używasz systemu Windows z włączoną funkcją Kontroli 
+Konta Użytkownika (UAC), upewnij się, że uruchamiasz pakiet
+instalacyjny korzystając z polecenia Uruchom jako administrator.
+.
+
+8043;ins;01
+32-bitowa wersja Sandboxie nie może być zainstalowana w 64-bitowym systemie operacyjnym.
+.
+
+8044;ins;01
+Nie można zainstalować 64-bitowej wersji Sandboxie w 32-bitowym systemie operacyjnym.
+.
+
+8051;ins;01
+Program sterujący Sterowanie Sandboxie jest uruchomiony.
+
+Kliknij OK, by zamknąć go i kontynuować instalację.
+
+Kliknij Anuluj, by przerwać instalację.
+.
+
+8052;ins;01
+Nie można utworzyć lub uaktualnić plików programu Sandboxie.
+
+Upewnij się, czy Sterowanie Sandboxie nie jest uruchomione,
+i czy żadne programy nie są uruchomione w piaskownicy.
+
+Następnie kliknij OK, by ponowić próbę instalacji.
+
+W przeciwnym razie kliknij Anuluj, by przerwać instalację.
+.
+
+8053;ins;01
+*** Błąd KmdUtil. Nie można pomyślnie zakończyć procesu instalacji lub deinstalacji. ***
+.
+
+8054;ins;01
+Czy chcesz zachować plik konfiguracyjny Sandboxie.ini?
+
+Wybierz TAK, aby zachować ustawienia w pliku konfiguracyjnym Sandboxie.ini.
+
+Wybierz NIE, aby usunąć plik Sandboxie.ini wraz z ustawieniami konfiguracji.
+.
+
+8055;ins;01
+Jest dostępna aktualizacja online pliku Templates.ini i/lub tłumaczeń dla tej wersji sandboxie, czy chcesz ją zainstalować?
+.
+
+#----------------------------------------------------------------------------
+# KmdUtil
+#----------------------------------------------------------------------------
+
+8101;txt;01
+Nie można zainstalować sterownika.
+
+Proszę ponownie uruchomić komputer
+i uruchomić ponownie proces instalacji.
+
+Błędna funkcja to: %2
+.
+
+8102;txt;01
+Nie może zatrzymać usługi.
+Usługa '%2' jest zajęta.
+
+Proszę kliknąć OK, by ponowić próbę.
+.
+
+8103;txt;01
+To jest pierwsza z trzech ponawianych prób.
+.
+
+8104;txt;01
+To jest druga z trzech ponawianych prób.
+.
+
+8105;txt;01
+To jest trzecia i ostatnia próba.
+.
+
+8106;txt;02
+Przed kontynuowaniem instalacji należy zamknąć następujące programy.
+Kliknij OK, aby zamknąć te programy i kontynuować. Kliknij Anuluj, aby przerwać instalację.
+.

@@ -1,0 +1,3494 @@
+#----------------------------------------------------------------------------
+# SbieDrv
+#
+# Initialization errors issued to the System event Log
+#----------------------------------------------------------------------------
+
+1101;evt;inf;01
+SBIE1101 Nis drejtuesin e Sandboxie-t (SbieDrv) me versionin %2
+.
+
+1102;evt;inf;01
+SBIE1102 Shkyç drejtuesin e Sandboxie-t (SbieDrv)
+.
+
+1103;evt;err;01
+SBIE1103 Dështoi nisja e drejtuesit të Sandboxie-t (SbieDrv) me versionin %2
+.
+
+1104;evt;err;01
+SBIE1104 Burime të pamjaftueshme të sistemit për të përfunduar hapjen
+.
+
+1105;evt;err;01
+SBIE1105 Version i panjohur i sistemit operativ:  %2
+.
+
+1106;evt;err;01
+SBIE1106 gabimi %2, detaji %3
+.
+
+# 1107;evt;err;01
+# SBIE1107 Nuk mund të hapë konton LocalSystem %2
+# .
+
+1108;evt;err;01
+SBIE1108 Nuk mund të analizojë procedurën %2
+.
+
+1109;evt;err;01
+SBIE1109 Informacion i pasaktë i licencës:  %2
+.
+
+1110;evt;err;01
+SBIE1110 Nuk mund të kapë llojin %3, gabimi %2
+.
+
+1111;evt;err;01
+SBIE1111 DLL e sistemit %3 nuk mund të ngarkohet %2
+.
+
+1112;evt;err;01
+SBIE1112 Nuk mund të gjejë procedurën %2
+.
+
+1113;evt;err;01
+SBIE1113 Nuk mund të gjejë shërbimin Nt të sistemit, arsyeja %2
+.
+
+1114;evt;err;01
+SBIE1114 Nuk mund të gjejë shërbimin Zw të sistemit, arsyeja %2
+.
+
+1116;evt;err;01
+SBIE1116 Drejtuesi nuk arriti të regjistrojë rutinën e lajmërimit të procesit %2
+.
+
+1119;evt;err;01
+SBIE1119 Nuk mund të krijojë pajisjen API %2
+.
+
+1120;evt;err;01
+SBIE1120 Krahasim i gabuar në shërbimin %2
+.
+
+1121;evt;err;01
+SBIE1121 Dështoi këndi i shërbimit %2
+.
+
+1122;evt;err;01
+SBIE1122 Gabimi:  %2
+.
+
+#----------------------------------------------------------------------------
+# SbieDrv
+#
+# Error Messages to both Event and Popup Logs
+#----------------------------------------------------------------------------
+
+1151;evt;pop;err;01
+SBIE1151 Nuk mund të trajtojë instruksionin %2
+.
+
+1152;evt;pop;err;01
+SBIE1152 Dështoi ndarja e trampolinës %2
+.
+
+1153;evt;pop;err;01
+SBIE1153 Dështoi hapja e Sandboxie-t. Mbyllni të gjitha programet dhe pastaj riinstaloni Sandboxie-n OSE rinisni kompjuterin.
+.
+
+#----------------------------------------------------------------------------
+# SbieDrv
+#
+# Error Messages to Popup Log
+#----------------------------------------------------------------------------
+
+1201;pop;err;01
+SBIE1201 Kujtesë e pamjaftueshme
+.
+
+1202;pop;err;01
+SBIE1202 Nuk mund të azhurnojë informacionin e licencës:  %2
+.
+
+1203;pop;err;01
+SBIE1203 Nuk mund të ndërtojë listën e shtegut (gabimi në %2)
+.
+
+1204;pop;err;01
+SBIE1204 Dështoi krijimi i arkës prej rëre për %3 %2
+.
+
+1211;pop;err;01
+SBIE1211 Nuk mund të nisë mbështjelljen e procesit %2
+.
+
+1212;pop;err;01
+SBIE1212 Nuk mund të krijojë direktorinë '%3' %2
+.
+
+1213;pop;err;01
+SBIE1213 Nuk mund të krijojë direktorinë objekt '%3' %2
+.
+
+# 1214;pop;err;01
+# SBIE1214 Nuk mund të injektojë SbieDll %2
+# .
+
+# 1215;pop;err;01
+# SBIE1215 Nuk mund të zgjedhë shtegun për procesimin e imazhit %2
+# .
+
+# 1216;pop;err;01
+# SBIE1216 Nuk mund të hetojë ID e sigurisë %2
+# .
+
+# 1217;pop;err;01
+# SBIE1217 Nuk mund të gjejë procesin prind
+# .
+
+# 1221;pop;err;01
+# SBIE1221 Nuk mund të krijojë punën:  %2
+# .
+
+# 1222;pop;err;01
+# SBIE1222 Nuk mund të pengojë dëshminë:  %2
+# .
+
+# 1223;pop;err;01
+# SBIE1223 Nuk mund të zëvendësojë dëshminë:  %2
+# .
+
+# 1224;pop;err;01
+# SBIE1224 Nuk mund të hetojë dëshminë:  %2
+# .
+
+1241;pop;err;01
+SBIE1241 Nuk mund të montojë arkën e regjistrit:  %2
+.
+
+1242;pop;err;01
+SBIE1242 Tejkaloi zbutësin e monitorit
+.
+
+#----------------------------------------------------------------------------
+# SbieDrv
+#
+# Informational Messages to Popup Log
+#----------------------------------------------------------------------------
+
+1301;pop;inf;01
+SBIE1301 Programi '%2' është lëshuar jashtë kutisë prej rëre
+.
+
+# 1302;pop;inf;01
+# SBIE1302 Kutia prej rëre '%2' nuk është përcaktuar ose aktivizuar
+# .
+
+1303;pop;inf;01
+SBIE1303 Vetëm një kuti rëre mund të jetë aktive në një kohë
+.
+
+# 1304;pop;inf;01
+# SBIE1304 Bllokoi inputin e tastierës ose miut nga procesi '%2'
+# .
+
+1306;pop;inf;01
+SBIE1306 Tani drejtuesi i Sandboxie-t (SbieDrv) nuk mund të shkyçet
+.
+
+1307;pop;inf;02
+SBIE1307 Programi nuk mund të hyjë në Internet për shkak të disa pengesave - %2
+.
+
+1308;pop;inf;02
+SBIE1308 Programi nuk mund të nisë për shkak të disa pengesave - %2
+.
+
+1309;pop;inf;01 
+SBIE1309 Mohoi orvatjen për të ndryshuar fjalëkalimin e kontos 
+.
+
+1310;pop;inf;01
+SBIE1310 Veçoritë e zgjeruara janë çaktivizuar deri në riaktivizimin e licencës
+.
+
+1311;pop;inf;01
+SBIE1311 Bllokoi kërkesën për të ndryshuar bandën e tryezës nga procesi '%2'
+.
+
+1312;pop;inf;01
+SBIE1312 Bllokoi kërkesën për të nisur programin DOS 16-bit në kuti rëre
+.
+
+1313;pop;inf;01
+SBIE1313 Bllokoi aksesin direkt në disk nga procesi '%2'
+.
+
+#----------------------------------------------------------------------------
+# SbieDrv
+#
+# Configuration Error Messages to both Event and Popup Logs
+#----------------------------------------------------------------------------
+
+1401;evt;pop;inf;01
+SBIE1401 Nuk gjeti skedën e konfiguracionit, përdor normalen
+.
+
+1402;evt;pop;wrn;01
+SBIE1402 Gabim në skedën e konfiguracionit në vargun %3:  %2
+.
+
+1403;evt;pop;wrn;01
+SBIE1403 Gabim në skedën e konfiguracionit në vargun %2:  rresht shumë i gjatë
+.
+
+1404;evt;pop;wrn;01
+SBIE1404 Gabim në skedën e konfiguracionit në vargun %2:  shumë rreshta
+.
+
+1405;evt;pop;wrn;01
+SBIE1405 Gabim në skedën e konfiguracionit në vargun %2:  gabim në sintaksë
+.
+
+1406;evt;pop;err;01
+SBIE1406 Shtrirje e humbur ose e pasaktë për %3:  %2
+.
+
+# 1407;evt;pop;err;01
+# SBIE1407 Vlerë e pasaktë për parametrin %2, përdor normalin
+# .
+
+1408;pop;err;01
+SBIE1408 Emër përdoruesi i panjohur për SID:  %2
+.
+
+1409;evt;pop;wrn;01
+SBIE1409 Nuk mund të hapë skedën Templates.ini %2
+.
+
+1410;evt;pop;wrn;01
+SBIE1410 Mesazhi më poshtë tregon një gabim në skedën Templates.ini
+.
+
+1411;evt;pop;wrn;01
+SBIE1411 Kutia prej rëre %2 përcakton një klishe të panjohur %3
+.
+
+1412;evt;pop;err;01
+SBIE1412 Në tekstin: %2
+.
+
+#----------------------------------------------------------------------------
+# SbieDrv
+#
+# Messages from user mode -- informational -- 2101 through 2199
+#----------------------------------------------------------------------------
+
+2101;pop;inf;01
+SBIE2101 %2
+.
+
+2102;pop;inf;01
+SBIE2102 Kjo skedë është tepër e madhe për t'u kopjuar në kutinë prej rëre - %2
+.
+
+2103;pop;inf;01
+SBIE2103 Mohoi orvatjen për të ngarkuar drejtuesin e sistemit '%2'
+.
+
+2104;pop;inf;02
+SBIE2104 Mohoi orvatjen për të përfunduar këtë seancë të Windows-it - %2
+.
+
+# 2105;pop;inf;01
+# SBIE2105 Nis me sukses shërbimin e mbështjellë:  %2
+# .
+
+# 2106;pop;inf;01
+# SBIE2106 Ju lutem aktivizoni "Ekzekutoj si Administrator me UAC" te Kontrolli i Sandboxie, menyja Skedar
+# .
+
+# 2107;pop;inf;01
+# SBIE2107 Përgatit mbërthimin e WinSxS '%2'
+# .
+
+2108;pop;inf;01
+SBIE2108 Shtirje e përfundimit me sukses për programin '%2'
+.
+
+# 2109;pop;inf;01
+# SBIE2109 Klikoni OK kur programi ose instalimi të përfundojë.
+# .
+
+# 2110;pop;inf;01
+# SBIE2110 Përgatit varësitë WinSxS për '%2'
+# .
+
+# %2 = Mozilla Firefox
+2191;pop;inf;01
+SBIE2191 %2 nuk duhet azhurnuar kur ekzekutohet nën Sandboxie-n.
+.
+
+2192;pop;inf;01
+SBIE2192 Për të azhurnuar programin, ekzekutojeni atë jashtë mbikëqyrjes së Sandboxie-t.
+.
+
+2193;pop;inf;01
+SBIE2193 Sigurohuni që ta fshini kutinë prej rëre pas plotësimit të procesit të azhurnimit.
+.
+
+2199;pop;inf;01
+%0
+.
+
+#----------------------------------------------------------------------------
+# SbieDrv
+#
+# Messages from user mode -- warning -- 2201 through 2299
+#----------------------------------------------------------------------------
+
+2201;pop;wrn;01
+SBIE2201 %2
+.
+
+# 2202;pop;wrn;01
+# SBIE2202 Mungon lista për pajisjet harduerike të instaluara
+# .
+
+2203;pop;wrn;01
+SBIE2203 Dështoi komunikimi me Shërbimin e Sandboxie: %2
+.
+
+2204;pop;wrn;01
+SBIE2204 Nuk mund të nisë shërbimin e mbështjellë %2
+.
+
+2205;pop;wrn;01
+SBIE2205 Shërbim i pangulur:  %2
+.
+
+2206;pop;wrn;01
+SBIE2206 Dështoi procesimi i parametrit AutoExec %2
+.
+
+2207;pop;wrn;01
+SBIE2207 Vlerë e pasaktë për parametrin '%2', përdor normalin
+.
+
+2208;pop;wrn;01
+SBIE2208 Nuk mund të lëvizë arkën e regjistrit:  %2
+.
+
+2209;pop;wrn;01
+SBIE2209 Nuk mund të përkthejë SID te emri i përdoruesit:  %2
+.
+
+2210;pop;wrn;01
+SBIE2210 Nuk mund të nisë Windows Explorer për:  %2
+.
+
+2211;pop;wrn;01
+SBIE2211 Dështoi nisja e shërbimit të mbështjellë: %2
+.
+
+2212;pop;wrn;01
+SBIE2212 Lexuesi i Postës-e '%2' nuk është konfiguruar për të vepruar i mbështjellë
+.
+
+2213;pop;wrn;01
+SBIE2213 Kredencialet e Windows-it nuk mund të depozitohen në kutinë prej rëre
+.
+
+2214;pop;wrn;01
+SBIE2214 Mohoi kërkesën për nisjen e shërbimit '%2' për shkak të të drejtave të pakta
+.
+
+# 2215;pop;wrn;01
+# SBIE2215 Dështoi përgatitja e varësive WinSxS: %2
+# .
+
+# 2216;pop;wrn;01
+# SBIE2216 Gabim në përgatitjen e asamblesë WinSxS: %2
+# .
+
+2217;pop;wrn;02
+SBIE2217 Kërkesa për të vepruar si Administrator u mohua për shkak të të drejtave të hequra
+.
+
+2218;pop;wrn;01
+SBIE2218 Dështoi marrja e privilegjeve të ngritura: %2
+.
+
+2219;pop;wrn;01
+SBIE2219 Kërkesa doli nga programi %2
+.
+
+2220;pop;wrn;01
+SBIE2220 Për të lejuar përdorimin e privilegjeve të Administratorit, ju lutem klikoni dy herë mbi këtë rreshtin
+.
+
+2221;pop;wrn;01
+SBIE2221 Për të shtuar programin te Pengesat e Aksesit të Internetit, ju lutem klikoni dy herë mbi këtë rreshtin
+.
+
+2222;pop;wrn;01
+SBIE2222 Për të shtuar programin te Pengesat e Aksesit Nis/Ekzekutoj, ju lutem klikoni dy herë mbi këtë rreshtin
+.
+
+2223;pop;wrn;01
+SBIE2223 Për të rritur limitin e masës për kopjen e skedave, ju lutem klikoni dy herë mbi këtë rreshtin
+.
+
+#----------------------------------------------------------------------------
+# SbieDrv
+#
+# Messages from user mode -- error -- 2301 through 2399
+#----------------------------------------------------------------------------
+
+2301;pop;err;01
+SBIE2301 %2
+.
+
+2303;pop;err;01
+SBIE2303 Nuk mund të shtrijë %2
+.
+
+2304;pop;err;01
+SBIE2304 Dështoi nisja e procesit %2
+.
+
+2305;pop;err;01
+SBIE2305 Jashtë kujtesës
+.
+
+2306;pop;err;01
+SBIE2306 Nuk mund të gjejë direktorinë e përdoruesit:  %2
+.
+
+2307;pop;err;01
+SBIE2307 Nuk mund të rreshtojë diskun %2
+.
+
+2308;pop;err;01
+SBIE2308 Nuk mund të krijojë direktorinë e objektit:  %2
+.
+
+2309;pop;err;01
+SBIE2309 Nuk mund të çaktivizojë COM+/DCOM:  %2
+.
+
+2310;pop;err;01
+SBIE2310 Zbutësi i emrit po i afrohet tejkalimit (%2)
+.
+
+2311;pop;err;01
+SBIE2311 Nuk mund të çaktivizojë koshin riciklues (BitBucket):  %2
+.
+
+2312;pop;err;01
+SBIE2312 Nuk mund të aktivizojë parametrin BrowseNewProcess:  %2
+.
+
+2313;pop;err;01
+SBIE2313 Nuk mund të ekzekutojë %2
+.
+
+2314;pop;err;01
+SBIE2314 Anulon procesin %2
+.
+
+# 2315;pop;err;01
+# SBIE2315 Nuk mund të ndreqë imazhin ekzekutues
+# .
+
+2316;pop;err;01
+SBIE2316 Kujtesë e prishur
+.
+
+2317;pop;err;01
+SBIE2317 Nuk mund të hapë listën e shtegut '%2'
+.
+
+2318;pop;err;01
+SBIE2318 Dështoi nisja e DLL-së për '%2'
+.
+
+# 2319;pop;err;01
+# SBIE2319 Dështoi konteksti i aktivizimit për procesin e mbështjellë %2
+# .
+
+# 2320;pop;err;01
+# SBIE2320 Nuk mund të çaktivizojë Windows Explorer si proces të tryezës:  %2
+# .
+
+2321;pop;err;01
+SBIE2321 Nuk mund të menaxhojë hartën e pajisjes:  %2
+.
+
+2322;pop;err;01
+SBIE2322 Nuk mund të rishkruajë Sandboxie.ini:  %2
+.
+
+2323;pop;err;01
+SBIE2323 Gabim kriptografik: %2
+.
+
+2326;pop;err;01
+SBIE2326 Nuk mund të përgatitë regjistrin:  %2
+.
+
+2327;pop;err;01
+SBIE2327 Gabim në serverin COM:  %2
+.
+
+2331;pop;err;01
+SBIE2331 Dështoi nisja e shërbimit: %2
+.
+
+2332;pop;err;01
+SBIE2332 Nuk mund të hapë skedën SbiePst.dat
+.
+
+# 2333;pop;err;01
+# SBIE2333 Gjendet DLL e papajtueshme e softuerit: %2
+# .
+
+2334;pop;err;01
+SBIE2334 Nuk mund të ngarkojë skedën DLL: %2
+.
+
+# 2398;txt;01
+# SBIE2398 Shërbimi vuan përjashtimin ... në adresën ...
+# .
+
+# 2399;txt;01
+# SBIE2399 Dështoi shërbimi me gabimin ...
+# .
+
+#----------------------------------------------------------------------------
+# SbieSvc
+#----------------------------------------------------------------------------
+
+9101;evt;err;01
+SBIE9101 Burime të pamjaftueshme të sistemit
+.
+
+9153;evt;err;01
+SBIE9153 Nuk mund të nisë drejtuesin (SbieDrv)
+.
+
+9154;evt;err;01
+SBIE9154 Drejtuesi (SbieDrv) dhe shërbimi (SbieSvc) kanë numër versioni të ndryshëm
+.
+
+9156;evt;err;01
+SBIE9156 Nuk plotëson nisjen e drejtuesit
+.
+
+# 9201;evt;err;01
+# SBIE9201 Gabim në dëshmi
+# .
+
+# 9202;evt;err;01
+# SBIE9202 Gabim në dëshmi
+# .
+
+# 9203;evt;err;01
+# SBIE9203 Gabim në dëshmi
+# .
+
+# 9204;evt;err;01
+# SBIE9204 Gabim në përshkruesin e sigurisë
+# .
+
+# 9205;evt;err;01
+# SBIE9205 Gabim në përshkruesin e sigurisë
+# .
+
+# 9206;evt;err;01
+# SBIE9206 Gabim në përshkruesin e sigurisë
+# .
+
+# 9207;evt;err;01
+# SBIE9207 Gabim në përshkruesin e sigurisë
+# .
+
+# 9208;evt;err;01
+# SBIE9208 Nuk mund të aktivizojë SeRestorePrivilege
+# .
+
+# 9251;evt;err;01
+# SBIE9251 Dështoi krijimi i ngjarjes së portit
+# .
+
+# 9252;evt;err;01
+# SBIE9252 Dështoi krijimi i portit
+# .
+
+# 9253;evt;err;01
+# SBIE9253 Dështoi krijimi i tufës së portit
+# .
+
+# 9302;evt;err;01
+# SBIE9302 Dështoi krijimi i sektorit (klasat e sistemimit të pajisjes)
+# .
+
+# 9304;evt;err;01
+# SBIE9304 Dështoi krijimi i sektorit (lista e id-ve të pajisjes)
+# .
+
+# 9305;evt;err;01
+# SBIE9305 Ndërpret programet e mbështjella, nëse ndonjë ekzekutohet
+# .
+
+#----------------------------------------------------------------------------
+# Common Texts
+#----------------------------------------------------------------------------
+
+3001;txt;01
+&OK
+.
+
+3002;txt;01
+&Anuloj
+.
+
+3003;txt;01
+&Shfletoj...
+.
+
+3004;txt;01
+&Mbyll
+.
+
+3051;txt;01
+Për kutinë prej rëre është aktivizuar mbrojtja ndaj fshirjes
+.
+
+3052;txt;01
+Ekzekutoj në Kuti
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Start
+#----------------------------------------------------------------------------
+
+3101;txt;01
+Nis Sandboxie-n
+.
+
+3103;txt;01
+Shkruani emrin e një programi ose dosjeje dhe Sandboxie do e hapë atë për ju.
+.
+
+3104;txt;01
+Shkruani  .  (pikë) për të eksploruar tryezën tuaj me Sandboxie-n.
+.
+
+3105;txt;01
+Heq komandën nga historia e komandave
+.
+
+3106;txt;01
+Seleksiononi kutinë prej rëre ku doni të nisë programi ose dokumenti.
+.
+
+3111;txt;01
+      Menyja Nis e Sandboxie - %2  %0
+.
+
+3112;txt;01
+Tryeza
+.
+
+3113;txt;01
+(eksploroj dosjen)
+.
+
+3202;txt;01
+Parametër i pasaktë në vijën e komandës:  %2
+.
+
+3203;txt;01
+Përdorimi: Start.exe <emri i programit>
+.
+
+3204;txt;01
+Parametër i pasaktë në emrin e kutisë:  %2
+.
+
+3205;txt;01
+Ky program nuk mund të thirret:
+
+%2
+.
+
+3206;txt;01
+Kodi i Gabimit në Sistem:
+.
+
+# 3207;txt;01
+# Nuk mund të gjendet ekzekutuesi i Internet Explorer-it
+# .
+
+# 3208;txt;01
+# Nuk mund të gjendet ekzekutuesi i Shfletuesit normal të Internetit
+# .
+
+3209;txt;01
+Nuk mund të gjendet ekzekutuesi i agjentit normal të postës
+.
+
+3210;txt;01
+Nuk mund të nisë programin Kontrolli i Sandboxie-t
+.
+
+# 3211;txt;01
+# Krahasim i gabuar i versionit në Sandboxie. Provoni ta riinstaloni.
+# .
+
+3212;txt;01
+Drejtuesi i Sandboxie-t (SbieDrv) nuk mundësohet për programet në kuti rëre.
+Sigurohuni që si drejtuesi, edhe shërbimi i Sandboxie-t (SbieSvc) të jenë nisur me sukses.
+.
+
+3213;txt;01
+Nuk mund të nisë shërbimet COM të Sandboxie-t
+.
+
+3214;txt;01
+Fshirje e Kutisë %2: %0
+.
+
+3215;txt;01
+Objekti (skeda ose dosja) mund të jenë duke u përdorur nga një program tjetër.
+Mbyllini aplikimet ose dritaret që mund ta ndalojnë hapjen.
+.
+
+3216;txt;01
+Nuk mund të gjejë dosjen e kutisë prej rëre
+.
+
+3217;txt;01
+Nuk mund të hapë dosjen e kutisë prej rëre
+.
+
+3218;txt;01
+Nuk mund të hapë dosjen që përmban dosjen e kutisë prej rëre
+.
+
+3219;txt;01
+Nuk mund të lëvizë jashtë hapësirës dosjen e kutisë prej rëre
+.
+
+3220;txt;01
+Gabim gjatë riemërtimit të emrit të gjatë të një skede në kuti rëre.
+Kutia prej rëre nuk do fshihet.
+.
+
+3221;txt;01
+Para se të fshini objektet në kutinë prej rëre, ju lutem ndërpritni programet që ekzekutohen në të
+.
+
+3222;txt;01
+Dështoi komanda e fshirjes: %0
+.
+
+3231;txt;01
+Ju e keni instaluar Sandboxie-n më shumë se 30 ditë më parë.
+.
+
+3232;txt;01
+Përdorimi personal i Sandboxie-t lejohet falas për aq kohë sa të dëshironi.
+.
+
+3233;txt;01
+Gjithsesi, tani versioni falas do pushojë për pak sekonda.
+.
+
+3234;txt;01
+Gjithsesi, versioni falas ju lejon të përdorni vetëm një kuti rëre në një kohë.
+.
+
+3235;txt;01
+Kjo pengesë hiqet në versionin e paguar të Sandboxie-t.
+.
+
+3236;txt;01
+Përveç kësaj, versioni i paguar aktivizon mbështjelljen automatike për programet e seleksionuara.
+.
+
+3237;txt;01
+Për më shumë informacion dhe për të blerë softuerin, ju lutem klikoni lidhësin më poshtë:
+.
+
+3238;txt;01
+Ju lutem prisni edhe %2 sekonda
+.
+
+3239;txt;01
+Klikoni për të mbyllur dritaren dhe për të vijuar
+.
+
+3240;txt;01
+Klikoni për të mbyllur dritaren dhe për të ndaluar
+.
+
+3241;txt;01
+Sandboxie po kërkon privilegjet e Administratorit
+për programin që ekzekutohet në kuti rëre.
+.
+
+3242;txt;01
+Për të pranuar ose anuluar kërkesën, aktivizoni
+dritaren kërcyese Kontrolli i Kontos së Përdoruesit.
+.
+
+3243;txt;01
+Shënim:  Programi do vijojë të ekzekutohet nën mbikëqyrjen
+e Sandboxie, edhe kur të jenë lejuar privilegjet e Administratorit.
+.
+
+3251;txt;01
+Ekzekutoj Jashtë Kutisë
+.
+
+3252;txt;01
+Niseni programin jashtë mbikëqyrjes së Sandboxie-t
+edhe nëse programi detyrohet të ekzekutohet në të.
+Lirimi i këtij programit nga kutia prej rëre
+shtrihet në çdo program tjetër që nis prej tij.
+
+Këtë mund ta seleksiononi edhe duke mbajtur shtypur
+tastet Ctrl dhe Shift kur klikoni komandën Ekzekutoj në Kuti.
+.
+
+3253;txt;01
+Jeni i sigurt se dëshironi ta ekzekutoni programin jashtë kutisë prej rëre?
+.
+
+3254;txt;01
+Për të shmangur këtë dritaren, mund të mbani shtypur
+tastin Ctrl kur klikoni komandën Ekzekutoj në Kuti.
+.
+
+3255;txt;01
+Mundësia është e çaktivizuar sepse për këtë kuti rëre është aktivizuar Heq të Drejtat
+.
+
+3256;txt;01
+Mundësia është e çaktivizuar sepse tani programi ekzekutohet me privilegjet e Administratorit
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control Common
+#----------------------------------------------------------------------------
+
+3301;txt;01
+Kontrolli i Sandboxie
+.
+
+3302;txt;01
+Versioni %2
+.
+
+3303;txt;01
+  -  Nis
+.
+
+3304;txt;01
+Krahasim i gabuar i versionit të Sandboxie:
+
+Kontrolli i Sandboxie: Versioni %2
+Shërbimi (SbieSvc): Versioni %3
+Drejtuesi (SbieDrv): Versioni %4
+
+Riinstaloni Sandboxie-n për të zgjidhur këtë problemin.
+
+Tërheqje.
+.
+
+# 3305;txt;01
+# Nuk mundi të instalojë ikonën në brez.  Ndërpritet.
+# .
+
+3306;txt;01
+Në të ardhmen, nuk e tregoj këtë mesazhin
+.
+
+# 3307;txt;01
+# Shkruaj Emrin e Programit
+# .
+
+# translate text but keep hash signs (#)
+3308;txt;01
+Programe#*.EXE#Gjithë Skedat#*.*##
+.
+
+3309;txt;01
+- Fshin Kutinë prej rëre
+.
+
+3311;txt;01
+Dështoi regjistrimi i parametrit të konfiguracionit %3 në sektorin %2: %4
+.
+
+3312;txt;01
+Nuk jeni i autorizuar të azhurnoni konfiguracionin në sektorin %2
+.
+
+3313;txt;01
+Përdorues i panjohur, parametrat e konfiguracionit nuk do ruhen
+.
+
+3314;txt;01
+Ndodhi një gabim gjatë zbatimit të parametrave normalë për kutinë prej rëre '%2'
+.
+
+# 3321;txt;01
+# - Seanca e paraqitur është në kuti rëre
+# .
+
+# 3322;txt;01
+# Seanca ku jeni paraqitur po ekzekutohet nën mbikëqyrjen e Sandboxie-t.
+# Fshirja e objekteve në kuti do hedhë të gjitha ndryshimet e bëra në seancë.
+# 
+# Kontoja e Përdoruesit: %2
+# Kutia: %3
+# 
+# Jeni i sigurt se dëshironi të fshini objektet në kuti dhe të largoheni nga Windows-i?
+# .
+
+3351;txt;01
+&Fshij
+.
+
+3352;txt;01
+&Shtoj
+.
+
+3353;txt;01
+&Editoj/Shtoj
+.
+
+3354;txt;01
+&Editoj
+.
+
+3355;txt;01
+Shtoj &Programin
+.
+
+# 3356;txt;01
+# Shtoj Sipas &Emrit
+# .
+
+# 3357;txt;01
+# Shtoj Sipas &Skedës
+# .
+
+3358;txt;01
+Shtoj &Dosjen
+.
+
+3359;txt;01
+Shtoj &Përdoruesin
+.
+
+3360;txt;01
+Seleksionoj të &Gjitha
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control Menus
+#----------------------------------------------------------------------------
+
+3411;txt;01
+&Skedar
+.
+
+3412;txt;01
+Ndërpres të &Gjitha Programet
+.
+
+3413;txt;01
+Çaktivizoj të &Detyruarat
+.
+
+3414;txt;01
+Ekzekutoj si Administrator me &UAC
+.
+
+3415;txt;01
+Është &Dritare e Mbështjellë?
+.
+
+3416;txt;01
+&Monitori i Aksesit të Burimeve
+.
+
+3417;txt;01
+D&al
+.
+
+3421;txt;01
+&Pamje
+.
+
+3422;txt;01
+&Programe
+.
+
+3423;txt;01
+&Skeda dhe Dosje
+.
+
+3424;txt;01
+&Konteksti i Menysë%2Shift+F10
+.
+
+3425;txt;01
+&Ditari i Rikthimit
+.
+
+3431;txt;01
+&Kuti
+.
+
+3432;txt;01
+Krijoj një Kuti Rëre të Re
+.
+
+3433;txt;01
+Vendos Dosjen Mbajtëse
+.
+
+3441;txt;01
+&Konfiguroj
+.
+
+3442;txt;01
+Lajmërimet e &Programit
+.
+
+3443;txt;01
+&Integroj në Bazën e Windows
+.
+
+3501;txt;01
+&Pajtueshmëritë e Softuerit
+.
+
+# 3503;txt;01
+# Mbrojtja Eksperimentale (64-bit)
+# .
+
+3444;txt;01
+Harroj &Mesazhet e Fshehura
+.
+
+3445;txt;02
+&Këshilla
+.
+
+3502;txt;01
+Ky&ç Konfiguracionin
+.
+
+3446;txt;01
+&Editoj Konfiguracionin
+.
+
+3447;txt;01
+Ri&ngarkoj Konfiguracionin
+.
+
+3448;txt;01
+&Tregoj të Gjitha Këshillat
+.
+
+3449;txt;01
+&Fsheh të Gjitha Këshillat
+.
+
+3451;txt;01
+&Ndihmë
+.
+
+3452;txt;01
+Tema &Ndihmëse (Internet)
+.
+
+3453;txt;02
+&Leksioni i Fillimit
+.
+
+3454;txt;01
+Verifikoj &Azhurnimet
+.
+
+3455;txt;01
+&Regjistroj Sandboxie-n
+.
+
+3456;txt;01
+&Për Sandboxie-n
+.
+
+3461;txt;01
+&Ekzekutoj në Kuti
+.
+
+3462;txt;01
+Hap &Shfletuesin e Internetit
+.
+
+3463;txt;01
+Hap Lexuesin e Postës&-e
+.
+
+3464;txt;01
+Hap &Çdo Program
+.
+
+3465;txt;01
+Hap &Menynë Nis
+.
+
+3466;txt;01
+Hap &Windows Explorer
+.
+
+3471;txt;01
+&Ndërpres Programet
+.
+
+3472;txt;01
+Rikthej &Shpejt
+.
+
+3473;txt;01
+&Fshij Objektet
+.
+
+3474;txt;01
+&Eksploroj Objektet
+.
+
+3475;txt;01
+&Parametrat e Kutisë
+.
+
+3476;txt;01
+Ri&emërtoj Kutinë
+.
+
+3477;txt;01
+Fshi&j Kutinë
+.
+
+3481;txt;01
+&Ndërpres Programin
+.
+
+3482;txt;01
+&Parametrat e Programit
+.
+
+3483;txt;01
+Aksesi i &Burimeve
+.
+
+3485;txt;01
+Tregoj Dritaren
+.
+
+3486;txt;01
+Fsheh Dritaren
+.
+
+3487;txt;01
+&Tregoj Gabimet
+.
+
+# 3488;txt;01
+# &Fshij Kutinë dhe Largohem
+# .
+
+3491;txt;01
+Rikth&ej te e Njëjta Dosje
+.
+
+3492;txt;01
+Rikthej te Ç&do Dosje
+.
+
+3493;txt;01
+Sht&oj Dosjen në Rikthimin e Shpejtë
+.
+
+3494;txt;01
+Fsh&ij Dosjen nga Rikthimi i Shpejtë
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control Main Window
+#----------------------------------------------------------------------------
+
+3511;txt;01
+Kontrolli i Sandboxie-t tani do e fshehë dritaren e vet, por do
+vijojë të ekzekutohet. Për të shfaqur dritaren, klikoni dy herë mbi
+ikonën e verdhë të Sandboxie-t, te zona e lajmërimit në sistem.
+.
+
+3512;txt;01
+Editoni ndryshimet në skedën e konfiguracionit Sandboxie.ini në
+dritaren e editorit të tekstit që do hapet tani.
+
+Konfiguracioni i rishikuar do ketë efekt pasi thërret funksionin
+Ringarkoj Konfiguracionin.
+
+Në të shumtën e rasteve, funksionin Ringarkoj Konfiguracionin
+e thërret automatikisht kur mbyll dritaren e editorit të tekstit.
+
+Mundet edhe ta udhëzoni direkt Kontrollin e Sandboxie-t që ta
+Ringarkojë Konfiguracionin në çdo kohë.
+.
+
+3513;txt;01
+Konfiguracioni i Sandboxie-t është rifreskuar dhe do
+zbatohet për programet e mbështjella kur të nisin.
+
+Nëse ndonjë program po ekzekutohet i mbështjellë tani,
+konfiguracioni i ri nuk do zbatohet për të.
+.
+
+3514;txt;01
+Ndodhi një problem gjatë leximit të skedës së konfiguracionit.
+Konfiguracioni i Sandboxie-t nuk është rifreskuar.
+.
+
+3515;txt;01
+Kutia %2
+.
+
+3516;txt;01
+Aktive
+.
+
+3517;txt;01
+Emri i Programit
+.
+
+3518;txt;01
+PID
+.
+
+3519;txt;01
+Titulli i Dritares
+.
+
+3520;txt;01
+Dosjet për Rikthimin e Shpejtë
+.
+
+3521;txt;01
+Gjithë Skedat dhe Dosjet
+.
+
+3522;txt;01
+Disqet
+.
+
+3523;txt;01
+Ndarjet e Rrjetit
+.
+
+3524;txt;01
+Skedat e Përdoruesit
+.
+
+3525;txt;01
+Personale
+.
+
+3526;txt;01
+Gjithë Përdoruesit
+.
+
+3527;txt;01
+Para se të jepni këtë komandën, ju lutem fshini objektet në kutinë %2.
+.
+
+3528;txt;01
+Shkruaj Emrin e Kutisë së Re prej Rëre
+.
+
+3529;txt;01
+Jeni i sigurt për fshirjen e kutisë prej rëre %2?
+.
+
+3530;txt;01
+Nuk ka procese që ndërpriten.
+.
+
+3531;txt;01
+KUJDES: Procesi ose proceset që ndërpret nuk mund
+të ruajnë gjendjen ose të dhënat.
+
+Jeni i sigurt për vijimin e procesit të ndërprerjes?
+.
+
+3532;txt;01
+Në të ardhmen, ndërpres proceset pa pyetur
+.
+
+3533;txt;01
+Ju mund t'i kopjoni e prisni skedat dhe dosjet nga një dritare e Windows Explorer
+të mbështjellë, dhe t'i ngjisni ato direkt në një dritare të pambështjellë.
+.
+
+3534;txt;01
+Objektet në këtë kuti prej rëre do eksplorohen në dosjen e pambështjellë të
+Windows Explorer.
+
+Programet ose dokumentet që ndodhen brenda kutisë prej rëre mund të hapen.
+Programi ose dokumenti do nisë nën shqyrtimin e Sandboxie-t.
+
+Gjithsesi, këshillohet që objektet e kutisë prej rëre të manipulohen përmes një
+modeli të mbështjellë të Windows Explorer. Për këtë, duhet përdorur komanda:
+Kuti -> Ekzekutoj në Kuti -> Hap Windows Explorer.
+.
+
+3535;txt;01
+Ndodhi një gabim gjatë hapjes së dosjes së kutisë prej rëre.
+.
+
+3536;txt;01
+Treguesi 'fshehur' është hequr nga të gjitha mesazhet.
+.
+
+3537;txt;01
+Treguesi 'nuk e tregoj këtë mesazhin' është hequr nga të gjitha këshillat.
+.
+
+3538;txt;01
+Treguesi 'nuk e tregoj këtë mesazhin' tani zbatohet për të gjitha këshillat.
+.
+
+3539;txt;01
+Kutia prej rëre '%2' është krijuar %3 ditë më parë.
+Ju lutem merreni parasysh fshirjen herë pas here të kutive.
+
+Për të konfiguruar fshirjen automatike, përdorni komandën
+Parametrat e Kutisë te Kontrolli i Sandboxie-t.
+.
+
+3540;txt;01
+Skeda e konfiguracionit Sandboxie.ini nuk mund të editohet sepse
+mbrohet me fjalëkalim. Për të edituar skedën, përdorni komandën
+Kyç Konfiguracionin për të çaktivizuar mbrojtjen me fjalëkalim.
+.
+
+3541;txt;01
+Publike
+.
+
+3542;txt;01
+Mbrojtja Eksperimentale përmirëson mbrojtjen që ofron Sandboxie 64-bit,
+dhe e afron në të njëjtin nivel me mbrojtjen që ofron Sandboxie 32-bit.
+
+ME RËNDËSI: Mbrojtja Eksperimentale përdor veçoritë e padokumentuara
+të bërthamës te Windows. Azhurnimet e ardhshme mund të ndërhyjnë
+në Mbrojtjen Eksperimentale, dhe mund të prishin qëndrushmërinë.
+
+ËSHTË NË RREZIKUN TUAJ.
+
+Për të aktivizuar Mbrojtjen Eksperimentale, duhet të rinisni kompjuterin.
+.
+
+3543;txt;01
+Për të çaktivizuar Mbrojtjen Eksperimentale, duhet të rinisni kompjuterin.
+
+Ju lutem vini re se parametri Heq të Drejtat do aktivizohet te të gjitha kutitë
+prej rëre.
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control Dialogs: About/Welcome
+#----------------------------------------------------------------------------
+
+3601;txt;01
+Për Sandboxie-n
+.
+
+# 3604;txt;01
+# Mirë se erdhët te Sandboxie
+# .
+
+# 3605;txt;01
+# 
+# Sandboxie i lëshon aplikimet në një zonë izolimi mbrojtëse të quajtur kuti rëre.
+# 
+# Aplikimet që mbahen në kuti rëre nuk lejohen të bëjnë ndryshime apo dëmtojnë kompjuterin tuaj.
+# 
+# Kutia prej rëre mund të përdoret edhe për të instaluar e testuar aplikimet e reja.
+# .
+
+# 3606;txt;01
+# Nëse jeni i ri te Sandboxie,
+# ju lutem kaloni një moment duke lexuar leksionin e Fillimit.
+# .
+
+# 3607;txt;01
+# &Fillimi me Sandboxie-n
+# .
+
+#----------------------------------------------------------------------------
+# Sandboxie Control Dialogs: Update
+#----------------------------------------------------------------------------
+
+3621;txt;01
+Verifikoj Azhurnimet
+.
+
+3622;txt;01
+Do lidheni në truallin në Internet të Sandboxie-t për të verifikuar nëse mundësohet një version i ri i programit?
+.
+
+3623;txt;01
+&Tani
+.
+
+3624;txt;01
+&Javën Tjetër
+.
+
+3625;txt;01
+Ku&rrë
+.
+
+3626;txt;01
+Në të ardhmen, verifikoj azhurnimet pa pyetur
+.
+
+3627;txt;01
+Metoda e Privatësisë: Informacioni juaj personal as nuk transmetohet, as nuk mblidhet nga Sandboxie.
+.
+
+3628;txt;01
+Verifikimi i azhurnimeve është që më parë në progres. Ju lutem prisni.
+.
+
+3629;txt;01
+Trualli në Internet i Sandboxie-t nuk raportoi ndonjë version të ri të Sandboxie-t.
+.
+
+3630;txt;01
+Sandboxie %2 është gati të shkarkohet.
+.
+
+3631;txt;01
+Do e shkarkoni tani?
+
+Shënim: Shkarkimi zgjat afër një minutë.
+Kur të përfundojë shkarkimi, do njoftoheni.
+.
+
+3632;txt;01
+Për të shkarkuar dhe instaluar versionin e ri, përdorni një konto
+me privilegje si administrator dhe riekzekutojeni këtë komandën.
+.
+
+3633;txt;01
+Sandboxie %2 është shkarkuar te kjo vendndodhja:
+
+%3
+
+Klikoni OK për të nisur instalimin. Nëse ndonjë program
+po ekzekutohet i mbështjellë, ai do ndëpritet.
+.
+
+3634;txt;01
+Dështoi azhurnimi: Ndodhi një gabim gjatë komunikimit me truallin në Internet të Sandboxie-t.
+.
+
+3635;txt;01
+shkarkon versionin e ri
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control Dialogs: Run Browser
+#----------------------------------------------------------------------------
+
+3641;txt;01
+Hap Shfletuesin e Internetit
+.
+
+3642;txt;01
+Seleksiononi nëse kjo adresë e Internetit do hapet në një shfletues të mbështjellë apo jo.
+.
+
+3643;txt;01
+I &mbështjellë
+.
+
+3644;txt;01
+I &pambështjellë
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control Dialogs: Message Dialog
+#----------------------------------------------------------------------------
+
+3645;txt;01
+Mesazhet nga Sandboxie
+.
+
+3646;txt;01
+F&sheh
+.
+
+3647;txt;01
+Fshehja e një mesazhi do e pengojë mesazhin që të shfaqet në
+të ardhmen. Fshehja e një mesazhi në fakt nuk i zgjidh
+problemet që e shkaktojnë mesazhin të shfaqet.
+
+Jeni i sigurt për fikjen e mesazhit %2?
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control Dialogs: Disable Forced Programs
+#----------------------------------------------------------------------------
+
+3651;txt;01
+Çaktivizoj Përkohësisht Programet e Detyruara
+.
+
+3652;txt;01
+Çaktivizoj Përkohësisht Programet e Detyruara
+.
+
+3653;txt;01
+sekonda
+.
+
+3654;txt;01
+Kur të klikoni OK do çaktivizohet përkohësisht mekanizmi i Programeve të Detyruara, deri në sekondat që janë përcaktuar më sipër ose deri sa ky funksion të seleksionohet përsëri.
+.
+
+3599;txt;01
+Detyrimin e një programi të caktuar mund ta çaktivizoni duke mbajtur shtypur tastet Ctrl dhe Shift kur klikoni komandën Ekzekutoj në Kuti për atë program.
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control Dialogs: Resource Access Monitor
+#----------------------------------------------------------------------------
+
+3655;txt;01
+Monitori i Aksesit të Burimeve
+.
+
+3656;txt;01
+Ky mjet monitoron programet që ekzekutohen nën shqyrtimin e Sandboxie-t dhe shfaq burimet që ato hapin. Ju lutem konsultohuni me dokumentacionin para përdorimit të këtij mjeti.
+.
+
+3657;txt;01
+Kopjoj Informacionin dhe Mbyll Dritaren
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control Dialogs: Is Window Sandboxed
+#----------------------------------------------------------------------------
+
+3661;txt;01
+Është Dritare e Mbështjellë?
+.
+
+3662;txt;01
+Hedh Mjetin Gjetës mbi një dritare për ta seleksionuar atë, pastaj e lëshon miun për të verifikuar mbështjelljen e dritares.
+
+Për ta anuluar, shtyp ESC.
+.
+
+3663;txt;01
+Dritarja e seleksionuar vepron si pjesë e programit %2 në kutinë prej rëre %3.
+.
+
+3664;txt;01
+Dritarja e seleksionuar nuk vepron si pjesë e ndonjë programi në kuti rëre.
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control Dialogs: Create New Sandbox
+#----------------------------------------------------------------------------
+
+3665;txt;01
+Krijoj një Kuti Rëre të Re
+.
+
+3666;txt;01
+Shkruani një emër për kutinë e re prej rëre.
+.
+
+3667;txt;01
+Gabim: Shkruani një emër pa vlerë për kutinë prej rëre. Duhen përdorur vetëm shkronja dhe shifra. Nuk lejohen hapësirat dhe shenjat e tjera të veçanta. Emri nuk duhet t'i kalojë 32 shenjat në gjatësi.
+.
+
+3668;txt;01
+Gabim: Shkruani një emër të dyfishtë për kutinë prej rëre. Shkruani një emër që nuk përdoret tashmë nga një kuti rëre tjetër.
+.
+
+3669;txt;01
+Kopjoni parametrat nga kutia ekzistuese:
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control Dialogs: Set Container Folder
+#----------------------------------------------------------------------------
+
+3671;txt;01
+Vendos Dosjen Mbajtëse
+.
+
+3672;txt;01
+Seleksiononi diskun ku doni të krijoni dhe depozitoni kutitë prej rëre.
+.
+
+3673;txt;01
+Për pajtueshmëri me programet e tjera, rekomandohet që kutia prej rëre të qëndrojë në vendndodhjen normale të diskut të seleksionuar.
+.
+
+3674;txt;01
+Gjithsesi, mund të përdorni edhe kutinë e editimit më poshtë për të mbishkruar vendndodhjen normale:
+.
+
+3675;txt;01
+Shënim: Para se të ndryshoni dosjen mbajtëse, këshillohet të fshini objektet në të gjitha kutitë prej rëre.
+.
+
+3676;txt;01
+Disku %2
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control Dialogs: Alerts
+#----------------------------------------------------------------------------
+
+3681;txt;01
+Lajmërimet e Programit
+.
+
+3682;txt;01
+Kur ndonjë nga programet më poshtë lëshohet jashtë ndonjë kutie prej rëre, Sandboxie do paraqesë mesazhin SBIE1301.
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control Dialogs: Shell Integration
+#----------------------------------------------------------------------------
+
+3685;txt;01
+Integrimi në Bazën e Windows-it
+.
+
+3686;txt;01
+Nis Kontrollin e Sandboxie-t
+.
+
+3687;txt;01
+Kur nis Windows-i
+.
+
+3688;txt;02
+Kur nis një program i mbështjellë
+.
+
+3689;txt;01
+Ikonat e Shkurtoreve
+.
+
+3690;txt;01
+Shtoj një shkurtore në tryezë për nisjen e shfletuesit të Internetit nën Sandboxie-n
+.
+
+3691;txt;01
+Shtoj një shkurtore në Quick Launch për nisjen e shfletuesit të Internetit nën Sandboxie-n
+.
+
+3692;txt;01
+Klikoni për të shtuar më shumë ikona të shkurtoreve në tryezë:
+.
+
+3693;txt;01
+&Shtoj Ikonat e Shkurtoreve
+.
+
+3694;txt;01
+Veprimet e "Ekzekutoj në Kuti"
+.
+
+3695;txt;01
+Shtoj veprimin "Ekzekutoj në Kuti" për klikimin e djathtë te skedat dhe dosjet
+.
+
+3696;txt;01
+Shtoj kutitë prej rëre si sinjal të veprimit "Dërgoj Te"
+.
+
+3697;txt;01
+Tani do shfaqet menyja Nis e Sandboxie-t. Seleksiononi një
+aplikim nga menyja, dhe Sandboxie do krijojë një ikonë të re
+si shkurtore në tryezën tuaj reale, e cila mund të përdoret
+për thirrjen e aplikimit nën shqyrtimin e Sandboxie-t.
+.
+
+3698;txt;01
+Shfletuesi i Internetit në Kuti.lnk
+.
+
+3699;txt;01
+Ekzekutoj në &Kuti
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control:  Delete Sandbox / Quick Recovery / Immediate Recovery
+#----------------------------------------------------------------------------
+
+3711;txt;01
+Fshij Kutinë prej Rëre|Rikthej Shpejt
+.
+
+3712;txt;01
+Skedat te lista më poshtë përshtaten për t'u rikthyer shpejt nga kutia prej rëre. Për të rikthyer njësinë e zgjedhur, seleksiononi një skedë ose dosje dhe klikoni një nga dy butonat Rikthej.
+.
+
+3713;txt;01
+Klikoni Fshij Kutinë për të ndërprerë proceset që ekzekutohen në këtë kuti rëre, dhe fshini objektet e saj.
+.
+
+3714;txt;01
+&Fshij Kutinë
+.
+
+3715;txt;01
+Rikthej Menjëherë
+.
+
+3716;txt;02
+Skedat më poshtë përshtaten për t'u rikthyer menjëherë dhe mund të lëvizin jashtë kutisë prej rëre.
+.
+
+3717;txt;01
+Në fillim seleksiononi skedat nga lista më sipër, pastaj seleksiononi një dosje si destinacion.
+.
+
+3718;txt;01
+&Rikthej
+.
+
+3719;txt;01
+Nuk &lajmëroj më derisa të gjitha programet e mbështjella të ndalojnë
+.
+
+3720;txt;01
+Rikth&ej te e
+Njëjta Dosje
+.
+
+3721;txt;01
+Rikthej te
+&Çdo Dosje
+.
+
+3722;txt;01
+Kjo kuti rëre ka %2 skeda dhe %3 dosje, që zënë %4 bajt të hapësirës së diskut.
+.
+
+3723;txt;01
+Seleksiononi dosjen ku doni të riktheni skedën ose dosjen.
+.
+
+3724;txt;01
+Ose seleksiononi një dosje nga rikthimi i mëparshëm.
+.
+
+3725;txt;01
+Depozitoj dosjen e seleksionuar për ta përdorur më tej
+.
+
+3726;txt;01
+Seleksiononi një dosje për ta shtuar në listën e dosjeve për Rikthimin e Shpejtë.
+.
+
+3727;txt;01
+Dosja u shtua në listën e dosjeve për Rikthim të Shpejtë.
+
+Gjithsesi, për tani, nuk ka njësi të mbështjella që mund
+të rikthehen nga dosja.
+.
+
+3728;txt;01
+Nuk është seleksionuar asnjë skedë për t'u rikthyer.
+.
+
+3729;txt;01
+Rikthim i dështuar. Njësia më poshtë nuk mund të lëvizej jashtë kutisë prej rëre:
+.
+
+3730;txt;01
+Kjo kuti rëre është bosh. Nuk ka asgjë për të fshirë.
+.
+
+3731;txt;01
+Disa programe të pambështjella nuk mund të ndaleshin. Kutia prej rëre nuk do fshihet.
+.
+
+3732;txt;01
+Tani nuk ka skeda që rikthehen.
+.
+
+3733;txt;01
+Skeda nuk mund të rikthehej sepse emri i dosjes si destinacion është tepër i gjatë.
+Ju lutem seleksiononi një dosje tjetër si destinacion.
+.
+
+3734;txt;01
+Klikoni me të djathtën listën e dosjeve për më shumë mundësi
+.
+
+3735;txt;02
+Zëvëndësoni të gjitha skedat pa lajmërime shtesë
+.
+
+3736;txt;01
+&Reikthej && Eksploroj
+.
+
+3737;txt;01
+&Rikthej && Ekzekutoj
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control:  Program Settings
+#----------------------------------------------------------------------------
+
+3741;txt;01
+Parametrat e Programit
+.
+
+3742;txt;01
+Kutia:
+.
+
+3743;txt;01
+Programi:
+.
+
+3744;txt;01
+Shikoj Faqen 1
+.
+
+3745;txt;01
+Shikoj Faqen 2
+.
+
+3751;txt;01
+Nisja e Programit
+.
+
+3752;txt;01
+Kurdoherë që ky programi nis jashtë ndonjë kutie prej rëre:
+.
+
+3753;txt;01
+Nxjerr mesazhin lajmërues SBIE1301
+.
+
+3754;txt;01
+Detyroj programin të ekzekutohet në këtë kuti
+.
+
+3755;txt;01
+Ndalja e Programit
+.
+
+3756;txt;01
+Ndaloj programin nëse vonohet kur mbarojnë programet e tjera në këtë kuti
+.
+
+3757;txt;01
+Ndaloj programet e tjera kur mbaron ky programi lider
+.
+
+3761;txt;01
+Pengesat e Internetit
+.
+
+3762;txt;01
+Çdo program që ekzekutohet në këtë kuti mund të lidhet në Internet.
+.
+
+3763;txt;01
+Programet që mund të lidhen në Internet në këtë kuti:
+.
+
+3764;txt;01
+Aktivizoj pengesat dhe lejoj programin të lidhet në Internet.
+.
+
+3765;txt;01
+Pengesat e Nisjes/Ekzekutimit
+.
+
+3766;txt;01
+Çdo program në këtë kuti mund të nisë.
+.
+
+3767;txt;01
+Programet që mund të nisin në këtë kuti:
+.
+
+3768;txt;01
+Aktivizoj pengesat dhe lejoj programin të nisë.
+.
+
+3769;txt;01
+(Asnjë)
+.
+
+3770;txt;01
+Parametrat e rinj nuk zbatohen për programin
+e mbështjellë që ekzekutohet aktualisht. Parametrat
+do zbatohen herën tjetër kur programi të nisë.
+.
+
+3771;txt;01
+(Kjo veçori mundësohet vetëm te versioni i regjistruar i Sandboxie-t)
+.
+
+3772;txt;02
+Jeni i sigurt për vënien e %2 si një program i detyruar?
+.
+
+3773;txt;02
+Jeni i sigurt për vënien e %2 si një dosje e detyruar?
+.
+
+# 3774;txt;02
+# Jeni i sigurt për vënien e %2 si një përdorues i detyruar?
+# .
+
+3775;txt;02
+Keni bërë një ndryshim që mund të mos jetë i lehtë për t'u kthyer.
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control:  Sandbox Settings
+#----------------------------------------------------------------------------
+
+3801;txt;01
+Parametrat e kutisë - %2
+.
+
+3802;txt;01
+Kjo faqe është lënë bosh me qëllim
+.
+
+3803;txt;01
+Para se të vijoni, duhen zbatuar ndryshimet në këtë faqe.
+.
+
+3804;txt;01
+Zbatoj ndryshimet kur kaloj në faqen tjetër.
+.
+
+3805;txt;01
+Gjithë Programet
+.
+
+3806;txt;02
+Lista më poshtë zbatohet për
+.
+
+3807;txt;01
+Seleksiononi një skedë ose dosje për ta shtuar në listën e përjashtimeve te Aksesi i Skedës.
+.
+
+3808;txt;01
+Shtoj Emrin e Burimit
+.
+
+3809;txt;01
+Editoj Emrin e Burimit
+.
+
+3551;txt;01
+(Gjithë programet përveç %2)
+.
+
+3552;txt;01
+Prapësoj kuptimin e seleksionimit konkret
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control:  Sandbox Settings:  Appearance
+#----------------------------------------------------------------------------
+
+3811;txt;01
+Pamje
+.
+
+3812;txt;01
+Programet e mbështjella që ekzekutohen nën shqyrtimin e Sandboxie-t shfaqin treguesin e Sandboxie-t [#] në titullin e dritares.
+.
+
+3813;txt;01
+Nëse aktivizoni këtë parametrin, titulli i dritares do tregojë edhe emrin e kutisë prej rëre.
+.
+
+3814;txt;01
+Tregoj emrin e kutisë prej rëre në titullin e dritares
+.
+
+3815;txt;01
+Nuk e shfaq treguesin e Sandboxie-t në titullin e dritares
+.
+
+3816;txt;01
+Sandboxie mund të tregojë një skaj të hollë përreth dritares që i përket një programi të mbështjellë.
+.
+
+3817;txt;01
+Tregoj një kornizë rreth dritares
+.
+
+3818;txt;01
+Klikoni për të ndryshuar ngjyrën e kornizës
+.
+
+3819;txt;01
+Tregoj kornizën vetëm kur shënuesi i miut është në titullin e dritares
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control:  Sandbox Settings:  Recovery
+#----------------------------------------------------------------------------
+
+# 3821;txt;01
+# Rikthej::Rikthej Shpejt
+# .
+
+3821;txt;02
+Rikthej
+.
+
+3822;txt;01
+Rikthej Shpejt
+.
+
+3823;txt;01
+Para se të fshini kutinë prej rëre, ose kur ju e thërrisni vetë funksionin Rikthej Shpejt, këto dosje do verifikohen për objektet e mbështjella. Nëse gjendet ndonjë skedë, do keni mundësinë ta riktheni atë lehtësisht jashtë kutisë prej rëre.
+.
+
+# 3831;txt;01
+# Rikthej::Rikthej Menjëherë
+# .
+
+3832;txt;01
+Rikthimi i Menjëhershme e përmirëson Rikthimin e Shpejtë duke e thirrur automatikisht funksionin e rikthimit pas krijimit të skedave.
+.
+
+3833;txt;01
+Aktivizoj Rikthimin e Menjëhershëm
+.
+
+3834;txt;01
+Këto dosje dhe lloje skedash (ose sigla skedash) do përjashtohen nga Rikthimi i Shpejtë.
+.
+
+3835;txt;01
+Shtoj &Llojin
+.
+
+3836;txt;01
+Seleksiononi një dosje për ta përjashtuar nga Rikthimi i Menjëhershëm.
+.
+
+3837;txt;01
+Shkruani një lloj skede (ose sigël skede) për ta përjashtuar nga Rikthimi i Menjëhershëm
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control:  Sandbox Settings:  Delete
+#----------------------------------------------------------------------------
+
+# 3841;txt;01
+# Fshij::Shpallja
+# .
+
+3841;txt;02
+Fshij
+.
+
+3842;txt;01
+Shpallja e Fshirjes
+.
+
+3843;txt;01
+Objektet në këtë kuti prej rëre mund të fshihen automatikisht nëse programi i fundit i mbështjellë mbaron dhe nëse kutia bëhet joaktive.
+.
+
+3844;txt;01
+Fshij automatikisht objektet në kutinë prej rëre
+.
+
+3845;txt;01
+Nëse një skedë e mbështjellë përshtatet për t'u rikthyer, në vend të fshirjes automatike do thirret Rikthimi i Shpejtë.
+.
+
+3846;txt;01
+Si alternativë, kjo kuti rëre mund të mbrohet nga heqjet dhe fshirja, si me dorë, edhe automatike, që nisin nga Sandboxie.
+.
+
+3847;txt;01
+Kurrë nuk e heq ose fshij këtë kuti rëre ose objektet e saj
+.
+
+# 3851;txt;01
+# Fshij::Komanda
+# .
+
+3852;txt;01
+Komanda e Fshirjes
+.
+
+3853;txt;01
+Për fshirjen automatike dhe me dorë, komanda më poshtë e sistemit do përdoret për të fshirë objektet në kutinë prej rëre. Nëse lihet bosh, komanda normale është RMDIR (heq direktorinë).
+.
+
+3854;txt;01
+Nëse ndryshoni parametrin, përfshini edhe tekstin "%%SANDBOX%%" (me thonjëza). Kur komanda ekzekutohet, ky tekst do zëvendësohet me vendndodhjen e dosjes së kutisë prej rëre.
+.
+
+3855;txt;01
+Ose seleksiononi një komandë fshirjeje të paradhënë:
+.
+
+3856;txt;01
+Komanda e fshirjes nuk përcakton "%%SANDBOX%%" (me thonjëza).
+Jeni i sigurt për pranimin e kësaj komande fshirjeje?
+.
+
+3857;txt;01
+Ju lutem kërkoni dhe seleksiononi programin - %2
+.
+
+#----------------------------------------------------------------------------
+# Program Groups
+#----------------------------------------------------------------------------
+
+3971;txt;01
+Grupet e Programeve
+.
+
+3972;txt;01
+Një numër programesh mund t'i gruponi bashkë dhe t'u jepni një emër grupi. Grupet e programeve mund të përdoren me disa nga parametrat që pranojnë emrat e programeve.
+.
+
+3974;txt;01
+Shtoj &Grupin
+.
+
+3975;txt;01
+Shkruaj emrin e grupit të ri
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control:  Sandbox Settings:  Forced Folders/Programs
+#----------------------------------------------------------------------------
+
+# 3861;txt;01
+# Nis Programet::Dosjet e Detyruara
+# .
+
+3861;txt;02
+Nis Programet
+.
+
+3862;txt;01
+Dosjet e Detyruara
+.
+
+3863;txt;01
+Nëse një program nis i pambështjellë nga një prej dosjeve më poshtë, ai do detyrohet të ekzekutohet në këtë kuti rëre. Kjo nuk zbatohet nëse programi nis direkt në një kuti rëre tjetër.
+.
+
+3864;txt;01
+Ju mund të detyroni Autohapjen e CD/DVD-ve në Windows që të ekzekutohet e mbështjellë, duke i vënë shkronjat e drajvit CD-ROM dhe DVD-ROM në listën më poshtë.
+.
+
+3865;txt;01
+Dosjet e Detyruara kanë prioritet ndaj Programeve të Detyruara.
+.
+
+3866;txt;01
+Seleksiononi një dosje për ta shtuar në listën e dosjeve të detyruara.
+.
+
+# 3871;txt;01
+# Nis Programet::Programet e Detyruara
+# .
+
+3872;txt;01
+Programet e Detyruara
+.
+
+3873;txt;01
+Nëse një nga programet më poshtë nis i pambështjellë, ai do detyrohet të ekzekutohet në këtë kuti rëre. Kjo nuk zbatohet nëse programi nis direkt në një kuti rëre tjetër.
+.
+
+# 3961;txt;01
+# Nis Programet::Përdoruesit e Detyruar
+# .
+
+# 3962;txt;01
+# Përdoruesit e Detyruar
+# .
+
+# 3963;txt;01
+# Nëse ndonjë nga përdoruesit me kontot e mëposhtme paraqitet në këtë kompjuter, e gjithë seanca e paraqitur do detyrohet të ekzekutohet në këtë kuti rëre.
+# .
+
+# 3964;txt;01
+# Për të fshirë një kuti rëre të lidhur me konton e një përdoruesi të detyruar, paraqituni në Windows si ai përdoruesi dhe përdorni dhe përdorni Kontrollin e Sandboxie-t për të fshirë kutinë prej rëre.
+# .
+
+# 3965;txt;01
+# Përdoruesit e Detyruar kanë prioritet ndaj Programeve të Detyruara dhe Dosjeve të Detyruara.
+# .
+
+3981;txt;01
+&Hap dosjen në Windows Explorer jashtë kutisë prej rëre
+.
+
+3982;txt;01
+Heq këtë dosjen nga lista
+.
+
+3983;txt;01
+Heq të gjitha dosjet nga lista
+.
+
+3986;txt;01
+Ditari i Rikthimit
+.
+
+3987;txt;01
+Këto skedat janë rikthyer kohët e fundit dhe janë lëvizur jashtë kutive prej rëre.
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control:  Sandbox Settings:  Linger/Leader Programs
+#----------------------------------------------------------------------------
+
+# 3881;txt;01
+# Ndaloj Programet::Programet e Vonuara
+# .
+
+3881;txt;02
+Ndaloj Programet
+.
+
+3882;txt;01
+Programet e Vonuara
+.
+
+3883;txt;01
+Kur të gjitha programet e tjera të mbarojnë, programet më poshtë do ndërpriten automatikisht nëse janë ende duke u ekzekutuar në këtë kuti rëre.
+.
+
+# 3891;txt;01
+# Ndaloj Programet::Programet Lider
+# .
+
+3892;txt;01
+Programet Lider
+.
+
+3893;txt;01
+Programet më poshtë konsiderohen si programet më parësore në këtë kuti rëre. Mbyllja e këtyre programeve do shkaktojë ndërprerjen e programeve të tjera që janë ende duke u ekzekutuar në këtë kuti rëre.
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control:  Sandbox Settings:  File Migration
+#----------------------------------------------------------------------------
+
+3901;txt;01
+Shtegtimi i Skedave
+.
+
+3903;txt;01
+Skedat duhet të shtegtojnë (kopjohen) në një kuti rëre para se të mund të modifikohen nga programet që ekzekutohen në atë kuti rëre. Gjithsesi, për skedat shumë të mëdha, procesi i shtegtimit zë një kohë të gjatë.
+.
+
+3904;txt;01
+Numri më poshtë përcakton masën maksimale të një skede shtegtuese. Skedat me përmasa më të mëdha nuk do shtegtojnë asnjëherë në këtë kuti rëre, dhe nuk do modifikohen nga programet që ekzekutohen në këtë kuti rëre.
+.
+
+3905;txt;01
+Nuk shtegtoj skedat më të mëdha se
+.
+
+3906;txt;01
+kilobajt
+.
+
+3907;txt;01
+Kur një skedë është shumë e madhe për të shtegtuar, do dalë mesazhi SBIE2102, përveçse kur zgjidhni mundësinë më poshtë.
+.
+
+3908;txt;01
+Nuk tregoj mesazhin kur një skedë është e madhe për të shtegtuar
+.
+
+3909;txt;01
+Parametri i Shtegtimit të Skedave kufizon masën maksimale të skedës që mund të kopjohet në kutinë prej rëre.
+
+Parametri aktual është përcaktuar në %3 kilobajt në kutinë '%2'.
+
+Klikoni OK për të ndrequr kufirin e masës në %4 kilobajt.
+
+Limitin mund ta ndryshoni edhe duke dritaren e Parametrave të Kutisë, dhe duke zgjeruar faqen e Shtegtimit të Skedave.
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control:  Sandbox Settings:  Internet/Start Restrictions
+#----------------------------------------------------------------------------
+
+# 3911;txt;01
+# Pengesa::Aksesi i Internetit
+# .
+
+3911;txt;02
+Pengesa
+.
+
+3912;txt;01
+Aksesi i Internetit
+.
+
+3913;txt;01
+Programet më poshtë do jenë programet e vetme në këtë kuti rëre që mund të hyjnë në Internet.
+.
+
+3914;txt;01
+Nëse kjo veçori aktivizohet, programet që janë instaluar (ose shkarkuar) në këtë kuti rëre nuk do lejohen asnjëherë që të hyjnë në Internet, edhe nëse shkojnë me emrin e një programi të përcaktuar më sipër.
+.
+
+3915;txt;01
+Nxjerr mesazhin SBIE%2 për hyrjen e mohuar
+.
+
+3916;txt;01
+&Bllokoj të Gjitha Programet
+.
+
+3917;txt;01
+&Lejoj të Gjitha Programet
+.
+
+3918;txt;01
+Të gjitha programet mund të hyjnë në Internet
+.
+
+3919;txt;01
+Asnjë program nuk mund të hyjë në Internet
+.
+
+3920;txt;01
+Pengesat e Aksesit të Internetit janë aktivizuar për kutinë '%2', dhe e pengojnë këtë programin të hyjë në Internet.
+
+Klikoni OK për të shtuar programin '%3' te Pengesat e Aksesit të Internetit për kutinë '%2'.
+
+Për të menaxhuar Pengesat e Aksesit të Internetit, hapni dritaren Parametrat e Kutisë dhe zgjeroni grupin e parametrave Pengesa.
+.
+
+# 3921;txt;01
+# Pengesa::Aksesi i Nisjes/Ekzekutimit
+# .
+
+3922;txt;01
+Aksesi i Nisjes/Ekzekutimit
+.
+
+3923;txt;01
+Programet më poshtë do jenë programet e vetme në këtë kuti rëre që mund të nisin dhe ekzekutohen.
+.
+
+3924;txt;01
+Nëse kjo veçori aktivizohet, programet që janë instaluar (ose shkarkuar) në këtë kuti rëre nuk do lejohen asnjëherë që të nisin ose ekzekutohen, edhe nëse shkojnë me emrin e një programi të përcaktuar më sipër.
+.
+
+3928;txt;01
+Të gjitha programet mund të nisin dhe ekzekutohen
+.
+
+3930;txt;01
+Pengesat e Aksesit të Nisjes/Ekzekutimit janë aktivizuar për kutinë '%2', dhe e pengojnë këtë programin të nisë dhe të ekzekutohet.
+
+Klikoni OK për të shtuar programin '%3' te Pengesat e Nisjes/Ekzekutimit në kutinë '%2'.
+
+Për të menaxhuar Pengesat e Aksesit të Nisjes/Ekzekutimit, hapni dritaren Parametrat e Kutisë dhe zgjeroni grupin e parametrave Pengesa.
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control:  Sandbox Settings:  Low Level Access / Hardware Access
+#----------------------------------------------------------------------------
+
+# 3931;txt;01
+# Pengesa::Aksesi i Nivelit të Ulët
+# .
+
+# 3932;txt;01
+# Aksesi i Nivelit të Ulët
+# .
+
+# 3933;txt;01
+# Parametrat më poshtë e ulin rëndë mbrojtjen e siguruar nga Sandboxie. Nuk rekomandohet aktivizimi i ndonjërës ose i gjithë këtyre parametrave.
+# .
+
+# 3934;txt;01
+# Lejoj programet në këtë kuti që të ngarkojnë drejtuesit e mënyrës kernel në sistemin operativ
+# .
+
+# 3935;txt;01
+# Lejoj programet në këtë kuti që të ngarkojnë këndet e aplikimit (Win32) në programet e tjera
+# .
+
+# 3936;txt;01
+# Lejoj programet në këtë kuti që të simulojnë inputin e tastierës dhe miut
+# .
+
+# 3937;txt;01
+# Lejoj programet në këtë kuti që të ndryshojnë faqet e tryezës dhe parametrat e tjerë të sistemit
+# .
+
+# 3938;txt;01
+# Lejoj programet në këtë kuti që të menaxhojnë konfiguracionin e pajisjeve harduerike
+# .
+
+# 3951;txt;01
+# Pengesa::Aksesi i Harduerëve
+# .
+
+# 3952;txt;01
+# Aksesi i Harduerëve
+# .
+
+# 3953;txt;01
+# Lejoj programet në këtë kuti që të ndryshojnë fjalëkalimin e kontos së përdoruesit
+# .
+
+#----------------------------------------------------------------------------
+# Sandboxie Control:  Sandbox Settings:  Drop Rights
+#----------------------------------------------------------------------------
+
+# 3941;txt;01
+# Pengesa::Heq të Drejtat
+# .
+
+3942;txt;01
+Heq të Drejtat
+.
+
+3943;txt;01
+Sandboxie duhet të çaktivizojë vetëm pak nga të drejtat për siguri të programeve që ai shqyrton, në mënyrë që të garantojë izolimin.
+.
+
+3944;txt;01
+Gjithsesi, nëse po përdorni një konto administruese ose si përdorues i fuqishëm, Sandboxie mund të çaktivizojë më shumë të drejta për sigurinë, të ngjashme me efektin e utilitetit DropMyRights.
+.
+
+3945;txt;01
+Heq të drejtat nga Administratorët dhe nga grupi si Përdorues i Fuqishëm
+.
+
+# 3946;txt;01
+# Rekomandohet që ky parametër të qëndrojë i aktivizuar, si plotësim për ndonjë masë mbrojtëse të Sandboxie-t që nuk mundësohet në edicionet 64-bit të Windows-it.
+# .
+
+# 3947;txt;01
+# Për të aktivizuar mbrojtjen e përmirësuar në Windows 64-bit, ju lutem përdorni komandën Mbrojtja Eksperimentale nga menyja Konfiguroj.
+# .
+
+3949;txt;01
+Parametri Heq të Drejtat është aktivizuar për kutinë '%2', dhe pengon përdorimin e privilegjeve të Administratorit.
+
+Klikoni OK për të çaktivizuar parametrin Heq të Drejtat për kutinë '%2', dhe lejoni përdorimin e privilegjeve të Administratorit në kuti.
+
+Parametrin Heq të Drejtat mund ta ndryshoni gjithmonë duke hapur dritaren Parametrat e Kutisë dhe duke zgjeruar grupin e parametrave Pengesa.
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control:  Sandbox Settings:  Resource Access
+#----------------------------------------------------------------------------
+
+4001;txt;01
+Aksesi i Burimeve::Aksesi i Skedave::Aksesi Direkt
+.
+
+4002;txt;01
+Aksesi Direkt i Skedave (OpenFilePath)
+.
+
+4003;txt;01
+Skedat dhe dosjet më poshtë do jenë direkt të lejueshme për programet që ekzekutohen në këtë kuti rëre, pa ndonjë efekt në mbështjellje.
+.
+
+4004;txt;01
+Kjo nuk zbatohet për programet që janë instaluar ose shkarkuar në kutinë prej rëre.
+Shihni gjithashtu:  parametri Aksesi i Plotë.
+.
+
+4011;txt;01
+Aksesi i Burimeve::Aksesi i Skedave::Aksesi i Plotë
+.
+
+4012;txt;01
+Aksesi i Plotë i Skedave (OpenPipePath)
+.
+
+4013;txt;01
+Skedat dhe dosjet më poshtë do jenë direkt të lejueshme për programet që ekzekutohen në këtë kuti rëre, pa ndonjë efekt në mbështjellje.
+.
+
+4014;txt;01
+Ndryshe nga parametri Aksesi Direkt, ky parametër zbatohet për të gjitha programet, përfshirë ato që janë instaluar ose shkarkuar në kutinë prej rëre.
+.
+
+4021;txt;01
+Aksesi i Burimeve::Aksesi i Skedave::Aksesi i Bllokuar
+.
+
+4022;txt;01
+Aksesi i Skedave të Bllokuara (ClosedFilePath)
+.
+
+4023;txt;01
+Skedat dhe dosjet më poshtë nuk do jenë fare të lejueshme për programet që ekzekutohen në këtë kuti rëre.
+.
+
+4024;txt;01
+Nëse një skedë ose dosje shkon me një parametër tjetër te Aksesi i Skedave, por gjithashtu shkon me ndonjë parametër te Aksesi i Bllokuar, parametri i Aksesit të Bllokuar do ketë prioritet.
+.
+
+4025;txt;01
+Ndarja e skedave në Windows mund të përdoret për të thyer parametrat e Aksesit të Skedave të Bllokuara.
+Shton burimin për aksesin bllokues në ndarjen e skedave në Windows.
+.
+
+4031;txt;01
+Aksesi i Burimeve::Aksesi i Skedave::Aksesi i Leximit
+.
+
+4032;txt;01
+Aksesi i Skedave Vetëm Për Lexim (ReadFilePath)
+.
+
+4033;txt;01
+Skedat dhe dosjet më poshtë nuk do jenë të modifikueshme për programet që ekzekutohen në këtë kuti rëre.
+.
+
+4041;txt;01
+Aksesi i Burimeve::Aksesi i Regjistrit::Aksesi Direkt
+.
+
+4042;txt;01
+Aksesi Direkt i Regjistrit (OpenKeyPath)
+.
+
+4043;txt;01
+Kodet më poshtë të regjistrit do të jenë direkt të lejueshme për programet që ekzekutohen në këtë kuti rëre, pa ndonjë efekt në mbështjellje.
+.
+
+4044;txt;01
+Kjo nuk zbatohet për programet që janë instaluar ose shkarkuar në këtë kuti rëre.
+.
+
+4051;txt;01
+Aksesi i Burimeve::Aksesi i Regjistrit::Aksesi i Bllokuar
+.
+
+4052;txt;01
+Aksesi i Regjistrit të Bllokuar (ClosedKeyPath)
+.
+
+4053;txt;01
+Kodet më poshtë të regjistrit nuk do jenë fare të lejueshme për programet që ekzekutohen në këtë kuti rëre.
+.
+
+4054;txt;01
+Nëse një kod i regjistrit shkon me një parametër tjetër te Aksesi i Regjistrit, por gjithashtu shkon me ndonjë parametër te Aksesi i Bllokuar, parametri i Aksesit të Bllokuar do ketë prioritet.
+.
+
+4061;txt;01
+Aksesi i Burimeve::Aksesi i Regjistrit::Aksesi i Leximit
+.
+
+4062;txt;01
+Aksesi i Regjistrit Vetëm Për Lexim (ReadKeyPath)
+.
+
+4063;txt;01
+Kodet më poshtë të regjistrit nuk do jenë të modifikueshme për programet që ekzekutohen në këtë kuti rëre.
+.
+
+4071;txt;01
+Aksesi i Burimeve::Aksesi i IPC::Aksesi Direkt
+.
+
+4072;txt;01
+Aksesi Direkt i IPC (OpenIpcPath)
+.
+
+4073;txt;01
+Objektet NT IPC më poshtë nuk do jenë direkt të lejueshme për programet që ekzekutohen në këtë kuti rëre, pa ndonjë efekt në mbështjellje.
+.
+
+4074;txt;01
+Ky parametër zbatohet për tërë programet, përfshirë ato që janë instaluar ose shkarkuar në kutinë prej rëre.
+.
+
+4081;txt;01
+Aksesi i Burimeve::Aksesi i IPC::Aksesi i Bllokuar
+.
+
+4082;txt;01
+Aksesi i IPC i Bllokuar (ClosedIpcPath)
+.
+
+4083;txt;01
+Objektet NT IPC më poshtë nuk do jenë fare të lejueshme për programet që ekzekutohen në këtë kuti rëre.
+.
+
+4084;txt;01
+Nëse një objekt NT IPC shkon me një parametër tjetër te Aksesi i IPC-së, por gjithashtu shkon me ndonjë parametër te Aksesi i Bllokuar, parametri i Aksesit të Bllokuar do ketë prioritet.
+.
+
+4091;txt;01
+Aksesi i Burimeve::Aksesi i Dritareve
+.
+
+4092;txt;01
+Aksesi i Dritareve (OpenWinClass)
+.
+
+4093;txt;01
+Programet e mbështjella nuk mund të komunikojnë me dritaret që i përkasin programeve që ekzekutohen jashtë kutisë prej rëre, përveçse kur dritarja është krijuar me një nga klasat e dritareve më poshtë.
+.
+
+4101;txt;01
+Aksesi i Burimeve::Aksesi i COM
+.
+
+4102;txt;01
+Aksesi i COM (OpenClsid)
+.
+
+4103;txt;01
+Programet e mbështjella nuk mund të komunikojnë me objekte COM që i përkasin programeve që ekzekutohen jashtë kutisë prej rëre, përveçse kur ID-ja e klasës COM shkon me një ID nga klasat më poshtë.
+.
+
+#----------------------------------------------------------------------------
+# Applications - General
+#----------------------------------------------------------------------------
+
+4201;txt;01
+Aplikime
+.
+
+4202;txt;01
+&Shikoj Kodin
+.
+
+4203;txt;01
+Hap &Faqen
+.
+
+4204;txt;01
+Krijoj të &Ri
+.
+
+4205;txt;01
+Konfiguracioni i këtij aplikimit nuk ka një adresë në Internet.
+.
+
+4206;txt;01
+Të Tjera
+.
+
+4207;txt;01
+Përmirësoni përdorimin e Sandboxie-t me aplikimet e tjera duke i seleksionuar në listën më poshtë.
+.
+
+# 4208;txt;01
+# Aplikime::Dosje
+# .
+
+4209;txt;01
+Dosje
+.
+
+4210;txt;01
+Konfiguroni vendet e dosjeve që përdorin aplikimet e tjera.
+.
+
+4211;txt;01
+Seleksiononi dosjen për
+.
+
+4212;txt;01
+Vendi normal:
+.
+
+4213;txt;01
+Vendi tjetër:
+.
+
+4214;txt;02
+Një vendndodhje tjetër për '%2'
+duhet të përmbajë këtë skedë:
+
+%3
+
+Vendndodhja e seleksionuar nuk e përmban këtë skedë.
+
+Ju lutem seleksiononi një dosje që e përmban këtë skedë.
+.
+
+4215;txt;01
+Seleksiononi dosjen që përdoret nga %2.
+.
+
+4216;txt;01
+Parametrat më poshtë përbëjnë konfiguracionin e aplikimit '%2'.
+.
+
+4217;txt;01
+Shkruani ose ngjitni parametrat, pastaj klikoni OK për të krijuar një konfiguracion të ri të aplikimit lokal.
+.
+
+4218;txt;01
+Lokale
+.
+
+4219;txt;01
+Konfiguracionet lokale (jozyrtare) të aplikimeve.
+.
+
+4220;txt;01
+Kodi i shkruar përmban një ose më shumë gabime.
+Konfiguracioni i aplikimit nuk mund të krijohet.
+.
+
+4221;txt;01
+Për të përcaktuar dosjet për aplikimet tuaja, shikoni faqen Dosje.
+.
+
+4222;txt;02
+Ky parametër nuk mund të editohet ose fshihet sepse është pjesë
+e konfiguracionit të aplikimit:
+
+%2
+
+Për të fshirë konfiguracionin e aplikimit nga kutia prej rëre, shikoni
+faqet e Aplikimeve në dritaren Parametrat e Kutisë.
+.
+
+4223;txt;01
+Konfiguracioni lokal i aplikimit '%2' është fshirë nga të gjitha kutitë.
+Do e fshini plotësisht konfiguracionin e këtij aplikimit?
+.
+
+4224;txt;01
+PDF dhe Printimi
+.
+
+4226;txt;02
+Siguria/Privatësia
+.
+
+4228;txt;01
+Utilitetet e Tryezës
+.
+
+4230;txt;01
+Shkarkuesit
+.
+
+4288;txt;01
+Gjithë Aplikimet
+.
+
+4289;txt;01
+Lista e të gjitha konfiguracioneve të aplikimeve, e renditur sipas rendit alfabetik. Lista nuk përfshin konfiguracionet lokale (jozyrtare) të aplikimeve.
+.
+
+4291;txt;01
+Përjashtimet normale për Rikthimin e Menjëhershëm
+.
+
+4292;txt;01
+Lista normale e Programeve të Vonuara
+.
+
+4293;txt;01
+Lista normale e porteve TCP/IP të bllokuara
+.
+
+#----------------------------------------------------------------------------
+# Applications - Software Compatibility
+#----------------------------------------------------------------------------
+
+4251;txt;01
+Pajtueshmëritë e Softuerit
+.
+
+4252;txt;01
+Sandboxie dikton këta softuerë në sistemin tuaj.
+.
+
+4253;txt;01
+Klikoni OK për të zbatuar parametrat e konfiguracionit që përmirësojnë pajtueshmërinë me këto aplikime.
+.
+
+4254;txt;01
+Parametrat e konfiguracionit do kenë efekt në të gjitha kutitë ekzistuese dhe në çdo kuti rëre të re.
+.
+
+4255;txt;01
+Në të ardhmen, nuk verifikoj pajtueshmëritë e softuerit
+.
+
+4256;txt;01
+Konfiguracioni i aplikimit nuk mund të fshihet sepse zbatohet për të gjitha kutitë prej rëre.
+Për të fshirë konfiguracionin e aplikimit, përdorni mjetin Pajtueshmëritë e Softuerit në menynë Gatit.
+.
+
+4257;txt;01
+Heq Parametrat e &Vjetër
+.
+
+4258;txt;01
+Këta parametra të pajtueshmërisë nuk përdoren më:
+
+%2
+
+Klikoni OK për të hedhur këta parametra të pajtueshmërisë.
+.
+
+#----------------------------------------------------------------------------
+# Lock Configuration
+#----------------------------------------------------------------------------
+
+4261;txt;01
+Kyç Konfiguracionin
+.
+
+4262;txt;01
+Sandboxie mund të mbrojë konfiguracionin global dhe Parametrat e Kutisë nga ndryshimet e paautorizuara. Seleksiononi mënyrat e mbrojtjes që duhen aktivizuar ose çaktivizuar.
+.
+
+4263;txt;01
+Ndryshime mund të bëjnë vetëm kontot me përdorues si &Administratorë
+.
+
+4264;txt;01
+Duhet të shkruaj &fjalëkalimin që të bëj ndryshime
+.
+
+4265;txt;01
+&Harroj fjalëkalimin kur fsheh dritaren Kontrolli i Sandboxie
+.
+
+4266;txt;01
+&Ndryshoj Fjalëkalimin
+.
+
+4267;txt;01
+Komandën &Çaktivizoj Programet e Detyruara mund ta përdorin vetëm kontot me përdorues si Administratorë
+.
+
+4269;txt;01
+Ju lutem lexoni faqen e dokumentacionit të Sandboxie-t në lidhje me
+mbrojtjen e konfiguracionit. Doni që kjo faqe të hapet tani?
+.
+
+4271;txt;01
+Konfiguracioni i Sandboxie-t mbrohet me një fjalëkalim. Ju lutem tani shkruani fjalëkalimin.
+.
+
+4272;txt;01
+Shkruani një fjalëkalim për të mbrojtur konfiguracionin e Sandboxie-t.
+.
+
+4273;txt;01
+Shkruani fjalëkalimin përsëri për ta konfirmuar.
+.
+
+4274;txt;01
+Shkruani fjalëkalimin e gabuar. Do e provoni përsëri?
+.
+
+#----------------------------------------------------------------------------
+# Program Selector
+#----------------------------------------------------------------------------
+
+4281;txt;01
+Seleksionoj emrin e programit
+.
+
+4282;txt;01
+Seleksionoj emrin e programit ose grupet e programeve
+.
+
+4283;txt;01
+Programet që janë nisur kohët e fundit
+.
+
+4284;txt;01
+Programet që shfaqen në Parametrat e Kutisë
+.
+
+4285;txt;01
+Grupet e Programeve
+.
+
+4286;txt;01
+Seleksiononi ose &shkruani programin:
+.
+
+4287;txt;01
+Hap / Seleksionoj &Skedën
+.
+
+#----------------------------------------------------------------------------
+# Applications - Accessibility
+#----------------------------------------------------------------------------
+
+# 4301;txt;01
+# Aplikime::Lejueshmëria
+# .
+
+4302;txt;01
+Lejueshmëria
+.
+
+4303;txt;01
+Parametrat më poshtë aktivizojnë përdorimin e Sandboxie-t në ndërthurje me softuerët e lejueshmërisë. Ju lutem vini re se disa masa mbrojtëse të Sandboxie-t kërkohet që të humbasin kur këta parametra të japin efekt.
+.
+
+4304;txt;01
+Për të shlyer mbrojtjen e humbur, ju lutem konsultohuni me faqen e parametrave Heq të Drejtat, në grupin e parametrave Pengesa.
+.
+
+4305;txt;03
+Lexuesit e Ekranit:  %2
+.
+
+#----------------------------------------------------------------------------
+# Applications - Web Browser and Email Reader
+#----------------------------------------------------------------------------
+
+4321;txt;01
+Shfletuesi i Internetit
+.
+
+4322;txt;01
+Përjashtimet më poshtë i lejojnë shfletuesit e Internetit që ekzekutohen në këtë kuti rëre të bëjnë ndryshime jashtë kutisë prej rëre, duke sjellë një masë të vogël sigurie dhe privatësie për më shumë avantazhe.
+.
+
+4323;txt;01
+Detyroj %2 të ekzekutohet në këtë kuti
+.
+
+4324;txt;02
+Lejoj aksesin direkt te të dhënat e sinkronizuara në %2
+.
+
+4325;txt;02
+Lejoj aksesin direkt te flukset e %2
+.
+
+4326;txt;02
+Lejoj aksesin direkt te favoritët në %2
+.
+
+4327;txt;01
+Shtoj favoritët në Internet Explorer te dosjet për Rikthimin e Shpejtë
+.
+
+4328;txt;01
+Lejoj aksesin direkt te biskotat në %2
+.
+
+4329;txt;01
+Ruaj jashtë kutisë: Historia e çdo vargu dhe komande të thirrur
+.
+
+4330;txt;01
+Ruaj jashtë kutisë: Informacioni i kontos për Hotmail dhe Messenger
+.
+
+4331;txt;01
+Lejoj aksesin direkt te fjalëkalimet në %2
+.
+
+4336;txt;02
+Lejoj aksesin direkt te shiritat në %2 dhe te historia e bazës me të dhëna
+.
+
+4337;txt;02
+Lejoj aksesin direkt te baza e të dhënave të mashtrimit në %2
+.
+
+4338;txt;02
+Lejoj aksesin direkt te gjithë dosja e profilit në %2
+.
+
+4339;txt;02
+Lejoj aksesin direkt te pëlqimet në %2
+.
+
+4340;txt;01
+Lejoj aksesin direkt te menaxhimi i seancës në %2
+.
+
+4356;txt;02
+Lejoj aksesin direkt te shiritat në %2
+.
+
+4357;txt;02
+Tjetër
+.
+
+4358;txt;02
+Shtesa
+.
+
+4391;txt;01
+Lexuesi i Postës-e
+.
+
+4392;txt;01
+Përjashtimet më poshtë i lejojnë lexuesit e postës-e që ekzekutohen në këtë kuti rëre që të hapin skedat e kutisë postare jashtë kutisë prej rëre.
+.
+
+4451;txt;01
+Sandboxie diktoi këto programe konfliktuale në
+sistemin tuaj.  Këto programe mund të
+ndërhyjnë në veprimin korrekt të Sandboxie.
+
+%2
+
+Ju lutem shqyrtoni faqen Konflikte të Njohura në truallin në internet
+të Sandboxie, për më shumë informacione dhe zgjidhje.
+
+Do e hapni tani faqen e internetit Konflikte të Njohura?
+.
+
+4452;txt;01
+&Konflikte të Njohura
+.
+
+#----------------------------------------------------------------------------
+# License Manager
+#----------------------------------------------------------------------------
+
+7901;txt;01
+Menaxheri i Licencës i Sandboxie-t
+.
+
+7902;txt;01
+Kodi i Sistemit %2
+.
+
+7903;txt;01
+Në të ardhmen, aktivizoj licencën pa pyetur
+.
+
+#----------------------------------------------------------------------------
+
+7921;txt;01
+Sandboxie është regjistruar dhe licenca është e aktivizuar.
+.
+
+7922;txt;01
+Sandboxie është regjistruar por licenca duhet riaktivizuar tani.
+.
+
+7923;txt;01
+Kopje e paregjistruar. Regjistrojeni sot!
+.
+
+7924;txt;01
+Licenca për Sandboxie-n duhet riaktivizuar për %2 ditë.
+.
+
+7925;txt;01
+Licenca për Sandboxie-n është aktivizuar tani.
+.
+
+7926;txt;01
+Data e skadimit të Kodit të Produktit është %2.
+.
+
+7927;txt;01
+Kodi i Produktit nuk ka datë skadimi.
+.
+
+#----------------------------------------------------------------------------
+
+7931;txt;01
+Kopja juaj e Sandboxie-t është regjistruar me një Kod Regjistrimi të vjetër.
+.
+
+7932;txt;01
+Ju lutem lejoni Menaxherin e Licencës të lidhet te Serveri i Licencës dhe të kthejë Kodin e vjetër të Regjistrimit në një Kod Produkti të ri. Për këtë kthimin nuk do paguani asnjë tarifë.
+.
+
+7933;txt;01
+Kodi i Regjistrimit nuk njihet nga Serveri i Licencës.
+.
+
+7934;txt;01
+Nëse keni përdorur një Kod Regjistrimi të ligjshëm, për të cilin keni paguar, ose ju është dhënë si dhuratë apo si pjesë e një reklame, atëherë ju lutem dërgoni një letër-e te:
+.
+
+7935;txt;01
+Kodi i ri i Produktit është:
+.
+
+7936;txt;01
+Ju lutem sigurohuni që ta ruani këtë Kodin e Produktit në një vend të sigurt për më vonë. Përdorni butonin e mëposhtëm për të kopjuar Kodin e Produktit te mbledhësja, nga ku mund ta ngjitni në një dokument dhe ta shtypni.
+.
+
+7937;txt;01
+&Kthej Kodin e Regjistrimit në Kod Produkti
+.
+
+#----------------------------------------------------------------------------
+
+7941;txt;01
+Regjistrimi i Sandboxie-t bëhet përmes një procesuesi të pagesës si palë e tretë. Niseni procesin e regjistrimit duke vizituar truallin në Internet të Sandboxie-t, te ky lidhësi.
+.
+
+7942;txt;01
+Për të aktivizuar licencën tuaj për Sandboxie-n, shkruani Kodin e Produktit që shfaqet në fletën e pagesës, pastaj klikoni butonin për ta aktivizuar atë.
+.
+
+7943;txt;01
+Dëshironi tani të shkruani Kodin e ri të Produktit?
+.
+
+7944;txt;01
+&Aktivizoj Licencën
+.
+
+7945;txt;01
+Kopja juaj e Sandboxie-t është e regjistruar tani.
+.
+
+7946;txt;01
+Ju falënderoj për përkrahjen e Sandboxie-t!
+.
+
+#----------------------------------------------------------------------------
+
+7951;txt;01
+Dëshironi të aktivizoni licencën tani?
+.
+
+7952;txt;01
+Ju lutem vizitoni truallin në internet të Sandboxie-t në lidhësin e mëposhtëm për të porositur një Kod Produkti të ri.
+.
+
+7961;txt;01
+Pastroj &Informacionin e Licencës
+.
+
+7962;txt;01
+Jeni i sigurt se dëshironi të pastroni informacionin e licencës në Sandboxie?
+
+Licencën tuaj mund ta aktivizoni në çdo kohë duke shkruar Kodin e Produktit.
+.
+
+#----------------------------------------------------------------------------
+
+7971;txt;01
+Ky nuk është një Kod i vlefshëm i Produktit.
+.
+
+7972;txt;01
+Ky nuk është një Kod i vlefshëm i Sistemit.
+.
+
+7973;txt;01
+Ky nuk është një Kod i vlefshëm i Aktivizimit. [%2]
+.
+
+7974;txt;01
+Përgjigje pa vlerë nga Serveri i Licencës.
+.
+
+7975;txt;01
+Aktivizimi i produktit dështoi:
+.
+
+7976;txt;01
+Do e provoni përsëri tani?
+.
+
+7977;txt;01
+Nëse ju duhet ta aktivizoni Sandboxie-n në një kompjuter që nuk ka akses në Internet,
+ju lutem shihni PBSH-në e Licencimit të Sandboxie-t për informacion rreth Aktivizimit Jashtë Linjës.
+.
+
+7982;txt;01
+Serveri i Licencës nuk e përcaktoi arsyen për dështimin e aktivizimit.
+.
+
+7983;txt;01
+Kodi i Produktit nuk njihet nga Serveri i Licencës.
+.
+
+7984;txt;01
+Kodi i Produktit nuk mund të përdoret tej datës së tij të skadimit në %2.
+.
+
+7985;txt;01
+Kodi i Produktit është aktivizua në shumë kompjuterë.
+.
+
+7986;txt;01
+Kodi i Produktit është anuluar për shkak se është bërë publik në Internet.
+.
+
+7987;txt;01
+Kodi i Produktit është anuluar për shkak të rikthimit të pagesës.
+.
+
+#----------------------------------------------------------------------------
+# SandboxieInstall
+#----------------------------------------------------------------------------
+
+8001;ins;01
+Seleksionoj Llojin e Instalimit
+.
+
+8002;ins;01
+Seleksiononi mënyrën e Mbishkrimit ose Çinstalimit.
+.
+
+8003;ins;01
+Nis
+.
+
+8004;ins;01
+Tani te kjo dosja është instaluar Sandboxie:
+.
+
+8005;ins;01
+Ju lutem seleksiononi si doni të vijoni:
+.
+
+8006;ins;01
+Mbrishkruaj (përmirësoj) instalimin ekzistues
+.
+
+8007;ins;01
+Çinstaloj (fshij) instalimin dhe parametrat ekzistues
+.
+
+8008;ins;01
+Klikoni Nis nëse jeni gati të vijoni.
+.
+
+8009;ins;01
+Para çinstalimit, përdorni Kontrollin e Sandboxie-t për të fshirë objektet në kutitë prej rëre.
+.
+
+8010;ins;01
+Instaloj Drejtuesin
+.
+
+8011;ins;01
+Ju lutem shqyrtoni informacionin e mëposhtëm.
+.
+
+8012;ins;01
+Klikoni Më tej që drejtuesi i Sandboxie-t të instalohet dhe aktivizohet në nivelin e sistemit. Ky drejtues është baza e aplikimit Sandboxie.
+.
+
+8013;ins;01
+Ndonjë mjet mbrojtës i sistemit që mund të jetë duke vepruar mund të duhet të çaktivizohet përkohësisht, pasi mund të parandalojë instalimin e drejtuesit në nivelin e sistemit.
+.
+
+8014;ins;02
+Nëse ky hap dështon, dhe nëse kompjuteri ngel ose rinis, ju lutem riniseni kompjuterin në Mënyrën e Sigurt, pastaj ekzekutoni këtë programin për të hequr Sandboxie-n.
+.
+
+8015;ins;01
+Drejtuesi instalohet me sukses në pjesën më të madhe të sistemeve.
+.
+
+8016;ins;01
+Ju lutem prisni që Sandboxie të çinstalohet.
+.
+
+8021;ins;01
+Ekzekutoj çdo program në kuti.lnk
+.
+
+8022;ins;01
+Ekzekuton çdo program nën shqyrtimin e Sandboxie-t
+.
+
+8023;ins;01
+Menyja Nis e Sandboxie.lnk
+.
+
+8024;ins;01
+Seleksiononi një program nga menyja Nis për të vepruar nën shqyrtimin e Sandboxie-t
+.
+
+8025;ins;01
+Ekzekutoj një shfletues Interneti në kuti.lnk
+.
+
+8026;ins;01
+Ekzekuton shfletuesin normal të Internetit nën shqyrtimin e Sandboxie-t
+.
+
+8027;ins;01
+Ekzekutoj Windows Explorer në kuti.lnk
+.
+
+8028;ins;01
+Eksploron tryezën dhe kompjuterin lokal nën shqyrtimin e Sandboxie-t
+.
+
+8029;ins;01
+Kontrolli i Sandboxie.lnk
+.
+
+8030;ins;01
+Hap panelin e kontrollit të Sandboxie-t
+.
+
+8031;ins;01
+Çinstaloj Sandboxie.lnk
+.
+
+8032;ins;01
+Çinstalon Sandboxie-n
+.
+
+8033;ins;01
+=copy:3698
+.
+
+8041;ins;01
+Sandboxie mund të instalohet vetëm në versionet më poshtë të Microsoft Windows:
+.
+
+8042;ins;01
+Sandboxie duhet të instalohet përmes një kontoje përdoruesi me
+privilegje si Administrator në sistem.
+
+Nëse përdorni Windows me Kontrollin e Kontove të Përdoruesit (UAC)
+të aktivizuar, sigurohuni që të nisni paketën e instalimit
+duke përdorur komandën Ekzekutoj si Administrator.
+.
+
+8043;ins;01
+Versioni 32-bit i Sandboxie-t nuk mund të instalohet në një sistem operativ 64-bit.
+.
+
+8044;ins;01
+Versioni 64-bit i Sandboxie-t nuk mund të instalohet në një sistem operativ 32-bit.
+.
+
+8051;ins;01
+Ekzekutohet programi Kontrolli i Sandboxie.
+
+Klikoni OK për ta mbyllur atë, pastaj vijoni me instalimin.
+
+Klikoni Anuloj për të ndërprerë instalimin.
+.
+
+8052;ins;01
+Nuk mund të krijohen ose azhurnohen skedat e programit Sandboxie.
+
+Ju lutem sigurohuni që Kontrolli i Sandboxie të mos ekzekutohet dhe
+asnjë program të mos jetë duke vepruar i mbështjellë.
+
+Pastaj klikoni OK për të riprovuar instalimin.
+
+Përndryshe klikoni Anuloj për të ndërprerë instalimin.
+.
+
+8053;ins;01
+*** Dështoi KmdUtil. Instalimi ose çinstalimi mund të mos përfundojë me sukses. ***
+.
+
+8054;ins;01
+Do e mbani skedën e konfiguracionit tuaj Sandboxie.ini?
+
+Seleksiononi PO për të mbajtur parametrat e konfiguracionit në skedën Sandboxie.ini.
+
+Seleksiononi JO për të fshirë skedën Sandboxie.ini duke humbur parametrat e konfiguracionit tuaj.
+.
+
+8055;ins;01
+Ekziston një përditësim në internet i Templates.ini dhe/ose përkthimet për këtë version të sandboxie, a dëshironi ta instaloni?
+.
+
+#----------------------------------------------------------------------------
+# KmdUtil
+#----------------------------------------------------------------------------
+
+8101;txt;01
+Drejtuesi nuk mund të instalohet tani.
+
+Ju lutem riniseni kompjuterin tuaj,
+pastaj riekzekutoni procedurën e instalimit.
+
+Funksioni i dështuar është: %2
+.
+
+8102;txt;01
+Shërbimi nuk mund të ndalet tani.
+Shërbimi '%2' është i zënë.
+
+Ju lutem klikoni OK për të riprovuar.
+.
+
+8103;txt;01
+Kjo është e para nga tre riprovimet.
+.
+
+8104;txt;01
+Kjo është e dyta nga tre riprovimet.
+.
+
+8105;txt;01
+Ky është riprovimi i tretë dhe i fundit.
+.
+
+8106;txt;02
+Këto programe duhen mbyllur para se instalimi të vijojë.
+Klikoni OK për t'i mbyllur dhe për të vijuar.  Klikoni Anuloj për të ndërprerë instalimin.
+.

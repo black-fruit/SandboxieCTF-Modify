@@ -1,0 +1,3737 @@
+#----------------------------------------------------------------------------
+# SbieDrv
+#
+# Initialization errors issued to the System event Log
+#----------------------------------------------------------------------------
+
+1101;evt;inf;01
+SBIE1101 Sandboxie vezérlőprogram (SbieDrv) %2 verzió inicializálva
+.
+
+1102;evt;inf;01
+SBIE1102 Sandboxie vezérlőprogram (SbieDrv) leállítása
+.
+
+1103;evt;err;01
+SBIE1103 A Sandboxie vezérlőprogram (SbieDrv) %2 verziót nem sikerült elindítani
+.
+
+1104;evt;err;01
+SBIE1104 Nincs elég erőforrás az előkészítés befejezéséhez.
+.
+
+1105;evt;err;01
+SBIE1105 Ismeretlen operációs rendszer verzió:  %2
+.
+
+1106;evt;err;01
+SBIE1106 %2 hiba, %3 részlet
+.
+
+# 1107;evt;err;01
+# SBIE1107 Nem lehet hozzáférni a LocalSystem %2 fiókhoz
+# .
+
+1108;evt;err;01
+SBIE1108 A(z) %2 eljárást nem lehetett elemezni
+.
+
+1109;evt;err;01
+SBIE1109 Érvénytelen licencinformációk:  %2
+.
+
+1110;evt;err;01
+SBIE1110 Nem lehet megállítani a(z) %3 típust, %2 hiba 
+.
+
+1111;evt;err;01
+SBIE1111 A(z) %3 rendszer dll nem tölthető be %2
+.
+
+1112;evt;err;01
+SBIE1112 A(z) %2 eljárás nem található
+.
+
+1113;evt;err;01
+SBIE1113 Az Nt rendszerszolgáltatás nem található, az ok: %2
+.
+
+1114;evt;err;01
+SBIE1114 A Zw rendszerszolgáltatás nem található, az ok: %2
+.
+
+1116;evt;err;01
+SBIE1116 Az illesztőprogram nem tudta regisztrálni a(z) %2 folyamat értesítési rutint
+.
+
+1119;evt;err;01
+SBIE1119 Nem lehet létrehozni az API %2 eszközt
+.
+
+1120;evt;err;01
+SBIE1120 Következetlen szolgáltatás: %2
+.
+
+1121;evt;err;01
+SBIE1121 %2 szolgáltatás kapcsolódási hiba
+.
+
+1122;evt;err;01
+SBIE1122 Hiba:  %2
+.
+
+#----------------------------------------------------------------------------
+# SbieDrv
+#
+# Error Messages to both Event and Popup Logs
+#----------------------------------------------------------------------------
+
+1151;evt;pop;err;01
+SBIE1151 A(z) %2 utasítás nem kezelhető
+.
+
+1152;evt;pop;err;01
+SBIE1152 A trambulin %2 allokáció sikertelen
+.
+
+1153;evt;pop;err;01
+SBIE1153 A Sandboxie inicializálása sikertelen volt. Zárja be az összes programot és telepítse újra a Sandboxie alkalmazást VAGY indítsa újra a számítógépet.
+.
+
+#----------------------------------------------------------------------------
+# SbieDrv
+#
+# Error Messages to Popup Log
+#----------------------------------------------------------------------------
+
+1201;pop;err;01
+SBIE1201 Nincs elegendő memória
+.
+
+1202;pop;err;01
+SBIE1202 Nem lehet frissíteni a licencinformációt:  %2
+.
+
+1203;pop;err;01
+SBIE1203 Nem lehet létrehozni a hely listát (hiba a következőben: %2)
+.
+
+1204;pop;err;01
+SBIE1204 %3 %2 sandbox létrehozási hiba
+.
+
+1211;pop;err;01
+SBIE1211 Nem lehet kezdeményezni a(z) %2 folyamat izolációt
+.
+
+1212;pop;err;01
+SBIE1212 Nem lehet létrehozni a könyvtárat: '%3' %2
+.
+
+1213;pop;err;01
+SBIE1213 Nem lehet létrehozni az objektum könyvtárat: '%3' %2
+.
+
+1214;pop;err;01
+SBIE1214 Az SbieDll %2 nem szúrható be
+.
+
+1215;pop;err;01
+SBIE1215 A hely nem oldható fel a képfeldolgozáshoz %2
+.
+
+1216;pop;err;01
+SBIE1216 Nem lehet lekérdezni a biztonsági azonosítót: %2
+.
+
+# 1217;pop;err;01
+# SBIE1217 A szülőfolyamat nem található
+# .
+
+# 1221;pop;err;01
+# SBIE1221 Nem sikerült létrehozni a feladatot:  %2
+# .
+
+1222;pop;err;01
+SBIE1222 A vezérjel nem korlátozható:  %2
+.
+
+1223;pop;err;01
+SBIE1223 A vezérjel nem cserélhető le:  %2
+.
+
+1224;pop;err;01
+SBIE1224 A vezérjel nem kérhető le:  %2
+.
+
+1241;pop;err;01
+SBIE1241 Nem sikerült csatolni a rendszerleíró struktúrát:  %2
+.
+
+1242;pop;err;01
+SBIE1242 Monitor puffertúlcsordulás
+.
+
+#----------------------------------------------------------------------------
+# SbieDrv
+#
+# Informational Messages to Popup Log
+#----------------------------------------------------------------------------
+
+1301;pop;inf;01
+SBIE1301 '%2' program indítva a sandboxon kívül
+.
+
+# 1302;pop;inf;01
+# SBIE1302 '%2' sandbox nincs definiálva vagy nem engedélyezett
+# .
+
+1303;pop;inf;01
+SBIE1303 Egy alkalommal csak egy sandbox lehet aktív
+.
+
+1304;pop;inf;01
+SBIE1304 A szimulált billentyűzet vagy egér bemenetet a(z) '%2' folyamat blokkolta
+.
+
+1306;pop;inf;01
+SBIE1306 A Sandboxie vezérlőprogram (SbieDrv) most nem állítható le
+.
+
+1307;pop;inf;02
+SBIE1307 A program nem fér hozzá az internethez korlátozások miatt - %2
+.
+
+1308;pop;inf;02
+SBIE1308 A program nem indítható el korlátozások miatt - %2
+.
+
+1309;pop;inf;01
+SBIE1309 A fiók jelszó módosítási kisérlete megtagadva
+.
+
+1310;pop;inf;01
+SBIE1310 A kiterjesztett funkciók le vannak tiltva a licenc újraaktiválásáig
+.
+
+1311;pop;inf;01
+SBIE1311 Az asztal háttérkép váltási kérelmet a(z) '%2' folyamat blokkolta
+.
+
+1312;pop;inf;01
+SBIE1312 A 16-bites DOS program indítási kérelme a sandboxban blokkolva lett
+.
+
+1313;pop;inf;01
+SBIE1313 A közvetlen lemezhozzáférést a(z) '%2' folyamat blokkolta
+.
+
+1314;pop;inf;01
+SBIE1314 A hálózat/tűzfal beállítások megváltoztatási kérelmét a(z) '%2' folyamat blokkolta
+.
+
+1315;pop;inf;01
+SBIE1315 Valószínűleg ütközés lehet a következő szoftverrel: %2
+.
+
+#----------------------------------------------------------------------------
+# SbieDrv
+#
+# Configuration Error Messages to both Event and Popup Logs
+#----------------------------------------------------------------------------
+
+1401;evt;pop;inf;01
+SBIE1401 A konfigurációs fájl nem található, az alapértelmezett lesz használatban
+.
+
+1402;evt;pop;wrn;01
+SBIE1402 Konfigurációs fájl hiba a(z) %3 sorban:  %2
+.
+
+1403;evt;pop;wrn;01
+SBIE1403 Konfigurációs fájl hiba a(z) %2 sorban:  a sor túl hosszú
+.
+
+1404;evt;pop;wrn;01
+SBIE1404 Konfigurációs fájl hiba a(z) %2 sorban:  túl sok sor
+.
+
+1405;evt;pop;wrn;01
+SBIE1405 Konfigurációs fájl hiba a(z) %2 sorban:  szintaktikai hiba
+.
+
+1406;evt;pop;err;01
+SBIE1406 Hiányzó vagy érvénytelen %3 expanzió:  %2
+.
+
+# 1407;evt;pop;err;01
+# SBIE1407 Érvénytelen %2 beállítási érték, az alapértelmezett lesz használatban
+# .
+
+1408;pop;err;01
+SBIE1408 Ismeretlen SID felhasználónév:  %2
+.
+
+1409;evt;pop;wrn;01
+SBIE1409 A Templates.ini fájl nem nyitható meg: %2
+.
+
+1410;evt;pop;wrn;01
+SBIE1410 A következő üzenet egy hibát jelez a Templates.ini fájlban
+.
+
+1411;evt;pop;wrn;01
+SBIE1411 A(z) %2 sandbox ismeretlen %3 sablont adott meg 
+.
+
+1412;evt;pop;err;01
+SBIE1412 Szövegben: %2
+.
+
+#----------------------------------------------------------------------------
+# SbieDrv
+#
+# Messages from user mode -- informational -- 2101 through 2199
+#----------------------------------------------------------------------------
+
+2101;pop;inf;01
+SBIE2101 %2
+.
+
+2102;pop;inf;01
+SBIE2102 A sandboxba másolandó fájl túl nagy - %2
+.
+
+2103;pop;inf;01
+SBIE2103 A(z) '%2' rendszer eszközmeghajtó betöltési kisérlete meg lett tagadva
+.
+
+2104;pop;inf;02
+SBIE2104 A jelenlegi Windows munkafolyamat befejezési kisérlete meg lett tagadva - %2
+.
+
+# 2105;pop;inf;01
+# SBIE2105 Az izolált szolgáltatás sikeresen elindult:  %2
+# .
+
+# 2106;pop;inf;01
+# SBIE2106 Kérjük, engedélyezze a "Futtatás UAC rendszergazdaként" opciót a Sandboxie vezérlőpult - Fájl menüjében
+# .
+
+# 2107;pop;inf;01
+# SBIE2107 A WinSxS '%2' kódösszeállítás előkészítése
+# .
+
+2108;pop;inf;01
+SBIE2108 A(z) '%2' programszimuláció sikeresen befejeződött
+.
+
+# 2109;pop;inf;01
+# SBIE2109 Kattintson az OK gombra, mikor a program vagy telepítés lezárult.
+# .
+
+# 2110;pop;inf;01
+# SBIE2110 A(z) '%2' WinSxS összetevők előkészítése
+# .
+
+# %2 = Mozilla Firefox
+2191;pop;inf;01
+SBIE2191 A(z) %2 nem frissíthető, míg a Sandboxie alatt fut.
+.
+
+2192;pop;inf;01
+SBIE2192 A program frissítéséhez, futtassa azt a Sandbixie felügyeletén kívül.
+.
+
+2193;pop;inf;01
+SBIE2193 Győződjön meg róla, hogy törlődik-e a sandbox a frissítési folyamat befejezése után.
+.
+
+2199;pop;inf;01
+%0
+.
+
+#----------------------------------------------------------------------------
+# SbieDrv
+#
+# Messages from user mode -- warning -- 2201 through 2299
+#----------------------------------------------------------------------------
+
+2201;pop;wrn;01
+SBIE2201 %2
+.
+
+# 2202;pop;wrn;01
+# SBIE2202 Hiányzó telepített hardvereszközök listája
+# .
+
+2203;pop;wrn;01
+SBIE2203 Nem sikerült kommunikálni a Sandboxie szolgáltatással:  %2
+.
+
+2204;pop;wrn;01
+SBIE2204 Nem sikerült elindítani a Sandboxie %2 szolgáltatást
+.
+
+2205;pop;wrn;01
+SBIE2205 A szolgáltatás nem lett alkalmazva:  %2
+.
+
+2206;pop;wrn;01
+SBIE2206 Nem sikerült feldolgozni az AutoExec %2 beállítást
+.
+
+2207;pop;wrn;01
+SBIE2207 Érvénytelen '%2' beállítási érték, az alapértelmezett lesz használatban
+.
+
+2208;pop;wrn;01
+SBIE2208 Nem lehet eltávolítani a rendszerleíró csoportot:  %2
+.
+
+2209;pop;wrn;01
+SBIE2209 A SID nem alakítható át felhasználónévre:  %2
+.
+
+2210;pop;wrn;01
+SBIE2210 A Windows Intéző nem indítható a következőhöz:  %2
+.
+
+2211;pop;wrn;01
+SBIE2211 Izolált szolgáltatás indítási hiba:  %2
+.
+
+2212;pop;wrn;01
+SBIE2212 A(z) '%2' email olvasó nem lett konfigurálva az izolált futtatáshoz
+.
+
+2213;pop;wrn;01
+SBIE2213 A Windows hitelesítési információkat nem lehet eltárolni a sandboxban
+.
+
+2214;pop;wrn;01
+SBIE2214 A(z) '%2' szolgáltatás indítására irányuló kérelem a korlátozott jogosultságok miatt meg lett tagadva
+.
+
+# 2215;pop;wrn;01
+# SBIE2215 A WinSxS összetevők előkészítése sikertelen volt:  %2
+# .
+
+# 2216;pop;wrn;01
+# SBIE2216 WinSxS kódösszeállítás előkészítési hiba:  %2
+# .
+
+2217;pop;wrn;02
+SBIE2217 A rendszergazdaként való futtatási kérelem a korlátozott jogosultságok miatt meg lett tagadva
+.
+
+2218;pop;wrn;01
+SBIE2218 Nem sikerült magasabb szintű rendszerjogosultságot szerezni:  %2
+.
+
+2219;pop;wrn;01
+SBIE2219 A(z) %2 programkérelem továbbítva lett
+.
+
+2220;pop;wrn;01
+SBIE2220 A rendszergazdai jogok használatának engedélyezéséhez, kattintson duplán erre az üzenetsorra
+.
+
+2221;pop;wrn;01
+SBIE2221 Ha egy programot szeretne hozzáadni az Internet hozzáférési korlátozásokhoz, kattintson duplán erre az üzenetsorra
+.
+
+2222;pop;wrn;01
+SBIE2222 Ha egy programot szeretne hozzáadni az Indítási/Futtatási hozzáférés korlátozásokhoz, kattintson duplán erre az üzenetsorra
+.
+
+2223;pop;wrn;01
+SBIE2223 A másolandó fájlok fájlméret korlátozásának növeléséhez, kattintson duplán erre az üzenetsorra
+.
+
+#----------------------------------------------------------------------------
+# SbieDrv
+#
+# Messages from user mode -- error -- 2301 through 2399
+#----------------------------------------------------------------------------
+
+2301;pop;err;01
+SBIE2301 %2
+.
+
+2303;pop;err;01
+SBIE2303 A(z) %2 nem csatlakoztatható
+.
+
+2304;pop;err;01
+SBIE2304 %2 folyamat előkészítési hiba
+.
+
+2305;pop;err;01
+SBIE2305 Elfogyott a memória
+.
+
+2306;pop;err;01
+SBIE2306 Nem lehet behatárolni a felhasználói könyvtárat:  %2
+.
+
+2307;pop;err;01
+SBIE2307 Nem lehet hozzárendelni a(z) %2 meghajtót
+.
+
+2308;pop;err;01
+SBIE2308 Nem lehet létrehozni az objektum könyvtárat:  %2
+.
+
+2309;pop;err;01
+SBIE2309 A COM+/DCOM nem tiltható le:  %2
+.
+
+2310;pop;err;01
+SBIE2310 Név puffer túlcsordulás közeleg (%2)
+.
+
+2311;pop;err;01
+SBIE2311 A lomtár nem tiltható le (BitBucket):  %2
+.
+
+2312;pop;err;01
+SBIE2312 A BrowseNewProcess beállítás nem engedélyezhető:  %2
+.
+
+2313;pop;err;01
+SBIE2313 A(z) %2 nem futtatható
+.
+
+2314;pop;err;01
+SBIE2314 A(z) %2 folyamat megszakítása
+.
+
+2315;pop;err;01
+SBIE2315 Nem lehet fixálni a végrehajtható képet
+.
+
+2316;pop;err;01
+SBIE2316 A memória sérült
+.
+
+2317;pop;err;01
+SBIE2317 Nem lehet inicializálni a(z) '%2' útvonal listát
+.
+
+2318;pop;err;01
+SBIE2318 '%2' DLL előkészítési hiba 
+.
+
+# 2319;pop;err;01
+# SBIE2319 %2 izolált folyamat aktiválás kontextus hibák
+# .
+
+# 2320;pop;err;01
+# SBIE2320 A Windows Intéző nem tiltható le asztali folyamatként:  %2
+# .
+
+2321;pop;err;01
+SBIE2321 Nem lehet kezelni az eszköz-hozzárendelést:  %2
+.
+
+2322;pop;err;01
+SBIE2322 Nem lehet felülírni a Sandboxie.ini fájlt:  %2
+.
+
+2323;pop;err;01
+SBIE2323 Kriptográfiai hiba:  %2
+.
+
+2326;pop;err;01
+SBIE2326 Rendszerleíró működés előkészítési hiba:  %2
+.
+
+2327;pop;err;01
+SBIE2327 Hiba a COM kiszolgálónál:  %2
+.
+
+2331;pop;err;01
+SBIE2331 Sikertelen szolgáltatás indítás:  %2
+.
+
+2332;pop;err;01
+SBIE2332 Nem lehet hozzáférni a SbiePst.dat fájlhoz
+.
+
+# 2333;pop;err;01
+# SBIE2333 Inkompatibilis szoftver DLL:  %2
+# .
+
+2334;pop;err;01
+SBIE2334 A DLL fájl nem tölthető be:  %2
+.
+
+# 2398;txt;01
+# SBIE2398 Szolgáltatás tűrési kivétel ... a címnél ...
+# .
+
+# 2399;txt;01
+# SBIE2399 Szolgáltatás leállás hibával ...
+# .
+
+#----------------------------------------------------------------------------
+# SbieSvc
+#----------------------------------------------------------------------------
+
+9101;evt;err;01
+SBIE9101 Kevés a rendszer-erőforrás
+.
+
+9153;evt;err;01
+SBIE9153 A vezérlőprogram nem indítható (SbieDrv)
+.
+
+9154;evt;err;01
+SBIE9154 A vezérlőprogram (SbieDrv) és a szolgáltatás (SbieSvc) eltérő verziószámmal rendelkezik
+.
+
+9156;evt;err;01
+SBIE9156 A vezérlőprogram műveleti előkészítése nem fejeződött be
+.
+
+9201;evt;err;01
+SBIE9201 Vezérjel hiba
+.
+
+9202;evt;err;01
+SBIE9202 Vezérjel hiba
+.
+
+9203;evt;err;01
+SBIE9203 Vezérjel hiba
+.
+
+9204;evt;err;01
+SBIE9204 Biztonsági leíró hiba
+.
+
+9205;evt;err;01
+SBIE9205 Biztonsági leíró hiba
+.
+
+9206;evt;err;01
+SBIE9206 Biztonsági leíró hiba
+.
+
+9207;evt;err;01
+SBIE9207 Biztonsági leíró hiba
+.
+
+9208;evt;err;01
+SBIE9208 A SeRestorePrivilege nem engedélyezhető
+.
+
+9251;evt;err;01
+SBIE9251 Portszám létrehozási hiba
+.
+
+9252;evt;err;01
+SBIE9252 Port létrehozási hiba
+.
+
+9253;evt;err;01
+SBIE9253 Port végrehajtási szál létrehozási hiba
+.
+
+#----------------------------------------------------------------------------
+# Common Texts
+#----------------------------------------------------------------------------
+
+3001;txt;01
+&OK
+.
+
+3002;txt;01
+Mégse
+.
+
+3003;txt;01
+Tallózás...
+.
+
+3004;txt;01
+Bezárás
+.
+
+3005;txt;01
+Kivágás
+.
+
+3051;txt;01
+A védelem törlése engedélyezve van a sandbox esetén
+.
+
+3052;txt;01
+Izolált módú futtatás
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Start
+#----------------------------------------------------------------------------
+
+3101;txt;01
+A Sandboxie indítása
+.
+
+3103;txt;01
+Írja be a program vagy mappa nevét és a Sandboxie meg fogja nyitni Önnek.
+.
+
+3104;txt;01
+Írja be a  .  (pont karaktert) az asztal böngészéséhez a Sandboxie-val.
+.
+
+3105;txt;01
+Parancs eltávolítása a parancs előzményekből
+.
+
+3106;txt;01
+Válasszon sandboxot a program vagy dokumentum indításához.
+.
+
+3111;txt;01
+      Sandboxie start menü - %2  %0
+.
+
+3112;txt;01
+Asztal
+.
+
+3113;txt;01
+(mappa keresése)
+.
+
+3114;txt;01
+Programok
+.
+
+3202;txt;01
+Érvénytelen parancssori paraméter:  %2
+.
+
+3203;txt;01
+Használat: Start.exe <program name>
+.
+
+3204;txt;01
+Érvénytelen ablaknév paraméter:  %2
+.
+
+3205;txt;01
+Nem lehet lehívni a programot:
+
+%2
+.
+
+3206;txt;01
+Rendszer hibakód:
+.
+
+# 3207;txt;01
+# Az Internet Explorer végrehajtható állománya nem található
+# .
+
+# 3208;txt;01
+# Az alapértelmezett webböngésző végrehajtható állománya nem található
+# .
+
+3209;txt;01
+Az alapértelmezett levelezőkliens végrehajtható állománya nem található
+.
+
+3210;txt;01
+Nem sikerült elindítani Sandboxie vezérlő programot
+.
+
+3211;txt;01
+Verzióeltérés van a Sandboxie-ban. Próbálja meg újratelepíteni.
+.
+
+3212;txt;01
+A Sandboxie vezérlőprogramja (SbieDrv) nem található a sandbox programok használatához.
+Győződjön meg róla, hogy mind a vezető, mind pedig a Sandboxie szolgáltatás (SbieSvc) sikeresen elindult-e.
+.
+
+3213;txt;01
+Nem sikerült inicializálni a Sandboxie COM szolgáltatásokat
+.
+
+3214;txt;01
+A(z) %2 Sandbox törlése:  %0
+.
+
+3215;txt;01
+Az objektum állományt (fájl vagy mappa) lehet, hogy más program használja.
+Zárjon be minden olyan alkalmazást és ablakot, amelyek megakadályozhatják a hozzáférést.
+.
+
+3216;txt;01
+Nem találom a sandbox mappát
+.
+
+3217;txt;01
+Nem sikerült megnyitni a sandbox mappát
+.
+
+3218;txt;01
+A sandbox mappát tartalmazó könyvtár nem nyitható meg
+.
+
+3219;txt;01
+A sandbox mappa nem helyezhető át
+.
+
+3220;txt;01
+Hiba történt a hosszú fájlnevek egyikének átnevezésekor a sandboxban.
+A sandbox tartalma nem fog törlődni.
+.
+
+3221;txt;01
+Kérjük, állítsa le a sandboxban futó programokat, mielött törölné annak tartalmát
+.
+
+3222;txt;01
+A törlési parancs sikertelen:  %0
+.
+
+3231;txt;01
+A Sandboxie programot több mint 30 napja telepítette.
+.
+
+3232;txt;01
+A Sandboxie programot személyes célokra ingyenesen használhatja, ameddig csak akarja.
+.
+
+3233;txt;01
+Azonban, az ingyenes verzió, most fel lesz függesztve pár másodpercre.
+.
+
+3234;txt;01
+Azonban, az ingyenes verzió egy időben csak egy sandbox használatot engedélyez.
+.
+
+3235;txt;01
+Ez a korlátozás törölve lesz a Sandboxie program kifizetésekor.
+.
+
+3236;txt;01
+Ezen túlmenően a fizetett változat lehetővé teszi a kijelölt programok automatikus izolálását.
+.
+
+3237;txt;01
+További szoftver és vásárlási információkért, kattintson a következő hivatkozásra:
+.
+
+3238;txt;01
+Kérjük, várjon további %2 másodpercet
+.
+
+3239;txt;01
+Kattintson ide a jelenlegi ablak bezárásához és folytatáshoz
+.
+
+3240;txt;01
+Kattintson ide a jelenlegi ablak bezárásához és leállításhoz
+.
+
+3241;txt;01
+A Sandboxie rendszergazdai jogosultságokat igényel
+a sandboxban futó program nevében.
+.
+
+3242;txt;01
+A kérelem elfogadásához vagy megszakításához, aktiválja
+a Felhasználói fiókok felügyelete felugró ablakot.
+.
+
+3243;txt;01
+Megjegyzés:  A program továbbra is futhat a Sandboxie felügyelete
+alatt, miután rendszergazdai jogosultságot kapott.
+.
+
+3251;txt;01
+Futtatás a Sandboxon kívül
+.
+
+3252;txt;01
+A program kifejezetten a Sandboxie felügyeletén kívül lesz
+elindítva, még abban az esetben is, ha a program kényszerítve
+van a Sandboxie alóli futtatásra.  Ez az izolációmentesség
+ki lesz terjesztve a jelenlegi program által indított alkalmazásokra.
+
+Kiválaszthatja ezt az opciót a Ctrl és Shift lenyomásával,
+miközben rákattint az Izolált módú futtatás parancsra.
+.
+
+3253;txt;01
+Valóban futtatni szeretné a programot a sandboxon kívül?
+.
+
+3254;txt;01
+A jelenlegi sandbox kiválasztó ablak kihagyásához, nyomja le a Ctrl
+billentyűt, miközben rákattint az Izolált módú futtatás parancsra.
+.
+
+3255;txt;01
+Az opció le van tiltva, mivel a Korlátozott jogosultságok opció engedélyezve van a jelenlegi sandbox esetében
+.
+
+3256;txt;01
+Az opció le van tiltva, mivel ez a program már rendszergazdai jogosultságokkal fut
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control Common
+#----------------------------------------------------------------------------
+
+3301;txt;01
+Sandboxie vezérlő
+.
+
+3302;txt;01
+%2 verzió
+.
+
+3303;txt;01
+  -  Előkészítés
+.
+
+3304;txt;01
+Sandboxie verzióütközés:
+
+Sandboxie vezérlő: %2 verzió
+Szolgáltatás modul (SbieSvc): %3 verzió
+Illesztőprogram (SbieDrv): %4 verzió
+
+A Sandboxie újratelepítése megoldhatja a problémát.
+
+Megszakítás.
+.
+
+# 3305;txt;01
+# Nem sikerült telepíteni a tálcaikont. Megszakítás.
+# .
+
+3306;txt;01
+Többé ne jelenjen meg ez az üzenet
+.
+
+# 3307;txt;01
+# Adja meg a program nevét
+# .
+
+# translate text but keep hash signs (#)
+3308;txt;01
+Programok#*.EXE#Minden fájl#*.*##
+.
+
+3309;txt;01
+  -  A Sandbox törlése
+.
+
+3311;txt;01
+Nem sikerült rögzíteni a(z) %3 konfigurációs beállítást a(z) %2 szekcióban:  %4
+.
+
+3312;txt;01
+Ön nem jogosult a(z) %2 szekcióban lévő konfiguráció frissítésére
+.
+
+3313;txt;01
+Ismeretlen felhasználó, a konfigurációs beállítások nem kerülnek mentésre
+.
+
+3314;txt;01
+Egy hiba történt a(z) '%2' sandbox alapértelmezett beállításainak alkalmazásakor
+.
+
+# 3321;txt;01
+#   -  A bejelentkezési folyamat izolálva van
+# .
+
+# 3322;txt;01
+# A bejelentkezési folyamat a Sandboxie felügyelete alatt fut.
+# A sandbox tartalmának törlése, érvényteleníteni fogja a munkafolyamat összes alkalmazott módosítását.
+# 
+# Felhasználói fiók: %2
+# Sandbox: %3
+# 
+# Valóban törli a sandbox tartalmát és kijelentkezik a Windows-ból?
+# .
+
+3351;txt;01
+Eltávolítás
+.
+
+3352;txt;01
+Hozzáadás
+.
+
+3353;txt;01
+Szerkesztés
+.
+
+3354;txt;01
+Szerkesztés
+.
+
+3355;txt;01
+Új program
+.
+
+# 3356;txt;01
+# Hozzáadás Név szerint
+# .
+
+# 3357;txt;01
+# Hozzáadás Fájl szerint
+# .
+
+3358;txt;01
+Mappa hozzáadása
+.
+
+3359;txt;01
+Felhasználó hozzáadása
+.
+
+3360;txt;01
+Az összes kijelölése
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control Menus
+#----------------------------------------------------------------------------
+
+3411;txt;01
+&Fájl
+.
+
+3412;txt;01
+Az összes program leállítása
+.
+
+3413;txt;01
+Kényszerített programok letiltása
+.
+
+3414;txt;01
+Futtatás UAC rendszergazdaként
+.
+
+3415;txt;01
+Az ablak izolálva van?
+.
+
+3416;txt;01
+Erőforrás-hozzáférés figyelő
+.
+
+3417;txt;01
+Kilépés
+.
+
+3421;txt;01
+Nézet
+.
+
+3422;txt;01
+&Programok
+.
+
+3423;txt;01
+&Fájlok és mappák
+.
+
+3424;txt;01
+Szövegkörnyezeti menü%2Shift+F10
+.
+
+3425;txt;01
+Helyreállítási napló
+.
+
+3431;txt;01
+Sand&box
+.
+
+3432;txt;01
+Új sandbox létrehozása
+.
+
+3433;txt;01
+Tárolómappa megadása
+.
+
+3434;txt;01
+Rejtett sandbox megjelenítése
+.
+
+3435;txt;01
+Elrendezés és csoportok beállítása
+.
+
+3441;txt;01
+Konfigurálás
+.
+
+3442;txt;01
+&Programriasztások
+.
+
+3443;txt;01
+Beépítés a Windows keretprogramba
+.
+
+3501;txt;01
+Szoftverkompatibilitás
+.
+
+3503;txt;01
+Kísérleti védelem (64-bit)
+.
+
+3444;txt;01
+Rejtett üzenetek elhagyása
+.
+
+3445;txt;02
+&Tippek
+.
+
+3502;txt;01
+Konfiguráció zárolása
+.
+
+3446;txt;01
+Konfiguráció szerkesztése
+.
+
+3447;txt;01
+Konfiguráció újratöltése
+.
+
+3448;txt;01
+Az összes tipp megjelenítése
+.
+
+3449;txt;01
+Az összes tipp rejtése
+.
+
+3451;txt;01
+Súgó
+.
+
+3452;txt;01
+Súgótémakörök (Web)
+.
+
+3453;txt;02
+Első lépések bemutató
+.
+
+3454;txt;01
+Frissítések ellenőrzése
+.
+
+3455;txt;01
+A Sandboxie regisztrálása
+.
+
+3456;txt;01
+&A Sandboxie névjegye
+.
+
+3461;txt;01
+Izolált futtatás
+.
+
+3462;txt;01
+Webböngésző futtatása
+.
+
+3463;txt;01
+Emai&l olvasó futtatása
+.
+
+3464;txt;01
+Bármilyen program futtatása
+.
+
+3465;txt;01
+Futtatás a start menüből
+.
+
+3466;txt;01
+&Windows Intéző futtatása
+.
+
+3471;txt;01
+Programok leállítása
+.
+
+3472;txt;01
+Gyors helyreállítás
+.
+
+3473;txt;01
+Tartalom törlése
+.
+
+3474;txt;01
+Tartalom böngészése
+.
+
+3475;txt;01
+Sandbox beállítások
+.
+
+3476;txt;01
+Sandbox átnevezése
+.
+
+3477;txt;01
+Sandbox eltávolítása
+.
+
+3481;txt;01
+Program leállítása
+.
+
+3482;txt;01
+Programbeállítások
+.
+
+3483;txt;01
+Erőforrás-hozzáférés
+.
+
+3485;txt;01
+Ablak megjelenítése
+.
+
+3486;txt;01
+Ablak rejtése
+.
+
+3487;txt;01
+Hibák megjelenítése
+.
+
+# 3488;txt;01
+# Sandbox tartalom törlése és kijelentkezés
+# .
+
+3491;txt;01
+Visszaállítás ugyanabba a mappába
+.
+
+3492;txt;01
+Visszaállítás másik mappába
+.
+
+3493;txt;01
+Mappa hozzáadása a Gyors helyreállítás modulhoz
+.
+
+3494;txt;01
+Mappa eltávolítása a Gyors helyreállítás modulból
+.
+
+3495;txt;01
+Asztali parancsikon létrehozása
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control Main Window
+#----------------------------------------------------------------------------
+
+3511;txt;01
+A Sandboxie vezérlő el fogja rejteni a jelenlegi ablakot, viszont az
+a háttérben továbbra is futni fog. Az ablak megjelenítéséhez, kattintson
+duplán a tálca értesítési területén található sárga Sandboxie ikonra.
+.
+
+3512;txt;01
+A Sandboxie.ini konfigurációs fájl változásainak szerkesztése
+a jelenleg megnyitott szövegszerkesztőben.
+
+A módosított konfiguráció csak a Konfiguráció újratöltése
+funkció lehívása után kerül alkalmazásra.
+
+Általában, a Konfiguráció újratöltése funkció automatikusan
+lehívásra kerül, amint bezárja a szövegszerkesztő
+ablakát.
+
+Ezenfelül, közvetlenül is utasíthatja a Sandboxie
+vezérlőt bármikor a Konfiguráció újratöltésére.
+.
+
+3513;txt;01
+A Sandboxie konfiguráció frissítve lett és alkalmazásra kerül
+a védelem alatt álló programok indításakor.
+
+Ha a programok valamelyike már izolált módban fut,
+az új konfiguráció nem fog rá vonatkozni.
+.
+
+3514;txt;01
+Hiba történt a konfigurációs fájl olvasásakor.
+A Sandboxie konfiguráció nem lett frissítve.
+.
+
+3515;txt;01
+%2 sandbox
+.
+
+3516;txt;01
+Aktív
+.
+
+3517;txt;01
+Program neve
+.
+
+3518;txt;01
+Termékazonosító
+.
+
+3519;txt;01
+Ablak címsora
+.
+
+3520;txt;01
+Gyors helyreállítási mappák
+.
+
+3521;txt;01
+Az összes fájl és mappa
+.
+
+3522;txt;01
+Meghajtók
+.
+
+3523;txt;01
+Hálózati megosztások
+.
+
+3524;txt;01
+Felhasználói állományok
+.
+
+3525;txt;01
+Személyes
+.
+
+3526;txt;01
+Összes felhasználó
+.
+
+3527;txt;01
+Kérjük, törölje a(z) %2 sandbox tartalmát a jelenlegi parancs lehívása elött.
+.
+
+3528;txt;01
+Adjon meg egy új sandbox nevet.
+.
+
+3529;txt;01
+Valóban eltávolítja a(z) %2 sandboxot?
+.
+
+3530;txt;01
+Nincsenek leállítandó folyamatok.
+.
+
+3531;txt;01
+FIGYELEM: A folyamat vagy folyamatok leállításával
+nem lesz esély az állapot vagy adat mentésére.
+
+Folytatja a folyamat leállítását?
+.
+
+3532;txt;01
+A jövöben rákérdezés nélkül zárja le a folyamatokat
+.
+
+3533;txt;01
+Fájlokat és mappákat másolhat illetve vághat ki az Izolált Windows Intéző
+mappa ablakából, és közvetlenül beillesztheti azokat a védelem nélküli mappákba.
+.
+
+3534;txt;01
+A sandbox tartalmát egy olyan Windows Intéző ablakban fogja böngészni, amely
+nem a Sandboxie felügyelete alatt fut.
+
+Megnyithatja a sandboxon belül található programokat vagy dokumentumokat.
+A program vagy dokumentum a Sandboxie felügyelete alatt fog elindulni.
+
+Azonban, a sandbox tartalmának manipulálásához ajánlott egy Sandboxie alatt
+futó Windows Intéző példányt használnia.  A végrehajtáshoz használja a következő
+parancsot:  Sandbox > Izolált módú futtatás > Windows Intéző futtatása.
+.
+
+3535;txt;01
+Egy hiba történt a sandbox mappához való hozzáférés közben.
+.
+
+3536;txt;01
+A 'rejtett' állapotjelző címke el lett távolítva az összes üzenetből.
+.
+
+3537;txt;01
+A 'Ne jelenjen meg ez az üzenet' jelző el lett távolítva a tippekből.
+.
+
+3538;txt;01
+A 'Ne jelenjen meg ez az üzenet' jelző mostantól alkalmazva lesz az összes tippre.
+.
+
+3539;txt;01
+A(z) '%2' sandbox %3 nappal ezelött lett létrehozva.
+
+Kérjük, fontolja meg időről időre a sandbox tartalmának törlését.
+
+Az automatikus törlés konfigurálásához, használja a Sandbox beállítások parancsot
+a Sandbox menüből a Sandboxie vezérlőpultban.
+.
+
+3540;txt;01
+A Sandboxie.ini konfigurációs fájl nem szerkeszthető, mivel
+jelszóval van védve.  A fájl szerkesztéséhez és a jelszavas védelem
+letiltásához használja a Konfiguráció zárolása parancsot.
+.
+
+3541;txt;01
+Nyilvános
+.
+
+3542;txt;01
+A kísérleti védelmi mód fokozza a 64-bites Sandboxie
+által kínált védelmet, és a 32-bites Sandboxie által
+szolgáltatott védelmi szintre hozza.
+
+FONTOS:  A Kisérleti védelem dokumentálatlan Windows kerner
+funkciókat használ.  A jövőben végrehajtandó Windows
+frissítéseket meggátolhatja a Kisérleti védelem
+mód és rendszer instabilitást okozhat.
+
+CSAK SAJÁT FELELŐSSÉGÉRE HASZNÁLJA.
+
+A Kisérleti védelem mód aktiválásához, most újra
+kell indítania a számítógépet.
+.
+
+3543;txt;01
+A Kisérleti védelem mód letiltásához, most újra
+kell indítania a számítógépet.
+
+Felhívjuk a figyelmét, hogy a Korlátozott jogok beállítás
+engedélyezve van az összes sandboxban.
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control Dialogs: About/Welcome
+#----------------------------------------------------------------------------
+
+3601;txt;01
+A Sandboxie névjegye
+.
+
+# 3604;txt;01
+# Üdvözli a Sandboxie
+# .
+
+# 3605;txt;01
+# 
+# A Sandboxie az alkalmazásokat egy sandboxnak nevezett hermetikusan elzárt területen futtatja.
+# 
+# Az alkalmazások el vannak zárva a sandboxban, így azok nem tudnak módosításokat vagy károkat okozni az Ön számítógépében.
+# 
+# A sandboxot ezenfelül használhatja új alkalmazások telepítésére és tesztelésére.
+# .
+
+# 3606;txt;01
+# Ha Ön egy új Sandboxie felhasználó,
+# kérjük, szánjon egy kis időt a Kezdő lépések kézikönyv elolvasására.
+# .
+
+# 3607;txt;01
+# Kezdő lépések a Sandboxie programmal
+# .
+
+#----------------------------------------------------------------------------
+# Sandboxie Control Dialogs: Update
+#----------------------------------------------------------------------------
+
+3621;txt;01
+Frissítések ellenőrzése
+.
+
+3622;txt;01
+Csatlakozik a Sandboxie weboldalához az elérhető új programverziók ellenőrzéséhez?
+.
+
+3623;txt;01
+Most
+.
+
+3624;txt;01
+A következő héten
+.
+
+3625;txt;01
+Soha
+.
+
+3626;txt;01
+A jövőben rákérdezés nélkül ellenőrizze a frissítéseket
+.
+
+3627;txt;01
+Adatvédelem:  A Sandboxie nem végez személyes információ gyűjtést és továbbítást.
+.
+
+3628;txt;01
+A frissítés ellenőrzése már folyamatban van.  Kis türelmet kérünk.
+.
+
+3629;txt;01
+A Sandboxie weboldala nem tett jelentést újabb Sandboxie verzióról.
+.
+
+3630;txt;01
+Új letölthető Sandboxie %2 verzió érhető el.
+.
+
+3631;txt;01
+Letölti most?
+
+Megjegyzés:  A letöltés egy kis időbe telik.
+A letöltés befejezésekor egy értesítő üzenetet fog kapni.
+.
+
+3632;txt;01
+Az új verzió letöltéséhez és telepítéséhez, rendszergazdaként
+lépjen be egy felhasználói fiókba és folyamodjon újra ehhez a parancshoz.
+.
+
+3633;txt;01
+A Sandboxie %2 a következő helyre lett letöltve:
+
+%3
+
+Kattintson az OK gombra a telepítés megkezdéséhez.  Ha bármilyen izolált
+program fut, azok leállításra kerülnek.
+.
+
+3634;txt;01
+A frissítés sikertelen:  Egy hiba történt a Sandboxie weboldallal végzett kommunikáció során.
+.
+
+3635;txt;01
+Új verzió letöltése
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control Dialogs: Run Browser
+#----------------------------------------------------------------------------
+
+3641;txt;01
+Böngésző megnyitása
+.
+
+3642;txt;01
+Válassza ki, hogy a következő webcím egy izolált vagy izolálatlan böngészőben kerüljön megnyitásra.
+.
+
+3643;txt;01
+Izolált
+.
+
+3644;txt;01
+Izolálatlan
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control Dialogs: Message Dialog
+#----------------------------------------------------------------------------
+
+3645;txt;01
+Üzenetek a Sandboxie programból
+.
+
+3646;txt;01
+Elrejt
+.
+
+3647;txt;01
+Az üzenet rejtése opció, meg fogja akadályozni a jövőben az
+üzenetek megjelenítését.  Egy üzenet elrejtése nem fogja megoldani az
+üzenetben szereplő problémákat.
+
+Valóban kikapcsolja a(z) %2 üzenet jelentését?
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control Dialogs: Disable Forced Programs
+#----------------------------------------------------------------------------
+
+3651;txt;01
+Kényszerített programok ideiglenes letiltása
+.
+
+3652;txt;01
+Kényszerített programok ideiglenes letiltása
+.
+
+3653;txt;01
+másodpercig
+.
+
+3654;txt;01
+Amikor az OK gombra kattint a Kényszerített programok mechanizmus ideiglenesen letiltásra kerül a fent megadott másodperc időtartamig vagy addig amíg újra ki nem választja ezt a funkciót.
+.
+
+3599;txt;01
+Letilthatja a megadott program kényszerítését, ha a Ctrl és Shift billentyű lenyomása közben, rákattint az Izolált módú futtatás parancsra az adott program esetén.
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control Dialogs: Resource Access Monitor
+#----------------------------------------------------------------------------
+
+3655;txt;01
+Erőforrás-hozzáférés figyelő
+.
+
+3656;txt;01
+Ez az eszköz figyeli a futó programokat a Sandboxie felügyelete mellett és megjeleníti azokat az erőforrásokat, amelyekhez azok hozzáférnek.  Az eszköz használata elött, kérjük, olvassa el a dokumentációt.
+.
+
+3657;txt;01
+Tartalom másolása a vágólapra és az ablak bezárása
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control Dialogs: Is Window Sandboxed
+#----------------------------------------------------------------------------
+
+3661;txt;01
+Az ablak izolálva van?
+.
+
+3662;txt;01
+Húzza a Keresőeszközt egy ablak fölé, majd engedje el az egér gombját, annak ellenőrzéséhez, hogy az ablak izolált módban van-e.
+
+A megszakításhoz, nyomja meg az ESC gombot.
+.
+
+3663;txt;01
+A kiválasztott program a %2 program részeként fog futni a(z) %3 sandboxban.
+.
+
+3664;txt;01
+A kijelölt ablak nem fut egy izolált program részeként sem.
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control Dialogs: Create New Sandbox
+#----------------------------------------------------------------------------
+
+3665;txt;01
+Új sandbox létrehozása
+.
+
+3666;txt;01
+Adjon meg egy nevet az új sandbox számára.
+.
+
+3667;txt;01
+Hiba:  Érvénytelen sandbox név lett megadva.  Csak betűket és számokat használjon.  A szóköz és más speciális karakter nem engedélyezett.  A név nem haladhatja meg a 32 karakterhosszúságot.
+.
+
+3668;txt;01
+Hiba:  Egy létező sandbox név lett megadva.  Adjon meg egy olyan nevet, amelyet még nem használ más sandbox.
+.
+
+3669;txt;01
+Beállítások másolása egy létező sandboxból:
+.
+
+4665;txt;01
+Hiba:  Egy létező sandbox név lett megadva.  A nevet már használja egy rejtett sandbox.  Használja a "Rejtett sandbox megjelenítése" parancsot a Sandbox menüből.
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control Dialogs: Set Container Folder
+#----------------------------------------------------------------------------
+
+3671;txt;01
+Tárolómappa megadása
+.
+
+3672;txt;01
+Válassza ki a sandboxok létrehozására és tárolására kijelölt mappát.
+.
+
+3673;txt;01
+A más programokkal való maximális kompatibilitás érdekében, ajánlott, hogy hagyja a sandboxot az Ön által kiválasztott meghajtó alapértelmezett helyén.
+.
+
+3674;txt;01
+Azonban, használhatja az alábbi szerkesztőmezőt az alapértelmezett elérési útvonal felülbírálásához:
+.
+
+3675;txt;01
+Megjegyzés:  Fontolja meg az összes sandboxban lévő tartalom törlését, a tárolómappa módosítása elött.
+.
+
+3676;txt;01
+%2 meghajtó
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control Dialogs: Alerts
+#----------------------------------------------------------------------------
+
+3681;txt;01
+Programriasztások
+.
+
+3682;txt;01
+Ha a következő programok bármelyike elindul valamelyik sandboxon kívül, a Sandboxie a SBIE1301 üzenetet fogja megjeleníteni.
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control Dialogs: Shell Integration
+#----------------------------------------------------------------------------
+
+3685;txt;01
+Windows egyesített felület
+.
+
+3686;txt;01
+Sandboxie vezérlő indítása
+.
+
+3687;txt;01
+A Windows indításakor
+.
+
+3688;txt;02
+Amikor egy program elindul a sandboxban
+.
+
+3689;txt;01
+Parancsikonok
+.
+
+3690;txt;01
+Asztali parancsikon hozzáadása a böngésző indításához Sandboxie alól
+.
+
+3691;txt;01
+Gyorsíndítás parancsikon hozzáadása a böngésző indításához Sandboxie alól
+.
+
+3692;txt;01
+Kattintson ide további parancsikonok hozzáadásához:
+.
+
+3693;txt;01
+Parancsikonok hozzáadása
+.
+
+3694;txt;01
+"Izolált módú futtatás" műveletek
+.
+
+3695;txt;01
+Jobb gombos "Izolált módú futtatás" művelet hozzáadása a fájlokhoz és mappákhoz
+.
+
+3696;txt;01
+Sandbox tárak hozzáadása célként a "Küldés" menühöz
+.
+
+3697;txt;01
+A Sandboxie start menüje most meg fog jelenni.  Válasszon egy
+alkalmazást a menüből és a Sandboxie létre fog hozni egy
+parancsikont a valódi asztalon, amelynek segítségével
+meghívhatja a kijelölt alkalmazás a Sandboxie felügyelete
+alatt.
+.
+
+3698;txt;01
+Izolált böngésző.lnk
+.
+
+3699;txt;01
+Izolált módú futtatás
+.
+
+4491;txt;01
+A(z) %2 megnyitása a(z) %3 sandboxban
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control:  Delete Sandbox / Quick Recovery / Immediate Recovery
+#----------------------------------------------------------------------------
+
+3711;txt;01
+Tartalmak törlése|Gyors helyreállítás
+.
+
+3712;txt;01
+Az alábbi listán lévő fájlok alkalmasak a sandboxból való gyors helyreállításra.  Válasszon egy fájlt vagy mappát, majd kattintson a lenti Visszaállítás gombok egyikére a kiválasztott elem visszaállításához.
+.
+
+3713;txt;01
+Kattintson a Tartalmak törlése gombra a sandboxban futó valamennyi folyamat leállításához és azok tartalmának törléséhez.
+.
+
+3714;txt;01
+Tartalmak törlése
+.
+
+3715;txt;01
+Közvetlen helyreállítás
+.
+
+3716;txt;02
+A következő fájlok alkalmasak a közvetlen visszaállításra és áthelyezhetők a sandboxon kívülre.
+.
+
+3717;txt;01
+Elöször válasszon fájlokat az alábbi listáról, majd jelöljön ki egy célmappát.
+.
+
+3718;txt;01
+Helyreállítás
+.
+
+3719;txt;01
+Ne figyelmeztessen újra a közvetlen visszaállításra, míg a jelenlegi sandboxban lévő összes program le nem áll
+.
+
+3720;txt;01
+Visszaállítás
+ugyanabba a mappába
+.
+
+3721;txt;01
+Visszaállítás
+bármelyik mappába
+.
+
+3722;txt;01
+%2 fájl és %3 mappa van a sandboxban, a lemezterület %4 bájtja foglalt.
+.
+
+3723;txt;01
+Válasszon egy tárolómappát a fájl vagy mappa visszaállításához.
+.
+
+3724;txt;01
+Vagy válasszon ki egy mappát egy korábbi helyreállításból.
+.
+
+3725;txt;01
+A kiválasztott mappák el lesznek tárolva egy későbbi használatra
+.
+
+3726;txt;01
+A kiválasztott mappa hozzá lesz adva a Gyors helyreállítás mappák listájához.
+.
+
+3727;txt;01
+A mappa hozzá lett adva a Gyors helyreállítás mappák listájához.
+
+Azonban, pillanatnyilag nincsenek izolált elemek, amelyeket
+visszaállíthat a mappából.
+.
+
+3728;txt;01
+Nincsenek fájlok kiválasztva a visszaállításhoz.
+.
+
+3729;txt;01
+A visszaállítás sikertelen.  A következő elem nem helyezhető a sandboxon kívülre:
+.
+
+3730;txt;01
+A sandbox üres. Nincs mit törölni.
+.
+
+3731;txt;01
+Nem lehetett leállítani néhány izolált programot.  A sandbox tartalma nem fog törlődni.
+.
+
+3732;txt;01
+Pillanatnyilag nincsenek helyreállítandó fájlok.
+.
+
+3733;txt;01
+A fájl nem lett visszaállítva, mivel a célmappa neve túl hosszú.
+Kérjük, válasszon egy másik célmappát.
+.
+
+3734;txt;01
+További opciókért kattintson jobb gombbal a mappák listájára
+.
+
+3735;txt;02
+Cserélje le az összes fájlt minden további jóváhagyás nélkül
+.
+
+3736;txt;01
+Helyreállítás és Intéző
+.
+
+3737;txt;01
+Helyreállítás és futtatás
+.
+
+3981;txt;01
+Mappa megnyitása a Windows Intézőben a sandboxon kívül
+.
+
+3982;txt;01
+Távolítsa el ezt a mappát a listáról
+.
+
+3983;txt;01
+Távolítsa el az összes mappát a listáról
+.
+
+3986;txt;01
+Helyreállítási napló
+.
+
+3987;txt;01
+A következő fájlok nemrég vissza lettek állítva és át lettek helyezve a sandboxokból.
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control:  Program Settings
+#----------------------------------------------------------------------------
+
+3741;txt;01
+Programbeállítások
+.
+
+3742;txt;01
+Sandbox:
+.
+
+3743;txt;01
+Program:
+.
+
+3744;txt;01
+1. lapnézet
+.
+
+3745;txt;01
+2. lapnézet
+.
+
+3751;txt;01
+Program indítása
+.
+
+3752;txt;01
+Amikor ez a program elindul bármelyik sandboxon kívül:
+.
+
+3753;txt;01
+Jelenjen meg az SBIE1301 riasztási üzenet
+.
+
+3754;txt;01
+Kényszerítse a programot a jelenlegi sandboxba való futtatásra
+.
+
+3755;txt;01
+Program leállítása
+.
+
+3756;txt;01
+Állítsa le a jelenlegi programot, ha az továbbra is a sandboxban marad más programok leállása után
+.
+
+3757;txt;01
+Állítsa le a többi programot a fő program leállása után
+.
+
+3761;txt;01
+Internet-korlátozások
+.
+
+3762;txt;01
+Bármely futó program ebben a sandboxban képes kapcsolódni az internethez.
+.
+
+3763;txt;01
+Programok, amelyek csatlakozhatnak az internetre, ebben a sandboxban:
+.
+
+3764;txt;01
+Engedélyezi a korlátozásokat és lehetővé teszi a program számára az internetre való csatlakozást
+.
+
+3765;txt;01
+Indítási/Futtatási korlátozások
+.
+
+3766;txt;01
+Bármely program indítható ebben a sandboxban
+.
+
+3767;txt;01
+Programok, amelyek indulhatnak ebben a sandboxban:
+.
+
+3768;txt;01
+Engedélyezi a korlátozásokat és lehetővé teszi a program indítását.
+.
+
+3769;txt;01
+(Nincs)
+.
+
+3770;txt;01
+Az új beállítások nem lesznek alkalmazva a már
+futó izolált programokra.  A beállítások a
+program következő indításakor lépnek érvénybe.
+.
+
+3771;txt;01
+(Ez a funkció, csak a Sandboxie regisztrált változatában érhető el)
+.
+
+3772;txt;02
+Valóban beállítja kényszerített programként a következőt: %2?
+.
+
+3773;txt;02
+Valóban beállítja kényszerített mappaként a következőt: %2?
+.
+
+# 3774;txt;02
+# Valóban beállítja kényszerített felhasználóként a következőt: %2?
+# .
+
+3775;txt;02
+Az elvégzett módosításokat nem lesz egyszerű visszavonni.
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control:  Sandbox Settings
+#----------------------------------------------------------------------------
+
+3801;txt;01
+Sandbox beállítások - %2
+.
+
+3802;txt;01
+Ez az oldal szándékosan maradt üresen
+.
+
+3803;txt;01
+Alkalmaznia kell a módosításokat ezen a lapon, mielőtt továbblépne.
+.
+
+3804;txt;01
+Módosítások alkalmazása a következő lapra váltásnál
+.
+
+3805;txt;01
+Az összes programra
+.
+
+3806;txt;02
+Az alábbi lista vonatkoztatása:
+.
+
+3807;txt;01
+Válasszon ki egy fájlt vagy mappát, amit hozzá kíván adni a Fájl-hozzáférés kizárások listához.
+.
+
+3808;txt;01
+Készletnév hozzáadása
+.
+
+3809;txt;01
+Készletnév szerkesztése
+.
+
+3551;txt;01
+(Az összes program a(z) %2 kivételével)
+.
+
+3552;txt;01
+A jelenlegi kiválasztás megfordítása
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control:  Sandbox Settings:  Appearance
+#----------------------------------------------------------------------------
+
+3811;txt;01
+Megjelenés
+.
+
+3812;txt;01
+A Sandboxie felügyelete alatt futó izolált programoknál egy Sandboxie [#] indikátor látható az ablak címsorában.
+.
+
+3813;txt;01
+Ha a következő beállítást engedélyezi, az ablak címsorában meg fog jelenni az aktuális sandbox neve.
+.
+
+3814;txt;01
+Jelenjen meg a sandbox neve az ablak címsorában
+.
+
+3815;txt;01
+Ne jelenjen meg a Sandboxie indikátor az ablak címsorában
+.
+
+3816;txt;01
+A Sandboxie meg tud jeleníteni egy vastag keretet egy izolált programhoz tartozó ablakok köré.
+.
+
+3817;txt;01
+Szegély megjelenítése az ablakok köré
+.
+
+3818;txt;01
+Kattintson ide a szegély színének módosításához
+.
+
+3819;txt;01
+Csak akkor jelenjen meg a keret, ha az egér az ablak címsorában van
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control:  Sandbox Settings:  Recovery
+#----------------------------------------------------------------------------
+
+# 3821;txt;01
+# Helyreállítás::Gyors helyreállítás
+# .
+
+3821;txt;02
+Helyreállítás
+.
+
+3822;txt;01
+Gyors helyreállítás
+.
+
+3823;txt;01
+A sandbox tartalmának törlése vagy a Gyors helyreállítás funkció manuális meghívása elött, a következő mappák izolált tartalma lesz ellenőrizve.  Ha bármilyen fájlt talál, könnyedén visszaállíthatja azokat a sandboxba.
+.
+
+# 3831;txt;01
+# Helyreállítás::Közvetlen helyreállítás
+# .
+
+3832;txt;01
+A Közvetlen helyreállítás fokozza a Gyors helyreállítás hatékonyságát a helyreállítási funkció automatikus meghívásával, amint a fájlok létrejönnek.
+.
+
+3833;txt;01
+Közvetlen helyreállítás engedélyezése
+.
+
+3834;txt;01
+A következő mappák és fájltípusok (vagy fájlkiterjesztések) kizárásra kerülnek a Közvetlen helyreállításból.
+.
+
+3835;txt;01
+Típus hozzáadása
+.
+
+3836;txt;01
+Válassza ki a Közvetlen helyreállításból kizárandó mappát.
+.
+
+3837;txt;01
+Adjon meg egy fájltípust (vagy fájlkiterjesztést) a Közvetlen helyreállításból való kizáráshoz
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control:  Sandbox Settings:  Delete
+#----------------------------------------------------------------------------
+
+# 3841;txt;01
+# Törlés::Végrehajtás indítás
+# .
+
+3841;txt;02
+Törlés
+.
+
+3842;txt;01
+Végrehajtás indítás törlése
+.
+
+3843;txt;01
+A sandbox tartalma automatikusan törlődni fog, amikor az utolsó izolált program is leáll és a sandbox inaktívvá válik.
+.
+
+3844;txt;01
+A sandbox tartalmának automatikus törlése
+.
+
+3845;txt;01
+Ha bármilyen izolált fájl alkalmas a helyreállításra, a Gyors helyreállítás meg fogja hívni azt az automatikus törlés helyett.
+.
+
+3846;txt;01
+Másik lehetőségként, a jelenlegi sandboxot a Sandboxie által kezdeményezett eltávolítás és törlés elleni védelemmel láthatja el.
+.
+
+3847;txt;01
+Soha ne távolítsa el ezt a sandboxot vagy ne törölje annak tartalmát
+.
+
+# 3851;txt;01
+# Törlés::Parancs
+# .
+
+3852;txt;01
+Törlés parancs
+.
+
+3853;txt;01
+Az automatikus és a manuális törlés esetén a következő rendszerparancs lesz használatban a sandbox tartalmának törléséhez.  Ha üresen hagyja, az alapértelmezett parancs (RMDIR - könyvtár eltávolítás) lesz végrehajtva.
+.
+
+3854;txt;01
+Ha módosítja ezt a beállítást, a "%%SANDBOX%%" szöveget szerepeltesse benne (idézőjelekkel).  A parancs végrehajtásakor, ez a szöveg fogja helyettesíteni a sandbox mappa helyét.
+.
+
+3855;txt;01
+Vagy választhat az előre beállított parancsok közül:
+.
+
+3856;txt;01
+Nem a "%%SANDBOX%%" törlési parancs lett megadva (idézőjelekkel).
+Valóban elfogadja ezt a törlési parancsot?
+.
+
+3857;txt;01
+Kérjük, keresse meg és válassza ki a következő programot - %2
+.
+
+#----------------------------------------------------------------------------
+# Program Groups
+#----------------------------------------------------------------------------
+
+3971;txt;01
+Programcsoportok
+.
+
+3972;txt;01
+Egyszerre csoportosíthat számos programot és elláthatja azokat egy csoportnévvel.  A programcsoportok azokat a beállításokat használhatják, amelyek elfogadják a programneveket.
+.
+
+3974;txt;01
+Új csoport
+.
+
+3975;txt;01
+Adja meg az új csoport nevét
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control:  Sandbox Settings:  Forced Folders/Programs/Users
+#----------------------------------------------------------------------------
+
+# 3861;txt;01
+# Programindítás::Kényszerített mappák
+# .
+
+3861;txt;02
+Program indítása
+.
+
+3862;txt;01
+Kényszerített mappák
+.
+
+3863;txt;01
+Ha bármely program izolált védelem nélkül indul a következő mappák egyikéből, kényszerítve lesz a jelenlegi sandbox alól való futtatásra.  Ez nem kerül alkalmazásra, ha a program egy másik sandboxból lett indítva.
+.
+
+3864;txt;01
+Kényszerítheti a Windows-t a CD/DVD-k izolált módú automatikus futtatására, azáltal, hogy felveszi a CD/DVD-ROM meghajtók betűjeleit az alábbi listára.
+.
+
+3865;txt;01
+A kényszerített mappáknak elsőbbsége van a kényszerített programokkal szemben.
+.
+
+3866;txt;01
+Válasszon egy mappát a kényszerített mappák listájához való hozzáadáshoz.
+.
+
+# 3871;txt;01
+# Programindítás::Kényszerített programok
+# .
+
+3872;txt;01
+Kényszerített programok
+.
+
+3873;txt;01
+Ha a következő programok bármelyike izolált védelem nélkül indul, kényszerítve lesz a jelenlegi sandbox alól való futtatásra.  Ez nem kerül alkalmazásra, ha a program egy másik sandboxból lett indítva.
+.
+
+# 3961;txt;01
+# Programindítás::Kényszerített felhasználók
+# .
+
+# 3962;txt;01
+# Kényszerített felhasználók
+# .
+
+# 3963;txt;01
+# Ha a következő felhasználói fiókok bármelyike bejelentkezik erre a számítógépre, a teljes bejelentkezési folyamat a jelenlegi sandboxba végrehajtandó futtatásra lesz kényszerítve.
+# .
+
+# 3964;txt;01
+# A kényszerített felhasználói fiókkal társított sandbox törléséhez, jelentkezzen be a Windows-ba és használja a Sandboxie vezérlőt a sandbox törléséhez.
+# .
+
+# 3965;txt;01
+# A kényszerített felhasználóknak elsőbbsége van a kényszerített programokkal és mappákkal szemben.
+# .
+
+#----------------------------------------------------------------------------
+# Sandboxie Control:  Sandbox Settings:  Linger/Leader Programs
+#----------------------------------------------------------------------------
+
+# 3881;txt;01
+# Programleállítás::Tovább futó programok
+# .
+
+3881;txt;02
+Program leállítása
+.
+
+3882;txt;01
+Tovább futó programok
+.
+
+3883;txt;01
+A következő programok automatikusan le lesznek állítva, ha azok az összes többi program leállása után, továbbra is futnak a sandboxban.
+.
+
+# 3891;txt;01
+# Programleállítás::Fő programok
+# .
+
+3892;txt;01
+Fő programok
+.
+
+3893;txt;01
+A következő alkalmazások elsődleges programoknak minősülnek az aktuális sandboxban.  A jelenlegi programok leállítása a sandboxban futó programok leállását okozhatja.
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control:  Sandbox Settings:  File Migration
+#----------------------------------------------------------------------------
+
+3901;txt;01
+Fájl áthelyezés
+.
+
+3903;txt;01
+A fájlok a sandboxba lesznek áttelepítve (másolva), mielőtt azokat módosítani tudnáik a sandboxban futó programok.  Azonban, nagyon nagy fájlok esetén az átviteli folyamat hosszabb időt vehet igénybe.
+.
+
+3904;txt;01
+A következő szám határozza meg az áttelepíthető fájl maximális méretét.  Az ennél nagyobb méretű fájlok soha nem lesznek áttelepítve a sandboxba, és nem lesznek módosíthatóak a sandboxban futó programok által.
+.
+
+3905;txt;01
+Ne helyezze át a fájlokat, ha nagyobbak
+.
+
+3906;txt;01
+kilobájtnál
+.
+
+3907;txt;01
+Ha egy fájl túl nagy az átvitelhez az SBIE2102 üzenet fog megjelenni, ha a következő opció aktiválva van.
+.
+
+3908;txt;01
+Ne jelenítsen meg üzenetet ha egy fájl túl nagy az átvitelhez
+.
+
+3909;txt;01
+A fájl áthelyezési beállítás korlátozza a sandboxba másolandó fájl maximális méretét.
+
+A beállítás jelenleg %3 kilobájtra van állítva a(z) '%2' sandboxban.
+
+Kattintson az OK gombra a méretkorlát %4 kilobájtra állításához.
+
+Ezt a méretkorlátot módosíthatja a Sandbox beállítások ablak, Fájl áthelyezési beállítások lapján is.
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control:  Sandbox Settings:  Internet/Start Restrictions
+#----------------------------------------------------------------------------
+
+# 3911;txt;01
+# Korlátozások::Internet-hozzáférés
+# .
+
+3911;txt;02
+Korlátozások
+.
+
+3912;txt;01
+Internet-hozzáférés
+.
+
+3913;txt;01
+Csak a következő programok férhetnek hozzá az internethez ebből a sandboxból.
+.
+
+3914;txt;01
+Ha ez a funkció engedélyezve van, a jelenlegi sandboxba telepített (vagy letöltött) programok nem kaphatnak internet-hozzáférési engedélyt, ha csak azok meg nem egyeznek a fent megadott programok neveivel.
+.
+
+3915;txt;01
+SBIE%2 hibaüzenet megjelenítése hozzáférés megtagadás esetén
+.
+
+3916;txt;01
+Az összes program blokkolása
+.
+
+3917;txt;01
+Az összes program engedélyezése
+.
+
+3918;txt;01
+Minden program hozzáférhet az internethez
+.
+
+3919;txt;01
+A programok nem férhetnek hozzá az internethez
+.
+
+3920;txt;01
+Az internet hozzáférési korlátozások engedélyezve vannak a(z) '%2' sandoxban és meggátolják a program hozzáférését az internethez.
+
+Kattintson az OK gombra, ha hozzá kívánja adni a(z) '%3' programot az Internet hozzáférési korlátozások listához a(z) '%2' sandboxban.
+
+Az Internet hozzáférési korlátozások kezeléséhez, nyissa meg a Sandbox beállítások ablakot és lépjen a Korlátozások beállításai csoportba.
+.
+
+# 3921;txt;01
+# Korlátozások::Indítási/Futtatási hozzáférés
+# .
+
+3922;txt;01
+Indítási/Futtatási hozzáférés
+.
+
+3923;txt;01
+Az alábbi programok lesznek azok a programok a sandboxon belül, amelyeket elindíthat illetve futtathat.
+.
+
+3924;txt;01
+Amikor ez a funkció engedélyezve van, a jelenlegi sandboxba telepített (vagy letöltött) programok, soha többé nem kapnak indítási vagy futtatási engedélyt, hacsak a program neve nem egyezik meg a fent megadottal.
+.
+
+3928;txt;01
+Minden program indulható illetve futtatható
+.
+
+3930;txt;01
+Az Indítási/Futtatási hozzáférés korlátozások engedélyezve vannak a(z) '%2' sandoxban és meggátolják a program indítását és futtatását.
+
+Kattintson az OK gombra, ha hozzá kívánja adni a(z) '%3' programot az Indítási/Futtatási hozzáférés korlátozások listához a(z) '%2' sandboxban.
+
+Az Indítási/Futtatási hozzáférési korlátozások kezeléséhez, nyissa meg a Sandbox beállítások ablakot és lépjen a Korlátozások beállításai csoportba.
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control:  Sandbox Settings:  Low Level Access / Hardware Access
+#----------------------------------------------------------------------------
+
+# 3931;txt;01
+# Korlátozások::Alacsony szintű hozzáférés
+# .
+
+3932;txt;01
+Alacsony szintű hozzáférés
+.
+
+3933;txt;01
+A következő beállítások gyengíthetik a Sandboxie által nyújtott védelmet.  A jelenlegi beállítások valamelyikének vagy mindegyikének engedélyezése nem ajánlott.
+.
+
+3934;txt;01
+Lehetővé teszi a programok számára a kernel módú illesztők betöltését az operációs rendszerbe
+.
+
+3935;txt;01
+Lehetővé teszi a programok számára az alkalmazás (Win32) hook modulok betöltését más programokba
+.
+
+3936;txt;01
+Lehetővé teszi a programok számára a billentyűzet szimulálást és egér bevitelt
+.
+
+3937;txt;01
+Lehetővé teszi a programok számára az asztali háttérképek és egyéb rendszer paraméterek módosítását
+.
+
+3938;txt;01
+Lehetővé teszi a programok számára a hardvereszköz konfiguráció kezelését
+.
+
+# 3951;txt;01
+# Korlátozások::Hardver-hozzáférés
+# .
+
+3952;txt;01
+Hardver-hozzáférés
+.
+
+3953;txt;01
+Lehetővé teszi a programok számára a felhasználói fiók jelszavak módosítását
+.
+
+3954;txt;01
+Lehetővé teszi a programok számára a hálózati és tűzfal paraméterek módosítását
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control:  Sandbox Settings:  Drop Rights
+#----------------------------------------------------------------------------
+
+# 3941;txt;01
+# Korlátozások::Korlátozott jogok
+# .
+
+3942;txt;01
+Korlátozott jogok
+.
+
+3943;txt;01
+A Sandboxie csak néhány biztonsági jogot képes letiltani az általa felügyelt programoknál az elszigetelés garantálása érdekében.
+.
+
+3944;txt;01
+Azonban, ha Ön rendszergazdai vagy kiemelt felhasználói fiókot használ, a Sandboxie további biztonsági jogokat is képes letiltani, a DropMyRights segédprogramhoz hasonlóan.
+.
+
+3945;txt;01
+A Rendszergazdák és Kiemelt felhasználói csoportok jogainak korlátozása
+.
+
+3946;txt;01
+Javasoljuk, hogy hagyja ezt a beállítást engedélyezve, a 64 bites Windows kiadásokban nem elérhető bizonyos mértékű Sandboxie védelem kompenzálásaként.
+.
+
+3947;txt;01
+A 64 bites Windows fokozott védelmének aktiválásához, kérjük használja a Kísérleti védelem parancsot a Konfigurálás menüből.
+.
+
+3949;txt;01
+A korlátozott jogok beállítás engedélyezve van a(z) '%2' sandboxban, és megakadályozza a rendszergazdai jogok használatát.
+
+Az OK gombra kattintással letilthatja a Korlátozott jogok beállítást a(z) '%2' sandboxban, illetve ezzel engedélyezi a rendszergazdai jogosultságok használatát a sandboxban.
+
+Bármikor módosíthatja a Korlátozott jogok beállítást a Sandbox beállítások ablakban a Korlátozások beállítás csoport megnyitásával.
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control:  Sandbox Settings:  Resource Access
+#----------------------------------------------------------------------------
+
+4001;txt;01
+Erőforrás hozzáférés::Fájl hozzáférés::Közvetlen hozzáférés
+.
+
+4002;txt;01
+Közvetlen fájl hozzáférés (OpenFilePath)
+.
+
+4003;txt;01
+A következő fájlok és mappák közvetlenül hozzáférhetnek a jelenlegi sandboxban futó programokhoz, bármiféle izolációs következmény nélkül.
+.
+
+4004;txt;01
+Ez nem lesz alkalmazva a sandboxba telepített vagy letöltött programokra.
+Lásd még:  Teljes hozzáférés beállítás.
+.
+
+4011;txt;01
+Erőforrás hozzáférés::Fájl hozzáférés::Teljes hozzáférés
+.
+
+4012;txt;01
+Teljes fájl hozzáférés (OpenPipePath)
+.
+
+4013;txt;01
+A következő fájlok és mappák közvetlenül hozzáférhetnek a jelenlegi sandboxban futó programokhoz, bármiféle izolációs következmény nélkül.
+.
+
+4014;txt;01
+A közvetlen hozzáférési beállítástól eltérően, ez a beállítás alkalmazva lesz az összes programra, beleértve a sandboxba telepített és letöltött programokat is.
+.
+
+4021;txt;01
+Erőforrás hozzáférés::Fájl hozzáférés::Blokkolt hozzáférés
+.
+
+4022;txt;01
+Blokkolt fájl hozzáférés (ClosedFilePath)
+.
+
+4023;txt;01
+A következő fájlok és mappák nem lesznek elérhetőek a jelenlegi sandboxban futó valamennyi program számára.
+.
+
+4024;txt;01
+Ha egy fájl vagy mappa párosítható bármely más Fájl hozzáférési beállítással, de ugyanakkor passzol a Blokkolt hozzáférési beállításhoz is, a Blokkolt hozzáférési beállítás fog elsőbbséget élvezni.
+.
+
+4025;txt;01
+A Windows fájlmegosztás használható a Blokkolt fájl hozzáférési beállítások kijátszásához.
+Ezért, egy beállítás hozzáadásra kerül a Windows fájlmegosztási szolgáltatás elérésének blokkolása céljából.
+.
+
+4031;txt;01
+Erőforrás hozzáférés::Fájl hozzáférés::Csak-olvasható hozzáférés
+.
+
+4032;txt;01
+Csak-olvasható fájl hozzáférés (ReadFilePath)
+.
+
+4033;txt;01
+A következő fájlok és mappák nem lesznek módosíthatók a jelenlegi sandboxban futó programok által.
+.
+
+4111;txt;01
+Erőforrás hozzáférés::Fájl hozzáférés::Csak-írási hozzáférés
+.
+
+4112;txt;01
+Csak-írási fájl hozzáférés (WriteFilePath)
+.
+
+4113;txt;01
+A következő mappák üresnek fognak tűnni a jelenlegi sandboxban futó programok futtatásánál, de a programok létrehozhatnak új fájlokat ezeken a mappákon belül a sandboxban.
+.
+
+4041;txt;01
+Erőforrás hozzáférés::Rendszerleíró hozzáférés::Közvetlen hozzáférés
+.
+
+4042;txt;01
+Közvetlen rendszerleíró hozzáférés (OpenKeyPath)
+.
+
+4043;txt;01
+A következő rendszerleíró kulcsok közvetlenül hozzáférhetnek a jelenlegi sandboxban futó programokhoz, mindenféle izolációs következmény nélkül.
+.
+
+4044;txt;01
+Ez nem lesz alkalmazva azokra a programokra, amelyek letöltésre vagy telepítésre kerültek a sandboxba.
+.
+
+4051;txt;01
+Erőforrás hozzáférés::Rendszerleíró hozzáférés::Blokkolt hozzáférés
+.
+
+4052;txt;01
+Blokkolt rendszerleíró hozzáférés (ClosedKeyPath)
+.
+
+4053;txt;01
+A következő rendszerleíró kulcsok, nem tudnak hozzáférni a jelenlegi sandboxban futó összes programhoz.
+.
+
+4054;txt;01
+Ha egy rendszerleíró kulcs párosítható bármely más Rendszerleíró hozzáférési beállítással, továbbá összeillik bármelyik Blokkolt hozzáférési beállítással, a Blokkolt hozzáférési beállítás fog elsőbbséget élvezni.
+.
+
+4061;txt;01
+Erőforrás hozzáférés::Rendszerleíró hozzáférés::Csak-olvasható hozzáférés
+.
+
+4062;txt;01
+Csak-olvasható rendszerleíró hozzáférés (ReadKeyPath)
+.
+
+4063;txt;01
+A következő rendszerleíró kulcsok, nem tudják módosítani a jelenlegi sandboxban futó programokat.
+.
+
+4121;txt;01
+Erőforrás hozzáférés::Rendszerleíró hozzáférés::Csak-írási hozzáférés
+.
+
+4122;txt;01
+Csak-írási rendszerleíró hozzáférés (WriteKeyPath)
+.
+
+4123;txt;01
+A következő rendszerleíró kulcsok üresnek fognak tűnni a jelenlegi sandboxban futó programok futtatásánál, de a programok új adatot írhatnak ezeken a rendszerleíró kulcsokon belül a sandboxban.
+.
+
+4071;txt;01
+Erőforrás hozzáférés::IPC hozzáférés::Közvetlen hozzáférés
+.
+
+4072;txt;01
+Közvetlen IPC hozzáférés (OpenIpcPath)
+.
+
+4073;txt;01
+A következő NT IPC objektumok közvetlenül hozzáférhetnek a jelenlegi sandboxban futó programokhoz, mindenféle izolációs következmény nélkül.
+.
+
+4074;txt;01
+Ez a beállítás az összes programra alkalmazva lesz, beleértve azokat is, amelyek letöltésre vagy telepítésre kerültek a sandboxba.
+.
+
+4081;txt;01
+Erőforrás hozzáférés::IPC hozzáférés::Blokkolt hozzáférés
+.
+
+4082;txt;01
+Blokkolt IPC hozzáférés (ClosedIpcPath)
+.
+
+4083;txt;01
+A következő NT IPC objektumok, nem tudnak hozzáférni a jelenlegi sandboxban futó összes programhoz.
+.
+
+4084;txt;01
+Ha az NT IPC objektum megfelel bármely más IPC hozzáférési beállításnak, de ezen felül passzol bármilyen Blokkolt hozzáférési beállításhoz is, a Blokkolt hozzáférési beállítás fog elsőbbséget élvezni.
+.
+
+4091;txt;01
+Erőforrás hozzáférés::Ablak hozzáférés
+.
+
+4092;txt;01
+Ablak hozzáférés (OpenWinClass)
+.
+
+4093;txt;01
+Az izolált programok nem tudnak kommunikálni az ablakokkal, amelyek a sandboxon kívül futó programokhoz tartoznak, hacsak az ablak nem a következő ablak osztályok egyikével lett létrehozva.
+.
+
+4101;txt;01
+Erőforrás hozzáférés::COM hozzáférés
+.
+
+4102;txt;01
+COM hozzáférés (OpenClsid)
+.
+
+4103;txt;01
+Az izolált programok nem tudnak kommunikálni a COM objektumokkal, amelyek a sandboxon kívül futó programokhoz tartoznak, hacsak a COM osztályazonosító meg nem egyezik a következő osztályazonosítók egyikével.
+.
+
+#----------------------------------------------------------------------------
+# Applications - General
+#----------------------------------------------------------------------------
+
+4201;txt;01
+Alkalmazások
+.
+
+4202;txt;01
+Kód megjelenítése
+.
+
+4203;txt;01
+Weboldal megnyitása
+.
+
+4204;txt;01
+Új létrehozása
+.
+
+4205;txt;01
+A jelenlegi alkalmazás konfiguráció nem tartalmaz webcímet.
+.
+
+4206;txt;01
+Egyebek
+.
+
+4207;txt;01
+A Sandboxie használatának bővítéséhez bevonhat további alkalmazásokat az alábbi listáról való kiválasztás segítségével.
+.
+
+# 4208;txt;01
+# Alkalmazások::Mappák
+# .
+
+4209;txt;01
+Mappák
+.
+
+4210;txt;01
+Állítsa be az egyéb alkalmazások által használt mappák helyeit.
+.
+
+4211;txt;01
+Válasszon mappát
+.
+
+4212;txt;01
+Alapértelmezett hely:
+.
+
+4213;txt;01
+Alternatív hely:
+.
+
+4214;txt;02
+Egy másik helyen a(z) '%2' esetén
+tartalmaznia kell a következő fájlt:
+
+%3
+
+A kiválasztott hely nem tartalmazza ezt a fájlt.
+
+Kérjük, válasszon egy mappát, amelyik tartalmazza ezt a fájlt.
+.
+
+4215;txt;01
+Válassza ki a(z) %2 által használt mappát.
+.
+
+4216;txt;01
+Az alábbi beállítások képezik a(z) '%2' alkalmazás konfigurációt.
+.
+
+4217;txt;01
+Gépelje vagy illessze be a beállításokat, majd kattintson az OK gombra az új helyi alkalmazás konfiguráció létrehozásához.
+.
+
+4218;txt;01
+Helyi
+.
+
+4219;txt;01
+Az Ön helyi (nem hivatalos) alkalmazás konfigurációi.
+.
+
+4220;txt;01
+A megadott kód egy vagy több hibát tartalmaz.
+Nem lehet létrehozni az alkalmazás konfigurációt.
+.
+
+4221;txt;01
+Az alkalmazások mappa útvonalának megadásához, tekintse meg a Mappák lapot.
+.
+
+4222;txt;02
+Ez a beállítás nem szerkeszthető vagy távolítható el, mivel az egy
+alkalmazás konfiguráció része:
+
+%2
+
+A sandboxból való alkalmazás konfiguráció eltávolításához,
+tekintse meg az Alkalmazások lapot a Sandbox beállítások ablakban.
+.
+
+4223;txt;01
+A(z) '%2' helyi alkalmazás konfiguráció most eltávolításra kerül az összes sandboxban.
+Teljesen törölni szeretné ezt az alkalmazás konfigurációt?
+.
+
+4224;txt;01
+PDF/Nyomtatás
+.
+
+4226;txt;02
+Biztonság/Adatvédelem
+.
+
+4228;txt;01
+Asztali segédprogramok
+.
+
+4230;txt;01
+Letöltéskezelők
+.
+
+4288;txt;01
+Az összes alkalmazás
+.
+
+4289;txt;01
+Az alkalmazás konfigurációk listája ábécésorrendbe rendezve.  A lista nem tartalmazza a helyi (nem hivatalos) alkalmazás konfigurációkat.
+.
+
+4291;txt;01
+Az Azonnali helyreállítás alapértelmezett kizárásai
+.
+
+4292;txt;01
+A tovább futó programok alapértelmezett listája
+.
+
+4293;txt;01
+A blokkolt TCP/IP portok alapértelmezett listája
+.
+
+4294;txt;01
+Engedélyezi a programok számára a jump list menük frissítését a Windows tálcáján
+.
+
+#----------------------------------------------------------------------------
+# Applications - Software Compatibility
+#----------------------------------------------------------------------------
+
+4251;txt;01
+Szoftver kompatibilitás
+.
+
+4252;txt;01
+A Sandboxie a következő szoftver alkalmazásokat észlelte az Ön rendszerében.
+.
+
+4253;txt;01
+Kattintson az OK gombra a konfigurációs beállítások alkalmazásához, amelyek javítani fogják a kompatibilitást ezekkel az alkalmazásokkal.
+.
+
+4254;txt;01
+Ezek a konfigurációs beállítások hatással lesznek az összes meglévő és új sandbox tárolókra.
+.
+
+4255;txt;01
+A jövőben ne legyen szoftver kompatibilitás vizsgálat
+.
+
+4256;txt;01
+A jelenlegi alkalmazás konfiguráció távolítható el, mivel az alkalmazva van az összes sandbox tárolóra.
+Az alkalmazás konfiguráció eltávolításához, használja a Konfigurálás menüben található Szoftver kompatibilitás eszközt.
+.
+
+4257;txt;01
+Régi beállítások eltávolítása
+.
+
+4258;txt;01
+A következő kompatibilitási beállítások már nincsenek használatban:
+
+%2
+
+Kattintson az OK gombra a jelenlegi konfigurációs beállítások érvénytelenítéséhez.
+.
+
+4451;txt;01
+A Sandboxie a következő ütközö alkalmazásokat észlelte az Ön
+rendszerében.  Ezek az alkalmazások gátolhatják a Sandboxie
+megfelelő működését.
+
+%2
+
+További információkért és megoldásokért, kérjük, tekintse meg az
+Ismert ütközések lapot a Sandboxie weboldalán.
+
+Megnyitja az Ismert ütközések weblapot most?
+.
+
+4452;txt;01
+Ismert ütközések
+.
+
+#----------------------------------------------------------------------------
+# Lock Configuration
+#----------------------------------------------------------------------------
+
+4261;txt;01
+Konfiguráció zárolása
+.
+
+4262;txt;01
+A Sandboxie képes levédeni a teljes konfigurációt és Sandbox beállításokat a jogosulatlan módosítások ellen.  Válasszon védelmi módokat az engedélyezéshez vagy tiltáshoz.
+.
+
+4263;txt;01
+Csak a rendszergazda felhasználói fiókokat lehet módosítani
+.
+
+4264;txt;01
+A módosításáok elvégzéséhez, meg kell adnia a jelszót
+.
+
+4265;txt;01
+Jelszó mellőzése, mikor a Sandboxie vezérlőablaka rejtetté válik
+.
+
+4266;txt;01
+Jelszó módosítása
+.
+
+4267;txt;01
+Csak a rendszergazda felhasználói fiókok használhatják a Kényszerített programok letiltása parancsot
+.
+
+4269;txt;01
+Kérjük, fontolja meg a konfiguráció védelmére vonatkozó Sandboxie
+dokumentációs lap átolvasását.  Szeretné most megnyitni ezt a lapot?
+.
+
+4271;txt;01
+A Sandboxie konfigurációja jelszóval védett. Kérjük, adja meg a jelszót most.
+.
+
+4272;txt;01
+Adjon meg egy új jelszót a Sandboxie konfigurációjának védelméhez.
+.
+
+4273;txt;01
+Adja meg újra ugyanazt a jelszót a megerősítéshez.
+.
+
+4274;txt;01
+Rossz jelszó lett megadva.  Megpróbálja újra?
+.
+
+#----------------------------------------------------------------------------
+# Program Selector
+#----------------------------------------------------------------------------
+
+4281;txt;01
+Válasszon egy programnevet
+.
+
+4282;txt;01
+Válasszon egy programnevet vagy programcsoportot
+.
+
+4283;txt;01
+Nemrég elindított programok
+.
+
+4284;txt;01
+Sandbox beállításokban megjelenő programok
+.
+
+4285;txt;01
+Programcsoportok
+.
+
+4286;txt;01
+Válasszon ki vagy adjon meg egy programot:
+.
+
+4287;txt;01
+&Fájl kiválasztása/ megnyitása
+.
+
+#----------------------------------------------------------------------------
+# Applications - Accessibility
+#----------------------------------------------------------------------------
+
+# 4301;txt;01
+# Alkalmazások::Hozzáférhetőség
+# .
+
+4302;txt;01
+Hozzáférhetőség
+.
+
+4303;txt;01
+Az alábbi beállítások lehetővé teszik a Sandboxie számára egy kiegészítő szoftver használatát.  Kérjük, vegye figyelembe, hogy néhány Sandboxie védelmi intézkedés szükségszerűen el fog veszni a beállítások engedélyezésekor.
+.
+
+4304;txt;01
+A védelmi veszteség kompenzálására, látogasson el a Korlátozott jogok beállítás lap Korlátozások csoportjába.
+.
+
+4305;txt;03
+Képernyőolvasók:  %2
+.
+
+#----------------------------------------------------------------------------
+# Applications - Web Browser and Email Reader
+#----------------------------------------------------------------------------
+
+4321;txt;01
+Webböngésző
+.
+
+4322;txt;01
+A következő kizárások lehetővé teszik a webböngészők futtatását a sandboxon kívüli változtatások végrehajtására, ily módon csökkenhet a biztonsági és adatvédelmi korlát, de felgyorsulhat a forrásokhoz való hozzáférés.
+.
+
+4323;txt;01
+A(z) %2 futtatásának kényszerítése a jelenlegi sandboxban
+.
+
+4324;txt;02
+Közvetlen hozzáférés engedélyezése a(z) %2 adat szinkronizáláshoz
+.
+
+4325;txt;02
+Közvetlen hozzáférés engedélyezése a(z) %2 hírcsatornákhoz
+.
+
+4326;txt;02
+Közvetlen hozzáférés engedélyezése a(z) %2 kedvencekhez
+.
+
+4327;txt;01
+Az Internet Explorer Kedvencek hozzáadása a Gyors helyreállítási mappákhoz
+.
+
+4328;txt;01
+Közvetlen hozzáférés engedélyezése a(z) %2 cookie-khoz
+.
+
+4329;txt;01
+Mentés a sandboxon kívül:  Kereső kifejezések és meghívott parancsok előzményei
+.
+
+4330;txt;01
+Mentés a sandboxon kívül:  Hotmail és Messenger fiók információk
+.
+
+4331;txt;01
+Közvetlen hozzáférés engedélyezése a(z) %2 jelszavakhoz
+.
+
+4336;txt;02
+Közvetlen hozzáférés engedélyezése a(z) %2 könyvjelzőkhöz és az előzmény adatbázishoz
+.
+
+4337;txt;02
+Közvetlen hozzáférés engedélyezése a(z) %2 adathalász adatbázishoz
+.
+
+4338;txt;02
+Közvetlen hozzáférés engedélyezése a teljes %2 profil mappához
+.
+
+4339;txt;02
+Közvetlen hozzáférés engedélyezése a(z) %2 beállításokhoz
+.
+
+4340;txt;01
+Közvetlen hozzáférés engedélyezése a(z) %2 munkamenet kezeléshez
+.
+
+4356;txt;02
+Közvetlen hozzáférés engedélyezése a(z) %2 könyvjelzőkhöz
+.
+
+4357;txt;02
+Egyéb 
+.
+
+4358;txt;02
+Kiegészítők
+.
+
+4391;txt;01
+E-mail olvasó
+.
+
+4392;txt;01
+A következő kizárások lehetővé teszik az Email olvasók futtatását, ebben a sandboxban a postafiók állományok sandboxon kívüli eléréséhez.
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control:  Sandbox Settings:  User Accounts
+#----------------------------------------------------------------------------
+
+5101;txt;01
+Felhasználói fiókok
+.
+
+5102;txt;01
+Adjon felhasználói fiókokat és a felhasználói csoportokat az alábbi listához, hogy csak ezen fiókokra korlátozhassa a sandbox használatát.  Ha a lista üres, a sandbox szabadon használhatja az összes felhasználói fiókot.
+.
+
+5103;txt;01
+Megjegyzés : Egy sandbox kényszerített program és kényszerített mappa beállításai nem vonatkoznak a felhasználói fiókokra, amelyet nem tud használni a sandbox.
+.
+
+# 5105;txt;01
+# Felhasználó hozzáadása
+# .
+
+5107;txt;01
+Az Ön felhasználói fiókja most korlátozva van a jelenlegi sandbox használatától, és
+a sandbox eltávolításra kerül a képernyőről a fő ablakban.
+
+Ahhoz, hogy a sandbox látható és használható legyen, használja a " Rejtett Sandbox megjelenítése" 
+parancsot a Sandbox menüből.
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control:  Reveal Hidden Sandbox
+#----------------------------------------------------------------------------
+
+5122;txt;01
+A felhasználói fiók ki van zárva az összes alább felsorolt sandbox használatából.
+.
+
+5123;txt;01
+A következő felhasználói fiókokat használhatja a kiválasztott sandbox jelenleg.
+.
+
+5124;txt;01
+Kattintson az OK gombra a(z) '%2' felhasználói fiók hozzáadásához és a sandbox fő ablakban való megjelenítéséhez.
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control:  Set Layout and Groups
+#----------------------------------------------------------------------------
+
+5142;txt;01
+A sandbox-ok csoportokba rendezése és a felsorolás szerinti elrendezés testreszabása. Használja a jobb egérgombbos helyi menüt az elrendezés-fa alatti bejegyzések kezeléséhez.
+.
+
+5143;txt;01
+(Fent)
+.
+
+5145;txt;01
+Alapértelmezett elrendezés visszaállítása
+.
+
+5146;txt;01
+Csoport beszúrása
+.
+
+5147;txt;01
+Átnevezés
+.
+
+5148;txt;01
+Törlés
+.
+
+5151;txt;01
+Áthelyezés
+.
+
+5152;txt;01
+Felfelé
+.
+
+5153;txt;01
+Lefelé
+.
+
+5154;txt;01
+Mozgatás
+.
+
+#----------------------------------------------------------------------------
+# Getting Started Wizard
+#----------------------------------------------------------------------------
+
+7850;txt;01
+Első lépések bemutató - Sandboxie
+.
+
+7851;txt;01
+Első lépések a Sandboxie-val
+.
+
+7852;txt;01
+Üdvözli a Sandboxie!
+
+A Sandboxie a programokat egy elszigetelt környezetben futtatja, amely megakadályozza azokat abban, hogy módosításokat hajtsanak végre más programokban és a számítógépen lévő adatokban.
+
+Ez a bemutató röviden ismerteti a Sandboxie használatának alapelveit.
+.
+
+7853;txt;01
+Megjegyzés: Ez a leírás az alapértelmezett DefaultBox sandbox használatának bemutatására lett tervezve.
+.
+
+7854;txt;01
+Hogyan működik a Sandboxie (Illusztráció)
+.
+
+7855;txt;01
+Webböngésző indítása a Sandboxie alatt
+.
+
+7856;txt;01
+Keresse meg az asztalon lévő parancsikont, kattintson rá duplán a böngésző alapértelmezett DefaultBox-on belüli futtatásához.
+.
+
+7857;txt;01
+Kattintson ide az ablak elrejtéséhez és az asztal megjelenítéséhez
+.
+
+7858;txt;01
+A böngésző most már a sandbox-on belül fut
+.
+
+7859;txt;01
+A sandbox-ban lévő programok, csak a sandbox tartalmát tudják módosítani.
+
+A fájlok mentésénél vagy letöltésénél, azok közvetlenül a sandbox-ba kerülnek. Ha a fájlt az asztalra, a Dokumentumok vagy a Letöltések mappába menti, a Sandboxie felajánlja az állomány sandbox-on kívülre helyezését.
+
+Próbálja ki most: Töltsön le egy fájlt a böngészőben az asztali mappába (a sandbox-ban), majd helyezze a fájlt a valódi asztalra.
+.
+
+7860;txt;01
+A sandbox tartalmának törlése
+.
+
+7861;txt;01
+Úgy kell elképzelni a sandbox-ot, mintha az egy átlátszó papírlap lenne a program és a számítógép közé helyezve. A sandbox tartalmának törlése olyan, mint egy használt papírdarab eldobása, egy tiszta lapra lecserélve.
+.
+
+7862;txt;01
+Próbálja ki most: Törölje a DefaultBox sandbox tartalmát. Kérjük, keresse meg a sárga Sandboxie ikont a képernyő kijelölt sarkában, és kattintson rá:
+.
+
+7863;txt;01
+Kattintson a jobb gombbal a sárga Sandboxie ikonra,
+
+válassza ki a DefaultBox menüelemet, majd indítsa el a Tartalom törlése parancsot.
+.
+
+7864;txt;01
+Indulásra kész!
+.
+
+7865;txt;01
+Köszönjük, hogy időt szánt a jelen bemutató megtekintésére. További útmutatókért és tippekért, keresse fel a Sandboxie weboldalát.
+
+Az alapértelmezett beállítások a Sandboxie programban teljes védelmet nyújtanak, de érdemes áttekinteni a sandbox konfigurálási parancsait a Sandboxie vezérlő ablakában található Sandbox menüben.
+.
+
+7866;txt;01
+A 64-bites Windows operációs rendszerben, engedélyeznie kell a Kísérleti védelmet. Lásd Konfigurálás menü a Sandboxie vezérlőben.
+.
+
+#----------------------------------------------------------------------------
+# License Manager
+#----------------------------------------------------------------------------
+
+7901;txt;01
+Sandboxie licenckezelő
+.
+
+7902;txt;01
+Rendszerkód: %2
+.
+
+7903;txt;01
+A jövőben aktiválja a licencet rákérdezés nélkül
+.
+
+#----------------------------------------------------------------------------
+
+7921;txt;01
+A Sandboxie regisztrálva és a licenc is aktiválva lett.
+.
+
+7922;txt;01
+A Sandboxie regisztrálva van, de a licencet most újra kell aktiválnia.
+.
+
+# was 3603;txt;01
+7923;txt;01
+Regisztrálatlan verzió.  Regisztráljon még ma!
+.
+
+7924;txt;01
+A Sandboxie licencet %2 nap múlva újra kell aktiválni.
+.
+
+7925;txt;01
+A Sandboxie licenc most aktiválva lett.
+.
+
+7926;txt;01
+A termékkulcs lejárati dátuma: %2.
+.
+
+7927;txt;01
+A termékkulcs nem rendelkezik lejárati dátummal.
+.
+
+#----------------------------------------------------------------------------
+
+7931;txt;01
+Az Ön Sandboxie példánya egy elavult regisztrációs kulccsal lett regisztrálva.
+.
+
+7932;txt;01
+Kérjük. tegye lehetővé  a Licenckezelő számára a licenckiszolgálóhoz való csatlakozást és frissítse a régi regisztrációs kulcsot egy új termékkulcsra.  Nem kell semilyen díjat fizetnie a frissítésért. 
+.
+
+7933;txt;01
+A regisztrációs kulcsot nem ismerte fel a licenckiszolgáló.
+.
+
+7934;txt;01
+Ha korábban már használt egy legitim regisztrációs kulcsot, amit Ön kifizetett, ajándékba vagy egy promóció részeként kapott, kérjük küldjön egy levelet ide:
+.
+
+7935;txt;01
+Az Ön új termékkulcsa :
+.
+
+7936;txt;01
+Kérjük, ügyeljen arra, hogy a termékkulcs biztonságos helyen legyen tárolva egy későbbi használat esetére.  Használja az alábbi gombot a termékkulcs vágólapra másolásához, amelyet aztán egy dokumentumba illesztve ki is nyomtathat.
+.
+
+7937;txt;01
+A regisztrációs kulcs frissítése Termékkulcsra
+.
+
+#----------------------------------------------------------------------------
+
+# was 3612;txt;01
+7941;txt;01
+A Sandboxie regisztrációja egy harmadik fél által üzemeltetett fizetési feldolgozón keresztül zajlik.  A regisztrációs folyamat megkezdéséhez az alábbi hivatkozás segítségével, látogsson el a Sandboxie weboldalára.
+.
+
+7942;txt;01
+A Sandboxie licenc aktiválásához, adja meg a fizetési bizonylaton feltüntetett termékkulcsot, majd kattintson a Licenc aktiválása gombra.
+.
+
+7943;txt;01
+Meg szeretne adni egy új termékkulcsot most?
+.
+
+7944;txt;01
+&Licenc aktiválása
+.
+
+# was first line of 3617;txt;01
+7945;txt;01
+Az Ön Sandboxie példánya regisztrálva lett.
+.
+
+# was second line of 3617;txt;01
+7946;txt;01
+Köszönjük, hogy támogatja a Sandboxie terméket!
+.
+
+#----------------------------------------------------------------------------
+
+7951;txt;01
+Szeretné most aktiválni a licencet?
+.
+
+7952;txt;01
+Kérjük, látogasson el a Sandboxie weboldalára az alábbi hivatkozás segítségével, egy új termékkulcs rendeléséhez.
+.
+
+7961;txt;01
+Licencinformáció törlése
+.
+
+7962;txt;01
+Valóban törölni szeretné a Sandboxie licencinformációit?
+
+A licencet bármikor aktiválhatja egy termékkulcs megadásával.
+.
+
+#----------------------------------------------------------------------------
+
+7971;txt;01
+Ez nem érvényes Termékkulcs.
+.
+
+7972;txt;01
+Ez nem érvényes Rendszerkód.
+.
+
+7973;txt;01
+Ez nem érvényes Aktiválókód.  [%2]
+.
+
+7974;txt;01
+Érvénytelen válasz érkezett a licenckiszolgálóról.
+.
+
+7975;txt;01
+A termékaktiválás sikertelen:
+.
+
+7976;txt;01
+Szeretné újra megpróbálni?
+.
+
+7977;txt;01
+Ha szüksége van a Sandboxie aktiválására egy olyan számítógépen, amely nem rendelkezik
+internet-hozzáféréssel, kérjük a tekintse meg a licencelési GYIK tájékoztatót a kapcsolat nélküli aktiválásról.
+.
+
+7978;txt;01
+Az aktuális (%2) dátum későbbi, mint a licenckiszolgálóról küldött (%3) dátum.
+.
+
+7982;txt;01
+A licenckiszolgáló nem határozta meg az aktiválási hiba okát.
+.
+
+7983;txt;01
+A termékkulcsot nem ismerte fel a Licenckiszolgáló.
+.
+
+7984;txt;01
+A termékkulcs nem használható a(z) %2 lejárati dátumon túl.
+.
+
+7985;txt;01
+A termékkulcs túl sok számítógépen lett aktiválva.
+.
+
+7986;txt;01
+A termékkulcs törölve lett, mivel az nyilvánosságra került az interneten.
+.
+
+7987;txt;01
+A termékkulcs törölve lett, mivel a megrendelést visszavonták.
+.
+
+#----------------------------------------------------------------------------
+# SandboxieInstall
+#----------------------------------------------------------------------------
+
+8001;ins;01
+Válassza ki a telepítés típusát
+.
+
+8002;ins;01
+Válassza ki a Felülíró vagy Eltávolító módot.
+.
+
+8003;ins;01
+Indítás
+.
+
+8004;ins;01
+Már van egy létező Sandboxie telepítés a következő mappában:
+.
+
+8005;ins;01
+Kérjük válassza ki, hogyan tovább:
+.
+
+8006;ins;01
+A meglévő telepítés felülírása (frissítés)
+.
+
+8007;ins;01
+A meglévő telepítés és beállítások eltávolítása (törlés)
+.
+
+8008;ins;01
+Kattintson az Indítás gombra, ha készen áll a folytatásra.
+.
+
+8009;ins;01
+Eltávolítás elött, használja a Sandboxie vezérlőt a sandbox tartalmának törléséhez.
+.
+
+8010;ins;01
+Illesztőprogram telepítése
+.
+
+8011;ins;01
+Kérjük, tekintse át az alábbi információkat.
+.
+
+8012;ins;01
+Kattintson a Tovább gombra a Sandboxie rendszer-szintű vezérlőprogramjának telepítéséhez és aktiválásához.  Ez az illesztőprogram a Sandboxie alkalmazás lelke.
+.
+
+8013;ins;01
+Elképzelhető, hogy átmenetileg le kell tiltania azokat a jelenleg futó rendszervédelmi eszközöket, amelyek megakadályozhatják a rendszer-szintű vezérlőprogram telepítését.
+.
+
+8014;ins;02
+Ha ez a lépés sikertelen és a számítógép lefagy vagy újraindul, kérjük, csökkentett módban indítsa újra a gépet, majd futtassa ezt a telepítőprogramot a Sandboxie eltávolításához.
+.
+
+8015;ins;01
+Az illesztőprogram telepítése sikeres a legtöbb rendszeren.
+.
+
+8016;ins;01
+Kis türelmet, míg a Sandboxie eltávolításra kerül.
+.
+
+8021;ins;01
+Bármilyen program futtatása izolált módban.lnk
+.
+
+8022;ins;01
+Bármilyen program futtatása a Sandboxie felügyelete alatt
+.
+
+8023;ins;01
+Sandboxie start menü.lnk
+.
+
+8024;ins;01
+Válasszon egy programot a Sandboxie felügyelete alatt futó start menüből
+.
+
+8025;ins;01
+Webböngésző futtatása izolált módban.lnk
+.
+
+8026;ins;01
+Az alapértelmezett böngésző futtatása a Sandboxie felügyelete alatt
+.
+
+8027;ins;01
+Windows Intéző futtatása izolált módban.lnk
+.
+
+8028;ins;01
+Böngéssze a helyi asztalt és számítógépet a Sandboxie felügyelete alatt
+.
+
+8029;ins;01
+Sandboxie vezérlő.lnk
+.
+
+8030;ins;01
+Sandboxie vezérlőpult megnyitása
+.
+
+8031;ins;01
+Sandboxie eltávolító.lnk
+.
+
+8032;ins;01
+A Sandboxie eltávolítása
+.
+
+8033;ins;01
+=copy:3698
+.
+
+8041;ins;01
+A Sandboxie csak a következő Microsoft Windows változatokra telepíthető fel:
+.
+
+8042;ins;01
+A Sandboxie-t egy rendszergazdai jogokkal rendelkező felhasználói fiókon keresztül
+kell telepíteni a rendszerben.
+
+Ha a Windows-t az engedélyezett Felhasználói Fiókok Felügyelete (UAC) opcióval
+használja, ügyeljen arra, hogy a telepítési csomag indításánál a Futtatás
+rendszergazdaként parancsot használja.
+.
+
+8043;ins;01
+A Sandboxie 32-bites változata nem telepíthető 64-bites operációs rendszerre.
+.
+
+8044;ins;01
+A Sandboxie 64-bites változata nem telepíthető 32-bites operációs rendszerre.
+.
+
+8051;ins;01
+A Sandboxie vezérlő program jelenleg fut.
+
+Kattintson az OK gombra a bezáráshoz, majd utánna folytathatja a telepítést.
+
+Kattintson a Mégse gombra a telepítés megszakításához.
+.
+
+8052;ins;01
+Nem lehet létrehozni vagy frissíteni a Sandboxie programfájlokat.
+
+Kérjük, győződjön meg róla, hogy a Sandboxie vezérlő nem fut-e,
+és, hogy nincsenek-e izolált módban futó programok.
+
+Ezután kattintson az OK gombra a telepítés megismétléséhez.
+
+Ellenkező esetben kattintson a Mégse gombra a telepítés megszakításához.
+.
+
+8053;ins;01
+*** KmdUtil hiba.  A telepítés vagy az eltávolítás nem fejeződött be teljesen. ***
+.
+
+8054;ins;01
+Szeretné megtartani a Sandboxie.ini konfigurációs fájlt?
+
+Válassza az Igen opciót a Sandboxie.ini fájlban lévő konfigurációs beállítások megtartásához.
+
+Válassza a NEM opciót a Sandboxie.ini fájl törléséhez és a konfigurációs beállítások elvesztéséhez.
+.
+
+8055;ins;01
+Elérhető a Templates.ini online frissítése és/vagy a sandboxie ezen verziójához tartozó fordítások. Szeretné telepíteni?
+.
+
+#----------------------------------------------------------------------------
+# KmdUtil
+#----------------------------------------------------------------------------
+
+8101;txt;01
+Pillanatnyilag nem lehet telepíteni az illesztőprogramot.
+
+Kérjük, indítsa újra a számítógépet,
+majd végezze el újra a telepítési műveletet.
+
+Sikertelen funkció: %2
+.
+
+8102;txt;01
+Pillanatnyilag nem lehet leállítani a szolgáltatást.
+A(z) '%2' szolgáltatás foglalt.
+
+Kérjük, kattintson az OK gombra a művelet megismétléséhez.
+.
+
+8103;txt;01
+Ez az első próbálkozás a háromból.
+.
+
+8104;txt;01
+Ez a második próbálkozás a háromból.
+.
+
+8105;txt;01
+Ez a harmadik és utolsó próbálkozás.
+.
+
+8106;txt;02
+A következő programokat be kell zárni, mielőtt a telepítés folytatódik.
+A folytatáshoz az OK gombra kattintással bezárhatja ezeket a programokat.  Kattintson a Mégse gombra a telepítés megszakításához.
+.

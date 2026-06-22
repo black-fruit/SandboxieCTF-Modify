@@ -1,0 +1,3686 @@
+#----------------------------------------------------------------------------
+# SbieDrv
+#
+# Initialization errors issued to the System event Log
+#----------------------------------------------------------------------------
+
+1101;evt;inf;01
+SBIE1101  Sandboxie ovladač (SbieDrv) verze %2 inicializovaná
+.
+
+1102;evt;inf;01
+SBIE1102 Sandboxie ovladač (SbieDrv) vyjmutí
+.
+
+1103;evt;err;01
+SBIE1103 Sandboxie ovladač (SbieDrv) verze %2 se nepodařilo spustit
+.
+
+1104;evt;err;01
+SBIE1104 Nedostatek systémových prostředků na dokončení inicializace
+.
+
+1105;evt;err;01
+SBIE1105 Neznámý operační systém, verze: %2
+.
+
+1106;evt;err;01
+SBIE1106 Chyba %2, detail %3
+.
+
+# 1107;evt;err;01
+# SBIE1107 Chyba v přístupu k účtu LocalSystem %2
+# .
+
+1108;evt;err;01
+SBIE1108 Procedura %2 nemohla být analyzována
+.
+
+1109;evt;err;01
+SBIE1109 Neplatné licenční údaje: %2
+.
+
+1110;evt;err;01
+SBIE1110 Nelze podchytit typ %3, chyba %2
+.
+
+1111;evt;err;01
+SBIE1111 Systém DLL %3 nelze načíst %2
+.
+
+1112;evt;err;01
+SBIE1112 Procedura %2 nelze zachytit typ
+.
+
+1113;evt;err;01
+SBIE1113 Nelze najít Nt systémové služby, důvod, %2
+.
+
+1114;evt;err;01
+SBIE1114 Nelze najít Zw systémové služby, důvod, %2
+.
+
+1116;evt;err;01
+SBIE1116 Ovladač se nepodařilo zaregistrovat, proces rutinního oznámení %2
+.
+
+1119;evt;err;01
+SBIE1119 Nelze vytvořit API zařízení %2
+.
+
+1120;evt;err;01
+SBIE1120 Chyba ve službě %2
+.
+
+1121;evt;err;01
+SBIE1121 Chyba při zachycení služby %2
+.
+
+1122;evt;err;01
+SBIE1122 Chyba: %2
+.
+
+#----------------------------------------------------------------------------
+# SbieDrv
+#
+# Error Messages to both Event and Popup Logs
+#----------------------------------------------------------------------------
+
+1151;evt;pop;err;01
+SBIE1151 Příkaz nelze zvládnout %2
+.
+
+1152;evt;pop;err;01
+SBIE1152 Alokace trampolíny se nezdařila %2
+.
+
+1153;evt;pop;err;01
+SBIE1153 Sandboxie inicializace se nezdařila. Zavřete všechny programy a poté znovu instalujte Sandboxie nebo restartujte počítač.
+.
+
+#----------------------------------------------------------------------------
+# SbieDrv
+#
+# Error Messages to Popup Log
+#----------------------------------------------------------------------------
+
+1201;pop;err;01
+SBIE1201 Není dostatek paměti
+.
+
+1202;pop;err;01
+SBIE1202 Nelze aktualizovat licenční údaje: %2
+.
+
+1203;pop;err;01
+SBIE1203 Nelze vytvořit seznam cest (chyba v %2)
+.
+
+1204;pop;err;01
+SBIE1204 Vytvoření Sandboxu selhalo pro %3 %2
+.
+
+1211;pop;err;01
+SBIE1211Nepodařilo se zahájit Sandbox pro proces %2
+.
+
+1212;pop;err;01
+SBIE1212 Nelze vytvořit adresář %3' %2
+.
+
+1213;pop;err;01
+SBIE1213 Nelze vytvořit objekt adresáře %3' %2
+.
+
+# 1214;pop;err;01
+# SBIE1214 Nelze injektovat SbieDll %2
+# .
+
+# 1215;pop;err;01
+# SBIE1215 Nelze vyřešit cestu do obrazu procesu %2
+# .
+
+# 1216;pop;err;01
+# SBIE1216 Nelze se dotázat na bezpečnost ID %2
+# .
+
+# 1217;pop;err;01
+# SBIE1217 Nenalezen rodič procesu
+# .
+
+# 1221;pop;err;01
+# SBIE1221 Nelze vytvořit pracovní místo: %2
+# .
+
+1222;pop;err;02
+SBIE1222 Chyba bezpečnostního tokenu: %2
+.
+
+# 1223;pop;err;01
+# SBIE1223 Nelze nahradit známku: %2
+# .
+
+# 1224;pop;err;01
+# SBIE1224 Nelze se dotázat na známku: %2
+# .
+
+1231;pop;err;01
+SBIE1231 Initialization failed for process %3 %2
+.
+
+1241;pop;err;01
+SBIE1241 Nelze připojit větev registru: %2
+.
+
+1242;pop;err;01
+SBIE1242 Přetečení vyrovnávací paměti
+.
+
+#----------------------------------------------------------------------------
+# SbieDrv
+#
+# Informational Messages to Popup Log
+#----------------------------------------------------------------------------
+
+1301;pop;inf;01
+SBIE1301 Program '%2' byl zahájen vně Sandboxu
+.
+
+# 1302;pop;inf;01
+# SBIE1302 Sandbox '%2 není definován nebo zařazen do procesu
+# .
+
+1303;pop;inf;01
+SBIE1303 Aktivní může být současně pouze jeden Sandbox
+.
+
+# 1304;pop;inf;01
+# SBIE1304 Blokovaná falešná klávesnice nebo myš vstupující procesem '%2'
+# .
+
+1306;pop;inf;01
+SBIE1306 Sandboxie ovladač (SbieDrv) nemůže být momentálně vyjmut
+.
+
+1307;pop;inf;02
+SBIE1307 Program nemůže získat přístup k Internetu z důvodu omezení - %2
+.
+
+1308;pop;inf;02
+SBIE1308 Program nelze spustit z důvodu omezení - %2
+.
+
+1309;pop;inf;01
+SBIE1309 Odepření pokusu změnit heslo k účtu
+.
+
+1310;pop;inf;01
+SBIE1310 Rozšířené funkce jsou vypnuté, dokud není aktivována licence.
+.
+
+1311;pop;inf;01
+SBIE1311 Blokován požadavek na změnu tapety pracovní plochy procesem '%2'
+.
+
+1312;pop;inf;01
+SBIE1312 Blokován požadavek pro spuštění 16-bit DOS programu v Sandboxu
+.
+
+1313;pop;inf;01
+SBIE1313 Blokován přímý přístup k disku procesem '%2'
+.
+
+1314;pop;inf;01
+SBIE1314 Blokován požadavek na změnu nastavení sítě/firewallu procesem '%2'
+.
+
+# 1315;pop;inf;01
+# SBIE1315 Pravděpodobně kvůli konfliktu se softwarem: %2
+# .
+
+#----------------------------------------------------------------------------
+# SbieDrv
+#
+# Configuration Error Messages to both Event and Popup Logs
+#----------------------------------------------------------------------------
+
+1401;evt;pop;inf;01
+SBIE1401 Konfigurační soubor nebyl nalezen, budou použity výchozí hodnoty
+.
+
+1402;evt;pop;wrn;01
+SBIE1402 Chyba v konfiguračním souboru na řádku %3: %2
+.
+
+1403;evt;pop;wrn;01
+SBIE1403 Chyba v konfiguračním souboru na řádku %2: řádek příliš dlouhý
+.
+
+1404;evt;pop;wrn;01
+SBIE1404 Chyba v konfiguračním souboru na řádku %2: příliš mnoho řádků
+.
+
+1405;evt;pop;wrn;01
+SBIE1405 Chyba v konfiguračním souboru na řádku %2: syntaktická chyba
+.
+
+1406;evt;pop;err;01
+SBIE1406 Chybějící nebo neplatné rozšíření pro %3: %2
+.
+
+# 1407;evt;pop;err;01
+# SBIE1407 Neplatná hodnota pro nastavení 2%, použít výchozí nastavení
+# .
+
+1408;pop;err;01
+SBIE1408 Neznámé uživatelské jméno pro SID: %2
+.
+
+1409;evt;pop;wrn;01
+SBIE1409 Soubor Templates.ini nelze otevřít %2
+.
+
+1410;evt;pop;wrn;01
+SBIE1410 Následující zpráva označuje chybu v souboru Templates.ini
+.
+
+1411;evt;pop;wrn;01
+SBIE1411 Sandbox %2 specifikuje neznámou šablonu %3
+.
+
+1412;evt;pop;err;01
+SBIE1412 V textu: %2
+.
+
+#----------------------------------------------------------------------------
+# SbieDrv
+#
+# Messages from user mode -- informational -- 2101 through 2199
+#----------------------------------------------------------------------------
+
+2101;pop;inf;01
+SBIE2101 %2
+.
+
+2102;pop;inf;01
+SBIE2102 Soubor je příliš velký na to, aby byl zkopírován do Sandboxu - %2
+.
+
+2103;pop;inf;01
+SBIE2103 Odepření pokusu o načtení ovladače systému %2'
+.
+
+2104;pop;inf;02
+SBIE2104 Odepření pokusu o ukončení relace systému Windows - %2
+.
+
+# 2105;pop;inf;01
+# SBIE2105 Sandboxie služby úspěšně zahájeny: %2
+# .
+
+# 2106;pop;inf;01
+# SBIE2106 Zapněte prosím \" Spustit jako správce UAC \"v Ovládání Sandboxie (Sandboxie Control), Soubor menu
+# .
+
+# 2107;pop;inf;01
+# SBIE2107 Příprava WinSxS kompletování %2'
+# .
+
+2108;pop;inf;01
+SBIE2108 Úspěšné dokončení simulace programu '%2'
+.
+
+# 2109;pop;inf;01
+# SBIE2109 Klepněte na tlačítko OK když je program nebo instalace kompletní.
+# .
+
+# 2110;pop;inf;01
+# SBIE2110 Příprava WinSxS závislostí pro '%2'
+# .
+
+2191;pop;inf;01
+SBIE2191 %2 by neměl být aktualizován, dokud je spuštěn pod Sandboxie.
+.
+
+2192;pop;inf;01
+SBIE2192 Chcete-li aktualizovat program, spusťte jej mimo Sandboxie.
+.
+
+2193;pop;inf;01
+SBIE2193 Po provedení aktualizačního procesu smažte Sandbox.
+.
+
+2199;pop;inf;01
+%0
+.
+
+#----------------------------------------------------------------------------
+# SbieDrv
+#
+# Messages from user mode -- warning -- 2201 through 2299
+#----------------------------------------------------------------------------
+
+2201;pop;wrn;01
+SBIE2201 %2
+.
+
+# 2202;pop;wrn;01
+# SBIE2202 Chybí seznam instalovaných hardwarových zařízení
+# .
+
+2203;pop;wrn;01
+SBIE2203 Chyba při komunikaci se službou Sandboxie: %2
+.
+
+2204;pop;wrn;01
+SBIE2204 Nelze spustit službu Sandboxu %2
+.
+
+2205;pop;wrn;01
+SBIE2205 Služba není zavedena: %2
+.
+
+2206;pop;wrn;01
+SBIE2206 Selhalo zpracování AutoExec nastavení %2
+.
+
+2207;pop;wrn;01
+SBIE2207 Neplatná hodnota pro nastavení ' %2', budou použity výchozí hodnoty
+.
+
+2208;pop;wrn;01
+SBIE2208 Nelze odstranit větev registru: %2
+.
+
+2209;pop;wrn;01
+SBIE2209 Nelze přeložit SID do uživatelského jména: %2
+.
+
+2210;pop;wrn;01
+SBIE2210 Nelze spustit Průzkumníka Windows pro: %2
+.
+
+2211;pop;wrn;01
+SBIE2211 Sandboxed službu se nepodařilo spustit: %2
+.
+
+2212;pop;wrn;01
+SBIE2212 Emailový prohlížeč ' %2' není nakonfigurován pro spuštění v tomto Sandboxu
+.
+
+2213;pop;wrn;01
+SBIE2213 Windows kredit nemůže být uložen v Sandboxu
+.
+
+2214;pop;wrn;01
+SBIE2214 Žádost byla zamítnuta, nemáte oprávnění spustit službu '%2'
+.
+
+# 2215;pop;wrn;01
+# SBIE2215 Nepodařilo se připravit WinSxS závislosti: %2
+# .
+
+# 2216;pop;wrn;01
+# SBIE2216 Chyba při přípravě kompletování WinSxS: %2
+# .
+
+2217;pop;wrn;02
+SBIE2217 Žádost spustit jako administrátor byla odmítnuta z důvodu snížených oprávnění
+.
+
+2218;pop;wrn;01
+SBIE2218 Nepodařilo se získat zvýšená oprávnění: %2
+.
+
+2219;pop;wrn;01
+SBIE2219 Žádost byla odeslána programem %2
+.
+
+2220;pop;wrn;01
+SBIE2220 K využití oprávnění správce klikněte dvakrát na řádek této zprávy.
+.
+
+2221;pop;wrn;01
+SBIE2221 Chcete-li přidat program k omezenému přístupu k internetu, klikněte dvakrát na řádek této zprávy.
+.
+
+2222;pop;wrn;01
+SBIE2222 Chcete-li přidat program k omezenému přístupu, klikněte dvakrát na řádek této zprávy.
+.
+
+2223;pop;wrn;01
+SBIE2223 Chcete-li zvýšit velikostní limit souboru pro kopírování souborů, klikněte dvakrát na řádek této zprávy
+.
+
+#----------------------------------------------------------------------------
+# SbieDrv
+#
+# Messages from user mode -- error -- 2301 through 2399
+#----------------------------------------------------------------------------
+
+2301;pop;err;01
+SBIE2301 %2
+.
+
+2303;pop;err;01
+SBIE2303 Nelze zachytit %2
+.
+
+2304;pop;err;01
+SBIE2304 Inicializace se nezdařila pro proces %2
+.
+
+2305;pop;err;01
+SBIE2305 Nedostatek paměti
+.
+
+2306;pop;err;01
+SBIE2306 Nelze nalézt uživatelský adresář: %2
+.
+
+2307;pop;err;01
+SBIE2307  Nelze mapovat disk %2
+.
+
+2308;pop;err;01
+SBIE2308 Nelze vytvořit objekt adresáře: %2
+.
+
+2309;pop;err;01
+SBIE2309 Nelze zakázat COM + / DCOM: %2
+.
+
+2310;pop;err;01
+SBIE2310 Označená vyrovnávací paměť se blíží k přetečení ( %2)
+.
+
+2311;pop;err;01
+SBIE2311 Nelze zakázat odpadkový koš (BitBucked): %2
+.
+
+2312;pop;err;01
+SBIE2312 Nelze umožnit nastavení nového procesu prohlížeče : %2
+.
+
+2313;pop;err;01
+SBIE2313 Nelze spustit %2
+.
+
+2314;pop;err;01
+SBIE2314 Přerušuji proces %2
+.
+
+# 2315;pop;err;01
+# SBIE2315 Nelze opravit spouštěný obrázek
+# .
+
+2316;pop;err;01
+SBIE2316 Poškozená paměť
+.
+
+2317;pop;err;01
+SBIE2317 Nelze inicializovat cestu seznamu %2'
+.
+
+2318;pop;err;01
+SBIE2318 DLL inicializace selhala pro %2'
+.
+
+# 2319;pop;err;01
+# SBIE2319 Chyba aktivace kontextu pro Sandboxed proces %2
+# .
+
+# 2320;pop;err;01
+# SBIE2320 Nelze vypnout Průzkumníka Windows jako proces: %2
+# .
+
+2321;pop;err;01
+SBIE2321 Nelze spravovat ovladač mapy: %2
+.
+
+2322;pop;err;01
+SBIE2322 Nelze přepsat Sandboxie.ini: %2
+.
+
+2323;pop;err;01
+SBIE2323 Kryptografická chyba: %2
+.
+
+2326;pop;err;01
+SBIE2326 Nelze připravit registry: %2
+.
+
+2327;pop;err;01
+SBIE2327 Chyba v KOM serveru: %2
+.
+
+2331;pop;err;01
+SBIE2331 Start služby se nezdařil:  %2
+.
+
+2332;pop;err;01
+SBIE2332 Nelze získat přístup k souboru SbiePst.dat
+.
+
+# 2333;pop;err;01
+# SBIE2333 Nekompatibilní software s nalezenou DLL: %2
+# .
+
+2334;pop;err;01
+SBIE2334 Nelze načíst DLL soubor: %2
+.
+
+2335;pop;err;01
+SBIE2335 Inicializace se nezdařila pro proces %2
+.
+
+2336;pop;err;01
+SBIE2336 Chyba GUI serveru: %2
+.
+
+2337;pop;err;01
+SBIE2337 Nepodařilo se spustit program: %2
+.
+
+#----------------------------------------------------------------------------
+# SbieSvc
+#----------------------------------------------------------------------------
+
+9101;evt;err;01
+SBIE9101 Nedostatek systémových prostředků
+.
+
+9153;evt;err;01
+SBIE9153 Nelze spustit ovladač (SbieDrv)
+.
+
+9154;evt;err;01
+SBIE9154 Ovladač (SbieDrv) a služba (SbieSvc) mají odlišné číslo verze
+.
+
+9156;evt;err;01
+SBIE9156 Inicializace ovladače nejsou dokončené
+.
+
+9234;evt;err;01
+SBIE9234 Chyba při spuštění služby %2
+.
+
+# 9201;evt;err;01
+# SBIE9201 Příznak chyby
+# .
+
+# 9202;evt;err;01
+# SBIE9202 Příznak chyby
+# .
+
+# 9203;evt;err;01
+# SBIE9203 Příznak chyby
+# .
+
+# 9204;evt;err;01
+# SBIE9204 Chyba bezpečnostního popisovače
+# .
+
+# 9205;evt;err;01
+# SBIE9205 Chyba bezpečnostního popisovače
+# .
+
+# 9206;evt;err;01
+# SBIE9206 Chyba bezpečnostního popisovače
+# .
+
+# 9207;evt;err;01
+# SBIE9207 Chyba bezpečnostního popisovače
+# .
+
+# 9208;evt;err;01
+# SBIE9208  Nemůžu povolit obnovu privilegií
+# .
+
+# 9251;evt;err;01
+# SBIE9251 Chyba při vytvoření události na portu
+# .
+
+# 9252;evt;err;01
+# SBIE9252 Chyba při vytvoření portu
+# .
+
+# 9253;evt;err;01
+# SBIE9253 Vytvoření vlákna portu selhalo
+# .
+
+# 9302;evt;err;01
+# SBIE9302 Sekce vytvoření selhala (nastavení zařízení tříd)
+# .
+
+# 9304;evt;err;01
+# SBIE9304 Sekce vytvoření selhala (zařízení id seznamu)
+# .
+
+# 9305;evt;err;01
+# SBIE9305 Ukončit sandboxed programy, pokud jsou spuštěny
+# .
+
+#----------------------------------------------------------------------------
+# Common Texts
+#----------------------------------------------------------------------------
+
+3001;txt;01
+&OK
+.
+
+3002;txt;01
+&Zrušit
+.
+
+3003;txt;01
+&Prohlížet ...
+.
+
+3004;txt;01
+&Zavřít
+.
+
+3005;txt;01
+Vý&řez
+.
+
+3051;txt;01
+Ochrana proti mazání je dostupná pro Sandbox
+.
+
+3052;txt;01
+Spustit v Sandboxu
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Start
+#----------------------------------------------------------------------------
+
+3101;txt;01
+Sandboxie Start
+.
+
+3103;txt;01
+Zadejte název programu nebo složky a Sandboxie je pro Vás otevře.
+.
+
+3104;txt;01
+Zadejte . (cílový charakter) k prozkoumání plochy Sandboxie.
+.
+
+3105;txt;01
+Odstranit příkaz z příkazové historie
+.
+
+3106;txt;01
+Vyberte Sandbox, ve kterém se spustí program nebo dokument.
+.
+
+3111;txt;01
+      Sandboxie Nabídka Start  - %2  %0
+.
+
+3112;txt;01
+Plocha
+.
+
+3113;txt;01
+(prozkoumat složku)
+.
+
+3114;txt;01
+Programy
+.
+
+3202;txt;01
+Špatný příkaz programové řádky: %2
+.
+
+3203;txt;01
+Použít: Start.exe <název programu>
+.
+
+3204;txt;01
+Špatné jméno Sandboxu: %2
+.
+
+3205;txt;01
+Nemůžu spustit program:
+
+%2
+.
+
+3206;txt;01
+Kód systémové chyby:
+.
+
+# 3207;txt;01
+# Nemůžu najít Internet Explorer
+# .
+
+# 3208;txt;01
+# Nemůžu najít výchozí internetový prohlížeč
+# .
+
+3209;txt;01
+Nemůžu najít výchozího poštovního klienta
+.
+
+3210;txt;01
+Nemůžu spustit program Ovládání Sandboxie
+.
+
+# 3211;txt;01
+# Chyba ve verzi Sandboxie. Zkuste přeinstalovat Sandboxie.
+# .
+
+3212;txt;01
+Ovladač Sandboxie (SbieDrv) není dostupný programům Sandboxie.
+Zkontrolujte jestli se oba jak ovladač tak služba Sandboxie (SbieSvc) spustily korektně.
+.
+
+3213;txt;01
+Nemůžu inicializovat služby Sandboxie COM
+.
+
+3214;txt;01
+Smazat Sandbox %2:  %0
+.
+
+3215;txt;01
+Objekt (soubor nebo složka) může být používán jiným programem.
+Zavřete všechny programy nebo okna, která můžou bránit přístupu.
+.
+
+3216;txt;01
+Nemůžu najít složku Sandboxu
+.
+
+3217;txt;01
+Nemůžu otevřít složku Sandboxu
+.
+
+3218;txt;01
+Nemůžu otevřít složku která obsahuje složku Sandboxu
+.
+
+3219;txt;01
+Nemůžu přesunout složku Sandboxu z cesty
+.
+
+3220;txt;01
+Nemůžu přejmenovat jeden ze souborů s dlouhým jménem v Sandboxu.
+Sandbox nebude smazán.
+.
+
+3221;txt;01
+Prosím vypněte programy běžící v Sandboxu před smazáním jeho obsahu.
+.
+
+3222;txt;01
+Přikaz ke smazání selhal:  %0
+.
+
+3231;txt;01
+Nainstaloval jste Sandboxie před více jak 30 dny.
+.
+
+3232;txt;01
+Soukromé užívání Sandboxie je zdarma po dobu jakou chcete.
+.
+
+3233;txt;01
+Nicméně, volná verze nyní vyčká pár sekund.
+.
+
+3234;txt;01
+Nicméně, volná verze umožňuje najednou použít pouze jeden Sandbox.
+.
+
+3235;txt;01
+Tato omezení v placené verzi Sandboxie nejsou.
+.
+
+3236;txt;01
+Navíc, placená verze dovolí automaticky spouštět vybrané programy.
+.
+
+3237;txt;01
+Pro více informací a zakoupení software, prosím klikněte na následující odkaz:
+.
+
+3238;txt;01
+Prosím čekejte ještě %2 vteřiny
+.
+
+3239;txt;01
+Klikněte pro zavření tohoto okna a pokračování
+.
+
+3240;txt;01
+Klikněte pro zavření tohoto okna a ukončení
+.
+
+3241;txt;01
+Pro spuštění programu v Sandboxu požaduje Sandboxie
+oprávnění administrátora.
+.
+
+3242;txt;01
+Chcete-li potvrdit nebo zrušit požadavek, aktivujte
+pop-up okno Řízení uživatelských účtů .
+.
+
+3243;txt;01
+Poznámka: Program bude nadále spuštěn pod dohledem
+Sandboxie i po udělení oprávnění správce.
+.
+
+3251;txt;01
+Spustit mimo Sandbox
+.
+
+3252;txt;01
+Start programu mimo dohled Sandboxie i když je program
+nucen být spouštěný pod Sandboxie. Tato výjimka pro běh mimo
+Sandbox se také vztahuje na ostatní programy, které jsou
+provozovány tímto programem.
+
+Můžete také zvolit tuto možnost - při současném držení klávesy
+Ctrl a Shift klepnout na příkaz Spustit v Sandboxu.
+.
+
+3253;txt;01
+Jste si jist, že chcete spustit program mimo Sandbox?
+.
+
+3254;txt;01
+Chcete-li přeskočit toto okno pro výběr Sandboxu, držte klávesu Ctrl
+a klikněte na příkaz Spustit v Sandboxu.
+.
+
+3255;txt;01
+Volba je zakázána, protože je povoleno nastavení Snížených práv v tomto Sandboxu
+.
+
+3256;txt;01
+Volba je zakázána, protože tento program je již spuštěn s oprávněními správce
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control Common
+#----------------------------------------------------------------------------
+
+3301;txt;01
+Ovládání Sandboxie
+.
+
+3302;txt;01
+Verze %2
+.
+
+3303;txt;01
+  -  Inicializace
+.
+
+3304;txt;01
+Neplatná verze v Sandboxie:
+
+Ovládání Sandboxie: Verze %2
+Služba (SbieSvc): Verze %3
+Ovladač (SbieDrv): Verze %4
+
+Přeinstalací Sandboxie tento problém vyřešíte.
+
+Přerušeno.
+.
+
+3306;txt;01
+V budoucnu nezobrazovat tuto zprávu
+.
+
+# 3307;txt;01
+# Zadejte název programu
+# .
+
+# translate text but keep hash signs (#)
+3308;txt;01
+Programy#*.EXE#Všechny soubory#*.*##
+.
+
+3309;txt;01
+- Smazat Sandbox
+.
+
+3311;txt;01
+Chyba při zápisu konfiguračního nastavení %3 v sekci %2:  %4
+.
+
+3312;txt;01	
+Nemáte oprávnění k aktualizaci konfigurace v sekci %2
+.
+
+3313;txt;01
+Neznámý uživatel, nastavení nebude uloženo
+.
+
+3314;txt;01
+Vyskytla se chyba při použití výchozího nastavení pro Sandbox '%2'
+.
+
+# 3321;txt;01
+# - Přihlašovací relace je v Sandboxu
+# .
+
+# 3322;txt;01
+# Vaše přihlašovací relace běží pod dohledem Sandboxie.
+# Vymazáním obsahu Sandboxu budou zrušeny všechny změny provedené v této relaci.
+# 
+# Uživatelský účet: %2
+# Sandbox: %3
+# 
+# Jste si jist, že chcete smazat obsah Sandboxu a odhlásit se od systému Windows?
+# .
+
+3351;txt;01
+&Odebrat
+.
+
+3352;txt;01
+&Přidat
+.
+
+3353;txt;01
+&Upravit/Přidat
+.
+
+3354;txt;01
+&Upravit
+.
+
+3355;txt;01
+Přidat  &Pgm
+.
+
+# 3356;txt;01
+# Přidat &jméno
+# .
+
+# 3357;txt;01
+# Přidat &soubor
+# .
+
+3358;txt;01
+Přidat &složku
+.
+
+3359;txt;01
+Přidat &uživatele
+.
+
+3360;txt;01
+Vybrat &Vše
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control Menus
+#----------------------------------------------------------------------------
+
+3411;txt;01
+&Soubor
+.
+
+3412;txt;01
+Ukončit všechny &programy
+.
+
+3413;txt;01
+Vypnout &nucené programy
+.
+
+3414;txt;01
+Spustit &jako správce UAC
+.
+
+3415;txt;01
+Spus&tit v Sandboxu z okna?
+.
+
+3416;txt;01
+Monitor přístupu &ke zdroji
+.
+
+3417;txt;01
+Uk&ončit
+.
+
+3421;txt;01
+&Zobrazit
+.
+
+3422;txt;01
+&Programy
+.
+
+3423;txt;01
+&Soubory a složky
+.
+
+3424;txt;01
+&Kontextové menu%2Shift+F10
+.
+
+3425;txt;01
+Obnova &Log
+.
+
+3431;txt;01
+Sand&box
+.
+
+3432;txt;01
+Vytvořit nový Sandbox
+.
+
+3433;txt;01
+Nastavit kontejner složky
+.
+
+3434;txt;01
+Zobrazit skryté Sandboxy
+.
+
+3435;txt;01
+Nastavení uspořádání a skupin
+.
+
+3441;txt;01
+&Konfigurace
+.
+
+3442;txt;01
+&Výstraha programu
+.
+
+3443;txt;01
+Windows Shell &integrace
+.
+
+3501;txt;01
+Softwarová &kompatibilita
+.
+
+# 3503;txt;01
+# Experimentální ochrana (64-bit)
+# .
+
+3444;txt;01
+Znovu zobrazovat skryté &zprávy
+.
+
+3445;txt;02
+&Tipy
+.
+
+3502;txt;01
+Zám&ek konfigurace
+.
+
+3446;txt;01
+&Upravit nastavení
+.
+
+3447;txt;01
+Ak&tualizuj konfigurace
+.
+
+3448;txt;01
+&Zobrazit všechny tipy
+.
+
+3449;txt;01
+&Skrýt všechny tipy
+.
+
+3451;txt;01
+&Nápověda
+.
+
+3452;txt;01
+&Témata nápovědy (Web)
+.
+
+3453;txt;02
+Začínáme &Výuka
+.
+
+3454;txt;01
+Kontrola &aktualizace
+.
+
+3455;txt;01
+&Registr Sandboxie
+.
+
+3456;txt;01
+&O Sandboxie
+.
+
+3461;txt;01
+&Spustit v Sandboxu
+.
+
+3462;txt;01
+Spustit webový &prohlížeč
+.
+
+3463;txt;01
+Spustit emailový &prohlížeč
+.
+
+3464;txt;01
+Spustit &libovolný program
+.
+
+3465;txt;01
+Spustit z nabídky &Start
+.
+
+3466;txt;01
+Spustit z &Průzkumníka Windows
+.
+
+3471;txt;01
+&Ukončit programy
+.
+
+3472;txt;01
+&Rychlá obnova
+.
+
+3473;txt;01
+&Smazat obsah
+.
+
+3474;txt;01
+&Ukázat obsah
+.
+
+3475;txt;01
+Nastavení &Sandboxu
+.
+
+3476;txt;01
+Př&ejmenovat Sandbox
+.
+
+3477;txt;01
+Odst&ranit Sandbox
+.
+
+3481;txt;01
+&Ukon&čit program
+.
+
+3482;txt;01
+Nastavení &programu
+.
+
+3483;txt;01
+&Přístup ke zdroji
+.
+
+3485;txt;01
+Zobrazit okno
+.
+
+3486;txt;01
+Skrýt okno
+.
+
+3487;txt;01
+&Ukázat chyby
+.
+
+# 3488;txt;01
+# &Smazat Sandbox a odhlásit
+# .
+
+3491;txt;01
+Obno&vit do stejné složky
+.
+
+3492;txt;01
+Obnovit do &libovolné složky
+.
+
+3493;txt;01
+Př&idat do složky Rychlé zotavení
+.
+
+3494;txt;01
+Ods&tranit složku z Rychlé obnovy
+.
+
+3495;txt;01
+Vytvořit zástupce na ploše
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control Main Window
+#----------------------------------------------------------------------------
+
+3511;txt;01
+Řízení Sandboxu nyní schová toto okno, to ale nadále poběží.
+Zobrazení okna provedete dvojklikem na žluté ikoně
+Sandboxu v systémem označené oblasti.
+.
+
+3512;txt;01
+Úpravy změn uvnitř konfiguračního souboru Sandboxie.ini v textovém editoru,
+který byl otevřen.
+
+Upravená konfigurace se projeví pouze po načtení konfigurační funkce,
+na kterou se odvolává.
+
+Nejčastěji se opětovné načtení konfigurační funkce 
+projeví automaticky, jakmile uzavřete textový 
+editor.
+
+Můžete taky kdykoli výslovně nařídit ovládání Sandboxu 
+opětovně načíst konfiguraci.
+.
+
+3513;txt;01
+Konfigurace Sandboxu byla obnovena a potvrzena
+pro programy v Sandboxu, jakmile budou nastartovány.
+
+Pokud je nyní nějaký program v Sandboxu spuštěn,
+nebude v něm nová konfugurace použita.
+.
+
+3514;txt;01
+Problém při načítání konfiguračního souboru.
+Konfigurace Sandboxu nebyla obnovena.
+.
+
+3515;txt;01
+Sandbox %2
+.
+
+3516;txt;01
+Aktivní
+.
+
+3517;txt;01
+Název programu
+.
+
+3518;txt;01
+PID
+.
+
+3519;txt;01
+Nadpis okna
+.
+
+3520;txt;01
+Rychlé obnovení složek
+.
+
+3521;txt;01
+Všechny soubory a složky
+.
+
+3522;txt;01
+Ovladače
+.
+
+3523;txt;01
+Síťová sdílení
+.
+
+3524;txt;01
+Uživatelské soubory
+.
+
+3525;txt;01
+Osobní
+.
+
+3526;txt;01
+Všichni uživatelé
+.
+
+3527;txt;01
+Prosím vymažte obsah Sandboxu %2 před použitím tohoto příkazu.
+.
+
+3528;txt;01
+Zadejte nové jméno Sandboxu
+.
+
+3529;txt;01
+Jste si jist, že chcete odstranit Sandbox %2?
+.
+
+3530;txt;01
+Není žádný proces pro ukončení.
+.
+
+3531;txt;01
+UPOZORNĚNÍ: Proces nebo procesy budou ukončeny, nebudete
+mít možnost uložit data nebo nastavení.
+
+Jste si jist, že chcete pokračovat v ukončení procesu ?
+.
+
+3532;txt;01
+V budoucnosti ukončit procesy bez dotazu.
+.
+
+3533;txt;01
+Můžete kopírovat a vyjmout soubory a složky z Průzkumníka Windows v Sandboxu
+a vložit je přímo do složky Windows mimo Sandbox.
+.
+
+3534;txt;01
+Budete zkoumat obsah Sandboxu ve složce Průzkumník Windows
+mimo Sandbox.
+
+Můžete otevřít programy nebo dokumenty, které jsou v Sandboxu.
+Program nebo dokument, bude spuštěn pod dohledem Sandboxie.
+
+Nicméně, měli byste manipulovat s obsahem Sandboxu
+prostřednictvím sandboxed instance programu Průzkumník Windows. Chcete-li, použijte 
+tento příkaz: Sandbox -> Spustit v Sandboxu-> Průzkumník Windows.
+.
+
+3535;txt;01
+Chyba během přístupu do složky Sandboxu.
+.
+
+3536;txt;01
+Indikátor 'ukrytí' byl odstraněn ze všech hlášení.
+.
+
+3537;txt;01
+Nemůžu zobrazit toto hlášení, indikátor byl odstraněn ze všech tipů.
+.
+
+3538;txt;01
+Indikátor 'nezobrazovat tuto zprávu'  se nyní vztahuje na všechny tipy.
+.
+
+3539;txt;01
+Sandbox '%2' byl vytvořen před %3 dny.
+Zvažte prosím, čas od času, smazání Vašeho Sandboxu.
+
+Chcete-li nastavit automatické smazání, použijte v Ovládání Sandboxie,
+Nastavení Sandboxu, Vymazat, Příkaz.
+.
+
+3540;txt;01
+Konfigurační soubor Sandboxie.ini nelze upravovat, protože
+je chráněn heslem. Chcete-li soubor upravit, musíte pomocí příkazu
+Zámek konfigurace zakázat ochranu heslem.
+.
+
+3541;txt;01
+Veřejné
+.
+
+# 3542;txt;01
+# Experimentální ochranný režim zvyšuje ochranu
+# nabízenou 64-bit Sandboxie a povyšuje ji na
+# úroveň stejnou jako je u 32-bit Sandboxie.
+# 
+# DŮLEŽITÉ: Experimentální ochrana používá nedokumentované
+# funkce jádra systému Windows. Budoucí aktualizace
+# Windows mohou rušit režim experimentální ochrany,
+# což může způsobit nestabilitu systému.
+# 
+# POUŽITÍ JE NA VLASTNÍ NEBEZPEČÍ.
+# 
+# Chcete-li aktivovat experimentální ochranný režim,
+# restartujte nyní počítač.
+# .
+
+# 3543;txt;01
+# Chcete-li zakázat experimentální ochranný režim,
+# restartujte nyní počítač.
+# 
+# Vezměte prosím na vědomí, že nastavení Snížených práv bude povoleno
+# ve všech Sandboxech.
+# .
+
+#----------------------------------------------------------------------------
+# Sandboxie Control Dialogs: About/Welcome
+#----------------------------------------------------------------------------
+
+3601;txt;01
+O Sandboxie
+.
+
+# 3604;txt;01
+# Vítejte v Sandboxie
+# .
+
+# 3605;txt;01
+# 
+# V Sandboxie běží aplikace v ochranném izolovaném prostoru tzv. Sandboxu.
+# 
+# Aplikaci uzavřené v Sandboxu není dovoleno provádět změny které by mohly poškodit Váš počítač.
+# 
+# Sandbox můžete také použít k instalaci a testování nových aplikací.
+# .
+
+# 3606;txt;01
+# Pokud ještě neznáte Sandboxie,
+# přečtěte si prosím Začínáme s výukou.
+# .
+
+# 3607;txt;01
+# &Začínáme se Sandboxie
+# .
+
+#----------------------------------------------------------------------------
+# Sandboxie Control Dialogs: Update
+#----------------------------------------------------------------------------
+
+3621;txt;01
+Kontrola aktualizace
+.
+
+3622;txt;01
+Chcete se připojit na web Sandboxie a zjistit, zda je k dispozici nová verze programu?
+.
+
+3623;txt;01
+&Nyní
+.
+
+3624;txt;01
+Příští &týden
+.
+
+3625;txt;01
+Ni&kdy
+.
+
+3626;txt;01
+Příště zjistit aktualizaci automaticky
+.
+
+3627;txt;01
+Ochrana osobních údajů: Vaše osobní údaje nebudou shromažďovány v Sandboxie ani předány další straně.
+.
+
+3628;txt;01
+Kontrola aktualizace probíhá. Prosím, čekejte.
+.
+
+3629;txt;01
+Webové stránky Sandboxie nemají zprávu o nové verzi Sandboxie.
+.
+
+3630;txt;01
+Sandbox %2 je dostupný pro stažení.
+.
+
+3631;txt;01
+Stáhnout nyní?
+
+Poznámka: Stažení bude trvat asi minutu.
+O dokončení stažení budete informováni.
+.
+
+3632;txt;01
+Stáhnout a instalovat novou verzi, zapsat informace
+v uživatelském účtu s přístupem administrátora a uplatňovat
+tyto funkce dále.
+.
+
+3633;txt;01
+Sandboxie %2 byl stažen do následující složky:
+
+%3
+
+Stiskněte OK pro začátek instalace. Pokud v Sandboxu běží jakýkoli
+program, bude ukončen.
+.
+
+3634;txt;01
+Chyba při aktualizaci: Chyba přístupu během komunikace s webem Sandboxie.
+.
+
+3635;txt;01
+stažení nové verze
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control Dialogs: Run Browser
+#----------------------------------------------------------------------------
+
+3641;txt;01
+Otevřít webový prohlížeč
+.
+
+3642;txt;01
+Vyberte, zda chcete otevřít následující webovou adresu webovým prohlížečem v Sandboxu, nebo mimo Sandbox.
+.
+
+3643;txt;01
+&Sandbox
+.
+
+3644;txt;01
+&Mimo Sandbox
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control Dialogs: Message Dialog
+#----------------------------------------------------------------------------
+
+3645;txt;01
+Zprávy ze Sandboxie
+.
+
+3646;txt;01
+S&krýt
+.
+
+3647;txt;01
+Tato zpráva nebude příště zobrazena.
+Skrytí této zprávy neřeší aktuální problém, který způsobil
+zobrazení této zprávy na monitoru.
+
+Jste si jist, že chcete vypnout zobrazování zprávy %2
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control Dialogs: Disable Forced Programs
+#----------------------------------------------------------------------------
+
+3651;txt;01
+Dočasně nuceně zakázat programy
+.
+
+3652;txt;01
+Dočasně nuceně zakázat programy na
+.
+
+3653;txt;01
+sekund
+.
+
+3654;txt;01
+Klepněte na tlačítko OK k dočasnému ukončení programů, které bude trvat výše uvedený počet sekund, nebo do doby, než zvolíte tuto funkci znovu.
+.
+
+3599;txt;01
+Můžete vyřadit nucené spuštění konkrétního programu v Sandboxu držením kláves Ctrl a Shift a klepnutím na příkaz Spustit v Sandboxu v kontextovém menu pro tento program.
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control Dialogs: Resource Access Monitor
+#----------------------------------------------------------------------------
+
+3655;txt;01
+Monitor přístupu ke zdroji
+.
+
+3656;txt;01
+Tento nástroj sleduje programy běžící pod dohledem Sandboxie, a zobrazuje přístup ke zdroji. Prosím přečtěte si dokumentaci před použitím tohoto nástroje.
+.
+
+3657;txt;01
+Zkopírovat obsah do schránky a zavřít okno
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control Dialogs: Is Window Sandboxed
+#----------------------------------------------------------------------------
+
+3661;txt;01
+Spustit v Sandboxu z okna?
+.
+
+3662;txt;01
+Přetáhněte myší do hledáčku v okně to, co zrovna potřebujete otevřít v Sandboxu
+
+Stiskněte ESC pro ukončení
+.
+
+3663;txt;01
+Vybrané okno běží jako část programu %2 v Sandboxu %3.
+.
+
+3664;txt;01
+Vybrané okno neběží jako část žádného programu Sandboxu.
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control Dialogs: Create New Sandbox
+#----------------------------------------------------------------------------
+
+3665;txt;01
+Vytvořit nový Sandbox
+.
+
+3666;txt;01
+Zadejte název nového Sandboxu.
+.
+
+3667;txt;01
+Chyba. Bylo napsané neplatné jméno Sandboxu. Použijte pouze písmena a číslice. Mezery a jiné speciální znaky nejsou povoleny. Název nesmí přesáhnout 32 znaků.
+.
+
+3668;txt;01
+Chyba. Bylo napsané duplicitní jméno Sandboxu. Zadejte název, který nepoužívá jiný Sandbox.
+.
+
+3669;txt;01
+Kopírovat nastavení z existujícího Sandboxu:
+.
+
+4665;txt;01
+Chyba. Zadali jste duplicitní název Sandboxu. Název je již používán ve skrytém Sandboxu. Použijte příkaz "Zobrazit skryté Sandboxy" v menu Sandboxu.
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control Dialogs: Set Container Folder
+#----------------------------------------------------------------------------
+
+3671;txt;01
+Nastavení úložného adresáře
+.
+
+3672;txt;01
+Vyberte jednotku, ve které bude Sandbox vytvořen a uložen.
+.
+
+3673;txt;01
+Pro maximální kompatibilitu s dalšími programy je doporučeno ponechat standardní umístění u vybraného zařízení.
+.
+
+3674;txt;01
+Nicméně, můžete taky použít edit box níže, pro přepsání přednastaveného umístění:
+.
+
+3675;txt;01
+Poznámka: Doporučujeme Vám vymazat obsah ve všech Sandboxech před změnou umístění úložného adresáře.
+.
+
+3676;txt;01
+Zařízení (nebo jednotka) %2
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control Dialogs: Alerts
+#----------------------------------------------------------------------------
+
+3681;txt;01
+Záznamy programu
+.
+
+3682;txt;01
+Pokud je kterýkoliv z těchto programů spuštěn mimo Sandbox, Sandboxie bude hlásit chybové hlášení SBIE1301.
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control Dialogs: Shell Integration
+#----------------------------------------------------------------------------
+
+3685;txt;01
+Windows Shell Integrace
+.
+
+3686;txt;01
+Spustit ovládání Sandboxie
+.
+
+3687;txt;01
+Při spuštění systému Windows
+.
+
+3688;txt;02
+Při spuštění programu v Sandboxu
+.
+
+3689;txt;01
+Ikony zástupců
+.
+
+3690;txt;01
+Přidat zástupce na plochu pro spuštění webového prohlížeče pod Sandboxie
+.
+
+3691;txt;01
+Přidat do lišty Snadného spuštění zástupce pro spuštění webového prohlížeče pod Sandboxie
+.
+
+3692;txt;01
+Kliknutím přidat na plochu více ikon zástupců:
+.
+
+3693;txt;01
+&Přidat ikony zástupců
+.
+
+3694;txt;01
+"Spustit v Sandboxu" akce
+.
+
+3695;txt;01
+Přidat akci - stlačením pravého tlačítka "Spustit v Sandboxu" pro soubory a složky
+.
+
+3696;txt;01
+Přidat Sandbox jako cíl pro akci "Odeslat"
+.
+
+3697;txt;01
+StarMenu Sandboxu nebude zobrazeno. Vyberte aplikaci
+z menu a Sandbox vytvoří novou ikonu na Vaši reálné
+ploše, kterou můžete použít pro vyvolání vybrané
+aplikace pod dozorem Sandboxu.
+.
+
+3698;txt;01
+Sandbox webový prohlížeč.lnk
+.
+
+3699;txt;01
+Spustit v &Sandboxu
+.
+
+4491;txt;01
+Otevřít %2 v Sandboxu %3
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control:  Delete Sandbox / Quick Recovery / Immediate Recovery
+#----------------------------------------------------------------------------
+
+3711;txt;01
+Vymazat Sandbox|Rychlá obnova
+.
+
+3712;txt;01
+Soubory uvedené níže jsou způsobilé pro rychlou obnovu ze Sandboxu .Vyberte soubor nebo složku a klepněte na některé tlačítko Obnovy k vrácení vybrané položky.
+.
+
+3713;txt;01
+Klikněte na tlačítko Vymazat Sandbox k ukončení všech běžících procesů v Sandboxu a vymazání jeho obsahu.
+.
+
+3714;txt;01
+&Vymazat Sandbox
+.
+
+3715;txt;01
+Okamžitá obnova
+.
+
+3716;txt;02
+Následující soubory jsou způsobilé k okamžité obnově a můžou být přesunuty mimo Sandbox.
+.
+
+3717;txt;01
+Nejprve vyberte soubory z výše uvedeného seznamu, pak vyberte cílovou složku.
+.
+
+3718;txt;01
+&Obnovit
+.
+
+3719;txt;01
+Nezobrazovat tuto zpráv&u, dokud nebudou všechny programy v Sandboxu ukončeny.
+.
+
+3720;txt;01
+Obno&va do
+stejné složky
+.
+
+3721;txt;01
+Obnova do
+&libovolné složky
+.
+
+3722;txt;01
+%2Soubory a %3složky v Sandboxu zabírají %4 bytů z diskového prostoru.
+.
+
+3723;txt;01
+Vyberte složku, ve které má být soubor nebo složka obnovena.
+.
+
+3724;txt;01
+Nebo vyberte složku z dřívější obnovy.
+.
+
+3725;txt;01
+Uložte vybrané složky pro pozdější použití.
+.
+
+3726;txt;01
+Vybraná složka je přidána do seznamu Rychle obnovených složek.
+.
+
+3727;txt;01
+Složka byla přidána do seznamu Rychle obnovených složek.
+
+Nicméně nyní není zádná položka Sandboxu, která má být obnovena z
+této složky.
+.
+
+3728;txt;01
+Žádné soubory nebyly vybrány pro obnovu
+.
+
+3729;txt;01
+Chyba při obnově. Následující položka nemůže být přesunuta mimo Sandbox:
+.
+
+3730;txt;01
+Sandbox je prázdný, není co mazat.
+.
+
+3731;txt;01
+Některé programy Sandboxu nemohou být ukončeny. Sandbox nemůže být vymazán.
+.
+
+3732;txt;01
+V tuto dobu tu nejsou žádné soubory k obnově.
+.
+
+3733;txt;01
+Soubor nelze obnovit, protože název cílové složky je příliš dlouhý.
+Vyberte prosím, jinou cílovou složku.
+.
+
+3734;txt;01
+Pro více možností klikněte pravým tlačítkem myši na seznam složek
+.
+
+3735;txt;02
+Nahradit všechny soubory bez další výzvy
+.
+
+3736;txt;01
+&Obnovit && Prozkoumat
+.
+
+3737;txt;01
+&Obnovit && Spustit
+.
+
+3981;txt;01
+&Otevřít složku v Průzkumníkovi mimo Sandbox
+.
+
+3982;txt;01
+Odstranit tuto složku ze seznamu
+.
+
+3983;txt;01
+Odstranit všechny složky ze seznamu
+.
+
+3986;txt;01
+Obnovit Log
+.
+
+3987;txt;01
+Následující soubory byly nedávno obnovené a přemístěné mimo sandboxy.
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control:  Program Settings
+#----------------------------------------------------------------------------
+
+3741;txt;01
+Nastavení
+.
+
+3742;txt;01
+Sandbox:
+.
+
+3743;txt;01
+Program:
+.
+
+3744;txt;01
+Zobrazit stránku 1
+.
+
+3745;txt;01
+Zobrazit stránku 2
+.
+
+3751;txt;01
+Spustit program
+.
+
+3752;txt;01
+Pokud se tento program spustí mimo Sandbox:
+.
+
+3753;txt;01
+Generovat výstražnou zprávu SBIE1301
+.
+
+3754;txt;01
+Monitorovaný program běží v Sandboxu
+.
+
+3755;txt;01
+Zastavit program
+.
+
+3756;txt;01
+Zastavit tento program, pokud setrvává v Sandboxu po ukončení ostatních programů.
+.
+
+3757;txt;01
+Zastavit ostatní programy po ukončení hlavního programu
+.
+
+3761;txt;01
+Internetová omezení
+.
+
+3762;txt;01
+Jakýkoliv program běžící v tomto Sandboxu má přístup k internetu.
+.
+
+3763;txt;01
+Programy, které lze připojit k internetu v tomto Sandboxu:
+.
+
+3764;txt;01
+Zapnout omezení a umožnit tomuto programu připojení k internetu.
+.
+
+3765;txt;01	
+Start / Spustit Omezení
+.
+
+3766;txt;01
+V tomto Sandboxu lze spustit jakýkoliv program.
+.
+
+3767;txt;01
+Programy, které lze spustit v tomto Sandboxu:
+.
+
+3768;txt;01
+Zapnout omezení a umožnit spustit tento program.
+.
+
+3769;txt;01
+(Nic)
+.
+
+3770;txt;01
+Nové nastavení nelze nastavit na sandboxed
+programy, které jsou již spuštěny. Nastavení budou
+uplatněna až při příštím spuštění programu.
+.
+
+3771;txt;01
+(Tato funkce je dostupná pouze v registrované verzi Sandboxie)
+.
+
+3772;txt;02
+Jste si jist, že chcete nastavit 2% jako vynucený program?
+.
+
+3773;txt;02
+Jste si jist, že chcete nastavit 2% jako vynucenou složku?
+.
+
+# 3774;txt;02
+# Jste si jist, že chcete nastavit %2 jako nucený uživatel?
+# .
+
+3775;txt;02
+Provedli jste změny, které možná nepůjdou snadno vrátit.
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control:  Sandbox Settings
+#----------------------------------------------------------------------------
+
+3801;txt;01
+Nastavení Sandboxu - %2
+.
+
+3802;txt;01
+Tato stránka je úmyslně ponechána prázdná
+.
+
+3803;txt;01	
+Musíte potvrdit změny na této stránce, než budete moci pokračovat.
+.
+
+3804;txt;01
+Potvrdit změny při přepnutí na další stránku.
+.
+
+3805;txt;01
+Všechny programy
+.
+
+3806;txt;02
+Seznam níže se vztahuje k
+.
+
+3807;txt;01
+Vyberte soubor nebo složku pro přidání do seznamu souborů se zamítnutým přístupem.
+.
+
+3808;txt;01
+Přidejte zdrojové jméno
+.
+
+3809;txt;01
+Změna zdrojového jména
+.
+
+3551;txt;01
+(Všechny programy, kromě %2)
+.
+
+3552;txt;01
+Invertovat význam aktuálního výběru
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control:  Sandbox Settings:  Appearance
+#----------------------------------------------------------------------------
+
+3811;txt;01
+Vzhled
+.
+
+3812;txt;01
+Programy běžící pod dohledem Sandboxie bude zobrazovat Sandboxie [#] ukazatel v liště.
+.
+
+3813;txt;01
+Je-li následující nastavení aktivní, bude lišta také zobrazovat název tohoto Sandboxu.
+.
+
+3814;txt;01
+Ukazovat běžící Sandbox v liště
+.
+
+3815;txt;01
+Nezobrazovat Sandboxie ukazatel v titulu okna
+.
+
+3816;txt;01
+Sandboxie může zobrazit tlusté orámování oken u programů spuštěných v Sandboxu.
+.
+
+3817;txt;01
+Zobrazit orámování kolem okna
+.
+
+3818;txt;01
+Klikněte pro změnu barvy ohraničení
+.
+
+3819;txt;01
+Zobrazit ohraničení pouze tehdy, když je kurzor myši v titulu okna
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control:  Sandbox Settings:  Recovery
+#----------------------------------------------------------------------------
+
+3821;txt;02
+Obnova
+.
+
+3822;txt;01
+Rychlá obnova
+.
+
+3823;txt;01
+Před vymazáním Sandboxu, nebo když je manuálně vyvolaná funkce rychlé obnovy, budou následující složky zkontrolovány, jestli neobsahují obsah Sandboxu. Pokud budou nějaké soubory nalezeny, budete mít možnost je snadno přemístit mimo Sandbox.
+.
+
+3832;txt;01
+Okamžitá obnova zvyšuje Rychlou obnovu automatickým vyvoláním funkce obnovy, jakmile jsou soubory vytvořeny.
+.
+
+3833;txt;01
+Zapnout okamžitou obnovu
+.
+
+3834;txt;01
+Následující složky a typy souborů (nebo obsáhlých souborů), budou vyřazeny z okamžité obnovy.
+.
+
+3835;txt;01
+Přid&at typ
+.
+
+3836;txt;01
+Vyberte složku pro vyloučení z Okamžité obnovy.
+.
+
+3837;txt;01
+Zadejte typ souboru (nebo nastavení souboru) pro vyloučení z Okamžité obnovy
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control:  Sandbox Settings:  Delete
+#----------------------------------------------------------------------------
+
+3841;txt;02
+Vymazat
+.
+
+3842;txt;01
+Smazat pracovní soubory
+.
+
+3843;txt;01
+Obsah tohoto Sandboxu může být automaticky vymazán jakmile se poslední instance programu Sandboxie stane neaktivní.
+.
+
+3844;txt;01
+Automaticky smazat obsah Sandboxu
+.
+
+3845;txt;01
+Pokud bude kterýkoliv soubor v Sandboxu způsobilý pro obnovu, bude uplatněna Rychlá obnova místo automatického smazání.
+.
+
+3846;txt;01
+Sandbox může být chráněn proti odstranění a přesunu. A to jak manuálně, tak i automaticky při spuštění Sandboxie.
+.
+
+3847;txt;01
+Nikdy neodstraňovat tento Sandbox. Nemazat jeho obsah
+.
+
+3852;txt;01
+Příkaz pro vymazání
+.
+
+3853;txt;01
+Pro automatické i manuální mazání platí, že následující systémový příkaz bude použit pro vymazání obsahu Sandboxu . Je-li ponechán prázdný, výchozí příkaz je RMDIR (odstranit adresář).
+.
+
+3854;txt;01
+Pokud chcete změnit toto nastavení, zahrňte text "%%SANDBOX%%" (s uvozovkami). Když je příkaz proveden, tento text bude nahrazen umístěním adresáře Sandboxu. 
+.
+
+3855;txt;01
+Nebo vybrat přednastavený příkaz po mazání:
+.
+
+3856;txt;01
+Příkaz smazat nespecifikuje"%%SANDBOX%%" (s uvozovkami).
+Jste si jist, že chcete akceptovat tento příkaz pro mazání?
+.
+
+3857;txt;01
+Prosím vyhledejte a vyberte program - %2
+.
+
+#----------------------------------------------------------------------------
+# Program Groups
+#----------------------------------------------------------------------------
+
+3971;txt;01
+Programové skupiny
+.
+
+3972;txt;01
+Můžete seskupit několik programů do skupiny a skupině dát jméno. Programové skupiny lze použít s některými nastaveními, které přijímají jména programů.
+.
+
+3974;txt;01
+Přidat &skupinu
+.
+
+3975;txt;01
+Zadejte název nové skupiny
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control:  Sandbox Settings:  Forced Folders/Programs
+#----------------------------------------------------------------------------
+
+3861;txt;02
+Spustit program
+.
+
+3862;txt;01
+Nucené složky
+.
+
+3863;txt;01
+Pokud kterýkoliv program startuje mimo Sandbox z jedné z následujících složek, bude donucen běžet v tomto Sandboxu. Toto neplatí, je-li program spuštěn z jiného Sandboxu.
+.
+
+3864;txt;01
+Můžete přinutit startovat Windows autoturn CD/DVD v Sandboxu přidáním Vaší CD-ROM a DVD-ROM jednotky do níže uvedeného seznamu.
+.
+
+3865;txt;01
+Nucené složky mají přednost před nucenými programy.
+.
+
+3866;txt;01
+Vyberte složku pro přidání do seznamu nucených složek.
+.
+
+3872;txt;01
+Nucené programy
+.
+
+3873;txt;01
+Pokud kterýkoliv z následujících programů startuje mimo Sandbox, bude přinucen startovat v tomto Sandboxu. Toto neplatí, pokud je program startován výslovně v jiném Sandboxu.
+.
+
+# 3962;txt;01
+# Nucení uživatelé
+# .
+
+# 3963;txt;01
+# Po přihlášení některého z níže uvedených účtů na tento počítač se celá přihlašovací relace nuceně spustí v tomto Sandboxu.
+# .
+
+# 3964;txt;01
+# Chcete-li odstranit Sandbox který je spojován s nuceným uživatelským účtem, přihlaste se k systému Windows jako uživatel, a použijte Ovládání Sandboxie k odstranění Sandboxu.
+# .
+
+# 3965;txt;01
+# Nucení uživatelé mají přednost před nucenými programy a nucenými složkami.
+# .
+
+#----------------------------------------------------------------------------
+# Sandboxie Control:  Sandbox Settings:  Linger/Leader Programs
+#----------------------------------------------------------------------------
+
+3881;txt;02
+Zastavit program
+.
+
+3882;txt;01
+Přetrvávající programy
+.
+
+3883;txt;01
+Následující programy budou automaticky ukončeny, pokud jsou spuštěny v tomto Sandboxu poté, co jsou všechny ostatní programy ukončeny.
+.
+
+3892;txt;01
+Zaváděcí program
+.
+
+3893;txt;01
+Následující programy jsou považovány za hlavní programy v tomto Sandboxu. Ukončení těchto programů způsobí, že všechny ostatní programy, které jsou v tomto Sandboxu spuštěny, budou ukončeny.
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control:  Sandbox Settings:  File Migration
+#----------------------------------------------------------------------------
+
+3901;txt;01
+Přemístění souborů
+.
+
+3903;txt;01
+Soubory musí být přemístěny (zkopírovány) do Sandboxu. Předtím mohou být upraveny programy běžícími v tomto Sandboxu. Avšak migrace velmi velkých souborů zabere hodně času.
+.
+
+3904;txt;01
+Následující číslo určí maximální velikost přemisťovaných souborů. Soubory větší, než je níže uvedeno nebudou přemístěny do Sandboxu a nebudou upraveny programem běžícím v Sandboxu.
+.
+
+3905;txt;01
+Nepřemisťujte soubory větší než
+.
+
+3906;txt;01
+kilobytů
+.
+
+3907;txt;01
+Pokud bude migrovaný soubor příliš velký a nebude zaškrtnutý níže uvedený CheckBox, bude vypsáno chybové hlášení SBIE2102.
+.
+
+3908;txt;01
+Nevypisovat chybové hlášení, pokud je soubor příliš velký pro migraci.
+.
+
+3909;txt;01
+Nastavení Přemístění souborů omezuje maximální velikost souboru, který lze zkopírovat do Sandboxu.
+
+Aktuální nastavení je %3 KB v Sandboxu '%2'.
+
+Kliknutím na OK přizpůsobíte nastavení velikostního limitu na %4 KB.
+
+Tento limit můžete také změnit otevřením okna Nastavení Sandboxu a nastavením Přemístění souborů.
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control:  Sandbox Settings:  Internet/Start Restrictions
+#----------------------------------------------------------------------------
+
+3911;txt;02
+Omezení
+.
+
+3912;txt;01
+Přístup k internetu
+.
+
+3913;txt;01
+Následující programy v tomto Sandboxu budou mít přístup na internet.
+.
+
+3914;txt;01
+Pokud je tato funkce povolena, programy, které jsou nainstalovány (nebo staženy) do tohoto Sandboxu,  nikdy nebudou mít povolen přístup na Internet, i když je jméno programu uvedeno výše.
+.
+
+3915;txt;01
+Chybová zpráva SBIE%2 když je přístup odepřen
+.
+
+3916;txt;01
+&Blokovat všechny programy
+.
+
+3917;txt;01
+&Povolit všechny programy
+.
+
+3918;txt;01
+Povolit všem programům přístup na internet
+.
+
+3919;txt;01
+Žádný program nemá přístup na internet
+.
+
+3920;txt;01
+Funkce omezený přístup k internetu jsou povoleny v Sandboxu '%2' a brání tomuto programu přístup k Internetu .
+
+Klepnutím na OK přidejte program '%3' pro omezený přístup k internetu v Sandboxu '%2'.
+
+Ke správě omezení přístupu k internetu, otevřete okno Nastavení Sandboxu a rozbalte skupinu Omezení.
+.
+
+3922;txt;01
+Spustit/Provoz přístupu
+.
+
+3923;txt;01
+Následující programy bude možno spouštět a provozovat pouze v tomto Sandboxu.
+.
+
+3924;txt;01
+Pokud je tato funkce povolena, programy, které jsou nainstalované (nebo stažené) do tohoto Sandboxu, nebude nikdy možné spustit ani provozovat,i když je jejich jméno uvedeno výše.
+.
+
+3928;txt;01
+Všechny programy lze spustit a provozovat
+.
+
+3930;txt;01
+Funkce omezený přístup je povolena v Sandboxu '%2' a brání tomuto programu ve spuštění a provozu.
+
+Klepnutím na OK přidejte program '%3' pro omezený přístup ke spuštění v Sandboxu '%2'.
+
+Ke správě omezeného přístupu otevřete okno Nastavení Sandboxu a rozbalte skupinu Omezení.
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control:  Sandbox Settings:  Low Level Access / Hardware Access
+#----------------------------------------------------------------------------
+
+# 3932;txt;01
+# Nízkoúrovňový přístup
+# .
+
+# 3933;txt;01
+# Následující nastavení může vážně narušit ochranu, kterou Sandboxie poskytuje. Aktivace některého nebo všech těchto nastavení se nedoporučuje.
+# .
+
+# 3934;txt;01
+# Povolit programům v tomto Sandboxu načíst ovladače v jádru operačního systému.
+# .
+
+# 3935;txt;01
+# Povolit programům v tomto Sandboxu načíst (Win32) aplikace zahákované v dalších programech.
+# .
+
+# 3936;txt;01
+# Povolit programům v tomto Sandboxu simulovat vstup myši a klávesnice.
+# .
+
+# 3937;txt;01
+# Povolit programům v tomto Sandboxu měnit pozadí pracovní plochy a dalších parametrů systému
+# .
+
+# 3938;txt;01
+# Povolit programům v tomto Sandboxu řídit hardwarovou konfiguraci zařízení
+# .
+
+# 3952;txt;01
+# Přístup k hardwaru
+# .
+
+# 3953;txt;01
+# Povolit programům v tomto Sandboxu měnit uživatelské číslo účtu
+# .
+
+# 3954;txt;01
+# Povolit programům měnit parametry sítě a firewallu
+# .
+
+#----------------------------------------------------------------------------
+# Sandboxie Control:  Sandbox Settings:  Drop Rights
+#----------------------------------------------------------------------------
+
+3942;txt;01
+Snížená práva
+.
+
+3943;txt;01
+Aby byla zaručena izolace, bude muset Sandboxie zakázat jen několik bezpečnostních práv u programů na něž dohlíží.
+.
+
+3944;txt;01
+Nicméně, pokud používáte účet administrátora, Sandboxie může zakázat více bezpečnostních práv pro dosažení podobného efektu v utilitě Snížená práva.
+.
+
+3945;txt;01
+Snížit práva pro Administrátora a všechny uživatelské skupiny
+.
+
+# 3946;txt;01
+# Doporučuje se ponechat toto nastavení povoleno, slouží jako kompenzace některých ochran Sandboxie, které nejsou k dispozici v 64-bitové verzi Windows.
+# .
+
+# 3947;txt;01
+# Chcete-li aktivovat zvýšenou ochranu pro 64-bit Windows, použijte prosím příkaz Experimentální ochrana z menu Konfigurace.
+# .
+
+3949;txt;01
+Nastavení snížených práv je povoleno v Sandboxu '%2', a brání použití oprávnění správce.
+
+Klepnutím na OK zakážete nastavení Snížených práv v Sandboxu '%2' a povolíte použití oprávnění správce v Sandboxu.
+
+Snížená práva je možné kdykoliv změnit v okně Nastavení Sandboxu ve skupině Omezení.
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control:  Sandbox Settings:  Resource Access
+#----------------------------------------------------------------------------
+
+4001;txt;01
+Přístup ke zdroji::Přístup k souboru::Přímý přístup
+.
+
+4002;txt;01
+Přímý přístup k souboru (OpenFilePath)
+.
+
+4003;txt;01
+Následující soubory a složky budou přímo dostupné pro programy běžící v tomto Sandboxu, bez jakýchkoliv dopadů na Sandbox.
+.
+
+4004;txt;01
+Toto ustanovení se nevztahuje na programy, které byly instalovány nebo staženy uvnitř Sandboxu.
+Viz též: Plný Přístup nastavení.
+.
+
+4011;txt;01
+Přístup ke zdroji::Přístup k souboru::Plný přístup
+.
+
+4012;txt;01
+Plný přístup k souboru (OpenPipePath)
+.
+
+4013;txt;01
+Následující soubory a složky budou přímo dostupné v programech běžících v tomto Sandboxu bez jakéhokoliv efektu Sandboxu.
+.
+
+4014;txt;01
+Na rozdíl od nastavení přímého přístupu, platí toto nastavení pro všechny programy, včetně instalovaných nebo stažených v Sandboxu.
+.
+
+4021;txt;01
+Přístup ke zdroji::Přístup k souboru::Blokovaný přístup
+.
+
+4022;txt;01
+Blokovat přístup k souboru (ClosedFilePath)
+.
+
+4023;txt;01
+Následující soubory a složky nebudou přístupné pro všechny programy běžící v tomto Sandboxu.
+.
+
+4024;txt;01
+Pokud je soubor nebo složka shodná s kterýmkoli jiným přístupem k souboru , ale taky odpovídá kterémukoli blokování přístupu k souboru, blokovaný přístup má přednost.  
+.
+
+4025;txt;01
+Sdílení Windows souboru může být použito k obcházení nastavení blokovaných přístupů k souboru.
+Přidat zdroj k zablokování přístupu ke sdílení souboru Windows.
+.
+
+4031;txt;01
+Přístup ke zdroji::Přístup k souboru::Přístup pouze pro prohlížení
+.
+
+4032;txt;01
+Přístup k souborům pouze pro prohlížení (ReadFilePath)
+.
+
+4033;txt;01
+U následujících souborů a složek nebude povolena změna v programech běžících v tomto Sandboxu.
+.
+
+4111;txt;01
+Přístup ke zdroji::Přístup k souboru::Přístup jen pro zápis
+.
+
+4112;txt;01
+Přístup k souboru jen pro zápis (WriteFilePath)
+.
+
+4113;txt;01
+Následující složky se zobrazí jako prázdné pro programy které běží v tomto Sandboxu, programy ale mohou vytvářet nové soubory ve složkách tohoto Sandboxu.
+.
+
+4041;txt;01
+Přístup ke zdroji::Přístup k registrům::Přímý přístup
+.
+
+4042;txt;01
+Přímý přístup k registrům (OpenKeyPath)
+.
+
+4043;txt;01
+Následující klíče registrů budou přímo dostupné v programech běžících v tomto Sandboxu.
+.
+
+4044;txt;01
+Toto není potvrzení pro programy, které by instalovány nebo staženy v Sandboxu.
+.
+
+4051;txt;01
+Přístup ke zdroji::Přístup k registrům::Blokovaný přístup
+.
+
+4052;txt;01
+Blokovat přístup k registrům (ClosedKeyPath)
+.
+
+4053;txt;01
+Následujícího klíče registru nebudou přístupné pro všechny programy běžící v tomto Sandboxu.
+.
+
+4054;txt;01
+Pokud klíče registrů odpovídají kterémukoli nastavení povolenému přístupu do registru, ale také odpovídají nastavení blokovanému přístupu do registru, blokovaný přístup bude mít přednost. 
+.
+
+4061;txt;01
+Přístup ke zdroji::Přístup k registrům::Přístup pouze pro čtení
+.
+
+4062;txt;01
+Přístup do registrů pouze pro čtení (ReadKeyPath)
+.
+
+4063;txt;01
+U následujících klíčů registrů nebude dovoleno provádět změny v programech běžících v tomto Sandboxu.
+.
+
+4121;txt;01
+Přístup ke zdroji::Přístup k registrům::Přístup jen pro zápis
+.
+
+4122;txt;01
+Přístup k registrům jen pro zápis (WriteKeyPath)
+.
+
+4123;txt;01
+Následující klíče registrů se zobrazí jako prázdné pro programy které běží v tomto Sandboxu, programy ale mohou vytvářet nová data v rámci těchto klíčů registru v tomto Sandboxu.
+.
+
+4071;txt;01
+Přístup ke zdroji::IPC Přístup::Přímý přístup
+.
+
+4072;txt;01
+Přímý přístup IPC (OpenIpcPath)
+.
+
+4073;txt;01
+Následující NT IPC budou přímo dostupné v programech běžících v tomto Sandboxu bez jakéhokoliv efektu Sandboxu.
+.
+
+4074;txt;01
+Toto nastavení je pro všechny programy, včetně těch, které byly instalovány nebo staženy v tomto Sandboxu.
+.
+
+4081;txt;01
+Přístup ke zdroji::IPC přístup::Blokovat přístup
+.
+
+4082;txt;01
+Blokovat IPC přístup (ClosedIpcPath)
+.
+
+4083;txt;01
+Následující NT IPC objekty nebudou přístupné pro všechny programy běžící v tomto Sandboxu.
+.
+
+4084;txt;01
+Pokud NT IPC objekt nebo jiné IPC odpovídá nastavení blokovaného přístupu, bude nastavení blokovaného přístupu bráno jako precedenční.
+.
+
+4091;txt;01
+Přístup ke zdroji::Okno zdroje
+.
+
+4092;txt;01
+Okno přístupu (OpenWinClass)
+.
+
+4093;txt;01
+Sandboxed programy nemohou komunikovat s okny, které patří k programům běžícím mimo Sandbox, ledaže by bylo okno vytvořeno v jedné z následujících tříd.
+.
+
+4101;txt;01
+Přístup ke zdroji::COM Přístup
+.
+
+4102;txt;01
+COM Přístup (OpenClsid)
+.
+
+4103;txt;01
+Sandboxed programy nemohou komunikovat s COM objekty, které patří k programům běžícím mimo Sandbox, s výjimkou kdy COM třída ID je shodná s jednou z následujících tříd ID. 
+.
+
+#----------------------------------------------------------------------------
+# Applications - General
+#----------------------------------------------------------------------------
+
+4201;txt;01
+Aplikace
+.
+
+4202;txt;01
+&Zobrazit kód
+.
+
+4203;txt;01
+Otevřít &webovou stránku
+.
+
+4204;txt;01
+Vytvořit &novou
+.
+
+4205;txt;01
+Tato aplikační konfigurace neobsahuje webovou adresu.
+.
+
+4206;txt;01
+Různé
+.
+
+4207;txt;01
+Zlepšit využití Sandboxie vašimi dalšími aplikacemi pomocí výběru z níže uvedeného seznamu.
+.
+
+4209;txt;01
+Složky
+.
+
+4210;txt;01
+Nastavit umístění složky používané vašimi dalšími aplikacemi.
+.
+
+4211;txt;01
+Vybrat složku pro
+.
+
+4212;txt;01
+Výchozí umístění:
+.
+
+4213;txt;01
+Alternativní umístění:
+.
+
+4214;txt;02
+Alternativní umístění pro '%2'
+by mělo obsahovat následující soubor:
+
+%3
+
+Vybrané umístění tento soubor neobsahuje.
+
+Vyberte prosím složku, která tento soubor obsahuje.
+.
+
+4215;txt;01
+Vyberte složku, která je používána %2.
+.
+
+4216;txt;01
+Nastavení níže vytvoří aplikační konfiguraci '%2'.
+.
+
+4217;txt;01
+Zadejte nebo vložte nastavení, klepnutím na tlačítko OK vytvoříte novou místní aplikační konfiguraci.
+.
+
+4218;txt;01
+Místní
+.
+
+4219;txt;01
+Vaše místní (neoficiální) aplikační konfigurace.
+.
+
+4220;txt;01
+Zadaný kód obsahuje jednu nebo více chyb.
+Nelze vytvořit aplikační konfiguraci.
+.
+
+4221;txt;01
+Chcete-li vybrat umístění složky pro vaše aplikace, podívejte se na stránku složek.
+.
+
+4222;txt;02
+Toto nastavení nelze upravit nebo odstranit, protože se jedná
+o součást aplikační konfigurace.
+
+%2
+
+Chcete-li odebrat aplikační konfiguraci ze Sandboxu,
+podívejte se na stránky aplikací v Nastavení Sandboxu.
+.
+
+4223;txt;01
+Místní aplikační konfigurace '%2' je nyní odstraněna ze všech sandboxů.
+Chcete úplně vymazat tuto aplikační konfiguraci?
+.
+
+4224;txt;01
+PDF a tisk
+.
+
+4226;txt;02
+Bezpečnost/Soukromí
+.
+
+4228;txt;01
+Desktopové utility
+.
+
+4230;txt;01
+Stahovací manažery
+.
+
+4288;txt;01
+Všechny aplikace
+.
+
+4289;txt;01
+Seznam všech aplikačních konfigurací, seřazených v abecedném pořadí. Seznam nezahrnuje místní (neoficiální) aplikační konfigurace.
+.
+
+4291;txt;01
+Výchozí vyloučení pro Okamžitou obnovu
+.
+
+4292;txt;01
+Výchozí seznam přetrvávajících programů
+.
+
+4293;txt;01
+Výchozí seznam blokovaných TCP/IP portů
+.
+
+4294;txt;01
+Povolit programům aktualizovat Seznamy odkazů v hlavním panelu Windows
+.
+
+#----------------------------------------------------------------------------
+# Applications - Software Compatibility
+#----------------------------------------------------------------------------
+
+4251;txt;01
+Softwarová kompatibilita
+.
+
+4252;txt;01
+Sandboxie zjistil v systému následující softwarové aplikace.
+.
+
+4253;txt;01
+Kliknutím na OK použijete konfigurační nastavení, které povede ke zlepšení kompatibility s těmito aplikacemi.
+.
+
+4254;txt;01
+Toto nastavení bude mít vliv na všechny existující i nové Sandboxy.
+.
+
+4255;txt;01
+V budoucnu neověřovat softwarovou kompatibilitu
+.
+
+4256;txt;01
+Tuto aplikační konfiguraci nelze odstranit, protože je použita pro všechny Sandboxy.
+Chcete-li tuto aplikační konfiguraci odstranit, použijte nástroj Softwarová kompatibilita z menu Konfigurace.
+.
+
+4257;txt;01
+Odstranit &staré nastavení
+.
+
+4258;txt;01
+Následující nastavení kompatibility již není v užívání::
+
+%2
+
+Chcete-li zrušit toto nastavení kompatibility, klikněte na OK
+.
+
+4451;txt;01
+Sandboxie zjistil následující konfliktní softwarové
+aplikace ve vašem systému. Tyto aplikace mohou
+ovlivnit správnou funkci Sandboxie.
+
+%2
+
+Přečtěte si prosím stránku Známé konflikty Sandboxie
+na webových stránkách pro více informací a řešení.
+
+Chcete otevřít webovou stránku Známé konflikty teď?
+.
+
+4452;txt;01
+&Známé konflikty
+.
+
+#----------------------------------------------------------------------------
+# Lock Configuration
+#----------------------------------------------------------------------------
+
+4261;txt;01
+Zámek konfigurace
+.
+
+4262;txt;01
+Sandboxie může chránit celkovou konfiguraci a nastavení Sandboxu před neautorizovanými změnami. Vyberte, jestli má být ochranný režim zapnutý nebo vypnutý.
+.
+
+4263;txt;01
+Změny &můžete provádět pouze jako administrátor uživatelských účtů
+.
+
+4264;txt;01
+&Pro vytvoření změn musí být zadáno heslo
+.
+
+4265;txt;01
+&Nepamatovat si heslo, když je okno Ovládání Sandboxie skryté
+.
+
+4266;txt;01
+&Změnit heslo
+.
+
+4267;txt;01
+Pouze administrátor uživatelských účtů může &vypnout příkaz Nucené programy
+.
+
+4269;txt;01
+Zvažte prosím, přečtění dokumentace týkající se ochrany konfigurace
+na stránkách Sandboxie. Chcete nyní otevřít tyto stránky?
+.
+
+4271;txt;01
+Konfigurace Sandboxie je chráněna heslem. Zadejte prosím heslo.
+.
+
+4272;txt;01
+Zadejte nové heslo pro ochranu konfigurace Sandboxie.
+.
+
+4273;txt;01
+Zadejte znovu stejné heslo a potvrďte.
+.
+
+4274;txt;01
+Špatně zadané heslo. Zkusit znovu?
+.
+
+#----------------------------------------------------------------------------
+# Program Selector
+#----------------------------------------------------------------------------
+
+4281;txt;01
+Vyberte název programu
+.
+
+4282;txt;01
+Vyberte název programu, nebo programové skupiny
+.
+
+4283;txt;01
+Nedávno spuštěné programy
+.
+
+4284;txt;01
+Programy, které jsou v Nastavení Sandboxu
+.
+
+4285;txt;01
+Programové skupiny
+.
+
+4286;txt;01
+Vyberte nebo &zadejte program:
+.
+
+4287;txt;01
+Otevřít / Vybrat &soubor
+.
+
+#----------------------------------------------------------------------------
+# Applications - Accessibility
+#----------------------------------------------------------------------------
+
+4302;txt;01
+Dostupnost
+.
+
+4303;txt;01
+Následující nastavení umožní použít Sandboxie v kombinaci s dostupným softwarem. Mějte na paměti, že rozsah Sandboxie ochrany se tímto nastavením nevyhnutně sníží.
+.
+
+4304;txt;01
+Chcete-li, náhradu za ztracenou ochranu najdete na stránce nastavení Snížená práva v Omezení nastavení skupiny.
+.
+
+4305;txt;03
+Čtečky obrazovky:  %2
+.
+
+#----------------------------------------------------------------------------
+# Applications - Web Browser and Email Reader
+#----------------------------------------------------------------------------
+
+4321;txt;01
+Webový prohlížeč
+.
+
+4322;txt;01
+Následující změny umožní Webovému prohlížeči běžet v Sandboxu a dělat změny mimo Sandbox. Je to pohodlnější, ale s menší mírou bezpečnosti a soukromí.
+.
+
+4323;txt;01
+Přimět %2 spustit se v tomto Sandboxu
+.
+
+4324;txt;02
+Umožňit přímý přístup k %2 synchronizaci dat
+.
+
+4325;txt;02
+Umožnit přímý přístup pro %2 kanály
+.
+
+4326;txt;02
+Umožnit přímý přístup k oblíbeným položkám aplikace %2
+.
+
+4327;txt;01
+Přidat oblíbené položky z Internet Exploreru do Rychlé obnovy složek
+.
+
+4328;txt;01
+Umožnit přímý přístup pro %2 cookies
+.
+
+4329;txt;01
+Uložit mimo Sandbox: Historie vyhledávání řetězců a vyvolání příkazů
+.
+
+4330;txt;01
+Uložit mimo Sandbox: Informace o účtu na Hotmailu a Messengeru
+.
+
+4331;txt;01
+Umožnit přímý přístup k %2 heslům
+.
+
+4336;txt;02
+Umožnit přímý přístup k záložkám %2-u a databázi historie
+.
+
+4337;txt;02
+Umožnit přímý přístup k %2 databázím phishingu
+.
+
+4338;txt;02
+Umožnit přímý přístup k celé složce profilu %2-u
+.
+
+4339;txt;02
+Umožnit přímý přístup k předvolbě %2
+.
+
+4340;txt;01
+Umožit přímý přístup k řízení relací %2
+.
+
+4356;txt;02
+Umožnit přímý přístup k záložkám %2-y
+.
+
+4357;txt;02
+Jiný
+.
+
+4358;txt;02
+Doplňky
+.
+
+4391;txt;01
+Emailový prohlížeč
+.
+
+4392;txt;01
+Následující nastavení umožní Emailovému prohlížeči běžícímu v Sandboxu přístup k poštovní schránce umístěné mimo Sandbox.
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control:  Sandbox Settings:  User Accounts
+#----------------------------------------------------------------------------
+
+5101;txt;01
+Uživatelské účty
+.
+
+5102;txt;01
+Přidáním uživatelských účtů a skupin uživatelů v seznamu níže můžete omezit použití Sandboxu jen těmito účty. Pokud je seznam prázdný, může být Sandbox využít všemi uživatelskými účty.
+.
+
+5103;txt;01
+Poznámka: Nastavení Nucených programů a Nucených složek v Sandboxu se nevztahuje na uživatelské účty, které nemohou použít Sandbox.
+.
+
+# 5105;txt;01
+# Přidat &uživatele
+# .
+
+5107;txt;01
+Použití tohoto Sandboxu je omezeno vaším uživatelským účtem
+a Sandbox nebude zobrazen v hlavním okně.
+
+Chcete-li Sandbox zobrazit aby se dal používat, použijte příkaz "Zobrazit skryté Sandboxy" v menu Sandboxu
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control:  Reveal Hidden Sandbox
+#----------------------------------------------------------------------------
+
+5122;txt;01
+Z vašeho uživatelského účtu nelze použít Sandboxy uvedeny níže
+.
+
+5123;txt;01
+Následující uživatelské účty mají nyní povoleno používání vybraného Sandboxu
+.
+
+5124;txt;01
+Kliknutím na tlačítko OK přidejte svůj uživatelský účet '%2' do Sandboxu a Sandbox se poté zobrazí v hlavním okně.
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control:  Set Layout and Groups
+#----------------------------------------------------------------------------
+
+5142;txt;01
+Uspořádat Sandboxy do skupin a upravit pořadí, v němž jsou uvedeny. Pomocí kontextového menu vyvolaného pravým tlačítkem můžete spravovat položky v níže uvedeném stromovém uspořádání.
+.
+
+5143;txt;01
+(Top)
+.
+
+5145;txt;01
+&Obnovit výchozí uspořádání
+.
+
+5146;txt;01
+Vložit &skupinu
+.
+
+5147;txt;01
+&Přejmenovat
+.
+
+5148;txt;01
+&Smazat
+.
+
+5151;txt;01
+&Přesunout
+.
+
+5152;txt;01
+&Přesunout nahoru
+.
+
+5153;txt;01
+&Přesunout dolů
+.
+
+5154;txt;01
+&Přesunout do
+.
+
+#----------------------------------------------------------------------------
+# Getting Started Wizard
+#----------------------------------------------------------------------------
+
+7850;txt;01
+Začínáme s výukou - Sandboxie
+.
+
+7851;txt;01
+Začínáme se Sandboxie
+.
+
+7852;txt;01
+Vítejte v Sandboxie!
+
+Sandboxie spouští programy v izolovaném prostoru, který zabrání umístění trvalých změn do jiných programů a dat ve vašem počítači.
+
+Tento krátký návod popisuje základní principy využití Sandboxie.
+.
+
+7853;txt;01
+
+Poznámka: Tento výukový program je určen pro použití ve výchozím Sandboxu, DefaultBox.
+.
+
+7854;txt;01
+Jak Sandboxie funguje (ilustrace)
+.
+
+7855;txt;01
+Spusťte v Sandboxie webový prohlížeč
+.
+
+7856;txt;01
+Najděte zástupce na ploše a kliknutím spusťte webový prohlížeč ve výchozím Sandboxu, DefaultBox.
+.
+
+7857;txt;01
+Klikněte zde pro skrytí tohoto okna a zobrazení plochy.
+.
+
+7858;txt;01
+Váš prohlížeč je nyní spuštěn v Sandboxu
+.
+
+7859;txt;01
+Programy izolované v Sandboxu můžou měnit obsah Sandboxu.
+
+Při stahování a ukládání jsou soubory umístěny v Sandboxu. Pokud uložíte soubor do složky Plocha, Dokumenty a Stažené soubory, nabídne Sandboxie přesunutí souborů ze Sandboxu.
+
+Vyzkoušejte si to: Stáhněte soubor ve Vašem prohlížeči (v Sandboxu) do složky Plocha a obnovte soubor do skutečné Plochy.
+.
+
+7860;txt;01
+Odstraňte obsah Sandboxu
+.
+
+7861;txt;01
+Představte si Sandbox jako průhledný list papíru umístěný mezi programem a počítačem. Odstranění obsahu Sandboxu je jako vyhodit použitý papír a nahradit jej čistým.
+.
+
+7862;txt;01
+Vyzkoušejte si to: Odstraňte obsah Sandboxu DefaultBox. Najděte žlutou ikonu Sandboxie zvýrazněnou v rohu obrazovky a klikněte:
+.
+
+7863;txt;01
+Klikněte pravým tlačítkem myši na žlutou ikonu Sandboxie,
+
+vyberte DefaultBox, a použijte příkaz Smazat obsah.
+.
+
+7864;txt;01
+Připraveno k práci!
+.
+
+7865;txt;01
+Děkujeme, že jste si udělali čas na tento výukový program. Pro další výuku a tipy použijte stránky Sandboxie.
+
+Výchozí nastavení Sandboxie poskytuje plnou ochranu, můžete však přehodnotit konfigurační příkazy Sandboxu v Sandbox menu v okně Ovládání Sandboxie.
+.
+
+# 7866;txt;01
+# V 64-bit systému Windows by jste měli povolit Experimentální ochranu v Ovládání Sandboxie, menu Konfigurace.
+# .
+
+#----------------------------------------------------------------------------
+# License Manager
+#----------------------------------------------------------------------------
+
+7901;txt;01
+Sandboxie licenční správce
+.
+
+7902;txt;01
+Systémový kód %2
+.
+
+7903;txt;01
+V budoucnu aktivovat licenci bez dotazu.
+.
+
+#----------------------------------------------------------------------------
+
+7921;txt;01
+Sandboxie je registrován a licence je aktivována.
+.
+
+7922;txt;01
+Sandboxie je registrován, nyní by měla být aktivována licence.
+.
+
+7923;txt;01
+Neregistrovaná kopie. Zaregistrujte se ještě dnes!
+.
+
+7924;txt;01
+Licence pro Sandboxie bude muset být obnovena za %2 dní.
+.
+
+7925;txt;01
+Licence pro Sandboxie je nyní aktivována.
+.
+
+7926;txt;01
+Datum ukončení platnosti produktového klíče je %2.
+.
+
+7927;txt;01
+Vaše produktové číslo má neomezenou dobu platnosti.
+.
+
+#----------------------------------------------------------------------------
+
+7931;txt;01
+Vaše kopie Sandboxie je registrována pod zastaralým registračním klíčem.
+.
+
+7932;txt;01
+Povolte prosím licenčnímu správci připojit se k licenčnímu serveru a provést upgrade Vašeho starého registračního klíče na nový produktový klíč. Za tento upgrade není účtován žádný poplatek.
+.
+
+7933;txt;01
+Váš registrační klíč není uznán licenčním serverem.
+.
+
+7934;txt;01
+Pokud jste používali legitimní registrační klíč za který jste zaplatili, nebo Vám byl poskytnutý jako dárek nebo jako součást propagace, pak prosím pošlete email na:
+.
+
+7935;txt;01
+Váš nový produktový klíč je:
+.
+
+7936;txt;01
+Uschovejte prosím tento produktový klíč na bezpečném místě pro pozdější použití. Použijte tlačítko níže pro zkopírování produktového čísla do schránky, ze které ho následně můžete vložit do dokumentu a vytisknout.
+.
+
+7937;txt;01
+&Upgrade registračního klíče na produktový klíč
+.
+
+#----------------------------------------------------------------------------
+
+7941;txt;01
+Registrace Sandboxie je vyrobena přes procesor zakoupený od třetí strany. Na začátku registračního procesu navštivte web Sandboxie na níže uvedeném linku.
+.
+
+7942;txt;01
+Pro aktivaci licence Sandboxie zadejte produktový klíč, který je uveden ve Vašem dokladu o zaplacení a potom klikněte na tlačítko Aktivace licence.
+.
+
+7943;txt;01
+Přejete si nyní zadat nový produktový klíč?
+.
+
+7944;txt;01
+&Aktivace licence
+.
+
+7945;txt;01
+Vaše kopie Sandboxie je nyní registrována.
+.
+
+7946;txt;01
+Děkujeme za podporu Sandboxie!
+.
+
+#----------------------------------------------------------------------------
+
+7951;txt;01
+Přejete si nyní aktivovat licenci?
+.
+
+7952;txt;01
+Navštivte prosím Sandboxie webové stránky na níže uvedeném linku pro objednání nového produktového klíče.
+.
+
+7961;txt;01
+Vymazat licenční &informace
+.
+
+7962;txt;01
+Chcete opravdu v Sandboxie vymazat licenční informace?
+
+Licenci si můžete kdykoli aktivovat zadáním produktového klíče.
+.
+
+#----------------------------------------------------------------------------
+
+7971;txt;01
+Neplatný produktový klíč.
+.
+
+7972;txt;01
+Neplatný kód systému.
+.
+
+7973;txt;01
+Neplatný aktivační klíč. [%2]
+.
+
+7974;txt;01
+Neplatná odpověď licenčního serveru.
+.
+
+7975;txt;01
+Aktivace se nezdařila:
+.
+
+7976;txt;01
+Chcete to nyní zkusit znovu?
+.
+
+7977;txt;01
+Pokud potřebujete aktivovat Sandboxie v počítači který nemá přístup k Internetu,
+podívejte se do Sandboxie licenční FAQ pro informace o offline aktivaci.
+.
+
+7978;txt;01
+Aktuální datum (%2) je starší než datum odeslání z licenčního serveru (%3).
+.
+
+7982;txt;01
+Licenční server neurčil důvod selhání aktivace.
+.
+
+7983;txt;01
+Produktové číslo nebylo licenčním serverem rozpoznáno.
+.
+
+7984;txt;01
+Produktové číslo nemůže být použito, datum ukončení jeho platnosti je %2.
+.
+
+7985;txt;01
+Produktové číslo bylo aktivováno na příliš velkém množstí počítačů.
+.
+
+7986;txt;01
+Produktové číslo bylo zrušeno z důvodu jeho zveřejnění na internetu.
+.
+
+7987;txt;01
+Produktové číslo bylo zrušeno z důvodu zrušení objednávky.
+.
+
+#----------------------------------------------------------------------------
+# SandboxieInstall
+#----------------------------------------------------------------------------
+
+8001;ins;01
+Vyberte typ instalace
+.
+
+8002;ins;01
+Vyberte režim přepsat nebo odinstalovat
+.
+
+8003;ins;01
+Start
+.
+
+8004;ins;01
+Máte již existující instalaci Sandboxie v následující složce:
+.
+
+8005;ins;01
+Vyberte prosím z následujících možností:
+.
+
+8006;ins;01
+Přepsat (upgrade) stávající instalace
+.
+
+8007;ins;01
+Odinstalovat (odebrat) stávající instalaci a nastavení
+.
+
+8008;ins;01
+Klepněte na tlačítko Start pro pokračování.
+.
+
+8009;ins;01
+Před odinstalací, použijte Ovládání Sandboxie k odstranění obsahu ze Sandboxu.
+.
+
+8010;ins;01
+Instalace ovladače
+.
+
+8011;ins;01
+Přečtěte si prosím níže uvedené údaje.
+.
+
+8012;ins;01
+Klepněte na Další pro instalaci a aktivaci nízkoúrovňového systémového ovladače. Tento ovladač je jádrem aplikace Sandboxie.
+.
+
+8013;ins;01
+Možná budete muset dočasně zakázat programy pro ochranu systému, které budou bránit instalaci nízkoúrovňového systémového ovladače.
+.
+
+8014;ins;02
+Pokud se tento krok nezdaří a Váš počítač se zablokuje nebo restartuje, restartujte počítač v nouzovém režimu a spusťte tento instalační program pro odstranění Sandboxie.
+.
+
+8015;ins;01
+Ovladač se instaluje úspěšně na většině systémů.
+.
+
+8016;ins;01
+Čekejte prosím, probíhá odinstalace Sandboxie.
+.
+
+8021;ins;01
+Spustit libovolný program v Sandboxu.lnk
+.
+
+8022;ins;01
+Spustit libovolný program pod dohledem Sandboxie
+.
+
+8023;ins;01
+Sandboxie Start Menu.lnk
+.
+
+8024;ins;01
+Vyberte program z nabídky Start ke spuštění pod dohledem Sandboxie
+.
+
+8025;ins;01
+Spustit webový prohlížeč v Sandboxu.lnk
+.
+
+8026;ins;01
+Spustit výchozí webový prohlížeč pod dohledem Sandboxie
+.
+
+8027;ins;01
+Spustit Průzkumníka Windows v Sandboxu.lnk
+.
+
+8028;ins;01
+Prozkoumejte místní plochu a počítač pod dohledem Sandboxie
+.
+
+8029;ins;01
+Ovládání Sandboxie.lnk
+.
+
+8030;ins;01
+Otevřete Sandboxie ovládací panel
+.
+
+8031;ins;01
+Odinstalovat Sandboxie.lnk
+.
+
+8032;ins;01
+Odinstalovat Sandboxie
+.
+
+8033;ins;01
+=copy:3698
+.
+
+8041;ins;01
+Sandboxie lze nainstalovat pouze v následujících verzích systému Microsoft Windows:
+.
+
+8042;ins;01
+Sandboxie musí být nainstalován v uživatelského účtu s
+Administrátorskými právy v systému.
+
+Pokud používáte Windows se zapnutým Řízením uživatelských účtů (UAC)
+ujistěte se, jestli je spuštěn instalační balíček jako příkaz administrátora.
+.
+
+8043;ins;01
+32-bitová verze Sandboxie nemůže být instalována na 64-bitový operační systém.
+.
+
+8044;ins;01
+V 32bitových operačních systémech nelze nainstalovat 64bitovou verzi Sandboxie.
+.
+
+8051;ins;01
+Sandboxie ovládací program je spuštěn.
+
+Zavřít kliknutím na tlačítko OK a pokračovat v instalaci.
+
+Kliknutím na tlačítko Zrušit(Cancel) přerušit instalaci.
+.
+
+8052;ins;01
+Nelze vytvořit nebo aktualizovat Sandboxie programové soubory.
+
+Ujistěte se prosím, jestli není spuštěno Ovládání Sandboxie 
+a neběží žádné sandboxed programy.
+
+Kliknutím na tlačítko OK pokračovat v instalaci.
+
+Anebo klikněte na tlačítko Zrušit(Cancel) pro přerušení instalace.
+.
+
+8053;ins;01
+***KmdUtil se nezdařilo. Instalace nebo odinstalace nemusí být úspěšně dokončena.***
+.
+
+8054;ins;01
+Chcete zachovat Váš Sandboxie.ini konfigurační soubor?
+
+Zvolte ANO pro zachování konfiguračního nastavení v Sandboxie.ini souboru.
+
+Zvolte NE pro smazání Sandboxie.ini souboru a ztrátu Vašeho konfiguračního nastavení.
+.
+
+8055;ins;01
+K dispozici je online aktualizace Templates.ini a/nebo překladů pro tuto verzi sandboxie, chcete ji nainstalovat?
+.
+
+#----------------------------------------------------------------------------
+# KmdUtil
+#----------------------------------------------------------------------------
+
+8101;txt;01
+Nyní nelze nainstalovat ovladače.
+
+Prosím restartujte počítač 
+a spusťte znovu instalační proceduru.
+
+Selhání funkce : %2
+.
+
+8102;txt;01
+Momentálně nelze službu zastavit.
+Služba '%2' je obsazena.
+
+Prosím, klikněte na tlačítko OK pro opakování akce.
+.
+
+8103;txt;01
+Toto je první ze tří opakování.
+.
+
+8104;txt;01
+Jedná se o druhé ze tří opakování.
+.
+
+8105;txt;01
+Jedná se o třetí a poslední opakování.
+.
+
+8106;txt;02
+Následující programy musí být ukončené před tím, než budete pokračovat v instalaci.
+Kliknutím na tlačítko OK tyto programy ukončete a pokračujte v instalaci. Kliknutím na tlačítko Storno instalaci přerušíte.
+.

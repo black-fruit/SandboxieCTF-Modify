@@ -1,0 +1,3659 @@
+#----------------------------------------------------------------------------
+# SbieDrv
+#
+# Initialization errors issued to the System evt Log
+#----------------------------------------------------------------------------
+
+1101;evt;inf;01
+SBIE1101 Sandboxien ajuri (SbieDrv) versio %2 alustettu
+.
+
+1102;evt;inf;01
+SBIE1102 Sandboxien ajuri (SbieDrv) purkautuu
+.
+
+1103;evt;err;01
+SBIE1103 Sandboxie ajuri (SbieDrv) versio %2 käynnistys epäonnistui
+.
+
+1104;evt;err;01
+SBIE1104 Järjestelmäresurssit eivät riitä asennukseen
+.
+
+1105;evt;err;01
+SBIE1105 Tuntematon käyttöjärjestelmäversio:  %2
+.
+
+1106;evt;err;01
+SBIE1106 virhe %2, yksityiskohta %3
+.
+
+# 1107;evt;err;01
+# SBIE1107 Ei löydä paikallista tiliä  %2
+# .
+
+1108;evt;err;01
+SBIE1108 Proseduuria %2 ei voitu analysoida
+.
+
+1109;evt;err;01
+SBIE1109 Kelvoton lisenssitieto:  %2
+.
+
+1110;evt;err;01
+SBIE1110 Ei voi siepata tyyppiä %3, virhe %2
+.
+
+1111;evt;err;01
+SBIE1111 Järjestelmä-DLL %3 ei voitu ladata %2
+.
+
+1112;evt;err;01
+SBIE1112 Proseduuri %2 ei voitu paikantaa
+.
+
+1113;evt;err;01
+SBIE1113 Nt järjestelmäpalvelu ei löydy, syy %2
+.
+
+1114;evt;err;01
+SBIE1114 Zw järjestelmäpalvelu ei löydy, syy %2
+.
+
+1116;evt;err;01
+SBIE1116 Ajuri ei onnistunut rekisteröimään prosessin tiedonantorutiinia %2
+.
+
+1119;evt;err;01
+SBIE1119 Ei voi luoda API laitetta %2
+.
+
+1120;evt;err;01
+SBIE1120 Poikkeus palvelussa %2
+.
+
+1121;evt;err;01
+SBIE1121 Pyydystys epäonnistui palvelulle %2
+.
+
+1122;evt;err;01
+SBIE1122 Virhe:  %2
+.
+
+#----------------------------------------------------------------------------
+# SbieDrv
+#
+# Error Messages to both Event and Popup Logs
+#----------------------------------------------------------------------------
+
+1151;evt;pop;err;01
+SBIE1151 Ei voi käsitellä komentoa %2
+.
+
+1152;evt;pop;err;01
+SBIE1152 Trampoliinin varaus epäonnistui %2
+.
+
+1153;evt;pop;err;01
+SBIE1153 Sandboxien alustus epäonnistui. Sulje kaikki ohjelmat ja sen jälkeen asenna Sandboxie uudelleen TAI käynnistä tietokone uudelleen.
+.
+
+#----------------------------------------------------------------------------
+# SbieDrv
+#
+# Error Messages to Popup Log
+#----------------------------------------------------------------------------
+
+1201;pop;err;01
+SBIE1201 Ei tarpeeksi muistia
+.
+
+1202;pop;err;01
+SBIE1202 Ei voi päivittää lisenssitietoa:  %2
+.
+
+1203;pop;err;01
+SBIE1203 Ei voida koota polkulistaa (virhe asetuksessa %2)
+.
+
+1204;pop;err;01
+SBIE1204 Hiekkalaatikon %3 luonti epäonnistui: %2
+.
+
+1211;pop;err;01
+SBIE1211 Prosessin %2 hiekkalaatikointi epäonnistui
+.
+
+1212;pop;err;01
+SBIE1212 Ei voi luoda kansiota '%3' %2
+.
+
+1213;pop;err;01
+SBIE1213 Ei voi luoda objektikansiota '%3' %2
+.
+
+1214;pop;err;01
+SBIE1214 Ei voi injektoida SbieDll %2
+.
+
+1215;pop;err;01
+SBIE1215 Ei voi selvittää polkua prosessitiedostoon %2
+.
+
+1216;pop;err;01
+SBIE1216 Ei voi tiedustella turva-ID:tä %2
+.
+
+# 1217;pop;err;01
+# SBIE1217 Ei löydä isäntäprosessia
+# .
+
+# 1221;pop;err;01
+# SBIE1221 Ei voi luoda tehtävää:  %2
+# .
+
+1222;pop;err;01
+SBIE1222 Ei voi rajoittaa tunnistetta:  %2
+.
+
+1223;pop;err;01
+SBIE1223 Ei voi korvata tunnistetta:  %2
+.
+
+1224;pop;err;01
+SBIE1224 Ei voi tiedustella tunnistetta:  %2
+.
+
+1241;pop;err;01
+SBIE1241 Ei voitu kiinnittää rekisterijuurta: %2
+.
+
+1242;pop;err;01
+SBIE1242 Monitoripuskurin ylivuoto
+.
+
+#----------------------------------------------------------------------------
+# SbieDrv
+#
+# Informational Messages to Popup Log
+#----------------------------------------------------------------------------
+
+1301;pop;inf;01
+SBIE1301 Prosessi '%2' käynnistettiin hiekkalaatikon ulkopuolella
+.
+
+# 1302;pop;inf;01
+# SBIE1302 Hiekkalaatikkoa '%2' ei ole määritelty tai otettu käyttöön
+# .
+
+1303;pop;inf;01
+SBIE1303 Vain yksi hiekkalaatikko kerrallaan voi olla aktiivi
+.
+
+1304;pop;inf;01
+SBIE1304 Estettiin jäljitelty näppäimistö- tai hiirisyöte prosessista '%2'
+.
+
+1306;pop;inf;01
+SBIE1306 Sandboxien ajuria (SbieDrv) ei voida purkaa nyt
+.
+
+1307;pop;inf;02
+SBIE1307 Ohjelma ei pääse Internetiin rajoitusten vuoksi - %2
+.
+
+1308;pop;inf;02
+SBIE1308 Ohjelma ei voi käynnistyä rajoitusten vuoksi - %2
+.
+
+1309;pop;inf;01
+SBIE1309 Estetty käyttäjätilin salasanan vaihto
+.
+
+1310;pop;inf;01
+SBIE1310 Lisäominaisuudet on estetty kunnes lisenssi on uudelleenaktivoitu
+.
+
+1311;pop;inf;01
+SBIE1311 Estetty prosessin %2 pyyntö muuttaa työpöydän taustakuva on estetty
+.
+
+1312;pop;inf;01
+SBIE1312 Estetty pyyntö käynnistää 16-bittinen DOS ohjelma hiekkalaatikossa
+.
+
+1313;pop;inf;01
+SBIE1313 Suora levynkäyttö estetty prosessilta '%2'
+.
+
+1314;pop;inf;01
+SBIE1314 Estetty pyyntö muokata verkko/palomuuri asetuksia prosessista '%2'
+.
+
+#----------------------------------------------------------------------------
+# SbieDrv
+#
+# Configuration Error Messages to both Event and Popup Logs
+#----------------------------------------------------------------------------
+
+1401;evt;pop;inf;01
+SBIE1401 Asetustiedostoa ei löydy, käytetään oletusarvoja
+.
+
+1402;evt;pop;wrn;01
+SBIE1402 Virhe asetustiedoston rivillä %3:  %2
+.
+
+1403;evt;pop;wrn;01
+SBIE1403 Virhe asetustiedoston rivillä %2: rivi liian pitkä
+.
+
+1404;evt;pop;wrn;01
+SBIE1404 Virhe asetustiedoston rivillä %2: liian monta riviä
+.
+
+1405;evt;pop;wrn;01
+SBIE1405 Virhe asetustiedoston rivillä %2: syntaksivirhe
+.
+
+1406;evt;pop;err;01
+SBIE1406 Puuttuva tai kelvoton laajennus muuttujalla %3: %2
+.
+
+# 1407;evt;pop;err;01
+# SBIE1407 Epäkelpo arvo asetukselle %2, käytetään oletusarvoa
+# .
+
+1408;pop;err;01
+SBIE1408 Tuntematon käyttäjänimi SID:llä: %2
+.
+
+1409;evt;pop;wrn;01
+SBIE1409 Ei voi ajata tiedostoa Templates.ini %2
+.
+
+1410;evt;pop;wrn;01
+SBIE1410 Seuraava viesti ilmaisee virhettä tiedostossa Templates.ini
+.
+
+1411;evt;pop;wrn;01
+SBIE1411 Hiekkalaatikko %2 määrittelee tuntemattoman mallipohjan %3
+.
+
+1412;evt;pop;err;01
+SBIE1412 Tekstissä: %2
+.
+
+#----------------------------------------------------------------------------
+# SbieDrv
+#
+# Messages from user mode -- informational -- 2101 through 2199
+#----------------------------------------------------------------------------
+
+2101;pop;inf;01
+SBIE2101 %2
+.
+
+2102;pop;inf;01
+SBIE2102 Tiedosto on liian suuri kopioitavaksi laatikkoon - %2
+.
+
+2103;pop;inf;01
+SBIE2103 Estettiin yritys ladata järjestelmäajuri '%2'
+.
+
+2104;pop;inf;02
+SBIE2104 Estettiin yritys lopettaa tämä Windows istunto - %2
+.
+
+# 2105;pop;inf;01
+# SBIE2105 Hiekkalaatikoitu palvelu aloitettu: %2
+# .
+
+# 2106;pop;inf;01
+# SBIE2106 Salli "Aja UAC Järjestelmänvalvojana" Sandboxien hallintaohjelman Tiedosto-valikosta
+# .
+
+# 2107;pop;inf;01
+# SBIE2107 Preparing WinSxS assembly '%2'
+# .
+
+2108;pop;inf;01
+SBIE2108 Lavastetaan onnistunut lopetus ohjelmalle '%2'
+.
+
+# 2109;pop;inf;01
+# SBIE2109 Click OK when the program or installation has completed.
+# .
+
+# 2110;pop;inf;01
+# SBIE2110 Preparing WinSxS dependencies for '%2'
+# .
+
+# %2 = Mozilla Firefox
+2191;pop;inf;01
+SBIE2191 %2 ei tulisi päivittää kun sitä ajetaan Sandboxiessa.
+.
+
+2192;pop;inf;01
+SBIE2192 Päivittääksesi ohjelman, aja se Sandboxien ulkopuolella.
+.
+
+2193;pop;inf;01
+SBIE2193 Muista poistaa hiekkalaatikko päivitysprosessin jälkeen.
+.
+
+2199;pop;inf;01
+%0
+.
+
+#----------------------------------------------------------------------------
+# SbieDrv
+#
+# Messages from user mode -- warning -- 2201 through 2299
+#----------------------------------------------------------------------------
+
+2201;pop;wrn;01
+SBIE2201 %2
+.
+
+#2202;pop;wrn;01
+#SBIE2202 Asennettujen laitteiden lista puuttuu
+#.
+
+2203;pop;wrn;01
+SBIE2203 Viestintä Sandboxien palvelun kanssa epäonnistui: %2
+.
+
+2204;pop;wrn;01
+SBIE2204 Hiekkalaatikoidun palvelun %2 käynnistys ei onnistu
+.
+
+2205;pop;wrn;01
+SBIE2205 Palvelua ei toteutettu: %2
+.
+
+2206;pop;wrn;01
+SBIE2206 AutoExec-asetuksen %2 käsittely epäonnistui
+.
+
+2207;pop;wrn;01
+SBIE2207 Kelvoton asetuksen '%2' arvo, käytetään oletusta
+.
+
+2208;pop;wrn;01
+SBIE2208 Ei voitu poistaa rekisterijuurta: %2
+.
+
+2209;pop;wrn;01
+SBIE2209 Ei voitu muuntaa SID:tä käyttäjänimeksi: %2
+.
+
+2210;pop;wrn;01
+SBIE2210 Windows Resurssienhallinta ei voinut avata kohdetta: %2
+.
+
+2211;pop;wrn;01
+SBIE2211 Hiekkalaatikoitu palvelu %2 ei käynnistynyt
+.
+
+2212;pop;wrn;01
+SBIE2212 Sähköpostiohjelmaa '%2' ei ole asetettu ajettavaksi laatikossa
+.
+
+2213;pop;wrn;01
+SBIE2213 Windows tunnistetietoja ei voi tallettaa hiekkalaatikkoon
+.
+
+2214;pop;wrn;01
+SBIE2214 Pyyntö käynnistää palvelu '%2' estettiin alennettujen oikeuksien vuoksi
+.
+
+# 2215;pop;wrn;01
+# SBIE2215 Failed to prepare WinSxS dependencies:  %2
+# .
+
+# 2216;pop;wrn;01
+# SBIE2216 Error preparing WinSxS assembly:  %2
+# .
+
+2217;pop;wrn;02
+SBIE2217 Pyyntö ajaa järjestelmänvalvojana estettiin alennettujen oikeuksien vuoksi
+.
+
+2218;pop;wrn;01
+SBIE2218 Epäonnistui saamaan korotettuja oikeuksia:  %2
+.
+
+2219;pop;wrn;01
+SBIE2219 Pyynnön lähetti ohjelma %2
+.
+
+2220;pop;wrn;01
+SBIE2220 Salli järjestelmänvalvojan oikeudet kaksoisnapauttamalla tätä viestiä
+.
+
+2221;pop;wrn;01
+SBIE2221 Lisää ohjelma Internet rajoituksiin kaksoisnapauttamalla tätä viestiä
+.
+
+2222;pop;wrn;01
+SBIE2222 Lisää ohjelma Käynnistä/Aja rajoituksiin kaksoisnapauttamalla tätä viestiä
+.
+
+2223;pop;wrn;01
+SBIE2223 Kasvata kopioitavien tiedostojen kokorajoitusta kaksoisnapauttamalla tätä viestiä
+.
+
+#----------------------------------------------------------------------------
+# SbieDrv
+#
+# Messages from user mode -- error -- 2301 through 2399
+#----------------------------------------------------------------------------
+
+2301;pop;err;01
+SBIE2301 %2
+.
+
+2303;pop;err;01
+SBIE2303 Ei voinut pyydystää %2
+.
+
+2304;pop;err;01
+SBIE2304 Prosessin %2 alustus epäonnistui
+.
+
+2305;pop;err;01
+SBIE2305 Muisti loppu
+.
+
+2306;pop;err;01
+SBIE2306 Käyttäjäkansiota ei löydy:  %2
+.
+
+2307;pop;err;01
+SBIE2307 Ei voinut yhdistää asemaa %2
+.
+
+2308;pop;err;01
+SBIE2308 Ei voinut luoda objektikansiota:  %2
+.
+
+2309;pop;err;01
+SBIE2309 Ei voinut estää COM+/DCOM:  %2
+.
+
+2310;pop;err;01
+SBIE2310 Nimipuskuri lähes täynnä (%2)
+.
+
+2311;pop;err;01
+SBIE2311 Ei voinut estää roskakoria (BitBucket):  %2
+.
+
+2312;pop;err;01
+SBIE2312 Ei voinut sallia BrowseNewProcess asetusta:  %2
+.
+
+2313;pop;err;01
+SBIE2313 Ei voinut suorittaa %2
+.
+
+2314;pop;err;01
+SBIE2314 Peruutetaan prosessi %2
+.
+
+2315;pop;err;01
+SBIE2315 Ei voi lukita prosessitiedostoa
+.
+
+2316;pop;err;01
+SBIE2316 Muisti korruptoitunut
+.
+
+2317;pop;err;01
+SBIE2317 Ei voi alustaa kansiolistaa '%2'
+.
+
+2318;pop;err;01
+SBIE2318 DLL alustus epäonnistui '%2'
+.
+
+# 2319;pop;err;01
+# SBIE2319 Activation context fails for sandboxed process %2
+# .
+
+# 2320;pop;err;01
+# SBIE2320 Could not disable Windows Explorer as desktop process:  %2
+# .
+
+2321;pop;err;01
+SBIE2321 Ei voi hallita laitekarttaa:  %2
+.
+
+2322;pop;err;01
+SBIE2322 Ei voi uudelleenkirjoittaa tiedostoa Sandboxie.ini:  %2
+.
+
+2323;pop;err;01
+SBIE2323 Kryptografinen virhe:  %2
+.
+
+2326;pop;err;01
+SBIE2326 Ei voi alustaa rekisteriä:  %2
+.
+
+2327;pop;err;01
+SBIE2327 Virhe COM palvelimella:  %2
+.
+
+2331;pop;err;01
+SBIE2331 Palvelun käynnistys epäonnistui:  %2
+.
+
+2332;pop;err;01
+SBIE2332 Ei löydä tiedostoa SbiePst.dat
+.
+
+# 2333;pop;err;01
+# SBIE2333 Epäyhteensopiva DLL:  %2
+# .
+
+2334;pop;err;01
+SBIE2334 Ei voi ladata DLL-tiedostoa:  %2
+.
+
+# 2398;txt;01
+# SBIE2398 Service suffers exception ... at address ...
+# .
+
+# 2399;txt;01
+# SBIE2399 Palvelu kaatui virheeseen ...
+# .
+
+#----------------------------------------------------------------------------
+# SbieSvc
+#----------------------------------------------------------------------------
+
+9101;evt;err;01
+SBIE9101 Järjestelmäresurssit eivät riitä
+.
+
+9153;evt;err;01
+SBIE9153 Ajurin (SbieDrv) käynnistys ei onnistu
+.
+
+9154;evt;err;01
+SBIE9154 Ajuri (SbieDrv) ja palvelu (SbieSvc) ovat eri versiota
+.
+
+9156;evt;err;01
+SBIE9156 Ajurin alustus ei täydellinen
+.
+
+9201;evt;err;01
+SBIE9201 Tunniste virhe
+.
+
+9202;evt;err;01
+SBIE9201 Tunniste virhe
+.
+
+9203;evt;err;01
+SBIE9201 Tunniste virhe
+.
+
+9204;evt;err;01
+SBIE9204 Turvakuvaus virhe
+.
+
+9205;evt;err;01
+SBIE9205 Turvakuvaus virhe
+.
+
+9206;evt;err;01
+SBIE9206 Turvakuvaus virhe
+.
+
+9207;evt;err;01
+SBIE9207 Turvakuvaus virhe
+.
+
+9208;evt;err;01
+SBIE9208 Ei voi ottaa käyttään SeRestorePrivilege
+.
+
+9251;evt;err;01
+SBIE9251 Porttitapahtuman luonti epäonnistu
+.
+
+9252;evt;err;01
+SBIE9252 Portin luonti epäonnistui
+.
+
+9253;evt;err;01
+SBIE9253 Porttisäikeen luonti epäonnistui
+.
+
+#----------------------------------------------------------------------------
+# Common Texts
+#----------------------------------------------------------------------------
+
+3001;txt;01
+&OK
+.
+
+3002;txt;01
+&Peruuta
+.
+
+3003;txt;01
+&Selaa...
+.
+
+3004;txt;01
+S&ulje
+.
+
+3005;txt;01
+&Leikkaa
+.
+
+3051;txt;01
+Hiekkalaatikolle on asetettu poistosuojaus
+.
+
+3052;txt;01
+Aja hiekkalaatikossa
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Start
+#----------------------------------------------------------------------------
+
+3101;txt;01
+Sandboxie Käynnistys
+.
+
+3103;txt;01
+Anna hiekkalaatikkoon avattavan ohjelman tai kansion nimi.
+.
+
+3104;txt;01
+Anna '.' (piste) selataksesi Sandboxiella työpöytääsi.
+.
+
+3105;txt;01
+Poista komento komentohistoriasta
+.
+
+3106;txt;01
+Valitse hiekkalaatikko, jossa ohjelma tai dokumentti avataan.
+.
+
+3111;txt;01
+      Sandboxie Käynnistä-valikko - %2  %0
+.
+
+3112;txt;01
+Työpöytä
+.
+
+3113;txt;01
+(selaa kansiota)
+.
+
+3202;txt;01
+Kelvoton komentoriviparametri:  %2
+.
+
+3203;txt;01
+Käyttö: Start.exe <ohjelman nimi>
+.
+
+3204;txt;01
+Kelvoton laatikon nimen parametri:  %2
+.
+
+3205;txt;01
+Ei voitu kutsua ohjelmaa:
+
+%2
+.
+
+3206;txt;01
+Järjestelmän virhekoodi:
+.
+
+# 3207;txt;01
+# Internet Explorerin sovellusta ei löydy
+# .
+
+# 3208;txt;01
+# Oletus web-selaimen sovellusta ei löydy
+# .
+
+3209;txt;01
+Oletus sähköpostiohjelman sovellusta ei löydy
+.
+
+3210;txt;01
+Ei voitu käynnistää Sandboxien hallintaohjelmaa
+.
+
+3211;txt;01
+Versioristiriita Sandboxiessa. Yritä asentaa uudelleen.
+.
+
+3212;txt;01
+Sandboxien ajuri (SbieDrv) ei ole saatavilla ohjelmille.
+Varmista että ajuri ja Sandboxien palvelu (SbieSvc) ovat käynnissä.
+.
+
+3213;txt;01
+Ei voitu alustaa Sandboxien COM-palveluita
+.
+
+3214;txt;01
+Poista hiekkalaatikko %2:  %0
+.
+
+3215;txt;01
+Objekti (tiedosto tai kansio) saattaa olla toisen ohjelman käytössä.
+Sulje muut ohjelmat, jotka saattavat estää pääsyn siihen.
+.
+
+3216;txt;01
+Hiekkalaatikon kansiota ei löytynyt
+.
+
+3217;txt;01
+Hiekkalaatikon kansiota ei voitu avata
+.
+
+3218;txt;01
+Hiekkalaatikon säilytyskansiota ei voitu avata
+.
+
+3219;txt;01
+Hiekkalaatikon kansiota ei voitu siirtää pois tieltä
+.
+
+3220;txt;01
+Hiekkalaatikossa olevan pitkän tiedostonimen uudelleennimeäminen
+epäonnistui.  Laatikkoa ei poistettu.
+.
+
+3221;txt;01
+Lopeta hiekkalaatikon ohjelmat ennen laatikon sisällön tyhjennystä.
+.
+
+3222;txt;01
+Poistokomento epäonnistui:  %0
+.
+
+3231;txt;01
+Olet asentanut Sandboxien yli 30 päivää sitten.
+.
+
+3232;txt;01
+Sandboxien yksityinen käyttö on sallittu ilmaiseksi niin kauan kuin haluat.
+.
+
+3233;txt;01
+Ilmainen versio kuitenkin pysähtyy nyt muutamaksi sekunniksi.
+.
+
+3234;txt;01
+Ilmainen versio sallii yhden laatikon käytön kerrallaan.
+.
+
+3235;txt;01
+Tämä rajoitus on poistettu Sandboxien maksullisessa versiossa.
+.
+
+3236;txt;01
+Maksullinen versio mahdollistaa myös valittujen ohjelmien automaattisen laatikoinnin.
+.
+
+3237;txt;01
+Lisää tietoa ja ohjeet ohjelman ostoon saat valitsemalla seuraavan linkin:
+.
+
+3238;txt;01
+Odota vielä %2 sekuntia
+.
+
+3239;txt;01
+Sulje tämä ikkuna ja jatka
+.
+
+3240;txt;01
+Sulje tämä ikkuna ja lopeta
+.
+
+3241;txt;01
+Sandboxie pyytää järjestelmänvalvojan oikeuksia
+laatikossa ajettavalle ohjelmalle.
+.
+
+3242;txt;01
+Hyväksyäksesi tai hylätäksesi pyynnön, aktivoi
+Käyttäjätilien valvonta pop-up ikkuna.
+.
+
+3243;txt;01
+Huom: Järjestelmävalvojan oikeudet saatuaan,
+ohjelma jatkaa edelleen Sandboxien valvonnassa.
+.
+
+3251;txt;01
+Suorita hiekkalaatikon ulkopuolella
+.
+
+3252;txt;01
+Käynnistä ohjelma Sandboxien ulkopuolella, vaikka 
+ohjelma olisi pakotettu suoritettavaksi Sandboxien sisällä.
+Tämä poikkeus koskee myös kaikkia ohjelmia joita tämä 
+ohjelma käynnistää.
+
+Voit valita tämän option myös pitämällä Ctrl ja Vaihto -näppäimet 
+alaspainettuina, samalla kun valitset 'Aja hiekkalaatikossa' -komennon.
+.
+
+3253;txt;01
+Haluatko varmasti ajaa ohjelman hiekkalaatikon ulkopuolella?
+.
+
+3254;txt;01
+Voit ohittaa tämän hiekkalaatikon valintaikkunan pitämällä Ctrl näppäintä
+alaspainettuna samalla kun valitset 'Aja hiekkalaatikossa' -komennon.
+.
+
+3255;txt;01
+Optio ei ole käytössä koska tälle hiekkalaatikolle on valittuna 'alennetut oikeudet' -asetus 
+.
+
+3256;txt;01
+Optio ei ole käytössä koska ohjelmalla on jo järjestelmänvalvojan oikeudet
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control Common
+#----------------------------------------------------------------------------
+
+3301;txt;01
+Sandboxien hallintaohjelma
+.
+
+3302;txt;01
+Versio %2
+.
+
+3303;txt;01
+  - Alustetaan
+.
+
+3304;txt;01
+Versioristiriita Sandboxiessa:
+
+Sandboxien hallintaohjelma:  Versio %2
+Palvelu (SbieSvc): Versio %3
+Ajuri (SbieDrv): Versio %4
+
+Asenna Sandboxie uudelleen korjataksesi tämän ongelman.
+
+Keskeytetään.
+.
+
+# 3305;txt;01
+# Could not install tray icon.  Aborting.
+# .
+
+3306;txt;01
+Älä näytä tätä viestiä jatkossa
+.
+
+#3307;txt;01
+#Anna ohjelman nimi
+#.
+
+# translate text but keep hash signs (#)
+3308;txt;01
+Ohjelmat#*.EXE#Kaikki tiedostot#*.*##
+.
+
+3309;txt;01
+  -  Hiekkalaatikkoa poistetaan
+.
+
+3311;txt;01
+Ei voitu tallentaa asetusta %3 kohdassa %2: %4
+.
+
+3312;txt;01
+Sinulla ei ole oikeuksia päivittää asetusta kohdassa %2
+.
+
+3313;txt;01
+Tuntematon käyttäjä, asetuksia ei tallenneta
+.
+
+3314;txt;01
+Virhe asetettaessa oletusasetuksia hiekkalaatikolle '%2'
+.
+
+3321;txt;01
+  -  Kirjautumisistunto on hiekkalaatikoitu
+.
+
+3322;txt;01
+Kirjautumisistuntosi ajetaan Sandboxien alaisuudessa.
+Hiekkalaatikon tyhjentäminen poistaa kaikki istunnon aikana tehdyt asetukset.
+
+Käyttäjä: %2
+Hiekkalaatikko: %3
+
+Haluatko varmasti poistaa hiekkalaatikon sisällön ja kirjautua ulos?
+.
+
+3351;txt;01
+P&oista
+.
+
+3352;txt;01
+&Lisää
+.
+
+3353;txt;01
+&Muokkaa/Lisää
+.
+
+3354;txt;01
+&Muokkaa
+.
+
+3355;txt;01
+Lisää &ohjelma
+.
+
+# 3356;txt;01
+# Anna &nimi
+# .
+
+# 3357;txt;01
+# Anna &tiedosto
+# .
+
+3358;txt;01
+Lisää &kansio
+.
+
+3359;txt;01
+Lisää K&äyttäjä
+.
+
+3360;txt;01
+Valitse K&aikki
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control Menus
+#----------------------------------------------------------------------------
+
+3411;txt;01
+&Tiedosto
+.
+
+3412;txt;01
+Lopeta &kaikki ohjelmat
+.
+
+3413;txt;01
+Ohjelmien &pakotus pois käytöstä
+.
+
+3414;txt;01
+Aja &UAC Järjestelmänvalvojana
+.
+
+3415;txt;01
+Onko tämä &hiekkalaatikossa?
+.
+
+3416;txt;01
+Resursseihin Pääsyn &Monitorointi
+.
+
+3417;txt;01
+&Lopeta
+.
+
+3421;txt;01
+&Näytä
+.
+
+3422;txt;01
+&Ohjelmat
+.
+
+3423;txt;01
+&Tiedostot ja kansiot
+.
+
+3424;txt;01
+Toi&mintovalikko%2Vaihto+F10
+.
+
+3425;txt;01
+Palautus &Loki
+.
+
+3431;txt;01
+&Laatikot
+.
+
+3432;txt;01
+Luo uusi hiekkalaatikko
+.
+
+3433;txt;01
+Aseta säilytyskansio
+.
+
+3434;txt;01
+Näytä piillotettu hiekkalaatikko
+.
+
+3435;txt;01
+Aseta Asettelu ja Ryhmät
+.
+
+3441;txt;01
+&Asetukset
+.
+
+3442;txt;01
+&Ohjelmahälytykset
+.
+
+3443;txt;01
+&Kytkeytyminen Windowsiin
+.
+
+3501;txt;01
+Ohjelmiston &yhteensopivuus
+.
+
+3503;txt;01
+Kokeellinen Suojaustila (64-bittinen)
+.
+
+3444;txt;01
+Unohda piilotetut &viestit
+.
+
+3445;txt;02
+V&ihjeet
+.
+
+3502;txt;01
+&Lukitse asetukset
+.
+
+3446;txt;01
+&Muokkaa asetuksia
+.
+
+3447;txt;01
+&Lataa asetukset uudelleen
+.
+
+3448;txt;01
+&Näytä kaikki vihjeet
+.
+
+3449;txt;01
+&Piilota kaikki vihjeet
+.
+
+3451;txt;01
+&Ohje
+.
+
+3452;txt;01
+&Ohjeen aiheet (Web)
+.
+
+3453;txt;01
+&Aloitusohjeet (Web)
+.
+
+3454;txt;01
+Tarkista &päivitykset
+.
+
+3455;txt;01
+&Rekisteröi Sandboxie
+.
+
+3456;txt;01
+&Tietoja ohjelmasta Sandboxie
+.
+
+3461;txt;01
+&Aja hiekkalaatikossa
+.
+
+3462;txt;01
+Avaa &web-selain
+.
+
+3463;txt;01
+Avaa &sähköposti
+.
+
+3464;txt;01
+Avaa &muu ohjelma
+.
+
+3465;txt;01
+Avaa &Käynnistä-valikosta
+.
+
+3466;txt;01
+Avaa &Windows Resurssienhallinta
+.
+
+3471;txt;01
+&Lopeta ohjelmat
+.
+
+3472;txt;01
+&Pikapalautus
+.
+
+3473;txt;01
+P&oista sisältö
+.
+
+3474;txt;01
+S&elaa sisältöä
+.
+
+3475;txt;01
+Laatikon &asetukset
+.
+
+3476;txt;01
+&Nimeä uudelleen laatikko
+.
+
+3477;txt;01
+Pois&ta laatikko
+.
+
+3481;txt;01
+&Lopeta ohjelma
+.
+
+3482;txt;01
+Ohjelman &asetukset
+.
+
+3483;txt;01
+&Pääsy resursseihin
+.
+
+3485;txt;01
+Näytä ikkuna
+.
+
+3486;txt;01
+Piilota ikkuna
+.
+
+3487;txt;01
+&Näytä virheet
+.
+
+3488;txt;01
+&Poista laatikon sisältö ja kirjaudu ulos
+.
+
+3491;txt;01
+Palauta &samaan kansioon
+.
+
+3492;txt;01
+Palauta &mihin tahansa kansioon
+.
+
+3493;txt;01
+&Lisää kansio pikapalautukseen
+.
+
+3494;txt;01
+P&oista kansio pikapalautuksesta
+.
+
+3495;txt;01
+Luo pikakuvake työpöydälle
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control Main Window
+#----------------------------------------------------------------------------
+
+3511;txt;01
+Sandboxien hallintaohjelma piilottaa nyt ikkunansa,
+mutta jatkaa toimintaa. Palauttaaksesi ikkunan, 
+kaksoisnapauta sen keltaista kuvaketta tehtäväpalkissa.
+.
+
+3512;txt;01
+Tee muutokset Sandboxie.ini-asetustiedostoon juuri
+avatulla tekstieditorilla.
+
+Uudet asetukset tulevat voimaan vasta kun 'Lataa
+asetukset uudelleen' -toiminto käynnistetään.
+
+Useimmiten 'Lataa asetukset uudelleen' -toiminto
+ajetaan automaattisesti heti kun suljet teksti-
+editorin ikkunan.
+
+Voit myös koska tahansa käskeä Sandboxieta
+lataamaan asetukset uudelleen.
+.
+
+3513;txt;01
+Sandboxien asetukset on nyt päivitetty ja ne
+tulevat käyttöön ohjelmien käynnistyessä.
+
+Jos jokin ohjelma oli jo käynnissä laatikossa,
+uudet asetukset eivät koske sitä.
+.
+
+3514;txt;01
+Virhe luettaessa asetustiedostoa.
+Sandboxien asetuksia ei päivitetty.
+.
+
+3515;txt;01
+Hiekkalaatikko %2
+.
+
+3516;txt;01
+Aktiivinen
+.
+
+3517;txt;01
+Ohjelman nimi
+.
+
+3518;txt;01
+PID
+.
+
+3519;txt;01
+Ikkunan otsikko
+.
+
+3520;txt;01
+Pikapalautettavat kansiot
+.
+
+3521;txt;01
+Kaikki tiedostot ja kansiot
+.
+
+3522;txt;01
+Asemat
+.
+
+3523;txt;01
+Verkkojaot
+.
+
+3524;txt;01
+Käyttäjän tiedostot
+.
+
+3525;txt;01
+Yksityiset
+.
+
+3526;txt;01
+Kaikki käyttäjät
+.
+
+3527;txt;01
+Poista hiekkalaatikon %2 sisältö ennen tätä komentoa.
+.
+
+3528;txt;01
+Anna laatikon uusi nimi
+.
+
+3529;txt;01
+Haluatko varmasti poistaa hiekkalaatikon %2?
+.
+
+3530;txt;01
+Ei lopetettavia prosesseja.
+.
+
+3531;txt;01
+VAROITUS: Lopetettaville prosesseille ei anneta
+mahdollisuutta tallentaa tietojansa.
+
+Haluatko varmasti jatkaa?
+.
+
+3532;txt;01
+Lopeta jatkossa prosessit kyselemättä
+.
+
+3533;txt;01
+Voit kopioida ja leikata tiedostoja tai kansioita hiekkalaatikoidusta
+Resurssienhallinnan ikkunasta ja liittää niitä laatikoimattomaan ikkunaan.
+.
+
+3534;txt;01
+Selaat hiekkalaatikon sisältöä Resurssienhallinta ohjelmalla,
+jota ei ajeta Sandboxien kontrollissa.
+
+Voit avata hiekkalaatikossa olevia ohjelmia ja tiedostoja.
+Ohjelma tai tiedosto käynnistetään Sandboxien kontrollissa.
+
+Suosittelemme kuitenkin käsittelemään hiekkalaatikon sisältöä käyttäen
+Sandboxien sisällä ajettavaa Resurssienhallinta ohjelmaa. Voit käynnistää
+sen valikosta:  Hiekkalaatikko > Aja hiekkalaatikossa > Avaa Windows Resurssienhallinta.
+.
+
+3535;txt;01
+Virhe avattaessa hiekkalaatikon kansiota.
+.
+
+3536;txt;01
+Merkintä 'piilotettu' on poistettu kaikista viesteistä.
+.
+
+3537;txt;01
+Merkintä 'älä näytä jatkossa' on poistettu kaikista vihjeistä.
+.
+
+3538;txt;01
+Merkintä 'älä näytä jatkossa' on lisätty kaikkiin vihjeisiin.
+.
+
+3539;txt;01
+Hiekkalaatikko '%2' luotiin %3 päivää sitten.
+
+Laatikon sisältö olisi hyvä poistaa ajoittain.
+
+Automaattisen poiston voit asettaa Sandboxien hallintaohjelman valikon komennolla 'Laatikon asetukset'.
+.
+
+
+3540;txt;01
+Sandboxie.ini asetustiedostoa ei voida muokata, koska se
+on suojattu salasanalla. Jos haluat muokata tiedostoa, käytä
+'Lukitse asetukset' -komentoa salasanasuojauksen poistamiseen.
+.
+
+3541;txt;01
+Julkinen
+.
+
+3542;txt;01
+'Kokeellinen Suojaustila' parantaa 64-bittisen Sandboxien
+tarjoamaa suojausta, ja tuo sen samalle tasolle 32-bittisen Sandboxien
+tarjoaman suojauksen kanssa.
+
+TÄRKEÄÄ: 'Kokeellinen Suojaustila' käyttää Windows ytimen
+dokumentoimattomia  ominaisuuksia. Windowsin tulevaisuuden
+päivitykset saattavat vaikuttaa 'Kokeelliseen Suojaustilaan',
+ja tuloksena saattaa olla epävakaa systeemi.
+
+KÄYTTÖ OMALLA VASTUULLA.
+
+Aktivoidaksesi 'Kokeellisen Suojaustilan', sinun on
+nyt käynnistettävä tietokoneesi uudelleen.
+.
+
+3543;txt;01
+Kytkeäksesi 'Kokeellisen Suojaustilan' pois päältä,
+tietokoneesi on nyt käynnistettävä uudelleen.
+
+Huomaa että 'alennetut oikeudet' -asetus aktivoituu kaikissa
+hiekkalaatikoissa.
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control Dialogs: About/Welcome
+#----------------------------------------------------------------------------
+
+3601;txt;01
+Tietoja ohjelmasta Sandboxie
+.
+
+3604;txt;01
+Tervetuloa Sandboxieen
+.
+
+3605;txt;01
+
+Sandboxie ajaa ohjelmiasi hiekkalaatikoksi kutsutussa suojatussa eristetyssä tilassa.
+
+Hiekkalaatikon ohjelmat eivät pääse tekemään muutoksia tai vahinkoa koneellesi.
+
+Voit käyttää hiekkalaatikkoa myös asentaaksesi ja kokeillaksesi uusia ohjelmia.
+.
+
+3606;txt;01
+Jos olet uusi käyttäjä,
+ole hyvä ja tutustu aloitusohjeisiin.
+.
+
+3607;txt;01
+&Sandboxien käytön aloitus
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control Dialogs: Update
+#----------------------------------------------------------------------------
+
+3621;txt;01
+Tarkista päivitykset
+.
+
+3622;txt;01
+Tarkista Sandboxien kotisivuilta, onko uudempi versio ohjelmasta jo saatavilla?
+.
+
+3623;txt;01
+&Nyt
+.
+
+3624;txt;01
+&Ensiviikolla
+.
+
+3625;txt;01
+Ei &koskaan
+.
+
+3626;txt;01
+Tarkista jatkossa päivitykset kyselemättä
+.
+
+3627;txt;01
+Yksityisyys: Sandboxie ei lähetä eikä kerää henkilökohtaisia tietojasi.
+.
+
+3628;txt;01
+Päivityksen tarkistus on jo käynnissä.  Odota hetki.
+.
+
+3629;txt;01
+Sandboxien kotisivulta ei löydy uudempaa Sandboxien versiota.
+.
+
+3630;txt;01
+Sandboxie %2 on ladattavissa.
+.
+
+3631;txt;01
+Ladataanko nyt?
+
+Huom: Lataus kestää muutaman minuutin.
+Saat ilmoituksen kun lataus on valmis.
+.
+
+3632;txt;01
+Ladataksesi ja asentaaksesi uuden version, kirjaudu
+järjestelmänvalvojan oikeuksin ja käynnistä tämä toiminto uudelleen.
+.
+
+3633;txt;01
+Sandboxie %2 on ladattu seuraavaan kansioon:
+
+%3
+
+Aloita asennus valitsemalla OK.
+Hiekkalaatikoissa ajettavat ohjelmat lopetetaan.
+.
+
+3634;txt;01
+Päivitys epäonnistui: Virhe yhteydessä Sandboxien kotisivulle.
+.
+
+3635;txt;01
+lataa uusi versio
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control Dialogs: Run Browser
+#----------------------------------------------------------------------------
+
+3641;txt;01
+Avaa web-selain
+.
+
+3642;txt;01
+Seuraava web-osoite avataan selaimessa. Valitse avataanko selain hiekkalaatikossa vai ilman laatikkoa.
+.
+
+3643;txt;01
+&Laatikossa
+.
+
+3644;txt;01
+&Ilman
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control Dialogs: Message Dialog
+#----------------------------------------------------------------------------
+
+3645;txt;01
+Viestit Sandboxielta
+.
+
+3646;txt;01
+&Piilota
+.
+
+3647;txt;01
+Viestin piilotus estää sen ilmestymisen jatkossa.
+Piilotus ei kuitenkaan ratkaise ongelmaa,
+joka sen ilmestymisen aiheutti.
+
+Haluatko varmasti piilottaa viestin %2?
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control Dialogs: Disable Forced Programs
+#----------------------------------------------------------------------------
+
+3651;txt;01
+Poista pakotetut ohjelmat käytöstä väliaikaisesti
+.
+
+3652;txt;01
+Poista pakotetut ohjelmat käytöstä
+.
+
+3653;txt;01
+sekunniksi
+.
+
+3654;txt;01
+Kun valitset OK, pakotetut ohjelmat -toiminto poistetaan käytöstä yllä olevaksi ajaksi tai kunnes valitset tämän toiminnon uudelleen.
+.
+
+3599;txt;01
+Voit estää ohjelman pakotuksen pitämällä Ctrl ja Vaihto näppäimiä painettuina samalla kun valitset ohjelmalle 'Aja hiekkalaatikossa' -komennon.
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control Dialogs: Resource Access Monitor
+#----------------------------------------------------------------------------
+
+3655;txt;01
+Resursseihin Pääsyn Monitorointi
+.
+
+3656;txt;01
+Tämä työkalu seuraa Sandboxien alaisuudessa ajettavia ohjelmia , ja näyttää niidän käyttämät resurssit.
+Katso dokumentaatiota ennen kuin käytät tätä työkalua.
+.
+
+3657;txt;01
+Kopioi sisältö leikepöydälle ja sulje ikkuna
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control Dialogs: Is Window Sandboxed
+#----------------------------------------------------------------------------
+
+3661;txt;01
+Onko tämä hiekkalaatikossa?
+.
+
+3662;txt;01
+Vedä selvityskuvake ikkunan päälle ja päästä irti tarkistaaksesi onko tuo ikkuna hiekkalaatikossa.
+
+Paina ESC peruaksesi.
+.
+
+3663;txt;01
+Valittu ikkuna kuuluu prosessiin %2 hiekkalaatikossa %3.
+.
+
+3664;txt;01
+Valittu ikkuna ei kuulu mihinkään hiekkalaatikon prosessiin.
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control Dialogs: Create New Sandbox
+#----------------------------------------------------------------------------
+
+3665;txt;01
+Luo uusi hiekkalaatikko
+.
+
+3666;txt;01
+Anna uudelle hiekkalaatikolle nimi.
+.
+
+3667;txt;01
+Virhe: Nimi ei kelpaa. Käytä vain kirjaimia ja numeroita. Välilyönnit ja muut erikoismerkit eivät kelpaa. Nimi ei saa olla yli 32 merkkiä.
+.
+
+3668;txt;01
+Virhe: Nimi on jo käytössä. Anna nimi jota ei ole jo jollain toisella hiekkalaatikolla.
+.
+
+3669;txt;01
+Kopioi asetukset toiselta hiekkalaatikolta:
+.
+
+4665;txt;01
+Virhe: Nimi on jo käytössä piillotetulla hiekkalaatikolla. Piilotetun hiekkalaatikon saat näkyviin Laatikot -valikon komennolla 'Näytä piilotettu hiekkalaatikko'
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control Dialogs: Set Container Folder
+#----------------------------------------------------------------------------
+
+3671;txt;01
+Aseta säilytyskansio
+.
+
+3672;txt;01
+Valitse asema jolle hiekkalaatikot luodaan ja tallennetaan.
+.
+
+3673;txt;01
+Parhaimman yhteensopivuuden takaamiseksi on suositeltavaa että jätät hiekkalaatikon oletussijaintiinsa valitsemallasi asemalla.
+.
+
+3674;txt;01
+Voit toki korvata oletussijainnin käyttämällä alla olevaa laatikkoa:
+.
+
+3675;txt;01
+Huom: On suositeltavaa tuhota kaikkien hiekkalaatikoiden sisällöt ennen sijainnin muutosta.
+.
+
+3676;txt;01
+Asema %2
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control Dialogs: Alerts
+#----------------------------------------------------------------------------
+
+3681;txt;01
+Ohjelmahälytykset
+.
+
+3682;txt;01
+Kun jokin seuraavista ohjelmista käynnistyy hiekkalaatikon ulkopuolella, Sandboxie antaa viestin SBIE1301.
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control Dialogs: Shell Integration
+#----------------------------------------------------------------------------
+
+3685;txt;01
+Kytkeytyminen Windowsiin
+.
+
+3686;txt;01
+Käynnistä Sandboxien hallintaohjelma
+.
+
+3687;txt;01
+Kun Windows käynnistyy
+.
+
+3688;txt;02
+Kun hiekkalaatikoitu ohjelma käynnistyy
+.
+
+3689;txt;01
+Pikakuvakkeet
+.
+
+3690;txt;01
+Lisää työpöydälle pikakuvake hiekkalaatikoituun web-selaimeen
+.
+
+3691;txt;01
+Lisää pikakäynnistykseen kuvake hiekkalaatikoituun web-selaimeen
+.
+
+3692;txt;01
+Valitse lisätäksesi lisää pikakuvakkeita:
+.
+
+3693;txt;01
+&Lisää pikakuvakkeita
+.
+
+3694;txt;01
+"Suorita hiekkalaatikossa" -toiminnot
+.
+
+3695;txt;01
+Lisää kohta "Suorita hiekkalaatikossa"
+.
+
+3696;txt;01
+Lisää hiekkalaatikot kohteiksi "Lähetä" valikkoon
+.
+
+3697;txt;01
+Sandboxien Käynnistä-valikko ilmestyy nyt.
+Valitse ohjelma valikosta ja Sandboxie luo
+sille uuden pikakuvakkeen työpöydällesi.
+Kuvakkeesta voit jatkossa käynnistää
+tuon ohjelman hiekkalaatikossa.
+.
+
+3698;txt;01
+Hiekkalaatikoitu web-selain.lnk
+.
+
+3699;txt;01
+Avaa &hiekkalaatikossa
+.
+
+4491;txt;01
+Avaa %2 hiekkalaatikossa %3
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control:  Delete Sandbox / Quick Recovery / Immediate Recovery
+#----------------------------------------------------------------------------
+
+3711;txt;01
+Poista hiekkalaatikko|Pikapalautus
+.
+
+3712;txt;01
+Alla olevat tiedostot soveltuvat pikapalautettaviksi hiekkalaatikosta. Valitse tiedosto tai kansio ja toinen alla olevista palautusvaihtoehdoista.
+.
+
+3713;txt;01
+Valitse 'Poista hiekkalaatikko' lopettaaksesi kaikki sen prosessit ja poistaaksesi sen sisällön.
+.
+
+3714;txt;01
+P&oista hiekkalaatikko
+.
+
+3715;txt;01
+Välitön palautus
+.
+
+3716;txt;02
+Seuraavat tiedostot soveltuvat välittömästi palautettaviksi.
+.
+
+3717;txt;01
+Valitse tiedostot listasta ja anna niiden kohdekansio.
+.
+
+3718;txt;01
+&Palauta
+.
+
+3719;txt;01
+&Älä kysy uudelleen kunnes hiekkalaatikon ohjelmat sammuneet
+.
+
+3720;txt;01
+Palauta &samaan
+kansioon
+.
+
+3721;txt;01
+Palauta &mihin
+tahansa kansioon
+.
+
+3722;txt;01
+Hiekkalaatikossa on %2 tiedostoa ja %3 kansiota, yhteensä %4 tavua.
+.
+
+3723;txt;01
+Valitse kansio johon tiedostot ja kansiot palautetaan.
+.
+
+3724;txt;01
+Tai valitse aiemman palautuksen kansio.
+.
+
+3725;txt;01
+Tallenna kansiot myöhempää käyttöä varten
+.
+
+3726;txt;01
+Valitse pikapalautukseen lisättävä kansio.
+.
+
+3727;txt;01
+Kansio lisättiin pikapalautuksen listaan.
+
+Tällä hetkellä hiekkalaatikon tässä kansiossa
+ei kuitenkaan ole mitään palautettavaa.
+.
+
+3728;txt;01
+Yhtään tiedostoa ei valittu palautettavaksi.
+.
+
+3729;txt;01
+Palautus epäonnistui. Seuraavaa kohdetta ei voitu siirtää hiekkalaatikosta:
+.
+
+3730;txt;01
+Hiekkalaatikko on tyhjä.  Ei mitään poistettavaa.
+.
+
+3731;txt;01
+Joitain hiekkalaatikon ohjelmia ei voitu lopettaa.  Laatikkoa ei poisteta.
+.
+
+3732;txt;01
+Ei palautettavia tiedostoja.
+.
+
+3733;txt;01
+Tiedostoa ei voida palauttaa, koska kohdekansion nimi on liian pitkä.
+Valitse toinen kohdekansio.
+.
+
+3734;txt;01
+Napsautamalla tiedostolistaa hiiren kakkospainikeella saat lisää valintoja
+.
+
+3735;txt;02
+Korvaa kaikki tiedostot ilman ylimääräisiä kysymyksiä
+.
+
+3736;txt;01
+&Palauta && Selaa
+.
+
+3737;txt;01
+&Palauta && Suorita
+.
+
+3981;txt;01
+&Avaa kansio Windows Resurssienhallinnassa hiekkalaatikon ulkopuolella
+.
+
+3982;txt;01
+Poista tämä kansio listasta
+.
+
+3983;txt;01
+Poista kaikki kansiot listasta
+.
+
+3986;txt;01
+Palautus loki
+.
+
+3987;txt;01
+Seuraavat tiedostot on palautettu ja siirretty hiekkalaatikon ulkopuolelle.
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control:  Program Settings
+#----------------------------------------------------------------------------
+
+3741;txt;01
+Ohjelma-asetukset
+.
+
+3742;txt;01
+Laatikko:
+.
+
+3743;txt;01
+Ohjelma:
+.
+
+3744;txt;01
+Näytä sivu 1
+.
+
+3745;txt;01
+Näytä sivu 2
+.
+
+3751;txt;01
+Ohjelman käynnistys
+.
+
+3752;txt;01
+Kun tämä ohjelma käynnistyy hiekkalaatikoiden ulkopuolella:
+.
+
+3753;txt;01
+Näytä varoitusviesti SBIE1301
+.
+
+3754;txt;01
+Pakota ohjelman ajo tähän hiekkalaatikkoon
+.
+
+3755;txt;01
+Ohjelman pysäytys
+.
+
+3756;txt;01
+Pysäytä tämä ohjelma kun muut ohjelmat ovat lopettaneet
+.
+
+3757;txt;01
+Pysäytä muut ohjelmat tämän ohjelman lopettaessa
+.
+
+3761;txt;01
+Internet rajoitukset
+.
+
+3762;txt;01
+Kaikki ohjelmat tässä hiekkalaatikossa voivat kytkeytyä Internetiin.
+.
+
+3763;txt;01
+Ohjelmat jotka tässä hiekkalaatikossa voivat kytkeytyä Internetiin:
+.
+
+3764;txt;01
+Salli rajoitukset ja mahdollista tämän ohjelman kytkeytyminen Internetiin.
+.
+
+3765;txt;01
+Käynnistä/Aja rajoitukset
+.
+
+3766;txt;01
+Kaikki ohjelmat voidaan käynnistää tässä hiekkalaatikossa.
+.
+
+3767;txt;01
+Ohjelmat jotka voidaan käynnistää tässä hiekkalaatikossa:
+.
+
+3768;txt;01
+Ota käyttöön rajoitukset ja salli tämän ohjelman käynnistyminen.
+.
+
+3769;txt;01
+(Tyhjä)
+.
+
+3770;txt;01
+Uudet asetukset eivät tule käyttöön jo
+käynnissä oleville ohjelmille. Ne otetaan
+käyttöön kun ohjelma käynnistyy uudelleen.
+.
+
+3771;txt;01
+(Tämä toiminto on saatavilla vain Sandboxien rekisteröidyssä versiossa.)
+.
+
+3772;txt;02
+Haluatko varmasti asettaa ohjelman %2 pakotetuksi?
+.
+
+3773;txt;02
+Haluatko varmasti asettaa tämän pakotetuksi kansioksi: %2
+.
+
+3774;txt;02
+Haluatko varmasti asettaa tämän pakotetuksi käyttäjäksi: %2
+.
+
+3775;txt;02
+Olet tehnyt muutoksen jota ei ehkä voi helposti perua.
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control:  Sandbox Settings
+#----------------------------------------------------------------------------
+
+3801;txt;01
+Laatikon asetukset - %2
+.
+
+3802;txt;01
+Tämä sivu on tarkoituksella jätetty tyhjäksi
+.
+
+3803;txt;01
+Sinun täytyy ottaa tämän sivun muutokset käyttöön ennen jatkamista.
+.
+
+3804;txt;01
+Ota muutokset käyttöön vaihdettaessa sivua.
+.
+
+3805;txt;01
+Kaikki ohjelmat
+.
+
+3806;txt;02
+Lista alla pätee seuraaviin
+.
+
+3807;txt;01
+Valitse tiedostopääsyn poikkeuksiin lisättävä tiedosto tai kansio.
+.
+
+3808;txt;01
+Lisää resurssin nimi
+.
+
+3809;txt;01
+Muokkaa resurssin nimeä
+.
+
+3551;txt;01
+(Kaikki ohjelmat paitsi %2)
+.
+
+3552;txt;01
+Käännä tämänhetkiset valinnat vastakkaisiksi
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control:  Sandbox Settings:  Appearance
+#----------------------------------------------------------------------------
+
+3811;txt;01
+Ulkonäkö
+.
+
+3812;txt;01
+Hiekkalaatikoitujen ohjelmien ikkunan otsikkoon lisätään Sandboxien [#]-merkki.
+.
+
+
+3813;txt;01
+Jos seuraava asetus on valittuna, ikkunan otsikko sisältää myös hiekkalaatikon nimen.
+.
+
+3814;txt;01
+Näytä hiekkalaatikon nimi ikkunan otsikossa
+.
+
+3815;txt;01
+Älä näytä Sandboxien merkkiä ikkunan otsikossa
+.
+
+3816;txt;01
+Sandboxie voi näyttää paksun reunuksen hiekkalaadikoidun ohjelman ympärillä.
+.
+
+3817;txt;01
+Näytä reunus ikkunan ympärillä
+.
+
+3818;txt;01
+Klikkaa muuttaaksesi reunuksen väriä
+.
+
+3819;txt;01
+Näytä reunus vain kun hiiren kursori on ikkunan otsikossa
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control:  Sandbox Settings:  Recovery
+#----------------------------------------------------------------------------
+
+# 3821;txt;01
+# Recovery::Quick Recovery
+# .
+
+3821;txt;02
+Palautus
+.
+
+3822;txt;01
+Pikapalautus
+.
+
+3823;txt;01
+Seuraavat hiekkalaatikon kansiot tarkistetaan ennen hiekkalaatikon sisällön poistoa sekä ennen pikapalautusta. Jos tiedostoja löytyy, tarjotaan mahdollisuus niiden siirtämiseen hiekkalaatikon ulkopuolelle.
+.
+
+
+#3831;txt;01
+#Palautus::Välitön palautus
+#.
+
+3832;txt;01
+Välitön palautus käynnistää palautuksen automaattisesti heti kun tiedosto luodaan.
+.
+
+3833;txt;01
+Käytä välitöntä palautusta
+.
+
+3834;txt;01
+Seuraavia kansioita, tiedostotyyppejä tai -päätteitä EI oteta huomioon välittömässä palautuksessa.
+.
+
+3835;txt;01
+Lisää &tyyppi
+.
+
+3836;txt;01
+Valitse kansio jota ei oteta mukaan välittömään palautukseen.
+.
+
+3837;txt;01
+Anna tiedostotyyppi (tai tiedoston määrite) jota ei oteta mukaan välittömään palautukseen
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control:  Sandbox Settings:  Delete
+#----------------------------------------------------------------------------
+
+#3841;txt;01
+#Poisto::Säännöt
+#.
+
+3841;txt;02
+Poisto
+.
+
+3842;txt;01
+Poistosäännöt
+.
+
+3843;txt;01
+Tämän hiekkalaatikon sisältö voidaan poistaa automaattisesti kun viimeinen ohjelma sammuu ja laatikosta tulee toimeton.
+.
+
+3844;txt;01
+Poista automaattisesti laatikon sisältö
+.
+
+3845;txt;01
+Jos jotkin laatikon tiedostot soveltuvat palautettaviksi, pikapalautus ehdottaa tätä ennen poistoa.
+.
+
+3846;txt;01
+Vaihtoehtoisesti, tämä hiekkalaatikko voidaan suojata poistoa (automaattista ja manuaalista) vastaan.
+.
+
+
+3847;txt;01
+Älä koskaan poista tätä laatikkoa tai sen sisältöä
+.
+
+#3851;txt;01
+#Poisto::Komento
+#.
+
+3852;txt;01
+Poistokomento
+.
+
+3853;txt;01
+Automaattisessa ja manuaalisessa poistossa käytetään seuraavaa komentoa poistamaan hiekkalaatikon sisältö. Jos tyhjä, käytetään komentoa RMDIR (poista hakemisto).
+.
+
+3854;txt;01
+Jos muutat tätä asetusta, sisällytä teksti "%SANDBOX%" (lainausmerkkeineen). Komentoa suoritettaessa tämä teksti korvataan hiekkalaatikon sijainnilla.
+.
+
+3855;txt;01
+Tai valitse esiasetettu poistokomento:
+.
+
+3856;txt;01
+Poistokomento ei määritä muuttujaa "%%SANDBOX%%" (lainausmerkkeineen).
+Haluatko varmasti hyväksyä tämän poistokomennoksi?
+.
+
+3857;txt;01
+Hae ja valitse ohjelma - %2
+.
+
+#----------------------------------------------------------------------------
+# Program Groups
+#----------------------------------------------------------------------------
+
+3971;txt;01
+Ohjelmaryhmät
+.
+
+3972;txt;01
+Voit yhdistää joukon ohjelmia ryhmäksi ja antaa ryhmälle nimen. Ohjelmaryhmiä voidaan käyttää sellaisissa asetuksissa jotka ottavat ohjelman nimen.
+.
+
+3974;txt;01
+Lisää &ryhmä
+.
+
+3975;txt;01
+Anna uusi ryhmänimi
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control:  Sandbox Settings:  Forced Folders/Programs
+#----------------------------------------------------------------------------
+
+# 3861;txt;01
+# Program Start::Forced Folders
+# .
+
+3861;txt;02
+Ohjelman käynnistys
+.
+
+3862;txt;01
+Pakotetut kansiot
+.
+
+3863;txt;01
+Jos jokin ohjelma näistä kansioista käynnistyy hiekkalaatikon ulkopuolella, se pakotetaan tähän hiekkalaatikkoon. Tämä ei koske käynnistyksiä toisiin hiekkalaatikoihin.
+.
+
+3864;txt;01
+Voit pakottaa Windowsin CD/DVD automaattikäynnistykset hiekkalaatikkoon lisäämällä CD/DVD-asemasi tähän listaan.
+.
+
+3865;txt;01
+Pakotetut kansiot ovat etusijalla Pakotettuihin ohjelmiin nähden.
+.
+
+3866;txt;01
+Valitse pakotettuihin kansioihin lisättävä kansio.
+.
+
+# 3871;txt;01
+# Program Start::Forced Programs
+# .
+
+3872;txt;01
+Pakotetut ohjelmat
+.
+
+3873;txt;01
+Jos jokin näistä ohjelmista käynnistyy hiekkalaatikon ulkopuolella, se pakotetaan tähän hiekkalaatikkoon. Tämä ei koske ohjelman käynnistyksiä toisiin hiekkalaatikoihin.
+.
+
+# 3961;txt;01
+# Program Start::Forced Users
+# .
+
+3962;txt;01
+Pakotetut käyttäjät
+.
+
+3963;txt;01
+Jos mikä tahansa seuraavista käyttäjätileistä kirjautuu tälle tietokoneelle, koko kirjautunut istunto pakotetaan
+tähän hiekkalaatikkoon.
+.
+
+3964;txt;01
+Poistaaksesi pakotettuun käyttäjätiliin liitetyn hiekkalaatikon, kirjaudu Windowsiin tämän käyttäjän tunnuksilla
+ja poista hiekkalaatikko Sandboxien hallintaohjelmaa käyttäen.
+.
+
+3965;txt;01
+Pakotetut käyttäjät saavat etusijan Pakotettuihin ohjelmiin ja Pakotettuihin kansioihin nähden.
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control:  Sandbox Settings:  Linger/Leader Programs
+#----------------------------------------------------------------------------
+
+# 3881;txt;01
+# Program Stop::Lingering Programs
+# .
+
+3881;txt;02
+Ohjelman pysäytys
+.
+
+3882;txt;01
+Sammumattomat ohjelmat
+.
+
+3883;txt;01
+Seuraavat ohjelmat lopetetaan automaattisesti jos ne ovat vielä käynnissä kun kaikki muut hiekkalaatikon ohjelmat ovat jo sammuneet.
+.
+
+# 3891;txt;01
+# Ohjelman pysäytys::Johtavat ohjelmat
+# .
+
+3892;txt;01
+Johtavat ohjelmat
+.
+
+3893;txt;01
+Seuraavia ohjelmia pidetään primääriohjelmina tässä hiekkalaatikossa. Näiden ohjelmien lopettaminen
+sammuttaa kaikki muut hiekkalaatikossa käynnissä olevat ohjelmat.
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control:  Sandbox Settings:  File Migration
+#----------------------------------------------------------------------------
+
+3901;txt;01
+Tiedostojen siirto
+.
+
+3903;txt;01
+Tiedostot täytyy kopioida hiekkalaatikkoon ennen kuin siellä olevat ohjelmat voivat muokata niitä. Suurien tiedostojen kanssa tämä saattaa kestää pitkään.
+.
+
+3904;txt;01
+Seuraava luku määrittää enimmäiskoon kopioitaville tiedostoille. Tätä suurempia tiedostoja ei hyväksytä hiekkalaatikkoon eikä niitä vo muokata hiekkalaatikossa ajettavilla ohjelmilla.
+.
+
+3905;txt;01
+Älä kopioi suurempia tiedostoja kuin
+.
+
+3906;txt;01
+kilotavua
+.
+
+3907;txt;01
+Kun tiedosto on liian suuri kopioitavaksi, annetaan viesti SBIE2102 ellei seuraava asetus ole valittu.
+.
+
+3908;txt;01
+Älä anna viestiä kun tiedosto on liian suuri kopioitavaksi
+.
+
+3909;txt;01
+Tiedostojen siirto -asetus rajoittaa hiekkalaatikkoon kopioitavan tiedoston enimmäiskoon.
+
+Asetus on tällä hetkellä %3 kilotavua hiekkalaatikossa '%2'.
+
+Valitse OK säätääksesi kokorajoitus %4 kilotavuun.
+
+Voit myös muuttaa kokorajoitusta hiekkalaatikon asetuksista, ja siellä ryhmästä Tiedostojen siirto.
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control:  Sandbox Settings:  Internet/Start Restrictions
+#----------------------------------------------------------------------------
+
+# 3911;txt;01
+# Rajoitukset::Pääsy Internetiin
+# .
+
+3911;txt;02
+Rajoitukset
+.
+
+3912;txt;01
+Pääsy Internetiin
+.
+
+3913;txt;01
+Tässä hiekkalaatikossa vain seuraavilla ohjelmilla on pääsy Internetiin.
+.
+
+3914;txt;01
+Kun tämä on valittu, laatikkoon asennetut (tai ladatut) ohjelmat eivät pääse Internetiin vaikka ohjelman nimi olisi määritelty ylempänä.
+.
+
+3915;txt;01
+Näytä viesti  SBIE%2 kun pääsy on estetty
+.
+
+3916;txt;01
+&Estä kaikki ohjelmat
+.
+
+3917;txt;01
+&Salli kaikki ohjelmat
+.
+
+3918;txt;01
+Kaikki ohjelmat pääsevät Internetiin
+.
+
+3919;txt;01
+Mikään ohjelma ei pääse Internetiin
+.
+
+3920;txt;01
+Internet rajoitukset ovat käytössä hiekkalaatikossa '%2', ja estävät tämän ohjelman pääsyn Internetiin.
+
+Valitse OK lisätäksesi ohjelma '%3' Internet rajoituksiin hiekkalaatikossa '%2'.
+
+Voit aina muuttaa Internet rajoituksia hiekkalaatikon asetuksista, ja siellä ryhmästä Rajoitukset.
+.
+
+# 3921;txt;01
+# Rajoitukset::Käynnistä/Aja
+# .
+
+3922;txt;01
+Käynnistä/Aja
+.
+
+3923;txt;01
+Vain seuraavat ohjelmat voidaan käynnistää ja ajaa tässä hiekkalaatikossa.
+.
+
+3924;txt;01
+Kun tämä on valittu, laatikkoon asennettujen (tai ladattujen) ohjelmien ei sallita käynnistyä tai ajaa vaikka ohjelman nimi olisi määritelty ylempänä.
+.
+
+3928;txt;01
+Kaikkia ohjelmia voi käynnistää ja ajaa
+.
+
+3930;txt;01
+Käynnistä/Aja rajoitukset ovat käytössä hiekkalaatikossa '%2', ja estävät tämän ohjelman käynnistämisen ja ajon.
+
+Valitse OK lisätäksesi ohjelma '%3' Käynnistys/Ajo rajoituksiin hiekkalaatikossa '%2'.
+
+Voit aina muuttaa Käynnistys/Ajo rajoituksia hiekkalaatikon asetuksista, ja siellä ryhmästä Rajoitukset.
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control:  Sandbox Settings:  Low Level Access
+#----------------------------------------------------------------------------
+
+# 3931;txt;01
+# Rajoitukset::Pääsy alhainen taso
+# .
+
+3932;txt;01
+Pääsy alhainen taso
+.
+
+3933;txt;01
+Seuraavat asetukset heikentävät Sandboxien tarjoamaa suojaa merkittävästi. Niiden käyttöönotto ei ole suositeltavaa.
+.
+
+3934;txt;01
+Salli tämän hiekkalaatikon ohjelmien ladata kernel-tason ajureita käyttöjärjestelmään.
+.
+
+3935;txt;01
+Salli tämän hiekkalaatikon ohjelmien ladata "Win32 hooks" muihin ohjelmiin.
+.
+
+3936;txt;01
+Salli tämän hiekkalaatikon ohjelmien jäljitellä näppäimistön toimintaa.
+.
+
+3937;txt;01
+Salli tämän hiekkalaatikon ohjelmien muuttaa työpöydän taustakuvaa ja muita järjestelmän parametrejä
+.
+
+3938;txt;01
+Salli tämän hiekkalaatikon ohjelmien muokata laitteistohallintaa
+.
+
+# 3951;txt;01
+# Rajoitukset::Pääsy laitteistoon
+# .
+
+3952;txt;01
+Pääsy laitteistoon
+.
+
+3953;txt;01
+Salli tämän hiekkalaation ohjelmien muuttaa käyttäjän salasanaa
+.
+
+3954;txt;01
+Salli ohjelmien muokata verkko- ja palomuuriasetuksia
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control:  Sandbox Settings:  Drop Rights
+#----------------------------------------------------------------------------
+
+# 3941;txt;01
+# Rajoitukset::Alennetut oikeudet
+# .
+
+3942;txt;01
+Alennetut oikeudet
+.
+
+3943;txt;01
+Taatakseen eristyksen, Sandboxien on estettävä hallitsemiltaan ohjelmilta vain joitakin käyttöoikeuksia.
+.
+
+
+3944;txt;01
+Kuitenkin, jos käytät järjestelmänvalvojan oikeuksia, Sandboxie voi estää enemmän käyttöoikeuksia,
+samaan tapaan kuin DropMyRights -työkalu.
+.
+
+3945;txt;01
+Alenna oikeuksia järjestelmänvalvojan ryhmältä
+.
+
+3946;txt;01
+Suositus on että pidät tämän asetuksen valittuna, korvataksesi ne Sandbox suojausasetukset joita ei ole tarjolla 64-bittisessä Windows versiossa.
+.
+
+3947;txt;01
+Aktivoidaksesi laajennetun suojauksen 64-bittiselle Windowsille, käytä Asetukset-valikon komentoa 'Kokeellinen Suojaus'.
+.
+
+3949;txt;01
+Alennetut oikeudet ovat käytössä hiekkalaatikossa '%2', ja estävät järjestelmänvalvojan oikeuksien käytön.
+
+Valitse OK peruaksesi alennetut oikeudet hiekkalaatikossa '%2', ja salliaksesi järjestelmävalvojan oikeuksien käytön hiekkalaatikossa.
+
+Voit aina muuttaa alennettuja oikeuksia hiekkalaatikon asetuksista, ja siellä ryhmästä Rajoitukset.
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control:  Sandbox Settings:  Resource Access
+#----------------------------------------------------------------------------
+
+4001;txt;01
+Pääsy resursseihin::Pääsy tiedostoihin::Suora pääsy
+.
+
+4002;txt;01
+Suora pääsy tiedostoihin (OpenFilePath)
+.
+
+4003;txt;01
+Seuraavat tiedostot ja kansiot ovat suoraan saatavilla hiekkalaatikon ohjelmille, ilman mitään hiekkalaatikoinnin vaikutuksia.
+.
+
+4004;txt;01
+Tämä ei koske uusia ohjelmia jotka asennetaan tai ladataan hiekkalaatikkoon.
+Katso myös: Täysi pääsy -asetus.
+.
+
+4011;txt;01
+Pääsy resursseihin::Pääsy tiedostoihin::Täysi pääsy
+.
+
+4012;txt;01
+Täysi pääsy tiedostoihin (OpenPipePath)
+.
+
+4013;txt;01
+Seuraavat tiedostot ja kansiot ovat suoraan saatavilla hiekkalaatikon ohjelmille, ilman mitään hiekkalaatikoinnin vaikutuksia.
+.
+
+4014;txt;01
+Toisin kuin Suora pääsy -asetuksessa, nämä asetukset koskevat KAIKKIA ohjelmia, myös uusia asennettuja tai ladattuja ohjelmia.
+.
+
+4021;txt;01
+Pääsy resursseihin::Pääsy tiedostoihin::Pääsy estetty
+.
+
+4022;txt;01
+Tiedostoihin pääsy estetty (ClosedFilePath)
+.
+
+4023;txt;01
+Seuraavat tiedostot tai kansiot eivät ole saatavilla laatikossa oleville ohjelmille.
+.
+
+4024;txt;01
+Jos määritetty tiedosto tai kansio sisältyy myös johonkin toiseen tiedostojen pääsyasetukseen, ohittaa Pääsy estetty -asetus sen.
+.
+
+4025;txt;01
+Windowsin tiedostojen jakoa voidaan käyttää kiertämään tiedostoihin pääsyn estoa.
+Siksi on lisätty Windowsin tiedostojen jako -palveluun pääsyn estävä asetus.
+.
+
+4031;txt;01
+Pääsy resursseihin::Pääsy tiedostoihin::Pääsy vain luku
+.
+
+4032;txt;01
+Vain luku -pääsy tiedostoihin (ReadFilePath)
+.
+
+4033;txt;01
+Seuraavat tiedostot ja kansiot eivät ole tämän laatikon ohjelmien muokattavissa.
+.
+
+4111;txt;01
+Pääsy resursseihin::Pääsy tiedostoihin::Pääsy vain kirjoitus
+.
+
+4112;txt;01
+Vain kirjoitus -pääsy tiedostoihin (WriteFilePath)
+.
+
+4113;txt;01
+Seuraavat kansiot näkyvät tyhjinä tässä hiekkalaatikossa ajettaville ohjelmille, mutta ohjelmat voivat hiekkalaatikossa luoda niihin uusia tiedostoja.
+.
+
+4041;txt;01
+Pääsy resursseihin::Pääsy Rekisteriin::Suora pääsy
+.
+
+4042;txt;01
+Suora pääsy rekisteriin (OpenKeyPath)
+.
+
+4043;txt;01
+Seuraavat rekisteriavaimet ovat suoraan saatavilla hiekkalaatikon ohjelmille, ilman mitään hiekkalaatikoinnin vaikutuksia.
+.
+
+4044;txt;01
+Tämä ei koske uusia ohjelmia jotka asennetaan tai ladataan hiekkalaatikkoon.
+.
+
+4051;txt;01
+Pääsy resursseihin::Pääsy Rekisteriin::Pääsy estetty
+.
+
+4052;txt;01
+Rekisteriin pääsy estetty (ClosedKeyPath)
+.
+
+4053;txt;01
+Seuraavat rekisteriavaimet eivät ole saatavilla tässä laatikossa oleville ohjelmille.
+.
+
+4054;txt;01
+Jos määritetty avain sisältyy myös johonkin toiseen rekisterin pääsyasetukseen, ohittaa Pääsy estetty -asetus sen.
+.
+
+4061;txt;01
+Pääsy resursseihin::Pääsy Rekisteriin::Pääsy vain luku
+.
+
+4062;txt;01
+Vain luku -pääsy rekisteriin (ReadKeyPath)
+.
+
+4063;txt;01
+Seuraavat rekisteriavaimet eivät ole tämän laatikon ohjelmien muokattavissa.
+.
+
+4121;txt;01
+Pääsy resursseihin::Pääsy Rekisteriin::Pääsy vain kirjoitus
+.
+
+4122;txt;01
+Vain kirjoitus -pääsy rekisteriin (WriteKeyPath)
+.
+
+4123;txt;01
+Seuraavat rekisteriavaimet näkyvät tyhjinä tässä hiekkalaatikossa ajettaville ohjelmille, mutta ohjelmat voivat hiekkalaatikossa kirjoittaa niihin uuta dataa.
+.
+
+4071;txt;01
+Pääsy resursseihin::Pääsy IPC::Suora pääsy
+.
+
+4072;txt;01
+Suora IPC-pääsy (OpenIpcPath)
+.
+
+4073;txt;01
+Seuraavat NT IPC -objektit ovat suoraan saatavilla hiekkalaatikon ohjelmille, ilman mitään hiekkalaatikoinnin vaikutuksia.
+.
+
+4074;txt;01
+Tämä asetus koskee kaikkia ohjelmia, myös uusia ohjelmia jotka asennetaan tai ladataan laatikkoon.
+.
+
+4081;txt;01
+Pääsy resursseihin::Pääsy IPC::Pääsy estetty
+.
+
+4082;txt;01
+Pääsy IPC-objekteihin estetty (ClosedIpcPath)
+.
+
+4083;txt;01
+Seuraavat NT IPC -objektit eivät ole saatavilla tämän hiekkalaatikon ohjelmille.
+.
+
+4084;txt;01
+Jos määritetty NT IPC -objekti sisältyy myös johonkin toiseen IPC-pääsyasetukseen, ohittaa Pääsy estetty -asetus sen.
+.
+
+4091;txt;01
+Pääsy resursseihin::Pääsy ikkunoihin
+.
+
+4092;txt;01
+Pääsy ikkunoihin (OpenWinClass)
+.
+
+4093;txt;01
+Hiekkalaatikon ohjelmat eivät voi kommunikoida laatikon ulkopuolisten ikkunoiden kanssa, ellei ikkunaa ole luotu jollain seuraavista ikkunaluokista.
+.
+
+4101;txt;01
+Pääsy resursseihin::Pääsy COM
+.
+
+4102;txt;01
+Suora COM-pääsy (OpenClsid)
+.
+
+4103;txt;01
+Hiekkalaatikoidut ohjelmat eivät voi kommunikoida hiekkalaatikon ulkopuolella ajettavan ohjelman COM objektien kanssa jos COM luokka ID ei ole yksi seuraavista luokka ID:istä
+.
+
+#----------------------------------------------------------------------------
+# Applications - General
+#----------------------------------------------------------------------------
+
+4201;txt;01
+Sovellukset
+.
+
+4202;txt;01
+&Näytä koodi
+.
+
+4203;txt;01
+Avaa &web-sivu
+.
+
+4204;txt;01
+Luo &Uusi
+.
+
+4205;txt;01
+Tämä ohjelmakonfiguraatio ei sisällä web-osoitetta.
+.
+
+4206;txt;01
+Sekalaista
+.
+
+4207;txt;01
+Paranna Sandboxien toimintaa muiden ohjelmiesi kanssa valitsemalla ne alla olevasta listasta.
+.
+
+# 4208;txt;01
+# Ohjelmat::Kansiot
+# .
+
+4209;txt;01
+Kansiot
+.
+
+4210;txt;01
+Aseta muiden ohjelmiesi käyttämien kansioiden sijainnit.
+.
+
+4211;txt;01
+Valitse kansio ohjelmalle
+.
+
+4212;txt;01
+Oletus sijainti:
+.
+
+4213;txt;01
+Vaihtoehtoinen sijainti:
+.
+
+4214;txt;02
+Vaihtoehtoinen sijainti '%2'-lle
+tulisi sisältää seuraava tiedosto:
+
+%3
+
+Tiedostoa ei löydy valitusta sijainnista.
+
+Ole hyvä ja valitse kansio joka sisältää tämän tiedoston.
+.
+
+4215;txt;01
+Valitse kansio ohjelmalle %2.
+.
+
+4216;txt;01
+Alla näkyvät asetukset muodostavat ohjelmistokonfiguraation '%2'.
+.
+
+4217;txt;01
+Kirjoita tai liitä asetukset, ja valitse sitten OK luodaksesi uuden paikallisen ohjelmistokonfiguraation.
+.
+
+4218;txt;01
+Paikallinen
+.
+
+4219;txt;01
+Paikallinen (epävirallinen) ohjelmistokonfiguraatiosi.
+.
+
+4220;txt;01
+Annetussa koodissa on yksi tai useampia virheitä.
+Ohjelmistokonfiguraatiota ei voi luoda.
+.
+
+4221;txt;01
+Määrittääksesi kansiot ohjelmillesi, katso Kansiot-sivua.
+.
+
+4222;txt;02
+Tätä asetusta ei voi muokata tai poistaa, koska se on
+osa ohjelmistokonfiguraatiota:
+
+%2
+
+Poistaaksesi ohjelmistokonfiguraatio hiekkalaatikosta,
+katso hiekkalaatikon asetusten Sovellukset-sivuja.
+.
+
+4223;txt;01
+Paikallinen ohjelmistokonfiguraatio '%2' on nyt poistettu kaikista hiekkalaatikoista.
+Haluatko poistaa ohjelmistokonfiguraation kokonaan?
+.
+
+4224;txt;01
+PDF/Tulostus
+.
+
+4226;txt;02
+Tietoturva/Yksityisyys
+.
+
+4228;txt;01
+Työpöydän apuohjelmat
+.
+
+4230;txt;01
+Latauksen hallintatyökalut
+.
+
+4288;txt;01
+Kaikki ohjelmat
+.
+
+4289;txt;01
+Lista kaikista ohjelmista, aakkosjärjestyksessa. Lista ei sisällä paikallisia (epävirallisia) ohjelmistokonfiguraatioitasi.
+.
+
+4291;txt;01
+Oletuspoistot välittömästä palautuksesta
+.
+
+4292;txt;01
+Oletuslista sammuttamattomista ohjelmista
+.
+
+4293;txt;01
+Oletuslista estetyistä TCP/IP-porteista
+.
+
+4294;txt;01
+Salli ohjelmien päivittää Windows tehtäväpalkin pikaluetteloita
+.
+
+#----------------------------------------------------------------------------
+# Applications - Software Compatibility
+#----------------------------------------------------------------------------
+
+4251;txt;01
+Ohjelmiston yhteensopivuus
+.
+
+4252;txt;01
+Sandboxie on löytänyt seuraavat ohjelmistot järjestelmästäsi.
+.
+
+4253;txt;01
+Valitse OK ottaaksesi käyttöön asetukset jotka parantavat yhteensopivuutta näiden ohjelmistojen kanssa.
+.
+
+4254;txt;01
+Nämä asetukset vaikuttavat kaikkiin olemassaoleviin sekä tuleviin hiekkalaatikoihin.
+.
+
+4255;txt;01
+Älä enää tarkista ohjelmiston yhteensopivuutta
+.
+
+4256;txt;01
+Tätä ohjelmakonfiguraatiota ei voi poistaa, koska se koskee kaikkia hiekkalaatikoita.
+Voit poistaa tämän ohjelmakonfiguraation Asetukset-valikon Ohjelmiston yhteensopivuus -työkalulla.
+.
+
+4257;txt;01
+Poista &vanhat asetukset
+.
+
+4258;txt;01
+Seuraavat yhteensopivuusasetukset eivät ole enää käytössä:
+
+%2
+
+Valitse OK hylätäksesi nämä yhteensopivuusasetukset.
+.
+
+4451;txt;01
+Sandboxie on havainnut järjestelmässäsi seuraavat ohjelmistot,
+joiden toiminta yhdessä Sandboxien kanssa voi tuottaa ongelmia.
+
+%2
+
+Lisätietoja ja ratkaisuja löytyy Sandboxien kotisivuilta,
+kohdasta Tunnetut Konfliktit (Known Conflicts).
+
+Haluatko avata Tunnetut Konfliktit -sivun nyt?
+.
+
+4452;txt;01
+Tunnetut &Konfliktit
+.
+
+#----------------------------------------------------------------------------
+# Lock Configuration
+#----------------------------------------------------------------------------
+
+4261;txt;01
+Lukitse asetukset
+.
+
+4262;txt;01
+Sandboxie voi suojata yleiset asetukset ja hiekkalaatikon asetukset luvattomilta muutoksilta.  Valitse suojaustapa.
+.
+
+4263;txt;01
+Vain &järjestelmänvalvojan oikeuksilla voi tehdä muutoksia
+.
+
+4264;txt;01
+Vain &salasanan antamalla voi tehdä muutoksia 
+.
+
+4265;txt;01
+&Unohda salasana kun Sandboxien hallintaohjelma piillotetaan
+.
+
+4266;txt;01
+&Vaihda salasana
+.
+
+4267;txt;01
+Vain järjestelmänvalvojan oikeuksilla voi käyttää &Poista pakotetut ohjelmat -komentoa
+.
+
+4269;txt;01
+On hyvä lukea Sandboxien dokumentaatio koskien asetusten suojausta.
+Haluaisiko avata tämän sivun nyt?
+.
+
+4271;txt;01
+Sandboxien asetukset on suojattu salasanalla. Ole hyvä ja anna salasana nyt.
+.
+
+4272;txt;01
+Anna uusi salasana jolla Sandboxie asetukset suojataan.
+.
+
+4273;txt;01
+Varmista salasana antamalla se uudelleen.
+.
+
+4274;txt;01
+Väärä salasana. Yritä uudelleen?
+.
+
+#----------------------------------------------------------------------------
+# Program Selector
+#----------------------------------------------------------------------------
+
+4281;txt;01
+Valitse ohjelman nimi
+.
+
+4282;txt;01
+Valitse ohjelman nimi tai ohjelmaryhmä
+.
+
+4283;txt;01
+Ohjelmat jotka on vastikään käynnistetty
+.
+
+4284;txt;01
+Ohjelmat jotka löytyvät Sandboxien asetuksesta
+.
+
+4285;txt;01
+Ohjelmaryhmät
+.
+
+4286;txt;01
+Valitse tai &anna ohjelma:
+.
+
+4287;txt;01
+Avaa / Valitse &tiedosto
+.
+
+#----------------------------------------------------------------------------
+# Applications - Accessibility
+#----------------------------------------------------------------------------
+
+# 4301;txt;01
+# Ohjelmat::Helppokäyttöisyys
+# .
+
+4302;txt;01
+Helppokäyttöisyys
+.
+
+4303;txt;01
+Seuraavat asetukset mahdollistavat Sandboxien käytön yhdessä helppokäyttöisyysohjelmien kanssa.
+Huomaa että osa Sandboxien suojauksesta menetetään kun nämä asetukset ovat käytössä.
+.
+
+4304;txt;01
+Korvataksesi menetettyä suojausta, tarkastele 'alennetut oikeudet' -asetuksia Rajoitukset-ryhmässä.
+.
+
+
+4305;txt;03
+Ruudunlukuohjelmat:  %2
+.
+
+#----------------------------------------------------------------------------
+# Applications - Web Browser and Email Reader
+#----------------------------------------------------------------------------
+
+4321;txt;01
+Web-selaimet
+.
+
+4322;txt;01
+Seuraavat poikkeukset sallivat web-selaimen tehdä muutoksia tämän hiekkalaatikon ulkopuolelle, lisäten näin mukavuutta hieman heikentyvän turvallisuuden kustannuksella.
+.
+
+4323;txt;01
+Pakota %2 tähän hiekkalaatikkoon
+.
+
+4324;txt;02
+Salli suora pääsy %2-in sync dataan
+.
+
+4325;txt;02
+Salli suora pääsy %2-in syötteisiin
+.
+
+4326;txt;02
+Salli suora pääsy %2-in suosikeihin
+.
+
+4327;txt;01
+Lisää Internet Explorer suosikit Pikapalautus kansioon
+.
+
+4328;txt;01
+Salli suora pääsy %2 evästeisiin
+.
+
+4329;txt;01
+Tallenna hiekkalaatikon ulkopuolelle:  Hakujen ja komentojen historia
+.
+
+4330;txt;01
+Tallenna hiekkalaatikon ulkopuolelle:  Hotmail ja Messenger käyttötilien tiedot
+.
+
+4331;txt;01
+Salli suora pääsy %2 salasanoihin
+.
+
+4336;txt;02
+Salli suora pääsy %2 suosikit- ja historiatietokantaan
+.
+
+4337;txt;02
+Salli suora pääsy %2 phishing-tietokantaan
+.
+
+4338;txt;02
+Salli suora pääsy koko %2 profiilikansioon
+.
+
+4339;txt;02
+Salli suora pääsy %2 suosikeihin
+.
+
+4340;txt;01
+Salli suora pääsy %2-in istuntojen muokkaukseen
+.
+
+4356;txt;02
+Salli suora pääsy %2 kirjanmerkkeihin
+.
+
+4357;txt;02
+Muut
+.
+
+4358;txt;02
+Lisäosat
+.
+
+4391;txt;01
+Sähköposti
+.
+
+4392;txt;01
+Seuraavat poikkeukset sallivat hiekkalaatikoiduille sähköpostiohjelmille pääsyn postilaatikon tiedostoihin hiekkalaatikon ulkopuolella.
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control:  Sandbox Settings:  User Accounts
+#----------------------------------------------------------------------------
+
+5101;txt;01
+Käyttäjätilit
+.
+
+5102;txt;01
+Rajoita hiekkalaatikko vain tietyille käyttäjätileille ja käyttäjäryhmille lisäämällä ne alla olevaan listaan. Jos lista on tyhjä, kaikki käyttäjätilit voivat käyttää hiekkalaatikkoa.
+.
+
+5103;txt;01
+Huomaa: Hiekkalaatikon pakotetut ohjelmat ja pakotetut kansiot -asetukset eivät koske käyttäjätilejä jotka eivät voi käyttää tätä hiekkalaatikkoa
+.
+
+5105;txt;01
+Lisää &käyttäjä
+.
+
+5107;txt;01
+Käyttäjätiliäsi on estetty käyttämästä tätä hiekkalaatikkoa, eikä
+hiekkalaatikkoa enää näytetä Sandboxien hallintaohjelmassa.
+
+Saat hiekkalaatikon näkyviin ja käytöön Laatikot -valikon
+komennolla 'Näytä piilotettu hiekkalaatikko'
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control:  Reveal Hidden Sandbox
+#----------------------------------------------------------------------------
+
+5122;txt;01
+Käyttäjätiliäsi on estetty käyttämästä alla lueteltuja hiekkalaatikoita.
+.
+
+5123;txt;01
+Valitun hiekkalaatikon käyttö on sallittu seuraaville käyttäjätileille.
+.
+
+5124;txt;01
+Valitse OK lisätäksesi käyttäjätilisi '%2' hiekkalaatikkoon ja nähdäksesi hiekkalaatikon Sandboxien hallintaohjelmassa.
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control:  Set Layout and Groups
+#----------------------------------------------------------------------------
+
+5142;txt;01
+Järjestä hiekkalaatikot ryhmiin ja muokkaa niiden järjestystä. Avaa pikavalikko hiiren kakkospainikkeella.
+.
+
+5143;txt;01
+(Ylös)
+.
+
+5145;txt;01
+Palauta &oletusasettelu
+.
+
+5146;txt;01
+Lisää &Ryhmä
+.
+
+5147;txt;01
+&Vaihda nimeä
+.
+
+5148;txt;01
+&Poista
+.
+
+5151;txt;01
+&Siirrä
+.
+
+5152;txt;01
+Siirrä &ylös
+.
+
+5153;txt;01
+Siirrä &alas
+.
+
+5154;txt;01
+Siirrä &kohteeseen
+.
+
+#----------------------------------------------------------------------------
+# License Manager
+#----------------------------------------------------------------------------
+
+7901;txt;01
+Sandboxie Lisenssimanageri
+.
+
+7902;txt;01
+Järjestelmäkoodi %2
+.
+
+7903;txt;01
+Jatkossa aktivoi lisenssi kysymättä
+.
+
+#----------------------------------------------------------------------------
+
+7921;txt;01
+Sandboxie on rekisteröity ja lisenssi on aktivoitu.
+.
+
+7922;txt;01
+Sandboxie on rekisteröity mutta lisenssi tulisi nyt uudelleenaktivoida.
+.
+
+# was 3603;txt;01
+7923;txt;01
+Rekisteröimätön versio.  Rekisteröi nyt!
+.
+
+7924;txt;01
+Sandboxien lisenssi tulee uudelleenaktivoida %2 päivän kuluttua.
+.
+
+7925;txt;01
+Sandboxien lisenssi on nyt aktivoitu.
+.
+
+7926;txt;01
+Tuoteavain vanhenee %2.
+.
+
+7927;txt;01
+Tuoteavaimellasi ei ole vanhenemispäivää.
+.
+
+#----------------------------------------------------------------------------
+
+7931;txt;01
+Sandboxiesi on rekisteröity vanhentuneella Rekisteröintiavaimella.
+.
+
+7932;txt;01
+Ole hyvä ja salli Lisenssimanagerin ottaa yhteys Lisenssipalvelimeen ja päivittää vanha Rekisteröintiavaimesi
+uuteen Tuoteavaimeen. Päivitys on ilmainen.
+.
+
+7933;txt;01
+Lisenssipalvelin ei tunnista Rekisteröintiavaintasi.
+.
+
+7934;txt;01
+Jos olet käyttänyt oikeaa Rekisteröintiavainta jonka olet maksanut tai saanut lahjana,
+ole hyvä ja lähetä sähköpostiviesti osoitteeseen:
+.
+
+7935;txt;01
+Uusi Tuoteavaimesi on:
+.
+
+7936;txt;01
+Ole hyvä ja pidä tämä Tuoteavain turvallisessa paikassa tulevaa tarvetta varten. Alla oleva painike kopioi
+Tuoteavaimen leikekirjaan, josta voit liittää sen dokumenttiin ja tulostaa.
+.
+
+7937;txt;01
+&Päivitä Rekisteröintiavain Tuoteavaimeksi
+.
+
+#----------------------------------------------------------------------------
+
+# was 3612;txt;01
+7941;txt;01
+Rekisteröinti suoritetaan kolmannen osapuolen maksupalvelun avulla. Aloita rekisteröinti käymällä Sandboxien kotisivuilla seuraavan linkin kautta.
+.
+
+7942;txt;01
+Aktivoi Sandboxie lisenssi antamalla ostokuitista löytyvä Tuoteavain, ja klikkaa sen jälkeen painiketta.
+.
+
+
+7943;txt;01
+Haluatko antaa uuden Tuoteavaimen nyt?
+.
+
+7944;txt;01
+&Aktivoi lisenssi
+.
+
+# was first line of 3617;txt;01
+7945;txt;01
+Kopiosi Sandboxiesta on nyt rekisteröity.
+.
+
+# was second line of 3617;txt;01
+7946;txt;01
+Kiitos tuestasi!
+.
+
+#----------------------------------------------------------------------------
+
+7951;txt;01
+Haluatko aktivoida lisenssin nyt?
+.
+
+7952;txt;01
+Ole hyvä ja käytä alla olevaa linkkiä käydäksesi Sandboxien kotisivulla tilaamassa uusi Tuoteavain.
+.
+
+7961;txt;01
+Tyhjennä &lisenssitieto
+.
+
+7962;txt;01
+Haluatko varmasti tyhjentää lisenssitiedon Sandboxiessa?
+
+Voit aktivoida lisenssisi milloin tahansa antamalla Tuoteavaimen.
+.
+
+#----------------------------------------------------------------------------
+
+7971;txt;01
+Tämä ei ole kelvollinen Tuoteavain.
+.
+
+7972;txt;01
+Tämä ei ole kelvollinen Järjestelmäkoodi.
+.
+
+7973;txt;01
+Tämä ei ole kelvollinen Aktivointiavain.  [%2]
+.
+
+7974;txt;01
+Virheellinen vastaus Lisenssipalvelimelta.
+.
+
+7975;txt;01
+Tuoteaktivointi epäonnistui:
+.
+
+7976;txt;01
+Haluatko yrittää uudelleen nyt?
+.
+
+7977;txt;01
+Jos haluat aktivoida Sandboxien tietokoneessa jolla ei ole pääsyä Internetiin,
+ole hyvä ja katso ohjeet Sandboxie Lisensointi UKK:sta (Sandboxie Licensing FAQ) .
+.
+
+7978;txt;01
+Nykyinen päivämäärä (%2) on myöhaisempi kuin Lisensointipalvelimen lähettämä päivämäärä (%3)
+.
+
+7982;txt;01
+Lisensointiserveri ei määritellyt syytä aktivoinnin epäonnistumiselle.
+.
+
+7983;txt;01
+Lisenssipalvelin ei tunnista Tuoteavainta.
+.
+
+7984;txt;01
+Tuoteavainta ei voi käyttää vanhenemispäivän (%2) jälkeen.
+.
+
+7985;txt;01
+Tuoteavain oli aktivoitu liian moneen tietokoneeseen.
+.
+
+7986;txt;01
+Tuoteavain oli hylätty koska se oli julkistettu Internetissä.
+.
+
+7987;txt;01
+Tuoteavain oli hylätty koska tilaus oli peruttu.
+.
+
+#----------------------------------------------------------------------------
+# SandboxieInstall
+#----------------------------------------------------------------------------
+
+8001;ins;01
+Valitse asennuksen tyyppi
+.
+
+8002;ins;01
+Valitse korvaus tai poisto.
+.
+
+8003;ins;01
+Aloita
+.
+
+8004;ins;01
+Aiempi Sandboxie asennus löytyi kansiosta:
+.
+
+8005;ins;01
+Valitse, miten jatketaan:
+.
+
+8006;ins;01
+Korvaa (päivitä) edellinen asennus
+.
+
+8007;ins;01
+Poista edellinen asennus asetuksineen
+.
+
+8008;ins;01
+Valitse Aloita kun olet valmis.
+.
+
+8009;ins;01
+Ennen poistoa, käytä Sandboxien hallintaohjelmaa poistaaksesi laatikoiden sisällöt.
+.
+
+8010;ins;01
+Ajurin asennus
+.
+
+8011;ins;01
+Lue alla olevat tiedot.
+.
+
+8012;ins;01
+Paina Seuraava asentaaksesi ja aktivoidaksesi Sandboxien järjestelmätason ajurin. Tämä ajuri on koko Sandboxie sovelluksen ydin.
+.
+
+8013;ins;01
+Voit joutua hetkellisesti poistamaan käytöstä mahdolliset järjestelmän suojaustyökalut, jotka estäisivät uusien ajurien asennukset.
+.
+
+8014;ins;02
+Jos tämä vaihe epäonnistuu ja tietokone lukittuu tai käynnistyy uudelleen, käynnistä tietokoneesi vikasietotilaan ja aja sitten tämä ohjelma poistaaksesi Sandboxien.
+.
+
+8015;ins;01
+Ajuri asentuu onnistuneesti useimpiin järjestelmiin.
+.
+
+8016;ins;01
+Odota, Sandboxieta poistetaan.
+.
+
+8021;ins;01
+Aja ohjelma hiekkalaatikossa.lnk
+.
+
+8022;ins;01
+Aja valitsemasi ohjelma Sandboxien alaisuudessa
+.
+
+8023;ins;01
+Hiekkalaatikoitu Käynnistä-valikko.lnk
+.
+
+8024;ins;01
+Valitse Sandboxien alaisuuteen käynnistettävä ohjelma Käynnistä-valikosta
+.
+
+8025;ins;01
+Hiekkalaatikoitu web-selain.lnk
+.
+
+8026;ins;01
+Käynnistä oletus web-selain Sandboxien alaisuudessa
+.
+
+8027;ins;01
+Hiekkalaatikoitu Resurssienhallinta.lnk
+.
+
+8028;ins;01
+Selaa tietokonetta Sandboxien alaisuudessa
+.
+
+8029;ins;01
+Sandboxien hallintaohjelma.lnk
+.
+
+8030;ins;01
+Avaa Sandboxien hallintaohjelma
+.
+
+8031;ins;01
+Poista Sandboxie.lnk
+.
+
+8032;ins;01
+Poista Sandboxie
+.
+
+8033;ins;01
+=copy:3698
+.
+
+8041;ins;01
+Sandboxie voidaan asentaa vain seuraaviin Microsoft Windowsin versioihin:
+.
+
+8042;ins;01
+Sandboxie pitää asentaa käyttäjätililtä jolla on järjestelmänvalvojan
+oikeudet.
+
+Jos käytät Windowsia jossa on käytössä User Accounts Control (UAC),
+varmista että käynnistät asennuksen käyttäen
+Suorita järjestelmänvalvojana -komentoa
+.
+
+8043;ins;01
+32-bittistä Sandboxie versiota ei voi asentaa 64-bittiseen käyttöjärjestelmään.
+.
+
+8044;ins;01
+64-bittistä Sandboxie versiota ei voi asentaa 32-bittiseen käyttöjärjestelmään.
+.
+
+8051;ins;01
+Sandboxien hallintaohjelma on käynnissä.
+
+Valitse OK sulkeaksesi hallintaohjelma ja jatkaaksesi asennusta.
+
+Valitse Peruuta keskeyttääksesi asennus.
+.
+
+8052;ins;01
+Ei voitu luoda tai päivitää Sandboxien tiedostoja.
+
+Varmista ettei Sandboxien hallintaohjelma ole käynnissä
+ja ettei ohjelmia ole käynnissä laatikoissa.
+
+Valitse sitten OK yrittääksesi uudelleen.
+
+Muutoin valitse Peruuta keskeyttääksesi asennuksen.
+.
+
+8053;ins;01
+*** KmdUtil epäonnistui.  Asennus tai poisto ei ehkä onnistu. ***
+.
+
+8054;ins;01
+Haluatko pitää Sandboxie.ini asetustiedoston?
+
+Valitse KYLLÄ pitääksesi Sandboxie.ini asetustiedoston asetukset.
+
+Valitse EI poistaaksesi Sandboxie.ini asetustiedoston ja sen asetukset.
+.
+
+8055;ins;01
+Templates.inistä ja/tai tämän sandboxien version käännöksistä on saatavilla online-päivitys. Haluatko asentaa sen?
+.
+
+#----------------------------------------------------------------------------
+# KmdUtil
+#----------------------------------------------------------------------------
+
+8101;txt;01
+Ajuria ei voi nyt asentaa.
+
+Ole hyvä ja käynnistä uudelleen tietokoneesi,
+ja yritä sitten asennusta uudelleen.
+
+Virhe funktiossa: %2
+.
+
+8102;txt;01
+Palvelua ei voi nyt pysäyttää.
+Palvelu '%2' on kiireinen.
+
+Valitse OK yrittääkseni uudelleen.
+.
+
+8103;txt;01
+Tämä on ensimmäinen yritys, voit yrittää kolmasti.
+.
+
+8104;txt;01
+Tämä on toinen yritys, voit yrittää kolmasti.
+.
+
+8105;txt;01
+Tämä on kolmas ja viimeinen yritys.
+.
+
+8106;txt;02
+Seuraavat ohjelmat pitää sulkea ennen kuin asennus voi jatkua.
+OK sulkee nämä ohjelmat ja jatkaa asennusta. Peruuta (Cancel) keskeyttää asennuksen.
+.

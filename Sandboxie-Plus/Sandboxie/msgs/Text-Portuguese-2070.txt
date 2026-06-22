@@ -1,0 +1,3739 @@
+#----------------------------------------------------------------------------
+# SbieDrv
+#
+# Initialization errors issued to the System event Log
+#----------------------------------------------------------------------------
+
+1101;evt;inf;01
+SBIE1101 O controlador do Sandboxie (SbieDrv) versão %2 foi inicializado
+.
+
+1102;evt;inf;01
+SBIE1102 O controlador do Sandboxie (SbieDrv) está a ser descarregado
+.
+
+1103;evt;err;01
+SBIE1103 Falha ao iniciar o controlador do Sandboxie (SbieDrv) versão %2
+.
+
+1104;evt;err;01
+SBIE1104 Recursos de sistema insuficientes para completar a inicialização
+.
+
+1105;evt;err;01
+SBIE1105 Versão de sistema operativo desconhecida:  %2
+.
+
+1106;evt;err;01
+SBIE1106 erro %2, detalhe %3
+.
+
+# 1107;evt;err;01
+# SBIE1107 Não é possível aceder à conta LocalSystem %2
+# .
+
+1108;evt;err;01
+SBIE1108 O procedimento %2 não pôde ser analisado
+.
+
+1109;evt;err;01
+SBIE1109 Informação de licença inválida:  %2
+.
+
+1110;evt;err;01
+SBIE1110 Não é possível intercetar tipo %3, erro %2
+.
+
+1111;evt;err;01
+SBIE1111 A DLL de sistema %3 não pôde ser carregada %2
+.
+
+1112;evt;err;01
+SBIE1112 O procedimento %2 não pôde ser localizado
+.
+
+1113;evt;err;01
+SBIE1113 Não é possível localizar o serviço de sistema Nt, razão %2
+.
+
+1114;evt;err;01
+SBIE1114 Não é possível localizar o serviço de sistema Zw, razão %2
+.
+
+1116;evt;err;01
+SBIE1116 O controlador não conseguiu registar a rotina de notificação do processo %2
+.
+
+1119;evt;err;01
+SBIE1119 Não é possível criar o dispositivo API %2
+.
+
+1120;evt;err;01
+SBIE1120 Disparidade no serviço %2
+.
+
+1121;evt;err;01
+SBIE1121 Não foi possível intercetar o serviço %2
+.
+
+1122;evt;err;01
+SBIE1122 Erro:  %2
+.
+
+#----------------------------------------------------------------------------
+# SbieDrv
+#
+# Error Messages to both Event and Popup Logs
+#----------------------------------------------------------------------------
+
+1151;evt;pop;err;01
+SBIE1151 Não é possível lidar com a instrução %2
+.
+
+1152;evt;pop;err;01
+SBIE1152 Falha na alocação do trampolim %2
+.
+
+1153;evt;pop;err;01
+SBIE1153 Falha ao inicializar o Sandboxie.  Feche todos os programas e, em seguida, reinstale o Sandboxie OU reinicie o computador.
+.
+
+#----------------------------------------------------------------------------
+# SbieDrv
+#
+# Error Messages to Popup Log
+#----------------------------------------------------------------------------
+
+1201;pop;err;01
+SBIE1201 Memória insuficiente
+.
+
+1202;pop;err;01
+SBIE1202 Não é possível atualizar a informação de licença:  %2
+.
+
+1203;pop;err;01
+SBIE1203 Não é possível construir a lista de caminhos (erro em %2)
+.
+
+1204;pop;err;01
+SBIE1204 Falha na criação da caixa de areia para %3 %2
+.
+
+1211;pop;err;01
+SBIE1211 Não foi possível iniciar o processo %2 na caixa de areia
+.
+
+1212;pop;err;01
+SBIE1212 Não é possível criar o diretório '%3' %2
+.
+
+1213;pop;err;01
+SBIE1213 Não é possível criar o diretório do objeto '%3' %2
+.
+
+1214;pop;err;01
+SBIE1214 Não é possível injetar SbieDll %2
+.
+
+1215;pop;err;01
+SBIE1215 Não é possível resolver o caminho para a imagem do processo %2
+.
+
+1216;pop;err;01
+SBIE1216 Não foi possível consultar o ID de segurança %2
+.
+
+# 1217;pop;err;01
+# SBIE1217 Não foi possível encontrar o processo principal
+# .
+
+# 1221;pop;err;01
+# SBIE1221 Não é possível criar a tarefa:  %2
+# .
+
+1222;pop;err;01
+SBIE1222 Não é possível restringir o símbolo:  %2
+.
+
+1223;pop;err;01
+SBIE1223 Não é possível substituir o símbolo:  %2
+.
+
+1224;pop;err;01
+SBIE1224 Não é possível consultar o símbolo:  %2
+.
+
+1241;pop;err;01
+SBIE1241 Não é possível montar a colméia do registo:  %2
+.
+
+1242;pop;err;01
+SBIE1242 Transbordamento da memória intermédia do monitor
+.
+
+#----------------------------------------------------------------------------
+# SbieDrv
+#
+# Informational Messages to Popup Log
+#----------------------------------------------------------------------------
+
+1301;pop;inf;01
+SBIE1301 O programa '%2' foi iniciado fora da caixa de areia
+.
+
+# 1302;pop;inf;01
+# SBIE1302 A caixa de areia '%2' não está definida ou ativada
+# .
+
+1303;pop;inf;01
+SBIE1303 Apenas uma caixa de areia pode estar ativa de cada vez
+.
+
+1304;pop;inf;01
+SBIE1304 Foi bloqueada a entrada simulada de dados do teclado ou do rato pelo processo '%2'
+.
+
+1306;pop;inf;01
+SBIE1306 O controlador do Sandboxie (SbieDrv) não pode ser descarregado agora
+.
+
+1307;pop;inf;02
+SBIE1307 O programa não pode aceder à Internet devido a restrições - %2
+.
+
+1308;pop;inf;02
+SBIE1308 O programa não pode ser iniciado devido a restrições - %2
+.
+
+1309;pop;inf;01
+SBIE1309 Foi negada uma tentativa para alterar a palavra-passe da conta
+.
+
+1310;pop;inf;01
+SBIE1310 As funcionalidades adicionais estão desativadas até que a licença seja reativada
+.
+
+1311;pop;inf;01
+SBIE1311 Foi bloqueado um pedido para mudar o fundo do Ambiente de Trabalho pelo processo '%2'
+.
+
+1312;pop;inf;01
+SBIE1312 Foi bloqueado um pedido para iniciar um programa do DOS de 16 bits na caixa de areia
+.
+
+1313;pop;inf;01
+SBIE1313 Foi bloqueado o acesso direto ao disco pelo processo '%2'
+.
+
+1314;pop;inf;01
+SBIE1314 Foi negado um pedido para alterar as configurações de rede/firewall pelo processo '%2'
+.
+
+1315;pop;inf;01
+SBIE1315 Possivelmente devido a conflitos com o programa: %2
+.
+
+#----------------------------------------------------------------------------
+# SbieDrv
+#
+# Configuration Error Messages to both Event and Popup Logs
+#----------------------------------------------------------------------------
+
+1401;evt;pop;inf;01
+SBIE1401 O ficheiro de configuração não foi encontrado, a usar predefinição
+.
+
+1402;evt;pop;wrn;01
+SBIE1402 Erro no ficheiro de configuração, na linha %3:  %2
+.
+
+1403;evt;pop;wrn;01
+SBIE1403 Erro no ficheiro de configuração, na linha %2:  linha demasiado longa
+.
+
+1404;evt;pop;wrn;01
+SBIE1404 Erro no ficheiro de configuração, na linha %2:  demasiadas linhas
+.
+
+1405;evt;pop;wrn;01
+SBIE1405 Erro no ficheiro de configuração, na linha %2:  erro de sintaxe
+.
+
+1406;evt;pop;err;01
+SBIE1406 Expansão em falta ou inválida para %3:  %2
+.
+
+# 1407;evt;pop;err;01
+# SBIE1407 Valor inválido para a configuração de %2, a usar predefinição
+# .
+
+1408;pop;err;01
+SBIE1408 Nome de utilizador desconhecido para o SID::  %2
+.
+
+1409;evt;pop;wrn;01
+SBIE1409 Não é possível abrir o ficheiro Templates.ini %2
+.
+
+1410;evt;pop;wrn;01
+SBIE1410 A seguinte mensagem indica um erro no ficheiro Templates.ini
+.
+
+1411;evt;pop;wrn;01
+SBIE1411 A caixa de areia %2 especifica um modelo desconhecido %3
+.
+
+1412;evt;pop;err;01
+SBIE1412 No texto: %2
+.
+
+#----------------------------------------------------------------------------
+# SbieDrv
+#
+# Messages from user mode -- informational -- 2101 through 2199
+#----------------------------------------------------------------------------
+
+2101;pop;inf;01
+SBIE2101 %2
+.
+
+2102;pop;inf;01
+SBIE2102 O ficheiro é demasiado grande para ser copiado para a caixa de areia - %2
+.
+
+2103;pop;inf;01
+SBIE2103 Foi negada uma tentativa para carregar um controlador de sistema '%2'
+.
+
+2104;pop;inf;02
+SBIE2104 Foi negada uma tentativa para terminar esta sessão do Windows - %2
+.
+
+# 2105;pop;inf;01
+# SBIE2105 O serviço foi iniciado com êxito na caixa de areia:  %2
+# .
+
+# 2106;pop;inf;01
+# SBIE2106 Por favor ative "Executar como Administrador UAC" no Controlo do Sandboxie, menu Ficheiro
+# .
+
+# 2107;pop;inf;01
+# SBIE2107 A preparar assembleia WinSxS '%2'
+# .
+
+2108;pop;inf;01
+SBIE2108 A simular conclusão bem sucedida para o programa '%2'
+.
+
+# 2109;pop;inf;01
+# SBIE2109 Clique em Aceitar quando o programa ou a instalação concluir.
+# .
+
+# 2110;pop;inf;01
+# SBIE2110 A preparar dependências WinSxS para '%2'
+# .
+
+# %2 = Mozilla Firefox
+2191;pop;inf;01
+SBIE2191 %2 não deve ser atualizado enquanto estiver em execução no Sandboxie.
+.
+
+2192;pop;inf;01
+SBIE2192 Para atualizar o programa, execute-o fora da supervisão do Sandboxie.
+.
+
+2193;pop;inf;01
+SBIE2193 Certifique-se que elimina o conteúdo da caixa de areia após concluir o processo de actualização.
+.
+
+2199;pop;inf;01
+%0
+.
+
+#----------------------------------------------------------------------------
+# SbieDrv
+#
+# Messages from user mode -- warning -- 2201 through 2299
+#----------------------------------------------------------------------------
+
+2201;pop;wrn;01
+SBIE2201 %2
+.
+
+# 2202;pop;wrn;01
+# SBIE2202 A lista de dispositivos de hardware instalados está em falta
+# .
+
+2203;pop;wrn;01
+SBIE2203 Não foi possível comunicar com o serviço do Sandboxie:  %2
+.
+
+2204;pop;wrn;01
+SBIE2204 Não é possível iniciar o serviço %2 na caixa de areia
+.
+
+2205;pop;wrn;01
+SBIE2205 Serviço não implementado:  %2
+.
+
+2206;pop;wrn;01
+SBIE2206 Falha ao processar a configuração AutoExec %2
+.
+
+2207;pop;wrn;01
+SBIE2207 Valor inválido para a configuração '%2', a usar predefinição
+.
+
+2208;pop;wrn;01
+SBIE2208 Não é possível remover a colméia do registo:  %2
+.
+
+2209;pop;wrn;01
+SBIE2209 Não é possível traduzir o SID para o nome de utilizador:  %2
+.
+
+2210;pop;wrn;01
+SBIE2210 Não é possível iniciar o Explorador do Windows para:  %2
+.
+
+2211;pop;wrn;01
+SBIE2211 Não foi possível iniciar o serviço na caixa de areia:  %2
+.
+
+2212;pop;wrn;01
+SBIE2212 O cliente de correio eletrónico '%2' não está configurado para ser executado na caixa de areia
+.
+
+2213;pop;wrn;01
+SBIE2213 As credenciais do Windows não podem ser armazenadas na caixa de areia
+.
+
+2214;pop;wrn;01
+SBIE2214 O pedido para iniciar o serviço '%2' foi negado devido à falta de permissões
+.
+
+# 2215;pop;wrn;01
+# SBIE2215 Falha ao preparar dependências WinSXS:  %2
+# .
+
+# 2216;pop;wrn;01
+# SBIE2216 Erro ao preparar assembleia WinSXS:  %2
+# .
+
+2217;pop;wrn;02
+SBIE2217 O pedido para executar como Administrador foi negado devido à falta de permissões
+.
+
+2218;pop;wrn;01
+SBIE2218 Não foi possível obter privilégios elevados:  %2
+.
+
+2219;pop;wrn;01
+SBIE2219 O pedido foi feito pelo programa %2
+.
+
+2220;pop;wrn;01
+SBIE2220 Faça duplo clique sobre esta mensagem para permitir o uso de privilégios de Administrador
+.
+
+2221;pop;wrn;01
+SBIE2221 Faça duplo clique sobre esta mensagem para adicioná-lo a Restrições -> Acesso à Internet
+.
+
+2222;pop;wrn;01
+SBIE2222 Faça duplo clique sobre esta mensagem para adicioná-lo a Restrições -> Iniciar/Acesso de Execução
+.
+
+2223;pop;wrn;01
+SBIE2223 Faça duplo clique sobre esta mensagem para aumentar o limite de tamanho de ficheiros a copiar
+.
+
+#----------------------------------------------------------------------------
+# SbieDrv
+#
+# Messages from user mode -- error -- 2301 through 2399
+#----------------------------------------------------------------------------
+
+2301;pop;err;01
+SBIE2301 %2
+.
+
+2303;pop;err;01
+SBIE2303 Não é possível intercetar %2
+.
+
+2304;pop;err;01
+SBIE2304 A inicialização falhou para o processo %2
+.
+
+2305;pop;err;01
+SBIE2305 Sem memória
+.
+
+2306;pop;err;01
+SBIE2306 Não foi possível localizar o diretório do utilizador: %2
+.
+
+2307;pop;err;01
+SBIE2307 Não foi possível mapear a unidade %2
+.
+
+2308;pop;err;01
+SBIE2308 Não foi possível criar o diretório do objeto:  %2
+.
+
+2309;pop;err;01
+SBIE2309 ão foi possível desativar COM+/DCOM:  %2
+.
+
+2310;pop;err;01
+SBIE2310 A memória intermédia do nome está a aproximar-se de um transbordamento (%2)
+.
+
+2311;pop;err;01
+SBIE2311 Não foi possível desativar a reciclagem (BitBucket):  %2
+.
+
+2312;pop;err;01
+SBIE2312 Não foi possível ativar a configuração BrowseNewProcess:  %2
+.
+
+2313;pop;err;01
+SBIE2313 Não foi possível executar %2
+.
+
+2314;pop;err;01
+SBIE2314 A cancelar o processo %2
+.
+
+2315;pop;err;01
+SBIE2315 Não foi possível reparar a imagem do executável
+.
+
+2316;pop;err;01
+SBIE2316 Memória corrompida
+.
+
+2317;pop;err;01
+SBIE2317 Não é possível inicializar a lista de caminhos '%2'
+.
+
+2318;pop;err;01
+SBIE2318 Falha na inicialização da DLL para '%2'
+.
+
+# 2319;pop;err;01
+# SBIE2319 Falha no contexto de ativação para o processo na caixa de areia %2
+# .
+
+# 2320;pop;err;01
+# SBIE2320 Não foi possível desativar o Explorador do Windows como um processo do Ambiente de Trabalho:  %2
+# .
+
+2321;pop;err;01
+SBIE2321 Não é possível gerir o mapa de dispositivos:  %2
+.
+
+2322;pop;err;01
+SBIE2322 Não é possível reescrever Sandboxie.ini:  %2
+.
+
+2323;pop;err;01
+SBIE2323 Erro de criptografia:  %2
+.
+
+2326;pop;err;01
+SBIE2326 Não é possível preparar o registo:  %2
+.
+
+2327;pop;err;01
+SBIE2327 Erro no servidor COM:  %2
+.
+
+2331;pop;err;01
+SBIE2331 Não foi possível iniciar o serviço:  %2
+.
+
+2332;pop;err;01
+SBIE2332 Não é possível aceder ao ficheiro SbiePst.dat
+.
+
+# 2333;pop;err;01
+# SBIE2333 Foi encontrada uma DLL de programa incompatível:  %2
+# .
+
+2334;pop;err;01
+SBIE2334 Não é possível carregar o ficheiro DLL:  %2
+.
+
+# 2398;txt;01
+# SBIE2398 Ocorreu uma exceção no serviço ... no endereço ...
+# .
+
+# 2399;txt;01
+# SBIE2399 O serviço falhou com um erro ...
+# .
+
+#----------------------------------------------------------------------------
+# SbieSvc
+#----------------------------------------------------------------------------
+
+9101;evt;err;01
+SBIE9101 Recursos de sistema insuficientes
+.
+
+9153;evt;err;01
+SBIE9153 Não é possível iniciar o controlador (SbieDrv)
+.
+
+9154;evt;err;01
+SBIE9154 O controlador (SbieDrv) e o serviço (SbieSvc) têm números de versão diferentes
+.
+
+9156;evt;err;01
+SBIE9156 A inicialização do controlador não foi concluída
+.
+
+9201;evt;err;01
+SBIE9201 Erro de símbolo
+.
+
+9202;evt;err;01
+SBIE9202 Erro de símbolo
+.
+
+9203;evt;err;01
+SBIE9203 Erro de símbolo
+.
+
+9204;evt;err;01
+SBIE9204 Erro do descritor de segurança
+.
+
+9205;evt;err;01
+SBIE9205 Erro do descritor de segurança
+.
+
+9206;evt;err;01
+SBIE9206 Erro do descritor de segurança
+.
+
+9207;evt;err;01
+SBIE9207 Erro do descritor de segurança
+.
+
+9208;evt;err;01
+SBIE9208 Não é possível ativar SeRestorePrivilege
+.
+
+9251;evt;err;01
+SBIE9251 Falha ao criar evento de porta
+.
+
+9252;evt;err;01
+SBIE9252 Falha ao criar a porta
+.
+
+9253;evt;err;01
+SBIE9253 Falha na criação do segmento de porta
+.
+
+#----------------------------------------------------------------------------
+# Common Texts
+#----------------------------------------------------------------------------
+
+3001;txt;01
+&Aceitar
+.
+
+3002;txt;01
+&Cancelar
+.
+
+3003;txt;01
+&Pesquisar...
+.
+
+3004;txt;01
+&Fechar
+.
+
+3005;txt;01
+Cor&tar
+.
+
+3051;txt;01
+A protecção contra eliminação está ativada para esta caixa de areia
+.
+
+3052;txt;01
+Executar numa Caixa de Areia
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Start
+#----------------------------------------------------------------------------
+
+3101;txt;01
+Iniciar Sandboxie
+.
+
+3103;txt;01
+Insira o nome de um programa ou pasta para que o Sandboxie o/a abra.
+.
+
+3104;txt;01
+Insira  .  (o caráter ponto) para explorar o seu Ambiente de Trabalho com o Sandboxie.
+.
+
+3105;txt;01
+Remover o comando do histórico de comandos
+.
+
+3106;txt;01
+Selecione a caixa de areia na qual o programa ou documento deve ser iniciado.
+.
+
+3111;txt;01
+      Menu Iniciar do Sandboxie - %2  %0
+.
+
+3112;txt;01
+Ambiente de Trabalho
+.
+
+3113;txt;01
+(explorar pasta)
+.
+
+3114;txt;01
+Programas
+.
+
+3202;txt;01
+Parâmetro de linha de comando inválido:  %2
+.
+
+3203;txt;01
+Uso: Start.exe <nome do programa>
+.
+
+3204;txt;01
+Parâmetro de nome da caixa de areia inválido:  %2
+.
+
+3205;txt;01
+Não foi possível invocar o programa:
+
+%2
+.
+
+3206;txt;01
+Código de Erro do Sistema:
+.
+
+# 3207;txt;01
+# Não é possível encontrar o executável do Internet Explorer
+# .
+
+# 3208;txt;01
+# Não é possível encontrar o executável do navegador da Internet predefinido
+# .
+
+3209;txt;01
+Não é possível encontrar o executável do cliente de correio eletrónico predefinido
+.
+
+3210;txt;01
+Não foi possível iniciar o Controlo do Sandboxie
+.
+
+3211;txt;01
+Disparidade na versão do Sandboxie.  Tente reinstalar.
+.
+
+3212;txt;01
+O controlador do Sandboxie (SbieDrv) não está disponível para executar programas na caixa de areia.
+Verifique se o controlador e o serviço do Sandboxie (SbieSvc) foram iniciados com êxito.
+.
+
+3213;txt;01
+Não foi possível inicializar os serviços COM do Sandboxie
+.
+
+3214;txt;01
+Elimine o conteúdo da caixa de areia %2:  %0
+.
+
+3215;txt;01
+O objeto (ficheiro ou pasta) pode estar a ser usado por outro programa.
+Feche todas as aplicações ou janelas que possam estar a prevenir o acesso.
+.
+
+3216;txt;01
+Não foi possível localizar a pasta da caixa de areia
+.
+
+3217;txt;01
+Não foi possível abrir a pasta da caixa de areia
+.
+
+3218;txt;01
+Não foi possível abrir a pasta que contém a pasta da caixa de areia
+.
+
+3219;txt;01
+Não foi possível mover a pasta da caixa de areia para um local diferente
+.
+
+3220;txt;01
+Erro ao renomear um dos nomes de ficheiro longos na caixa de areia.
+O conteúdo da caixa de areia não será eliminado.
+.
+
+3221;txt;01
+Por favor, termine os programas em execução na caixa de areia antes de eliminar o seu conteúdo.
+.
+
+3222;txt;01
+Falha no comando de eliminação:  %0
+.
+
+3231;txt;01
+O Sandboxie foi instalado há mais de 30 dias.
+.
+
+3232;txt;01
+O uso pessoal do Sandboxie é permitido gratuitamente pelo tempo que desejar.
+.
+
+3233;txt;01
+No entanto, a versão gratuita agora fará uma pausa por alguns segundos.
+.
+
+3234;txt;01
+No entanto, a versão gratuita permite o uso de uma caixa de areia de cada vez.
+.
+
+3235;txt;01
+Esta restrição é removida na versão paga do Sandboxie.
+.
+
+3236;txt;01
+Além disso, a versão paga permite a execução automática dos programas selecionados nas caixas de areia.
+.
+
+3237;txt;01
+Para obter mais informações e comprar o programa, por favor clique na seguinte hiperligação:
+.
+
+3238;txt;01
+Por favor aguarde mais %2 segundos
+.
+
+3239;txt;01
+Clique aqui para fechar esta janela e continuar
+.
+
+3240;txt;01
+Clique aqui para fechar esta janela e parar
+.
+
+3241;txt;01
+O Sandboxie está a solicitar privilégios de Administrador
+em nome de um programa em execução numa caixa de areia.
+.
+
+3242;txt;01
+Para aceitar ou cancelar o pedido, ative a 
+janela do Controlo de Conta do Utilizador.
+.
+
+3243;txt;01
+Nota: O programa continuará a ser executado sob a supervisão
+do Sandboxie, mesmo depois dos privilégios de Administrador terem sido concedidos.
+.
+
+3251;txt;01
+Executar Fora da Caixa de Areia
+.
+
+3252;txt;01
+Inicia o programa expresamente fora da supervisão do Sandboxie,
+mesmo que o programa esteja forçado a executar numa caixa de areia.
+Esta exceção será igualmente aplicada a todos os programas
+iniciados por este programa.
+
+Também pode selecionar esta opção mantendo pressão sobre as teclas 
+Ctrl e Shift ao clicar Executar na Caixa de Areia.
+.
+
+3253;txt;01
+Tem a certeza de que pretende executar o programa fora da caixa de areia?
+.
+
+3254;txt;01
+Para ocultar a janela de seleção da caixa de areia, pode premir a tecla Ctrl
+ao clicar Executar na Caixa de Areia
+.
+
+3255;txt;01
+A opção está desativada porque a configuração Redução de Privilégios está ativada para esta caixa de areia
+.
+
+3256;txt;01
+A opção está desativada porque este programa já se encontra em execução com privilégios de Administrador
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control Common
+#----------------------------------------------------------------------------
+
+3301;txt;01
+Controlo do Sandboxie
+.
+
+3302;txt;01
+Versão %2
+.
+
+3303;txt;01
+  -  A inicializar
+.
+
+3304;txt;01
+As versões do Sandboxie não coincidem:
+
+Controlo do Sandboxie: Versão %2
+Serviço (SbieSvc): Versão %3
+Controlador (SbieDrv): Versão %4
+
+Reinstale o Sandboxie para resolver este problema.
+
+A abortar.
+.
+
+# 3305;txt;01
+# Não foi possível instalar o ícone da área de notificação. A abortar.
+# .
+
+3306;txt;01
+Não mostrar esta mensagem novamente
+.
+
+# 3307;txt;01
+# Insira o Nome do Programa
+# .
+
+# translate text but keep hash signs (#)
+3308;txt;01
+Programas#*.EXE#Todos os Ficheiros#*.*##
+.
+
+3309;txt;01
+  -  A eliminar o conteúdo da caixa de areia.
+.
+
+3311;txt;01
+Não foi possível guardar a opção de configuração %3 na secção %2:  %4
+.
+
+3312;txt;01
+Não está autorizado a atualizar a configuração na secção %2
+.
+
+3313;txt;01
+Utilizador desconhecido, as opções de configuração não serão guardadas
+.
+
+3314;txt;01
+Ocorreu um erro ao aplicar as configurações predefinidas para a caixa de areia '%2'
+.
+
+# 3321;txt;01
+#   -  Inicio de sessão efetuado na caixa de areia
+# .
+
+# 3322;txt;01
+# A sessão está a ser supervisionada pelo Sandboxie.
+# Qualquer alteração efetuada durante a sessão será descartada quando eliminar o conteúdo da caixa de areia.
+# 
+# Conta de Utilizador: %2
+# Caixa de Areia: %3
+# 
+# Tem a certeza de que pretende eliminar o conteúdo da caixa de areia e terminar a sessão?
+# .
+
+3351;txt;01
+&Remover
+.
+
+3352;txt;01
+&Adicionar
+.
+
+3353;txt;01
+&Editar/Adic.
+.
+
+3354;txt;01
+&Editar
+.
+
+3355;txt;01
+Adicionar &Prog.
+.
+
+# 3356;txt;01
+# Adicionar por &Nome
+# .
+
+# 3357;txt;01
+# Adicionar por &Ficheiro
+# .
+
+3358;txt;01
+Adicionar &Pasta
+.
+
+3359;txt;01
+Adicionar &Utilizador
+.
+
+3360;txt;01
+Selecionar &Tudo
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control Menus
+#----------------------------------------------------------------------------
+
+3411;txt;01
+&Ficheiro
+.
+
+3412;txt;01
+Terminar &Todos os Programas
+.
+
+3413;txt;01
+Desativar Programas &Forçados
+.
+
+3414;txt;01
+Executar como Administrador &UAC
+.
+
+3415;txt;01
+A &janela está numa caixa de areia?
+.
+
+3416;txt;01
+&Monitor de Acesso a Recursos
+.
+
+3417;txt;01
+&Sair
+.
+
+3421;txt;01
+&Ver
+.
+
+3422;txt;01
+&Programas
+.
+
+3423;txt;01
+&Ficheiros e Pastas
+.
+
+3424;txt;01
+Menu de &Contexto%2Shift+F10
+.
+
+3425;txt;01
+&Relatório de Recuperação
+.
+
+3431;txt;01
+&Caixa de Areia
+.
+
+3432;txt;01
+Criar Nova Caixa de Areia
+.
+
+3433;txt;01
+Configurar a localização das Caixas de Areia
+.
+
+3434;txt;01
+Revelar Caixa de Areia Oculta
+.
+
+3435;txt;01
+Definir Esquema e Grupos
+.
+
+3441;txt;01
+&Configurar
+.
+
+3442;txt;01
+&Alertas de Programa
+.
+
+3443;txt;01
+&Integração com o Windows
+.
+
+3501;txt;01
+&Compatibilidade de Programas
+.
+
+3503;txt;01
+Proteção Experimental (64 bits)
+.
+
+3444;txt;01
+Ignorar &Mensagens Ocultas
+.
+
+3445;txt;02
+&Dicas
+.
+
+3502;txt;01
+&Bloquear a Configuração
+.
+
+3446;txt;01
+&Editar a Configuração
+.
+
+3447;txt;01
+Re&carregar a Configuração
+.
+
+3448;txt;01
+&Mostrar Todas as Dicas
+.
+
+3449;txt;01
+&Ocultar Todas as Dicas
+.
+
+3451;txt;01
+&Ajuda
+.
+
+3452;txt;01
+&Tópicos da Ajuda (Internet)
+.
+
+3453;txt;02
+&Introdução && Tutorial
+.
+
+3454;txt;01
+Procurar &Atualizações
+.
+
+3455;txt;01
+&Registar o Sandboxie
+.
+
+3456;txt;01
+&Sobre o Sandboxie
+.
+
+3461;txt;01
+&Executar na Caixa de Areia
+.
+
+3462;txt;01
+Executar o &Navegador da Internet
+.
+
+3463;txt;01
+Executar o Cliente de &Correio Eletrónico
+.
+
+3464;txt;01
+Executar &Qualquer Programa
+.
+
+3465;txt;01
+Executar a partir do &Menu Iniciar
+.
+
+3466;txt;01
+Executar o Explorador do &Windows
+.
+
+3471;txt;01
+&Terminar os Programas
+.
+
+3472;txt;01
+&Recuperação Rápida
+.
+
+3473;txt;01
+&Eliminar o Conteúdo
+.
+
+3474;txt;01
+&Explorar o Conteúdo
+.
+
+3475;txt;01
+&Configurações da Caixa de Areia
+.
+
+3476;txt;01
+Re&nomear a Caixa de Areia
+.
+
+3477;txt;01
+Remo&ver a Caixa de Areia
+.
+
+3481;txt;01
+&Terminar o Programa
+.
+
+3482;txt;01
+&Configurações do Programa
+.
+
+3483;txt;01
+Acesso a &Recursos
+.
+
+3485;txt;01
+Mostrar a Janela
+.
+
+3486;txt;01
+Ocultar a Janela
+.
+
+3487;txt;01
+&Mostrar Erros
+.
+
+# 3488;txt;01
+# &Eliminar o conteúdo da Caixa de Areia e sair da sessão
+# .
+
+3491;txt;01
+Recuperar para a &Mesma Pasta
+.
+
+3492;txt;01
+Recuperar para &Qualquer Pasta
+.
+
+3493;txt;01
+&Adicionar Pasta à Recuperação Rápida
+.
+
+3494;txt;01
+&Remover Pasta da Recuperação Rápida
+.
+
+3495;txt;01
+Criar Atalho de Ambiente de Trabalho
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control Main Window
+#----------------------------------------------------------------------------
+
+3511;txt;01
+O Controlo do Sandboxie irá ocultar agora a janela, mas
+permanecerá em execução. Para mostrar a janela, faça duplo clique 
+no ícone do Sandboxie que se encontra na área de notificação.
+.
+
+3512;txt;01
+Edite as alterações do ficheiro de configuração Sandboxie.ini 
+na janela do editor de texto que foi agora aberto.
+
+As alterações efetuadas apenas terão efeito
+depois de invocar a função Recarregar a Configuração.
+
+Na maioria dos casos, a função Recarregar a Configuração é 
+invocada automaticamente quando fechar a janela do editor de texto.
+
+Também pode instruir explicitamente o Controlo do Sandboxie para
+Recarregar a Configuração a qualquer momento.
+.
+
+3513;txt;01
+A configuração do Sandboxie foi atualizada e será aplicada
+aos programas assim que forem iniciados na caixa de areia.
+
+Se algum programa estiver em execução na caixa de areia,
+a nova configuração não será aplicada.
+.
+
+3514;txt;01
+Houve um problema na leitura do ficheiro de configuração.
+A configuração do Sandboxie não foi atualizada.
+.
+
+3515;txt;01
+Caixa de Areia %2
+.
+
+3516;txt;01
+Ativa
+.
+
+3517;txt;01
+Nome do Programa
+.
+
+3518;txt;01
+PID
+.
+
+3519;txt;01
+Título da Janela
+.
+
+3520;txt;01
+Pastas de Recuperação Rápida
+.
+
+3521;txt;01
+Todos os Ficheiros e Pastas
+.
+
+3522;txt;01
+Unidades
+.
+
+3523;txt;01
+Partilhas de Rede
+.
+
+3524;txt;01
+Ficheiros do Utilizador
+.
+
+3525;txt;01
+Pessoal
+.
+
+3526;txt;01
+Todos os Utilizadores
+.
+
+3527;txt;01
+Por favor elimine o conteúdo da caixa de areia %2 antes de invocar este comando.
+.
+
+3528;txt;01
+Insira um novo nome para a caixa de areia.
+.
+
+3529;txt;01
+Tem a certeza de que pretende remover a caixa de areia %2?
+.
+
+3530;txt;01
+Não há nenhum processo para terminar.
+.
+
+3531;txt;01
+AVISO: O processo ou processos a terminar não terão 
+a oportunidade de guardar o seu estado ou dados.
+
+Tem a certeza de que pretende prosseguir com a terminação do processo?
+.
+
+3532;txt;01
+No futuro, terminar os processos sem perguntar
+.
+
+3533;txt;01
+Pode copiar e cortar ficheiros ou pastas de uma pasta da janela do Explorador do Windows
+em execução numa caixa de areia, e copiar diretamente para uma pasta que se encontre
+fora de uma caixa de areia.
+.
+
+3534;txt;01
+Está prestes a explorar o conteúdo da caixa de areia usando uma janela do Explorador do Windows
+que não se encontra sob a supervisão do Sandboxie.
+
+Pode abrir programas ou documentos que residam dentro da caixa de areia.
+O programa ou documento será iniciado sob a supervisão do Sandboxie.
+
+No entanto, é aconselhável que o conteúdo da caixa de areia seja manipulado
+numa instância do Explorador do Windows sob a supervisão do Sandboxie. Para tal,
+clique em "Caixa de Areia" > "Executar na Caixa de Areia" > "Executar o Explorador do Windows".
+.
+
+3535;txt;01
+Ocorreu um erro ao aceder à pasta da caixa de areia.
+.
+
+3536;txt;01
+O indicador 'oculto' foi removido de todas as mensagens.
+.
+
+3537;txt;01
+O indicador 'não mostrar esta mensagem' foi removido de todas as dicas.
+.
+
+3538;txt;01
+O indicador 'não mostrar esta mensagem' aplica-se agora a todas as dicas.
+.
+
+3539;txt;01
+A Caixa de Areia '%2' foi criada há %3 dias.
+
+Por favor, considere eliminar regularmente o conteúdo da caixa de areia.
+
+Para configurar a eliminação automática, proceda da seguinte maneira:
+"Caixa de Areia" > "<Nome da Caixa de Areia>" > "Configurações da Caixa de Areia" 
+> "Eliminar" > "Invocar Eliminar".
+.
+
+3540;txt;01
+O ficheiro de configuração Sandboxie.ini não pode ser editado porque
+está protegido por palavra-passe. Para editar o ficheiro, use o comando
+"Bloquear a Configuração" para desativar a proteção.
+.
+
+3541;txt;01
+Público
+.
+
+3542;txt;01
+O modo Proteção Experimental melhora a proteção 
+oferecida pelo Sandboxie de 64 bits, trazendo o mesmo 
+nível de proteção oferecida pela Sandboxie de 32 bits.
+
+IMPORTANTE: A Proteção Experimental faz uso de funcionalidades
+não documentadas do núcleo do Windows. Atualizações futuras do Windows 
+poderão interferir com o modo Proteção Experimental,
+podendo causar instabilidade no sistema.
+
+USE POR SUA CONTA E RISCO.
+
+Deve reiniciar o computador agora
+para ativar o modo Proteção Experimental.
+.
+
+3543;txt;01
+Deve reiniciar o computador agora
+para desativar o modo Proteção Experimental.
+
+Por favor, tenha em atenção que a configuração Redução de Privilégios 
+será ativada em todas as caixas de areia.
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control Dialogs: About/Welcome
+#----------------------------------------------------------------------------
+
+3601;txt;01
+Sobre o Sandboxie
+.
+
+# 3604;txt;01
+# Bem-vindo ao Sandboxie
+# .
+
+# 3605;txt;01
+# 
+# O Sandboxie executa as suas aplicações numa área isolada e protegida designada de caixa de areia.
+# 
+# As aplicações na caixa de areia não podem alterar ou provocar danos no sistema.
+# 
+# Também pode usar o Sandboxie para instalar e testar novas aplicações.
+# .
+
+# 3606;txt;01
+# Se é a primeira vez que entra em contacto com o Sandboxie,
+# por favor considere ler o tutorial de Introdução.
+# .
+
+# 3607;txt;01
+# &Introdução ao Sandboxie
+# .
+
+#----------------------------------------------------------------------------
+# Sandboxie Control Dialogs: Update
+#----------------------------------------------------------------------------
+
+3621;txt;01
+Procurar Atualizações
+.
+
+3622;txt;01
+Pretende ligar à página da Internet do Sandboxie para verificar se uma nova versão do programa está disponível?
+.
+
+3623;txt;01
+&Agora
+.
+
+3624;txt;01
+Na Próxima &Semana
+.
+
+3625;txt;01
+&Nunca
+.
+
+3626;txt;01
+No futuro, procurar atualizações sem perguntar
+.
+
+3627;txt;01
+Política de Privacidade: Nenhuma informação pessoal será recolhida ou transmitida pelo Sandboxie.
+.
+
+3628;txt;01
+A procura de atualizações está a decorrer. Por favor, aguarde.
+.
+
+3629;txt;01
+Não se encontra disponível uma versão mais recente do Sandboxie.
+.
+
+3630;txt;01
+A versão %2 do Sandboxie está disponível para ser transferida.
+.
+
+3631;txt;01
+Transferir agora?
+
+Nota: A transferência demora cerca de um minuto.
+Será notificado quando a transferência for concluída.
+.
+
+3632;txt;01
+Para transferir e instalar a nova versão, inicie sessão numa conta 
+com privilégios administrativos e tente novamente.
+.
+
+3633;txt;01
+A versão %2 do Sandboxie foi transferida para a seguinte localização:
+
+%3
+
+Clique em Aceitar para iniciar a instalação. Se algum programa 
+estiver em execução numa caixa de areia, será terminado.
+.
+
+3634;txt;01
+A atualização falhou: Ocorreu um erro ao comunicar com a página da Internet do Sandboxie.
+.
+
+3635;txt;01
+a transferir a nova versão
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control Dialogs: Run Browser
+#----------------------------------------------------------------------------
+
+3641;txt;01
+Abrir o Navegador da Internet
+.
+
+3642;txt;01
+Escolha se pretende abrir o seguinte endereço, num navegador da Internet, fora ou dentro de uma caixa de areia.
+.
+
+3643;txt;01
+&Dentro da Caixa de Areia
+.
+
+3644;txt;01
+&Fora da Caixa de Areia
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control Dialogs: Message Dialog
+#----------------------------------------------------------------------------
+
+3645;txt;01
+Mensagens do Sandboxie
+.
+
+3646;txt;01
+O&cultar
+.
+
+3647;txt;01
+Ocultar uma mensagem impedirá que a mensagem seja exibida no futuro. 
+Ocultar uma mensagem não resolve os problemas que levaram a mensagem 
+a ser exibida.
+
+Tem a certeza de que pretende desativar o relatório de mensagem %2?
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control Dialogs: Disable Forced Programs
+#----------------------------------------------------------------------------
+
+3651;txt;01
+Desativar Temporarimente Programas Forçados
+.
+
+3652;txt;01
+Desativar Temporariamente Programas Forçados por
+.
+
+3653;txt;01
+segundos
+.
+
+3654;txt;01
+Quando clicar em Aceitar, o mecanismo Programas Forçados será temporariamente desativado, pelo período de tempo especificado acima, ou até que selecione esta função novamente.
+.
+
+3599;txt;01
+Pode desativar o mecanismo Programas Forçados para um programa especifico premindo as teclas Ctrl e Shift ao clicar em Executar na Caixa de Areia
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control Dialogs: Resource Access Monitor
+#----------------------------------------------------------------------------
+
+3655;txt;01
+Monitor de Acesso a Recursos
+.
+
+3656;txt;01
+Esta ferramenta monitoriza os programas executados sob a supervisão do Sandboxie, exibindo os recursos acedidos por estes.
+Por favor, consulte a documentação antes de usar esta ferramenta.
+.
+
+3657;txt;01
+Copiar conteúdo prà Área de Transferência e fechar janela
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control Dialogs: Is Window Sandboxed
+#----------------------------------------------------------------------------
+
+3661;txt;01
+A janela está numa caixa de areia?
+.
+
+3662;txt;01
+Arraste a Ferramenta de Localização sobre uma janela para selecioná-la e, em seguida, solte o botão do rato para verificar se a janela está numa caixa de areia.
+
+Prima ESC para cancelar.
+.
+
+3663;txt;01
+A janela selecionada está a ser executada como parte do programa %2 na caixa de areia %3.
+.
+
+3664;txt;01
+A janela selecionada não está em execução como parte de qualquer programa na caixa de areia.
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control Dialogs: Create New Sandbox
+#----------------------------------------------------------------------------
+
+3665;txt;01
+Criar uma Nova Caixa de Areia
+.
+
+3666;txt;01
+Insira o nome para a nova caixa de areia.
+.
+
+3667;txt;01
+Erro: O nome inserido é inválido. Use apenas letras e dígitos. Espaços e outros carateres especiais não são permitidos. O nome não pode exceder os 32 carateres.
+.
+
+3668;txt;01
+Erro: Inseriu um nome duplicado. Insira um nome que ainda não esteja em uso por nenhuma caixa de areia.
+.
+
+3669;txt;01
+Copiar a configuração de uma caixa de areia existente:
+.
+
+4665;txt;01
+Erro: Foi inserido um nome de caixa de areia duplicado. O nome está a ser usado por uma caixa de areia oculta. Use o comando "Revelar Caixa de Areia Oculta" no menu Caixa de Areia.
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control Dialogs: Set Container Folder
+#----------------------------------------------------------------------------
+
+3671;txt;01
+Definir Localização das Caixas de Areia
+.
+
+3672;txt;01
+Selecione a unidade onde as caixas de areia serão criadas e armazenadas.
+.
+
+3673;txt;01
+Para máxima compatibilidade com outros programas, é recomendável que mantenha a caixa de areia na localização predefinida na unidade selecionada.
+.
+
+3674;txt;01
+No entanto, também pode usar a caixa de edição abaixo para substituir o local predefinido:
+.
+
+3675;txt;01
+Nota: É aconselhável que elimine o conteúdo das caixas de areia antes de mudar a localização.
+.
+
+3676;txt;01
+Unidade %2
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control Dialogs: Alerts
+#----------------------------------------------------------------------------
+
+3681;txt;01
+Alertas de Programa
+.
+
+3682;txt;01
+Quando algum dos seguintes programas for executado fora de uma caixa de areia, o Sandboxie emitirá a mensagem SBIE1301.
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control Dialogs: Shell Integration
+#----------------------------------------------------------------------------
+
+3685;txt;01
+Integração com o Windows
+.
+
+3686;txt;01
+Iniciar o Controlo do Sandboxie
+.
+
+3687;txt;01
+Quando o Windows é iniciado
+.
+
+3688;txt;02
+Quando um programa é iniciado numa caixa de areia
+.
+
+3689;txt;01
+Ícones de Atalho
+.
+
+3690;txt;01
+Adicionar atalho do Ambiente de Trabalho para iniciar o navegador da Internet no Sandboxie
+.
+
+3691;txt;01
+Adicionar atalho de Início Rápido para iniciar o navegador da Internet no Sandboxie
+.
+
+3692;txt;01
+Clique para adicionar mais atalhos ao Ambiente de Trabalho:
+.
+
+3693;txt;01
+&Adicionar Ícones de Atalho
+.
+
+3694;txt;01
+Ações "Executar na Caixa de Areia"
+.
+
+3695;txt;01
+Adicionar a opção do menu de contexto "Executar numa Caixa de Areia" para ficheiros e pastas
+.
+
+3696;txt;01
+Adicionar caixas de areia como destinos para a ação "Enviar para"
+.
+
+3697;txt;01
+O Menu Iniciar do Sandboxie será agora exibido. Selecione uma
+aplicação do menu, e o Sandboxie criará um novo ícone de atalho
+no Ambiente de Trablho real, que poderá usar para iniciar a aplicação
+selecionada sob a supervisão do Sandboxie.
+.
+
+3698;txt;01
+Navegador da Internet numa Caixa de Areia.lnk
+.
+
+3699;txt;01
+Executar numa &Caixa de Areia
+.
+
+4491;txt;01
+Abrir %2 na caixa de areia %3
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control:  Delete Sandbox / Quick Recovery / Immediate Recovery
+#----------------------------------------------------------------------------
+
+3711;txt;01
+Eliminar Conteúdo|Recuperação Rápida
+.
+
+3712;txt;01
+Os ficheiros listados abaixo são elegíveis para a Recuperação Rápida da caixa de areia. Selecione um ficheiro ou pasta e clique num dos botões abaixo para recuperar o item selecionado.
+.
+
+3713;txt;01
+Clique em Eliminar Conteúdo para terminar os processos em execução na caixa de areia e eliminar o seu conteúdo.
+.
+
+3714;txt;01
+&Eliminar Conteúdo
+.
+
+3715;txt;01
+Recuperação Imediata
+.
+
+3716;txt;02
+Os ficheiros são elegíveis para recuperação imediata e podem ser movidos para fora da caixa de areia.
+.
+
+3717;txt;01
+Primeiro selecione ficheiros na lista acima e, em seguida, selecione uma pasta de destino.
+.
+
+3718;txt;01
+&Recuperar
+.
+
+3719;txt;01
+Não &perguntar novamente até que todos os programas nesta caixa de areia tenham terminado
+.
+
+3720;txt;01
+Recuperar para
+a &Mesma Pasta
+.
+
+3721;txt;01
+Recuperar para
+&Qualquer Pasta
+.
+
+3722;txt;01
+Existem %2 ficheiros e %3 pastas na caixa de areia, a ocupar %4 bytes de espaço em disco.
+.
+
+3723;txt;01
+Selecione uma pasta na qual o ficheiro ou pasta será recuperada.
+.
+
+3724;txt;01
+Ou selecione uma pasta de uma recuperação anterior.
+.
+
+3725;txt;01
+Armazenar as pastas selecionadas para uso posterior
+.
+
+3726;txt;01
+Selecione uma pasta para adicionar à lista de pastas de Recuperação Rápida.
+.
+
+3727;txt;01
+A pasta foi adicionada à lista de pastas de Recuperação Rápida.
+
+No entanto, neste momento, não existem itens na caixa de areia que possam ser recuperados a partir da pasta.
+.
+
+3728;txt;01
+Nenhum ficheiro foi selecionado para recuperação.
+.
+
+3729;txt;01
+A recuperação falhou. Não foi possível mover o seguinte item para fora da caixa de areia:
+.
+
+3730;txt;01
+A caixa de areia está vazia. Não há nada para eliminar.
+.
+
+3731;txt;01
+Não foi possível parar alguns programas na caixa de areia. O conteúdo da caixa de areia não será eliminado.
+.
+
+3732;txt;01
+Não há ficheiros para recuperar neste momento.
+.
+
+3733;txt;01
+O ficheiro não pode ser recuperado porque o nome da pasta de destino é demasiado longo.
+Por favor, selecione outra pasta de destino.
+.
+
+3734;txt;01
+Clicar a lista de pastas com o botão direito para mais opções
+.
+
+3735;txt;02
+Substituir todos os ficheiros sem avisos adicionais
+.
+
+3736;txt;01
+&Recuperar && Explorar
+.
+
+3737;txt;01
+&Recuperar && Executar
+.
+
+3981;txt;01
+&Abrir a pasta no Explorador do Windows fora da caixa de areia
+.
+
+3982;txt;01
+Remover esta pasta da lista
+.
+
+3983;txt;01
+Remover todas as pastas da lista
+.
+
+3986;txt;01
+Relatório de Recuperação
+.
+
+3987;txt;01
+Os seguintes ficheiros foram recentemente recuperados e movidos para fora das caixas de areia.
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control:  Program Settings
+#----------------------------------------------------------------------------
+
+3741;txt;01
+Configurações de Programa
+.
+
+3742;txt;01
+Caixa de Areia:
+.
+
+3743;txt;01
+Programa:
+.
+
+3744;txt;01
+Ver Página 1
+.
+
+3745;txt;01
+Ver Página 2
+.
+
+3751;txt;01
+Início de Programa
+.
+
+3752;txt;01
+Sempre que este programa for iniciado fora de qualquer caixa de areia:
+.
+
+3753;txt;01
+Emitir mensagem de alerta SBIE1301
+.
+
+3754;txt;01
+Forçar o programa a executar nesta caixa de areia
+.
+
+3755;txt;01
+Término do Programa
+.
+
+3756;txt;01
+Parar este programa se permanecer na caixa de areia após os outros programas terem terminado
+.
+
+3757;txt;01
+Parar os outros programas após o programa principal terminar
+.
+
+3761;txt;01
+Restrições de Internet
+.
+
+3762;txt;01
+Qualquer programa em execução nesta caixa de areia pode aceder à Internet.
+.
+
+3763;txt;01
+Programas que podem aceder à Internet nesta caixa de areia:
+.
+
+3764;txt;01
+Ativar restrições e permitir que este programa aceda à Internet.
+.
+
+3765;txt;01
+Restrições de Inicio/Execução
+.
+
+3766;txt;01
+Qualquer programa pode ser iniciado nesta caixa de areia.
+.
+
+3767;txt;01
+Programas que podem ser iniciados nesta caixa de areia:
+.
+
+3768;txt;01
+Ativar restrições e permitir que este programa seja iniciado.
+.
+
+3769;txt;01
+(Nenhum)
+.
+
+3770;txt;01
+As novas configurações não se aplicam ao programa
+que já se encontra em execução na caixa de areia.
+As configurações serão aplicadas da próxima vez que
+o programa for iniciado.
+.
+
+3771;txt;01
+(Esta funcionalidade só está disponível na versão registada do Sandboxie)
+.
+
+3772;txt;02
+Tem a certeza de que pretende definir %2 como um programa forçado?
+.
+
+3773;txt;02
+Tem a certeza de que pretende definir %2 como uma pasta forçada?
+.
+
+# 3774;txt;02
+# Tem a certeza de que pretende definir %2 como um utilizador forçado?
+# .
+
+3775;txt;02
+Efetuou uma alteração que pode não ser fácil anular.
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control:  Sandbox Settings
+#----------------------------------------------------------------------------
+
+3801;txt;01
+Configurações da Caixa de Areia - %2
+.
+
+3802;txt;01
+Esta página foi intencionalmente deixada em branco
+.
+
+3803;txt;01
+Deve aplicar as alterações nesta página antes de continuar.
+.
+
+3804;txt;01
+Aplicar alterações ao mudar para outra página.
+.
+
+3805;txt;01
+Todos os Programas
+.
+
+3806;txt;02
+A lista abaixo aplica-se a
+.
+
+3807;txt;01
+Selecionar um ficheiro ou pasta para adicionar à lista de exclusões de Acesso a Ficheiros.
+.
+
+3808;txt;01
+Adicionar Nome do Recurso
+.
+
+3809;txt;01
+Editar Nome do Recurso
+.
+
+3551;txt;01
+(Todos os programas exceto %2)
+.
+
+3552;txt;01
+Inverter o sentido da seleção atual
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control:  Sandbox Settings:  Appearance
+#----------------------------------------------------------------------------
+
+3811;txt;01
+Aparência
+.
+
+3812;txt;01
+Os programas executados sob a supervisão do Sandboxie exibirão o indicador do Sandboxie [#] no título da janela.
+.
+
+3813;txt;01
+Se a seguinte configuração estiver ativada, o título da janela também exibirá o nome desta caixa de areia.
+.
+
+3814;txt;01
+Mostrar o nome da caixa de areia no título da janela
+.
+
+3815;txt;01
+Não mostrar o indicador do Sandboxie no título da janela
+.
+
+3816;txt;01
+O Sandboxie pode exibir uma borda espessa ao redor de uma janela que pertença a um programa em execução na caixa de areia.
+.
+
+3817;txt;01
+Exibir uma borda ao redor da janela
+.
+
+3818;txt;01
+Clique aqui para alterar a cor da borda
+.
+
+3819;txt;01
+Exibir a borda somente quando o cursor do rato estiver no título da janela
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control:  Sandbox Settings:  Recovery
+#----------------------------------------------------------------------------
+
+# 3821;txt;01
+# Recuperação::Recuperação Rápida
+# .
+
+3821;txt;02
+Recuperação
+.
+
+3822;txt;01
+Recuperação Rápida
+.
+
+3823;txt;01
+Antes do conteúdo da caixa de areia ser eliminado, ou quando invocar manualmente a função Recuperação Rápida, as seguintes pastas serão verificadas por conteúdo isolado. Se for encontrado algum ficheiro, ser-lhe-á dada a possibilidade de recuperá-lo fora da caixa de areia.
+.
+
+# 3831;txt;01
+# Recuperação::Recuperação Imediata
+# .
+
+3832;txt;01
+A Recuperação Imediata melhora a Recuperação Rápida invocando automaticamente a função de recuperação assim que os ficheiros são criados.
+.
+
+3833;txt;01
+Ativar Recuperação Imediata
+.
+
+3834;txt;01
+As seguintes pastas e tipos de ficheiro (ou extensões de ficheiro) serão excluídos da Recuperação Imediata.
+.
+
+3835;txt;01
+Adicionar &Tipo
+.
+
+3836;txt;01
+Selecione uma pasta para excluir da Recuperação Imediata.
+.
+
+3837;txt;01
+Insira um tipo de ficheiro (ou extensão de ficheiro) para excluir da Recuperação Imediata
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control:  Sandbox Settings:  Delete
+#----------------------------------------------------------------------------
+
+# 3841;txt;01
+# Eliminar::Invocação
+# .
+
+3841;txt;02
+Eliminar
+.
+
+3842;txt;01
+Invocar Eliminação
+.
+
+3843;txt;01
+O conteúdo desta caixa de areia pode ser automaticamente eliminado quando o último programa terminar e a caixa de areia ficar inativa.
+.
+
+3844;txt;01
+Eliminar automaticamente o conteúdo da caixa de areia
+.
+
+3845;txt;01
+Se algum ficheiro na caixa de areia for elegível para recuperação, a Recuperação Rápida será invocada em vez da eliminação automática.
+.
+
+3846;txt;01
+Como alternativa, esta caixa de areia pode ser protegida contra remoção ou eliminação, manual ou automática, iniciadas pelo Sandboxie.
+.
+
+3847;txt;01
+Nunca remover esta caixa de areia ou eliminar o seu conteúdo
+.
+
+# 3851;txt;01
+# Eliminar::Comando
+# .
+
+3852;txt;01
+Comando de Eliminação
+.
+
+3853;txt;01
+O seguinte comando será usado para eliminar o conteúdo da caixa de areia, quer na eliminação automática quer na eliminação manual. Se deixado em branco, o comando predefinido é RMDIR (remover diretório).
+.
+
+3854;txt;01
+Se alterar esta configuração, inclua o texto "%%SANDBOX%%" (com aspas duplas). Este texto será substituído com a localização da pasta da caixa de areia quando o comando for executado.
+.
+
+3855;txt;01
+Ou selecione um comando de eliminação pré-programado:
+.
+
+3856;txt;01
+O comando de eliminação não especifica "%%SANDBOX%%" (com aspas duplas).
+Tem a certeza de que pretende aceitar este comando de eliminação?
+.
+
+3857;txt;01
+Por favor, procure e selecione o programa - %2
+.
+
+#----------------------------------------------------------------------------
+# Program Groups
+#----------------------------------------------------------------------------
+
+3971;txt;01
+Grupos de Programas
+.
+
+3972;txt;01
+Pode agrupar uma série de programas e dar-lhes um nome de grupo. Os grupos de programas podem ser usados com algumas das configurações que aceitam nomes de programas.
+.
+
+3974;txt;01
+Adic. &Grupo
+.
+
+3975;txt;01
+Insira o nome do novo grupo
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control:  Sandbox Settings:  Forced Folders/Programs/Users
+#----------------------------------------------------------------------------
+
+# 3861;txt;01
+# Inicio de Programa::Pastas Forçadas
+# .
+
+3861;txt;02
+Inicio de Programa
+.
+
+3862;txt;01
+Pastas Forçadas
+.
+
+3863;txt;01
+Se qualquer um programa for iniciado fora da caixa de areia de uma das seguintes pastas, será forçado a executar nesta caixa de areia. Isto não se aplica se o programa for explicitamente iniciado noutra caixa de areia.
+.
+
+3864;txt;01
+Pode forçar a execução automática de CDs/DVDs na caixa de areia, se incluir as letras das unidades de CD-ROM e DVD-ROM na seguinte lista.
+.
+
+3865;txt;01
+Pastas Forçadas têm precedência sobre Programas Forçados.
+.
+
+3866;txt;01
+Selecione uma pasta para adicionar à lista de pastas forçadas.
+.
+
+# 3871;txt;01
+# Inicio de Programa::Programas Forçados
+# .
+
+3872;txt;01
+Programas Forçados
+.
+
+3873;txt;01
+Se qualquer um dos seguintes programas for iniciado fora da caixa de areia, será forçado a executar nesta caixa de areia. Isto não se aplica se o programa for explicitamente iniciado noutra caixa de areia.
+.
+
+# 3961;txt;01
+# Inicio de Programa::Utilizadores Forçados
+# .
+
+# 3962;txt;01
+# Utilizadores Forçados
+# .
+
+# 3963;txt;01
+# Se qualquer uma das seguintes contas de utilizador iniciar sessão neste computador, toda a sessão será forçada a executar nesta caixa de areia.
+# .
+
+# 3964;txt;01
+# Para eliminar o conteúdo de uma caixa de areia associada a uma conta de utilizador forçada, inicie sessão como esse utilizador, e use o Controlo do Sandboxie para eliminar o conteúdo da caixa de areia.
+# .
+
+# 3965;txt;01
+# Utilizadores Forçados têm precedência sobre Programas Forçados e Pastas Forçadas.
+# .
+
+#----------------------------------------------------------------------------
+# Sandboxie Control:  Sandbox Settings:  Linger/Leader Programs
+#----------------------------------------------------------------------------
+
+# 3881;txt;01
+# Término de Programa::Programas Persistentes
+# .
+
+3881;txt;02
+Término de Programa
+.
+
+3882;txt;01
+Programas Persistentes
+.
+
+3883;txt;01
+Os seguintes programas serão automaticamente terminados se ainda estiverem em execução nesta caixa de areia após todos os outros programas terem terminado.
+.
+
+# 3891;txt;01
+# Término de Programa::Programas Principais
+# .
+
+3892;txt;01
+Programas Principais
+.
+
+3893;txt;01
+Os seguintes programas são considerados programas primários nesta caixa de areia. Terminar estes programas fará com que todos os outros programas em execução na caixa de areia terminem.
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control:  Sandbox Settings:  File Migration
+#----------------------------------------------------------------------------
+
+3901;txt;01
+Migração de Ficheiros
+.
+
+3903;txt;01
+Os ficheiros têm de ser migrados (copiados) para a caixa de areia para que possam ser modificados por programas em execução nesta. No entanto, este processo poderá ser longo para ficheiros muito grandes.
+.
+
+3904;txt;01
+O número seguinte determina o tamanho máximo de um ficheiro para que possa ser migrado. Ficheiros de tamanho superior nunca serão migrados para a caixa de areia e não serão modificados por programas em execução na mesma.
+.
+
+3905;txt;01
+Não migrar ficheiros maiores que
+.
+
+3906;txt;01
+kilobytes
+.
+
+3907;txt;01
+Quando um ficheiro é demasiado grande para ser migrado, a mensagem SBIE2102 é emitida, a menos que a opção seguinte esteja selecionada.
+.
+
+3908;txt;01
+Não emitir uma mensagem quando um ficheiro é demasiado grande para migrar
+.
+
+3909;txt;01
+A configuração Migração de Ficheiros limita o tamanho máximo de um ficheiro que pode ser copiado para a caixa de areia.
+
+A configuração está atualmente definida para %3 kilobytes na caixa de areia '%2'.
+
+Clique em Aceitar para ajustar esse limite de tamanho para %4 kilobytes.
+
+Também pode alterar esse limite em Configurações da Caixa de Areia, expandindo a página das configurações de Migração de Ficheiros.
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control:  Sandbox Settings:  Internet/Start Restrictions
+#----------------------------------------------------------------------------
+
+# 3911;txt;01
+# Restrições::Acesso à Internet
+# .
+
+3911;txt;02
+Restrições
+.
+
+3912;txt;01
+Acesso à Internet
+.
+
+3913;txt;01
+Os seguintes programas serão os únicos programas nesta caixa de areia que podem aceder à Internet.
+.
+
+3914;txt;01
+Quando esta funcionalidade está ativada, os programas instalados (ou transferidos) nesta caixa de areia não podem aceder à Internet, mesmo que os nomes coincidam com os especificados acima.
+.
+
+3915;txt;01
+Exibir a mensagem SBIE%2 quando o acesso é negado
+.
+
+3916;txt;01
+&Bloquear Todos os Programas
+.
+
+3917;txt;01
+&Permitir &Todos os Programas
+.
+
+3918;txt;01
+Todos os programas podem aceder à Internet
+.
+
+3919;txt;01
+Nenhum programa pode aceder à Internet
+.
+
+3920;txt;01
+As Restrições de Acesso à Internet estão ativadas na caixa de areia '%2', e impedem que este programa aceda à Internet.
+
+Clique em Aceitar para adicionar o programa '%3' às Restrições de Acesso à Internet na caixa de areia '%2'.
+
+Para gerir as Restrições de Acesso à Internet, abra a janela Configurações da Caixa de Areia e expanda o grupo das configurações de Restrições.
+.
+
+# 3921;txt;01
+# Restrições::Acesso de Início/Execução
+# .
+
+3922;txt;01
+Acesso de Início/Execução
+.
+
+3923;txt;01
+Os seguintes programas serão os únicos programas nesta caixa de areia que podem iniciar e executar.
+.
+
+3924;txt;01
+Quando esta funcionalidade está ativada, os programas instalados (ou transferidos) nesta caixa de areia não podem iniciar ou executar, mesmo que os nomes coincidam com os especificados acima.
+.
+
+3928;txt;01
+Todos os programas podem iniciar ou executar
+.
+
+3930;txt;01
+As Restrições de Acesso de Inicio/Execução estão ativadas na caixa de areia '%2', e impedem que este programa seja iniciado e executado.
+
+Clique em Aceitar para adicionar o programa '%3' às Restrições de Acesso de Inicio/Execução na caixa de areia '%2'.
+
+Para gerir as Restrições de Acesso de Inicio/Execução, abra a janela Configurações da Caixa de Areia e expanda o grupo das configurações de Restrições.
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control:  Sandbox Settings:  Low Level Access / Hardware Access
+#----------------------------------------------------------------------------
+
+# 3931;txt;01
+# Restrições::Acesso de Baixo Nível
+# .
+
+3932;txt;01
+Acesso de Baixo Nível
+.
+
+3933;txt;01
+As seguintes configurações enfraquecem a proteção proporcionada pelo Sandboxie. Não é recomendável ativar qualquer uma ou todas estas configurações.
+.
+
+3934;txt;01
+Permitir que os programas nesta caixa de areia carreguem controladores de modo de núcleo no sistema operativo.
+.
+
+3935;txt;01
+Permitir que os programas nesta caixa de areia carreguem ganchos de aplicações (Win32) noutros programas.
+.
+
+3936;txt;01
+Permitir que os programas nesta caixa de areia simulem a entrada de teclado e rato.
+.
+
+3937;txt;01
+Permitir que os programas nesta caixa de areia alterem o fundo do ambiente de trabalho e outros parâmetros do sistema.
+.
+
+3938;txt;01
+Permitir que os programas nesta caixa de areia façam a gestão da configuração de dispositivos de hardware.
+.
+
+# 3951;txt;01
+# Restrições::Acesso ao Hardware
+# .
+
+3952;txt;01
+Acesso ao Hardware
+.
+
+3953;txt;01
+Permitir que os programas nesta caixa de areia alterem a palavra-passe da conta de utilizador.
+.
+
+3954;txt;01
+Permitir que os programas alterem os parâmetros de rede e da firewall
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control:  Sandbox Settings:  Drop Rights
+#----------------------------------------------------------------------------
+
+# 3941;txt;01
+# Restrições::Redução de Privilégios
+# .
+
+3942;txt;01
+Redução de Privilégios
+.
+
+3943;txt;01
+O Sandboxie tem que desativar apenas alguns direitos de segurança dos programas que supervisiona para garantir o isolamento.
+.
+
+3944;txt;01
+No entanto, se estiver a usar uma conta de Administrador ou de Utilizador Avançado, o Sandboxie pode desativar mais direitos de segurança, à semelhança do que a ferramenta DropMyRights possibilita.
+.
+
+3945;txt;01
+Reduzir os privilégios dos grupos Administradores e Utilizadores Avançados
+.
+
+3946;txt;01
+É recomendável que mantenha esta configuração ativada, como compensação por alguma medida de proteção do Sandboxie que não está disponível nas edições de 64 bits do Windows.
+.
+
+3947;txt;01	
+Para ativar a proteção aprimorada no Windows de 64 bits, por favor, use o comando Proteção Experimental no menu Configurar.
+.
+
+3949;txt;01
+A configuração Redução de Privilégios está ativada na caixa de areia '%2', e impede o uso de privilégios de Administrador.
+
+Clique em Aceitar para desativar a definição Redução de Privilégios na caixa de areia '%2', e permitir o uso de privilégios de Administrador na caixa de areia.
+
+Pode sempre alterar a configuração Redução de Privilégios abrindo a janela Configurações da Caixa de Areia, expandindo o grupo das configurações de Restrições.
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control:  Sandbox Settings:  Resource Access
+#----------------------------------------------------------------------------
+
+4001;txt;01
+Acesso a Recursos::Acesso a Ficheiros::Acesso Direto
+.
+
+4002;txt;01
+Acesso Direto a Ficheiros (OpenFilePath)
+.
+
+4003;txt;01
+Os seguintes ficheiros e pastas estarão diretamente acessíveis aos programas em execução nesta caixa de areia, sem quaisquer efeitos de caixa de areia.
+.
+
+4004;txt;01
+Isto não se aplica a programas que foram instalados ou transferidos na caixa de areia.
+Consulte também: Configuração de Acesso Completo.
+.
+
+4011;txt;01
+Acesso a Recursos::Acesso a Ficheiros::Acesso Completo
+.
+
+4012;txt;01
+Acesso Completo a Ficheiros (OpenPipePath)
+.
+
+4013;txt;01
+Os seguintes ficheiros e pastas estarão diretamente acessíveis aos programas em execução nesta caixa de areia, sem quaisquer efeitos de caixa de areia.
+.
+
+4014;txt;01
+Ao contrário da configuração de Acesso Direto, esta configuração aplica-se a todos os programas, incluindo aqueles que foram instalados ou transferidos na caixa de areia.
+.
+
+4021;txt;01
+Acesso a Recursos::Acesso a Ficheiros::Acesso Bloqueado
+.
+
+4022;txt;01
+Acesso Bloqueado a Ficheiros (ClosedFilePath)
+.
+
+4023;txt;01
+Os seguintes ficheiros e pastas não estarão acessíveis a nenhum programa nesta caixa de areia.
+.
+
+4024;txt;01
+Se um ficheiro ou pasta coincide com qualquer outra configuração de Acesso a Ficheiros, mas também coincide com qualquer configuração de Acesso Bloqueado, esta terá precedência.
+.
+
+4025;txt;01
+A partilha de ficheiros do Windows pode ser usada para contornar as configurações de Acesso Bloqueado a Ficheiros.
+Portanto, uma configuração foi adicionada para bloquear o acesso ao serviço de partilha de ficheiros do Windows.
+.
+
+4031;txt;01
+Acesso a Recursos::Acesso a Ficheiros::Acesso Só de Leitura
+.
+
+4032;txt;01
+Acesso Só de Leitura (ReadFilePath)
+.
+
+4033;txt;01
+Os seguintes ficheiros e pastas não serão modificáveis por programas em execução nesta caixa de areia.
+.
+
+4111;txt;01
+Acesso a Recursos::Acesso a Ficheiros::Acesso Só de Escrita
+.
+
+4112;txt;01
+Acesso a Ficheiros Só de Escrita (WriteFilePath)
+.
+
+4113;txt;01
+As seguintes pastas aparecerão vazias aos programas em execução nesta caixa de areia, mas estes podem criar novos ficheiros dentro das mesmas, na caixa de areia.
+.
+
+4041;txt;01
+Acesso a Recursos::Acesso ao Registo::Acesso Direto
+.
+
+4042;txt;01
+Acesso Direto ao Registo (OpenKeyPath)
+.
+
+4043;txt;01
+As seguintes chaves de registo estarão diretamente acessíveis aos programas em execução nesta caixa de areia, sem quaisquer efeitos de caixa de areia.
+.
+
+4044;txt;01
+Isto não se aplica a programas que foram instalados ou transferidos na caixa de areia.
+.
+
+4051;txt;01
+Acesso a Recursos::Acesso ao Registo::Acesso Bloqueado
+.
+
+4052;txt;01
+Acesso Bloqueado ao Registo (ClosedKeyPath)
+.
+
+4053;txt;01
+As seguintes chaves de registo não estarão acessíveis a nenhum programa em execução nesta caixa de areia.
+.
+
+4054;txt;01
+Se uma chave de registo coincide com qualquer outra configuração de Acesso ao Registo, mas também coincide com qualquer configuração de Acesso Bloqueado, esta terá precedência.
+.
+
+4061;txt;01
+Acesso a Recursos::Acesso ao Registo::Acesso Só de Leitura
+.
+
+4062;txt;01
+Acesso ao Registo Só de Leitura (ReadKeyPath)
+.
+
+4063;txt;01
+As seguintes chaves de registo não serão modificáveis por programas em execução nesta caixa de areia.
+.
+
+4121;txt;01
+Acesso a Recursos::Acesso ao Registo::Acesso Só de Escrita
+.
+
+4122;txt;01
+Acesso ao Registo Só de Escrita (WriteKeyPath)
+.
+
+4123;txt;01
+As seguintes chaves de registo aparecerão vazias aos programas em execução nesta caixa de areia, mas estes podem adicionar dados às mesmas, na caixa de areia.
+.
+
+4071;txt;01
+Acesso a Recursos::Acesso a IPC::Acesso Direto
+.
+
+4072;txt;01
+Acesso Direto a IPC (OpenIpcPath)
+.
+
+4073;txt;01
+Os seguintes objetos NT IPC estarão diretamente acessíveis aos programas em execução nesta caixa de areia, sem quaisquer efeitos de caixa de areia.
+.
+
+4074;txt;01
+Esta configuração aplica-se a todos os programas, incluindo aqueles que foram instalados ou transferidos na caixa de areia.
+.
+
+4081;txt;01
+Acesso a Recursos::Acesso a IPC::Acesso Bloqueado
+.
+
+4082;txt;01
+Acesso Bloqueado a IPC (ClosedIpcPath)
+.
+
+4083;txt;01
+Os seguintes objetos NT IPC não estarão acessíveis a nenhum programa em execução nesta caixa de areia.
+.
+
+4084;txt;01
+Se um objeto de NT IPC coincide com qualquer outra configuração de Acesso ao IPC, mas também coincide com qualquer configuração de Acesso Aloqueado, a configuração de Acesso Bloqueado terá precedência.
+.
+
+4091;txt;01
+Acesso a Recursos::Acesso a Janelas
+.
+
+4092;txt;01
+Acesso a Janelas (OpenWinClass)
+.
+
+4093;txt;01
+Os programas em execução na caixa de areia não podem comunicar com janelas pertencentes a programas em execução fora da caixa de areia, a não ser que a janela tenha sido criada com uma das seguintes classes de janela.
+.
+
+4101;txt;01
+Acesso a Recursos::Acesso COM
+.
+
+4102;txt;01
+Acesso COM (OpenClsid)
+.
+
+4103;txt;01
+Os programas em execução na caixa de areia não podem comunicar com os objetos COM pertencentes a programas em execução fora da caixa de areia, a não ser que a ID de classe COM coincida com uma das seguintes IDs de classe.
+.
+
+#----------------------------------------------------------------------------
+# Applications - General
+#----------------------------------------------------------------------------
+
+4201;txt;01
+Aplicações
+.
+
+4202;txt;01
+&Exibir Código
+.
+
+4203;txt;01
+Abrir Pág. da &Internet
+.
+
+4204;txt;01
+Criar &Nova
+.
+
+4205;txt;01
+Esta configuração de aplicação não inclui um endereço da Internet.
+.
+
+4206;txt;01
+Vários
+.
+
+4207;txt;01
+Melhore o uso do Sandboxie com outras aplicações selecionando-as na lista abaixo.
+.
+
+# 4208;txt;01
+# Aplicações::Pastas
+# .
+
+4209;txt;01
+Pastas
+.
+
+4210;txt;01
+Configure as localizações de pasta usadas por outras aplicações.
+.
+
+4211;txt;01
+Selecione pasta para
+.
+
+4212;txt;01
+Localização predefinida:
+.
+
+4213;txt;01
+Localização alternativa:
+.
+
+4214;txt;02
+Uma localização alternativa para '%2'
+deverá conter o seguinte ficheiro:
+
+%3
+
+A localização selecionada não contém este ficheiro.
+
+Por favor, selecione uma pasta que contenha este ficheiro.
+.
+
+4215;txt;01
+Selecione a pasta usada por %2.
+.
+
+4216;txt;01	
+As configurações abaixo compõem a configuração da aplicação '%2'.
+.
+
+4217;txt;01
+Insira ou copie as definições, e depois clique em Aceitar para criar uma nova configuração local de aplicação.
+.
+
+4218;txt;01
+Local
+.
+
+4219;txt;01
+Configurações locais de aplicação (não oficial)
+.
+
+4220;txt;01
+O código inserido contém um ou mais erros.
+Não é possível criar a configuração da aplicação.
+.
+
+4221;txt;01
+Para especificar localizações de pastas para as suas aplicações, consulte a página Pastas.
+.
+
+4222;txt;02
+Esta definição não pode ser editada ou removida porque faz parte
+da configuração de uma aplicação:
+
+%2
+
+Para remover a configuração da aplicação da caixa de areia,
+consulte as páginas de Aplicações na janela Configurações da Caixa de Areia.
+.
+
+4223;txt;01
+A configuração local da aplicação '%2' foi removida de todas as caixas de areia.
+Pretende eliminar por completo a configuração desta aplicação?
+.
+
+4224;txt;01
+PDF/Impressão
+.
+
+4226;txt;02
+Segurança/Privacidade
+.
+
+4228;txt;01
+Utilitários do Ambiente de Trabalho
+.
+
+4230;txt;01
+Gestores de Transferências
+.
+
+4288;txt;01
+Todas as Aplicações
+.
+
+4289;txt;01
+Lista de todas as configurações de aplicação, ordenada por ordem alfabética. A lista não inclui as configurações locais (não oficial) de aplicação.
+.
+
+4291;txt;01
+Exclusões predefinidas para Recuperação Imediata
+.
+
+4292;txt;01
+Lista predefinida de Programas Persistentes
+.
+
+4293;txt;01
+Lista predefinida de portas TCP/IP bloqueadas
+.
+
+4294;txt;01
+Permitir que os programas atualizem as listas de atalhos na barra de tarefas do Windows
+.
+
+#----------------------------------------------------------------------------
+# Applications - Software Compatibility
+#----------------------------------------------------------------------------
+
+4251;txt;01
+Compatibilidade de Programas
+.
+
+4252;txt;01
+O Sandboxie detetou os seguintes programas no seu sistema.
+.
+
+4253;txt;01
+Clique em Aceitar para aplicar as definições de configuração que melhorarão a compatibilidade com estes programas.
+.
+
+4254;txt;01
+Essas definições de configuração terão efeito em todas as caixas de areia existentes e em qualquer nova caixa de areia.
+.
+
+4255;txt;01
+No futuro, não verificar a compatibilidade de programas
+.
+
+4256;txt;01
+A configuração desta aplicação não pode ser removida porque está aplicada em todas as caixas de areia.
+Para remover a configuração desta aplicação, use a ferramenta Compatibilidade de Programas no menu Configurar.
+.
+
+4257;txt;01
+Remover Configurações &Antigas
+.
+
+4258;txt;01
+As seguintes configurações de compatibilidade não estão mais em uso:
+
+%2
+
+Clique em Aceitar para descartar estas configurações de compatibilidade.
+.
+
+4451;txt;01
+O Sandboxie detetou os seguintes programas em conflito 
+no seu sistema. Estes programas podem 
+interferir com o funcionamento normal do Sandboxie.
+
+%2
+
+Por favor, consulte a página Conflitos Conhecidos no sítio da Internet do Sandboxie 
+para mais informações e soluções.
+
+Pretende abrir a página da Internet Conflitos Conhecidos agora?
+.
+
+4452;txt;01
+&Conflitos Conhecidos
+.
+
+#----------------------------------------------------------------------------
+# Lock Configuration
+#----------------------------------------------------------------------------
+
+4261;txt;01
+Bloquear a Configuração
+.
+
+4262;txt;01
+O Sandboxie pode proteger a configuração global e as Configurações da Caixa de Areia contra alterações não autorizadas. Selecione os modos de proteção para ativar ou desativar.
+.
+
+4263;txt;01
+Somente contas de &Administrador podem efetuar alterações
+.
+
+4264;txt;01
+A &palavra-passe tem de ser inserida para efetuar alterações
+.
+
+4265;txt;01
+&Esquecer a palavra-passe quando a janela do Controlo do Sandboxie fica oculta
+.
+
+4266;txt;01
+&Alterar Palavra-passe
+.
+
+4267;txt;01
+Somente contas de Administrador podem usar o comando Desativar Programas Forçados
+.
+
+4269;txt;01
+Por favor, considere ler a página de documentação do Sandboxie relativa 
+à proteção da configuração. Pretende abrir esta página agora?
+.
+
+4271;txt;01
+A configuração do Sandboxie está protegida por uma palavra-passe. Por favor, insira a palavra-passe agora.
+.
+
+4272;txt;01
+Insira uma nova palavra-passe para proteger a configuração do Sandboxie.
+.
+
+4273;txt;01
+Insira novamente a palavra-passe para confirmá-la.
+.
+
+4274;txt;01
+A palavra-passe inserida está errada. Tentar novamente?
+.
+
+#----------------------------------------------------------------------------
+# Program Selector
+#----------------------------------------------------------------------------
+
+4281;txt;01
+Selecionar um nome de programa
+.
+
+4282;txt;01
+Selecionar um nome de programa ou um grupo de programas
+.
+
+4283;txt;01
+Programas que foram recentemente iniciados
+.
+
+4284;txt;01
+Programas que aparecem nas Configurações da Caixa de Areia
+.
+
+4285;txt;01
+Grupos de Programas
+.
+
+4286;txt;01
+Selecionar ou &Inserir um programa:
+.
+
+4287;txt;01
+Abrir / Selecionar &Ficheiro
+.
+
+#----------------------------------------------------------------------------
+# Applications - Accessibility
+#----------------------------------------------------------------------------
+
+# 4301;txt;01
+# Aplicações::Acessibilidade
+# .
+
+4302;txt;01
+Acessibilidade
+.
+
+4303;txt;01
+As seguintes configurações permitem o uso do Sandboxie em combinação com programas de acessibilidade. Por favor, note que algumas medidas de proteção do Sandboxie serão necessariamente perdidas quando estas configurações estão em efeito.
+.
+
+4304;txt;01
+Para compensar a proteção perdida, por favor consulte a página de configurações de Redução de Privilégios no grupo das configurações de Restrições.
+.
+
+4305;txt;03
+Leitores de Ecrã:  %2
+.
+
+#----------------------------------------------------------------------------
+# Applications - Web Browser and Email Reader
+#----------------------------------------------------------------------------
+
+4321;txt;01
+Navegador da Internet
+.
+
+4322;txt;01
+As seguintes exclusões permitem que os navegadores da Internet em execução nesta caixa de areia efetuem alterações fora desta, prescindindo de uma pequena medida de segurança e privacidade para maior comodidade.
+.
+
+4323;txt;01
+Forçar a execução do %2 nesta Caixa de Areia
+.
+
+4324;txt;02
+Permitir o acesso direto aos dados de sincronização do %2
+.
+
+4325;txt;02
+Permitir o acesso direto aos canais de informação RSS do %2
+.
+
+4326;txt;02
+Permitir o acesso direto aos favoritos do %2
+.
+
+4327;txt;01
+Adicionar os favoritos do Internet Explorer às pastas de Recuperação Rápida
+.
+
+4328;txt;01
+Permitir o acesso direto aos cookies do %2
+.
+
+4329;txt;01
+Guardar fora da caixa de areia: Histórico de sequências de carateres de pesquisa e comandos invocados
+.
+
+4330;txt;01
+Guardar fora da caixa de areia: Informações da conta do Hotmail e do Messenger
+.
+
+4331;txt;01
+Permitir o acesso direto às palavras-passe do %2
+.
+
+4336;txt;02
+Permitir o acesso direto à base de dados dos favoritos e histórico do %2
+.
+
+4337;txt;02
+Permitir o acesso direto à base de dados de phishing do %2
+.
+
+4338;txt;02
+Permitir o acesso direto a toda a pasta do perfil do %2
+.
+
+4339;txt;02
+Permitir o acesso direto às preferências do %2
+.
+
+4340;txt;01
+Permitir o acesso direto à gestão de sessão do %2
+.
+
+4356;txt;02
+Permitir o acesso direto aos marcadores do %2
+.
+
+4357;txt;02
+Outros
+.
+
+4358;txt;02
+Complementos
+.
+
+4391;txt;01
+Cliente de Correio Eletrónico
+.
+
+4392;txt;01
+As seguintes exclusões permitem que os clientes de correio eletrónico em execução nesta caixa de areia acedam a ficheiros da caixa de correio fora da caixa de areia.
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control:  Sandbox Settings:  User Accounts
+#----------------------------------------------------------------------------
+
+5101;txt;01
+Contas de Utilizador
+.
+
+5102;txt;01
+Adicione contas e grupos de utilizadores na lista abaixo para limitar o uso da caixa de areia a apenas essas contas. Se a lista estiver vazia, a caixa de areia pode ser usada por todas as contas.
+.
+
+5103;txt;01
+Nota: As configurações Programas Forçados e Pastas Forçadas de uma caixa de areia não se aplicam a contas de utilizadores que não possam usar a caixa de areia.
+.
+
+# 5105;txt;01
+# Adicionar &Utilizador
+# .
+
+5107;txt;01
+A sua conta de utilizador está agora impedida de usar esta caixa de areia, e
+a caixa de areia não será mais exibida na janela principal.
+
+Para poder ver e usar a caixa de areia, use o comando "Revelar Caixa de Areia Oculta"
+no menu Caixa de Areia
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control:  Reveal Hidden Sandbox
+#----------------------------------------------------------------------------
+
+5122;txt;01
+A sua conta de utilizador está impedida de usar qualquer uma das caixas de areia listadas abaixo.
+.
+
+5123;txt;01
+No momento, as seguintes contas de utilizadores estão autorizadas a usar a caixa de areia selecionada.
+.
+
+5124;txt;01
+Clique em Aceitar para adicionar a conta de utilizador '%2' à caixa de areia e ter a caixa de areia visível na janela principal.
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control:  Set Layout and Groups
+#----------------------------------------------------------------------------
+
+5142;txt;01
+Organizar as caixas de areia em grupos e personalizar a ordem em que aparecem. Clique com o botão direito do rato nas caixas para gerir a posição.
+.
+
+5143;txt;01
+(Topo)
+.
+
+5145;txt;01
+&Restaurar Esquema Predefinido
+.
+
+5146;txt;01
+Inserir &Grupo
+.
+
+5147;txt;01
+&Renomear
+.
+
+5148;txt;01
+&Eliminar
+.
+
+5151;txt;01
+&Mover
+.
+
+5152;txt;01
+&Mover para Cima
+.
+
+5153;txt;01
+&Move para Baixo
+.
+
+5154;txt;01
+&Mover Para
+.
+
+#----------------------------------------------------------------------------
+# Getting Started Wizard
+#----------------------------------------------------------------------------
+
+7850;txt;01
+Tutorial de Introdução - Sandboxie
+.
+
+7851;txt;01
+Tutorial de Introdução ao Sandboxie
+.
+
+7852;txt;01
+Bem-vindo ao Sandboxie!
+
+O Sandboxie executa os seus programas num espaço isolado, impedindo-os de fazer alterações permanentes a outros programas e dados no seu computador.
+
+Este tutorial explica resumidamente os princípios básicos de utilização do Sandboxie.
+.
+
+7853;txt;01
+Nota: Este tutorial foi escrito tendo como base a caixa de areia padrão, DefaultBox.
+.
+
+7854;txt;01
+Como Funciona o Sandboxie (Ilustração)
+.
+
+7855;txt;01
+Inicie o seu navegador da Internet sob o Sandboxie
+.
+
+7856;txt;01
+Por favor, encontre o atalho no seu ambiente de trabalho e clique duas vezes para executar o navegador da Internet na caixa de areia padrão, DefaultBox.
+.
+
+7857;txt;01
+Clique aqui para ocultar esta janela e mostrar o ambiente de trabalho
+.
+
+7858;txt;01
+O navegador encontra-se agora em execução dentro da caixa de areia
+.
+
+7859;txt;01
+Os programas na caixa de areia podem somente modificar o conteúdo da caixa de areia.
+
+Quando guarda ou transfere ficheiros, estes permanecem na caixa de areia. Se guardar um ficheiro no Ambiente de Trabalho, em Documentos ou em Transferências, o Sandboxie oferece-lhe a possibilidade de os mover para fora da caixa de areia.
+
+Experimente agora: Transfira um ficheiro com o seu navegador para o Ambiente de Trabalho (na caixa de areia), e recupere o ficheiro para o seu Ambiente de Trabalho real.
+.
+
+7860;txt;01
+Elimine o conteúdo da sua caixa de areia
+.
+
+7861;txt;01
+Pense na caixa de areia com sendo um pedaço de papel transparente colocado entre o programa e o computador. Eliminar o conteúdo da caixa de areia é como descartar um pedaço de papel utilizado, substituindo-o por um limpo.
+.
+
+7862;txt;01
+Experimente agora: Elimine o conteúdo da caixa de areia DefaultBox. Por favor, encontre o ícone amarelo do Sandboxie em destaque no canto do seu ecrã, e clique:
+.
+
+7863;txt;01
+Clique com o botão direito do rato no ícone amarelo do Sandboxie,
+
+e depois selecione DefaultBox, e invoque Eliminar o Conteúdo.
+.
+
+7864;txt;01
+Pronto a utilizar o Sandboxie!
+.
+
+7865;txt;01
+Obrigado por ter disponibilizado tempo para acompanhar este tutorial. Pode visitar a página do Sandboxie para mais tutoriais e dicas.
+
+As predefinições do Sandboxie fornecem proteção total, mas poderá querer rever os comandos de configuração da caixa de areia no menu Caixa de Areia, na janela Controlo do Sandboxie.
+.
+
+7866;txt;01
+Num sistema Windows de 64 bits, recomenda-se que ative a Proteção Experimental. Veja o menu Configurar no Controlo do Sandboxie.
+.
+
+#----------------------------------------------------------------------------
+# License Manager
+#----------------------------------------------------------------------------
+
+7901;txt;01
+Gestor de Licenças do Sandboxie
+.
+
+7902;txt;01
+Código de Sistema %2
+.
+
+7903;txt;01
+No futuro, ativar a licença sem perguntar
+.
+
+#----------------------------------------------------------------------------
+
+7921;txt;01
+O Sandboxie está registado e a licença ativada.
+.
+
+7922;txt;01
+O Sandboxie está registado, mas a licença deve ser reativada agora.
+.
+
+# was 3603;txt;01
+7923;txt;01
+Cópia não registada. Registe-a hoje!
+.
+
+7924;txt;01
+A licença do Sandboxie terá de ser reativada dentro de %2 dias.
+.
+
+7925;txt;01
+A licença do Sandboxie foi ativada.
+.
+
+7926;txt;01
+A data de expiração da Chave de Produto é 2%.
+.
+
+7927;txt;01
+A sua Chave de Produto não tem uma data de expiração.
+.
+
+#----------------------------------------------------------------------------
+
+7931;txt;01
+A sua cópia do Sandboxie está registada com uma Chave de Registo obsoleta.
+.
+
+7932;txt;01
+Por favor, permita que o Gestor de Licenças aceda ao Servidor de Licenças e atualize a sua Chave de Registo antiga para uma nova Chave de Produto. Não será cobrada taxa de atualização alguma.
+.
+
+7933;txt;01
+A sua Chave de Registo não é reconhecida pelo Servidor de Licenças.
+.
+
+7934;txt;01
+Se tem estado a usar uma Chave de Registo legítima, pela qual pagou, ou que lhe foi oferecida como presente, ou como parte de uma promoção, então por favor, envie um correio eletrónico para:
+.
+
+7935;txt;01
+A sua nova Chave de Produto é:
+.
+
+7936;txt;01
+Por favor, certifique-se que guarda esta Chave de Produto num local seguro para referência futura. Use o botão abaixo para copiar a Chave de Produto para a área de transferência, da qual pode colá-la num documento e imprimi-la.
+.
+
+7937;txt;01
+&Atualizar Chave de Registo para Chave de Produto
+.
+
+#----------------------------------------------------------------------------
+
+# was 3612;txt;01
+7941;txt;01
+O registo do Sandboxie é efetuado através de um sistema de pagamento de terceiros. Dê inicio ao processo de registo, visitando a página da Internet do Sandboxie na hiperligação abaixo.
+.
+
+7942;txt;01
+Para ativar a sua licença do Sandboxie, insira a Chave de Produto que aparece no seu recibo de pagamento e, em seguida, clique no botão para ativar a sua licença.
+.
+
+7943;txt;01
+Pretende inserir uma nova Chave de Produto agora?
+.
+
+7944;txt;01
+&Ativar Licença
+.
+
+# was first line of 3617;txt;01
+7945;txt;01
+A sua cópia do Sandboxie está agora registada.
+.
+
+# was second line of 3617;txt;01
+7946;txt;01
+Obrigado por apoiar o Sandboxie!
+.
+
+#----------------------------------------------------------------------------
+
+7951;txt;01
+Pretende ativar a licença agora?
+.
+
+7952;txt;01
+Por favor, visite o sítio da Internet do Sandboxie na hiperligação abaixo para solicitar uma nova Chave de Produto.
+.
+
+7961;txt;01
+Limpar as &Informações de Licença
+.
+
+7962;txt;01
+Tem a certeza de que pretende limpar as informações de licença do Sandboxie?
+
+Pode ativar a sua licença a qualquer momento inserindo uma Chave de Produto.
+.
+
+#----------------------------------------------------------------------------
+
+7971;txt;01
+Esta Chave de Produto não é válida.
+.
+
+7972;txt;01
+Este Código de Sistema não é válido.
+.
+
+7973;txt;01
+Esta Chave de Ativação não é válida.  [%2]
+.
+
+7974;txt;01
+Resposta inválida do Servidor de Licenças.
+.
+
+7975;txt;01
+Falha na ativação do produto:
+.
+
+7976;txt;01
+Pretende experimentar novamente agora?
+.
+
+7977;txt;01
+Se precisar de ativar o Sandboxie num computador que não tem acesso à Internet,
+por favor consulte as perguntas mais frequentes (FAQ) de Licenciamento do Sandboxie 
+para obter informações sobre a Ativação Fora de Linha.
+.
+
+7978;txt;01
+A data atual (%2) está adiantada em relação à data enviada pelo Servidor de Licenças (%3).
+.
+
+7982;txt;01
+O Servidor de Licenças não especificou o motivo da falha de ativação.
+.
+
+7983;txt;01
+A Chave do Produto não é reconhecida pelo Servidor de Licenças.
+.
+
+7984;txt;01
+A Chave do Produto não pode ser usada para além da sua data de validade de 2%.
+.
+
+7985;txt;01
+A Chave do Produto foi ativada em muitos computadores.
+.
+
+7986;txt;01	
+A Chave do Produto foi cancelada porque foi tornada pública na Internet.
+.
+
+7987;txt;01
+A Chave do Produto foi cancelada porque a ordem foi reembolsada.
+.
+
+#----------------------------------------------------------------------------
+# SandboxieInstall
+#----------------------------------------------------------------------------
+
+8001;ins;01
+Selecionar o Tipo de Instalação
+.
+
+8002;ins;01
+Selecione o modo Sobrescrever ou Desinstalar.
+.
+
+8003;ins;01
+Iniciar
+.
+
+8004;ins;01
+Uma instalação do Sandboxie foi encontrada na seguinte pasta:
+.
+
+8005;ins;01
+Por favor, selecione como proceder:
+.
+
+8006;ins;01
+Sobrescrever (atualizar) a instalação existente
+.
+
+8007;ins;01
+Desinstalar (remover) a instalação e configurações existentes
+.
+
+8008;ins;01
+Clique em Iniciar quando estiver pronto para continuar.
+.
+
+8009;ins;01
+Antes de desinstalar, use o Controlo do Sandboxie para eliminar o conteúdo das caixas de areia.
+.
+
+8010;ins;01
+Instalação do Controlador
+.
+
+8011;ins;01
+Por favor, revise as informações abaixo.
+.
+
+8012;ins;01
+Clique em Seguinte para instalar e ativar o controlador de nível de sistema do Sandboxie. Este controlador é o núcleo da aplicação Sandboxie.
+.
+
+8013;ins;01
+Pode ser necessário desativar temporariamente qualquer ferramenta de proteção do sistema que possa ter em execução, e que impeça a instalação de um controlador de nível de sistema.
+.
+
+8014;ins;02
+Se este passo falhar e o computador bloquear ou reiniciar, por favor, reinicie o computador no Modo de Segurança, e execute este programa de instalação para remover o Sandboxie.
+.
+
+8015;ins;01
+O controlador é instalado com êxito na maioria dos sistemas.
+.
+
+8016;ins;01
+Por favor aguarde enquanto Sandboxie é desinstalado.
+.
+
+8021;ins;01
+Executar qualquer programa numa Caixa de Areia.lnk
+.
+
+8022;ins;01
+Executar qualquer programa sob a supervisão do Sandboxie
+.
+
+8023;ins;01
+Menu Iniciar do Sandboxie.lnk
+.
+
+8024;ins;01
+Selecione um programa do Menu Iniciar para executar sob a supervisão do Sandboxie
+.
+
+8025;ins;01
+Executar o navegador da Internet numa Caixa de Areia.lnk
+.
+
+8026;ins;01
+Executar o navegador da Internet predefinido sob a supervisão do Sandboxie
+.
+
+8027;ins;01
+Executar o Explorador do Windows numa Caixa de Areia.lnk
+.
+
+8028;ins;01
+Explorar o ambiente de trabalho local e o computador sob a supervisão do Sandboxie
+.
+
+8029;ins;01
+Controlo do Sandboxie.lnk
+.
+
+8030;ins;01
+Abrir o painel de controlo do Sandboxie
+.
+
+8031;ins;01
+Desinstalar o Sandboxie.lnk
+.
+
+8032;ins;01
+Desinstalar o Sandboxie
+.
+
+8033;ins;01
+=copy:3698
+.
+
+8041;ins;01
+O Sandboxie só pode ser instalado nas seguintes versões do Microsoft Windows:
+.
+
+8042;ins;01
+É necessário instalar o Sandboxie a partir de uma conta de utilizador
+que tenha privilégios de Administrador no sistema.
+
+Se o Controlo de Conta do Utilizador (UAC) do Windows estiver ativado,
+certifique-se que o pacote de instalação é iniciado usando o comando 
+Executar como administrador.
+.
+
+8043;ins;01
+A versão de 32 bits do Sandboxie não pode ser instalada num sistema operativo de 64 bits.
+.
+
+8044;ins;01
+A versão de 64 bits do Sandboxie não pode ser instalada num sistema operativo de 32 bits.
+.
+
+8051;ins;01
+O programa Controlo do Sandboxie está em execução.
+
+Clique em Aceitar para fechá-lo e, em seguida, continuar a instalação.
+
+Clique em Cancelar para abortar a instalação.
+.
+
+8052;ins;01
+Não é possível criar ou atualizar os ficheiros de programa do Sandboxie.
+
+Por favor, certifique-se que o Controlo do Sandboxie não está em execução,
+e que nenhum programa esteja em execução na caixa de areia.
+
+Em seguida, clique em Aceitar para tentar novamente a instalação.
+
+Caso contrário, clique em Cancelar para abortar a instalação.
+.
+
+8053;ins;01
+*** KmdUtil falhou. A instalação ou desinstalação pode não ser concluída com êxito. ***
+.
+
+8054;ins;01
+Pretende manter o ficheiro de configuração Sandboxie.ini?
+
+Selecione Sim para manter as definições de configuração no ficheiro Sandboxie.ini.
+
+Selecione NÃO para eliminar o ficheiro Sandboxie.ini e perder as suas definições de configuração.
+.
+
+8055;ins;01
+Existe uma atualização online do Templates.ini e/ou das traduções para esta versão do sandboxie disponível, você deseja instalá-lo?
+.
+
+#----------------------------------------------------------------------------
+# KmdUtil
+#----------------------------------------------------------------------------
+
+8101;txt;01
+Não é possível instalar o controlador neste momento.
+
+Por favor, reinicie o computador e, em seguida, 
+execute novamente o procedimento de instalação.
+
+A função com falha é: %2
+.
+
+8102;txt;01
+Não é possível parar o serviço neste momento.
+O serviço '%2' está ocupado.
+
+Por favor, clique em Aceitar para tentar novamente.
+.
+
+8103;txt;01
+Esta é a primeira de três tentativas.
+.
+
+8104;txt;01
+Esta é a segunda de três tentativas.
+.
+
+8105;txt;01
+Esta é a terceira e última tentativa.
+.
+
+8106;txt;02
+Os seguintes programas devem ser fechados antes que a instalação possa continuar.
+Clique em Aceitar para fechar esses programas e continuar. Clique em Cancelar para abortar a instalação.
+.

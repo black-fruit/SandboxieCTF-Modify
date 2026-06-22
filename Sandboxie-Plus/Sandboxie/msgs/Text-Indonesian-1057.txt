@@ -1,0 +1,3718 @@
+#----------------------------------------------------------------------------
+# SbieDrv
+#
+# Initialization errors issued to the System event Log
+#----------------------------------------------------------------------------
+
+1101;evt;inf;01
+SBIE1101 Pengandar Sandboxie (SbieDrv) versi %2 diinisialiasi
+.
+
+1102;evt;inf;01
+SBIE1102 Pengandar Sandboxie (SbieDrv) tak dimuat
+.
+
+1103;evt;err;01
+SBIE1103 Pengandar Sandboxie (SbieDrv) versi %2 gagal dimulai
+.
+
+1104;evt;err;01
+SBIE1104 Tak cukup sumber daya sistem untuk merampungkan inisialisasi
+.
+
+1105;evt;err;01
+SBIE1105 Versi sistem operasi tak dikenal:  %2
+.
+
+1106;evt;err;01
+SBIE1106 galat %2, rincian %3
+.
+
+# 1107;evt;err;01
+# SBIE1107 Tak dapat mengakses akun LocalSystem  %2
+# .
+
+1108;evt;err;01
+SBIE1108 Prosedur %2 tak bisa dianalisis
+.
+
+1109;evt;err;01
+SBIE1109 Informasi lisensi tak sah:  %2
+.
+
+1110;evt;err;01
+SBIE1110 Tak dapat memotong tipe %3, galat %2
+.
+
+1111;evt;err;01
+SBIE1111 DLL sistem %3 tak bisa dimuat %2
+.
+
+1112;evt;err;01
+SBIE1112 Prosedur %2 tak bisa ditemukan
+.
+
+1113;evt;err;01
+SBIE1113 Tak dapat menemukan layanan sistem Nt, penyebab %2
+.
+
+1114;evt;err;01
+SBIE1114 Tak dapat menemukan layanan sistem Zw, penyebab %2
+.
+
+1116;evt;err;01
+SBIE1116 Pengandar gagal mendaftarkan rutin wewara proses %2
+.
+
+1119;evt;err;01
+SBIE1119 Tak dapat membuat peranti API %2
+.
+
+1120;evt;err;01
+SBIE1120 Tak cocok pada layanan %2
+.
+
+1121;evt;err;01
+SBIE1121 Kait gagal untuk layanan %2
+.
+
+1122;evt;err;01
+SBIE1122 Galat:  %2
+.
+
+#----------------------------------------------------------------------------
+# SbieDrv
+#
+# Error Messages to both Event and Popup Logs
+#----------------------------------------------------------------------------
+
+1151;evt;pop;err;01
+SBIE1151 Tak dapat menangani instruksi %2
+.
+
+1152;evt;pop;err;01
+SBIE1152 Alokasi trampolin gagal %2
+.
+
+1153;evt;pop;err;01
+SBIE1153 Inisialisasi Sandboxie gagal. Tutup semua program lalu instal ulang Sandboxie ATAU mulai ulang komputer Anda.
+.
+
+#----------------------------------------------------------------------------
+# SbieDrv
+#
+# Error Messages to Popup Log
+#----------------------------------------------------------------------------
+
+1201;pop;err;01
+SBIE1201 Tak cukup memori
+.
+
+1202;pop;err;01
+SBIE1202 Tak dapat memutakhirkan informasi lisensi:  %2
+.
+
+1203;pop;err;01
+SBIE1203 Tak dapat membangun senarai jalur (galat di %2)
+.
+
+1204;pop;err;01
+SBIE1204 Pembuatan sandbox gagal untuk %3 %2
+.
+
+1211;pop;err;01
+SBIE1211 Tak dapat memulai sandbox untuk proses %2
+.
+
+1212;pop;err;01
+SBIE1212 Tak dapat membuat direktori '%3' %2
+.
+
+1213;pop;err;01
+SBIE1213 Tak dapat membuat direktori obyek '%3' %2
+.
+
+1214;pop;err;01
+SBIE1214 Tak dapat menyuntikkan SbieDll %2
+.
+
+1215;pop;err;01
+SBIE1215 Tak dapat mencapai jalur untuk memproses citra %2
+.
+
+1216;pop;err;01
+SBIE1216 Tak dapat menanyakan ID keamanan %2
+.
+
+# 1217;pop;err;01
+# SBIE1217 Tak dapat menemukan proses induk
+# .
+
+# 1221;pop;err;01
+# SBIE1221 Tak dapat membuat tugas:  %2
+# .
+
+1222;pop;err;01
+SBIE1222 Tak dapat membatasi token:  %2
+.
+
+1223;pop;err;01
+SBIE1223 Tak dapat mengganti token:  %2
+.
+
+1224;pop;err;01
+SBIE1224 Tak dapat menanyakan token:  %2
+.
+
+1241;pop;err;01
+SBIE1241 Tak dapat memasang penampung registri:  %2
+.
+
+1242;pop;err;01
+SBIE1242 Pantau luapan penyangga
+.
+
+#----------------------------------------------------------------------------
+# SbieDrv
+#
+# Informational Messages to Popup Log
+#----------------------------------------------------------------------------
+
+1301;pop;inf;01
+SBIE1301 Program '%2' diluncurkan di luar sandbox
+.
+
+# 1302;pop;inf;01
+# SBIE1302 Sandbox '%2' tak ditentukan atau tak difungsikan
+# .
+
+1303;pop;inf;01
+SBIE1303 Hanya satu sandbox dapat aktif pada satu waktu yang bersamaan
+.
+
+1304;pop;inf;01
+SBIE1304 Simulasi papan ketik atau masukan tetikus terhalang oleh proses '%2'
+.
+
+1306;pop;inf;01
+SBIE1306 Pengandar Sandboxie (SbieDrv) tak bisa dimuat sekarang
+.
+
+1307;pop;inf;02
+SBIE1307 Program tak dapat mengakses Internet akibat pembatasan - %2
+.
+
+1308;pop;inf;02
+SBIE1308 Program tak dapat mulai akibat pembatasan - %2
+.
+
+1309;pop;inf;01
+SBIE1309 Upaya dicegah untuk mengubah sandi lewat akun
+.
+
+1310;pop;inf;01
+SBIE1310 Fitur tambahan dilumpuhkan hingga lisensi diaktifkan ulang
+.
+
+1311;pop;inf;01
+SBIE1311 Permintaan untuk mengubah kertas dinding destop oleh proses '%2' ditolak
+.
+
+1312;pop;inf;01
+SBIE1312 Permintaan untuk memulai sebuah program DOS 16-bit dalam sandbox ditolak
+.
+
+1313;pop;inf;01
+SBIE1313 Akses disket langsung oleh proses '%2' ditolak
+.
+
+1314;pop;inf;01
+SBIE1314 Permintaan untuk mengubah penataan jaringan/tembok api oleh proses '%2' ditolak
+.
+
+1315;pop;inf;01
+SBIE1315 Barangkali disebabkan oleh konflik dengan perangkat lunak:  %2
+.
+
+#----------------------------------------------------------------------------
+# SbieDrv
+#
+# Configuration Error Messages to both Event and Popup Logs
+#----------------------------------------------------------------------------
+
+1401;evt;pop;inf;01
+SBIE1401 Berkas konfigurasi tak ditemukan, menggunakan standar
+.
+
+1402;evt;pop;wrn;01
+SBIE1402 Galat berkas konfigurasi di baris %3:  %2
+.
+
+1403;evt;pop;wrn;01
+SBIE1403 Galat berkas konfigurasi di baris %2:  baris terlampau panjang
+.
+
+1404;evt;pop;wrn;01
+SBIE1404 Galat berkas konfigurasi di baris %2:  terlampau banyak baris
+.
+
+1405;evt;pop;wrn;01
+SBIE1405 Galat berkas konfigurasi di baris %2:  galat sintaks 
+.
+
+1406;evt;pop;err;01
+SBIE1406 Perluasan hilang atau tak sahih untuk %3:  %2
+.
+
+# 1407;evt;pop;err;01
+# SBIE1407 Nilai tak sahih untuk penataan %2, menggunakan standar
+# .
+
+1408;pop;err;01
+SBIE1408 Nama pengguna tak dikenal atas SID:  %2
+.
+
+1409;evt;pop;wrn;01
+SBIE1409 Berkas Templates.ini tak bisa dibuka %2
+.
+
+1410;evt;pop;wrn;01
+SBIE1410 Pesan berikut ini menandakan suatu galat dalam berkas Templates.ini
+.
+
+1411;evt;pop;wrn;01
+SBIE1411 Sandbox %2 menetapkan templat tak dikenal %3
+.
+
+1412;evt;pop;err;01
+SBIE1412 Dalam teks: %2
+.
+
+#----------------------------------------------------------------------------
+# SbieDrv
+#
+# Messages from user mode -- informational -- 2101 through 2199
+#----------------------------------------------------------------------------
+
+2101;pop;inf;01
+SBIE2101 %2
+.
+
+2102;pop;inf;01
+SBIE2102 Berkas terlampau besar untuk disalin ke dalam sandbox - %2
+.
+
+2103;pop;inf;01
+SBIE2103 Upaya dicegah guna memuat pengandar sistem '%2'
+.
+
+2104;pop;inf;02
+SBIE2104 Upaya dicegah guna mengakhiri sesi Windows ini - %2
+.
+
+# 2105;pop;inf;01
+# SBIE2105 Layanan dalam sandbox berhasil dimulai:  %2
+# .
+
+# 2106;pop;inf;01
+# SBIE2106 Mohon fungsikan "Jalankan selaku Administrator UAC" dalam Sandboxie Control, berkas Menu
+# .
+
+# 2107;pop;inf;01
+# SBIE2107 Mempersiapkan pengumpulan WinSxS '%2'
+# .
+
+2108;pop;inf;01
+SBIE2108 Memalsukan perampungan berhasil untuk program '%2'
+.
+
+# 2109;pop;inf;01
+# SBIE2109 Klik Oke ketika program atau instalasi telah rampung.
+# .
+
+# 2110;pop;inf;01
+# SBIE2110 Mempersiapkan ketergantungan WinSxS atas '%2'
+# .
+
+# %2 = Mozilla Firefox
+2191;pop;inf;01
+SBIE2191 %2 tak boleh dimutakhirkan ketika berjalan di bawah Sandboxie.
+.
+
+2192;pop;inf;01
+SBIE2192 Guna memutakhirkan program, jalankan di luar pengawasan Sandboxie.
+.
+
+2193;pop;inf;01
+SBIE2193 Pastikan untuk menghapus sandbox setelah menuntaskan proses pemutakhiran.
+.
+
+2199;pop;inf;01
+%0
+.
+
+#----------------------------------------------------------------------------
+# SbieDrv
+#
+# Messages from user mode -- warning -- 2201 through 2299
+#----------------------------------------------------------------------------
+
+2201;pop;wrn;01
+SBIE2201 %2
+.
+
+# 2202;pop;wrn;01
+# SBIE2202 Senarai perangkat keras terinstal yang hilang
+# .
+
+2203;pop;wrn;01
+SBIE2203 Gagal berkomunikasi dengan Layanan Sandboxie:  %2
+.
+
+2204;pop;wrn;01
+SBIE2204 Tak dapat memulai layanan dalam sandbox %2
+.
+
+2205;pop;wrn;01
+SBIE2205 Layanan tak dilaksanakan:  %2
+.
+
+2206;pop;wrn;01
+SBIE2206 Gagal memproses penataan AutoExec %2
+.
+
+2207;pop;wrn;01
+SBIE2207 Nilai tak sahih untuk penataan '%2', menggunakan standar
+.
+
+2208;pop;wrn;01
+SBIE2208 Tak dapat menghapus penampung registri:  %2
+.
+
+2209;pop;wrn;01
+SBIE2209 Tak dapat menerjemahkan SID menjadi nama pengguna:  %2
+.
+
+2210;pop;wrn;01
+SBIE2210 Tak dapat memulai Penjelajah Windows untuk:  %2
+.
+
+2211;pop;wrn;01
+SBIE2211 Layanan dalam Sandbox gagal dimulai:  %2
+.
+
+2212;pop;wrn;01
+SBIE2212 Pembaca surel '%2' tak diatur untuk berjalan dalam sandbox
+.
+
+2213;pop;wrn;01
+SBIE2213 Mandat Windows tak boleh disimpan di dalam sandbox
+.
+
+2214;pop;wrn;01
+SBIE2214 Permintaan untuk memulai layanan '%2' ditolak karena pelepasan hak
+.
+
+# 2215;pop;wrn;01
+# SBIE2215 Gagal mempersiapkan ketergantungan WinSxS:  %2
+# .
+
+# 2216;pop;wrn;01
+# SBIE2216 Gagal mempersiapkan pengumpulan WinSxS:  %2
+# .
+
+2217;pop;wrn;02
+SBIE2217 Permintaan untuk berjalan selaku Administrator ditolak karena pelepasan hak 
+.
+
+2218;pop;wrn;01
+SBIE2218 Gagal memperoleh privilese yang ditinggikan:  %2
+.
+
+2219;pop;wrn;01
+SBIE2219 Permintaan dikirimkan oleh program %2
+.
+
+2220;pop;wrn;01
+SBIE2220 Untuk mengizinkan pemakaian privilese Administrator, silakan mengklik ganda di atas baris pesan ini
+.
+
+2221;pop;wrn;01
+SBIE2221 Untuk menambahkan program ke Pembatasan Akses Internet, silakan mengklik ganda di atas baris pesan ini
+.
+
+2222;pop;wrn;01
+SBIE2222 Untuk menambahkan program ke Pembatasan Akses Mulai/Jalankan, silakan mengklik ganda di atas baris pesan ini
+.
+
+2223;pop;wrn;01
+SBIE2223 Untuk memperbesar nilai batas ukuran berkas dalam menyalin berkas, silakan mengklik ganda di atas baris pesan ini
+.
+
+#----------------------------------------------------------------------------
+# SbieDrv
+#
+# Messages from user mode -- error -- 2301 through 2399
+#----------------------------------------------------------------------------
+
+2301;pop;err;01
+SBIE2301 %2
+.
+
+2303;pop;err;01
+SBIE2303 Tak dapat mengaitkan %2
+.
+
+2304;pop;err;01
+SBIE2304 Inisialisasi gagal untuk proses %2
+.
+
+2305;pop;err;01
+SBIE2305 Kehabisan memori
+.
+
+2306;pop;err;01
+SBIE2306 Tak dapat menemukan direktori pengguna:  %2
+.
+
+2307;pop;err;01
+SBIE2307 Tak dapat memetakan penggerak %2
+.
+
+2308;pop;err;01
+SBIE2308 Tak dapat membuat direktori obyek:  %2
+.
+
+2309;pop;err;01
+SBIE2309 Tak dapat melumpuhkan COM+/DCOM:  %2
+.
+
+2310;pop;err;01
+SBIE2310 Penyangga nama hampir meluap (%2)
+.
+
+2311;pop;err;01
+SBIE2311 Tak dapat melumpuhkan penampung daur ulang (BitBucket):  %2
+.
+
+2312;pop;err;01
+SBIE2312 Tak dapat memfungsikan penataan BrowseNewProcess:  %2
+.
+
+2313;pop;err;01
+SBIE2313 Tak dapat menjalankan %2
+.
+
+2314;pop;err;01
+SBIE2314 Membatalkan proses %2
+.
+
+2315;pop;err;01
+SBIE2315 Tak dapat memperbaiki citra eksekusi
+.
+
+2316;pop;err;01
+SBIE2316 Memori rusak
+.
+
+2317;pop;err;01
+SBIE2317 Tak dapat menginisialisasi senarai jalur '%2'
+.
+
+2318;pop;err;01
+SBIE2318 Inisialisasi DLL gagal untuk '%2'
+.
+
+# 2319;pop;err;01
+# SBIE2319 Konteks pengaktifan gagal untuk proses dalam sandbox %2
+# .
+
+# 2320;pop;err;01
+# SBIE2320 Tak dapat melumpuhkan Internet Explorer sebagai proses destop:  %2
+# .
+
+2321;pop;err;01
+SBIE2321 Tak dapat mengelola peta peranti:  %2
+.
+
+2322;pop;err;01
+SBIE2322 Tak dapat menulis ulang Sandboxie.ini:  %2
+.
+
+2323;pop;err;01
+SBIE2323 Galat kriptografi:  %2
+.
+
+2326;pop;err;01
+SBIE2326 Tak dapat mempersiapkan registri:  %2
+.
+
+2327;pop;err;01
+SBIE2327 Galat dalam Peladen COM:  %2
+.
+
+2331;pop;err;01
+SBIE2331 Mulai layanan gagal:  %2
+.
+
+2332;pop;err;01
+SBIE2332 Tak dapat mengakses berkas SbiePst.dat
+.
+
+# 2333;pop;err;01
+# SBIE2333 DLL perangkat lunak yang tak cocok ditemukan:  %2
+# .
+
+2334;pop;err;01
+SBIE2334 Tak dapat memuat berkas DLL:  %2
+.
+
+# 2398;txt;01
+# SBIE2398 Layanan menghadapi pengecualian ... di alamat ...
+# .
+
+# 2399;txt;01
+# SBIE2399 Layanan gagal dengan galat ...
+# .
+
+#----------------------------------------------------------------------------
+# SbieSvc
+#----------------------------------------------------------------------------
+
+9101;evt;err;01
+SBIE9101 Tak cukup sumber daya sistem
+.
+
+9153;evt;err;01
+SBIE9153 Tak dapat memulai pengandar (SbieDrv)
+.
+
+9154;evt;err;01
+SBIE9154 Pengandar (SbieDrv) dan layanan (SbieSvc) berbeda nomor versi
+.
+
+9156;evt;err;01
+SBIE9156 Inisialisasi pengandar tak rampung
+.
+
+9201;evt;err;01
+SBIE9201 Galat token
+.
+
+9202;evt;err;01
+SBIE9202 Galat token
+.
+
+9203;evt;err;01
+SBIE9203 Galat token
+.
+
+9204;evt;err;01
+SBIE9204 Galat deskriptor keamanan 
+.
+
+9205;evt;err;01
+SBIE9205 Galat deskriptor keamanan 
+.
+
+9206;evt;err;01
+SBIE9206 Galat deskriptor keamanan 
+.
+
+9207;evt;err;01
+SBIE9207 Galat deskriptor keamanan 
+.
+
+9208;evt;err;01
+SBIE9208 Tak dapat memfungsikan SeRestorePrivilege
+.
+
+9251;evt;err;01
+SBIE9251 Pembuatan peristiwa pangkalan gagal
+.
+
+9252;evt;err;01
+SBIE9252 Pembuatan pangkalan gagal
+.
+
+9253;evt;err;01
+SBIE9253 Pembuatan pangkalan ulir gagal
+.
+
+# 9302;evt;err;01
+# SBIE9302 Pembuatan seksi gagal (kelas tata peranti)
+# .
+
+# 9304;evt;err;01
+# SBIE9304 Pembuatan seksi gagal (senarai id peranti)
+# .
+
+# 9305;evt;err;01
+# SBIE9305 Hentikan program dalam sandbox, jika ada yang tengah berjalan
+# .
+
+#----------------------------------------------------------------------------
+# Common Texts
+#----------------------------------------------------------------------------
+
+3001;txt;01
+&Oke
+.
+
+3002;txt;01
+&Batal
+.
+
+3003;txt;01
+&Ramban...
+.
+
+3004;txt;01
+&Tutup
+.
+
+3005;txt;01
+&Potong
+.
+
+3051;txt;01
+Penghapusan proteksi difungsikan untuk sandbox
+.
+
+3052;txt;01
+Jalankan dalam Sandbox
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Start
+#----------------------------------------------------------------------------
+
+3101;txt;01
+Mulai Sandboxie
+.
+
+3103;txt;01
+Ketik nama program atau pelipat dan Sandboxie akan membukanya untuk Anda.
+.
+
+3104;txt;01
+Ketik  .  (karakter titik) guna menjelajahi destop Anda dengan Sandboxie.
+.
+
+3105;txt;01
+Hapus perintah dari sejarah perintah
+.
+
+3106;txt;01
+Pilih sandbox untuk memulai program atau dokumen.
+.
+
+3111;txt;01
+      Menu Mulai Sandboxie - %2  %0
+.
+
+3112;txt;01
+Destop
+.
+
+3113;txt;01
+(jelajahi pelipat)
+.
+
+3114;txt;01
+Program
+.
+
+3202;txt;01
+Parameter baris perintah tak sahih:  %2
+.
+
+3203;txt;01
+Pemakaian: Start.exe <nama program>
+.
+
+3204;txt;01
+Parameter nama kotak tak sahih:  %2
+.
+
+3205;txt;01
+Tak dapat memanggil program:
+
+%2
+.
+
+3206;txt;01
+Kode Galat Sistem:
+.
+
+# 3207;txt;01
+# Tak dapat menemukan eksekusi Internet Explorer
+# .
+
+# 3208;txt;01
+# Tak dapat menemukan eksekusi peramban Web standar
+# .
+
+3209;txt;01
+Tak dapat menemukan eksekusi agen surat standar
+.
+
+3210;txt;01
+Tak dapat memulai program Sandboxie Control
+.
+
+3211;txt;01
+Versi tak cocok dalam Sandboxie. Cobalah menginstal ulang.
+.
+
+3212;txt;01
+Pengandar Sandboxie (SbieDrv) tak tersedia untuk program sandbox.
+Pastikan bahwa pengandar dan layanan Sandboxie (SbieSvc) berhasil dimulai.
+.
+
+3213;txt;01
+Tak dapat menginisialisasi layanan COM Sandboxie
+.
+
+3214;txt;01
+Hapus Sandbox %2:  %0
+.
+
+3215;txt;01
+Obyek (berkas atau pelipat) mungkin sedang digunakan oleh program lain.
+Tutup aplikasi atau jendela yang mencegah akses.
+.
+
+3216;txt;01
+Tak dapat menemukan pelipat sandbox 
+.
+
+3217;txt;01
+Tak dapat membuka pelipat sandbox
+.
+
+3218;txt;01
+Tak dapat membuka pelipat berisi pelipat sandbox 
+.
+
+3219;txt;01
+Tak dapat memindahkan pelipat sandbox keluar
+.
+
+3220;txt;01
+Tak dapat menamai ulang salah satu berkas bernama panjang dalam sandbox.
+Isi sandbox tak akan dihapus.
+.
+
+3221;txt;01
+Silakan Anda menghentikan program yang berjalan dalam sandbox sebelum menghapus isinya
+.
+
+3222;txt;01
+Hapus perintah gagal:  %0
+.
+
+3231;txt;01
+Anda telah menginstal Sandboxie lebih dari 30 dari yang lalu.
+.
+
+3232;txt;01
+Penggunaan pribadi Sandboxie diizinkan dengan bebas biaya selama yang Anda suka.
+.
+
+3233;txt;01
+Akan tetapi, versi bebas sekarang akan jeda selama beberapa detik.
+.
+
+3234;txt;01
+Akan tetapi, versi bebas mengizinkan penggunaan satu sandbox pada satu waktu.
+.
+
+3235;txt;01
+Pembatasan ini dihapuskan dalam Sandboxie versi berbayar.
+.
+
+3236;txt;01
+Lebih jauh lagi, versi berbayar memfungsikan sandbox otomatis untuk beberapa program yang dipilih.
+.
+
+3237;txt;01
+Untuk informasi lebih jauh dan membeli perangkat lunak, silakan mengklik tautan berikut ini:
+.
+
+3238;txt;01
+Harap tunggu %2 detik lagi
+.
+
+3239;txt;01
+Klik untuk menutup jendela ini dan melanjutkan
+.
+
+3240;txt;01
+Klik untuk menutup jendela ini dan berhenti
+.
+
+3241;txt;01
+Sandboxie meminta privilese Administrator atas nama program 
+yang berjalan di dalam sandbox.
+.
+
+3242;txt;01
+Guna menerima dan membatalkan permintaan, aktifkan jendela 
+Kendali Akun Pengguna menyeruak.
+.
+
+3243;txt;01
+Catatan: Program akan melanjutkan pelaksanaan di bawah pengawasan Sandboxie, 
+sekalipun setelah privilese Administrator diberikan.
+.
+
+3251;txt;01
+Jalankan di luar Sandbox
+.
+
+3252;txt;01
+Mulai kilat program di luar pengawasan Sandboxie, meskipun program dipaksa untuk berjalan di bawah pengawasan Sandboxie. Pembebasan dari sandbox ini juga mencakup segala program lain yang dimulai oleh program ini.
+
+Anda juga bisa memilih pilihan ini dengan menahan tombol Ctrl dan Shift ketika Anda mengklik perintah Jalankan dalam Sandbox.
+.
+
+3253;txt;01
+Apakah Anda yakin hendak menjalankan program di luar sandbox?
+.
+
+3254;txt;01
+Untuk melompati jendela pilihan sandbox, Anda dapat menahan tombol Ctrl ketika Anda mengklik perintah Jalankan dalam Sandbox.
+.
+
+3255;txt;01
+Opsi dilumpuhkan sebagai akibat dari berfungsinya penataan Pelepasan Hak untuk sandbox ini
+.
+
+3256;txt;01
+Opsi dilumpuhkan sebab program ini telah berjalan dengan privilese Administrator
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control Common
+#----------------------------------------------------------------------------
+
+3301;txt;01
+Sandboxie Control
+.
+
+3302;txt;01
+Versi %2
+.
+
+3303;txt;01
+  -  Menginisialisasi
+.
+
+3304;txt;01
+Versi tak cocok dalam Sandboxie:
+
+Sandboxie Control: Versi %2
+Layanan (SbieSvc): Versi %3
+Pengandar (SbieDrv): Versi %4
+
+Instal ulang Sandboxie guna memecahkan masalah ini.
+
+Menggugurkan.
+.
+
+# 3305;txt;01
+# Tak dapat menginstal ikon baki.  Menggugurkan.
+# .
+
+3306;txt;01
+Untuk seterusnya, jangan tayangkan pesan ini lagi
+.
+
+# 3307;txt;01
+# Masukkan Nama Program
+# .
+
+# translate text but keep hash signs (#)
+3308;txt;01
+Program#*.EXE#SEMUA Berkas#*.*##
+.
+
+3309;txt;01
+  -  Menghapus Sandbox
+.
+
+3311;txt;01
+Gagal merekam penataan konfigurasi %3 di seksi %2:  %4
+.
+
+3312;txt;01
+Anda tak berwenang untuk memutakhirkan konfigurasi di seksi %2
+.
+
+3313;txt;01
+Pengguna tak dikenal, penataan konfigurasi tak akan disimpan
+.
+
+3314;txt;01
+Suatu galat terbentuk ketika menerapkan penataan standar untuk sandbox '%2'
+.
+
+# 3321;txt;01
+#   -  Sesi log masuk dalam sandbox
+# .
+
+# 3322;txt;01
+# Sesi log masuk anda berjalan di bawah pengawasan Sandboxie.
+# Menghapus isi sandbox akan memunahkan seluruh perubahan yang dibuat di sesi ini.
+#
+# Akun Pengguna: %2
+# Sandbox: %3
+# 
+# Anda yakin hendak menghapus isi sandbox dan log keluar Windows?
+# .
+
+3351;txt;01
+&Hapus
+.
+
+3352;txt;01
+&Tambah
+.
+
+3353;txt;01
+&Edit/Tambah
+.
+
+3354;txt;01
+&Edit
+.
+
+3355;txt;01
+&Program Baru
+.
+
+# 3356;txt;01
+# Tambah sesuai &Nama
+# .
+
+# 3357;txt;01
+# Tambah sesuai &Berkas
+# .
+
+3358;txt;01
+Tambah &Pelipat
+.
+
+3359;txt;01
+Tambah Peng&guna
+.
+
+3360;txt;01
+Pilih &Semua
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control Menus
+#----------------------------------------------------------------------------
+
+3411;txt;01
+&Berkas
+.
+
+3412;txt;01
+Hentikan &Seluruh Program
+.
+
+3413;txt;01
+Lumpuhkan &Paksa Program
+.
+
+3414;txt;01
+Jalankan selaku Administrator &UAC
+.
+
+3415;txt;01
+Apakah &Jendela dalam Sandbox?
+.
+
+3416;txt;01
+Pemantau &Akses Sumber Daya
+.
+
+3417;txt;01
+&Keluar
+.
+
+3421;txt;01
+&Tilikan
+.
+
+3422;txt;01
+&Program
+.
+
+3423;txt;01
+&Berkas dan Pelipat
+.
+
+3424;txt;01
+&Menu Konteks%2Shift+F10
+.
+
+3425;txt;01
+Log &Pemulihan
+.
+
+3431;txt;01
+Sand&box
+.
+
+3432;txt;01
+Buat Sandbox Baru
+.
+
+3433;txt;01
+Tata Pelipat Pemuat
+.
+
+3434;txt;01
+Tampilkan Sandbox Tersembunyi
+.
+
+3435;txt;01
+Tata Tata Letak dan Grup
+.
+
+3441;txt;01
+&Konfigurasi
+.
+
+3442;txt;01
+&Peringatan Program
+.
+
+3443;txt;01
+Integrasi Shell &Windows
+.
+
+3501;txt;01
+&Kebersesuaian Perangkat Lunak
+.
+
+3503;txt;01
+Proteksi Eksperimental (64-bit)
+.
+
+3444;txt;01
+Lupakan Pesan &Tersembunyi 
+.
+
+3445;txt;02
+Sa&ran
+.
+
+3502;txt;01
+Kan&cing Konfigurasi
+.
+
+3446;txt;01
+&Edit Konfigurasi
+.
+
+3447;txt;01
+Muat &Ulang Konfigurasi
+.
+
+3448;txt;01
+Ta&mpilkan Seluruh Saran
+.
+
+3449;txt;01
+&Sembunyikan Seluruh Saran
+.
+
+3451;txt;01
+&Bantuan
+.
+
+3452;txt;01
+Topik &Bantuan (Web)
+.
+
+3453;txt;02
+Bimbingan &Perkenalan
+.
+
+3454;txt;01
+Periksa &Kemutakhiran
+.
+
+3455;txt;01
+&Daftarkan Sandboxie
+.
+
+3456;txt;01
+&Tentang Sandboxie
+.
+
+3461;txt;01
+&Jalankan dalam Sandbox
+.
+
+3462;txt;01
+Jalankan Peramban &Web
+.
+
+3463;txt;01
+Jalankan Pembaca &Surel
+.
+
+3464;txt;01
+Jalankan &Program Apa Saja
+.
+
+3465;txt;01
+Jalankan dari &Menu Mulai
+.
+
+3466;txt;01
+Jalankan Penjelajah &Windows
+.
+
+3471;txt;01
+&Hentikan Program
+.
+
+3472;txt;01
+Pemulihan &Kilat
+.
+
+3473;txt;01
+&Hapus Isi
+.
+
+3474;txt;01
+&Jelajahi Isi
+.
+
+3475;txt;01
+Penataan &Sandbox
+.
+
+3476;txt;01
+&Namai Ulang Sandbox
+.
+
+3477;txt;01
+Hap&us Sandbox
+.
+
+3481;txt;01
+&Hentikan Program
+.
+
+3482;txt;01
+Penataan &Program
+.
+
+3483;txt;01
+&Akses Sumber Daya
+.
+
+3485;txt;01
+Tampilkan Jendela
+.
+
+3486;txt;01
+Sembunyikan Jendela
+.
+
+3487;txt;01
+Ta&mpilkan Galat
+.
+
+# 3488;txt;01
+# &Hapus Sandbox dan Log Keluar
+# .
+
+3491;txt;01
+Pul&ihkan ke Pelipat yang Sama
+.
+
+3492;txt;01
+Pulihkan ke &Pelipat Mana Saja
+.
+
+3493;txt;01
+Tamba&h Pelipat ke Pemulihan Kilat
+.
+
+3494;txt;01
+Ha&pus Pelipat dari Pemulihan Kilat
+.
+
+3495;txt;01
+Buat Pintasan Destop
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control Main Window
+#----------------------------------------------------------------------------
+
+3511;txt;01
+Sandboxie Control sekarang akan menyembunyikan jendelanya, namun akan tetap berjalan. 
+Untuk menampilkan jendela, klik ganda ikon kuning Sandboxie di wilayah wewara sistem.
+.
+
+3512;txt;01
+Edit perubahan ke dalam berkas konfigurasi Sandboxie.ini dengan editor teks Windows yang sekarang dibuka.
+
+Konfigurasi yang diralat akan bekerja hanya setelah fungsi Muat Ulang Konfigurasi dipanggil.
+
+Pada umumnya, fungsi Muat Ulang Konfigurasi dipanggil secara otomatis begitu Anda menutup editor teks Windows.
+
+Anda juga bisa secara tersurat menginstruksikan Sandboxie Control untuk Muat Ulang Konfigurasi kapan saja.
+.
+
+3513;txt;01
+Konfigurasi Sandboxie belum disegarkan dan akan diterapkan terhadap program dalam sandbox begitu mereka mulai.
+
+Jika ada program yang sudah berjalan dalam sandbox, konfigurasi baru tak akan diterapkan terhadapnya.
+.
+
+3514;txt;01
+Terdapat masalah dalam membaca berkas konfigurasi.
+Konfigurasi Sandboxie belum disegarkan.
+.
+
+3515;txt;01
+Sandbox %2
+.
+
+3516;txt;01
+Aktif
+.
+
+3517;txt;01
+Nama Program 
+.
+
+3518;txt;01
+PID
+.
+
+3519;txt;01
+Judul Jendela
+.
+
+3520;txt;01
+Pelipat Pemulihan Kilat 
+.
+
+3521;txt;01
+Seluruh Berkas dan Pelipat
+.
+
+3522;txt;01
+Penggerak
+.
+
+3523;txt;01
+Berbagi Jaringan 
+.
+
+3524;txt;01
+Berkas Pengguna
+.
+
+3525;txt;01
+Pribadi
+.
+
+3526;txt;01
+Seluruh Pengguna
+.
+
+3527;txt;01
+Mohon Anda menghapus isi sandbox %2 sebelum memanggil perintah ini.
+.
+
+3528;txt;01
+Masukkan Nama Sandbox Baru 
+.
+
+3529;txt;01
+Apakah Anda yakin ingin menghapus sandbox %2?
+.
+
+3530;txt;01
+Tak ada proses yang akan dihentikan.
+.
+
+3531;txt;01
+PERINGATAN: Proses yang akan dihentikan tak akan diberi kesempatan untuk menyimpan keadaan atau data.
+
+Apakah Anda yakin hendak meneruskan proses penghentian?
+.
+
+3532;txt;01
+Untuk seterusnya, hentikan proses tanpa bertanya
+.
+
+3533;txt;01
+Anda dapat menyalin dan memotong berkas dan pelipat dari sebuah jendela pelipat dalam sandbox, dan memastanya secara langsung ke dalam sebuah jendela pelipat yang tidak berada dalam sandbox.
+.
+
+3534;txt;01
+Anda akan menjelajahi isi sandbox dalam sebuah jendela pelipat Penjelajah Windows yang tidak dalam sandbox.
+
+Anda dapat membuka program atau dokumen yang berada di dalam sandbox.
+Program atau dokumen akan berjalan di bawah pengawasan Sandboxie.
+
+Akan tetapi, Anda dianjurkan untuk memanipulasi isi sandbox melalui sebuah contoh dari Penjelajah Windows dalam sandbox. Untuk melakukannya, 
+gunakan perintah ini:  Sandbox -> Jalankan dalam Sandbox -> Jalankan Penjelajah Windows.
+.
+
+3535;txt;01
+Suatu galat terbentuk ketika mengakses pelipat sandbox.
+.
+
+3536;txt;01
+Indikator 'tersembunyi' telah dihapus dari seluruh pesan.
+.
+
+3537;txt;01
+Indikator 'jangan tampilkan pesan ini' telah dihapus dari seluruh saran.
+.
+
+3538;txt;01
+Indikator 'jangan tampilkan pesan ini' sekarang diterapkan terhadap seluruh saran.
+.
+
+3539;txt;01
+Sandbox '%2' dibuat %3 hari yang lalu.
+Harap pertimbangkan menghapus sandbox dari waktu ke waktu.
+
+Guna mengatur penghapusan otomatis, gunakan perintah Penataan Sandbox dari menu Sandbox dalam Sandboxie Control.
+.
+
+3540;txt;01
+Berkas konfigurasi Sandboxie.ini tak bisa diedit sebab terproteksi sandi lewat. Guna mengedit berkas, 
+gunakan perintah Kancing Konfigurasi untuk melumpuhkan proteksi sandi lewat.
+.
+
+3541;txt;01
+Publik
+.
+
+3542;txt;01
+Moda Proteksi Eksperimental memperkuat proteksi yang ditawarkan oleh Sandboxie 64-bit, 
+dan menghadirkan derajat proteksi yang sama seperti yang ditawarkan oleh Sandboxie 32-bit.
+
+PENTING: Proteksi Eksperimental menggunakan fitur tak resmi
+kernel Windows. Pemutakhiran Windows di masa depan mungkin 
+saja bertentangan dengan moda Proteksi Eksperimental,
+dan dapat mengakibatkan ketakstabilan sistem.
+
+GUNAKAN DENGAN RISIKO DITANGGUNG ANDA SENDIRI.
+ 
+Untuk mengaktifkan moda Proteksi Eksperimental, 
+Anda harus memulai ulang komputer Anda sekarang.
+.
+
+3543;txt;01
+Untuk melumpuhkan moda Proteksi Eksperimental, 
+Anda harus memulai ulang komputer Anda sekarang.
+
+Harap diperhatikan bahwa penataan Pelepasan Hak 
+akan diaktifkan dalam seluruh sandbox.
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control Dialogs: About/Welcome
+#----------------------------------------------------------------------------
+
+3601;txt;01
+Tentang Sandboxie
+.
+
+# 3604;txt;01
+# Selamat Datang di Sandboxie
+# .
+
+# 3605;txt;01
+# 
+# Sandboxie menjalankan aplikasi dalam sebuah area isolasi protektif yang disebut sandbox.
+# 
+# Aplikasi yang terperangkap dalam sandbox tak diizinkan untuk membuat perubahan atau membahayakan komputer Anda.
+# 
+# Anda juga bisa menggunakan sandbox untuk menginstal dan menguji aplikasi baru.
+# .
+
+# 3606;txt;01
+# Jika Anda baru mengenal Sandboxie,
+# silakan Anda mengambil waktu barang sejenak untuk membaca bimbingan Perkenalan.
+# .
+
+# 3607;txt;01
+# &Perkenalan dengan Sandboxie
+# .
+
+#----------------------------------------------------------------------------
+# Sandboxie Control Dialogs: Update
+#----------------------------------------------------------------------------
+
+3621;txt;01
+Periksa Kemutakhiran
+.
+
+3622;txt;01
+Sambungkan ke situs Web Sandboxie guna memeriksa apakah ada versi program yang lebih baru tersedia?
+.
+
+3623;txt;01
+&Sekarang
+.
+
+3624;txt;01
+Minggu &Depan
+.
+
+3625;txt;01
+Tak &Pernah
+.
+
+3626;txt;01
+Di masa depan, periksa kemutakhiran tanpa bertanya
+.
+
+3627;txt;01
+Kebijakan Privasi:  Informasi pribadi Anda tidak dipancarkan ataupun dikumpulkan ke Sandboxie.
+.
+
+3628;txt;01
+Pemeriksaan kemutakhiran sedang dikerjakan. Harap tunggu.
+.
+
+3629;txt;01
+Situs web Sandboxie tak melaporkan adanya versi Sandboxie yang lebih baru.
+.
+
+3630;txt;01
+Sandboxie %2 tersedia untuk diunduh.
+.
+
+3631;txt;01
+Unduh sekarang?
+
+Catatan:  Pengunduhan berlangsung sekitar satu menit.
+Anda akan diberitahu bilamana unduhan rampung.
+.
+
+3632;txt;01
+Guna mengunduh dan menginstal versi baru, log masuk ke dalam sebuah akun pengguna 
+dengan privilese administrator, dan ajukan perintah ini lagi.
+.
+
+3633;txt;01
+Sandboxie %2 telah diunduh ke lokasi berikut ini:
+
+%3
+
+Klik Oke untuk memulai instalasi.  Jika ada program yang berjalan dalam sandbox, 
+program-program ini akan dihentikan.
+.
+
+3634;txt;01
+Pemutakhiran gagal:  Suatu galat terbentuk ketika berkomunikasi dengan situs web Sandboxie.
+.
+
+3635;txt;01
+mengunduh versi baru
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control Dialogs: Run Browser
+#----------------------------------------------------------------------------
+
+3641;txt;01
+Buka Peramban Web
+.
+
+3642;txt;01
+Tentukan apakah akan membuka alamat Web dengan peramban Web dalam atau tanpa sandbox.
+.
+
+3643;txt;01
+&Dalam sandbox
+.
+
+3644;txt;01
+&Tanpa sandbox
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control Dialogs: Message Dialog
+#----------------------------------------------------------------------------
+
+3645;txt;01
+Pesan dari Sandboxie
+.
+
+3646;txt;01
+Sem&bunyikan
+.
+
+3647;txt;01
+Menyembunyikan pesan akan mencegah ditampilkannya pesan di masa mendatang. 
+Penyembunyian pesan tidak sungguh-sungguh memecahkan masalah yang menyebabkan pesan ditampilkan.
+
+Apakah Anda yakin ingin melumpuhkan pelaporan pesan %2?
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control Dialogs: Disable Forced Programs
+#----------------------------------------------------------------------------
+
+3651;txt;01
+Lumpuhkan Sementara Program Paksa
+.
+
+3652;txt;01
+Lumpuhkan Sementara Program Paksa selama 
+.
+
+3653;txt;01
+detik
+.
+
+3654;txt;01
+Ketika Anda mengklik Oke, mekanisme Program Paksa akan dilumpuhkan sementara, untuk durasi dalam sekian detik yang ditetapkan sebelumnya, atau hingga Anda memilih fungsi ini lagi.
+.
+
+3599;txt;01
+Anda dapat melumpuhkan pemaksaan program tertentu dengan menahan kunci Ctrl dan Shift sewaktu Anda mengklik perintah Jalankan dalam Sandbox untuk program tersebut.
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control Dialogs: Resource Access Monitor
+#----------------------------------------------------------------------------
+
+3655;txt;01
+Pemantau Akses Sumber Daya 
+.
+
+3656;txt;01
+Alat ini memantau program yang berjalan di bawah pengawasan Sandboxie, dan menampilkan sumber daya yang diaksesnya. Silakan Anda berkonsultasi dengan dokumentasi sebelum menggunakan alat ini.
+.
+
+3657;txt;01
+Salin isi ke Papan Klip dan Tutup jendela
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control Dialogs: Is Window Sandboxed
+#----------------------------------------------------------------------------
+
+3661;txt;01
+Apakah jendela dalam Sandbox?
+.
+
+3662;txt;01
+Seret Alat Pencari melewati jendela untuk memilihnya, kemudian lepaskan tetikus untuk memeriksa apakah jendela dalam sandbox.
+
+Tekan ESC untuk membatalkan.
+.
+
+3663;txt;01
+Jendela yang dipilih berjalan sebagai bagian dari program %2 dalam sandbox %3.
+.
+
+3664;txt;01
+Jendela yang dipilih tidak berjalan sebagai bagian dari program dalam sandbox mana pun.
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control Dialogs: Create New Sandbox
+#----------------------------------------------------------------------------
+
+3665;txt;01
+Buat sebuah Sandbox Baru
+.
+
+3666;txt;01
+Masukkan sebuah nama untuk sandbox baru.
+.
+
+3667;txt;01
+Galat: Nama sandbox tak sahih dimasukkan. Gunakan hanya huruf dan angka. Spasi dan karakter spesial lain tak diizinkan. Nama tak boleh melebihi panjang 32 karakter.
+.
+
+3668;txt;01
+Galat: Nama sandbox duplikat dimasukkan. Masukkan sebuah nama yang belum digunakan oleh sandbox lain.
+.
+
+3669;txt;01
+Salin penataan dari sandbox yang ada:
+.
+
+4665;txt;01
+Galat:  Nama sandbox duplikat dimasukkan. Nama telah dipakai oleh sandbox tersembunyi. Gunakan perintah "Tampilkan Sandbox Tersembunyi" dari menu Sandbox.
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control Dialogs: Set Container Folder
+#----------------------------------------------------------------------------
+
+3671;txt;01
+Tata Pelipat Pemuat
+.
+
+3672;txt;01
+Pilih penggerak tempat sandbox akan dibuat dan disimpan.
+.
+
+3673;txt;01
+Untuk kebersesuaian maksimum dengan program lain, dianjurkan agar Anda membiarkan sandbox berada pada lokasi standar dalam penggerak yang Anda tentukan.
+.
+
+3674;txt;01
+Akan tetapi, Anda juga bisa menggunakan kotak edit di bawah untuk mengesampingkan lokasi standar:
+.
+
+3675;txt;01
+Catatan:  Anda dianjurkan agar menghapus isi dalam seluruh sandbox sebelum mengubah pelipat pemuat.
+.
+
+3676;txt;01
+Penggerak %2
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control Dialogs: Alerts
+#----------------------------------------------------------------------------
+
+3681;txt;01
+Peringatan Program
+.
+
+3682;txt;01
+Ketika salah satu program berikut ini diluncurkan di luar sandbox mana saja, Sandboxie akan menampilkan pesan SBIE1301.
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control Dialogs: Shell Integration
+#----------------------------------------------------------------------------
+
+3685;txt;01
+Integrasi Shell Windows 
+.
+
+3686;txt;01
+Mulai Sandboxie Control
+.
+
+3687;txt;01
+Ketika Windows mulai
+.
+
+3688;txt;02
+Ketika program dalam sandbox mulai
+.
+
+3689;txt;01
+Ikon Pintasan 
+.
+
+3690;txt;01
+Tambahkan pintasan destop untuk memulai peramban Web di bawah Sandboxie
+.
+
+3691;txt;01
+Tambahkan pintasan Luncur Cepat untuk memulai peramban Web di bawah Sandboxie
+.
+
+3692;txt;01
+Klik untuk menambahkan lebih banyak lagi ikon pintasan destop:
+.
+
+3693;txt;01
+&Tambahkan Ikon Pintasan
+.
+
+3694;txt;01
+Aksi "Jalankan dalam Sandbox" 
+.
+
+3695;txt;01
+Tambahkan aksi klik kanan "Jalankan dalam Sandbox" ke berkas dan pelipat
+.
+
+3696;txt;01
+Tambahkan sandbox sebagai target aksi "Kirim ke"
+.
+
+3697;txt;01
+Menu Mulai Sandboxie sekarang akan ditampilkan.  Pilih sebuah aplikasi dari menu, dan Sandboxie akan membuat sebuah ikon pintasan baru pada destop Anda yang sebenarnya, yang bisa Anda gunakan untuk memanggil aplikasi yang dipilih di bawah pengawasan Sandboxie.
+.
+
+3698;txt;01
+Peramban dalam Sandbox.lnk
+.
+
+3699;txt;01
+Jalankan &dalam Sandbox
+.
+
+4491;txt;01
+Buka %2 dalam sandbox %3
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control:  Delete Sandbox / Quick Recovery / Immediate Recovery
+#----------------------------------------------------------------------------
+
+3711;txt;01
+Hapus Isi|Pemulihan Kilat
+.
+
+3712;txt;01
+Berkas yang tersenarai di bawah ini memenuhi syarat untuk dipulihkan kilat dari sandbox. Pilih sebuah berkas atau pelipat dan klik tombol Pulihkan di bawah ini untuk memulihkan butir yang dipilih.
+.
+
+3713;txt;01
+Klik Hapus Isi untuk menghentikan semua proses yang berjalan di dalam sandbox dan menghapus isinya.
+.
+
+3714;txt;01
+&Hapus Isi
+.
+
+3715;txt;01
+Pemulihan Segera
+.
+
+3716;txt;02
+Berkas-berkas berikut ini memenuhi syarat untuk secepatnya dipulihkan dan bisa dikeluarkan dari sandbox.
+.
+
+3717;txt;01
+Mula-mula pilih berkas dari senarai di atas, kemudian tentukan pelipat tujuan.
+.
+
+3718;txt;01
+&Pulihkan
+.
+
+3719;txt;01
+Jangan &tanya lagi hingga seluruh program dalam sandbox usai
+.
+
+3720;txt;01
+Puli&hkan ke
+Pelipat yang Sama
+.
+
+3721;txt;01
+Pulihkan ke
+&Pelipat yang Mana Saja
+.
+
+3722;txt;01
+Terdapat %2 berkas dan %3 pelipat di dalam sandbox, menempati %4 bita dari ruang disket.
+.
+
+3723;txt;01
+Pilih pelipat tempat tujuan pemulihan berkas atau pelipat.
+.
+
+3724;txt;01
+Atau pilih sebuah pelipat dari pemulihan sebelumnya.
+.
+
+3725;txt;01
+Simpan pelipat yang dipilih untuk pemakaian berikutnya
+.
+
+3726;txt;01
+Pilih pelipat untuk ditambahkan ke dalam senarai pelipat Pemulihan Kilat.
+.
+
+3727;txt;01
+Pelipat telah ditambahkan ke dalam senarai pelipat Pemulihan Kilat.
+
+Akan tetapi, pada saat ini, tak ada butir dalam sandbox yang bisa
+dipulihkan dari pelipat.
+.
+
+3728;txt;01
+Tak ada berkas yang telah dipilih untuk dipulihkan.
+.
+
+3729;txt;01
+Pemulihan gagal. Butir berikut ini tak dapat dipindahkan keluar sandbox:
+.
+
+3730;txt;01
+Sandbox kosong.  Tak ada apa pun untuk dihapus.
+.
+
+3731;txt;01
+Beberapa program dalam sandbox tak dapat dihentikan. Sandbox tak akan dihapus.
+.
+
+3732;txt;01
+Tak ada berkas untuk dipulihkan pada saat ini.
+.
+
+3733;txt;01
+Berkas tak bisa dipulihkan sebab nama dari pelipat tujuan terlampau panjang.
+Silakan Anda memilih beberapa pelipat tujuan lain.
+.
+
+3734;txt;01
+Klik kanan senarai pelipat untuk tambahan opsi
+.
+
+3735;txt;02
+Ganti seluruh berkas tanpa banyak bertanya
+.
+
+3736;txt;01
+P&ulihkan && Jelajahi
+.
+
+3737;txt;01
+Pu&lihkan && Jalankan
+.
+
+3981;txt;01
+&Buka pelipat dalam Penjelajah Windows di luar sandbox
+.
+
+3982;txt;01
+Hapus pelipat ini dari senarai
+.
+
+3983;txt;01
+Hapus seluruh pelipat dari senarai
+.
+
+3986;txt;01
+Log Pemulihan
+.
+
+3987;txt;01
+Berkas-berkas berikut ini baru saja dipulihkan dan dipindahkan keluar sandbox.
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control:  Program Settings
+#----------------------------------------------------------------------------
+
+3741;txt;01
+Penataan Program
+.
+
+3742;txt;01
+Sandbox:
+.
+
+3743;txt;01
+Program:
+.
+
+3744;txt;01
+Tilik Halaman 1
+.
+
+3745;txt;01
+Tilik Halaman 2
+.
+
+3751;txt;01
+Mulai Program
+.
+
+3752;txt;01
+Kapan saja program ini berjalan di luar sandbox mana pun:
+.
+
+3753;txt;01
+Luncurkan pesan peringatan SBIE1301
+.
+
+3754;txt;01
+Paksa program berjalan dalam sandbox ini
+.
+
+3755;txt;01
+Stop Program
+.
+
+3756;txt;01
+Stop program ini jika masih tersisa dalam sandbox setelah program lain usai
+.
+
+3757;txt;01
+Stop program lain setelah program pemimpin ini usai
+.
+
+3761;txt;01
+Pembatasan Internet 
+.
+
+3762;txt;01
+Program mana pun yang berjalan dalam sandbox ini dapat menyambung ke Internet.
+.
+
+3763;txt;01
+Program yang dapat menyambung ke Internet dalam sandbox ini:
+.
+
+3764;txt;01
+Fungsikan pembatasan dan izinkan program ini menyambung ke Internet.
+.
+
+3765;txt;01
+Mulai/Jalankan Pembatasan
+.
+
+3766;txt;01
+Program apa saja dapat dimulai dalam sandbox ini.
+.
+
+3767;txt;01
+Program yang dapat dimulai dalam sandbox ini:
+.
+
+3768;txt;01
+Fungsikan pembatasan dan izinkan program ini mulai.
+.
+
+3769;txt;01
+(Tiada)
+.
+
+3770;txt;01
+Penataan baru tak diterapkan terhadap program dalam sandbox yang tengah berjalan. 
+Penataan akan diterapkan kali lain program ini dimulai.
+.
+
+3771;txt;01
+(Fitur ini hanya tersedia dalam Sandboxie versi terdaftar)
+.
+
+3772;txt;02
+Apakah Anda yakin ingin menata %2 sebagai program paksa?
+.
+
+3773;txt;02
+Apakah Anda yakin ingin menata %2 sebagai pelipat paksa?
+.
+
+# 3774;txt;02
+# Apakah Anda yakin ingin menata %2 selaku pengguna paksa?
+# .
+
+3775;txt;02
+Anda telah membuat perubahan yang mungkin tak mudah dibuat ulang.
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control:  Sandbox Settings
+#----------------------------------------------------------------------------
+
+3801;txt;01
+Penataan sandbox - %2
+.
+
+3802;txt;01
+Halaman ini sengaja dibiarkan kosong
+.
+
+3803;txt;01
+Anda harus menerapkan perubahan di halaman ini sebelum bisa melanjutkan.
+.
+
+3804;txt;01
+Terapkan perubahan ketika berganti halaman.
+.
+
+3805;txt;01
+Seluruh Program
+.
+
+3806;txt;02
+Senarai di bawah ini merujuk ke grup
+.
+
+3807;txt;01
+Pilih sebuah berkas atau pelipat untuk ditambahkan ke dalam pengecualian Akses Berkas.
+.
+
+3808;txt;01
+Tambah Nama Sumber Daya
+.
+
+3809;txt;01
+Edit Nama Sumber Daya
+.
+
+3551;txt;01
+(Seluruh program kecuali %2)
+.
+
+3552;txt;01
+Balikkan artian dari pilihan sekarang
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control:  Sandbox Settings:  Appearance
+#----------------------------------------------------------------------------
+
+3811;txt;01
+Tampilan
+.
+
+3812;txt;01
+Program dalam sandbox yang berjalan di bawah pengawasan Sandboxie akan menampilkan indikator Sandboxie [#] pada judul jendela.
+.
+
+3813;txt;01
+Jika penataan berikut ini difungsikan, judul jendela juga akan menampilkan nama sandbox ini.
+.
+
+3814;txt;01
+Tampilkan nama sandbox pada judul jendela
+.
+
+3815;txt;01
+Jangan tampilkan indikator Sandboxie pada judul jendela
+.
+
+3816;txt;01
+Sandboxie dapat menampilkan batas tebal di sekeliling jendela milik program dalam sandbox.
+.
+
+3817;txt;01
+Tampilkan batas di sekeliling jendela
+.
+
+3818;txt;01
+Klik untuk mengubah warna batas
+.
+
+3819;txt;01
+Tampilkan batas hanya pada saat kursor tetikus berada di judul jendela
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control:  Sandbox Settings:  Recovery
+#----------------------------------------------------------------------------
+
+# 3821;txt;01
+# Pemulihan::Pemulihan Kilat
+# .
+
+3821;txt;02
+Pemulihan
+.
+
+3822;txt;01
+Pemulihan Kilat
+.
+
+3823;txt;01
+Sebelum sandbox dihapus, atau ketika Anda memanggil fungsi Pemulihan Kilat secara manual, pelipat berikut ini akan diperiksa isi sandbox-nya. Jika ada berkas yang ditemukan, Anda berkesempatan untuk memulihkannya dengan mudah keluar dari sandbox.
+.
+
+# 3831;txt;01
+# Pemulihan::Pemulihan Segera
+# .
+
+3832;txt;01
+Pemulihan Segera mendukung Pemulihan Kilat dengan secara otomatis memanggil fungsi pemulihan begitu berkas dibuat.
+.
+
+3833;txt;01
+Fungsikan Pemulihan Segera
+.
+
+3834;txt;01
+Jenis pelipat dan berkas berikut (atau ekstensi berkas) ini akan dikecualikan dari Pemulihan Segera.
+.
+
+3835;txt;01
+Tambah &Tipe
+.
+
+3836;txt;01
+Pilih sebuah pelipat untuk dikecualikan dari Pemulihan Segera.
+.
+
+3837;txt;01
+Masukkan jenis berkas (atau ekstensi berkas) untuk dikecualikan dari Pemulihan Segera
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control:  Sandbox Settings:  Delete
+#----------------------------------------------------------------------------
+
+# 3841;txt;01
+# Penghapusan::Panggilan
+# .
+
+3841;txt;02
+Penghapusan
+.
+
+3842;txt;01
+Penghapusan Panggilan
+.
+
+3843;txt;01
+Isi sandbox ini bisa dihapus secara otomatis ketika program dalam sandbox terakhir usai dan sandbox menjadi tak aktif.
+.
+
+3844;txt;01
+Hapus isi sandbox secara otomatis
+.
+
+3845;txt;01
+Jika ada berkas dalam sandbox yang memenuhi syarat untuk dipulihkan, Pemulihan Kilat akan diminta alih-alih penghapusan otomatis.
+.
+
+3846;txt;01
+Sebagai alternatif, sandbox ini bisa dilindungi dari penghapusan, baik secara manual dan otomatis, yang dimulai oleh Sandboxie.
+.
+
+3847;txt;01
+Jangan pernah menghapus sandbox ini atau isinya
+.
+
+# 3851;txt;01
+# Penghapusan::Perintah
+# .
+
+3852;txt;01
+Penghapusan Perintah
+.
+
+3853;txt;01
+Untuk penghapusan otomatis dan manual, perintah sistem berikut ini akan digunakan untuk menghapus isi sandbox. Jika dibiarkan kosong, perintah standar adalah RMDIR (penghapusan direktori).
+.
+
+3854;txt;01
+Jka Anda mengubah penataan ini, sertakan pula teks "%%SANDBOX%%" (dengan tanda petik). Ketika perintah dilaksanakan, teks akan diganti dengan lokasi pelipat sandbox.
+.
+
+3855;txt;01
+Atau pilih sebuah pratata perintah penghapusan:
+.
+
+3856;txt;01
+Perintah penghapusan tak menetapkan "%%SANDBOX%%" (dengan tanda petik).
+Apakah Anda yakin ingin menerima perintah penghapusan ini?
+.
+
+3857;txt;01
+Silakan Anda menuju dan memilih program - %2
+.
+
+#----------------------------------------------------------------------------
+# Program Groups
+#----------------------------------------------------------------------------
+
+3971;txt;01
+Grup Program 
+.
+
+3972;txt;01
+Anda bisa mengelompokkan beberapa program menjadi satu dan memberinya nama grup. Grup Program dapat digunakan secara bersamaan dengan penataan yang menerima nama program.
+.
+
+3974;txt;01
+&Grup Baru
+.
+
+3975;txt;01
+Masukkan nama grup baru
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control:  Sandbox Settings:  Forced Folders/Programs/Users
+#----------------------------------------------------------------------------
+
+# 3861;txt;01
+# Mulai Program::Pelipat Paksa
+# .
+
+3861;txt;02
+Mulai Program
+.
+
+3862;txt;01
+Pelipat Paksa
+.
+
+3863;txt;01
+Jika ada program dari salah satu pelipat berikut ini yang mulai di luar sandbox, program akan dipaksa berjalan dalam sandbox ini. Ini tidak berlaku jika program secara tersurat dimulai dalam sandbox lain.
+.
+
+3864;txt;01
+Anda bisa memaksa Otojalan CD/DVD Windows agar berjalan dalam sandbox, dengan memasukkan huruf penggerak CD-ROM dan DVD-ROM Anda ke dalam senarai berikut ini.
+.
+
+3865;txt;01
+Pelipat Paksa mengambil alih kuasa Program Paksa.
+.
+
+3866;txt;01
+Pilih sebuah pelipat untuk ditambahkan ke dalam senarai pelipat paksa.
+.
+
+# 3871;txt;01
+# Mulai Program::Program Paksa
+# .
+
+3872;txt;01
+Program Paksa
+.
+
+3873;txt;01
+Jika ada di antara program berikut ini yang mulai di luar sandbox, program akan dipaksa untuk berjalan dalam sandbox ini. Ini tidak berlaku jika program secara tersurat dimulai dalam sandbox lain.
+.
+
+# 3961;txt;01
+# Mulai Program::Pengguna Paksa
+# .
+
+# 3962;txt;01
+# Pengguna Paksa
+# .
+
+# 3963;txt;01
+# Jika ada di antara akun pengguna berikut ini yang log masuk ke dalam komputer ini, seluruh sesi log masuk akan dipaksa untuk berjalan dalam sandbox ini.
+# .
+
+# 3964;txt;01
+# Untuk menghapus sandbox yang berasosiasi dengan akun pengguna paksa, log masuk ke dalam Windows sebagai pengguna tersebut, dan gunakan Sandboxie Control untuk menghapus sandbox.
+# .
+
+# 3965;txt;01
+# Pengguna Paksa mengambil alih kuasa dari Program Paksa dan Pelipat Paksa.
+# .
+
+#----------------------------------------------------------------------------
+# Sandboxie Control:  Sandbox Settings:  Linger/Leader Programs
+#----------------------------------------------------------------------------
+
+# 3881;txt;01
+# Stop Program::Program Tersisa
+# .
+
+3881;txt;02
+Stop Program
+.
+
+3882;txt;01
+Program Tersisa
+.
+
+3883;txt;01
+Program-program berikut ini akan otomatis dihentikan jika mereka masih berjalan dalam sandbox ini setelah seluruh program lain usai.
+.
+
+# 3891;txt;01
+# Stop Program::Program Pemimpin
+# .
+
+3892;txt;01
+Program Pemimpin
+.
+
+3893;txt;01
+Program-program berikut ini dianggap sebagai program utama dalam sandbox ini. Mengakhiri program ini akan menyebabkan seluruh program lain yang masih bekerja dalam sandbox ini terhenti.
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control:  Sandbox Settings:  File Migration
+#----------------------------------------------------------------------------
+
+3901;txt;01
+Perpindahan Berkas 
+.
+
+3903;txt;01
+Berkas harus dipindahkan (disalin) ke dalam sandbox sebelum mereka bisa dimodifikasi oleh program yang berjalan dalam sandbox itu. Akan tetapi, untuk berkas yang teramat besar, proses perpindahan memakan banyak waktu.
+.
+
+3904;txt;01
+Bilangan berikut ini menentukan ukuran maksimum berkas yang bisa dipindahkan. Berkas yang lebih besar dari ukuran tersebut tak akan pernah dipindahkan ke dalam sandbox, dan tak akan dimodifikasi oleh program yang berjalan dalam sandbox.
+.
+
+3905;txt;01
+Jangan pindahkan berkas yang lebih besar dari
+.
+
+3906;txt;01
+kilobita
+.
+
+3907;txt;01
+Ketika sebuah berkas terlampau besar untuk dipindahkan, pesan SBIE2102 akan diluncurkan, kecuali opsi berikut ini dicentang.
+.
+
+3908;txt;01
+Jangan luncurkan pesan saat sebuah berkas terlampau besar untuk dipindahkan
+.
+
+3909;txt;01
+Penataan Perpindahan Berkas membatasi ukuran maksimum dari sebuah berkas yang bisa disalin ke dalam sandbox.
+
+Saat ini penataan ditetapkan sebesar %3 kilobita pada sandbox '%2'.
+
+Klik Oke untuk menyesuaikan nilai batas ukuran ini menjadi %4 kilobita.
+
+Anda juga dapat mengubah nilai batas ini dengan jalan membuka jendela Penataan Sandbox, dan mengembangkan halaman penataan Perpindahan Berkas.
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control:  Sandbox Settings:  Internet/Start Restrictions
+#----------------------------------------------------------------------------
+
+# 3911;txt;01
+# Pembatasan::Akses Internet
+# .
+
+3911;txt;02
+Pembatasan
+.
+
+3912;txt;01
+Akses Internet 
+.
+
+3913;txt;01
+Program berikut ini akan menjadi satu-satunya program dalam sandbox ini yang boleh mengakses Internet.
+.
+
+3914;txt;01
+Ketika fitur ini difungsikan, program yang diinstal (atau diunduh) ke dalam sandbox ini tak akan pernah diizinkan mengakses Internet, meskipun nama mereka cocok dengan program yang ditetapkan di atas.
+.
+
+3915;txt;01
+Luncurkan pesan SBIE%2 ketika akses ditolak
+.
+
+3916;txt;01
+&Halangi Seluruh Program
+.
+
+3917;txt;01
+&Izinkan Seluruh Program
+.
+
+3918;txt;01
+Seluruh program boleh mengakses Internet
+.
+
+3919;txt;01
+Tiada program yang boleh mengakses Internet
+.
+
+3920;txt;01
+Pembatasan Akses Internet difungsikan pada sandbox '%2', dan mencegah program ini mengakses Internet.
+
+Klik Oke untuk menambahkan program '%3' ke Pembatasan Akses Internet pada sandbox '%2'.
+
+Untuk mengelola Pembatasan Akses Internet, buka jendela Penataan Sandbox, dan mengembangkan grup penataan Pembatasan.
+.
+
+# 3921;txt;01
+# Pembatasan::Mulai/Jalankan Akses
+# .
+
+3922;txt;01
+Mulai/Jalankan Akses
+.
+
+3923;txt;01
+Program berikut ini akan menjadi satu-satunya program dalam sandbox ini yang boleh mulai dan berjalan.
+.
+
+3924;txt;01
+Ketika fitur ini difungsikan, program yang diinstal (atau diunduh) ke dalam sandbox ini tak akan pernah diizinkan mulai atau berjalan, meskipun nama mereka cocok dengan program yang ditetapkan di atas.
+.
+
+3928;txt;01
+Seluruh program bisa mulai dan berjalan
+.
+
+3930;txt;01
+Pembatasan Akses Mulai/Jalankan difungsikan pada sandbox '%2', dan mencegah program ini mulai dan berjalan.
+
+Klik Oke untuk menambahkan program '%3' ke Pembatasan Akses Mulai/Jalankan pada sandbox '%2'.
+
+Untuk mengelola Pembatasan Akses Mulai/Jalankan, buka jendela Penataan Sandbox, dan mengembangkan grup penataan Pembatasan.
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control:  Sandbox Settings:  Low Level Access / Hardware Access
+#----------------------------------------------------------------------------
+
+# 3931;txt;01
+# Pembatasan::Akses Aras-Rendah 
+# .
+
+3932;txt;01
+Akses Aras-Rendah
+.
+
+3933;txt;01
+Penataan berikut ini melemahkan proteksi yang disanggupi Sandboxie. Memfungsikan sebagian atau seluruh penataan ini tak dianjurkan.
+.
+
+3934;txt;01
+Izinkan program dalam sandbox ini untuk memuat pengandar moda kernel ke dalam sistem operasi
+.
+
+3935;txt;01
+Izinkan program dalam sandbox ini untuk memuat kait aplikasi (Win32) ke dalam program lain
+.
+
+3936;txt;01
+Izinkan program dalam sandbox ini untuk mensimulasi masukan tetikus dan papan ketik
+.
+
+3937;txt;01
+Izinkan program dalam sandbox ini untuk mengubah kertas dinding destop dan parameter sistem lainnya
+.
+
+3938;txt;01
+Izinkan program dalam sandbox ini untuk mengelola konfigurasi perangkat keras
+.
+
+# 3951;txt;01
+# Pembatasan::Akses Perangkat Keras
+# .
+
+3952;txt;01
+Akses Perangkat Keras
+.
+
+3953;txt;01
+Izinkan program dalam sandbox ini untuk mengubah sandi lewat akun pengguna
+.
+
+3954;txt;01
+Izinkan program untuk mengubah parameter jaringan dan tembok api
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control:  Sandbox Settings:  Drop Rights
+#----------------------------------------------------------------------------
+
+# 3941;txt;01
+# Pembatasan::Pelepasan Hak
+# .
+
+3942;txt;01
+Pelepasan Hak
+.
+
+3943;txt;01
+Sandboxie harus melumpuhkan sedikit saja hak keamanan milik program yang diawasinya demi menjamin isolasi.
+.
+
+3944;txt;01
+Akan tetapi, jika Anda menggunakan akun administratif atau pengguna berkuasa, Sandboxie dapat melumpuhkan lebih banyak lagi hak keamanan, serupa dengan 
+efek kegunaan Pelepasan Hak.
+.
+
+3945;txt;01
+Lepaskan hak dari Administrator dan grup Pengguna Berkuasa
+.
+
+3946;txt;01
+Dianjurkan agar Anda membiarkan penataan ini difungsikan, sebagai kompensasi atas beberapa proteksi Sandboxie yang tak tersedia dalam edisi Windows 64-bit.
+.
+
+3947;txt;01
+Untuk mengaktifkan proteksi yang lebih baik dalam Windows 64-bit, silakan Anda menggunakan perintah Proteksi Eksperimental dari menu Konfigurasi.
+.
+
+3949;txt;01
+Penataan Pelepasan Hak difungsikan pada sandbox '%2', dan mencegah pemakaian privilese Administrator.
+
+Klik Oke untuk melumpuhkan penataan Pelepasan Hak pada sandbox '%2', dan mengizinkan pemakaian privilese Administrator pada sandbox.
+
+Anda selalu dapat mengubah penataan Pelepasan Hak dengan jalan membuka jendela Penataan Sandbox, dan mengembangkan grup penataan Pembatasan.
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control:  Sandbox Settings:  Resource Access
+#----------------------------------------------------------------------------
+
+4001;txt;01
+Akses Sumber Daya::Akses Berkas::Akses Langsung
+.
+
+4002;txt;01
+Akses Berkas Langsung (OpenFilePath)
+.
+
+4003;txt;01
+Berkas dan pelipat berikut ini akan bisa diakses secara langsung oleh program yang berjalan dalam sandbox ini, tanpa efek sandbox apa pun.
+.
+
+4004;txt;01
+Hal ini tak akan diterapkan terhadap program yang telah diinstal atau diunduh ke dalam sandbox.
+Lihat pula: penataan Akses Penuh.
+.
+
+4011;txt;01
+Akses Sumber Daya::Akses Berkas::Akses Penuh
+.
+
+4012;txt;01
+Akses Berkas Penuh (OpenPipePath)
+.
+
+4013;txt;01
+Berkas dan pelipat berikut ini akan bisa diakses secara langsung oleh program yang berjalan dalam sandbox ini, tanpa efek sandbox apa pun.
+.
+
+4014;txt;01
+Tak seperti penataan Akses Langsung, penataan ini diterapkan terhadap seluruh program, termasuk program-program yang telah diinstal atau diunduh ke dalam sandbox.
+.
+
+4021;txt;01
+Akses Sumber Daya::Akses Berkas::Akses Terhalang
+.
+
+4022;txt;01
+Akses Berkas Terhalang (ClosedFilePath)
+.
+
+4023;txt;01
+Berkas dan pelipat berikut ini tak akan bisa diakses sama sekali oleh seluruh program yang berjalan dalam sandbox ini.
+.
+
+4024;txt;01
+Jika sebuah berkas atau pelipat cocok bukan saja dengan penataan Akses Berkas lain, namun juga dengan penataan Akses Terhalang, maka penataan Akses Terhalang akan mengambil alih kuasa.
+.
+
+4025;txt;01
+Berbagi berkas Windows dapat digunakan untuk mengatasi penataan Akses Berkas Terhalang.
+Tambahkan sumber daya untuk menghalangi akses ke layanan berbagi berkas Windows.
+.
+
+4031;txt;01
+Akses Sumber Daya::Akses Berkas::Akses Baca-Saja
+.
+
+4032;txt;01
+Akses Berkas Baca-Saja (ReadFilePath)
+.
+
+4033;txt;01
+Berkas dan pelipat berikut ini tak akan dimodifikasi oleh program yang berjalan dalam sandbox ini.
+.
+
+4111;txt;01
+Akses Sumber Daya::Akses Berkas::Akses Khusus-Tulis
+.
+
+4112;txt;01
+Akses Berkas Khusus-Tulis (WriteFilePath)
+.
+
+4113;txt;01
+Pelipat-pelipat berikut ini akan tampak kosong bagi program-program yang berjalan dalam sandbox ini, tetapi program dapat membuat berkas baru di dalam pelipat ini.
+.
+
+4041;txt;01
+Akses Sumber Daya::Akses Registri::Akses Langsung
+.
+
+4042;txt;01
+Akses Registri Langsung (OpenKeyPath)
+.
+
+4043;txt;01
+Kunci-kunci registri berikut ini akan bisa diakses secara langsung oleh program yang berjalan dalam sandbox ini, tanpa efek sandbox apa pun.
+.
+
+4044;txt;01
+Hal ini tak akan diterapkan terhadap program yang telah diinstal atau diunduh ke dalam sandbox.
+.
+
+4051;txt;01
+Akses Sumber Daya::Akses Registri::Akses Terhalang
+.
+
+4052;txt;01
+Akses Registri Terhalang (ClosedKeyPath)
+.
+
+4053;txt;01
+Kunci-kunci registri berikut ini tak akan bisa diakses sama sekali oleh program yang berjalan dalam sandbox ini.
+.
+
+4054;txt;01
+Jika sebuah kunci registri cocok bukan saja dengan penataan Akses Registri lain, namun juga dengan penataan Akses Terhalang, maka penataan Akses Terhalang akan mengambil alih kuasa.
+.
+
+4061;txt;01
+Akses Sumber Daya::Akses Registri::Akses Baca-Saja
+.
+
+4062;txt;01
+Akses Registri Baca-Saja (ReadKeyPath)
+.
+
+4063;txt;01
+Kunci-kunci registri berikut ini tak akan dimodifikasi oleh program yang berjalan dalam sandbox ini.
+.
+
+4121;txt;01
+Akses Sumber Daya::Akses Registri::Akses Khusus-Tulis
+.
+
+4122;txt;01
+Akses Registri Khusus-Tulis (WriteKeyPath)
+.
+
+4123;txt;01
+Kunci-kunci registri berikut ini akan tampak kosong bagi program-program yang berjalan dalam sandbox ini, tetapi program dapat menulis data baru di dalam kunci ini.
+.
+
+4071;txt;01
+Akses Sumber Daya::Akses IPC::Akses Langsung
+.
+
+4072;txt;01
+Akses IPC Langsung (OpenIpcPath)
+.
+
+4073;txt;01
+Obyek NT IPC akan bisa diakses secara langsung oleh seluruh program yang berjalan dalam sandbox ini, tanpa efek sandbox apa pun.
+.
+
+4074;txt;01
+Penataan ini diterapkan terhadap seluruh program, termasuk program-program yang telah diinstal atau diunduh ke dalam sandbox.
+.
+
+4081;txt;01
+Akses Sumber Daya::Akses IPC::Akses Terhalang
+.
+
+4082;txt;01
+Akses IPC Terhalang (ClosedIpcPath)
+.
+
+4083;txt;01
+Obyek NT IPC tak akan bisa diakses oleh seluruh program yang berjalan dalam sandbox ini.
+.
+
+4084;txt;01
+Jika sebuah obyek NT IPC cocok bukan saja dengan penataan Akses IPC lain, namun juga dengan penataan Akses Terhalang apa pun, maka penataan Akses Terhalang akan mengambil alih kuasa.
+.
+
+4091;txt;01
+Akses Sumber Daya::Akses jendela 
+.
+
+4092;txt;01
+Akses jendela (OpenWinClass)
+.
+
+4093;txt;01
+Program dalam sandbox tak bisa berkomunikasi dengan jendela yang berasal dari program yang berjalan di luar sandbox, kecuali jendela dibuat dengan salah satu dari kelas jendela berikut ini.
+.
+
+4101;txt;01
+Akses Sumber Daya::Akses COM 
+.
+
+4102;txt;01
+Akses COM (OpenClsid)
+.
+
+4103;txt;01
+Program dalam sandbox tak bisa berkomunikasi dengan obyek COM yang berasal dari program yang berjalan di luar sandbox, kecuali ID kelas COM cocok dengan salah satu dari ID kelas berikut ini.
+.
+
+#----------------------------------------------------------------------------
+# Applications - General
+#----------------------------------------------------------------------------
+
+4201;txt;01
+Aplikasi
+.
+
+4202;txt;01
+&Tilik Kode
+.
+
+4203;txt;01
+Buka &Situs Web
+.
+
+4204;txt;01
+Buat &Baru
+.
+
+4205;txt;01
+Konfigurasi aplikasi ini tak termasuk alamat Web.
+.
+
+4206;txt;01
+Rupa-Rupa
+.
+
+4207;txt;01
+Sempurnakan penggunaan Sandboxie dengan aplikasi Anda yang lain dengan jalan memilihnya pada senarai di bawah ini.
+.
+
+# 4208;txt;01
+# Aplikasi::Pelipat
+# .
+
+4209;txt;01
+Pelipat
+.
+
+4210;txt;01
+Konfigurasikan lokasi pelipat yang digunakan oleh aplikasi Anda yang lain.
+.
+
+4211;txt;01
+Pilih pelipat untuk
+.
+
+4212;txt;01
+Lokasi standar:
+.
+
+4213;txt;01
+Lokasi alternatif:
+.
+
+4214;txt;02
+Lokasi alternatif untuk '%2'
+harus berisi berkas berikut ini:
+
+%3
+
+Lokasi yang dipilih tak berisi berkas ini.
+
+Silakan Anda memilih sebuah pelipat yang berisi berkas ini.
+.
+
+4215;txt;01
+Pilih pelipat yang digunakan oleh %2.
+.
+
+4216;txt;01
+Penataan di bawah ini menyusun konfigurasi aplikasi '%2'.
+.
+
+4217;txt;01
+Ketik atau pasta penataan, lalu klik Oke untuk membuat konfigurasi aplikasi lokal baru.
+.
+
+4218;txt;01
+Lokal
+.
+
+4219;txt;01
+Konfigurasi aplikasi lokal (tak resmi) Anda.
+.
+
+4220;txt;01
+Kode yang dimasukkan berisi satu galat atau lebih.
+Tak dapat membuat konfigurasi aplikasi.
+.
+
+4221;txt;01
+Untuk menetapkan pelipat aplikasi Anda, lihat halaman Pelipat.
+.
+
+4222;txt;02
+Penataan ini tak bisa diedit atau dihapus sebab merupakan bagian dari konfigurasi aplikasi:
+
+%2
+
+Untuk menghapus konfigurasi aplikasi dari sandbox,
+lihat halaman Aplikasi dalam jendela Penataan Sandbox.
+.
+
+4223;txt;01
+Konfigurasi aplikasi lokal '%2' sekarang dihapus dalam seluruh sandbox.
+Apakah Anda ingin menghapus sepenuhnya konfigurasi aplikasi ini?
+.
+
+4224;txt;01
+PDF/Pencetakan
+.
+
+4226;txt;02
+Keamanan/Privasi
+.
+
+4228;txt;01
+Kegunaan Destop 
+.
+
+4230;txt;01
+Manajer Unduhan
+.
+
+4288;txt;01
+Seluruh Aplikasi
+.
+
+4289;txt;01
+Senarai seluruh konfigurasi aplikasi, dipilah berdasarkan urutan alfabet. Senarai tak termasuk konfigurasi aplikasi lokal (tak resmi) Anda.
+.
+
+4291;txt;01
+Pengkhususan standar untuk Pemulihan Segera
+.
+
+4292;txt;01
+Senarai standar Program Tersisa
+.
+
+4293;txt;01
+Senarai standar pangkalan TCP/IP terhalang
+.
+
+4294;txt;01
+Izinkan program-program untuk memutakhirkan senarai lompat dalam batang tugas Windows
+.
+
+#----------------------------------------------------------------------------
+# Applications - Software Compatibility
+#----------------------------------------------------------------------------
+
+4251;txt;01
+Kebersesuaian Perangkat Lunak
+.
+
+4252;txt;01
+Sandboxie telah mendeteksi adanya aplikasi perangkat lunak berikut ini dalam sistem Anda.
+.
+
+4253;txt;01
+Klik Oke untuk menerapkan konfigurasi penataan yang akan menyempurnakan kebersesuaian dengan aplikasi ini.
+.
+
+4254;txt;01
+Penataan konfigurasi ini akan berdampak pada seluruh sandbox yang ada dan dalam sandbox baru.
+.
+
+4255;txt;01
+Di masa depan, jangan periksa kebersesuaian perangkat lunak
+.
+
+4256;txt;01
+Konfigurasi aplikasi ini tak bisa dihapus sebab diterapkan terhadap semua sandbox.
+Untuk menghapus konfigurasi aplikasi, gunakan alat Kebersesuaian Perangkat Lunak dalam menu Konfigurasi.
+.
+
+4257;txt;01
+Hapus &Penataan Usang
+.
+
+4258;txt;01
+Penataan kebersesuaian berikut ini tak lagi digunakan:
+
+%2
+
+Klik Oke untuk memunahkan penataan kebersesuaian.
+.
+
+4451;txt;01
+Sandboxie telah mendeteksi aplikasi-aplikasi perangkat lunak
+berkonflik berikut ini pada sistem Anda. Aplikasi-aplikasi ini
+dapat mengganggu kelancaran operasi Sandboxie.
+
+%2
+
+Silakan Anda menilik ulang halaman Konflik Dikenal pada situs web
+Sandboxie untuk informasi dan solusi lebih lanjut.
+
+Apakah Anda ingin membuka halaman web Konflik Dikenal sekarang?
+.
+
+4452;txt;01
+&Konflik Dikenal
+.
+
+#----------------------------------------------------------------------------
+# Lock Configuration
+#----------------------------------------------------------------------------
+
+4261;txt;01
+Kancing Konfigurasi
+.
+
+4262;txt;01
+Sandboxie dapat melindungi konfigurasi global dan Penataan Sandbox dari perubahan oleh pihak tak berwenang. Pilih moda proteksi guna memfungsikan atau melumpuhkannya.
+.
+
+4263;txt;01
+Hanya &akun pengguna Administrator yang boleh membuat perubahan
+.
+
+4264;txt;01
+&Sandi lewat harus dimasukkan guna membuat perubahan
+.
+
+4265;txt;01
+&Lupakan sandi lewat ketika jendela Sandboxie Control tersembunyi
+.
+
+4266;txt;01
+&Ganti Sandi Lewat 
+.
+
+4267;txt;01
+Hanya akun pengguna Administrator yang boleh memakai opsi &Lumpuhkan perintah Program Paksa 
+.
+
+4269;txt;01
+Harap pertimbangkan untuk membaca halaman dokumentasi Sandboxie mengenai proteksi konfigurasi. Apakah Anda ingin membuka halaman ini sekarang?
+.
+
+4271;txt;01
+Konfigurasi Sandboxie diproteksi oleh sebuah sandi lewat. Silakan Anda memasukkan sandi lewat sekarang.
+.
+
+4272;txt;01
+Masukkan sandi lewat baru yang digunakan untuk melindungi konfigurasi Sandboxie.
+.
+
+4273;txt;01
+Masukkan lagi sandi lewat yang sama untuk penegasan.
+.
+
+4274;txt;01
+Memasukkan sandi lewat yang keliru. Coba lagi?
+.
+
+#----------------------------------------------------------------------------
+# Program Selector
+#----------------------------------------------------------------------------
+
+4281;txt;01
+Pilih nama program
+.
+
+4282;txt;01
+Pilih nama program atau grup program
+.
+
+4283;txt;01
+Program yang belakangan ini dimulai
+.
+
+4284;txt;01
+Program yang tampil dalam Penataan Sandbox 
+.
+
+4285;txt;01
+Grup program 
+.
+
+4286;txt;01
+Pilih atau &masukkan sebuah program:
+.
+
+4287;txt;01
+Buka / Pilih &Berkas
+.
+
+#----------------------------------------------------------------------------
+# Applications - Accessibility
+#----------------------------------------------------------------------------
+
+# 4301;txt;01
+# Aplikasi::Keberkaitan
+# .
+
+4302;txt;01
+Keberkaitan
+.
+
+4303;txt;01
+Penataan berikut ini memfungsikan pemakaian Sandboxie dalam kombinasinya dengan perangkat lunak yang berkaitan. Harap dicatat bahwa sebagian kecil perlindungan Sandboxie mesti dilenyapkan ketika penataan bekerja.
+.
+
+4304;txt;01
+Untuk menggantikan keamanan yang hilang, silakan Anda berkonsultasi dengan penataan halaman Pelepasan Hak dalam grup penataan Pembatasan.
+.
+
+4305;txt;03
+Pembaca Layar:  %2
+.
+
+#----------------------------------------------------------------------------
+# Applications - Web Browser and Email Reader
+#----------------------------------------------------------------------------
+
+4321;txt;01
+Peramban Web 
+.
+
+4322;txt;01
+Pengecualian berikut ini mengizinkan peramban Web yang berjalan dalam sandbox ini untuk membuat perubahan di luar sandbox, sebagai gantinya Anda menukarkan secuil keamanan dan privasi demi kenyamanan lebih.
+.
+
+4323;txt;01
+Paksa %2 agar berjalan dalam sandbox ini
+.
+
+4324;txt;02
+Izinkan akses langsung ke data selaras %2
+.
+
+4325;txt;02
+Izinkan akses langsung ke umpan %2
+.
+
+4326;txt;02
+Izinkan akses langsung ke favorit %2
+.
+
+4327;txt;01
+Tambah favorit Internet Explorer ke pelipat Pemulihan Kilat
+.
+
+4328;txt;01
+Izinkan akses langsung ke kuki %2
+.
+
+4329;txt;01
+Simpan di luar sandbox:  Sejarah untai penelusuran dan perintah yang diajukan 
+.
+
+4330;txt;01
+Simpan di luar sandbox:  Informasi akun untuk Hotmail dan Messenger
+.
+
+4331;txt;01
+Izinkan akses langsung ke sandi lewat %2
+.
+
+4336;txt;02
+Izinkan akses langsung ke markah buku %2 dan basis data sejarah
+.
+
+4337;txt;02
+Izinkan akses langsung ke basis data penipuan %2
+.
+
+4338;txt;02
+Izinkan akses langsung ke seluruh pelipat profil %2
+.
+
+4339;txt;02
+Izinkan akses langsung ke preferensi %2
+.
+
+4340;txt;01
+Izinkan akses langsung ke manajeman sesi %2
+.
+
+4356;txt;02
+Izinkan akses langsung ke markah buku %2
+.
+
+4357;txt;02
+Lainnya
+.
+
+4358;txt;02
+Tertambah
+.
+
+4391;txt;01
+Pembaca Surel
+.
+
+4392;txt;01
+Pengecualian berikut ini mengizinkan pembaca surel yang berjalan dalam sandbox ini untuk mengakses berkas kotak surat di luar */sandbox.
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control:  Sandbox Settings:  User Accounts
+#----------------------------------------------------------------------------
+
+
+5101;txt;01
+Akun Pengguna
+.
+
+5102;txt;01
+Tambahkan akun pengguna dan grup pengguna ke dalam senarai di bawah ini untuk membatasi pemakaian sandbox khusus bagi akun tersebut. Jika senarai kosong, maka sandbox dapat dipakai oleh seluruh akun pengguna.
+.
+
+5103;txt;01
+Catatan: Penataan Program Paksa dan Pelipat Paksa untuk sebuah sandbox tidak berlaku terhadap akun pengguna yang tak dapat memakai sandbox.
+.
+
+# 5105;txt;01
+# Tambah &Pengguna
+# .
+
+5107;txt;01
+Akun pengguna Anda sekarang telah dilarang untuk menggunakan sandbox ini, 
+dan sandbox akan dihapus dari tayangan pada jendela utama.
+
+Untuk membuat sandbox kembali tampak dan dapat dipakai, gunakan perintah "Tampilkan Sandbox Tersembunyi" dari menu Sandbox.
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control:  Reveal Hidden Sandbox
+#----------------------------------------------------------------------------
+
+5122;txt;01
+Akun pengguna Anda dikecualikan dari pemakaian setiap sandbox yang tersenarai di bawah ini.
+.
+
+5123;txt;01
+Akun pengguna berikut ini diizinkan memakai sandbox yang dipilih pada saat ini.
+.
+
+5124;txt;01
+Klik tombol Oke untuk menambahkan akun pengguna '%2' Anda ke sandbox dan mendapatkan tampilan sandbox pada jendela utama.
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control:  Set Layout and Groups
+#----------------------------------------------------------------------------
+
+5142;txt;01
+Susun sandbox ke dalam grup dan sesuaikan urutan tersenarainya. Gunakan menu konteks klik kanan untuk mengelola entri di dalam pohon tata letak di bawah ini.
+.
+
+5143;txt;01
+(Puncak)
+.
+
+5145;txt;01
+&Simpan Ulang Tata Letak Standar
+.
+
+5146;txt;01
+Sisipkan &Grup
+.
+
+5147;txt;01
+&Namai Ulang
+.
+
+5148;txt;01
+&Hapus
+.
+
+5151;txt;01
+&Pindahkan
+.
+
+5152;txt;01
+&Pindahkan ke Bawah
+.
+
+5153;txt;01
+&Pindahkan ke Atas
+.
+
+5154;txt;01
+&Pindahkan Ke
+.
+
+#----------------------------------------------------------------------------
+# Getting Started Wizard
+#----------------------------------------------------------------------------
+
+7850;txt;01
+Bimbingan Perkenalan - Sandboxie
+.
+
+7851;txt;01
+Perkenalan dengan Sandboxie
+.
+
+7852;txt;01
+Selamat datang di Sandboxie!
+
+Sandboxie menjalankan program-program Anda dalam suatu ruang terisolasi yang mencegah terjadinya perubahan yang bersifat permanen terhadap program dan data dalam komputer Anda.
+
+Bimbingan ini menerangkan secara singkat prinsip-prinsip dasar pemakaian Sandboxie.
+.
+
+7853;txt;01
+Catatan:  Bimbingan ini dirancang untuk pemakaian dengan sandbox standar, DefaultBox.
+.
+
+7854;txt;01
+Cara Kerja Sandboxie (Ilustrasi)
+.
+
+7855;txt;01
+Memulai peramban Web Internet Anda di bawah Sandboxie
+.
+
+7856;txt;01
+Silakan Anda mencari pintasannya di destop Anda dan klik ganda untuk menjalankan peramban web dalam sandbox standar, DefaultBox.
+.
+
+7857;txt;01
+Klik di sini untuk menyembunyikan jendela ini dan menampilkan destop
+.
+
+7858;txt;01
+Peramban web Anda sekarang berjalan di dalam sandbox
+.
+
+7859;txt;01
+Program-program di dalam sandbox hanya dapat memodifikasi isi sandbox tersebut.
+
+Ketika Anda menyimpan atau mengunduh berkas, berkas-berkas ini akan masuk ke dalam sandbox. Bila Anda menyimpan sebuah berkas ke pelipat Destop, Dokumen atau Unduhan, Sandboxie akan menawarkan untuk memindahkan berkas keluar sandbox.
+
+Coba sekarang:  Unduh sebuah berkas dengan peramban Anda ke pelipat destop (dalam sandbox), dan pulihkan ke destop Anda yang sebenarnya.
+.
+
+7860;txt;01
+Menghapus isi sandbox Anda
+.
+
+7861;txt;01
+Anda boleh membayangkan sandbox seperti selembar kertas tembus pandang yang diletakkan di antara program dan komputer Anda.  Menghapus isi sandbox ibarat membuang selembar kertas bekas dan menggantinya dengan yang baru.
+.
+
+7862;txt;01
+Coba sekarang:  Hapus isi sandbox DefaultBox Anda.  Silakan Anda mencari ikon kuning Sandboxie di pojok layar yang disorot, dan klik:
+.
+
+7863;txt;01
+Klik-kanan di atas ikon kuning Sandboxie,
+
+lalu pilih DefaultBox, dan panggil Hapus Isi.
+.
+
+7864;txt;01
+Kita siap!
+.
+
+7865;txt;01
+Terima kasih telah meluangkan waktu guna mengikuti bimbingan ini.  Anda dapat mengunjungi situs web Sandboxie untuk bimbingan dan saran lainnya.
+
+Penataan standar pada Sandboxie menyediakan proteksi penuh, namun mungkin Anda ingin menilik ulang perintah-perintah konfigurasi sandbox dalam menu Sandbox di jendela program Sandboxie Control.
+.
+
+7866;txt;01
+Pada sistem Windows 64-bit, Anda mesti memfungsikan Proteksi Eksperimental.  Lihat menu Konfigurasi dalam Sandboxie Control.
+.
+
+#----------------------------------------------------------------------------
+# License Manager
+#----------------------------------------------------------------------------
+
+7901;txt;01
+Pengelola Lisensi Sandboxie 
+.
+
+7902;txt;01
+Kode Sistem %2
+.
+
+7903;txt;01
+Untuk seterusnya, aktifkan lisensi tanpa bertanya
+.
+
+#----------------------------------------------------------------------------
+
+7921;txt;01
+Sandboxie terdaftar dan lisensi telah diaktifkan.
+.
+
+7922;txt;01
+Sandboxie terdaftar namun lisensi mesti diaktifkan sekarang.
+.
+
+# was 3603;txt;01
+7923;txt;01
+Salinan tak terdaftar. Daftar hari ini!
+.
+
+7924;txt;01
+Lisensi Sandboxie harus diaktifkan dalam waktu %2 hari.
+.
+
+7925;txt;01
+Lisensi Sandboxie telah diaktifkan.
+.
+
+7926;txt;01
+Tanggal kedaluwarsa Kunci Produk Anda adalah %2.
+.
+
+7927;txt;01
+Kunci Produk Anda tak mempunyai tanggal kedaluwarsa.
+.
+
+#----------------------------------------------------------------------------
+
+7931;txt;01
+Salinan Sandboxie Anda terdaftar dengan Kunci Pendaftaran usang.
+.
+
+7932;txt;01
+Harap izinkan Pengelola Lisensi untuk menghubungi Peladen Lisensi dan menatar Kunci Pendaftaran usang Anda ke Kunci Produk baru. Anda tak akan dikenakan tambahan biaya untuk penataran ini.
+.
+
+7933;txt;01
+Kunci Pendaftaran Anda tak dikenal oleh Peladen Lisensi.
+.
+
+7934;txt;01
+Jika Anda telah menggunakan Kunci Pendaftaran sah yang Anda bayar, atau diberikan kepada Anda sebagai hadiah atau sebagai bagian dari sebuah promosi, maka silakan Anda mengirimkan surel ke:
+.
+
+7935;txt;01
+Kunci Produk baru adalah:
+.
+
+7936;txt;01
+Harap simpan Kunci Produk ini dalam tempat yang aman untuk rujukan mendatang. Gunakan tombol di bawah ini untuk menyalin Kunci Produk Anda ke papan klip, lalu dari situ Anda dapat memastanya ke dalam dokumen dan mencetaknya.
+.
+
+7937;txt;01
+&Tatar Kunci Pendaftaran ke Kunci Produk
+.
+
+#----------------------------------------------------------------------------
+
+# was 3612;txt;01
+7941;txt;01
+Pendaftaran Sandboxie dilakukan melalui pemroses pembayaran pihak ketiga. Mulai proses pendaftaran dengan mengunjungi halaman web Sandboxie pada tautan berikut ini.
+.
+
+7942;txt;01
+Untuk mengaktifkan lisensi Sandboxie Anda, masukkan Kunci Produk yang tercantum pada resep pembayaran, kemudian klik tombol untuk mengaktifkan lisensi Anda.
+.
+
+7943;txt;01
+Apakah Anda ingin memasukkan Kunci Produk sekarang?
+.
+
+7944;txt;01
+&Aktifkan Lisensi
+.
+
+# was first line of 3617;txt;01
+7945;txt;01
+Salinan Sandboxie Anda kini terdaftar.
+.
+
+# was second line of 3617;txt;01
+7946;txt;01
+Terima kasih atas dukungan Anda pada Sandboxie!
+.
+
+#----------------------------------------------------------------------------
+
+7951;txt;01
+Apakah Anda ingin mengaktifkan lisensi sekarang?
+.
+
+7952;txt;01
+Silakan Anda mengunjungi situs web Sandboxie pada tautan di bawah ini guna memesan Kunci Produk baru.
+.
+
+7961;txt;01
+Bersihkan Lisensi &Informasi
+.
+
+7962;txt;01
+Apakah Anda yakin hendak membersihkan informasi lisensi pada Sandboxie?
+
+Anda dapat mengaktifkan lisensi Anda kapan saja dengan memasukkan sebuah Kunci Produk.
+.
+
+#----------------------------------------------------------------------------
+
+7971;txt;01
+Ini bukan Kunci Produk yang sah.
+.
+
+7972;txt;01
+Ini bukan Kode Sistem yang sah.
+.
+
+7973;txt;01
+Ini bukan Kunci Pengaktifan yang sah.  [%2]
+.
+
+7974;txt;01
+Jawaban tak sah dari Peladen Lisensi.
+.
+
+7975;txt;01
+Pengaktifan produk gagal:
+.
+
+7976;txt;01
+Apakah Anda ingin mencoba lagi sekarang?
+.
+
+7977;txt;01
+Jika Anda ingin mengaktifkan Sandboxie pada komputer tanpa akses Internet,
+silakan Anda melihat Sandboxie Licensing FAQ untuk informasi mengenai Pengaktifan Terputus.
+.
+
+7978;txt;01
+Tanggal saat ini (%2) lebih maju daripada tanggal yang dikirim dari Peladen Lisensi (%3).
+.
+
+7982;txt;01
+Peladen Lisensi tak menyebutkan penyebab kegagalan pengaktifan.
+.
+
+7983;txt;01
+Kunci Produk tak dikenali oleh Peladen Lisensi.
+.
+
+7984;txt;01
+Kunci Produk tak bisa digunakan di luar tanggal kedaluwarsa %2.
+.
+
+7985;txt;01
+Kunci Produk diaktifkan pada terlalu banyak komputer.
+.
+
+7986;txt;01
+Kunci Produk dibatalkan sebab dipublikasikan di Internet.
+.
+
+7987;txt;01
+Kunci Produk dibatalkan sebab pesanan dikembalikan.
+.
+
+#----------------------------------------------------------------------------
+# SandboxieInstall
+#----------------------------------------------------------------------------
+
+8001;ins;01
+Tentukan Jenis Instalasi
+.
+
+8002;ins;01
+Tentukan moda Timpa atau Hapus Instalasi.
+.
+
+8003;ins;01
+Mulai
+.
+
+8004;ins;01
+Anda mempunyai instalasi Sandboxie pada pelipat berikut ini:
+.
+
+8005;ins;01
+Silakan Anda memilih bagaimana akan melanjutkan:
+.
+
+8006;ins;01
+Timpa (tatar) instalasi yang ada
+.
+
+8007;ins;01
+Hapus instalasi dan penataan yang ada
+.
+
+8008;ins;01
+Klik Mulai ketika siap untuk melanjutkan.
+.
+
+8009;ins;01
+Sebelum menghapus instalasi, gunakan Sandboxie Control untuk menghapus isi sandbox.
+.
+
+8010;ins;01
+Instalasi Pengandar 
+.
+
+8011;ins;01
+Harap mempratilik informasi di bawah ini.
+.
+
+8012;ins;01
+Klik Lanjutkan untuk menginstal dan mengaktifkan pengandar sistemik Sandboxie. Pengandar ini merupakan inti dari aplikasi Sandboxie.
+.
+
+8013;ins;01
+Anda mungkin perlu melumpuhkan alat proteksi sistem yang dapat mencegah instalasi pengandar sistemik yang telah Anda jalankan.
+.
+
+8014;ins;02
+Jika langkah ini gagal dan komputer Anda terkancing atau memulai ulang, silakan Anda memulai ulang komputer dalam Moda Aman, kemudian jalankan program instalasi ini guna menghapus Sandboxie.
+.
+
+8015;ins;01
+Pengandar terinstal sukses pada seluruh sistem.
+.
+
+8016;ins;01
+Harap tunggu selama Sandboxie tengah dihapus instalasinya.
+.
+
+8021;ins;01
+Jalankan program dalam sandbox.lnk
+.
+
+8022;ins;01
+Menjalankan program apa saja di bawah pengawasan Sandboxie
+.
+
+8023;ins;01
+Menu Mulai Sandboxie.lnk
+.
+
+8024;ins;01
+Memilih sebuah program dari Menu Mulai agar berjalan di bawah pengawasan Sandboxie
+.
+
+8025;ins;01
+Jalankan peramban dalam sandbox.lnk
+.
+
+8026;ins;01
+Menjalankan peramban web standar di bawah pengawasan Sandboxie
+.
+
+8027;ins;01
+Jalankan Penjelajah dalam sandbox.lnk
+.
+
+8028;ins;01
+Menjelajahi destop dan komputer lokal di bawah pengawasan Sandboxie
+.
+
+8029;ins;01
+Sandboxie Control.lnk
+.
+
+8030;ins;01
+Membuka panel Sandboxie Control 
+.
+
+8031;ins;01
+Hapus instalasi Sandboxie.lnk
+.
+
+8032;ins;01
+Menghapus Instalasi Sandboxie
+.
+
+8033;ins;01
+=copy:3698
+.
+
+8041;ins;01
+Sandboxie hanya bisa diinstal pada Microsoft Windows versi berikut ini:
+.
+
+8042;ins;01
+Sandboxie harus diinstal melalui akun pengguna yang memiliki privilese Administrator atas sistem.
+
+Jika Anda menggunakan Windows dengan Kendali Akun Pengguna (UAC) difungsikan, pastikan bahwa Anda memulai paket instalasi dengan perintah Jalankan selaku administrator.
+.
+
+8043;ins;01
+Versi Sandboxie 32-bit tak bisa diinstal pada sistem operasi 64-bit.
+.
+
+8044;ins;01
+Versi Sandboxie 64-bit tak bisa diinstal pada sistem operasi 32-bit.
+.
+
+8051;ins;01
+Program Sandboxie Control tengah berjalan.
+
+Klik Oke untuk menutupnya, kemudian lanjutkan instalasi.
+
+Klik Batal untuk menggugurkan instalasi.
+.
+
+8052;ins;01
+Tak bisa membuat atau memutakhirkan berkas program Sandboxie.
+
+Mohon pastikan bahwa Sandboxie Control tidak sedang berjalan, dan tak ada program yang berjalan dalam sandbox.
+
+Kemudian klik Oke untuk mencoba lagi instalasi.
+
+Atau klik Batal untuk menggugurkan instalasi.
+.
+
+8053;ins;01
+*** KmdUtil gagal.  Instalasi atau penghapusan instalasi mungkin tak rampung dengan sukses. ***
+.
+
+8054;ins;01
+Apakah Anda ingin menyimpan konfigurasi berkas Sandboxie.ini?
+
+Pilih YA untuk menyimpan penataan konfigurasi dalam berkas Sandboxie.ini.
+
+Pilih TIDAK untuk menghapus berkas Sandboxie.ini dan memunahkan penataan konfigurasi Anda.
+.
+
+8055;ins;01
+Ada pembaruan online dari Templates.ini dan/atau terjemahan untuk versi sandboxie ini, apakah Anda ingin menginstalnya?
+.
+
+#----------------------------------------------------------------------------
+# KmdUtil
+#----------------------------------------------------------------------------
+
+8101;txt;01
+Tak bisa menginstal pengandar untuk saat ini.
+
+Silakan Anda memulai ulang komputer, kemudian jalankan lagi prosedur instalasi.
+
+Fungsi yang gagal ialah: %2
+.
+
+8102;txt;01
+Tak bisa menghentikan layanan untuk saat ini.
+Layanan '%2' sedang sibuk.
+
+Silakan Anda mengklik Oke untuk mencoba ulang.
+.
+
+8103;txt;01
+Ini usaha pertama dari tiga percobaan ulang.
+.
+
+8104;txt;01
+
+
+Ini usaha kedua dari tiga percobaan ulang.
+.
+
+8105;txt;01
+Ini percobaan ulang ketiga sekaligus terakhir.
+.
+
+8106;txt;02
+Program-program berikut ini mesti ditutup sebelum instalasi dapat dilanjutkan.
+Klik Oke untuk menutup program-program ini dan melanjutkan. Klik Batal untuk menggugurkan instalasi.
+.

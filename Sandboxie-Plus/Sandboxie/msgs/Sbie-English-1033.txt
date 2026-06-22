@@ -1,0 +1,4361 @@
+#----------------------------------------------------------------------------
+# SbieDrv
+#
+# Initialization errors issued to the System event Log
+#----------------------------------------------------------------------------
+
+1101;evt;inf;01
+SBIE1101 Sandboxie driver (SbieDrv) version %2 initialized
+.
+
+1102;evt;inf;01
+SBIE1102 Sandboxie driver (SbieDrv) unloading
+.
+
+1103;evt;err;01
+SBIE1103 Sandboxie driver (SbieDrv) version %2 failed to start
+.
+
+1104;evt;err;01
+SBIE1104 Insufficient system resources to complete initialization
+.
+
+1105;evt;err;01
+SBIE1105 Unknown operating system version:  %2
+.
+
+1106;evt;err;01
+SBIE1106 error %2, detail %3
+.
+
+# 1107;evt;err;01
+# SBIE1107 Cannot access LocalSystem account %2
+# .
+
+1108;evt;err;01
+SBIE1108 Procedure %2 could not be analysed
+.
+
+# 1109;evt;err;01
+# SBIE1109 Invalid license information:  %2
+# .
+
+1110;evt;err;01
+SBIE1110 Cannot intercept type %3, error %2
+.
+
+1111;evt;err;01
+SBIE1111 System DLL %3 could not be loaded %2
+.
+
+1112;evt;err;01
+SBIE1112 Procedure %2 could not be located
+.
+
+1113;evt;err;01
+SBIE1113 Cannot find Nt system service, reason %2
+.
+
+1114;evt;err;01
+SBIE1114 Cannot find Zw system service, reason %2
+.
+
+1116;evt;err;01
+SBIE1116 Driver failed to register process notification routine %2
+.
+
+1119;evt;err;01
+SBIE1119 Cannot create API device %2
+.
+
+1120;evt;err;01
+SBIE1120 Mismatch in service %2
+.
+
+1121;evt;err;01
+SBIE1121 Hook failed for service %2
+.
+
+1122;evt;err;01
+SBIE1122 Error:  %2
+.
+
+#----------------------------------------------------------------------------
+# SbieDrv
+#
+# Error Messages to both Event and Popup Logs
+#----------------------------------------------------------------------------
+
+1151;evt;pop;err;01
+SBIE1151 Cannot handle instruction %2
+.
+
+1152;evt;pop;err;01
+SBIE1152 Trampoline allocation failed %2
+.
+
+1153;evt;pop;err;01
+SBIE1153 Sandboxie initialization failed.  Close all programs and then re-install Sandboxie  OR  restart your computer.
+.
+
+1205;evt;pop;err;01
+SBIE1205 Invalid DynData found in registry, error: %2
+.
+
+1206;evt;pop;err;01
+SBIE1206 Your Windows build (%2) is not yet supported by sandboxie, error: %3
+.
+
+#----------------------------------------------------------------------------
+# SbieDrv
+#
+# Error Messages to Popup Log
+#----------------------------------------------------------------------------
+
+1201;pop;err;01
+SBIE1201 Not enough memory
+.
+
+# 1202;pop;err;01
+# SBIE1202 Cannot update license information:  %2
+# .
+
+1203;pop;err;01
+SBIE1203 Cannot build path list (error in %2)
+.
+
+1204;pop;err;01
+SBIE1204 Sandbox creation failed for %3 %2
+.
+
+1207;pop;err;01
+SBIE1207 Your Windows build (%2) is not yet supported by Sandboxie, which means applications will run without security isolation!
+.
+
+1211;pop;err;01
+SBIE1211 Could not initiate sandboxing for process %2
+.
+
+1212;pop;err;01
+SBIE1212 Cannot create directory '%3' %2
+.
+
+1213;pop;err;01
+SBIE1213 Cannot create object directory '%3' %2
+.
+
+# 1214;pop;err;01
+# SBIE1214 Cannot inject SbieDll %2
+# .
+
+# 1215;pop;err;01
+# SBIE1215 Cannot resolve path to process image %2
+# .
+
+# 1216;pop;err;01
+# SBIE1216 Could not query security ID %2
+# .
+
+# 1217;pop;err;01
+# SBIE1217 Could not find parent process
+# .
+
+# 1221;pop;err;01
+# SBIE1221 Cannot create job:  %2
+# .
+
+1222;pop;err;02
+SBIE1222 Error with security token:  %2
+.
+
+# 1223;pop;err;01
+# SBIE1223 Cannot replace token:  %2
+# .
+
+# 1224;pop;err;01
+# SBIE1224 Cannot query token:  %2
+# .
+
+1231;pop;err;01
+SBIE1231 Initialization failed for process %3 %2
+.
+
+1241;pop;err;01
+SBIE1241 Cannot mount registry hive:  %2
+.
+
+1242;pop;err;01
+SBIE1242 Monitor buffer overflow
+.
+
+#----------------------------------------------------------------------------
+# SbieDrv
+#
+# Informational Messages to Popup Log
+#----------------------------------------------------------------------------
+
+1301;pop;inf;01
+SBIE1301 Program '%2' was launched outside of the sandbox
+.
+
+# 1302;pop;inf;01
+# SBIE1302 Sandbox '%2' is not defined or not enabled
+# .
+
+# 1303;pop;inf;01
+# SBIE1303 Only one sandbox can be active at a time
+# .
+
+# 1304;pop;inf;01
+# SBIE1304 Blocked simulated keyboard or mouse input by process '%2'
+# .
+
+1305;pop;inf;02
+SBIE1305 Blocked sandboxed image from being loaded - %2
+.
+
+1306;pop;inf;01
+SBIE1306 Sandboxie driver (SbieDrv) cannot be unloaded now
+.
+
+1307;pop;inf;02
+SBIE1307 Program cannot access the Internet due to restrictions - %2
+.
+
+1308;pop;inf;02
+SBIE1308 Program cannot start due to restrictions - %2
+.
+
+1309;pop;inf;01
+SBIE1309 Denied attempt to change account password
+.
+
+# 1310;pop;inf;01
+# SBIE1310 Extended features are disabled until the license is reactivated
+# .
+
+# 1311;pop;inf;01
+#SBIE1311 Blocked request to change desktop wallpaper by process '%2'
+#.
+
+1312;pop;inf;01
+SBIE1312 Blocked request to start a 16-bit DOS program in the sandbox
+.
+
+1313;pop;inf;01
+SBIE1313 Blocked direct disk access by process '%2'
+.
+
+1314;pop;inf;01
+SBIE1314 Blocked request to alter network/firewall settings by process '%2'
+.
+
+# 1315;pop;inf;01
+# SBIE1315 Possibly due to conflict with software:  %2
+# .
+
+1316;pop;inf;01
+SBIE1316 Blocked request to generate device event in the sandbox
+.
+
+1317;pop;inf;02
+SBIE1317 Blocked '%2' from trying to access sandbox file root '%3'
+.
+
+1318;pop;inf;02
+SBIE1318 Blocked '%2' from trying to access sandboxed process '%3'
+.
+
+1319;pop;inf;01
+SBIE1319 Blocked spooler print to file, %2 %3
+.
+
+1320;pop;wrn;01
+SBIE1320 To allow print spooler to write outside the sandbox for this process, please double-click on this message line
+.
+
+1321;pop;inf;01
+SBIE1321 Program '%2' was forced into sandbox %3
+.
+
+1399;pop;inf;01
+%0
+.
+
+#----------------------------------------------------------------------------
+# SbieDrv
+#
+# Configuration Error Messages to both Event and Popup Logs
+#----------------------------------------------------------------------------
+
+1401;evt;pop;inf;01
+SBIE1401 Configuration file not found, using defaults
+.
+
+1402;evt;pop;wrn;01
+SBIE1402 Configuration file error in line %3:  %2
+.
+
+1403;evt;pop;wrn;01
+SBIE1403 Configuration file error in line %2:  line too long
+.
+
+1404;evt;pop;wrn;01
+SBIE1404 Configuration file error in line %2:  too many lines
+.
+
+1405;evt;pop;wrn;01
+SBIE1405 Configuration file error in line %2:  syntax error
+.
+
+1406;evt;pop;err;01
+SBIE1406 Missing or invalid expansion for %3:  %2
+.
+
+# 1407;evt;pop;err;01
+# SBIE1407 Invalid value for setting %2, using default
+# .
+
+1408;pop;err;01
+SBIE1408 Unknown user name for SID:  %2
+.
+
+1409;evt;pop;wrn;01
+SBIE1409 The Templates.ini file cannot be opened %2
+.
+
+1410;evt;pop;wrn;01
+SBIE1410 The following message indicates an error in the Templates.ini file
+.
+
+1411;evt;pop;wrn;01
+SBIE1411 Sandbox %2 specifies unknown template %3
+.
+
+1412;evt;pop;err;01
+SBIE1412 In text: %2
+.
+
+1413;evt;pop;wrn;01
+SBIE1413 The box include folder %3 file cannot be opened, error %2
+.
+
+1414;evt;pop;wrn;01
+SBIE1414 The following message indicates an error %2 in a box include %3
+.
+
+1415;evt;pop;wrn;01
+SBIE1415 Portable box name mismatch (ini name must match box section) in a box include %3
+.
+
+1416;evt;pop;wrn;01
+SBIE1416 Portable box name is already in use by another box, include %3
+.
+
+#----------------------------------------------------------------------------
+# SbieDrv
+#
+# Messages from user mode -- informational -- 2101 through 2199
+#----------------------------------------------------------------------------
+
+2101;pop;inf;01
+SBIE2101 Object name not found: %3, error %2
+.
+
+2102;pop;inf;01
+SBIE2102 File is too large to copy into sandbox - %2
+.
+
+2103;pop;inf;01
+SBIE2103 Denied attempt to load system driver '%2'
+.
+
+2104;pop;inf;02
+SBIE2104 Denied attempt to end this Windows session - %2
+.
+
+# 2105;pop;inf;01
+# SBIE2105 Sandboxed service successfully started:  %2
+# .
+
+# 2106;pop;inf;01
+# SBIE2106 Please enable "Run As UAC Administrator" in Sandboxie Control, File menu
+# .
+
+# 2107;pop;inf;01
+# SBIE2107 Preparing WinSxS assembly '%2'
+# .
+
+2108;pop;inf;01
+SBIE2108 Faking successful completion for program '%2'
+.
+
+# 2109;pop;inf;01
+# SBIE2109 Click OK when the program or installation has completed.
+# .
+
+# 2110;pop;inf;01
+# SBIE2110 Preparing WinSxS dependencies for '%2'
+# .
+
+2111;pop;inf;01
+SBIE2111 Process is not accessible: %3, call %2
+.
+
+2112;pop;inf;01
+SBIE2112 Object is not accessible: %3, call %2
+.
+
+2113;pop;inf;01
+SBIE2113 File is too large to copy into sandbox, creating empty file - %2
+.
+
+2114;pop;inf;01
+SBIE2114 File is too large to copy into sandbox, denying access - %2
+.
+
+2115;pop;inf;01
+SBIE2115 File is too large to copy into sandbox, opening in read only - %2
+.
+
+2180;pop;inf;01
+SBIE2180 LowLevel.dll error %2
+.
+
+2181;pop;inf;01
+SBIE2181 LowLevel.dll detour failed to load SbieDll.dll into target process.
+.
+
+2189;pop;inf;01
+SBIE2189 %2 is likely a Chromium-based application, but the image type is not Chrome; it will likely fail.
+.
+
+# %2 = Mozilla Firefox
+2191;pop;inf;01
+SBIE2191 %2 should not be updated while running under Sandboxie.
+.
+
+2192;pop;inf;01
+SBIE2192 To update the program, run it outside of the supervision of Sandboxie.
+.
+
+2193;pop;inf;01
+SBIE2193 Make sure to delete the sandbox after completing the update process.
+.
+
+2194;pop;inf;01
+SBIE2194 MSI installer requires %2 option to be set in the ini to be able to work correctly, however this option weakens the isolation.
+.
+
+2195;pop;inf;01
+SBIE2195 To run Explorer.exe sandboxed, the access for COM infrastructure must not be Open.
+.
+
+2196;pop;inf;01
+SBIE2196 To run the MSI Installer sandboxed, the access for COM infrastructure must not be Open.
+.
+
+2198;pop;inf;01
+%0
+.
+
+2199;pop;inf;01
+%0
+.
+
+#----------------------------------------------------------------------------
+# SbieDrv
+#
+# Messages from user mode -- warning -- 2201 through 2299
+#----------------------------------------------------------------------------
+
+2201;pop;wrn;01
+SBIE2201 %2
+.
+
+# 2202;pop;wrn;01
+# SBIE2202 Missing list of installed hardware devices
+# .
+
+2203;pop;wrn;01
+SBIE2203 Failed to communicate with Sandboxie Service:  %2
+.
+
+2204;pop;wrn;01
+SBIE2204 Cannot start sandboxed service %2
+.
+
+2205;pop;wrn;01
+SBIE2205 Service not implemented:  %2
+.
+
+2206;pop;wrn;01
+SBIE2206 Failed processing AutoExec setting %2
+.
+
+2207;pop;wrn;01
+SBIE2207 Invalid value for setting '%2', using default
+.
+
+2208;pop;wrn;01
+SBIE2208 Cannot remove registry hive:  %2
+.
+
+2209;pop;wrn;01
+SBIE2209 Cannot translate SID to user name:  %2
+.
+
+2210;pop;wrn;01
+SBIE2210 Cannot start Windows Explorer for:  %2
+.
+
+2211;pop;wrn;01
+SBIE2211 Sandboxed service failed to start:  %2
+.
+
+2212;pop;wrn;01
+SBIE2212 Email reader '%2' is not configured to run sandboxed
+.
+
+2213;pop;wrn;01
+SBIE2213 Windows Credentials cannot be stored in the sandbox
+.
+
+2214;pop;wrn;01
+SBIE2214 Request to start service '%2' was denied due to dropped rights
+.
+
+# 2215;pop;wrn;01
+# SBIE2215 Failed to prepare WinSxS dependencies:  %2
+# .
+
+# 2216;pop;wrn;01
+# SBIE2216 Error preparing WinSxS assembly:  %2
+# .
+
+2217;pop;wrn;02
+SBIE2217 Request to run as Administrator was denied due to dropped rights
+.
+
+2218;pop;wrn;01
+SBIE2218 Failed to get elevated privileges:  %2
+.
+
+2219;pop;wrn;01
+SBIE2219 Request was issued by program %2
+.
+
+2220;pop;wrn;01
+SBIE2220 To permit use of Administrator privileges, please double-click on this message line
+.
+
+2221;pop;wrn;01
+SBIE2221 To add the program to Internet Access Restrictions, please double-click on this message line
+.
+
+2222;pop;wrn;01
+SBIE2222 To add the program to Start/Run Access Restrictions, please double-click on this message line
+.
+
+2223;pop;wrn;01
+SBIE2223 To increase the file size limit for copying files, please double-click on this message line
+.
+
+2224;pop;wrn;01
+SBIE2224 Sandboxed program has crashed: %2
+.
+
+2225;pop;wrn;01
+SBIE2225 An attempt was made to access an EFS file: %2
+.
+
+2226;pop;wrn;01
+SBIE2226 Process failed to start due to missing elevation, to resolve add "ApplyElevateCreateProcessFix=y" to the ini section for this box %2
+.
+
+2227;pop;wrn;01
+SBIE2227 '%2' is located on a volume which does not support 8.3 naming. This can cause issues with older applications and installers.
+.
+
+#----------------------------------------------------------------------------
+
+2230;pop;wrn;01
+SBIE2230 Failed to mount root for %2
+.
+
+2231;pop;wrn;01
+SBIE2231 Junction Target mismatch %2
+.
+
+2232;pop;wrn;01
+SBIE2232 The ImDisk Driver is not loaded
+.
+
+2233;pop;wrn;01
+SBIE2233 Cannot control the ImDisk Driver: %2
+.
+
+2234;pop;wrn;01
+SBIE2234 No free Drive letter found for temporary mount
+.
+
+2235;pop;wrn;01
+SBIE2235 Error undefining temporary drive letter: "%2"
+.
+
+2236;pop;wrn;01
+SBIE2236 %2 could not be invoked (perhaps it is not installed?)
+.
+
+2237;pop;wrn;01
+SBIE2237 Failed to unmount root %2
+.
+
+2238;pop;wrn;01
+SBIE2238 Ram Disk size is not configured, or to small, set RamDiskSizeKb=1048576 (1GB in Kilobytes) in the [GlobalSettings] ini section.
+.
+
+2239;pop;wrn;01
+SBIE2239 The root folder of sandbox %2 must be empty in order to mount a volume to it.
+.
+
+2240;pop;wrn;01
+SBIE2240 Timeout when trying to mount ImDisk volume %2
+.
+
+2241;pop;wrn;01
+SBIE2241 Box image file %2 could not be opened
+.
+
+2242;pop;wrn;01
+SBIE2242 Failed to mount box image, The specified cipher is not supported
+.
+
+2243;pop;wrn;01
+SBIE2243 Failed to mount box image, Wrong password
+.
+
+2244;pop;wrn;01
+SBIE2244 Failed to mount box image, Password required
+.
+
+2246;pop;wrn;01
+SBIE2246 Failed to mount box image, ImBox error %2
+.
+
+#----------------------------------------------------------------------------
+# SbieDrv
+#
+# Messages from user mode -- error -- 2301 through 2399
+#----------------------------------------------------------------------------
+
+2301;pop;err;01
+SBIE2301 %2
+.
+
+2302;pop;err;01
+SBIE2302 Process image configuration conflict: %2
+.
+
+2303;pop;err;01
+SBIE2303 Could not hook %2
+.
+
+2304;pop;err;01
+SBIE2304 Initialization failed for process %2
+.
+
+2305;pop;err;01
+SBIE2305 Out of memory
+.
+
+2306;pop;err;01
+SBIE2306 Could not locate user directory:  %2
+.
+
+2307;pop;err;01
+SBIE2307 Could not map drive %2
+.
+
+2308;pop;err;01
+SBIE2308 Could not create object directory:  %2
+.
+
+2309;pop;err;01
+SBIE2309 Could not disable COM+/DCOM:  %2
+.
+
+2310;pop;err;01
+SBIE2310 Name buffer is approaching overflow (%2)
+.
+
+2311;pop;err;01
+SBIE2311 Could not disable recycle bin (BitBucket):  %2
+.
+
+2312;pop;err;01
+SBIE2312 Could not enable BrowseNewProcess setting:  %2
+.
+
+2313;pop;err;01
+SBIE2313 Could not execute %2
+.
+
+2314;pop;err;01
+SBIE2314 Cancelling process %2
+.
+
+# 2315;pop;err;01
+# SBIE2315 Could not fix executable image
+# .
+
+2316;pop;err;01
+SBIE2316 Memory corrupted
+.
+
+2317;pop;err;01
+SBIE2317 Cannot initialize path list '%2'
+.
+
+2318;pop;err;01
+SBIE2318 DLL initialization failed for '%2'
+.
+
+# 2319;pop;err;01
+# SBIE2319 Activation context fails for sandboxed process %2
+# .
+
+# 2320;pop;err;01
+# SBIE2320 Could not disable Windows Explorer as desktop process:  %2
+# .
+
+2321;pop;err;01
+SBIE2321 Cannot manage device map:  %2
+.
+
+2322;pop;err;01
+SBIE2322 Cannot rewrite Sandboxie.ini:  %2
+.
+
+2323;pop;err;01
+SBIE2323 Cryptography error:  %2
+.
+
+2325;pop;err;01
+SBIE2325 Debug:  %2
+.
+
+2326;pop;err;01
+SBIE2326 Cannot prepare registry:  %2
+.
+
+2327;pop;err;01
+SBIE2327 Error in COM server:  %2
+.
+
+2328;pop;err;01
+SBIE2328 Failed to resolve chrome sandbox hook %2
+.
+
+2329;pop;err;01
+SBIE2329 Failed to find FFS sequence %2
+.
+
+2330;pop;err;01
+SBIE2330 Unspecified error when hooking %2
+.
+
+2331;pop;err;01
+SBIE2331 Service start failed:  %2
+.
+
+2332;pop;err;01
+SBIE2332 Cannot access file SbiePst.dat
+.
+
+# 2333;pop;err;01
+# SBIE2333 Incompatible software DLL found:  %2
+# .
+
+# 2334;pop;err;01
+#SBIE2334 Cannot load DLL file:  %2
+#.
+
+2335;pop;err;01
+SBIE2335 Initialization failed for process %2
+.
+
+2360;pop;err;01
+SBIE2360 Failed to inject SOCKS5 proxy:  %2
+.
+
+2336;pop;err;01
+SBIE2336 Error in GUI server:  %2
+.
+
+2337;pop;err;01
+SBIE2337 Failed to start program:  %2
+.
+
+2338;pop;err;01
+SBIE2338 Encountered unsupported architecture in process:  %2
+.
+
+# 2398;txt;01
+# SBIE2398 Service suffers exception ... at address ...
+# .
+
+# 2399;txt;01
+# SBIE2399 Service fails with error ...
+# .
+
+#----------------------------------------------------------------------------
+# SbieSvc
+#----------------------------------------------------------------------------
+
+9101;evt;err;01
+SBIE9101 Insufficient system resources
+.
+
+9153;evt;err;01
+SBIE9153 Cannot start driver (SbieDrv)
+.
+
+9154;evt;err;01
+SBIE9154 Driver (SbieDrv) and service (SbieSvc) have different version numbers
+.
+
+9156;evt;err;01
+SBIE9156 Driver initialization not completed
+.
+
+9234;evt;err;01
+SBIE9234 Service startup error %2
+.
+
+# 9201;evt;err;01
+# SBIE9201 Token error
+# .
+
+# 9202;evt;err;01
+# SBIE9202 Token error
+# .
+
+# 9203;evt;err;01
+# SBIE9203 Token error
+# .
+
+# 9204;evt;err;01
+# SBIE9204 Security descriptor error
+# .
+
+# 9205;evt;err;01
+# SBIE9205 Security descriptor error
+# .
+
+# 9206;evt;err;01
+# SBIE9206 Security descriptor error
+# .
+
+# 9207;evt;err;01
+# SBIE9207 Security descriptor error
+# .
+
+# 9208;evt;err;01
+# SBIE9208 Cannot enable SeRestorePrivilege
+# .
+
+# 9251;evt;err;01
+# SBIE9251 Port event creation failed
+# .
+
+# 9252;evt;err;01
+# SBIE9252 Port creation failed
+# .
+
+# 9253;evt;err;01
+# SBIE9253 Port thread creation failed
+# .
+
+#----------------------------------------------------------------------------
+# Common Texts
+#----------------------------------------------------------------------------
+
+3001;txt;01
+&OK
+.
+
+3002;txt;01
+&Cancel
+.
+
+3003;txt;01
+&Browse...
+.
+
+3004;txt;01
+&Close
+.
+
+3005;txt;01
+Cu&t
+.
+
+3051;txt;01
+Delete protection is enabled for the sandbox
+.
+
+3052;txt;01
+Run Sandboxed
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Start
+#----------------------------------------------------------------------------
+
+3101;txt;01
+Sandboxie Start
+.
+
+3103;txt;01
+Type the name of a program or folder and Sandboxie will open it for you.
+.
+
+3104;txt;01
+Type  .  (the point character) to explore your desktop with Sandboxie.
+.
+
+3105;txt;01
+Remove command from command history
+.
+
+3106;txt;01
+Select the sandbox in which to start the program or document.
+.
+
+3107;txt;01
+Type the name of a program or path to open the following file in the current sandbox:
+.
+
+3111;txt;01
+      Sandboxie Start Menu - %2  %0
+.
+
+3112;txt;01
+Desktop
+.
+
+3113;txt;01
+(explore folder)
+.
+
+# should match the localized folder name for Programs in the Start Menu folder
+3114;txt;01
+Programs
+.
+
+3115;txt;01
+Yes
+.
+
+3116;txt;01
+No
+.
+
+3117;txt;01
+Cancel
+.
+
+3198;txt;01
+Do you want to start a new program in the %2 sandbox?
+You received this message because you set AlertBeforeStart=y.
+.
+
+3199;txt;01
+This startup request does not appear to be invoked by the SANDBOXIE component. Are you sure you want to run it? If this is your action, you can ignore it and choose yes.
+.
+
+3202;txt;01
+Invalid command line parameter:  %2
+.
+
+3203;txt;01
+Usage: Start.exe <program name>
+.
+
+3204;txt;01
+Invalid box name parameter:  %2
+.
+
+3205;txt;01
+Could not invoke program:
+
+%2
+.
+
+3206;txt;01
+System Error Code:
+.
+
+# 3207;txt;01
+# Cannot find the Internet Explorer executable
+# .
+
+# 3208;txt;01
+# Cannot find the executable for the default Web browser
+# .
+
+3209;txt;01
+Cannot find the executable for the default mail agent
+.
+
+3210;txt;01
+Could not start Sandboxie Control program
+.
+
+# 3211;txt;01
+# Version mismatch in Sandboxie.  Try re-installing.
+# .
+
+3212;txt;01
+The Sandboxie driver (SbieDrv) is not available to sandbox programs.
+Make sure both the driver and Sandboxie service (SbieSvc) have started successfully.
+.
+
+3213;txt;01
+Could not initialize Sandboxie COM services
+.
+
+3214;txt;01
+Delete Sandbox %2:  %0
+.
+
+3215;txt;01
+The object (file or folder) may be in use by another program.
+Close any applications or windows that may prevent the access.
+.
+
+3216;txt;01
+Could not locate the sandbox folder
+.
+
+3217;txt;01
+Could not open the sandbox folder
+.
+
+3218;txt;01
+Could not open the folder containing the sandbox folder
+.
+
+3219;txt;01
+Could not move the sandbox folder out of the way
+.
+
+3220;txt;01
+Error renaming one of the long file names in the sandbox.
+The contents of the sandbox will not be deleted.
+.
+
+3221;txt;01
+Please terminate programs running in the sandbox before deleting its contents
+.
+
+3222;txt;01
+Delete command failed: %2
+.
+
+# 3231;txt;01
+# You have installed Sandboxie more than 30 days ago.
+# .
+
+# 3232;txt;01
+#Personal use of Sandboxie is permitted free of charge for as long as you wish.
+#.
+
+# 3233;txt;01
+# However, the free version will now pause for a few seconds.
+# .
+
+# 3234;txt;01
+# However, the free version permits use of one sandbox at a time.
+# .
+
+# 3235;txt;01
+# This restriction is removed in the paid version of Sandboxie.
+# .
+
+# 3236;txt;01
+# In addition, the paid version enables automatic sandboxing for selected programs.
+# .
+
+# 3237;txt;01
+# For more information and to purchase the software, please click the following link:
+# .
+
+# 3238;txt;01
+# Please wait %2 more seconds
+# .
+
+# 3239;txt;01
+# Click to close this window and continue
+# .
+
+# 3240;txt;01
+# Click to close this window and stop
+# .
+
+3241;txt;01
+Sandboxie is requesting Administrator privileges
+on behalf of a program running in a sandbox.
+.
+
+3242;txt;01
+To accept or cancel the request, activate the
+User Account Control pop-up window.
+.
+
+3243;txt;01
+Note:  The program will continue to run under the supervision
+of Sandboxie even if Administrator privileges are granted.
+However, granting Administrator rights may increase the risk
+of the application exploiting an unpatched Windows vulnerability
+or a vulnerable driver to escape the sandbox.
+.
+
+# 3244;txt;01
+#Application %2 is requesting Administrator privileges in box %3. 
+#You can allow this request (YES), in which case a UAC prompt may appear depending on your system settings. 
+#You can deny Administrator privileges but make the application believe it has them (NO), or you can abort the startup (CANCEL). 
+#
+#Note: The program will continue to run under the supervision of Sandboxie even if Administrator privileges are granted. 
+#However, granting real Administrator rights may increase the risk of the application exploiting an unpatched Windows vulnerability or a vulnerable driver to escape the sandbox. 
+#Therefore, it is generally safer to grant only fake Administrator rights, although this may cause some installers to fail.
+#.
+
+3244;txt;01
+Application %2 is requesting Administrator privileges in sandbox:
+.
+
+3245;txt;01
+You can allow this request (YES), in which case a UAC prompt may 
+appear depending on your system settings. You can deny Administrator 
+privileges but make the application believe it has them (NO), or you can 
+abort the startup (CANCEL). 
+.
+
+3246;txt;01
+Note:  The program will continue to run under the supervision of Sandboxie even if Administrator 
+privileges are granted. However, granting real Administrator rights may increase the risk of the 
+application exploiting an unpatched Windows vulnerability or a vulnerable driver to escape the 
+sandbox. Therefore, it is generally safer to grant only fake Administrator rights, 
+although this may cause some installers to fail.
+.
+
+3251;txt;01
+Run Outside Sandbox
+.
+
+3252;txt;01
+Start the program expressly outside the supervision of
+Sandboxie, even if the program is forced to run under
+Sandboxie.  This exemption from sandboxing also extends
+to any other programs that are started by this program.
+
+You can also select this option by holding the Ctrl and
+Shift keys down when you click the Run Sandboxed command.
+.
+
+3253;txt;01
+Are you sure you wish to run the program outside the sandbox?
+.
+
+3254;txt;01
+To skip this sandbox selection window, you can hold the Ctrl
+key down when you click the Run Sandboxed command.
+.
+
+3255;txt;01
+Option is disabled because the Drop Rights setting is enabled for this sandbox
+.
+
+3256;txt;01
+Option is disabled because this program is already running with Administrator privileges
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control Common
+#----------------------------------------------------------------------------
+
+3301;txt;01
+Sandboxie Control
+.
+
+3302;txt;01
+Version %2
+.
+
+3303;txt;01
+  -  Initializing
+.
+
+3304;txt;01
+Version mismatch in Sandboxie:
+
+Sandboxie Control: Version %2
+Service (SbieSvc): Version %3
+Driver (SbieDrv): Version %4
+
+Reinstall Sandboxie to resolve this problem.
+
+Aborting.
+.
+
+# 3305;txt;01
+# Could not install tray icon.  Aborting.
+# .
+
+3306;txt;01
+In the future, don't show this message
+.
+
+# 3307;txt;01
+# Enter Program Name
+# .
+
+# translate text but keep hash signs (#)
+3308;txt;01
+Programs#*.EXE#All Files#*.*##
+.
+
+3309;txt;01
+  -  Deleting Sandbox
+.
+
+3311;txt;01
+Failed to record configuration setting %3 in section %2:  %4
+.
+
+3312;txt;01
+You are not authorized to update configuration in section %2
+.
+
+3313;txt;01
+Unknown user, configuration settings will not be saved
+.
+
+3314;txt;01
+An error occurred while applying default settings for sandbox '%2'
+.
+
+3315;txt;01
+Deleting Sandbox contents
+.
+
+3316;txt;01
+Do you want to abort the operation?
+.
+
+3317;txt;01
+Preparing to delete: %2
+.
+
+3318;txt;01
+Deleting: %2
+.
+
+# 3321;txt;01
+#   -  Logon session is sandboxed
+# .
+
+# 3322;txt;01
+# Your logon session is running under the supervision of Sandboxie.
+# Deleting the contents of the sandbox will discard all changes made in the session.
+# 
+# User Account: %2
+# Sandbox: %3
+# 
+# Are you sure you wish to delete the contents of the sandbox and log off Windows?
+# .
+
+3351;txt;01
+&Remove
+.
+
+3352;txt;01
+&Add
+.
+
+3353;txt;01
+&Edit/Add
+.
+
+3354;txt;01
+&Edit
+.
+
+3355;txt;01
+Add &Program
+.
+
+# 3356;txt;01
+# Add By &Name
+# .
+
+# 3357;txt;01
+# Add By &File
+# .
+
+3358;txt;01
+Add &Folder
+.
+
+3359;txt;01
+Add &User
+.
+
+3360;txt;01
+Select &All
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control Menus
+#----------------------------------------------------------------------------
+
+3411;txt;01
+&File
+.
+
+3412;txt;01
+Terminate &All Programs
+.
+
+3413;txt;01
+Disable &Forced Programs
+.
+
+3414;txt;01
+Run As &UAC Administrator
+.
+
+3415;txt;01
+Is &Window Sandboxed?
+.
+
+3416;txt;01
+Resource Access &Monitor
+.
+
+3417;txt;01
+E&xit
+.
+
+3421;txt;01
+&View
+.
+
+3422;txt;01
+&Programs
+.
+
+3423;txt;01
+&Files and Folders
+.
+
+3424;txt;01
+&Context Menu%2Shift+F10
+.
+
+3425;txt;01
+Recovery &Log
+.
+
+3426;txt;01
+&Always on Top
+.
+
+3431;txt;01
+Sand&box
+.
+
+3432;txt;01
+Create New Sandbox
+.
+
+3433;txt;01
+Set Container Folder
+.
+
+3434;txt;01
+Reveal Hidden Sandbox
+.
+
+3435;txt;01
+Set Layout and Groups
+.
+
+3441;txt;01
+&Configure
+.
+
+3442;txt;01
+&Program Alerts
+.
+
+3443;txt;01
+Windows Shell &Integration
+.
+
+3501;txt;01
+Software &Compatibility
+.
+
+# 3503;txt;01
+# Experimental Protection (64-bit)
+# .
+
+3444;txt;01
+Forget Hidden &Messages
+.
+
+3445;txt;02
+&Tips
+.
+
+3502;txt;01
+Loc&k Configuration
+.
+
+3446;txt;01
+&Edit Configuration
+.
+
+3447;txt;01
+Re&load Configuration
+.
+
+3448;txt;01
+&Show All Tips
+.
+
+3449;txt;01
+&Hide All Tips
+.
+
+3504;txt;01
+&Support Sandboxie with Donations
+.
+
+3505;txt;01
+Contribute to Sandboxie
+.
+
+3506;txt;01
+Get Supporter Certificate
+.
+
+3507;txt;01
+Apply Supporter Certificate
+.
+
+3451;txt;01
+&Help
+.
+
+3452;txt;01
+&Help Topics (Web)
+.
+
+3453;txt;02
+Getting Started &Tutorial
+.
+
+3454;txt;01
+Check for &Updates
+.
+
+# 3455;txt;01
+# &Register Sandboxie
+# .
+
+3456;txt;01
+&About Sandboxie
+.
+
+3457;txt;01
+&Sandboxie Forum (Web)
+.
+
+# 3458;txt;01
+# Allow direct access to Windows Font Cache
+# .
+
+3459;txt;01
+Allow direct access to qWave driver (Google Hangouts)
+.
+
+3460;txt;01
+Function hooking customizations
+.
+
+3461;txt;01
+&Run Sandboxed
+.
+
+3462;txt;01
+Run Web &Browser
+.
+
+3463;txt;01
+Run Emai&l Reader
+.
+
+3464;txt;01
+Run &Any Program
+.
+
+3465;txt;01
+Run From Start &Menu
+.
+
+3466;txt;01
+Run &Windows Explorer
+.
+
+3467;txt;01
+Upgrade to Sandboxie-Plus
+.
+
+3468;txt;01
+Sandboxie-Plus Migration Guide
+.
+
+3469;txt;01
+What's new in Sandboxie-Plus
+.
+
+3471;txt;01
+&Terminate Programs
+.
+
+3472;txt;01
+&Quick Recovery
+.
+
+3473;txt;01
+&Delete Contents
+.
+
+3474;txt;01
+&Explore Contents
+.
+
+3475;txt;01
+Sandbox &Settings
+.
+
+3476;txt;01
+Re&name Sandbox
+.
+
+3477;txt;01
+Remo&ve Sandbox
+.
+
+3481;txt;01
+&Terminate Program
+.
+
+3482;txt;01
+Program &Settings
+.
+
+3483;txt;01
+&Resource Access
+.
+
+3484;txt;01
+Resource Access
+.
+
+3485;txt;01
+Show Window
+.
+
+3486;txt;01
+Hide Window
+.
+
+3487;txt;01
+&Show Errors
+.
+
+# 3488;txt;01
+# &Delete Contents of Sandbox and Log Off
+# .
+
+3491;txt;01
+Reco&ver to Same Folder
+.
+
+3492;txt;01
+Recover to &Any Folder
+.
+
+3493;txt;01
+Ad&d Folder to Quick Recovery
+.
+
+3494;txt;01
+Re&move Folder from Quick Recovery
+.
+
+3495;txt;01
+Create Desktop Shortcut
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control Main Window
+#----------------------------------------------------------------------------
+
+3511;txt;01
+Sandboxie Control will now hide its window, but will
+go on running.  To show the window, double-click the
+yellow Sandboxie icon in the system notification area.
+.
+
+3512;txt;01
+Edit changes into the Sandboxie.ini configuration file
+in the text editor window which was now opened.
+
+The revised configuration will take effect only after
+the Reload Configuration function was invoked.
+
+In most cases, the Reload Configuration function is
+invoked automatically as soon as you close the text
+editor window.
+
+You may also explicitly instruct Sandboxie Control to
+Reload Configuration at any time.
+.
+
+3513;txt;01
+Sandboxie configuration has been refreshed and
+will apply to sandboxed programs as they start.
+
+If any programs are already running sandboxed,
+the new configuration does not apply to them.
+.
+
+3514;txt;01
+There was a problem reading the configuration file.
+Sandboxie configuration has not been refreshed.
+.
+
+3515;txt;01
+Sandbox %2
+.
+
+3516;txt;01
+Active
+.
+
+3517;txt;01
+Program Name
+.
+
+3518;txt;01
+PID
+.
+
+3519;txt;01
+Window Title
+.
+
+3520;txt;01
+Quick Recovery Folders
+.
+
+3521;txt;01
+All Files and Folders
+.
+
+3522;txt;01
+Drives
+.
+
+3523;txt;01
+Network Shares
+.
+
+3524;txt;01
+User Files
+.
+
+3525;txt;01
+Personal
+.
+
+3526;txt;01
+All Users
+.
+
+3527;txt;01
+Please delete the contents of sandbox %2 before invoking this command.
+.
+
+3528;txt;01
+Enter a new name for the sandbox.
+.
+
+3529;txt;01
+Are you sure you want to remove sandbox %2?
+.
+
+3530;txt;01
+There are no processes to terminate.
+.
+
+3531;txt;01
+WARNING: The process or processes to be terminated
+will not be given the chance to save state or data.
+
+Are you sure you want to proceed with process termination?
+.
+
+3532;txt;01
+In the future, terminate processes without asking
+.
+
+3533;txt;01
+You can copy and cut files and folders from a sandboxed Windows Explorer
+folder window, and paste them directly into an unsandboxed folder window.
+.
+
+3534;txt;01
+You will be exploring the contents of the sandbox using a Windows Explorer
+window that is not running under the supervision of Sandboxie.
+
+You may open programs or documents that reside within the sandbox.
+The program or document will start under the supervision of Sandboxie.
+
+However, be advised to manipulate the contents of the sandbox using
+an instance of Windows Explorer running under Sandboxie.  To do this, use
+the command:  Sandbox > Run Sandboxed > Run Windows Explorer.
+.
+
+3535;txt;01
+An error occurred while accessing the sandbox folder.
+.
+
+3536;txt;01
+The 'hidden' indicator has been removed from all messages.
+.
+
+3537;txt;01
+The 'don't show this message' indicator has been removed from all tips.
+.
+
+3538;txt;01
+The 'don't show this message' indicator now applies to all tips.
+.
+
+3539;txt;01
+Sandbox '%2' was created %3 days ago.
+
+Please consider deleting the contents of your sandbox from time to time.
+
+To configure automatic deletion, use the Sandbox Settings command from
+the Sandbox menu in Sandboxie Control.
+.
+
+3540;txt;01
+The Sandboxie.ini configuration file cannot be edited because
+it is password-protected.  To edit the file, use the
+Lock Configuration command to disable password protection.
+.
+
+3541;txt;01
+Public
+.
+
+# 3542;txt;01
+# The Experimental Protection mode enhances the protection
+# offered by 64-bit Sandboxie, and brings it to the same
+# level as the protection offered by 32-bit Sandboxie.
+# 
+# IMPORTANT:  Experimental Protection uses undocumented
+# features of the Windows kernel.  Future updates to
+# Windows might interfere with the Experimental Protection
+# mode, and might cause system instability.
+# 
+# USE AT YOUR OWN RISK.
+# 
+# To activate the Experimental Protection mode, you must
+# restart your computer now.
+# .
+
+# 3543;txt;01
+# To disable the Experimental Protection mode, you must
+# restart your computer now.
+# 
+# Please note that the Drop Rights setting will be enabled
+# in all sandboxes.
+# .
+
+#----------------------------------------------------------------------------
+# Sandboxie Control Dialogs: About
+#----------------------------------------------------------------------------
+
+3601;txt;01
+About Sandboxie
+.
+
+# 3604;txt;01
+# Welcome to Sandboxie
+# .
+
+# 3605;txt;01
+# 
+# Sandboxie runs your applications in a protective isolation area called a sandbox.
+# 
+# Applications trapped in the sandbox are not allowed to make changes or harm your computer.
+# 
+# You can also use the sandbox to install and test new applications.
+# .
+
+# 3606;txt;01
+# If you are new to Sandboxie,
+# please take a moment to read the Getting Started tutorial.
+# .
+
+# 3607;txt;01
+# &Getting Started with Sandboxie
+# .
+
+#----------------------------------------------------------------------------
+# Sandboxie Control Dialogs: Update
+#----------------------------------------------------------------------------
+
+3621;txt;01
+Check For Updates
+.
+
+3622;txt;01
+Connect to the Sandboxie Web site to check if a newer version of the program is available?
+.
+
+3623;txt;01
+&Now
+.
+
+3624;txt;01
+Next &Week
+.
+
+3625;txt;01
+Ne&ver
+.
+
+3626;txt;01
+In the future, check for updates without asking
+.
+
+3627;txt;01
+Privacy Policy:  Your personal information is neither transmitted nor collected by Sandboxie.
+.
+
+3628;txt;01
+Update check is already in progress.  Please wait.
+.
+
+3629;txt;01
+The Sandboxie Web site does not report a newer version of Sandboxie.
+.
+
+3630;txt;01
+Sandboxie %2 is available for download.
+.
+
+3631;txt;01
+Download now?
+
+Note:  The download takes about a minute.
+You will be notified when the download completes.
+.
+
+3632;txt;01
+To download and install the new version, log into a user account
+with administrative privileges, and invoke this command again.
+.
+
+3633;txt;01
+Sandboxie %2 has been downloaded to the following location:
+
+%3
+
+Click OK to begin the installation.  If any programs are
+running sandboxed, they will be terminated.
+.
+
+3634;txt;01
+Updated failed:  An error occurred while communicating with the Sandboxie Web site.
+.
+
+3635;txt;01
+downloading new version
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control Dialogs: Run Browser
+#----------------------------------------------------------------------------
+
+3641;txt;01
+Open Web Browser
+.
+
+3642;txt;01
+Select whether to open the following Web address in a sandboxed or unsandboxed Web browser.
+.
+
+3643;txt;01
+&Sandboxed
+.
+
+3644;txt;01
+&Unsandboxed
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control Dialogs: Message Dialog
+#----------------------------------------------------------------------------
+
+3645;txt;01
+Messages from Sandboxie
+.
+
+3646;txt;01
+H&ide
+.
+
+3647;txt;01
+Hiding a message will prevent the message from being displayed
+in the future.  Hiding a message does not actually resolve the
+problems that have caused the message to be displayed.
+
+Are you sure you want to turn off reporting for message %2?
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control Dialogs: Disable Forced Programs
+#----------------------------------------------------------------------------
+
+3651;txt;01
+Temporarily Disable Forced Programs
+.
+
+3652;txt;01
+Temporarily Disable Forced Programs for
+.
+
+3653;txt;01
+seconds
+.
+
+3654;txt;01
+When you click OK, the Forced Programs mechanism will be temporarily disabled, for a duration of the number of seconds specified above, or until you select this function again.
+.
+
+3599;txt;01
+You can disable forcing of a specific program by holding the Ctrl and Shift keys down when you click the Run Sandboxed command for that program.
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control Dialogs: Resource Access Monitor
+#----------------------------------------------------------------------------
+
+3655;txt;01
+Resource Access Monitor
+.
+
+3656;txt;01
+This tool monitors programs running under the supervision of Sandboxie, and displays the resources they access.  Please consult the documentation before using this tool.
+.
+
+3657;txt;01
+Copy Contents to Clipboard and Close Window
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control Dialogs: Is Window Sandboxed
+#----------------------------------------------------------------------------
+
+3661;txt;01
+Is Window Sandboxed?
+.
+
+3662;txt;01
+Drag the Finder Tool over a window to select it, then release the mouse to check if the window is sandboxed.
+
+Press ESC to cancel.
+.
+
+3663;txt;01
+The selected window is running as part of program %2 in sandbox %3.
+.
+
+3664;txt;01
+The selected window is not running as part of any sandboxed program.
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control Dialogs: Create New Sandbox
+#----------------------------------------------------------------------------
+
+3665;txt;01
+Create a New Sandbox
+.
+
+3666;txt;01
+Enter a name for the new sandbox.
+.
+
+3667;txt;01
+Error:  Invalid sandbox name entered.  Use only letters and digits.  Spaces and other special characters are not allowed.  The name cannot exceed 32 characters in length.
+.
+
+3668;txt;01
+Error:  Duplicate sandbox name entered.  Enter a name not already in use by another sandbox.
+.
+
+3669;txt;01
+Copy settings from existing sandbox:
+.
+
+4665;txt;01
+Error:  Duplicate sandbox name entered.  The name is already used by a hidden sandbox.  Use the "Reveal Hidden Sandbox" command from the Sandbox menu.
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control Dialogs: Set Container Folder
+#----------------------------------------------------------------------------
+
+3671;txt;01
+Set Container Folder
+.
+
+3672;txt;01
+Select the drive in which sandboxes will be created and stored.
+.
+
+3673;txt;01
+For maximum compatibility with other programs, it is recommended that you leave the sandbox at the default location in the drive you select.
+.
+
+3674;txt;01
+However, you may also use the edit box below to override the default location:
+.
+
+3675;txt;01
+Note:  You are advised to delete contents in all sandboxes, before changing the container folder.
+.
+
+3676;txt;01
+Drive %2
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control Dialogs: Alerts
+#----------------------------------------------------------------------------
+
+3681;txt;01
+Program Alerts
+.
+
+3682;txt;01
+When any of following programs is launched outside any sandbox, Sandboxie will issue message SBIE1301.
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control Dialogs: Shell Integration
+#----------------------------------------------------------------------------
+
+3685;txt;01
+Windows Shell Integration
+.
+
+3686;txt;01
+Start Sandboxie Control
+.
+
+3687;txt;01
+When Windows starts
+.
+
+3688;txt;02
+When a program starts in the sandbox
+.
+
+3689;txt;01
+Shortcut Icons
+.
+
+3690;txt;01
+Add desktop shortcut for starting Web browser under Sandboxie
+.
+
+3691;txt;01
+Add Quick Launch shortcut for starting Web browser under Sandboxie
+.
+
+3692;txt;01
+Click to add more desktop shortcut icons:
+.
+
+3693;txt;01
+&Add Shortcut Icons
+.
+
+3694;txt;01
+"Run Sandboxed" Actions
+.
+
+3695;txt;01
+Add right-click action "Run Sandboxed" to files and folders
+.
+
+3696;txt;01
+Add sandboxes as targets for "Send To" action
+.
+
+3697;txt;01
+The Sandboxie Start Menu will now be displayed.  Select an
+application from the menu, and Sandboxie will create a new
+shortcut icon on your real desktop, which you can use to
+invoke the selected application under the supervision of
+Sandboxie.
+.
+
+3698;txt;01
+Sandboxed Web Browser.lnk
+.
+
+3699;txt;01
+Run &Sandboxed
+.
+
+4491;txt;01
+Open %2 in sandbox %3
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control:  Delete Sandbox / Quick Recovery / Immediate Recovery
+#----------------------------------------------------------------------------
+
+3711;txt;01
+Delete Contents|Quick Recovery
+.
+
+3712;txt;01
+The files listed below are eligible for quick recovery from the sandbox.  Select a file or folder and click either of the Recover buttons below to recover the selected item.
+.
+
+3713;txt;01
+Click Delete Contents to terminate any processes running in the sandbox, and delete its contents.
+.
+
+3714;txt;01
+&Delete Contents
+.
+
+3715;txt;01
+Immediate Recovery
+.
+
+3716;txt;02
+The following files are eligible for immediate recovery and can be moved out of the sandbox.
+.
+
+3717;txt;01
+First select files from the list above, then select a destination folder.
+.
+
+3718;txt;01
+&Recover
+.
+
+3719;txt;01
+Don't &prompt again for immediate recovery until all programs in this sandbox have ended
+.
+
+3720;txt;01
+Reco&ver to
+Same Folder
+.
+
+3721;txt;01
+Recover to
+&Any Folder
+.
+
+3722;txt;01
+There are %2 files and %3 folders in the sandbox, occupying %4 bytes of disk space.
+.
+
+3723;txt;01
+Select a folder into which the file or folder will be recovered.
+.
+
+3724;txt;01
+Or select a folder from an earlier recovery.
+.
+
+3725;txt;01
+Selected folders will be stored for later use
+.
+
+3726;txt;01
+Select a folder to add to the list of Quick Recovery folders.
+.
+
+3727;txt;01
+The folder was added to the list of Quick Recovery folders.
+
+However, at this time, there are no sandboxed items that can
+be recovered from the folder.
+.
+
+3728;txt;01
+No files have been selected for recovery.
+.
+
+3729;txt;01
+Recovery failed.  The following item could not be moved out of the sandbox:
+.
+
+3730;txt;01
+The sandbox is empty.  There is nothing to delete.
+.
+
+3731;txt;01
+Some sandboxed programs could not be stopped.  The contents of the sandbox will not be deleted.
+.
+
+3732;txt;01
+There are no files to recover at this time.
+.
+
+3733;txt;01
+File cannot be recovered because the name of the destination folder is too long.
+Please select some other destination folder.
+.
+
+3734;txt;01
+Right-click the list of folders for more options
+.
+
+3735;txt;02
+Replace all files without additional prompts
+.
+
+3736;txt;01
+&Recover && Explore
+.
+
+3737;txt;01
+&Recover && Run
+.
+
+3981;txt;01
+&Open folder in Windows Explorer outside the sandbox
+.
+
+3982;txt;01
+Remove this folder from the list
+.
+
+3983;txt;01
+Remove all folders from the list
+.
+
+3986;txt;01
+Recovery Log
+.
+
+3987;txt;01
+The following files were recently recovered and moved out of sandboxes.
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control:  Program Settings
+#----------------------------------------------------------------------------
+
+3741;txt;01
+Program Settings
+.
+
+3742;txt;01
+Sandbox:
+.
+
+3743;txt;01
+Program:
+.
+
+3744;txt;01
+View Page 1
+.
+
+3745;txt;01
+View Page 2
+.
+
+3751;txt;01
+Program Start
+.
+
+3752;txt;01
+Whenever this program starts outside any sandbox:
+.
+
+3753;txt;01
+Issue alert message SBIE1301
+.
+
+3754;txt;01
+Force program to run in this sandbox
+.
+
+3755;txt;01
+Program Stop
+.
+
+3756;txt;01
+Stop this program if it lingers in the sandbox after other programs have ended
+.
+
+3757;txt;01
+Stop other programs after this leader program has ended
+.
+
+3761;txt;01
+Internet Restrictions
+.
+
+3762;txt;01
+Any program running in this sandbox can connect to the Internet.
+.
+
+3763;txt;01
+Programs that can connect to the Internet in this sandbox:
+.
+
+3764;txt;01
+Enable restrictions and allow this program to connect to the Internet.
+.
+
+3765;txt;01
+Start/Run Restrictions
+.
+
+3766;txt;01
+Any program can be started in this sandbox.
+.
+
+3767;txt;01
+Programs that can be started in this sandbox:
+.
+
+3768;txt;01
+Enable restrictions and allow this program to start.
+.
+
+3769;txt;01
+(None)
+.
+
+3770;txt;01
+The new settings do not apply to the sandboxed
+program that is already running.  The settings
+will apply the next time this program starts.
+.
+
+# 3771;txt;01
+# (This feature is only available in the registered version of Sandboxie)
+# .
+
+3772;txt;02
+Are you sure you want to set %2 as a forced program?
+.
+
+3773;txt;02
+Are you sure you want to set %2 as a forced folder?
+.
+
+# 3774;txt;02
+# Are you sure you want to set %2 as a forced user?
+# .
+
+3775;txt;02
+You have made a change that may not be easy to undo.
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control:  Sandbox Settings
+#----------------------------------------------------------------------------
+
+3801;txt;01
+Sandbox Settings - %2
+.
+
+3802;txt;01
+This page intentionally left blank
+.
+
+3803;txt;01
+You must apply the changes in this page before you can proceed.
+.
+
+3804;txt;01
+Apply changes when switching to another page.
+.
+
+3805;txt;01
+All Programs
+.
+
+3806;txt;02
+The list below applies to
+.
+
+3807;txt;01
+Select a file or folder to add to the list of File Access exclusions.
+.
+
+3808;txt;01
+Add Resource Name
+.
+
+3809;txt;01
+Edit Resource Name
+.
+
+3551;txt;01
+(All programs except %2)
+.
+
+3552;txt;01
+Reverse the meaning of the current selection
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control:  Sandbox Settings:  Appearance
+#----------------------------------------------------------------------------
+
+3811;txt;01
+Appearance
+.
+
+3812;txt;01
+Sandboxed programs running under the supervision of Sandboxie will show the Sandboxie [#] indicator in the window title.
+.
+
+3813;txt;01
+If the following setting is enabled, the window title will also display the name of this sandbox.
+.
+
+3814;txt;01
+Show sandbox name in window title
+.
+
+3815;txt;01
+Don't show Sandboxie indicator in the window title
+.
+
+3816;txt;01
+Sandboxie can display a thick border around a window which belongs to a sandboxed program.
+.
+
+3817;txt;01
+Display a border around the window
+.
+
+3818;txt;01
+Click to change border colour
+.
+
+3819;txt;01
+Display the border only when the mouse cursor is in the window title
+.
+
+3820;txt;01
+Alpha
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control:  Sandbox Settings:  Recovery
+#----------------------------------------------------------------------------
+
+# 3821;txt;01
+# Recovery::Quick Recovery
+# .
+
+3821;txt;02
+Recovery
+.
+
+3822;txt;01
+Quick Recovery
+.
+
+3823;txt;01
+Before the contents of the sandbox are deleted, or when you manually invoke the Quick Recovery function, the following folders will be checked for sandboxed content.  If any files are found, you will get a chance to easily recover them out of the sandbox.
+.
+
+# 3831;txt;01
+# Recovery::Immediate Recovery
+# .
+
+3832;txt;01
+Immediate Recovery enhances Quick Recovery by automatically invoking the recovery function as soon as files are created.
+.
+
+3833;txt;01
+Enable Immediate Recovery
+.
+
+3834;txt;01
+The following folders and file types (or file extensions) will be excluded from Immediate Recovery.
+.
+
+3835;txt;01
+Add &Type
+.
+
+3836;txt;01
+Select a folder to exclude from Immediate Recovery.
+.
+
+3837;txt;01
+Enter a file type (or file extension) to exclude from Immediate Recovery
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control:  Sandbox Settings:  Delete
+#----------------------------------------------------------------------------
+
+# 3841;txt;01
+# Delete::Invocation
+# .
+
+3841;txt;02
+Delete
+.
+
+3842;txt;01
+Delete Invocation
+.
+
+3843;txt;01
+The contents of this sandbox can be automatically deleted when the last sandboxed program ends and the sandbox becomes inactive.
+.
+
+3844;txt;01
+Automatically delete contents of sandbox
+.
+
+3845;txt;01
+If any sandboxed files are eligible for recovery, Quick Recovery will be invoked instead of automatic delete.
+.
+
+3846;txt;01
+Alternatively, this sandbox can be protected from removal and deletion, both manual and automatic, that are initiated by Sandboxie.
+.
+
+3847;txt;01
+Never remove this sandbox or delete its contents
+.
+
+# 3851;txt;01
+# Delete::Command
+# .
+
+3852;txt;01
+Delete Command
+.
+
+3853;txt;01
+For both automatic and manual deletion, the following system command will be used to delete the contents of the sandbox.  If left blank, the default command is RMDIR (remove directory).
+.
+
+3854;txt;01
+If you change this setting, include the text "%%SANDBOX%%" (with quote marks).  When the command is executed, this text will be replaced with the location of the sandbox folder.
+.
+
+3855;txt;01
+Or select a preset delete command:
+.
+
+3856;txt;01
+The delete command does not specify "%%SANDBOX%%" (with quote marks).
+Are you sure you want to accept this delete command?
+.
+
+3857;txt;01
+Please navigate to and select the program - %2
+.
+
+#----------------------------------------------------------------------------
+# Program Groups
+#----------------------------------------------------------------------------
+
+3971;txt;01
+Program Groups
+.
+
+3972;txt;01
+You can group a number of programs together and give them a group name.  Program groups can be used with some of the settings that accept program names.
+.
+
+3974;txt;01
+Add &Group
+.
+
+3975;txt;01
+Enter new group name
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control:  Sandbox Settings:  Forced Folders/Programs/Users
+#----------------------------------------------------------------------------
+
+# 3861;txt;01
+# Program Start::Forced Folders
+# .
+
+3861;txt;02
+Program Start
+.
+
+3862;txt;01
+Forced Folders
+.
+
+3863;txt;01
+If any program starts unsandboxed from one of the following folders, it will be forced to run in this sandbox.  This does not apply if the program is explicitly started in another sandbox.
+.
+
+3864;txt;01
+You can force Windows CD/DVD AutoRun to run sandboxed, by including your CD-ROM and DVD-ROM drive letters in the following list.
+.
+
+3865;txt;01
+Forced Folders take precedence over Forced Programs.
+.
+
+3866;txt;01
+Select a folder to add to the list of forced folders.
+.
+
+# 3871;txt;01
+# Program Start::Forced Programs
+# .
+
+3872;txt;01
+Forced Programs
+.
+
+3873;txt;01
+If any of the following programs starts unsandboxed, it will be forced to run in this sandbox.  This does not apply if the program is explicitly started in another sandbox.
+.
+
+# 3961;txt;01
+# Program Start::Forced Users
+# .
+
+# 3962;txt;01
+# Forced Users
+# .
+
+# 3963;txt;01
+# If any of the following user accounts logs into this computer, the entire logon session will be forced to run in this sandbox.
+# .
+
+# 3964;txt;01
+# To delete a sandbox associated with a forced user account, log on to Windows as that user, and use Sandboxie Control to delete the sandbox.
+# .
+
+# 3965;txt;01
+# Forced Users take precedence over Forced Programs and Forced Folders.
+# .
+
+#----------------------------------------------------------------------------
+# Sandboxie Control:  Sandbox Settings:  Linger/Leader Programs
+#----------------------------------------------------------------------------
+
+# 3881;txt;01
+# Program Stop::Lingering Programs
+# .
+
+3881;txt;02
+Program Stop
+.
+
+3882;txt;01
+Lingering Programs
+.
+
+3883;txt;01
+The following programs will be automatically terminated if they are still executing in this sandbox after all other programs have ended.
+.
+
+# 3891;txt;01
+# Program Stop::Leader Programs
+# .
+
+3892;txt;01
+Leader Programs
+.
+
+3893;txt;01
+The following programs are considered primary programs in this sandbox.  Ending these programs will cause all other programs that are still executing in this sandbox to terminate.
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control:  Sandbox Settings:  File Migration
+#----------------------------------------------------------------------------
+
+3901;txt;01
+File Migration
+.
+
+3903;txt;01
+Files have to be migrated (copied) into the sandbox before they can be modified by programs running in that sandbox.  However, for very large files, the migration process takes a long time.
+.
+
+3904;txt;01
+The following number determines the maximum size of a migrate-able file.  Files larger than that size will never be migrated into the sandbox, and will not be modifiable by programs running in the sandbox.
+.
+
+3905;txt;01
+Don't migrate files larger than
+.
+
+3906;txt;01
+kilobytes
+.
+
+3907;txt;01
+When a file is too large to be migrated, message SBIE2102 will be issued, unless the following option is checked.
+.
+
+3908;txt;01
+Don't issue a message when a file is too large to migrate
+.
+
+3909;txt;01
+The File Migration setting limits the maximum size of a file that can be copied into the sandbox.
+
+The setting is currently set to %3 kilobytes in sandbox '%2'.
+
+Click OK to adjust this size limit to %4 kilobytes.
+
+You can also change this limit by opening the Sandbox Settings window, and expanding the File Migration settings page.
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control:  Sandbox Settings:  Internet/Start Restrictions
+#----------------------------------------------------------------------------
+
+# 3911;txt;01
+# Restrictions::Internet Access
+# .
+
+3911;txt;02
+Restrictions
+.
+
+3912;txt;01
+Internet Access
+.
+
+3913;txt;01
+The following programs will be the only programs in this sandbox that can access the Internet.
+.
+
+3914;txt;01
+When this feature is enabled, programs that are installed (or downloaded) into this sandbox will never be allowed to access the Internet, even if they match the program name specified above.
+.
+
+3915;txt;01
+Issue message SBIE%2 when access is denied
+.
+
+3916;txt;01
+&Block All Programs
+.
+
+3917;txt;01
+&Allow All Programs
+.
+
+3918;txt;01
+All programs can access the Internet
+.
+
+3919;txt;01
+No program can access the Internet
+.
+
+3920;txt;01
+Internet Access Restrictions are enabled in sandbox '%2', and prevent this program from accessing the Internet.
+
+Click OK to add program '%3' to Internet Access Restrictions in sandbox '%2'.
+
+To manage Internet Access Restrictions, open the Sandbox Settings window, and expand the Restrictions settings group.
+.
+
+# 3921;txt;01
+# Restrictions::Start/Run Access
+# .
+
+3922;txt;01
+Start/Run Access
+.
+
+3923;txt;01
+The following programs will be the only programs in this sandbox that can start and run.
+.
+
+3924;txt;01
+When this feature is enabled, programs that are installed (or downloaded) into this sandbox will never be allowed to start or run, even if they match the program name specified above.
+.
+
+3928;txt;01
+All programs can start and run
+.
+
+3930;txt;01
+Start/Run Access Restrictions are enabled in sandbox '%2', and prevent this program from starting and running.
+
+Click OK to add program '%3' to Start/Run Access Restrictions in sandbox '%2'.
+
+To manage Start/Run Access Restrictions, open the Sandbox Settings window, and expand the Restrictions settings group.
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control:  Sandbox Settings:  Low Level Access / Hardware Access
+#----------------------------------------------------------------------------
+
+# 3931;txt;01
+# Restrictions::Low-Level Access
+# .
+
+# 3932;txt;01
+# Low-Level Access
+# .
+
+# 3933;txt;01
+# The following settings weaken the protection afforded by Sandboxie.  Enabling any or all of these settings is not recommended.
+# .
+
+# 3934;txt;01
+# Permit programs to load kernel mode drivers into the operating system
+# .
+
+# 3935;txt;01
+# Permit programs to load application (Win32) hooks into other programs
+# .
+
+# 3936;txt;01
+# Permit programs to simulate keyboard and mouse input
+# .
+
+# 3937;txt;01
+# Permit programs to change desktop wallpapers and other system parameters
+# .
+
+# 3938;txt;01
+# Permit programs to manage hardware device configuration
+# .
+
+# 3951;txt;01
+# Restrictions::Hardware Access
+# .
+
+# 3952;txt;01
+# Hardware Access
+# .
+
+# 3953;txt;01
+# Permit programs to change user account password
+# .
+
+# 3954;txt;01
+# Permit programs to alter network and firewall parameters
+# .
+
+#----------------------------------------------------------------------------
+# Sandboxie Control:  Sandbox Settings:  Drop Rights
+#----------------------------------------------------------------------------
+
+# 3941;txt;01
+# Restrictions::Drop Rights
+# .
+
+3942;txt;01
+Drop Rights
+.
+
+3943;txt;01
+Sandboxie has to disable only a few security rights from the programs it supervises in order to guarantee isolation.
+.
+
+3944;txt;01
+However, if you are using an administrative or power user account, Sandboxie can disable more security rights, similar to the effect of the DropMyRights utility.
+.
+
+3945;txt;01
+Drop rights from Administrators and Power Users groups
+.
+
+# 3946;txt;01
+# It is recommended that you keep this setting enabled, as compensation for some measure of Sandboxie protection that is not available in 64-bit editions of Windows.
+# .
+
+# 3947;txt;01
+# To activate enhanced protection on 64-bit Windows, please use the Experimental Protection command from the Configure menu.
+# .
+
+3949;txt;01
+The Drop Rights setting is enabled in sandbox '%2', and prevents use of Administrator privileges.
+
+Click OK to disable the Drop Rights setting in sandbox '%2', and permit use of Administrator privileges in the sandbox.
+
+You can always change the Drop Rights setting by opening the Sandbox Settings window, and expanding the Restrictions settings group.
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control:  Sandbox Settings:  Print Spooler
+#----------------------------------------------------------------------------
+
+# 3950;txt;01
+# Print Spooler
+# .
+
+# 3951;txt;01
+# The Windows Print Spooler runs outside of Sandboxie's supervision.  A sandboxed application that requests the Print Spooler print to a file will be blocked, because this file would be written outside the sandbox.
+# .
+
+# 3952;txt;01
+# If you wish to allow the Print Spooler to print to a file, you can enable this setting. It is recommended that you enable this option only when needed.
+# .
+
+# 3953;txt;01
+# Allow the Windows Print Spooler to print to file.
+# .
+
+#----------------------------------------------------------------------------
+# Sandboxie Control:  Sandbox Settings:  Network Files
+#----------------------------------------------------------------------------
+
+3955;txt;01
+Network Files
+.
+
+3956;txt;01
+Network files and folders are normally visible to sandboxed applications.
+.
+
+3957;txt;01
+If you wish to block sandboxed applications from accessing files and folders on your network, you can enable this setting. Individual files and folders can be opened for sandboxed applications by adding them under Resource Access -> File Access.
+.
+
+3958;txt;01
+Block network files and folders unless specifically opened.
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control:  Sandbox Settings:  Resource Access
+#----------------------------------------------------------------------------
+
+4001;txt;01
+Resource Access::File Access::Direct Access
+.
+
+4002;txt;01
+Direct File Access (OpenFilePath)
+.
+
+4003;txt;01
+The following files and folders will be directly accessible to programs running in this sandbox, without any effects of sandboxing.
+.
+
+4004;txt;01
+This does not apply to programs that have been installed or downloaded into the sandbox.
+See also:  Full Access setting.
+.
+
+4011;txt;01
+Resource Access::File Access::Full Access
+.
+
+4012;txt;01
+Full File Access (OpenPipePath)
+.
+
+4013;txt;01
+The following files and folders will be directly accessible to programs running in this sandbox, without any effects of sandboxing.
+.
+
+4014;txt;01
+Unlike the Direct Access setting, this setting applies to all programs, including those that have been installed or downloaded into the sandbox.
+.
+
+4021;txt;01
+Resource Access::File Access::Blocked Access
+.
+
+4022;txt;01
+Blocked File Access (ClosedFilePath)
+.
+
+4023;txt;01
+The following files and folders will not be accessible at all to programs running in this sandbox.
+.
+
+4024;txt;01
+If a file or folder matches any other File Access setting, but also matches any Blocked Access setting, the Blocked Access setting will take precedence.
+.
+
+4025;txt;01
+Windows file sharing can be used to circumvent Blocked File Access settings.
+Therefore, a setting was added to block access to the Windows file sharing service.
+.
+
+4031;txt;01
+Resource Access::File Access::Read-Only Access
+.
+
+4032;txt;01
+Read-Only File Access (ReadFilePath)
+.
+
+4033;txt;01
+The following files and folders will not be modifiable to programs running in this sandbox.
+.
+
+4111;txt;01
+Resource Access::File Access::Write-Only Access
+.
+
+4112;txt;01
+Write-Only File Access (WriteFilePath)
+.
+
+4113;txt;01
+The following folders will appear empty to programs running in this sandbox, but the programs may create new files within these folders in the sandbox.
+.
+
+4041;txt;01
+Resource Access::Registry Access::Direct Access
+.
+
+4042;txt;01
+Direct Registry Access (OpenKeyPath)
+.
+
+4043;txt;01
+The following registry keys will be directly accessible to programs running in this sandbox, without any effects of sandboxing.
+.
+
+4044;txt;01
+This does not apply to programs that have been installed or downloaded into the sandbox.
+.
+
+4051;txt;01
+Resource Access::Registry Access::Blocked Access
+.
+
+4052;txt;01
+Blocked Registry Access (ClosedKeyPath)
+.
+
+4053;txt;01
+The following registry keys will not be accessible at all to programs running in this sandbox.
+.
+
+4054;txt;01
+If a registry key matches any other Registry Access setting, but also matches any Blocked Access setting, the Blocked Access setting will take precedence.
+.
+
+4061;txt;01
+Resource Access::Registry Access::Read-Only Access
+.
+
+4062;txt;01
+Read-Only Registry Access (ReadKeyPath)
+.
+
+4063;txt;01
+The following registry keys will not be modifiable to programs running in this sandbox.
+.
+
+4121;txt;01
+Resource Access::Registry Access::Write-Only Access
+.
+
+4122;txt;01
+Write-Only Registry Access (WriteKeyPath)
+.
+
+4123;txt;01
+The following registry keys will appear empty to programs running in this sandbox, but the programs may write new data within these registry keys in the sandbox.
+.
+
+4071;txt;01
+Resource Access::IPC Access::Direct Access
+.
+
+4072;txt;01
+Direct IPC Access (OpenIpcPath)
+.
+
+4073;txt;01
+The following NT IPC objects will be directly accessible to programs running in this sandbox, without any effects of sandboxing.
+.
+
+4074;txt;01
+This setting applies to all programs, including those that have been installed or downloaded into the sandbox.
+.
+
+4081;txt;01
+Resource Access::IPC Access::Blocked Access
+.
+
+4082;txt;01
+Blocked IPC Access (ClosedIpcPath)
+.
+
+4083;txt;01
+The following NT IPC objects will not be accessible at all to programs running in this sandbox.
+.
+
+4084;txt;01
+If an NT IPC object matches any other IPC Access setting, but also matches any Blocked Access setting, the Blocked Access setting will take precedence.
+.
+
+4091;txt;01
+Resource Access::Window Access
+.
+
+4092;txt;01
+Window Access (OpenWinClass)
+.
+
+4093;txt;01
+Sandboxed programs cannot communicate with windows that belong to programs running outside the sandbox, unless the window was created with one of the following window classes.
+.
+
+4101;txt;01
+Resource Access::COM Access
+.
+
+4102;txt;01
+COM Access (OpenClsid)
+.
+
+4103;txt;01
+Sandboxed programs cannot communicate with COM objects that belong to programs running outside the sandbox, unless the COM class ID matches one of the following class IDs.
+.
+
+4104;txt;01
+Resource Access::Network Access
+.
+
+4105;txt;01
+Network Access (Firewall)
+.
+
+#----------------------------------------------------------------------------
+# Applications - General
+#----------------------------------------------------------------------------
+
+4201;txt;01
+Applications
+.
+
+4202;txt;01
+&View Code
+.
+
+4203;txt;01
+Open &Web Site
+.
+
+4204;txt;01
+Create &New
+.
+
+4205;txt;01
+This application configuration does not include a Web address.
+.
+
+4206;txt;01
+Miscellaneous
+.
+
+4207;txt;01
+Improve the use of Sandboxie with your other applications by selecting them from the list below.
+.
+
+# 4208;txt;01
+# Applications::Folders
+# .
+
+4209;txt;01
+Folders
+.
+
+4210;txt;01
+Configure the folder locations used by your other applications.
+.
+
+4211;txt;01
+Select folder for
+.
+
+4212;txt;01
+Default location:
+.
+
+4213;txt;01
+Alternate location:
+.
+
+4214;txt;02
+An alternate location for '%2'
+should contain the following file:
+
+%3
+
+The selected location does not contain this file.
+
+Please select a folder which contains this file.
+.
+
+4215;txt;01
+Select the folder used by %2.
+.
+
+4216;txt;01
+The settings below compose the application configuration '%2'.
+.
+
+4217;txt;01
+Type or paste settings, then click OK to create a new local application configuration.
+.
+
+4218;txt;01
+Local
+.
+
+4219;txt;01
+Your local (unofficial) application configurations.
+.
+
+4220;txt;01
+The entered code contains one or more errors.
+Cannot create the application configuration.
+.
+
+4221;txt;01
+To specify folder locations for your applications, see the Folders page.
+.
+
+4222;txt;02
+This setting cannot be edited or removed because it is a
+part of an application configuration:
+
+%2
+
+To remove the application configuration from the sandbox,
+see the Applications pages in the Sandbox Settings window.
+.
+
+4223;txt;01
+Local application configuration '%2' is now removed in all sandboxes.
+Would you like to completely delete this application configuration?
+.
+
+4224;txt;01
+PDF/Printing
+.
+
+4226;txt;02
+Security/Privacy
+.
+
+4228;txt;01
+Desktop Utilities
+.
+
+4230;txt;01
+Download Managers
+.
+
+4288;txt;01
+All Applications
+.
+
+4289;txt;01
+List of all application configurations, sorted in alphabetical order.  The list does not include your local (unofficial) application configurations.
+.
+
+4291;txt;01
+Default exclusions for Immediate Recovery
+.
+
+4292;txt;01
+Default list of Lingering Programs
+.
+
+4293;txt;01
+Default list of blocked TCP/IP ports
+.
+
+4294;txt;01
+Permit programs to update jump lists in the Windows taskbar
+.
+
+4295;txt;01
+Default exclusions File Migration presets
+.
+
+4296;txt;01
+Default RPC Port Bindings
+.
+
+4297;txt;01
+Open Bluetooth RPC port
+.
+
+4298;txt;01
+Open Smart Card RPC port
+.
+
+4299;txt;01
+Open Simple Service Discovery Protocol (SSDP, UPnP) RPC port
+.
+
+4300;txt;01
+Open additional RPC Port Bindings
+.
+
+4306;txt;01
+Open RPC Port Bindings for UAC
+.
+
+4307;txt;01
+Block common telemetry processes
+.
+
+4308;txt;01
+Filter access to \Devices\
+.
+
+#----------------------------------------------------------------------------
+# Applications - Software Compatibility
+#----------------------------------------------------------------------------
+
+4251;txt;01
+Software Compatibility
+.
+
+4252;txt;01
+Sandboxie has detected the following software applications in your system.
+.
+
+4253;txt;01
+Click OK to apply configuration settings which will improve compatibility with these applications.
+.
+
+4254;txt;01
+These configuration settings will have effect in all existing sandboxes and in any new sandboxes.
+.
+
+4255;txt;01
+In the future, don't check software compatibility
+.
+
+4256;txt;01
+This application configuration cannot be removed because it is applied to all sandboxes.
+To remove this application configuration, use the Software Compatibility tool from the Configure menu.
+.
+
+4257;txt;01
+Remove &Old Settings
+.
+
+4258;txt;01
+The following compatibility settings are no longer in use:
+
+%2
+
+Click OK to discard these compatibility settings.
+.
+
+4451;txt;01
+Sandboxie has detected the following conflicting software
+applications in your system.  These applications might
+interfere with the correct operation of Sandboxie.
+
+%2
+
+Please review the Known Conflicts page on the Sandboxie
+web site for more information and solutions.
+
+Would you like to open the Known Conflicts web page now?
+.
+
+4452;txt;01
+&Known Conflicts
+.
+
+#----------------------------------------------------------------------------
+# Lock Configuration
+#----------------------------------------------------------------------------
+
+4261;txt;01
+Lock Configuration
+.
+
+4262;txt;01
+Sandboxie can protect global configuration and Sandbox Settings from unauthorized changes.  Select protection modes to enable or disable.
+.
+
+4263;txt;01
+Only &Administrator user accounts can make changes
+.
+
+4264;txt;01
+&Password must be entered in order to make changes
+.
+
+4265;txt;01
+&Forget password when Sandboxie Control window becomes hidden
+.
+
+4266;txt;01
+&Change Password
+.
+
+4267;txt;01
+Only Administrator user accounts can use &Disable Forced Programs command
+.
+
+4269;txt;01
+Please consider reading the Sandboxie documentation page concerning
+protection of the configuration.  Would you like to open this page now?
+.
+
+4271;txt;01
+Sandboxie configuration is protected by a password.  Please enter the password now.
+.
+
+4272;txt;01
+Enter a new password with which to protect Sandboxie configuration.
+.
+
+4273;txt;01
+Enter the same password again to confirm it.
+.
+
+4274;txt;01
+Wrong password entered.  Try again?
+.
+
+#----------------------------------------------------------------------------
+# Program Selector
+#----------------------------------------------------------------------------
+
+4281;txt;01
+Select a program name
+.
+
+4282;txt;01
+Select a program name or a program group
+.
+
+4283;txt;01
+Programs that were recently started
+.
+
+4284;txt;01
+Programs that appear in Sandbox Settings
+.
+
+4285;txt;01
+Program groups
+.
+
+4286;txt;01
+Select or &enter a program:
+.
+
+4287;txt;01
+Open / Select &File
+.
+
+#----------------------------------------------------------------------------
+# Applications - Accessibility
+#----------------------------------------------------------------------------
+
+# 4301;txt;01
+# Applications::Accessibility
+# .
+
+4302;txt;01
+Accessibility
+.
+
+4303;txt;01
+The following settings enable the use of Sandboxie in combination with accessibility software.  Please note that some measure of Sandboxie protection is necessarily lost when these settings are in effect.
+.
+
+4304;txt;01
+To compensate for the lost protection, please consult the Drop Rights settings page in the Restrictions settings group.
+.
+
+4305;txt;03
+Screen Readers:  %2
+.
+
+#----------------------------------------------------------------------------
+# Applications - Web Browser and Email Reader
+#----------------------------------------------------------------------------
+
+4321;txt;01
+Web Browser
+.
+
+4322;txt;01
+The following exclusions allow Web browsers running in this sandbox to make changes outside the sandbox, thus trading a small measure of security and privacy for greater convenience.
+.
+
+4323;txt;01
+Force %2 to run in this sandbox
+.
+
+4324;txt;02
+Allow direct access to %2 sync data
+.
+
+4325;txt;02
+Allow direct access to %2 feeds
+.
+
+4326;txt;02
+Allow direct access to %2 favourites
+.
+
+4327;txt;01
+Add Internet Explorer favourites to Quick Recovery folders
+.
+
+4328;txt;01
+Allow direct access to %2 cookies
+.
+
+4329;txt;01
+Save outside sandbox:  History of search strings and invoked commands
+.
+
+4330;txt;01
+Save outside sandbox:  Account information for Hotmail and Messenger
+.
+
+4331;txt;01
+Allow direct access to %2 passwords
+.
+
+4336;txt;02
+Allow direct access to %2 bookmark and history database
+.
+
+4337;txt;02
+Allow direct access to %2 phishing database
+.
+
+4338;txt;02
+Allow direct access to entire %2 profile folder
+.
+
+4339;txt;02
+Allow direct access to %2 preferences
+.
+
+4340;txt;01
+Allow direct access to %2 session management
+.
+
+4341;txt;01
+Allow direct access to %2 notes
+.
+
+4342;txt;01
+Enable %2 compatibility workaround
+.
+
+4356;txt;02
+Allow direct access to %2 bookmarks
+.
+
+4357;txt;02
+Other
+.
+
+4358;txt;02
+Add-ons
+.
+
+4391;txt;01
+Email Reader
+.
+
+4392;txt;01
+The following exclusions allow Email readers running in this sandbox to access mailbox files outside the sandbox.
+.
+
+4393;txt;01
+Media Players
+.
+
+4394;txt;01
+The following exclusions allow Media players running in this sandbox to access files outside the sandbox.
+.
+
+4395;txt;01
+Allow %2 direct access to the Photo folder for easier screen capture.
+.
+
+4396;txt;01
+Torrent Clients
+.
+
+4397;txt;01
+The following exclusions allow Torrent clients running in this sandbox to access files outside the sandbox.
+.
+
+4398;txt;01
+Allow %2 direct access to the Music folder for easier music library management.
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control:  Sandbox Settings:  User Accounts
+#----------------------------------------------------------------------------
+
+5101;txt;01
+User Accounts
+.
+
+5102;txt;01
+Add user accounts and user groups to the list below to limit use of the sandbox to only those accounts.  If the list is empty, the sandbox can be used by all user accounts.
+.
+
+5103;txt;01
+Note:  Forced Programs and Force Folders settings for a sandbox do not apply to user accounts which cannot use the sandbox.
+.
+
+# 5105;txt;01
+# Add &User
+# .
+
+5107;txt;01
+Your user account has now been restricted from using this sandbox, and
+the sandbox will be removed from display in the main window.
+
+To make the sandbox visible and usable, use the "Reveal Hidden Sandbox"
+command from the Sandbox menu.
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control:  Reveal Hidden Sandbox
+#----------------------------------------------------------------------------
+
+5122;txt;01
+Your user account is excluded from using any of the sandboxes listed below.
+.
+
+5123;txt;01
+The following user accounts are permitted to use the selected sandbox at this time.
+.
+
+5124;txt;01
+Click the OK button to add your user account '%2' to the sandbox and have the sandbox appear in the main window.
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control:  Set Layout and Groups
+#----------------------------------------------------------------------------
+
+5142;txt;01
+Arrange sandboxes into groups and customize the order in which they are listed.  Use the right-click context menu to manage entries in the layout tree below.
+.
+
+5143;txt;01
+(Top)
+.
+
+5145;txt;01
+&Restore Default Layout
+.
+
+5146;txt;01
+Insert &Group
+.
+
+5147;txt;01
+&Rename
+.
+
+5148;txt;01
+&Delete
+.
+
+5151;txt;01
+&Move
+.
+
+5152;txt;01
+Move &Up
+.
+
+5153;txt;01
+Move &Down
+.
+
+5154;txt;01
+Move &To
+.
+
+#----------------------------------------------------------------------------
+# Plus Tips
+#----------------------------------------------------------------------------
+
+6001;txt;01
+The classic Sandboxie UI (SbieCtrl.exe) has very limited
+resource monitoring and event tracing capabilities.
+
+For optimal troubleshooting it is highly advisable 
+to install the new UI, Sandboxie-Plus (SandMan.exe),
+which provides excellent tracing and monitoring capabilities.
+
+Do you want to download Sandboxie-Plus now?
+.
+
+6002;txt;01
+Visit <a ID="whats_new">sandboxie-plus.com</a> to learn about the new functionality of Sandboxie-Plus,
+or directly click <a ID="upgrade">here</a> to download the latest Sandboxie-Plus installer.
+.
+
+6003;txt;01
+The legacy UI of Sandboxie classic does not implement support for the network firewall functionality.
+
+You can though configure the feature supported by the core components using the ini file, rules are structured like following:
+NetworkAccess=iexplorer.exe,Allow; Port=80,443; Address=192.168.0.1-192.168.100.255; Protocol=TCP
+
+If you prefer to use a UI to control these options, please upgrade to Sandboxie-Plus, which has full UI support for all new features.
+.
+
+6004;pop;err;01
+The configuration %3 of box %2 requires a supporter certificate. Processes in this box will be terminated after 5 minutes. For prolonged use, please consider supporting this project.
+.
+
+6005;txt;01
+Note: Without administrative privileges installers will fail to start in the sandbox. Sandboxie-Plus offers an option to make many installers succeed without those privileges. You can enable this option also in the classic build manually, by adding "FakeAdminRights=y" to the ini section for this box.
+.
+
+6006;txt;01
+The legacy UI of Sandboxie classic implements only support for a couple of restriction options.
+
+Additional options like "ClosePrintSpooler=y", "OpenClipboard=n", "BlockNetParam=n" and much more can be set in the ini section for this box.
+The modern UI (SandMan.exe) also offers more customization options for Start/Run and Internet access restrictions.
+
+If you would prefer to use a UI to control these options, please upgrade to Sandboxie-Plus, which has full UI support for all new features.
+.
+
+6007;txt;01
+Sandboxie Plus offers enhanced privacy protection by switching the old behavior from a black-list mode, i.e., allowing read access to the entire drive, except blocked by Closed Path or Write Path, to a white-list mode where sandboxed programs are only allowed to read generic system locations and read access to most user data must be first explicitly granted.
+
+The legacy UI of Sandboxie classic does not implement support for this mode of operation. Although it can be configured using the ini file, it is recommended to use the modern Sandboxie-Plus UI (SandMan.exe) if you want to use privacy enhanced boxes.
+.
+
+6008;pop;err;01
+The configuration %3 of box %2 requires a supporter certificate and can not be used without it.
+.
+
+6009;pop;err;01
+The configuration %3 of box %2 requires an advanced supporter certificate.
+.
+
+6010;txt;01
+You have installed Sandboxie more than %2 days ago.
+
+So, you think David and the contributors are doing a great job?
+
+Why don't you show it by supporting the project and getting a Supporter Certificate?
+
+Sandboxie without a valid supporter certificate will now pause for a few seconds, to give you time to contemplate the possibility of supporting the project.
+.
+
+6011;txt;01
+Wait
+.
+
+6012;txt;01
+Continue
+.
+
+6013;txt;01
+Quit
+.
+
+6014;txt;01
+Get Certificate
+.
+
+#----------------------------------------------------------------------------
+# Getting Started Wizard
+#----------------------------------------------------------------------------
+
+7850;txt;01
+Getting Started Tutorial - Sandboxie
+.
+
+7851;txt;01
+Getting Started with Sandboxie
+.
+
+7852;txt;01
+Welcome to Sandboxie!
+
+Sandboxie runs your programs in an isolated space which prevents them from making permanent changes to other programs and data in your computer.
+
+This tutorial briefly explains the basic principles of using Sandboxie.
+.
+
+7853;txt;01
+Note:  This tutorial is designed for use with the default sandbox, DefaultBox.
+.
+
+7854;txt;01
+How Sandboxie Works (Illustration)
+.
+
+7855;txt;01
+Start your Internet Web browser under Sandboxie
+.
+
+7856;txt;01
+Please find the shortcut on your desktop and double-click it to run your web browser in the default sandbox, DefaultBox.
+.
+
+7857;txt;01
+Click here to hide this window and show the desktop
+.
+
+7858;txt;01
+Your browser is now running inside the sandbox
+.
+
+7859;txt;01
+Programs in the sandbox can modify only the contents of the sandbox.
+
+When you save or download files, they go into the sandbox.  If you save a file to your Desktop, Documents or Downloads folders, Sandboxie offers to move the file out of the sandbox.
+
+Try it now:  Download a file in your browser to your desktop folder (in the sandbox), and recover the file to your real desktop.
+.
+
+7860;txt;01
+Delete the contents of your sandbox
+.
+
+7861;txt;01
+You can think of the sandbox as a piece of transparent paper placed between the program and your computer.  Deleting the contents of the sandbox is like discarding a used piece of paper and replacing it with a clean one.
+.
+
+7862;txt;01
+Try it now:  Delete the contents of your DefaultBox sandbox.  Please find the yellow Sandboxie icon in the highlighted corner of your screen, and click:
+.
+
+7863;txt;01
+Right-click on the yellow Sandboxie icon,
+
+then select DefaultBox, and invoke Delete Contents.
+.
+
+7864;txt;01
+Ready to go!
+.
+
+7865;txt;01
+Thank you for taking the time to go through this tutorial.  You can visit the Sandboxie web site for more tutorials and tips.
+
+The default settings in Sandboxie provide full protection, but you may wish to review the sandbox configuration commands in the Sandbox menu in the Sandboxie Control program window.
+.
+
+# 7866;txt;01
+# On a 64-bit Windows system, you should enable Experimental Protection.  See the Configure menu in Sandboxie Control.
+# .
+
+#----------------------------------------------------------------------------
+# License Manager
+#----------------------------------------------------------------------------
+
+# 7901;txt;01
+# Sandboxie License Manager
+# .
+
+# 7902;txt;01
+# System Code %2
+# .
+
+# 7903;txt;01
+# In the future, activate the license without asking
+# .
+
+#----------------------------------------------------------------------------
+
+# 7921;txt;01
+# Sandboxie is registered and the license is activated.
+# .
+
+# 7922;txt;01
+# Sandboxie is registered but the license should be reactivated now.
+# .
+
+# was 3603;txt;01
+# 7923;txt;01
+# Unregistered copy.  Register today!
+# .
+
+# 7924;txt;01
+# The license for Sandboxie will have to be reactivated in %2 days.
+# .
+
+# 7925;txt;01
+# The license for Sandboxie has now been activated.
+# .
+
+# 7926;txt;01
+# The expiration date of your Product Key is %2.
+# .
+
+# 7927;txt;01
+# Your Product Key does not have an expiration date.
+# .
+
+#----------------------------------------------------------------------------
+
+# 7931;txt;01
+# Your copy of Sandboxie is registered with an obsolete Registration Key.
+# .
+
+# 7932;txt;01
+# Please permit the License Manager to connect to the License Server and upgrade your old Registration Key to a new Product Key.  You will not be charged any fees for this upgrade.
+# .
+
+# 7933;txt;01
+# Your Registration Key is not recognized by the License Server.
+# .
+
+# 7934;txt;01
+# For licensing questions please contact: support@sandboxie.com
+# .
+
+# 7935;txt;01
+# Your new Product Key is:
+# .
+
+# 7936;txt;01
+# Please make sure to record this Product Key in a safe place for future reference.  Use the button below to copy your Product Key to the clipboard, from which you can paste it into a document and print it.
+# .
+
+# 7937;txt;01
+# &Upgrade Registration Key to Product Key
+# .
+
+#----------------------------------------------------------------------------
+
+# was 3612;txt;01
+# 7941;txt;01
+# Sandboxie registration is made through a third-party payment processor.  Begin the registration process by visiting the Sandboxie web site at the link below.
+# .
+
+# 7942;txt;01
+# To activate your license for Sandboxie, enter the Product Key which appears in your receipt for payment, then click the button to activate your license.
+# .
+
+# 7943;txt;01
+# Do you wish to enter a new Product Key now?
+# .
+
+# 7944;txt;01
+# &Activate License
+# .
+
+# was first line of 3617;txt;01
+# 7945;txt;01
+# Your copy of Sandboxie is now registered.
+# .
+
+# was second line of 3617;txt;01
+# 7946;txt;01
+# Thank you for supporting Sandboxie!
+# .
+
+#----------------------------------------------------------------------------
+
+# 7951;txt;01
+# Do you wish to activate the license now?
+# .
+
+# 7952;txt;01
+# Please visit the Sandboxie web site at the link below to order a new Product Key.
+# .
+
+# 7961;txt;01
+# Clear License &Information
+# .
+
+# 7962;txt;01
+# Are you sure you wish to clear the license information in Sandboxie?
+#
+# You can activate your license at any time by entering a Product Key.
+# .
+
+#----------------------------------------------------------------------------
+
+# 7971;txt;01
+# This is not a valid Product Key.
+# .
+
+# 7972;txt;01
+# This is not a valid System Code.
+# .
+
+# 7973;txt;01
+# This is not a valid Activation Key.  [%2]
+# .
+
+# 7974;txt;01
+# Invalid response from the License Server.
+# .
+
+# 7975;txt;01
+# Product activation failed:
+# .
+
+# 7976;txt;01
+# Would you like to try again now?
+# .
+
+# 7977;txt;01
+# If you need to activate Sandboxie on a computer that does not have Internet access,
+# please see the Sandboxie Licensing FAQ for information about Offline Activation.
+# .
+
+# 7978;txt;01
+# Current date (%2) is later than date sent from the License Server (%3).
+# .
+
+# 7982;txt;01
+# The License Server did not specify reason for failure of activation.
+# .
+
+# 7983;txt;01
+# Product Key is not recognized by the License Server.
+# .
+
+# 7984;txt;01
+# Product Key cannot be used beyond its expiration date of %2.
+# .
+
+# 7985;txt;01
+# Product Key was activated on too many computers.
+# .
+
+# 7986;txt;01
+# Product Key was cancelled because it was made public on the Internet.
+# .
+
+# 7987;txt;01
+# Product Key was cancelled because the order was refunded.
+# .
+
+7988;txt;01
+Your Supporter Certificate is valid, Thank You :-)
+.
+
+7989;txt;01
+The Supporter Certificate has expired :'(
+.
+
+7990;txt;01
+Please copy the entire Supporter Certificate into the clipboard and press OK.
+.
+
+7991;txt;01
+Failed to save certificate to file.
+.
+
+7992;txt;01
+The certificate is not valid.
+.
+
+7993;txt;01
+The certificate is valid and has been successfully applied.
+.
+
+7994;txt;01
+You are attempting to use a feature Upgrade-Key without having an existing supporter certificate.
+This type of key requires you to have a pre-existing valid supporter certificate.
+Please enter your current certificate first, then apply the upgrade key.
+.
+
+7995;txt;01
+You are attempting to use a Renewal-Key without having an existing supporter certificate.
+This type of key requires you to have a pre-existing valid supporter certificate.
+Please enter your current certificate first, then apply the renewal key.
+.
+
+7996;txt;01
+Failed to retrieve certificate from server.
+%1
+.
+
+7997;txt;01
+Failed to connect to server. Please check your internet connection.
+.
+
+7998;txt;01
+Empty response from server.
+.
+
+7999;txt;01
+Unknown server error.
+.
+
+#----------------------------------------------------------------------------
+# SandboxieInstall
+#----------------------------------------------------------------------------
+
+8001;ins;01
+Select Install Type
+.
+
+8002;ins;01
+Select Overwrite or Uninstall mode.
+.
+
+8003;ins;01
+Start
+.
+
+8004;ins;01
+You have an existing installation of Sandboxie in the following folder:
+.
+
+8005;ins;01
+Please select how to proceed:
+.
+
+8006;ins;01
+Overwrite (upgrade) the existing installation
+.
+
+8007;ins;01
+Uninstall (remove) the existing installation and settings
+.
+
+8008;ins;01
+Click Start when ready to proceed.
+.
+
+8009;ins;01
+Before uninstalling, use Sandboxie Control to delete the contents of the sandbox.
+.
+
+8010;ins;01
+Driver Installation
+.
+
+8011;ins;01
+Please review the information below.
+.
+
+8012;ins;01
+Click Next to install and activate the Sandboxie system-level driver.  This driver is the core of the Sandboxie application.
+.
+
+8013;ins;01
+You may need to temporarily disable any system protection tools that you have running, which may prevent the installation of a system-level driver.
+.
+
+8014;ins;02
+If this step fails and your computer locks up or restarts, please restart your computer in Safe Mode, then run this installation program to remove Sandboxie.
+.
+
+8015;ins;01
+The driver installs successfully on most systems.
+.
+
+8016;ins;01
+Please wait while Sandboxie is being uninstalled.
+.
+
+8021;ins;01
+Run any program sandboxed.lnk
+.
+
+8022;ins;01
+Run any program under the supervision of Sandboxie
+.
+
+8023;ins;01
+Sandboxie Start Menu.lnk
+.
+
+8024;ins;01
+Select a program from the Start Menu to run under the supervision of Sandboxie
+.
+
+8025;ins;01
+Run Web browser sandboxed.lnk
+.
+
+8026;ins;01
+Run the default web browser under the supervision of Sandboxie
+.
+
+8027;ins;01
+Run Windows Explorer sandboxed.lnk
+.
+
+8028;ins;01
+Explore the local desktop and computer under the supervision of Sandboxie
+.
+
+8029;ins;01
+Sandboxie Control.lnk
+.
+
+8030;ins;01
+Open the Sandboxie control panel
+.
+
+8031;ins;01
+Uninstall Sandboxie.lnk
+.
+
+8032;ins;01
+Uninstall Sandboxie
+.
+
+8033;ins;01
+=copy:3698
+.
+
+8041;ins;01
+Sandboxie can only be installed on the following versions of Microsoft Windows:
+.
+
+8042;ins;01
+Sandboxie must be installed through a user account having
+Administrator privileges in the system.
+
+If you are using Windows with User Accounts Control (UAC)
+enabled, make sure that you start the installation package
+using the Run as administrator command.
+.
+
+8043;ins;01
+The 32-bit version of Sandboxie cannot be installed on a 64-bit operating system.
+.
+
+8044;ins;01
+The 64-bit version of Sandboxie cannot be installed on a 32-bit operating system.
+.
+
+8051;ins;01
+The Sandboxie Control program is running.
+
+Click OK to close it, then continue the installation.
+
+Click Cancel to abort the installation.
+.
+
+8052;ins;01
+Cannot create or update Sandboxie program files.
+
+Please make sure that Sandboxie Control is not running,
+and that no programs are running sandboxed.
+
+Then click OK to retry the installation.
+
+Otherwise click Cancel to abort the installation.
+.
+
+8053;ins;01
+*** KmdUtil failed.  Installation or un-installation may not complete successfully. ***
+.
+
+8054;ins;01
+Would you like to keep your Sandboxie.ini configuration file?
+
+Select YES to keep configuration settings in the Sandboxie.ini file.
+
+Select NO to delete the Sandboxie.ini file and lose your configuration settings.
+.
+
+8055;ins;01
+There is an online update of the Templates.ini and/or the translations for this version of Sandboxie available, do you want to install it?
+.
+
+#----------------------------------------------------------------------------
+# KmdUtil
+#----------------------------------------------------------------------------
+
+8101;txt;01
+Cannot install the driver at this time.
+
+Please restart your computer,
+then rerun the installation procedure.
+
+Failing function is: %2
+.
+
+8102;txt;01
+Cannot stop the service at this time.
+The service '%2' is busy.
+
+Please click OK to retry.
+.
+
+8103;txt;01
+This is the first of three retries.
+.
+
+8104;txt;01
+This is the second of three retries.
+.
+
+8105;txt;01
+This is the third and last retry.
+.
+
+8106;txt;02
+The following programs must be closed before the installation can continue.
+Click OK to close these programs and continue.  Click Cancel to abort the installation.
+.
+

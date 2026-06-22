@@ -1,0 +1,3218 @@
+#----------------------------------------------------------------------------
+# SbieDrv
+#
+# Initialization errors issued to the System event Log
+#----------------------------------------------------------------------------
+
+1101;evt;inf;01
+SBIE1101 Sandboxie draiveri (SbieDrv) versioon %2 käivitatud
+.
+
+1102;evt;inf;01
+SBIE1102 Sandboxie draiver (SbieDrv) peatatud
+.
+
+1103;evt;err;01
+SBIE1103 Sandboxie draiveri (SbieDrv) versiooni %2 käivitumine nurjus
+.
+
+1104;evt;err;01
+SBIE1104 Süsteemi ressurssidest ei piisa käivitamise lõpuni viimiseks
+.
+
+1105;evt;err;01
+SBIE1105 Tundmatu opsüsteemi versioon:  %2
+.
+
+1106;evt;err;01
+SBIE1106 viga %2, täpsemalt %3
+.
+
+# 1107;evt;err;01
+# SBIE1107 Ei suudetud ühenduda LocalSystem kontoga %2
+# .
+
+1108;evt;err;01
+SBIE1108 Protseduuri %2 ei suudetud analüüsida
+.
+
+1109;evt;err;01
+SBIE1109 Väär litsentsi info:  %2
+.
+
+1110;evt;err;01
+SBIE1110 Ei suudetud püüda tüüpi %3, viga %2
+.
+
+1111;evt;err;01
+SBIE1111 Süsteemset DLL-i %3 ei suudetud laadida %2
+.
+
+1112;evt;err;01
+SBIE1112 Protseduuri %2 ei suudetud määratleda
+.
+
+1113;evt;err;01
+SBIE1113 Ei õnnestunud leida süsteemset teenust Nt, põhjus %2
+.
+
+1114;evt;err;01
+SBIE1114 Ei õnnestunud leida süsteemset teenust Zw, põhjus %2
+.
+
+1116;evt;err;01
+SBIE1116 Draiveril ei õnnestunud registreerida teavitamise protsessi programmi %2
+.
+
+1119;evt;err;01
+SBIE1119 Ei suudetud luua API seadet %2
+.
+
+1120;evt;err;01
+SBIE1120 Viga teenuses %2
+.
+
+1121;evt;err;01
+SBIE1121 Teenuse %2 haakimine ebaõnnestus
+.
+
+1122;evt;err;01
+SBIE1122 Viga:  %2
+.
+
+#----------------------------------------------------------------------------
+# SbieDrv
+#
+# Error Messages to both Event and Popup Logs
+#----------------------------------------------------------------------------
+
+1151;evt;pop;err;01
+SBIE1151 Ei suudetud käsitleda instruktsiooni %2
+.
+
+1152;evt;pop;err;01
+SBIE1152 Trampoline'i määramine ebaõnnestus %2
+.
+
+1153;evt;pop;err;01
+SBIE1153 Sandboxie käivitamine ebaõnnestus.  Sulge kõik programmid ja siis installeeri Sandboxie uuesti  VÕI  tee oma arvutile restart.
+.
+
+#----------------------------------------------------------------------------
+# SbieDrv
+#
+# Error Messages to Popup Log
+#----------------------------------------------------------------------------
+
+1201;pop;err;01
+SBIE1201 Ei ole piisavalt mälu
+.
+
+1202;pop;err;01
+SBIE1202 Ei suudetud uuendada litsentsi infot:  %2
+.
+
+1203;pop;err;01
+SBIE1203 Ei suudetud luua teekonna nimekirja (%2 viga)
+.
+
+1204;pop;err;01
+SBIE1204 Sandboxi loomine ebaõnnestus %3 %2 jaoks
+.
+
+1211;pop;err;01
+SBIE1211 Ei suudetud algatada protsessi %2 sandboximist
+.
+
+1212;pop;err;01
+SBIE1212 Ei suudetud luua kausta '%3' %2
+.
+
+1213;pop;err;01
+SBIE1213 Ei suudetud luua objekti kausta '%3' %2
+.
+
+1214;pop;err;01
+SBIE1214 Ei suudetud sisestada SbieDll'i %2
+.
+
+1215;pop;err;01
+SBIE1215 Ei suudetud lahendada teekonda, et töödelda pilti %2
+.
+
+1216;pop;err;01
+SBIE1216 Ei suudetud küsida turva ID-d %2
+.
+
+# 1217;pop;err;01
+# SBIE1217 Ei suudetud leida ülemprotsessi
+# .
+
+# 1221;pop;err;01
+# SBIE1221 Ei suudetud luua tegumit:  %2
+# .
+
+1222;pop;err;01
+SBIE1222 Ei suudetud piirata tunnust:  %2
+.
+
+1223;pop;err;01
+SBIE1223 Ei suudetud asendada tunnust:  %2
+.
+
+1224;pop;err;01
+SBIE1224 Ei suudetud küsida tunnust:  %2
+.
+
+1241;pop;err;01
+SBIE1241 Ei suudetud ühendada registri alampuud:  %2
+.
+
+1242;pop;err;01
+SBIE1242 Monitori puhvri ületäitumine
+.
+
+#----------------------------------------------------------------------------
+# SbieDrv
+#
+# Informational Messages to Popup Log
+#----------------------------------------------------------------------------
+
+1301;pop;inf;01
+SBIE1301 Programm '%2' käivitati väljaspool sandboxi
+.
+
+# 1302;pop;inf;01
+# SBIE1302 Sandbox '%2' ei ole defineeritud või lubatud
+# .
+
+1303;pop;inf;01
+SBIE1303 Ainult üks sandbox saab korraga aktiivne olla
+.
+
+1304;pop;inf;01
+SBIE1304 Protsessi '%2' poolt blokeeriti simuleeritud klaviatuuri või hiire sisend 
+.
+
+1306;pop;inf;01
+SBIE1306 Sandboxie draiverit (SbieDrv) ei suudetud hetkel maha laadida
+.
+
+# 1307;pop;inf;01
+# SBIE1307 Programm ei suuda ühenduda Internetti piirangute tõttu - %2
+# .
+
+# 1308;pop;inf;01
+# SBIE1308 Programm ei suuda käivituda piirangute tõttu - %2
+# .
+
+1309;pop;inf;01
+SBIE1309 Keelati konto parooli muutmise katse
+.
+
+1310;pop;inf;01
+SBIE1310 Laiendatud võimalused on keelatud kuni litsentsi uuesti aktiveerimiseni
+.
+
+#----------------------------------------------------------------------------
+# SbieDrv
+#
+# Configuration Error Messages to both Event and Popup Logs
+#----------------------------------------------------------------------------
+
+1401;evt;pop;inf;01
+SBIE1401 Konfiguratsioonifaili ei leitud, kasutatakse vaikimisi väärtusi
+.
+
+1402;evt;pop;wrn;01
+SBIE1402 Konfiguratsioonifaili viga real %3:  %2
+.
+
+1403;evt;pop;wrn;01
+SBIE1403 Konfiguratsioonifaili viga real %2:  rida liiga pikk
+.
+
+1404;evt;pop;wrn;01
+SBIE1404 Konfiguratsioonifaili viga real %2:  liiga palju ridu
+.
+
+1405;evt;pop;wrn;01
+SBIE1405 Konfiguratsioonifaili viga real %2:  süntaksi viga
+.
+
+1406;evt;pop;err;01
+SBIE1406 Puuduv või vigane laiendus %3 jaoks:  %2
+.
+
+# 1407;evt;pop;err;01
+# SBIE1407 Vigane väärtus %2 seadetes, kasutatakse vaikimisi väärtust
+# .
+
+1408;pop;err;01
+SBIE1408 Tundmatu kasutajanimi SID jaoks:  %2
+.
+
+1409;evt;pop;wrn;01
+SBIE1409 Templates.ini faili ei suudetud avada %2
+.
+
+1410;evt;pop;wrn;01
+SBIE1410 Järgnev teade näitab viga Templates.ini failis
+.
+
+1411;evt;pop;wrn;01
+SBIE1411 Sandbox %2 tuvastas tundmatu malli %3
+.
+
+1412;evt;pop;err;01
+SBIE1412 Tekstis: %2
+.
+
+#----------------------------------------------------------------------------
+# SbieDrv
+#
+# Messages from user mode -- informational -- 2101 through 2199
+#----------------------------------------------------------------------------
+
+2101;pop;inf;01
+SBIE2101 %2
+.
+
+2102;pop;inf;01
+SBIE2102 Fail on liiga suur sandboxi kopeerimiseks - %2
+.
+
+2103;pop;inf;01
+SBIE2103 Keelati süsteemse draiveri '%2' laadimise katse
+.
+
+2104;pop;inf;02
+SBIE2104 Keelati selle Windowsi sessiooni lõpetamise katse - %2
+.
+
+# 2105;pop;inf;01
+# SBIE2105 Sandboxitud teenus käivitus edukalt:  %2
+# .
+
+# 2106;pop;inf;01
+# SBIE2106 Palun lülita menüüst Fail, Sandboxie Juhtimine, sisse "Käivita kui UAC administraator" 
+# .
+
+# 2107;pop;inf;01
+# SBIE2107 Valmistatakse ette WinSxS'i '%2' kokkupanekut
+# .
+
+2108;pop;inf;01
+SBIE2108 Programmi '%2' võltsimise edukas lõpetamine
+.
+
+# 2109;pop;inf;01
+# SBIE2109 Klõpsa OK, kui programm või installeerimine on lõpetanud.
+# .
+
+# 2110;pop;inf;01
+# SBIE2110 Valmistatakse ette WinSxS sõltuvust '%2'-st
+# .
+
+# %2 = Mozilla Firefox
+2191;pop;inf;01
+SBIE2191 %2 ei peaks uuendama, kui töötada Sandboxie all.
+.
+
+2192;pop;inf;01
+SBIE2192 Programmi uuendamiseks käivita see väljaspool Sandboxie järelevalvet.
+.
+
+2193;pop;inf;01
+SBIE2193 Veendu sandboxi kustutamises pärast uuendamisprotsessi lõpetamist.
+.
+
+2199;pop;inf;01
+%0
+.
+
+#----------------------------------------------------------------------------
+# SbieDrv
+#
+# Messages from user mode -- warning -- 2201 through 2299
+#----------------------------------------------------------------------------
+
+2201;pop;wrn;01
+SBIE2201 %2
+.
+
+# 2202;pop;wrn;01
+# SBIE2202 Installeeritud riistvara nimekiri puudub
+# .
+
+2203;pop;wrn;01
+SBIE2203 Ühendumine Sandboxie Teenusega ebaõnnestus:  %2
+.
+
+2204;pop;wrn;01
+SBIE2204 Ei suudetud käivitada sandboxitud teenust %2
+.
+
+2205;pop;wrn;01
+SBIE2205 Teenus pole realiseeritud:  %2
+.
+
+2206;pop;wrn;01
+SBIE2206 AutoExec seade %2 töötlemine ebaõnnestus
+.
+
+2207;pop;wrn;01
+SBIE2207 Seade '%2' vigane väärtus, kasutatakse vaikimisi väärtust
+.
+
+2208;pop;wrn;01
+SBIE2208 Ei suudetud eemaldada registri alampuud:  %2
+.
+
+2209;pop;wrn;01
+SBIE2209 Ei suudetud SID'i tõlkida kasutajanimeks:  %2
+.
+
+2210;pop;wrn;01
+SBIE2210 Ei suudetud käivitada Windows Explorerit %2 jaoks
+.
+
+2211;pop;wrn;01
+SBIE2211 Sandboxitud teenuse käivitamine ebaõnnestus:  %2
+.
+
+2212;pop;wrn;01
+SBIE2212 Meiliklient '%2' ei ole häälestatud sandboxitult töötama
+.
+
+2213;pop;wrn;01
+SBIE2213 Windows Credential'i ei saa paigutada sandboxi
+.
+
+2214;pop;wrn;01
+SBIE2214 Nõue käivitada teenus '%2' lükati tagasi seoses keelatud õigustega
+.
+
+# 2215;pop;wrn;01
+# SBIE2215 Ebaõnnestus WinSxS'i ettevalmistamine sõltuvusteks:  %2
+# .
+
+# 2216;pop;wrn;01
+# SBIE2216 Viga WinSxS'i ettevalmistamise kokkupanekul:  %2
+# .
+
+2217;pop;wrn;02
+SBIE2217 Päring administraatorina käivitamiseks lükati tagasi seoses lõppenud õigustega
+.
+
+2218;pop;wrn;01
+SBIE2218 Ei õnnestunud saada kõrgendatud privileege:  %2
+.
+
+2219;pop;wrn;01
+SBIE2219 Päring esitati programmi %2 poolt
+.
+
+#----------------------------------------------------------------------------
+# SbieDrv
+#
+# Messages from user mode -- viga -- 2301 through 2399
+#----------------------------------------------------------------------------
+
+2301;pop;err;01
+SBIE2301 %2
+.
+
+2303;pop;err;01
+SBIE2303 Ei suudetud nakatada %2
+.
+
+2304;pop;err;01
+SBIE2304 Protsessi %2 algatamine ebaõnnestus 
+.
+
+2305;pop;err;01
+SBIE2305 Mälu on otsas
+.
+
+2306;pop;err;01
+SBIE2306 Ei suudetud leida kasutaja kausta:  %2
+.
+
+2307;pop;err;01
+SBIE2307 Ei suudetud mäppida ketast %2
+.
+
+2308;pop;err;01
+SBIE2308 Ei suudetud luua objekti kausta:  %2
+.
+
+2309;pop;err;01
+SBIE2309 Ei suudetud välja lülitada COM+/DCOM'i:  %2
+.
+
+2310;pop;err;01
+SBIE2310 Nimepuhver on lähenemas ületäitumisele (%2)
+.
+
+2311;pop;err;01
+SBIE2311 Ei suudetud välja lülitada prügikasti (BitBucket):  %2
+.
+
+2312;pop;err;01
+SBIE2312 Ei suudetud sisse lülitada BrowseNewProcess'i seadet:  %2
+.
+
+2313;pop;err;01
+SBIE2313 Ei suudetud täita %2
+.
+
+2314;pop;err;01
+SBIE2314 Protsessi %2 katkestamine
+.
+
+2315;pop;err;01
+SBIE2315 Ei suudetud parandada kujutise täitmist
+.
+
+2316;pop;err;01
+SBIE2316 Mälu on rikutud
+.
+
+2317;pop;err;01
+SBIE2317 Ei suudetud algatada teekonna nimekirja '%2'
+.
+
+2318;pop;err;01
+SBIE2318 DLL'i algatamine ebaõnnestus '%2' jaoks
+.
+
+# 2319;pop;err;01
+# SBIE2319 Sandboxitud protsessi %2 aktiveerimise kontekst ebaõnnestus 
+# .
+
+# 2320;pop;err;01
+# SBIE2320 Ei suudetud välja lülitada Windows Explorer'it, kui töölaua protsessi:  %2
+# .
+
+2321;pop;err;01
+SBIE2321 Ei suudetud hallata seadmekaarti:  %2
+.
+
+2322;pop;err;01
+SBIE2322 Ei suudetud üle kirjutada Sandboxie.ini:  %2
+.
+
+2323;pop;err;01
+SBIE2323 Krüptograafia viga:  %2
+.
+
+2326;pop;err;01
+SBIE2326 Ei suudetud ette valmistada registrit:  %2
+.
+
+2327;pop;err;01
+SBIE2327 Viga COM serveris:  %2
+.
+
+2331;pop;err;01
+SBIE2331 Teenuse käivitamine ebaõnnestus:  %2
+.
+
+2332;pop;err;01
+SBIE2332 Ei suudetud pöörduda faili SbiePst.dat poole
+.
+
+# 2333;pop;err;01
+# SBIE2333 Leiti ühildumatu tarkvara DLL: %2
+# .
+
+2334;pop;err;01
+SBIE2334 Ei suuda laadida DLL faili: %2
+.
+
+# 2398;txt;01
+# SBIE2398 Teenusel on erand ... aadressil ...
+# .
+
+# 2399;txt;01
+# SBIE2399 Teenus ütles üles veaga ...
+# .
+
+#----------------------------------------------------------------------------
+# SbieSvc
+#----------------------------------------------------------------------------
+
+9101;evt;err;01
+SBIE9101 Süsteemi ressursid on ebapiisavad
+.
+
+9153;evt;err;01
+SBIE9153 Ei suudetud käivitada draiverit (SbieDrv)
+.
+
+9154;evt;err;01
+SBIE9154 Draiveril (SbieDrv) ja teenusel (SbieSvc) on erinevad versiooninumbrid
+.
+
+9156;evt;err;01
+SBIE9156 Draiveri algatamine ei ole lõpetatud
+.
+
+9201;evt;err;01
+SBIE9201 Tunnuse viga
+.
+
+9202;evt;err;01
+SBIE9202 Tunnuse viga
+.
+
+9203;evt;err;01
+SBIE9203 Tunnuse viga
+.
+
+9204;evt;err;01
+SBIE9204 Turvadeskriptori viga
+.
+
+9205;evt;err;01
+SBIE9205 Turvadeskriptori viga
+.
+
+9206;evt;err;01
+SBIE9206 Turvadeskriptori viga
+.
+
+9207;evt;err;01
+SBIE9207 Turvadeskriptori viga
+.
+
+9208;evt;err;01
+SBIE9208 Ei suudetud sisse lülitada SeRestorePrivilege
+.
+
+9251;evt;err;01
+SBIE9251 Pordi sündmuse loomine ebaõnnestus
+.
+
+9252;evt;err;01
+SBIE9252 Pordi loomine ebaõnnestus
+.
+
+9253;evt;err;01
+SBIE9253 Pordi haru loomine ebaõnnestus
+.
+
+# 9302;evt;err;01
+# SBIE9302 Sektsiooni loomine ebaõnnestus (seadme seadete klassid)
+# .
+
+# 9304;evt;err;01
+# SBIE9304 Sektsiooni loomine ebaõnnestus (seadme id nimekiri)
+# .
+
+# 9305;evt;err;01
+# SBIE9305 Lõpeta sandboxitud programmid, kui mõni veel töötab
+# .
+
+#----------------------------------------------------------------------------
+# Common Texts
+#----------------------------------------------------------------------------
+
+3001;txt;01
+&OK
+.
+
+3002;txt;01
+&Katkesta
+.
+
+3003;txt;01
+&Vali...
+.
+
+3004;txt;01
+&Sulge
+.
+
+3051;txt;01
+Kustutamiskaitse on sandboxil sisse lülitatud
+.
+
+3052;txt;01
+Käivita sandboxitult
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Start
+#----------------------------------------------------------------------------
+
+3101;txt;01
+Sandboxie käivitamine
+.
+
+3103;txt;01
+Sisesta programmi või kausta nimi ja Sandboxie avab selle.
+.
+
+3104;txt;01
+Sisesta  .  (punkt), et uurida oma töölauda Sandboxie'ga.
+.
+
+3105;txt;01
+Eemalda käsk käskude ajaloost
+.
+
+3106;txt;01
+Vali sandbox, milles programmi või dokumenti käivitada.
+.
+
+3111;txt;01
+      Sandboxie Start menüü - %2  %0
+.
+
+3112;txt;01
+Töölaud
+.
+
+3113;txt;01
+(uuri kausta)
+.
+
+3202;txt;01
+Vigane käsurea parameeter:  %2
+.
+
+3203;txt;01
+Kasutus: Start.exe <programmi nimi>
+.
+
+3204;txt;01
+Vigane box'i nime parameeter:  %2
+.
+
+3205;txt;01
+Ei suudetud välja kutsuda programmi:
+
+%2
+.
+
+3206;txt;01
+Süsteemi veakood:
+.
+
+# 3207;txt;01
+# Ei suudetud leida Internet Explorer'i programmi
+# .
+
+# 3208;txt;01
+# Ei suudetud leida vaikimisi veebibrauseri programmi
+# .
+
+3209;txt;01
+Ei suudetud leida vaikimisi meilikliendi programmi
+.
+
+3210;txt;01
+Ei suudetud käivitada Sandboxie Juhtimise programmi
+.
+
+3211;txt;01
+Sandboxie versioonide sobimatus. Proovi uuesti installeerimist.
+.
+
+3212;txt;01
+Sandboxie draiver (SbieDrv) ei ole saadaval sandboxi programmidele.
+Kontrolli, kas draiver ja Sandboxie teenus (SbieSvc) käivitusid korralikult.
+.
+
+3213;txt;01
+Ei suudetud algatada Sandboxie COM teenust
+.
+
+3214;txt;01
+Kustuta sandbox %2:  %0
+.
+
+3215;txt;01
+Objekt (fail või kaust) võib olla kasutuses teise programmi poolt.
+Sulge rakendus või aken, mis võib keelata juurdepääsu.
+.
+
+3216;txt;01
+Ei suudetud leida sandboxi kausta
+.
+
+3217;txt;01
+Ei suudetud avada sandboxi kausta
+.
+
+3218;txt;01
+Ei suudetud avada kausta, mis sisaldab sandboxi kausta
+.
+
+3219;txt;01
+Ei suudetud sandboxi kausta jalust ära teisaldada
+.
+
+3220;txt;01
+Sandboxis oleva pika failinime ümbernimetamine ebaõnnestus.
+Sandboxi ei kustutatud.
+.
+
+3221;txt;01
+Palun lõpeta programmid, mis töötavad sandboxis, enne kui kustutada nende sisu
+.
+
+3222;txt;01
+Kustutamise käsk ebaõnnestus:  %0
+.
+
+3231;txt;01
+Sa installeerisid Sandboxie rohkem, kui 30 päeva tagasi.
+.
+
+3232;txt;01
+Sandboxie personaalne kasutamine on lubatud ilma tasuta niikaua kuni soovid.
+.
+
+3233;txt;01
+Sellegi poolest, vaba versioon teeb nüüd paarisekundilise pausi.
+.
+
+3234;txt;01
+Sellegi poolest, vaba versioon lubab kasutada vaid üht sandboxi korraga.
+.
+
+3235;txt;01
+Seda piirangut ei ole Sandboxie tasulises versioonis.
+.
+
+3236;txt;01
+Lisaks, tasuline versioon lubab valitud programmide automaatset sandboximist.
+.
+
+3237;txt;01
+Rohkema info saamiseks ja tarkvara ostmiseks palun klõpsa järgnevat linki:
+.
+
+3238;txt;01
+Palun oota veel %2 sek
+.
+
+3239;txt;01
+Klõpsa akna sulgemiseks ja jätkamiseks
+.
+
+3240;txt;01
+Klõpsa akna sulgemiseks ja seiskumiseks
+.
+
+3241;txt;01
+Sandboxie nõuab administraatori õigusi
+sandboxis töötava programmi nimel.
+.
+
+3242;txt;01
+Päringu kinnitamiseks või katkestamiseks aktiveeri
+User Account Control'i pop-up aken.
+.
+
+3251;txt;01
+Käivita väljaspool Sandboxi
+.
+
+3252;txt;01
+Käivita programm meelega väljaspool Sandboxie
+järelevalvet, isegi kui programm on sunnitud käivituma
+Sandboxie all. See sandboximisest vabastamine laieneb
+ka mistahes teistele programmidele, mida selle programmi
+poolt käivitatakse.
+
+Seda valikut saab kasutada ka hoides all Ctrl ja Shift klahvi,
+kui klõpsad käsule Käivita sandboxitult.
+.
+
+3253;txt;01
+Oled kindel, et soovid käivitada programmi väljaspool sandboxi?
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control Common
+#----------------------------------------------------------------------------
+
+3301;txt;01
+Sandboxie Juhtimine
+.
+
+3302;txt;01
+Versioon %2
+.
+
+3303;txt;01
+  -  algatan
+.
+
+3304;txt;01
+Versioonide erinevus Sandboxies:
+
+Sandboxie Juhtimine: Versioon %2
+Teenus (SbieSvc): Versioon %3
+Draiver (SbieDrv): Versioon %4
+
+Probleemi lahendamiseks installeeri Sandboxie uuesti.
+
+Lõpetan.
+.
+
+# 3305;txt;01
+# Ei suudetud installeerida ikooni tegumiribale.  Lõpetan.
+# .
+
+3306;txt;01
+Ära näita tulevikus seda sõnumit
+.
+
+# 3307;txt;01
+# Sisesta programmi nimi
+# .
+
+# translate text but keep hash signs (#)
+3308;txt;01
+Programmid#*.EXE#Kõik failid#*.*##
+.
+
+3309;txt;01
+  -  Sandboxi kustutamine
+.
+
+3311;txt;01
+Ebaõnnestus sätete %3 salvestamine sektsioonis %2:  %4
+.
+
+3312;txt;01
+Sul pole õigusi uuendada konfiguratsiooni sektsioonis %2
+.
+
+3313;txt;01
+Tundmatu kasutaja, sätteid ei salvestata
+.
+
+3314;txt;01
+Tekkis viga, kui rakendati vaikimisi sätteid sandboxile '%2'
+.
+
+# 3321;txt;01
+# - Sisselogimise sessioon on sandboxitud
+# .
+
+# 3322;txt;01
+# Sinu sisselogimise sessioon töötab Sandboxie järelevalve all.
+# Sandboxi sisu kustutamine kõrvaldab kõik sessiooni käigus tehtud muudatused.
+# 
+# Kasutajakonto: %2
+# Sandbox: %3
+# 
+# Oled kindel, et soovid kustutada sandboxi sisu ja Windows'ist välja logida?
+# .
+
+3351;txt;01
+&Eemalda
+.
+
+3352;txt;01
+&Lisa
+.
+
+3353;txt;01
+&Redigeeri/Lisa
+.
+
+3354;txt;01
+&Redigeeri
+.
+
+3355;txt;01
+Lisa &Progr
+.
+
+# 3356;txt;01
+# Lisa &Nime järgi
+# .
+
+# 3357;txt;01
+# Lisa &Faili järgi
+# .
+
+3358;txt;01
+Lisa &Kaust
+.
+
+3359;txt;01
+Lisa &Kasutaja
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control Menus
+#----------------------------------------------------------------------------
+
+3411;txt;01
+&Fail
+.
+
+3412;txt;01
+Katkesta &kõik programmid
+.
+
+3413;txt;01
+Blokeeri &sunnitud programmid
+.
+
+3414;txt;01
+Käivita kui &UAC administraator
+.
+
+3415;txt;01
+Kas &aken on sandboxitud?
+.
+
+3416;txt;01
+Ressurssidele &ligipääsu monitor
+.
+
+3417;txt;01
+&Välju
+.
+
+3421;txt;01
+&Vaade
+.
+
+3422;txt;01
+&Programmid
+.
+
+3423;txt;01
+&Failid ja kaustad
+.
+
+3424;txt;01
+&Kontekstimenüü%2Shift+F10
+.
+
+3431;txt;01
+Sand&box
+.
+
+3432;txt;01
+Loo uus sandbox
+.
+
+3433;txt;01
+Sea konteineri kaust
+.
+
+3441;txt;01
+&Konfigureeri
+.
+
+3442;txt;01
+&Programmi teated
+.
+
+3443;txt;01
+Akende kasutajaliidesesse &integreerimine
+.
+
+3501;txt;01
+Tark&vara ühilduvus
+.
+
+3444;txt;01
+Unusta peidetud &sõnumid
+.
+
+3445;txt;02
+&Nõuanded
+.
+
+3502;txt;01
+Lu&kustuse konfiguratsioon
+.
+
+3446;txt;01
+&Redigeeri konfiguratsiooni
+.
+
+3447;txt;01
+&Lae konfiguratsioon uuesti
+.
+
+3448;txt;01
+&Näita kõiki nõuandeid
+.
+
+3449;txt;01
+&Peida kõik nõuanded
+.
+
+3451;txt;01
+&Abi
+.
+
+3452;txt;01
+&Abi teemad (veebis)
+.
+
+# 3453;txt;01
+# Alustamise õpe&tused (veebis)
+# .
+
+3454;txt;01
+Kontrolli &uuendusi
+.
+
+3455;txt;01
+&Registreeri Sandboxie
+.
+
+3456;txt;01
+&Sandboxie-st
+.
+
+3461;txt;01
+Käivita &sandboxis
+.
+
+3462;txt;01
+Käivita veebi&brauser
+.
+
+3463;txt;01
+Käivita &e-posti programm
+.
+
+3464;txt;01
+Käivita suvaline &programm
+.
+
+3465;txt;01
+Käivita Start &menüüst
+.
+
+3466;txt;01
+Käivita &Windows Explorer
+.
+
+3471;txt;01
+Katkesta &programmid
+.
+
+3472;txt;01
+Kiir&taaste
+.
+
+3473;txt;01
+Sisu &kustutamine
+.
+
+3474;txt;01
+Sisu &vaatamine
+.
+
+3475;txt;01
+Sandboxi s&eaded
+.
+
+3476;txt;01
+Sandboxi ü&mbernimetamine
+.
+
+3477;txt;01
+Sandbo&xi eemaldamine
+.
+
+3481;txt;01
+&Katkesta programm
+.
+
+3482;txt;01
+Programmi &seaded
+.
+
+3483;txt;01
+&Ressurssidele juurdepääs
+.
+
+3485;txt;01
+Näita akent
+.
+
+3486;txt;01
+Peida aken
+.
+
+3487;txt;01
+&Näita vigu
+.
+
+# 3488;txt;01
+# K&ustuta Sandbox ja logi välja
+# .
+
+3491;txt;01
+Taas&ta samas kaustas
+.
+
+3492;txt;01
+Taasta &suvalises kaustas
+.
+
+3493;txt;01
+Lis&a kaust Kiirtaastesse
+.
+
+3494;txt;01
+Ee&malda kaust Kiirtaastest
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control Main Window
+#----------------------------------------------------------------------------
+
+3511;txt;01
+Sandboxie Juhtimine peidab nüüd oma akna aga jääb
+tööle.  Akna nägemiseks topeltklõpsa tegumiribal 
+oleval kollasel Sandboxie ikoonil.
+.
+
+3512;txt;01
+Tee äsjaavatud tekstiredaktori aknas muudatused 
+Sandboxie.ini konfiguratsioonifailis.
+
+Muudetud konfiguratsioon hakkab tööle alles pärast 
+Lae konfiguratsioon uuesti käsu andmist.
+
+Enamikel juhtudel antakse Lae konfiguratsioon uuesti 
+käsk automaatselt kohe pärast tekstiredaktori akna 
+sulgemist.
+
+Sa võid ka igal ajal ise Sandboxie Juhtimist
+sundida Lae konfiguratsioon uuesti käsku täitma.
+.
+
+3513;txt;01
+Sandboxie konfiguratsiooni uuendati ja rakendatakse 
+sandboxitud programmidele pärast nende käivitumist.
+
+Kui mõni programm juba töötab sandboxitult, 
+siis uus konfiguratsioon temale ei rakendu.
+.
+
+3514;txt;01
+Konfiguratsioonifaili lugemisel tekkis probleem.
+Sandboxie konfiguratsiooni ei uuendatud.
+.
+
+3515;txt;01
+Sandbox %2
+.
+
+3516;txt;01
+Aktiivne
+.
+
+3517;txt;01
+Programmi nimi
+.
+
+3518;txt;01
+PID
+.
+
+3519;txt;01
+Akna pealkiri
+.
+
+3520;txt;01
+Kiirtaaste kaustad
+.
+
+3521;txt;01
+Kõik failid ja kaustad
+.
+
+3522;txt;01
+Kettaseadmed
+.
+
+3523;txt;01
+Võrgukaust
+.
+
+3524;txt;01
+Kasutaja failid
+.
+
+3525;txt;01
+Personaalne
+.
+
+3526;txt;01
+Kõik kasutajad
+.
+
+3527;txt;01
+Palun kustuta sandboxi %2 sisu enne selle käsu andmist.
+.
+
+3528;txt;01
+Sisesta uue sandboxi nimi
+.
+
+3529;txt;01
+Oled sa kindel, et soovid eemaldada sandboxi %2?
+.
+
+3530;txt;01
+Pole ühtegi protsessi, mida lõpetada.
+.
+
+3531;txt;01
+HOIATUS: Lõpetatav(ad) protsess(id) ei võimalda salvestada
+hetkeseisu või andmeid.
+
+Oled kindel, et soovid jätkata selle protsessi lõpetamist?
+.
+
+3532;txt;01
+Tulevikus lõpeta protsess ilma küsimata
+.
+
+3533;txt;01
+Võid kopeerida ja teisaldada faile ja kaustu sandboxitud Windows Explorer-i 
+kausta aknast ja kleepida neid otse sandboximata kausta aknasse.
+.
+
+3534;txt;01
+Võid uurida sandboxi sisu sandboximata Windows Explorer-i kausta
+aknast.
+
+Võid avada programme või dokumente, mis asetsevad sandboxi sees.
+Programm või dokument käivitub sandboxi järelvaate all.
+
+Sellegi poolest on soovitatav manipuleerida sandboxi sisuga läbi
+sandboxitud Windows Explorer-i.  Selle teostamiseks kasuta käsku:
+Sandbox -> Käivita sandboxitult -> Käivita Windows Explorer.
+.
+
+3535;txt;01
+Sandboxi kausta poole pöördumisel tekkis viga.
+.
+
+3536;txt;01
+Kõikidelt sõnumitelt eemaldati indikaator 'peidetud'.
+.
+
+3537;txt;01
+Kõikidelt vihjetelt eemaldati indikaator 'ära näita seda sõnumit'.
+.
+
+3538;txt;01
+Indikaator 'ära näita seda sõnumit' rakendati nüüd kõikidele vihjetele.
+.
+
+3539;txt;01
+Sandbox '%2' loodi %3 päeva tagasi.
+Palun kaalu võimalust kustutada aeg-ajalt oma sandboxi.
+
+Automaatkustutamise konfigureerimiseks kasuta Sandboxie Juhtimise
+menüüst Sandbox käsku Sandboxi seaded.
+.
+
+3540;txt;01
+Sandboxie.ini konfiguratsioonifaili ei saa redigeerida kuna
+see on parooliga kaitstud.  Redigeerimiseks tuleb kasutada
+käsku Lukusta konfiguratsioon, et parooliga kaitse kõrvaldada.
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control Dialogs: About/Welcome
+#----------------------------------------------------------------------------
+
+3601;txt;01
+Sandboxie kohta
+.
+
+# 3604;txt;01
+# Tervitused Sandboxielt
+# .
+
+# 3605;txt;01
+# 
+# Sandboxie jooksutab sinu rakendusi kaitstud isoleeritud alas, mida kutsutakse sandboxiks.
+# 
+# Sandboxi sees olevad rakendused ei saa teha muudatusi arvutis või muul moel ohustada sinu arvutit.
+# 
+# Sa võid kasutada sandboxi ka uute rakenduste installimiseks ja testimiseks.
+# .
+
+# 3606;txt;01
+# Kui sa oled uus Sandboxie kasutaja, siis
+# palun leia hetk õpetuse Kuidas alustada lugemiseks.
+# .
+
+# 3607;txt;01
+# &Kuidas alustada Sandboxie'ga
+# .
+
+#----------------------------------------------------------------------------
+# Sandboxie Control Dialogs: Update
+#----------------------------------------------------------------------------
+
+3621;txt;01
+Kontrolli uuendusi
+.
+
+3622;txt;01
+Ühendu Sandboxie veebileheküljega, et kontrollida programmi uuema versiooni saadavust?
+.
+
+3623;txt;01
+&Nüüd
+.
+
+3624;txt;01
+Järgmine &nädal
+.
+
+3625;txt;01
+Ii&algi
+.
+
+3626;txt;01
+Tulevikus kontrolli uuendusi ilma küsimata
+.
+
+3627;txt;01
+Privaatsuspoliitika:  sinu personaalseid andmeid ei edastata ega koguta Sandboxie poolt.
+.
+
+3628;txt;01
+Uuenduste kontroll on pooleli.  Palun oota.
+.
+
+3629;txt;01
+Sandboxie veebilehekülg ei teavita Sandboxie uuest versioonist.
+.
+
+3630;txt;01
+Sandboxie %2 on saadaval alla laadimiseks.
+.
+
+3631;txt;01
+Laen kohe alla?
+
+Märkus:  Allalaadimine võtab aega umbes minuti.
+Allalaadimise lõppemisest antakse sulle märku.
+.
+
+3632;txt;01
+Uue versiooni alla laadimiseks ja installeerimiseks logi 
+administraatorina sisse ja korda seda käsklust uuesti.
+.
+
+3633;txt;01
+Sandboxie %2 laeti alla järgmisse asukohta: 
+
+%3
+
+Installeerimise alustamiseks klõpsa OK.  Kui mõni programm
+töötab sandboxituna, siis see lõpetatakse.
+.
+
+3634;txt;01
+Uuendamine ebaõnnestus:  Sandboxie veebileheküljega ühendumisel tekkis viga.
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control Dialogs: Run Browser
+#----------------------------------------------------------------------------
+
+3641;txt;01
+Ava veebibrauser
+.
+
+3642;txt;01
+Vali, kas avada järgnev veebiaadress sandboxitult või mitte.
+.
+
+3643;txt;01
+&Sandboxitult
+.
+
+3644;txt;01
+&Sandboximata
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control Dialogs: Message Dialog
+#----------------------------------------------------------------------------
+
+3645;txt;01
+Sandboxie sõnumid
+.
+
+3646;txt;01
+P&eida
+.
+
+3647;txt;01
+Sõnumi peitmine hoiab ära sõnumite kuvamise tulevikus.
+Sõnumi peitmine ei lahenda tegelikult probleeme, mis 
+tingisid sõnumi näitamise.
+
+Soovid sa välja lülitada sõnumit %2?
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control Dialogs: Disable Forced Programs
+#----------------------------------------------------------------------------
+
+3651;txt;01
+Ajutiselt lülita välja Sunnitud programmid
+.
+
+3652;txt;01
+Ajutiselt lülita välja Sunnitud programmid järgmistele
+.
+
+3653;txt;01
+sekundit
+.
+
+3654;txt;01
+Klõpsates OK lülitatakse ajutiselt Sunnitud programmide mehhanism välja ülalmainitud sekundite ajaks või seniks kuni sa valid selle funktsiooni uuesti.
+.
+
+3599;txt;01
+Teatud programmi sundimise saab välja lülitada, kui selle programmi jaoks käsu Käivita sandboxitult andmisel hoida all Ctrl ja Shift klahve.
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control Dialogs: Resource Access Monitor
+#----------------------------------------------------------------------------
+
+3655;txt;01
+Ressursside juurdepääsu monitor
+.
+
+3656;txt;01
+See töövahend jälgib programme, mis töötavad Sandboxie järelvaate all ja kuvab ressursse, millele neil on juurdepääs.  Palun uuri dokumentatsiooni enne selle töövahendi kasutamist.
+.
+
+3657;txt;01
+Kopeeri sisu lõikelauale ja sulge aken
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control Dialogs: Is Window Sandboxed
+#----------------------------------------------------------------------------
+
+3661;txt;01
+Kas aken on sandboxitud?
+.
+
+3662;txt;01
+Lohista Määramise töövahend üle akna selle selekteerimiseks, siis vabasta hiirenupp kontrollimaks, kas aken on sandboxitud.
+
+Katkestamiseks vajuta ESC.
+.
+
+3663;txt;01
+Valitud aken töötab programmi %2 osana sandboxis %3.
+.
+
+3664;txt;01
+Valitud aken ei tööta ühegi sandboxitud programmi osana.
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control Dialogs: Create New Sandbox
+#----------------------------------------------------------------------------
+
+3665;txt;01
+Loo uus sandbox
+.
+
+3666;txt;01
+Sisesta uue sandboxi nimi.
+.
+
+3667;txt;01
+Viga:  sisestati vigane sandboxi nimi.  Kasuta ainult tähti ja numbreid.  Tühikud ja muud erisümbolid on keelatud.  Nime pikkus võib olla maksimaalselt 32 sümbolit.
+.
+
+3668;txt;01
+Viga:  sisestati duplikaatnimi.  Sisesta nimi, mida pole kasutatud mõne teise sandboxi poolt.
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control Dialogs: Set Container Folder
+#----------------------------------------------------------------------------
+
+3671;txt;01
+Määra hoiustamise kaust
+.
+
+3672;txt;01
+Vali kettaseade, millel sandboxid luuakse ja hoitakse.
+.
+
+3673;txt;01
+Teiste programmidega maksimaalse ühilduvuse tagamiseks on soovitav jätta sandbox vaikimisi asukohta kettaseadmel, mille valid.
+.
+
+3674;txt;01
+Sellegi poolest võid kasutada allolevat kasti, et muuta vaikimisi asukohta:
+.
+
+3675;txt;01
+Märkus:  Soovitav on kustutada kõikide sandboxide sisu enne hoiustamise kausta muutmist.
+.
+
+3676;txt;01
+Kettaseade %2
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control Dialogs: Alerts
+#----------------------------------------------------------------------------
+
+3681;txt;01
+Programmi hoiatused
+.
+
+3682;txt;01
+Kui mõni järgnevatest programmidest käivitatakse väljaspool mistahes sandboxi, annab Sandboxie teate SBIE1301.
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control Dialogs: Shell Integration
+#----------------------------------------------------------------------------
+
+3685;txt;01
+Integreeri Windowsi kasutajaliidesesse
+.
+
+3686;txt;01
+Käivita Sandboxie Juhtimine
+.
+
+3687;txt;01
+Kui Windows käivitub
+.
+
+3688;txt;02
+Kui sandboxitud programm käivitub
+.
+
+3689;txt;01
+Kiirkorralduse ikoonid
+.
+
+3690;txt;01
+Lisa töölauale kiirkorraldus, et käivitada veebibrauser Sandboxie's
+.
+
+3691;txt;01
+Lisa Kiirkäivituse ribale kiirkorraldus, et käivitada veebibrauser Sandboxie's
+.
+
+3692;txt;01
+Klõpsa töölauale rohkemate ikoonide lisamiseks:
+.
+
+3693;txt;01
+&Lisa Kiirkorralduse ikoonid
+.
+
+3694;txt;01
+"Käivita Sandboxitult" tegevused
+.
+
+3695;txt;01
+Lisa failidele ja kaustadele paremklõpsu tegevus "Käivita Sandboxitult"
+.
+
+3696;txt;01
+Lisa sandboxid sihtkohtadena "Send To" käsule
+.
+
+3697;txt;01
+Nüüd kuvatakse Sandboxie Start menüüd.  Vali menüüst rakendus
+ja Sandboxie loob uue kiirkorralduse ikooni sinu päris
+töölauale, mida saab kasutada valitud rakenduse käivitamiseks
+Sandboxie järelvalve all.
+.
+
+3698;txt;01
+Sandboxitud veebibrauser.lnk
+.
+
+3699;txt;01
+Käivita &Sandboxitult
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control:  Delete Sandbox / Quick Recovery / Immediate Recovery
+#----------------------------------------------------------------------------
+
+3711;txt;01
+Kustuta Sandbox|Kiirtaaste
+.
+
+3712;txt;01
+Alltoodud failid sobivad kiirtaasteks sandboxist.  Vali fail või kaust ja klõpsa allolevat Taastenuppu, et valitud asjad taastada.
+.
+
+3713;txt;01
+Klõpsa Kustuta Sandbox, et lõpetada mistahes sandboxis töötavad programmid ja kustutada nende sisu.
+.
+
+3714;txt;01
+&Kustuta Sandbox
+.
+
+3715;txt;01
+Kohene taastamine
+.
+
+3716;txt;02
+Järgnevad failid on sobivad koheseks taastamiseks ja neid saab tõsta sandboxist väljaspoole.
+.
+
+3717;txt;01
+Esmalt vali ülalt nimekirjast failid, seejärel vali sihtkaust.
+.
+
+3718;txt;01
+&Taasta
+.
+
+3719;txt;01
+Ära &küsi uuesti kuni kõik sandboxitud programmid peatuvad
+.
+
+3720;txt;01
+Taa&sta
+samasse kausta
+.
+
+3721;txt;01
+Taasta
+&suvalisse kausta
+.
+
+3722;txt;01
+Sandboxis on %2 fail(i) ja %3 kaust(a), mis hõlmavad %4 baiti kettapinda.
+.
+
+3723;txt;01
+Vali kaust, kuhu fail või kaust taastatakse.
+.
+
+3724;txt;01
+Või vali kaust eelmisest taastamisest.
+.
+
+3725;txt;01
+Säilita valitud kaust hilisemaks kasutuseks
+.
+
+3726;txt;01
+Vali kaust, mida soovid lisada Kiirtaaste kaustade hulka.
+.
+
+3727;txt;01
+Kaust lisati Kiirtaaste kaustade nimekirja.
+
+Siiski, sel korral, pole siin ühtegi sandboxitud asja, 
+mida saaks taastada sellest kaustast.
+.
+
+3728;txt;01
+Ühtegi faili pole taastamiseks valitud.
+.
+
+3729;txt;01
+Taastamine ebaõnnestus.  Järgmisi asju ei saanud sandboxist välja tõsta:
+.
+
+3730;txt;01
+Sandbox on tühi.  Siin pole midagi kustutada.
+.
+
+3731;txt;01
+Mõningaid sandboxitud programme ei saanud peatada.  Sandboxi ei kustutatud.
+.
+
+3732;txt;01
+Sel korral pole ühtegi faili taastada.
+.
+
+3733;txt;01
+Faili ei saa taastada kuna sihtkausta nimi on liiga pikk.
+Palun vali mõni teine sihtkaust.
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control:  Program Settings
+#----------------------------------------------------------------------------
+
+3741;txt;01
+Programmi seaded
+.
+
+3742;txt;01
+Sandbox:
+.
+
+3743;txt;01
+Programm:
+.
+
+3744;txt;01
+Vaata lk 1
+.
+
+3745;txt;01
+Vaata lk 2
+.
+
+3751;txt;01
+Programmi käivitamine
+.
+
+3752;txt;01
+Iga kord, kui see programm käivitub väljaspool mistahes sandboxi:
+.
+
+3753;txt;01
+Veateade SBIE1301
+.
+
+3754;txt;01
+Sunni programmi töötama selles sandboxis
+.
+
+3755;txt;01
+Programmi peatamine
+.
+
+3756;txt;01
+Peata see programm, kui see jääb pärast teiste programmide lõpetamist sandboxi
+.
+
+3757;txt;01
+Peata teised programmid pärast seda, kui see juhtprogramm on lõpetanud
+.
+
+3761;txt;01
+Internetipiirangud
+.
+
+3762;txt;01
+Iga selles sandboxis töötav programm võib Internetti ühenduda.
+.
+
+3763;txt;01
+Programmid, mis võivad ühenduda Internetti selles sandboxis:
+.
+
+3764;txt;01
+Luba piirangud ja lase sellel programmil internetti ühenduda.
+.
+
+3765;txt;01
+Alusta/Käivita piirangud
+.
+
+3766;txt;01
+Igat programmi saab käivitada selles sandboxis.
+.
+
+3767;txt;01
+Programmid, mida saab käivitada selles sandboxis:
+.
+
+3768;txt;01
+Luba piirangud ja lase sellel programmil käivituda.
+.
+
+3769;txt;01
+(Ükski)
+.
+
+3770;txt;01
+Uued seaded ei rakendu juba töötavale 
+sandboxitud programmile. Seaded rakenduvad
+programmi järgmise käivitumise korral.
+.
+
+3771;txt;01
+(See võimalus on saadaval ainult Sandboxie registreeritud versioonis)
+.
+
+3772;txt;02
+Oled sa kindel, et sa soovid seada %2 sunnitud programmiks?
+.
+
+3773;txt;02
+Oled sa kindel, et sa soovid seada %2 sunnitud kaustaks?
+.
+
+# 3774;txt;02
+# Oled kindel, et soovid seada %2 sunnitud kasutajaks?
+# .
+
+3775;txt;02
+Sa oled teinud muudatuse, mida ei ole lihtne tagasi võtta.
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control:  Sandbox Settings
+#----------------------------------------------------------------------------
+
+3801;txt;01
+Sandboxi seaded - %2
+.
+
+3802;txt;01
+See leht on tahtlikult tühjaks jäetud
+.
+
+3803;txt;01
+Enne jätkamist pead sa sellel lehel muudatused rakendama.
+.
+
+3804;txt;01
+Rakenda muudatused, kui teisele lehele ümber lülitutakse.
+.
+
+3805;txt;01
+Kõik programmid
+.
+
+3806;txt;02
+Allpool olev nimekiri rakendub järgnevale:
+.
+
+# 3806;txt;01
+# Ülaltoodud nimekiri kehtib:
+# .
+
+3807;txt;01
+Vali fail või kaust, mida soovid lisada Failide Juurdepääsu erandite nimekirja.
+.
+
+3808;txt;01
+Lisa ressursi nimi
+.
+
+3809;txt;01
+Redigeeri ressursi nime
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control:  Sandbox Settings:  Appearance
+#----------------------------------------------------------------------------
+
+3811;txt;01
+Välimus
+.
+
+3812;txt;01
+Sandboxitud programmid, mis töötavad Sandboxie järelvalve all, näitavad Sandboxie [#] indikaatorit akna tiitliribal.
+.
+
+3813;txt;01
+Kui järgnevad seaded on lubatud, siis akna tiitliriba näitab ka sandboxi nime.
+.
+
+3814;txt;01
+Näita sandboxi nime akna tiitliribal
+.
+
+3815;txt;01
+Ära näita Sandboxi indikaatorit akna tiitliribal
+.
+
+3816;txt;01
+Sandboxie võib näidata jämedat raami ümber akna, mis kuulub sandboxitud programmile.
+.
+
+3817;txt;01
+Näita akna ümber raami
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control:  Sandbox Settings:  Recovery
+#----------------------------------------------------------------------------
+
+3821;txt;02
+Taastamine
+.
+
+3822;txt;01
+Kiirtaaste
+.
+
+3823;txt;01
+Enne sandboxi kustutamist või kui sa käsitsi kutsud välja Kiirtaaste funktsiooni, tuleb sandboxitud sisus kontrollida järgnevaid kaustu.  Kui leitakse mõni fail, siis on sul võimalus neid taastada väljaspool sandboxi.
+.
+
+3832;txt;01
+Kohene taastamine täiustab Kiirtaastet kutsudes automaatselt välja taastamisfunktsiooni niipea, kui failid on loodud.
+.
+
+3833;txt;01
+Lülita sisse kohene taastamine
+.
+
+3834;txt;01
+Järgnevad kaustad ja failitüübid (või faililaiendid) jäetakse kohesest taastamisest välja.
+.
+
+3835;txt;01
+Lisa &tüüp
+.
+
+3836;txt;01
+Vali kaust, mida kohesest taastamisest välja arvata.
+.
+
+3837;txt;01
+Sisesta failitüüp (ehk faili laiend), mida kohesest taastamisest välja arvata
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control:  Sandbox Settings:  Delete
+#----------------------------------------------------------------------------
+
+3841;txt;02
+Kustuta
+.
+
+3842;txt;01
+Kustuta väljakutsumine
+.
+
+3843;txt;01
+Selle sandboxi sisu võib automaatselt kustutada, kui viimane sandboxitud programm lõpetab ja sandbox muutub mitteaktiivseks.
+.
+
+3844;txt;01
+Automaatselt kustuta sandboxi sisu
+.
+
+3845;txt;01
+Kui mistahes sandboxitud failid on väärt taastamist, kutsutakse automaatkustutamise asemel välja Kiirtaaste.
+.
+
+3846;txt;01
+Teise võimalusena saab seda sandboxi kaitsta Sandboxie poolt algatatud eemaldamise ja kustutamise vastu (nii manuaalse kui automaatse).
+.
+
+3847;txt;01
+Iialgi ära eemalda seda sandboxi või kustuta selle sisu
+.
+
+3852;txt;01
+Kustuta käsk
+.
+
+3853;txt;01
+Nii manuaalsel kui automaatsel kustutamisel kasutatakse järgnevat süsteemset käsku sandboxi sisu kustutamiseks.  Kui see on tühjaks jäetud, siis vaikimisi käsk on RMDIR (kausta eemaldamine).
+.
+
+3854;txt;01
+Kui muudad seda sätet, siis lisa tekst "%%SANDBOX%%" (koos jutumärkidega).  Selle käsu täitmisel asendatakse see tekst sandboxi kausta asukohaga.
+.
+
+3855;txt;01
+Või vali eelseadistatud kustutamise käsk:
+.
+
+3856;txt;01
+Kustutamise käsk ei määratle "%%SANDBOX%%" (koos jutumärkidega).
+Oled kindel, et soovid seda kustutamise käsku kasutada?
+.
+
+3857;txt;01
+Palun navigeeri ja vali programm - %2
+.
+
+#----------------------------------------------------------------------------
+# Program Groups
+#----------------------------------------------------------------------------
+
+3971;txt;01
+Programmide grupid
+.
+
+3972;txt;01
+Sa võid grupeerida teatud programmid kokku ja anda neile ühise nime. Programmide gruppe saab kasutada koos mõne seadega, mis aktsepteerib programmi nimesid.
+.
+
+3974;txt;01
+Lisa &Grupp
+.
+
+3975;txt;01
+Sisesta uue grupi nimi
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control:  Sandbox Settings:  Forced Folders/Programs
+#----------------------------------------------------------------------------
+
+3861;txt;02
+Programmi käivitamine
+.
+
+3862;txt;01
+Sunnitud kaustad
+.
+
+3863;txt;01
+Kui mõni programm käivitub sandboximata ühest järgnevatest kaustadest, siis sunnitakse ta töötama selles sandboxis.  See ei rakendu, kui programm on otseselt käivitatud mõnes teises sandboxis.
+.
+
+3864;txt;01
+Sa võid sundida Windowsi CD/DVD AutoRun'i käivituma sandboxitult lisades CD- ja DVD-seadme tähised järgnevasse nimekirja.
+.
+
+3865;txt;01
+Sunnitud kaustad on tähtsamad sunnitud programmidest.
+.
+
+3866;txt;01
+Vali kaust sunnitud kaustade hulka lisamiseks.
+.
+
+3872;txt;01
+Sunnitud programmid
+.
+
+3873;txt;01
+Kui mõni järgnevatest programmidest käivitub sandboximata, siis sunnitakse ta töötama selles sandboxis.  See ei rakendu, kui programm on otseselt käivitatud mõnes teises sandboxis.
+.
+
+# 3962;txt;01
+# Sunnitud kasutajad
+# .
+
+# 3963;txt;01
+# Kui mõni järgnevatest kasutajakontodest logib sellesse arvutisse, siis kogu sisselogimise sessioon sunnitakse tööle selles sandboxis.
+# .
+
+# 3964;txt;01
+# Sunnitud kasutaja kontoga seostatud sandboxi kustutamiseks logi Windows'isse selle kasutajana ja kasutades Sandboxie Juhtimist kustuta see sandbox.
+# .
+
+# 3965;txt;01
+# Sunnitud kasutajad on tähtsamad, kui sunnitud programmid ja sunnitud kaustad.
+# .
+
+#----------------------------------------------------------------------------
+# Sandboxie Control:  Sandbox Settings:  Linger/Leader Programs
+#----------------------------------------------------------------------------
+
+3881;txt;02
+Programmi peatamine
+.
+
+3882;txt;01
+Pikaldased programmid
+.
+
+3883;txt;01
+Järgnevad programmid lõpetatakse automaatselt, kui nad veel töötavad selles sandboxis pärast kõikide teiste programmide lõpetamist.
+.
+
+3892;txt;01
+Juhtprogrammid
+.
+
+3893;txt;01
+Järgnevad programmid loetakse primaarseteks programmideks selles sandboxis.  Nende programmide lõpetamine kutsub esile teiste selles sandboxis töötavate programmide töö lõpetamise.
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control:  Sandbox Settings:  File Migration
+#----------------------------------------------------------------------------
+
+3901;txt;01
+Faili migratsioon
+.
+
+3903;txt;01
+Failid migreeriti (kopeeriti) sandboxi, et neid saaks muuta selles sandboxis töötavate programmide poolt.  Sellegi poolest, suurte failide puhul võib migreerimisprotsess kaua aega võtta.
+.
+
+3904;txt;01
+Järgnev number määrab migreeritava faili maksimummahu.  Sellest mahust suuremaid faile ei migreerita kunagi sandboxi ja neid ei saa muuta sandboxis töötavate programmidega.
+.
+
+3905;txt;01
+Ära migreeri faile, mis on mahukamad, kui
+.
+
+3906;txt;01
+kilobaiti
+.
+
+3907;txt;01
+Kui fail on migreerimiseks liiga mahukas antakse teade SBIE2102, kui järgnev valik on märgistamata.
+.
+
+3908;txt;01
+Ära teavita liiga mahukast failist
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control:  Sandbox Settings:  Internet/Start Restrictions
+#----------------------------------------------------------------------------
+
+3911;txt;02
+Piirangud
+.
+
+3912;txt;01
+Internetiühendus
+.
+
+3913;txt;01
+Järgnevad programmid on ainukesed programmid selles sandboxis, mis võivad kasutada Internetiühendust.
+.
+
+3914;txt;01
+Kui see valik on aktiveeritud, siis sellesse sandboxi installeeritud (või alla laetud) programme ei lubata Internetti ühenduda, isegi kui nad kasutavad programmi nime, mis on ülalpool määratletud.
+.
+
+3915;txt;01
+Teavita sõnumiga SBIE%2 kui ühendumine on keelatud
+.
+
+3916;txt;01
+&Blokeeri kõik programmid
+.
+
+3917;txt;01
+&Lubada kõik programmid
+.
+
+3918;txt;01
+Kõik programmid võivad Internetti ühenduda
+.
+
+3919;txt;01
+Ükski programm ei või Internetti ühenduda
+.
+
+3922;txt;01
+Alusta/Käivita ühendumine
+.
+
+3923;txt;01
+Järgnevad programmid on ainukesed programmid selles sandboxis, mis võivad käivituda ja töötada.
+.
+
+3924;txt;01
+Kui see valik on aktiveeritud, siis sellesse sandboxi installeeritud (või alla laetud) programme ei lubata käivituda ja töötada, isegi kui nad kasutavad programmi nime, mis on ülalpool määratletud.
+.
+
+3928;txt;01
+Kõik programmid võivad käivituda ja töötada
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control:  Sandbox Settings:  Low Level Access / Hardware Access
+#----------------------------------------------------------------------------
+
+3932;txt;01
+Alamtasemel juurdepääs
+.
+
+3933;txt;01
+Järgnevad seaded nõrgestavad Sandboxie poolt pakutavat kaitset. Neist ühe või enama seade sisse lülitamine ei ole soovitav.
+.
+
+3934;txt;01
+Luba selle sandboxi programmidel kernelirežiimi draivereid opsüsteemi laadida
+.
+
+3935;txt;01
+Luba selle sandboxi programmidel laadida rakenduse (Win32) haake teistesse programmidesse
+.
+
+3936;txt;01
+Luba selle sandboxi programmidel simuleerida klaviatuuri ja hiire sisendit
+.
+
+3937;txt;01
+Luba selle sandboxi programmidel muuta töölaua taustapilti ja muid süsteemi parameetreid
+.
+
+3938;txt;01
+Luba selle sandboxi programmidel hallata riistvara seadmete konfiguratsioone
+.
+
+3952;txt;01
+Tarkvarale juurdepääs
+.
+
+3953;txt;01
+Permit Luba selle sandboxi programmidel muuta kasutajakonto parooli
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control:  Sandbox Settings:  Drop Rights
+#----------------------------------------------------------------------------
+
+3942;txt;01
+Õiguste keelamine
+.
+
+3943;txt;01
+Sandboxie peab blokeerima ainult mõned enda poolt hallatavate programmide turvalisuse õigused, et garanteerida isolatsiooni.
+.
+
+3944;txt;01
+Siiski, kui sa kasutad administraatori või power user'i kontot, siis Sandboxie saab blokeerida veel enam turvalisuse õiguseid, mis on sarnane DropMyRights utiliidi mõjule.
+.
+
+3945;txt;01
+Administraatori ja power user'i gruppide õiguste keelamine
+.
+
+3946;txt;01
+On soovitav need seaded sisselülitatuna hoida, kompenseerimaks Sandboxie kaitsemeetmeid, mis ei ole saadaval Windowsi 64-bitises versioonis.
+.
+
+#----------------------------------------------------------------------------
+# Sandboxie Control:  Sandbox Settings:  Resource Access
+#----------------------------------------------------------------------------
+
+4001;txt;01
+Ressurssidele juurdepääs::Failidele juurdepääs::Otsejuurdepääs
+.
+
+4002;txt;01
+Otsejuurdepääs failidele (OpenFilePath)
+.
+
+4003;txt;01
+Järgnevad failid ja kaustad muutuvad selles sandboxis töötavatele programmidele otse kättesaadavaks, ilma mingisuguste sandboximise mõjudeta.
+.
+
+4004;txt;01
+See ei rakendu programmidele, mis on sandboxi paigaldatud või sinna alla laetud.
+Vaata ka:  Täieliku juurdepääsu seaded.
+.
+
+4011;txt;01
+Ressurssidele juurdepääs::Failidele juurdepääs::Täielik juurdepääs
+.
+
+4012;txt;01
+Täielik failidele juurdepääs (OpenPipePath)
+.
+
+4013;txt;01
+Järgnevad failid ja kaustad on otsejuurdepääsetavad programmidele, mis töötavad selles sandboxis, ilma  sandboximise efektita.
+.
+
+4014;txt;01
+Erinevalt Otsejuurdepääsu seadetest see seade rakendub kõikidele programmidele, k.a need, mis on paigaldatud või alla laetud sandboxi sisse.
+.
+
+4021;txt;01
+Ressurssidele juurdepääs::Failidele juurdepääs::Blokeeritud juurdepääs
+.
+
+4022;txt;01
+Blokeeritud failidele juurdepääs (ClosedFilePath)
+.
+
+4023;txt;01
+Järgnevad failid ja kaustad ei ole kättesaadavad kõikidele selles sandboxis töötavatele programmidele.
+.
+
+4024;txt;01
+Kui fail või kaust vastab Failidele juurdepääsu seadele aga vastab ka Blokeeritud failidele juurdepääsu seadele, siis kasutatakse Blokeeritud juurdepääsu seadeid.
+.
+
+4025;txt;01
+Windowsi failijagamist saab kasutada, et vältida Blokeeritud failidele juurdepääsu seadeid.
+Lisan ressursi, et blokeerida juurdepääs Windowsi failijagamisele.
+.
+
+4031;txt;01
+Ressurssidele juurdepääs::Failidele juurdepääs::Ainult loetavatele failidele juurdepääs
+.
+
+4032;txt;01
+Ainult loetavatele failidele juurdepääs (ReadFilePath)
+.
+
+4033;txt;01
+Järgnevad failid ja kaustad ei ole muudetavad programmide poolt, mis töötavad selles sandboxis.
+.
+
+4041;txt;01
+Ressurssidele juurdepääs::Registrile juurdepääs::Otsejuurdepääs
+.
+
+4042;txt;01
+Otse registrile juurdepääs (OpenKeyPath)
+.
+
+4043;txt;01
+Järgnevad registrivõtmed on otsejuurdepääsetavad programmide poolt, mis töötavad selles sandboxis, ilma sandboximise efektita.
+.
+
+4044;txt;01
+See ei rakendu programmidele, mis on sandboxi sisse paigaldatud või alla laetud.
+.
+
+4051;txt;01
+Ressurssidele juurdepääs::Registrile juurdepääs::Blokeeritud juurdepääs
+.
+
+4052;txt;01
+Blokeeritud juurdepääs registri poole (ClosedKeyPath)
+.
+
+4053;txt;01
+Järgnevad registrivõtmed ei ole kättesaadavad kõikidele selles sandboxis töötavatele programmidele.
+.
+
+4054;txt;01
+Kui registrivõti vastab Registrile juurdepääsu seadele aga vastab ka Blokeeritud juurdepääsu seadele, siis kasutatakse Blokeeritud juurdepääsu seadeid.
+.
+
+4061;txt;01
+Ressursside juurdepääs::Registri juurdepääs::Ainult loetav juurdepääs
+.
+
+4062;txt;01
+Ainult loetav registrile juurdepääs (ReadKeyPath)
+.
+
+4063;txt;01
+Järgnevad registrivõtmed ei ole muudetavad programmide poolt, mis töötavad selles sandboxis.
+.
+
+4071;txt;01
+Ressurssidele juurdepääs::IPC-le juurdepääs::Otsejuurdepääs
+.
+
+4072;txt;01
+Otse IPC-le juurdepääs (OpenIpcPath)
+.
+
+4073;txt;01
+Järgnevad NT IPC objektid on otsepöördutavad programmidele, mis töötavad selles sandboxis, ilma sandboximise efektita.
+
+.
+
+4074;txt;01
+Seade rakendub kõikidele programmidele, k.a need, mis on paigaldatud või alla laetud sellesse sandboxi.
+.
+
+4081;txt;01
+Ressurssidele juurdepääs::IPC-le juurdepääs::Blokeeritud juurdepääs
+.
+
+4082;txt;01
+Blokeeritud IPC-le juurdepääs (ClosedIpcPath)
+.
+
+4083;txt;01
+Järgnevad NT IPC objektid ei ole kättesaadavad kõikidele selles sandboxis töötavatele programmidele.
+.
+
+4084;txt;01
+Kui NT IPC vastab IPC-le juurdepääsu seadele aga vastab ka Blokeeritud juurdepääsu seadele, siis kasutatakse Blokeeritud juurdepääsu seadeid.
+.
+
+4091;txt;01
+Ressurssidele juurdepääs::Aknale juurdepääs
+
+.
+
+4092;txt;01
+Aknale juurdepääs (OpenWinClass)
+.
+
+4093;txt;01
+Sandboxitud programmid ei saa ühenduda akendega, mis kuuluvad programmidele, mis töötavad väljaspool sandboxi, kui just aken oli loodud ühe järgneva akna klassi poolt.
+.
+
+4101;txt;01
+Ressurssidele juurdepääs::COM-ile juurdepääs
+.
+
+4102;txt;01
+COM-ile juurdepääs (OpenClsid)
+.
+
+4103;txt;01
+Sandboxitud programmid ei saa ühenduda COM objektidega, mis kuulub programmidele, mis töötavad väljaspool sandboxi, kui just COM klassi ID vastab ühele järgenvatest klassi ID-dest.
+.
+
+#----------------------------------------------------------------------------
+# Applications - General
+#----------------------------------------------------------------------------
+
+4201;txt;01
+Rakendused
+.
+
+4202;txt;01
+&Vaata koodi
+.
+
+4203;txt;01
+Ava &veebilehekülg
+.
+
+4204;txt;01
+Loo &uus
+.
+
+4205;txt;01
+Selle rakenduse konfiguratsioon ei sisalda veebiaadressi.
+.
+
+4206;txt;01
+Mitmesugust
+.
+
+4207;txt;01
+Täiusta Sandboxie kasutamist oma teiste rakendustega valides neid allolevast nimekirjast.
+.
+
+4209;txt;01
+Kaustad
+.
+
+4210;txt;01
+Määratle kausta asukohad, mida kasutavad sinu teised rakendused.
+.
+
+4211;txt;01
+Vali kaust järgnevale
+.
+
+4212;txt;01
+Vaikimisi asukoht:
+.
+
+4213;txt;01
+Alternatiivne asukoht:
+.
+
+4214;txt;02
+'%2' alternatiivne asukoht
+peab sisaldama järgmist faili:
+
+%3
+
+Valitud asukoht ei sisalda seda faili.
+
+Palun vali kaust, kus see fail olemas on.
+.
+
+4215;txt;01
+Vali kaust, mida kasutab %2.
+.
+
+4216;txt;01
+Allpool olevad seaded moodustavad rakenduse konfiguratsiooni '%2'.
+.
+
+4217;txt;01
+Sisesta või kleebi seaded, siis klõpsa OK, et luua uus lokaalne rakenduse konfiguratsioon.
+.
+
+4218;txt;01
+Lokaalne
+.
+
+4219;txt;01
+Sinu lokaalsed (mitteametlikud) rakenduste konfiguratsioonid.
+.
+
+4220;txt;01
+Sisestatud kood sisaldab ühte või mitut viga.
+Ei suudetud luua rakenduse konfiguratsiooni.
+.
+
+4221;txt;01
+Rakenduste kausta asukoha määramiseks vaata Kausta lehekülge.
+.
+
+4222;txt;02
+Seda seadet ei saa muuta või eemaldada kuna see on ühe
+rakenduse konfiguratsiooni osa:
+
+%2
+
+Et eemaldada rakenduse konfiguratsiooni sandboxist, vaata
+Rakenduste lehekülge Sandboxi seadete aknas.
+.
+
+4223;txt;01
+Lokaalse rakenduse konfiguratsioon '%2' on nüüd eemaldatud kõigist sandboxidest.
+Soovid sa täielikult kustutada selle rakenduse konfiguratsiooni?
+.
+
+4224;txt;01
+PDF/Printimine
+.
+
+4226;txt;02
+Turvalisus/Privaatsus
+.
+
+4228;txt;01
+Töölaua utiliidid
+.
+
+4230;txt;01
+Allalaadimishaldurid
+.
+
+4288;txt;01
+Kõik rakendused
+.
+
+4289;txt;01
+Nimekiri kõikide rakenduste konfiguratsioonidest, sorteerituna tähestikulisse järjekorda. Nimekiri ei sisalda sinu lokaalsete (mitteametlike) rakenduste konfiguratsioone.
+.
+
+4291;txt;01
+Kohese taastamise vaikimisi väljajätmised
+.
+
+4292;txt;01
+Pikaldaste programmide vaikimisi nimekiri
+.
+
+4293;txt;01
+Vaikimisi nimekiri blokeeritud TCP/IP portidest
+.
+
+#----------------------------------------------------------------------------
+# Applications - Software Compatibility
+#----------------------------------------------------------------------------
+
+4251;txt;01
+Tarkvara ühilduvus
+.
+
+4252;txt;01
+Sandboxie avastas järgneva tarkvara rakenduse sinu süsteemist.
+.
+
+4253;txt;01
+Nende rakendustega ühilduvust parandavate konfiguratsiooni sätete rakendamiseks klõpsa OK.
+.
+
+4254;txt;01
+Need konfiguratsiooni seaded mõjuvad kõigis olemasolevates sandboxides ja kõikides mistahes uutes sandboxides.
+.
+
+4255;txt;01
+Tulevikus ära kontrolli tarkvara ühilduvust
+.
+
+4256;txt;01
+Seda rakenduse konfiguratsiooni ei saa eemaldada kuna see on rakendatud kõikidele sandboxidele.
+Selle rakenduse konfiguratsiooni eemaldamiseks kasuta tööriista Tarkvara ühilduvus menüüst Konfiguratsioon.
+.
+
+#----------------------------------------------------------------------------
+# Lock Configuration
+#----------------------------------------------------------------------------
+
+4261;txt;01
+Lukusta konfiguratsioon
+.
+
+4262;txt;01
+Sandboxie saab kaitsta üldist konfiguratsiooni ja Sandboxi seadeid volitamata muudatuste eest.  Vali kaitseviis lubamiseks või keelamiseks.
+.
+
+4263;txt;01
+Ainult &administraatori kasutajakontolt saab teha muudatusi
+.
+
+4264;txt;01
+&Muudatuste tegemiseks peab olema ka salasõna sisestatud
+.
+
+4265;txt;01
+&Unusta salasõna, kui Sandboxie Juhtimise aken peidetakse
+.
+
+4266;txt;01
+&Muuda salasõna
+.
+
+4267;txt;01
+Ainult administraatori kasutajakonto saab kasutada &Keela sunnitud programmid käsku
+.
+
+4269;txt;01
+Palun tutvu Sandboxie dokumentatsiooni leheküljega, mis kirjeldab
+konfiguratsiooni kaitset.  Kas sa soovid selle lehekülje kohe avada?
+.
+
+4271;txt;01
+Sandboxie konfiguratsioon on salasõnaga kaitstud.  Palun sisesta see salasõna nüüd.
+.
+
+4272;txt;01
+Sisesta uus salasõna, millega sa soovid kaitsta Sandboxie konfiguratsiooni.
+.
+
+4273;txt;01
+Sisesta sama salasõna uuesti, et kinnitada seda.
+.
+
+4274;txt;01
+Vale salasõna sisestatud.  Proovid uuesti?
+.
+
+#----------------------------------------------------------------------------
+# Program Selector
+#----------------------------------------------------------------------------
+
+4281;txt;01
+Vali programmi nimi
+.
+
+4282;txt;01
+Vali programmi nimi või programmide grupp
+.
+
+4283;txt;01
+Programmid, mis on viimati käivitatud
+.
+
+4284;txt;01
+Programmid, mis on näha Sandboxi seadetes
+.
+
+4285;txt;01
+Programmide grupid
+.
+
+4286;txt;01
+Vali või &sisesta programm:
+.
+
+4287;txt;01
+Ava / Vali &fail
+.
+
+#----------------------------------------------------------------------------
+# Applications - Accessibility
+#----------------------------------------------------------------------------
+
+4302;txt;01
+Juurdepääs
+.
+
+4303;txt;01
+Järgnevad seaded lubavad kasutada Sandboxiet koos kasutamist hõlbustava tarkvaraga.  Palun pane tähele, et mõned Sandboxie kaitsemeetmed lähevad paratamatult kaduma, kui need seaded rakendatakse.
+.
+
+4304;txt;01
+Kaotatud kaitse kompenseerimiseks konsulteeri palun Õiguste Keelamise leheküljega grupis Piirangud.
+.
+
+4305;txt;03
+Ekraanilugejad:  %2
+.
+
+#----------------------------------------------------------------------------
+# Applications - Web Browser and Email Reader
+#----------------------------------------------------------------------------
+
+4321;txt;01
+Veebibrauser
+.
+
+4322;txt;01
+Järgnevad erandid lubavad selles sandboxis töötavatel veebibrauseritel teha muudatusi väljaspool sandboxi, vahetades nõnda väikse osa turvalisusest ja privaatsusest suurema mugavuse vastu.
+.
+
+4323;txt;01
+Sunni %2 töötama selles sandboxis
+.
+
+4325;txt;02
+Luba otsepöördumist %2 kanalite poole
+.
+
+4326;txt;02
+Luba otsepöördumist %2 lemmikute poole 
+.
+
+4327;txt;01
+Lisa Internet Exploreri lemmikud Kiirtaaste kaustadesse
+.
+
+4328;txt;01
+Luba otsepöördumist %2 cookie'de poole
+.
+
+4329;txt;01
+Salvesta väljaspool sandboxi:  Otsistringide ajalugu ja kasutatud käsud
+.
+
+4330;txt;01
+Salvesta väljaspool sandboxi:   Hotmaili ja Messengeri konto informatsioon
+.
+
+4331;txt;01
+Luba otsepöördumist %2 salasõnade poole
+.
+
+4336;txt;02
+Luba otsepöördumist %2 järjehoidja ja ajaloo andmebaasi poole
+.
+
+4337;txt;02
+Luba otsepöördumist %2 õngitsemise andmebaasi poole
+.
+
+4338;txt;02
+Luba otsepöördumist terve %2 profiilikausta poole
+.
+
+4356;txt;02
+Luba otsepöördumist %2 järjehoidjate poole
+.
+
+4357;txt;02
+Muu
+.
+
+4358;txt;02
+Lisad
+.
+
+4391;txt;01
+E-posti lugeja
+.
+
+4392;txt;01
+Järgnevad erandid lubavad e-posti lugejatel töötada selles sandboxis, et pöörduda meilikastide poole, mis asuvad väljaspool sandboxi.
+.
+
+#----------------------------------------------------------------------------
+# License Manager
+#----------------------------------------------------------------------------
+
+7901;txt;01
+Sandboxie litsentsihaldur
+.
+
+7902;txt;01
+Süsteemi kood %2
+.
+
+7903;txt;01
+Edaspidi aktiveeri litsents ilma küsimata
+.
+
+#----------------------------------------------------------------------------
+
+7921;txt;01
+Sandboxie on registreeritud ja litsents aktiveeritud.
+.
+
+7922;txt;01
+Sandboxie on registreeritud aga nüüd tuleb ka litsents uuesti aktiveerida.
+.
+
+7924;txt;01
+Sandboxie litsents tuleb uuesti aktiveerida %2 päeva pärast.
+.
+
+7925;txt;01
+Sandboxie litsents on nüüd aktiveeritud.
+.
+
+7926;txt;01
+Tootevõtme aegumiskuupäev on %2.
+.
+
+#----------------------------------------------------------------------------
+
+7931;txt;01
+Sinu Sandboxie koopia on registreeritud aegunud registreerimisvõtmega.
+.
+
+7932;txt;01
+Palun luba litsentsihalduril ühenduda litsentsiserveriga ja uuendada sinu vana registreerimisvõti uue toote võtmega. Selle uuenduse eest ei pea sa mingit tasu maksma.
+.
+
+7933;txt;01
+Sinu registreerimisvõti on litsentsiserveri jaoks tundmatu.
+.
+
+7934;txt;01
+Kui sa kasutad legitiimset registreerimisvõtit, mille eest sa oled maksnud või mille oled kingina või promona saanud, siis palun saada e-kiri aadressil:
+.
+
+7935;txt;01
+Sinu uus toote võti on:
+.
+
+7936;txt;01
+Palun talleta see toote võti turvalises kohas edasiseks kasutamiseks. Kasuta allolevat nuppu, et kopeerida oma toote võti lõikelauale, kust sa võid selle dokumenti kleepida ja välja trükkida.
+.
+
+7937;txt;01
+&Uuenda registreerimisvõti toote võtmeks
+.
+
+#----------------------------------------------------------------------------
+
+7941;txt;01
+Sandboxie registreerimine tehakse läbi kolmanda osapoole maksekeskkonna.  Alusta registreerimisprotsessi külastades Sandboxie veebilehekülge alltoodud lingi kaudu.
+.
+
+7942;txt;01
+Oma Sandboxie litsentsi aktiveerimiseks sisesta maksekviitungilt toote võti, seejärel klõpsa nuppu, et aktiveerida oma litsents.
+.
+
+7943;txt;01
+Kas soovid sisestada uue tootme võtme?
+.
+
+7944;txt;01
+&Aktiveeri litsents
+.
+
+7945;txt;01
+Sinu Sandboxie programm on nüüd registreeritud.
+.
+
+7946;txt;01
+Tänan Sandboxie't toetamast!
+.
+
+#----------------------------------------------------------------------------
+
+7951;txt;01
+Kas soovid aktiveerida litsentsi?
+.
+
+7952;txt;01
+Palun külasta Sandboxie veebilehte allolevalt viitelt, et tellida uus toote võti.
+.
+
+7961;txt;01
+Tühjenda litsentsi &informatsioon
+.
+
+7962;txt;01
+Oled sa kindel, et soovid tühjendada litsentsi infot Sandboxies?
+
+Sa võid aktiveerida oma litsentsi igal ajal sisestades selleks toote võtme.
+.
+
+#----------------------------------------------------------------------------
+
+7971;txt;01
+See ei ole õige toote võti.
+.
+
+7972;txt;01
+See ei ole õige süsteemi kood.
+.
+
+7973;txt;01
+See ei ole õige aktiveerimise võti. [%2]
+.
+
+7974;txt;01
+Vigane vastus litsentsiserverist.
+.
+
+7975;txt;01
+Toote aktiveerimine ebaõnnestus:
+.
+
+7976;txt;01
+Soovid uuesti proovida?
+.
+
+7977;txt;01
+Kui sa soovid aktiveerida Sandboxie arvutis, millel ei ole interneti ühendust, siis
+palun vaata Sandboxie litsentsimise KKK-st infot võrguta režiimis aktiveerimise kohta.
+.
+
+7982;txt;01
+Litsentsiserver ei täpsustanud aktiveerimise ebaõnnestumise põhjust.
+.
+
+7983;txt;01
+Toote võtit ei võetud litsentsiserveri poolt omaks.
+.
+
+7984;txt;01
+Toote võtit ei saa kasutada peale aegumiskuupäeva %2.
+.
+
+7985;txt;01
+Toote võtit on aktiveeritud liiga paljudest arvutitest.
+.
+
+7986;txt;01
+Toote võti tühistati kuna see muudeti interneti kaudu avalikuks.
+.
+
+7987;txt;01
+Toote võti tühistati kuna tellimuse raha tagastati.
+.
+
+7923;txt;01
+Registreerimata koopia.  Registreeri juba täna!
+.
+
+#----------------------------------------------------------------------------
+# SandboxieInstall
+#----------------------------------------------------------------------------
+
+8001;ins;01
+Vali installitüüp
+.
+
+8002;ins;01
+Vali ülekirjutamise või mahavõtu moodus.
+.
+
+8003;ins;01
+Käivita
+.
+
+8004;ins;01
+Sul on olemasoleva Sandboxie paigaldus järgmises kaustas:
+.
+
+8005;ins;01
+Palun vali, kuidas jätkata:
+.
+
+8006;ins;01
+Kirjuta üle (uuenda) olemasoleva paigaldus
+.
+
+8007;ins;01
+Võta maha (eemalda) olemasoleva paigaldus ja seaded
+.
+
+8008;ins;01
+Klõpsa Alusta, kui oled valmis jätkama.
+.
+
+8009;ins;01
+Enne mahavõttu kustuta Sandboxie Juhtimise lehel sandboxi sisu.
+.
+
+8010;ins;01
+Draiveri paigaldus
+.
+
+
+8011;ins;01
+Palun tutvu alloleva informatsiooniga.
+.
+
+8012;ins;01
+Sandboxie süsteemitaseme draiveri paigaldamiseks ja aktiveerimiseks klõpsa Edasi.  See draiver on Sandboxie rakenduse põhituum.
+.
+
+8013;ins;01
+Võimalik, et pead ajutiselt keelama mistahes töös olevad süsteemikaitsevahendid, mis võivad keelata süsteemitaseme draiveri paigaldamist.
+.
+
+# 8014;ins;01
+# Kui see samm ebaõnnestub ja su arvuti lukustub või restardib, siis Sandboxie keelatakse arvuti järjekordsel restardil ja sa saad selle installeerimisprogrammi uuesti käivitada, et Sandboxie eemaldada.
+# .
+
+8015;ins;01
+Draiver paigaldub edukalt enamikes süsteemides.
+.
+
+8016;ins;01
+Palun oota, kui Sandboxiet maha võetakse.
+.
+
+8021;ins;01
+Käivita iga programm sandboxitult.lnk
+.
+
+8022;ins;01
+Käivita iga programm Sandboxie järelevalve all
+.
+
+8023;ins;01
+Sandboxie Start-menüü.lnk
+.
+
+8024;ins;01
+Vali programm Start-menüüst, et käivitada Sandboxie järelevalve all
+.
+
+8025;ins;01
+Käivita veebibrauser sandboxitult.lnk
+.
+
+8026;ins;01
+Käivita vaikimisi veebibrauser Sandboxie järelevalve all
+.
+
+8027;ins;01
+Käivita Windows Explorer sandboxitult.lnk
+.
+
+8028;ins;01
+Kasuta kohalikku töölauda ja arvutit Sandboxie järelevalve all
+.
+
+8029;ins;01
+Sandboxie Juhtimine.lnk
+.
+
+8030;ins;01
+Ava Sandboxie kontrollpaneel
+.
+
+8031;ins;01
+Võta Sandboxie maha.lnk
+.
+
+8032;ins;01
+Võta Sandboxie maha
+.
+
+8033;ins;01
+=copy:3698
+.
+
+8041;ins;01
+Sandboxiet saab paigaldada ainult järgnevatele Microsoft Windowsi versioonidele:
+.
+
+8042;ins;01
+Sandboxie tuleb paigaldada läbi kasutajakonto, mis
+omab süsteemiadministraatori õigusi.
+
+Kui sa kasutad Windows koos User Accounts Control'iga 
+(UAC), siis hoolitse selle eest, et sa käivitad 
+paigalduspaketi kasutades käsku Run as administrator.
+.
+
+8043;ins;01
+32-bitist Sandboxie versiooni ei saa paigaldada 64-bitisele opsüsteemile.
+.
+
+8044;ins;01
+64-bitist Sandboxie versiooni ei saa paigaldada 32-bitisele opsüsteemile.
+.
+
+8051;ins;01
+Sandboxie Juhtimise programm töötab.
+
+Klõpsa OK selle sulgemiseks, seejärel jätka paigaldamist.
+
+Klõpsa Katkesta paigalduse katkestamiseks.
+.
+
+8052;ins;01
+Ei suudetud luua või uuendada Sandboxie programmifaile.
+
+Palun hoolitse, et Sandboxie Juhtimine ei töötaks
+ja et ükski programm ei töötaks sandboxitult.
+
+Siis klõpsa OK paigalduse kordamiseks.
+
+Vastasel juhul klõpsa Katkesta, et katkestada paigaldus.
+.
+
+8053;ins;01
+*** KmdUtil ebaõnnestus.  Paigaldus või mahavõtmine ei pruugi õnnestuda. ***
+.
+
+8054;ins;01
+Soovid sa Sandboxie.ini konfiguratsioonifaili alles hoida?
+
+Vali JAH, et säilitada konfiguratsiooniseadeid Sandboxie.ini failis.
+
+Vali EI, et kustutada Sandboxie.ini fail ja kaotada need konfiguratsiooniseadeid.
+.
+
+8055;ins;01
+Templates.ini veebivärskendus ja/või selle sandboxie versiooni tõlked on saadaval. Kas soovite selle installida?
+.
+
+#----------------------------------------------------------------------------
+# KmdUtil
+#----------------------------------------------------------------------------
+
+8101;txt;01
+Ei suudetud antud hetkel draiverit installeerida.
+
+Palun tee oma arvutile restart,
+siis käivita installeerimise protseduur uuesti.
+
+Vigane funktsioon: %2
+.
+
+8102;txt;01
+Ei suudeta peatada teenust antud hetkel.
+Teenus '%2' on hõivatud.
+
+Palun klõpsa OK jätkamiseks.
+.
+
+8103;txt;01
+See on esimene kolmest kordusest.
+.
+
+8104;txt;01
+See on teine kolmest kordusest.
+.
+
+8105;txt;01
+See on kolmas ja viimane kordus.
+.
+
+# 8106;txt;01
+# Järgnevad programmid peab sulgema enne installeerimise jätkamist.
+# .
+
+# 8107;txt;01
+# Sulge need programmid ja klõpsa siis OK jätkamiseks.
+# Klõpsa Katkesta installeerimise katkestamiseks.
+# .

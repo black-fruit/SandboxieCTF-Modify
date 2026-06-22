@@ -1,0 +1,690 @@
+/*
+ * Copyright 2004-2020 Sandboxie Holdings, LLC 
+ * Copyright 2020-2024 David Xanatos, xanasoft.com
+ *
+ * This program is free software: you can redistribute it and/or modify
+ *   it under the terms of the GNU General Public License as published by
+ *   the Free Software Foundation, either version 3 of the License, or
+ *   (at your option) any later version.
+ *
+ *   This program is distributed in the hope that it will be useful,
+ *   but WITHOUT ANY WARRANTY; without even the implied warranty of
+ *   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ *   GNU General Public License for more details.
+ *
+ *   You should have received a copy of the GNU General Public License
+ *   along with this program.  If not, see <https://www.gnu.org/licenses/>.
+ */
+
+//---------------------------------------------------------------------------
+// Syscall Management, 64-bit code
+//---------------------------------------------------------------------------
+
+#ifdef _M_ARM64
+#include "common/arm64_asm.h"
+#endif
+#include "dyn_data.h"
+
+//---------------------------------------------------------------------------
+// System Service Descriptor Table
+//---------------------------------------------------------------------------
+
+
+#pragma pack(push)
+#pragma pack(1)
+
+
+typedef struct _SERVICE_DESCRIPTOR {
+
+    LONG *Addrs;
+    ULONG *DontCare1;   // always zero?
+    ULONG Limit;
+    LONG DontCare2;     // always zero?
+    UCHAR *DontCare3;
+
+} SERVICE_DESCRIPTOR;
+
+
+#pragma pack(pop)
+
+
+//---------------------------------------------------------------------------
+// Functions
+//---------------------------------------------------------------------------
+
+
+static void *Syscall_GetMasterServiceTable(void);
+
+
+//---------------------------------------------------------------------------
+
+#ifdef ALLOC_PRAGMA
+#pragma alloc_text (INIT, Syscall_GetMasterServiceTable)
+#endif // ALLOC_PRAGMA
+
+
+//---------------------------------------------------------------------------
+// Syscall_GetMasterServiceTable
+//---------------------------------------------------------------------------
+
+
+_FX ULONG_PTR Syscall_GetKernelBase(void)
+{
+    NTSTATUS status;
+
+    UCHAR *ptr;
+    ULONG i;
+    ULONG_PTR kernel_base;
+
+    ptr = ExAllocatePoolWithTag(PagedPool, PAGE_SIZE, tzuk);
+    if (! ptr) {
+
+        Log_Msg0(MSG_1104);
+        return 0;
+    }
+
+    i = 0;
+    status = ZwQuerySystemInformation(
+        SystemModuleInformation, ptr, PAGE_SIZE, &i);
+
+    if (status != STATUS_SUCCESS &&
+        status != STATUS_INFO_LENGTH_MISMATCH) {
+
+        ExFreePoolWithTag(ptr, tzuk);
+        return 0;
+    }
+
+    kernel_base = ((SYSTEM_MODULE_INFORMATION *)ptr)->ModuleInfo[0].ImageBaseAddress;
+
+    ExFreePoolWithTag(ptr, tzuk);
+
+    return kernel_base;
+}
+
+
+//---------------------------------------------------------------------------
+// Syscall_GetMasterServiceTable
+//---------------------------------------------------------------------------
+
+
+_FX void *Syscall_GetMasterServiceTable(void)
+{
+    NTSTATUS status;
+    void *MasterTable;
+
+    UNICODE_STRING uni;
+    UCHAR *ptr;
+    ULONG i;
+    ULONG_PTR kernel_base;
+    ULONG ofs32a;
+    ULONG ofs32b;
+
+    //
+    // if NTOSKRNL exports KeServiceDescriptorTable, use that
+    //
+
+    RtlInitUnicodeString(&uni, L"KeServiceDescriptorTable");
+    MasterTable = MmGetSystemRoutineAddress(&uni);
+
+    if (MasterTable)
+        return MasterTable;
+
+    // else we find it ourselves.  first find where the NT kernel was loaded.
+    // this may be variable on Vista
+    //
+
+    kernel_base = Syscall_GetKernelBase();
+    if (!kernel_base)
+        return NULL;
+
+    //
+    // next, analyze KeAddSystemServiceTable to learn where shadow table is
+    //
+
+    RtlInitUnicodeString(&uni, L"KeAddSystemServiceTable");
+    ptr = (UCHAR*)MmGetSystemRoutineAddress(&uni);
+    if (! ptr)
+        return NULL;
+
+#ifdef _M_ARM64
+
+    //MasterTable lookup for windows 11 on arm64
+
+    DbgPrint("Trying KeAddSystemServiceTable = %p, OS = %d, kernel_base = %p, Pattern = ADRP ADD\n", ptr, Driver_OsBuild, kernel_base);
+
+    for (i = 0; i < 0x40; i += 4, ptr += 4) {
+
+        ADRP adrp;
+        adrp.OP = *(ULONG*)ptr;
+
+        if (IS_ADRP(adrp) && adrp.Rd == 8) { // adrp x8, #0x575000
+
+            ADD add;
+            add.OP = *(ULONG*)(ptr + 4);
+
+            // Win 10 22h2: add x12, x8, #0xf80 
+            // Win 11 21h2: add  x9, x8, #0xf80
+            // Win 11 24h2: add x11, x8, #0xf80
+            //if (IS_ADD(add) && add.Rn == 8 && (add.Rd == 12 || add.Rd == 11 || add.Rd == 9)) {
+            if (IS_ADD(add) && add.Rn == 8) {
+            
+                LONG delta = (adrp.immHi << 2 | adrp.immLo) << 12;
+                delta += add.imm12;
+
+                // Note: ADRP clears the lower 12 bits of the PC
+                MasterTable = (void*)(((ULONG_PTR)ptr & ~0xFFF) + delta);
+
+                DbgPrint("Found KeServiceDescriptorTableShadow = %p\n", MasterTable);
+                return MasterTable;
+            }
+        }
+    }
+#else
+
+    //MasterTable lookup for windows 11 insider 22563 or server 2022 20348
+    if (Driver_OsBuild >= 20348) {
+
+        DbgPrint("Trying KeAddSystemServiceTable = %p, OS = %d, Pattern = CMP MOV\n", ptr, Driver_OsBuild);
+
+        ULONG_PTR nt = 0;
+        //Look for the following instruction pattern
+        //CMP target address, <register>       : [0x48 || 0x4c][0x39][<0x20][4 byte offset to target]
+        //MOV qword[target address],<register> : [0x48 || 0x4c][0x89][<0x20][4 byte offset to target]
+
+        //The target address discovered in this case is not the system service table but instead points
+        //to the middle of a structure that contains both the master and shadow table addresses:
+        //the master table is at <target address> - 0x20
+
+        //The following heuristic matches a 64 bit LEA (memory to register) instruction to an associated 64 bit MOV
+        //(register to memory) both instructions need to point to the same relative target address. 
+        //The target address range needs to be above (less than) the current address (reference address is the address of the following instruction) 
+        //of up to -0x200000. If a non matching 64 bit MOV follows the LEA instruction the heuristic continues to search for 
+        //a matching pair up to MAX_SERVICE_TABLE_SEARCH_SIZE bytes.
+
+        for (i = 10, ptr = ptr + 10; i < 0x200; i++, ptr++) {
+            LONG delta;
+            //filter on full 64 bit only opcodes.
+            if (*ptr == 0x48 || *ptr == 0x4c || *ptr == 0x44) { //parse rex prefix
+                //switch(operand 1)
+                switch (ptr[1]) {
+                    unsigned long testDelta;
+                case 0x39:  //CMP instruction is first:  sets a target address
+                            //if another LEA in a instruction is discovered before an associated
+                            //MOV instruction is found.  A new target address is set based on the
+                            //the new LEA instruction if the target is in the target memory 
+                            //range.
+                    delta = *(LONG*)(ptr + 3);
+                    testDelta = delta * -1;
+                    if (ptr[0] == 0x44 && ptr[2] == 0x90 && delta > 0 && delta < 0x400000) {
+                        nt = kernel_base + delta;
+                        i += 6;
+                        ptr += 6;
+                    }
+                    //test operand 2 is in register range
+                    else if (ptr[2] < 0x20) {
+                        nt = (LONG_PTR)(ptr + 7) + delta;
+                        i += 6;
+                        ptr += 6;
+                    }
+                    break;
+                case 0x89:  //MOV instruction is second: verifies the discovered target address in the
+                            //previous LEA instruction.
+                    delta = *(LONG*)(ptr + 3);
+                    //test operand 2 is in register range
+                    if (ptr[2] < 0x20 && nt && nt == (LONG_PTR)(ptr + 7) + delta) {
+                        nt -= 0x20;
+                        DbgPrint("Found KeServiceDescriptorTableShadow = %p\n", nt);
+                        return (void*)nt;
+                    }
+                    break;
+                }
+            }
+        }
+    }
+
+    //MasterTable lookup for windows 10
+    if (Driver_OsBuild >= 10041) {
+
+        RtlInitUnicodeString(&uni, L"KeAddSystemServiceTable");
+        ptr = (UCHAR *)MmGetSystemRoutineAddress(&uni);
+
+        DbgPrint("Trying KeAddSystemServiceTable = %p, OS = %d, Pattern = LEA MOV\n", ptr, Driver_OsBuild);
+        
+        ULONG_PTR nt = 0;
+        //Look for the following instruction pattern
+        //LEA <register>, target address       : [0x48 || 0x4c][0x8d][<0x20][4 byte offset to target]
+        //MOV qword[target address],<register> : [0x48 || 0x4c][0x89][<0x20][4 byte offset to target]
+
+        //The target address discovered in this case is not the system service table but instead points
+        //to the middle of a structure that contains both the master and shadow table addresses:
+        //the shadow table is at <target address> + 0x20
+        //the master table is at <target address> - 0x20
+
+        //The following heuristic matches a 64 bit LEA (memory to register) instruction to an associated 64 bit MOV
+        //(register to memory) both instructions need to point to the same relative target address. 
+        //The target address range needs to be above (less than) the current address (reference address is the address of the following instruction) 
+        //of up to -0x200000. If a non matching 64 bit MOV follows the LEA instruction the heuristic continues to search for 
+        //a matching pair up to MAX_SERVICE_TABLE_SEARCH_SIZE bytes.
+
+        for (i = 10, ptr = ptr + 10; i < 0xa0; i++, ptr++) {
+            LONG delta;
+            //filter on full 64 bit only opcodes.
+            if (*ptr == 0x48 || *ptr == 0x4c || *ptr == 0x44) { //parse rex prefix
+                //switch(operand 1)
+                switch (ptr[1]) {
+                    unsigned long testDelta;
+                case 0x8d:  //LEA instruction is first:  sets a target address
+                            //if another LEA in a instruction is discovered before an associated
+                            //MOV instruction is found.  A new target address is set based on the
+                            //the new LEA instruction if the target is in the target memory 
+                            //range.
+                    delta = *(LONG *)(ptr + 3);
+                    testDelta = delta * -1;
+                    if (ptr[0] == 0x44 && ptr[2] == 0x90 && delta > 0 && delta < 0x400000) {
+                        nt = kernel_base + delta;
+                        i += 6;
+                        ptr += 6;
+                    }
+                    //test operand 2 is in register range
+                    else if (ptr[2] < 0x20) {
+                        nt = (LONG_PTR)(ptr + 7) + delta;
+                        i += 6;
+                        ptr += 6;
+                    }
+                    break;
+                case 0x89:  //MOV instruction is second: verifies the discovered target address in the
+                            //previous LEA instruction.
+                    delta = *(LONG *)(ptr + 3);
+                    //test operand 2 is in register range
+                    if (ptr[2] < 0x20 && nt && nt == (LONG_PTR)(ptr + 7) + delta) {
+                        if (Driver_OsBuild >= 17682) {
+                            nt -= 0x20;
+                        }
+                        else {
+                            nt += 0x20;
+                        }
+                        DbgPrint("Found KeServiceDescriptorTableShadow = %p\n", nt);
+                        return (void *)nt;
+                    }
+                    break;
+                }
+            }
+        }
+
+        //target address not found
+    }
+
+    //MasterTable lookup for windows 7 and 8
+    else {
+
+        ULONG_PTR nt, nt_from_code;
+
+        //
+        // within the first 32 bytes, we expect the instruction "lea r11,nt"
+        // or any variation thereof, which looks like this:
+        // address:  4C xx xx ofs32
+        // such that (address + sizeof(instruction) + ofs32) == nt
+        //
+        // on Windows 8:  expect "lea rbx,nt" instead, which is 48 xx xx ofs32
+        //
+
+        nt = kernel_base;
+        nt_from_code = 0;
+
+        for (i = 0; i < 32; ++i) {
+            if (*ptr == 0x4C || *ptr == 0x48) {
+                ofs32a = *(ULONG*)&ptr[3];
+                nt_from_code = (ULONG_PTR)(ptr + 7 + (LONG_PTR)(LONG)ofs32a);
+                if (nt_from_code == nt) {
+                    ptr += 7;
+                    break;
+                }
+                nt_from_code = 0;
+            }
+            ++ptr;
+        }
+
+        if (nt != nt_from_code)
+            return NULL;
+
+        //
+        // within the next 32 bytes we expect two "cmp [xx+ofs32],0" instructions
+        // such that either ofs32 is less than 0x400000 bytes away from nt and
+        // are exactly 0x40 bytes apart (on Vista SP2:  0xC0 bytes apart)
+        //
+
+        ofs32a = -1;
+        ofs32b = -1;
+
+        for (i = 0; i < 32; ++i) {
+            if ((ptr[0] == 0x4A || ptr[0] == 0x4B) &&
+                ptr[1] == 0x83 && ptr[8] == 0x00)
+            {
+                if (ofs32a == -1)
+                    ofs32a = *(ULONG*)&ptr[4];
+                else if (ofs32b == -1) {
+                    ofs32b = *(ULONG*)&ptr[4];
+                    break;
+                }
+            }
+            ++ptr;
+        }
+
+        if (ofs32a >= 0x400000 || ofs32b >= 0x400000) {
+
+            //
+            // alternatively on Windows 8: expect "cmp [rax+rbx+ofs32],0"
+            // followed by "lea rcx,[rbx+ofs32]
+            //
+
+            ptr -= i;
+
+            for (i = 0; i < 32; ++i) {
+                if (ptr[0] == 0x48) {
+                    if (ptr[1] == 0x83 && ptr[2] == 0xBC && ptr[3] == 0x18 &&
+                        ptr[8] == 0x00 && ofs32a == -1)
+                        ofs32a = *(ULONG*)&ptr[4];
+                    else if (ptr[1] == 0x8D && ptr[2] == 0x8B && ofs32b == -1)
+                        ofs32b = *(ULONG*)&ptr[3];
+
+                }
+                ++ptr;
+            }
+        }
+
+        //
+        // the service descriptor tables should be less than 0x400000
+        // bytes from the start of the 'nt' module, and should be exactly
+        // 0x40 or 0xC0 bytes apart
+        //
+
+        if (ofs32a >= 0x400000 || ofs32b >= 0x400000)
+            return NULL;
+
+        // This code block is broken by KB4056892 (for Win 7-64 so far). This is the Intel Meltdown bug
+        //if (        (ofs32a - ofs32b != 0x40 && ofs32b - ofs32a != 0x40)
+        //         && (ofs32a - ofs32b != 0xC0 && ofs32b - ofs32a != 0xC0))
+        //    return NULL;
+
+        MasterTable = (void*)(nt + ofs32a);
+
+        DbgPrint("Found KeServiceDescriptorTableShadow = %p\n", MasterTable);
+        return MasterTable;
+    }
+#endif
+
+    return 0;
+}
+
+
+//---------------------------------------------------------------------------
+// Syscall_GetServiceTable
+//---------------------------------------------------------------------------
+
+
+_FX void *Syscall_GetServiceTable(void)
+{
+    static SERVICE_DESCRIPTOR *ShadowTable = NULL;
+    SERVICE_DESCRIPTOR *MasterTable;
+
+    if (ShadowTable)
+        return ShadowTable;
+
+    // $Offset$
+    if (Dyndata_Active && Dyndata_Config.ServiceTable_offset != -1) {
+
+        ULONG_PTR kernel_base = Syscall_GetKernelBase();
+        if (!kernel_base)
+            return NULL;
+
+        ShadowTable = (SERVICE_DESCRIPTOR *)(kernel_base + Dyndata_Config.ServiceTable_offset);
+        return ShadowTable;
+    }
+
+    //
+    // the shadow table should be 0x40 bytes before the master table,
+    // on Windows XP (64-bit),
+    // and 0x40 bytes after the master table, on Windows Vista (64-bit)
+    //     0xC0 bytes after the master table, on    Vista SP 2 (64-bit)
+    //
+
+    MasterTable = (SERVICE_DESCRIPTOR *)Syscall_GetMasterServiceTable();
+
+    if (!MasterTable) {
+        Log_Msg1(MSG_1113, L"MASTER TABLE");
+        return NULL;
+    }
+    if (Driver_OsBuild >= 17682) {
+        //In windows 10 the ShadowTable and MasterTable point the same memory
+        //they are equal.
+        ShadowTable = (SERVICE_DESCRIPTOR *)MasterTable;
+    }
+    else if (Driver_OsBuild >= 9800) {
+        ShadowTable = (SERVICE_DESCRIPTOR *)((ULONG_PTR)MasterTable - 0x40);
+    }
+    else {
+        ShadowTable = (SERVICE_DESCRIPTOR *)((ULONG_PTR)MasterTable + 0x40);
+        if (ShadowTable->Addrs != MasterTable->Addrs) {
+            ShadowTable = (SERVICE_DESCRIPTOR *)((ULONG_PTR)MasterTable + 0xC0);
+        }
+        if (ShadowTable->Addrs != MasterTable->Addrs) {
+            ShadowTable = (SERVICE_DESCRIPTOR *)((ULONG_PTR)MasterTable + 0x2C0);
+        }
+    }
+    if (ShadowTable->Addrs != MasterTable->Addrs) {
+
+        Log_Msg1(MSG_1113, L"SHADOW TABLE");
+        ShadowTable = NULL;
+    }
+
+    // DbgPrint("MASTER %p SHADOW %p DIFF %p\n", MasterTable, ShadowTable, (ULONG)((ULONG_PTR)ShadowTable - (ULONG_PTR)MasterTable));
+
+    return ShadowTable;
+}
+
+
+//---------------------------------------------------------------------------
+// Syscall_GetMasterServiceTableFilter
+//---------------------------------------------------------------------------
+
+
+_FX void *Syscall_GetMasterServiceTableFilter(void)
+{
+    NTSTATUS status;
+    void *MasterTable;
+
+    UNICODE_STRING uni;
+    UCHAR *ptr;
+    ULONG i;
+    ULONG_PTR kernel_base;
+
+    //
+    // if NTOSKRNL exports KeServiceDescriptorTable, use that
+    //
+
+    RtlInitUnicodeString(&uni, L"KeServiceDescriptorTableFilter");
+    MasterTable = MmGetSystemRoutineAddress(&uni);
+
+    if (MasterTable)
+        return MasterTable;
+
+    // else we find it ourselves.  first find where the NT kernel was loaded.
+    // this may be variable on Vista
+    //
+
+    kernel_base = Syscall_GetKernelBase();
+    if (!kernel_base)
+        return NULL;
+
+    //
+    // next, analyze KeAddSystemServiceTable to learn where shadow table is
+    //
+
+    RtlInitUnicodeString(&uni, L"KeAddSystemServiceTable");
+    ptr = (UCHAR*)MmGetSystemRoutineAddress(&uni);
+    if (! ptr)
+        return NULL;
+
+#ifdef _M_ARM64
+
+    //TableFilter lookup for windows 11 on arm64
+
+	// TODO
+
+#else
+
+    //TableFilter lookup for windows 10
+    if (Driver_OsBuild >= 10041) {
+
+        DbgPrint("Trying KeAddSystemServiceTable = %p, OS = %d, Pattern = LEA LEA SHL\n", ptr, Driver_OsBuild);
+
+        ULONG_PTR nt = 0;
+        //Look for the following instruction pattern
+        // Windows 11
+		// lea     rax, KeServiceDescriptorTableFilter  : 48 8D 05 XX XX XX XX
+        // lea     ecx, [rdx-1]                         : 8D 4A FF 
+        // shl     rcx, 5                               : 48 C1 E1 05
+        // 
+        // mov     [rcx+rax], r10                       : 4C 89 14 01
+        // mov     [rcx+rax+10h], r8d                   : 44 89 44 01 10
+        // mov     [rcx+rax+18h], r9                    : 4C 89 4C 01 18
+        // 
+        // Windows 10
+		// lea     rax, KeServiceDescriptorTableFilter  : 48 8D 05 XX XX XX XX
+		// lea     ecx, [rdx-1]                         : 8D 4A FF
+		// shl     rcx, 5                               : 48 C1 E1 05
+        // 
+		// mov     [rcx+rax], r11                       : 4C 89 1C 01
+		// mov     [rcx+rax+10h], ebx                   : 89 5C 01 10
+		// mov     [rcx+rax+18h], r10                   : 4C 89 54 01 18
+        //
+
+        for (i = 0; i < 0x200; i++, ptr++) {
+
+            // LEA rax, [rip + offset]: 48 8D 05 XX XX XX XX            
+            if (ptr[0] == 0x48 && ptr[1] == 0x8D && ptr[2] == 0x05) {
+
+                // LEA ecx, [rdx-1]: 8D 4A FF
+                // SHL rcx, 5: 48 C1 E1 05
+                if (ptr[7] == 0x8D && ptr[8] == 0x4A && ptr[9] == 0xFF &&
+                    ptr[10] == 0x48 && ptr[11] == 0xC1 && ptr[12] == 0xE1 && ptr[13] == 0x05) {
+
+                    LONG delta;
+                    ULONG_PTR FilterTableAddress;
+
+                    delta = *(LONG*)(ptr + 3);
+
+                    FilterTableAddress = (ULONG_PTR)(ptr + 7) + delta;
+
+                    DbgPrint("Found KeServiceDescriptorTableFilter = %p\n", FilterTableAddress);
+                    return (void*)FilterTableAddress;
+                }
+            }
+        }
+    }
+
+#endif
+
+    return 0;
+}
+
+
+//---------------------------------------------------------------------------
+// Syscall_GetServiceTableFilter
+//---------------------------------------------------------------------------
+
+
+_FX void *Syscall_GetServiceTableFilter(void)
+{
+    static SERVICE_DESCRIPTOR *FilterTable = NULL;
+
+    if (FilterTable)
+        return FilterTable;
+
+    // $Offset$
+    /*if (Dyndata_Active && Dyndata_Config.ServiceTableFilter_offset != -1) {
+
+        ULONG_PTR kernel_base = Syscall_GetKernelBase();
+        if (!kernel_base)
+            return NULL;
+
+        FilterTable = (SERVICE_DESCRIPTOR *)(kernel_base + Dyndata_Config.ServiceTableFilter_offset);
+        return FilterTable;
+    }*/
+
+    FilterTable = (SERVICE_DESCRIPTOR *)Syscall_GetMasterServiceTableFilter();
+
+    if (!FilterTable) {
+        Log_Msg1(MSG_1113, L"FILTER TABLE");
+        return NULL;
+    }
+    return FilterTable;
+}
+
+
+//---------------------------------------------------------------------------
+// Syscall_GetIndexFromNtdll
+//---------------------------------------------------------------------------
+
+
+_FX ULONG Syscall_GetIndexFromNtdll(UCHAR *code)
+{
+    ULONG index = -1;
+
+#ifdef _M_ARM64
+
+    SVC svc;
+    svc.OP = *(ULONG*)code;
+
+    if (IS_SVC(svc))
+        index = svc.imm16;
+
+#else
+
+    if (code[0] == 0x4C && code[1] == 0x8B && code[2] == 0xD1)
+        code += 3;                          // skip mov r10, rcx
+
+    if (*code == 0xB8)                      // mov eax, syscall number
+        index = *(ULONG *)(code + 1);
+
+#endif
+
+    if (index == -1)
+        Log_Msg1(MSG_1113, L"INDEX");
+
+    return index;
+}
+
+
+//---------------------------------------------------------------------------
+// Syscall_GetKernelAddr
+//---------------------------------------------------------------------------
+
+
+_FX BOOLEAN Syscall_GetKernelAddr(
+    ULONG index, void **pKernelAddr, ULONG *pParamCount)
+{
+    SERVICE_DESCRIPTOR *ShadowTable =
+                            (SERVICE_DESCRIPTOR *)Syscall_GetServiceTable();
+    if (ShadowTable) {
+
+        ULONG MaxSyscallIndexPlusOne = ShadowTable->Limit;
+        if ((index < 0x1000) &&
+                        ((index & 0xFFF) < MaxSyscallIndexPlusOne)) {
+
+            LONG_PTR EntryValue = (LONG_PTR)ShadowTable->Addrs[index];
+
+            *pKernelAddr = (UCHAR *)ShadowTable->Addrs + (EntryValue >> 4);
+#ifdef _M_ARM64
+            *pParamCount = (ULONG)(EntryValue & 0x0F) + 8;
+#else
+            *pParamCount = (ULONG)(EntryValue & 0x0F) + 4;
+#endif
+            return TRUE;
+        }
+
+        Log_Msg1(MSG_1113, L"ADDRESS");
+    }
+
+    return FALSE;
+}
