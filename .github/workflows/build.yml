@@ -14,8 +14,6 @@ jobs:
     steps:
     - name: Checkout code
       uses: actions/checkout@v4
-      with:
-        submodules: recursive
 
     - name: Setup MSBuild
       uses: microsoft/setup-msbuild@v1.3
@@ -56,27 +54,38 @@ jobs:
 
         echo "All patches verified!"
 
-    - name: Configure CMake
+    - name: Build Driver (SbieDrv.sys)
       shell: cmd
       run: |
-        cd Sandboxie-Plus
-        mkdir build
-        cd build
-        cmake .. -G "Visual Studio 17 2022" -A x64 -DCMAKE_PREFIX_PATH="%Qt6_DIR%" -DCMAKE_BUILD_TYPE=Release
+        cd Sandboxie-Plus\Sandboxie
+        msbuild SandboxDrv.sln /p:Configuration=Release /p:Platform=x64 /m
 
-    - name: Build Release
+    - name: Build Service (SbieSvc.exe)
       shell: cmd
       run: |
-        cd Sandboxie-Plus/build
-        cmake --build . --config Release -j 4
+        cd Sandboxie-Plus\Sandboxie
+        msbuild Sandbox.sln /p:Configuration=Release /p:Platform=x64 /m
+
+    - name: Build GUI (SandMan.exe)
+      shell: cmd
+      run: |
+        cd Sandboxie-Plus\SandboxiePlus
+        qmake SandboxiePlus.pro
+        nmake release
 
     - name: Collect artifacts
       shell: bash
       run: |
         mkdir -p artifacts
-        cp Sandboxie-Plus/build/Sandboxie/core/drv/Release/SbieDrv.sys artifacts/ || echo "Driver not found"
-        cp Sandboxie-Plus/build/Sandboxie/core/svc/Release/SbieSvc.exe artifacts/ || echo "Service not found"
-        cp Sandboxie-Plus/build/SandboxiePlus/SandMan/Release/SandMan.exe artifacts/ || echo "GUI not found"
+
+        # Find and copy driver
+        find Sandboxie-Plus -name "SbieDrv.sys" -type f -exec cp {} artifacts/ \; || echo "Driver not found"
+
+        # Find and copy service
+        find Sandboxie-Plus -name "SbieSvc.exe" -type f -exec cp {} artifacts/ \; || echo "Service not found"
+
+        # Find and copy GUI
+        find Sandboxie-Plus -name "SandMan.exe" -type f -exec cp {} artifacts/ \; || echo "GUI not found"
 
         # Copy Qt DLLs
         mkdir -p artifacts/Qt
