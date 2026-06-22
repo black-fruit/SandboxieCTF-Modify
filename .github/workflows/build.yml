@@ -1,0 +1,132 @@
+name: Build Sandboxie-Plus (Patched)
+
+on:
+  push:
+    branches: [ main, master ]
+  pull_request:
+    branches: [ main, master ]
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: windows-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+      with:
+        submodules: recursive
+
+    - name: Setup MSBuild
+      uses: microsoft/setup-msbuild@v1.3
+
+    - name: Setup Qt
+      uses: jurplel/install-qt-action@v3
+      with:
+        version: '6.5.3'
+        host: 'windows'
+        target: 'desktop'
+        arch: 'win64_msvc2019_64'
+        cache: true
+
+    - name: Verify patches applied
+      shell: bash
+      run: |
+        echo "Checking if patches are applied..."
+        if grep -q "KphSetFakeCertificate" Sandboxie-Plus/Sandboxie/core/drv/verify.c; then
+          echo "✓ verify.c patched"
+        else
+          echo "✗ verify.c NOT patched"
+          exit 1
+        fi
+
+        if grep -q "CTF: Bypass" Sandboxie-Plus/Sandboxie/core/drv/process.c; then
+          echo "✓ process.c patched"
+        else
+          echo "✗ process.c NOT patched"
+          exit 1
+        fi
+
+        if grep -q "CTF: Always pass certificate check in GUI" Sandboxie-Plus/SandboxiePlus/SandMan/SandMan.cpp; then
+          echo "✓ SandMan.cpp patched"
+        else
+          echo "✗ SandMan.cpp NOT patched"
+          exit 1
+        fi
+
+        echo "All patches verified!"
+
+    - name: Configure CMake
+      shell: cmd
+      run: |
+        cd Sandboxie-Plus
+        mkdir build
+        cd build
+        cmake .. -G "Visual Studio 17 2022" -A x64 -DCMAKE_PREFIX_PATH="%Qt6_DIR%" -DCMAKE_BUILD_TYPE=Release
+
+    - name: Build Release
+      shell: cmd
+      run: |
+        cd Sandboxie-Plus/build
+        cmake --build . --config Release -j 4
+
+    - name: Collect artifacts
+      shell: bash
+      run: |
+        mkdir -p artifacts
+        cp Sandboxie-Plus/build/Sandboxie/core/drv/Release/SbieDrv.sys artifacts/ || echo "Driver not found"
+        cp Sandboxie-Plus/build/Sandboxie/core/svc/Release/SbieSvc.exe artifacts/ || echo "Service not found"
+        cp Sandboxie-Plus/build/SandboxiePlus/SandMan/Release/SandMan.exe artifacts/ || echo "GUI not found"
+
+        # Copy Qt DLLs
+        mkdir -p artifacts/Qt
+        cp "$Qt6_DIR/bin/Qt6Core.dll" artifacts/Qt/ || true
+        cp "$Qt6_DIR/bin/Qt6Gui.dll" artifacts/Qt/ || true
+        cp "$Qt6_DIR/bin/Qt6Widgets.dll" artifacts/Qt/ || true
+
+        ls -lh artifacts/
+
+    - name: Upload artifacts
+      uses: actions/upload-artifact@v4
+      with:
+        name: Sandboxie-Plus-Patched
+        path: artifacts/
+        retention-days: 30
+
+    - name: Create release info
+      shell: bash
+      run: |
+        cat > artifacts/README.txt << 'EOF'
+        Sandboxie-Plus - CTF Patched Version
+        ====================================
+
+        Build Date: $(date)
+
+        Files:
+        - SbieDrv.sys   - Kernel driver (certificate bypass)
+        - SbieSvc.exe   - Background service
+        - SandMan.exe   - GUI application
+        - Qt/*.dll      - Required Qt libraries
+
+        Installation:
+        1. Stop Sandboxie service: net stop SbieSvc
+        2. Backup original files
+        3. Replace files in C:\Program Files\Sandboxie-Plus\
+        4. Enable test signing: bcdedit /set testsigning on
+        5. Reboot computer
+        6. Start service: net start SbieSvc
+
+        WARNING:
+        - This is for CTF/educational purposes only
+        - Requires test signing mode enabled
+        - All premium features are unlocked
+
+        Support original developers:
+        https://sandboxie-plus.com/
+        EOF
+
+    - name: Upload release info
+      uses: actions/upload-artifact@v4
+      with:
+        name: Installation-Guide
+        path: artifacts/README.txt

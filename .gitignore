@@ -1,0 +1,74 @@
+# .gitignore for Sandboxie-Plus CTF Project
+
+# Build directories
+build/
+out/
+bin/
+obj/
+
+# Backup files
+*.bak
+*.tmp
+*.log
+
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.vcxproj.filters
+*.vcxproj.user
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+*.cmake
+
+# Compiled binaries
+*.exe
+*.dll
+*.sys
+*.pdb
+*.ilk
+*.obj
+*.lib
+*.exp
+
+# Qt
+*.qm
+moc_*.cpp
+ui_*.h
+qrc_*.cpp
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Don't ignore the patched source files
+!Sandboxie-Plus/Sandboxie/core/drv/verify.c
+!Sandboxie-Plus/Sandboxie/core/drv/process.c
+!Sandboxie-Plus/SandboxiePlus/SandMan/SandMan.cpp
+
+# Keep workflow files
+!.github/
+Sandboxie-Plus/.git
+Sandboxie-Plus.zip

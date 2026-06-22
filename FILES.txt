@@ -1,0 +1,140 @@
+Sandboxie-Plus Certificate Bypass - CTF Challenge
+==================================================
+
+📁 项目文件清单
+==================================================
+
+核心文档:
+----------
+├── README.md                    - 项目主文档（英文）
+├── SOLUTION.md                  - 完整解决方案文档（英文）
+├── WINDOWS_BUILD_GUIDE.md       - Windows编译详细指南（中文）
+└── manual_patch_guide.md        - 手动打补丁指南（英文）
+
+自动化工具:
+-----------
+├── patcher.py                   - Python自动打补丁工具 ⭐推荐
+├── apply_patch.sh               - Bash自动打补丁脚本
+├── verify_patches.sh            - 补丁验证脚本
+└── check_patch.c                - C语言补丁验证工具
+
+Windows构建工具:
+---------------
+├── build_patched.bat            - Windows自动编译脚本
+└── install_patched.bat          - Windows自动安装脚本
+
+补丁文件:
+---------
+└── patch_cert_bypass.patch      - 统一diff格式补丁
+
+源代码:
+-------
+└── Sandboxie-Plus/              - Sandboxie-Plus源码目录
+    ├── Sandboxie/core/drv/verify.c      (已打补丁 ✅)
+    ├── Sandboxie/core/drv/process.c     (已打补丁 ✅)
+    └── SandboxiePlus/SandMan/SandMan.cpp (已打补丁 ✅)
+
+备份文件:
+---------
+└── Sandboxie-Plus/
+    ├── Sandboxie/core/drv/verify.c.bak
+    ├── Sandboxie/core/drv/process.c.bak
+    └── SandboxiePlus/SandMan/SandMan.cpp.bak
+
+==================================================
+📋 使用指南
+==================================================
+
+快速开始 (3步):
+--------------
+1. python3 patcher.py patch          # 应用补丁
+2. ./verify_patches.sh               # 验证补丁
+3. 按照 WINDOWS_BUILD_GUIDE.md 编译  # Windows上编译
+
+详细文档:
+---------
+- 想了解完整技术细节? → 阅读 SOLUTION.md
+- 想手动打补丁? → 阅读 manual_patch_guide.md  
+- 想在Windows编译? → 阅读 WINDOWS_BUILD_GUIDE.md
+- 需要快速入门? → 阅读 README.md
+
+==================================================
+✅ 补丁验证状态
+==================================================
+
+Test 1: KphSetFakeCertificate function     ✅ PASS
+Test 2: opt_sec bypass                     ✅ PASS
+Test 3: opt_enc bypass                     ✅ PASS
+Test 4: opt_net bypass                     ✅ PASS
+Test 5: process.c certificate checks       ✅ PASS
+Test 6: 5-minute process kill timer        ✅ PASS
+Test 7: GUI certificate check              ✅ PASS
+
+所有补丁已成功应用! 🎉
+
+==================================================
+🎁 解锁的高级功能
+==================================================
+
+Security Enhanced (opt_sec):
+  ✅ UseSecurityMode
+  ✅ SysCallLockDown
+  ✅ RestrictDevices
+  ✅ UseRuleSpecificity
+  ✅ UsePrivacyMode
+  ✅ ProtectHostImages
+  ✅ NoSecurityIsolation
+
+Encrypted Sandbox (opt_enc):
+  ✅ ConfidentialBox
+  ✅ UseFileImage
+  ✅ EnableEFS
+
+Advanced Network (opt_net):
+  ✅ NetworkDnsFilter
+  ✅ NetworkUseProxy
+
+Desktop Isolation (opt_desk):
+  ✅ UseSandboxDesktop
+
+==================================================
+🔧 Windows编译要求
+==================================================
+
+必需软件:
+  □ Visual Studio 2019/2022 (含C++工具)
+  □ Windows 10/11 SDK
+  □ Windows Driver Kit (WDK)
+  □ Qt Framework (5.15.x 或 6.5.x)
+  □ CMake (3.16+)
+
+详细安装和编译步骤请参考: WINDOWS_BUILD_GUIDE.md
+
+==================================================
+📞 支持与帮助
+==================================================
+
+遇到问题? 按照以下顺序查找答案:
+
+1. WINDOWS_BUILD_GUIDE.md → 常见问题部分
+2. SOLUTION.md → 故障排除部分
+3. manual_patch_guide.md → 手动操作指南
+
+==================================================
+⚠️  法律声明
+==================================================
+
+本项目仅用于:
+  ✅ CTF挑战学习
+  ✅ 安全研究
+  ✅ 教育目的
+
+禁止用于:
+  ❌ 商业用途
+  ❌ 分发破解软件
+  ❌ 绕过合法授权
+
+如果觉得Sandboxie-Plus有用，请购买正版授权支持开发者!
+https://sandboxie-plus.com/
+
+==================================================

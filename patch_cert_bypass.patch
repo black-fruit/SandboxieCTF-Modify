@@ -1,0 +1,93 @@
+--- a/Sandboxie-Plus/Sandboxie/core/drv/verify.c
++++ b/Sandboxie-Plus/Sandboxie/core/drv/verify.c
+@@ -533,6 +533,17 @@
+
+ SCertInfo Verify_CertInfo = { 0 };
+
++// CTF Challenge: Bypass certificate validation
++_FX VOID KphSetFakeCertificate()
++{
++    Verify_CertInfo.active = 1;
++    Verify_CertInfo.expired = 0;
++    Verify_CertInfo.outdated = 0;
++    Verify_CertInfo.type = eCertMaxLevel;
++    Verify_CertInfo.level = eCertMaxLevel;
++    Verify_CertInfo.opt_desk = 1;
++    Verify_CertInfo.opt_net = 1;
++    Verify_CertInfo.opt_enc = 1;
++    Verify_CertInfo.opt_sec = 1;
++    Verify_CertInfo.expirers_in_sec = 0x7FFFFFFF; // ~68 years
++}
++
+ _FX NTSTATUS KphValidateCertificate()
+ {
++    // CTF: Always return fake certificate
++    KphSetFakeCertificate();
++    return STATUS_SUCCESS;
++
++    /* Original validation code - commented out
+     BOOLEAN CertDbg = FALSE;
+
+     static const WCHAR *path_cert = L"%s\\Certificate.dat";
+@@ -900,6 +911,7 @@
+ CleanupExit:
+
+     return status;
++    */
+ }
+
+--- a/Sandboxie-Plus/Sandboxie/core/drv/process.c
++++ b/Sandboxie-Plus/Sandboxie/core/drv/process.c
+@@ -780,7 +780,9 @@
+     // check certificate
+     //
+
+-    if (!(Verify_CertInfo.active && Verify_CertInfo.opt_sec) && !proc->image_sbie) {
++    // CTF: Bypass certificate check for opt_sec features
++    // if (!(Verify_CertInfo.active && Verify_CertInfo.opt_sec) && !proc->image_sbie) {
++    if (0) { // Always skip this check
+
+         const WCHAR* exclusive_setting = NULL;
+         if (proc->use_security_mode)
+@@ -812,7 +814,9 @@
+         }
+     }
+
+-    if (!(Verify_CertInfo.active && Verify_CertInfo.opt_enc) && !proc->image_sbie) {
++    // CTF: Bypass certificate check for opt_enc features
++    // if (!(Verify_CertInfo.active && Verify_CertInfo.opt_enc) && !proc->image_sbie) {
++    if (0) { // Always skip this check
+
+         const WCHAR* exclusive_setting = NULL;
+         if (proc->confidential_box)
+@@ -1296,7 +1300,8 @@
+         }
+
+         // kill free users in box 0
+-            if(!Verify_CertInfo.active)
++            // CTF: Never kill processes based on certificate
++            if(0)
+                 Process_KillOne(proc, 0);
+     }
+
+--- a/Sandboxie-Plus/SandboxiePlus/SandMan/SandMan.cpp
++++ b/Sandboxie-Plus/SandMan/SandMan.cpp
+@@ -3470,6 +3470,10 @@
+
+ bool CSandMan::CheckCertificate(QWidget* pWidget, int iType)
+ {
++	// CTF: Always pass certificate check in GUI
++	return true;
++
++	/* Original check - commented out
+ 	int type = iType == -1 ? 1 : 0;
+
+ 	if(g_CertInfo.active)
+@@ -3487,6 +3491,7 @@
+ 		}
+ 	}
+ 	return true;
++	*/
+ }
+
+ SB_STATUS CSandMan::ReloadCert(QWidget* pWidget)
